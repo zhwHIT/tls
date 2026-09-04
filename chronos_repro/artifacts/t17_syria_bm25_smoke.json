@@ -1,0 +1,77 @@
+{
+  "query": [
+    "Syria conflict Assad"
+  ],
+  "search_engine": "t17 syria",
+  "top_k": 5,
+  "index_metadata": {
+    "data_root": "D:\\paper\\chronos_repro\\snapshots\\t17\\2704b6b058774e15",
+    "document_count": 4203,
+    "engine": "sqlite-fts5-bm25",
+    "schema_version": 1,
+    "snapshot": {
+      "dataset": "t17",
+      "manifest": "D:\\paper\\chronos_repro\\snapshots\\t17\\2704b6b058774e15\\MANIFEST.sha256.json",
+      "manifest_sha256": "9ebc6aec2bf74cd3e14e318b0b8203d52637d6d48ba234ee7171da31566bdd69",
+      "snapshot_id": "2704b6b058774e15"
+    },
+    "topic_counts": {
+      "bpoil": 1307,
+      "egypt": 216,
+      "finan": 256,
+      "h1n1": 370,
+      "haiti": 278,
+      "iraq": 315,
+      "libya": 716,
+      "mj": 121,
+      "syria": 624
+    }
+  },
+  "results": [
+    {
+      "id": "54",
+      "title": "None",
+      "snippet": " … dangerous Middle Eastern conflict . \nPresident Bashar al-Assad has warned any foreign military action will turn Syria `` into another Afghanistan '' . \nIs there any support for the president inside Syria ? \nReligion : Sunni Muslim … ",
+      "url": "",
+      "timestamp": "2012-08-10",
+      "score": 11.229652576555933,
+      "topic": "syria"
+    },
+    {
+      "id": "115",
+      "title": "None",
+      "snippet": " … Mr Assad told the Sunday Times : `` The conflict will continue and the pressure to subjugate Syria will continue . '' \n`` However , I assure you that Syria will not bow down and that it will … ",
+      "url": "",
+      "timestamp": "2011-11-20",
+      "score": 11.183983679948977,
+      "topic": "syria"
+    },
+    {
+      "id": "9",
+      "title": "None",
+      "snippet": "By Jonathan Marcus BBC Diplomatic Correspondent Declaring a civil war could change how the outside world perceives the situation Syria 's deepening conflict has now turned into a full-scale civil war … ",
+      "url": "",
+      "timestamp": "2012-07-16",
+      "score": 11.179173785264574,
+      "topic": "syria"
+    },
+    {
+      "id": "76",
+      "title": "None",
+      "snippet": " … One of the elements that has boosted Assad 's courage is that the West is not willing to intervene militarily in Syria , in contrast to Libya . \nAssad still has nothing to fear … ",
+      "url": "",
+      "timestamp": "2012-03-16",
+      "score": 11.015029501710053,
+      "topic": "syria"
+    },
+    {
+      "id": "287",
+      "title": "None",
+      "snippet": " … The United States and Britain said no , accusing Iran of unhelpful meddling in Syria 's conflict . \nIn the end Iran was left off the invitation list , and Russia agreed to come anyway … ",
+      "url": "",
+      "timestamp": "2012-06-29",
+      "score": 10.947764808319956,
+      "topic": "syria"
+    }
+  ]
+}

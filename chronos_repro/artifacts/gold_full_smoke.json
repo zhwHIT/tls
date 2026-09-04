@@ -1,0 +1,71 @@
+{
+  "topic_id": "Islamic_State_2019.10.27",
+  "date_score": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f_score": 1.0
+  },
+  "rouge_backend": "reimpl",
+  "rouge": {
+    "concat": {
+      "rouge_1": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f_score": 1.0
+      },
+      "rouge_2": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f_score": 1.0
+      }
+    },
+    "agreement": {
+      "rouge_1": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f_score": 1.0
+      },
+      "rouge_2": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f_score": 1.0
+      }
+    },
+    "align_date_costs": {
+      "rouge_1": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f_score": 1.0
+      },
+      "rouge_2": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f_score": 1.0
+      }
+    },
+    "align_date_content_costs": {
+      "rouge_1": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f_score": 1.0
+      },
+      "rouge_2": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f_score": 1.0
+      }
+    },
+    "align_date_content_costs_many_to_one": {
+      "rouge_1": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f_score": 1.0
+      },
+      "rouge_2": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f_score": 1.0
+      }
+    }
+  }
+}

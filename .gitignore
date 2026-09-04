@@ -1,0 +1,16 @@
+# Python/runtime caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local editor and agent state
+.claude/
+.codex/
+.agents/
+
+# Empty extraction staging directories
+closed_corpora_staging/
+
+# OS files
+Thumbs.db
+.DS_Store

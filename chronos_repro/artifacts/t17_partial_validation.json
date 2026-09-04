@@ -1,0 +1,73 @@
+{
+  "dataset": "t17",
+  "root": "D:\\paper\\closed_corpora_download\\t17",
+  "mode": "quick",
+  "valid": false,
+  "expected_topics": 9,
+  "found_topics": 8,
+  "errors": [
+    "topic count mismatch: expected 9, found 8",
+    "topic names mismatch: missing=['syria'], extra=[]",
+    "mj: missing files: ['timelines.jsonl']"
+  ],
+  "items": [
+    {
+      "topic_id": "bpoil",
+      "valid": true,
+      "article_records_checked": 1,
+      "reference_timelines": 5,
+      "errors": []
+    },
+    {
+      "topic_id": "egypt",
+      "valid": true,
+      "article_records_checked": 1,
+      "reference_timelines": 1,
+      "errors": []
+    },
+    {
+      "topic_id": "finan",
+      "valid": true,
+      "article_records_checked": 1,
+      "reference_timelines": 1,
+      "errors": []
+    },
+    {
+      "topic_id": "h1n1",
+      "valid": true,
+      "article_records_checked": 1,
+      "reference_timelines": 3,
+      "errors": []
+    },
+    {
+      "topic_id": "haiti",
+      "valid": true,
+      "article_records_checked": 1,
+      "reference_timelines": 1,
+      "errors": []
+    },
+    {
+      "topic_id": "iraq",
+      "valid": true,
+      "article_records_checked": 1,
+      "reference_timelines": 1,
+      "errors": []
+    },
+    {
+      "topic_id": "libya",
+      "valid": true,
+      "article_records_checked": 1,
+      "reference_timelines": 2,
+      "errors": []
+    },
+    {
+      "topic_id": "mj",
+      "valid": false,
+      "article_records_checked": 1,
+      "reference_timelines": 0,
+      "errors": [
+        "missing files: ['timelines.jsonl']"
+      ]
+    }
+  ]
+}

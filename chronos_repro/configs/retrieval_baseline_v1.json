@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "name": "closed-domain-retrieval-baseline-v1",
+  "retriever": {
+    "engine": "sqlite-fts5-bm25",
+    "title_weight": 2.0,
+    "text_weight": 1.0,
+    "query_operator": "OR",
+    "top_k": 20
+  },
+  "agent": {
+    "max_rounds": 3,
+    "max_queries_per_round": 3,
+    "stop_no_new_rounds": 2,
+    "deduplicate_by": "doc_id"
+  },
+  "baselines": {
+    "direct": "topic query only, one retrieval round",
+    "rewrite": "one rewritten query, one retrieval round",
+    "chronos": "iterative self-questioning, at most three rounds"
+  },
+  "generation": {
+    "model": null,
+    "temperature": 0.0,
+    "prompt_version": null,
+    "status": "not_selected"
+  }
+}

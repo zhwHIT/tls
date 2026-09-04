@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chronos-repro"
+version = "0.1.0"
+description = "Safe Open-TLS loading, CHRONOS-compatible evaluation, and immutable corpus snapshots"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+eval = ["tilse==0.2.1"]
+test = ["pytest>=8"]
+
+[project.scripts]
+chronos-repro = "chronos_repro.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

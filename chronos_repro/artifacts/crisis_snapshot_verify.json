@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "dataset": "crisis",
+  "snapshot_id": "ece08f344cc94933",
+  "created_at_utc": "2026-09-04T04:05:56.350582+00:00",
+  "source_note": "Gholipour Ghalandari & Ifrim news-tls Google Drive folder 1PhH0Z1MZbmvt-DGDo-51YGW0KCQ4UZYv; downloaded 2026-09-04; loader repo commit b79c0d1c32263d685570b326f36e35d02b292c21",
+  "file_count": 12,
+  "total_bytes": 191830340,
+  "files": [
+    {
+      "path": "egypt/articles.preprocessed.jsonl.gz",
+      "bytes": 45412408,
+      "sha256": "25e60ed175495563a632ee263a7e42787c665b2818099aa46e349d7eec4bd006"
+    },
+    {
+      "path": "egypt/keywords.json",
+      "bytes": 21,
+      "sha256": "0d606099133595bd75d4f6aa0bb2b1e95bdbb19664d10affbe9c2ad758a268cc"
+    },
+    {
+      "path": "egypt/timelines.jsonl",
+      "bytes": 29135,
+      "sha256": "5e03437f929f99aff45bd09659778b7948ee9141b56c84e231866ed0a8d925d4"
+    },
+    {
+      "path": "libya/articles.preprocessed.jsonl.gz",
+      "bytes": 46098216,
+      "sha256": "623af97d690e05cf10bbeaf7cf098cefce968b99d797963d09e0e09e641ab691"
+    },
+    {
+      "path": "libya/keywords.json",
+      "bytes": 19,
+      "sha256": "33a70b1088118fcb16258a54ba4079d19981a01885621caf754dc37f1107cd58"
+    },
+    {
+      "path": "libya/timelines.jsonl",
+      "bytes": 51232,
+      "sha256": "140384072fea6b954b36765c8c0f2a97efb88d9436ca2f4c1224ca044775d245"
+    },
+    {
+      "path": "syria/articles.preprocessed.jsonl.gz",
+      "bytes": 55184271,
+      "sha256": "8f99600badab241f628ff086f04cfb15c773b412f41ba3bba39b6282bf2bcff3"
+    },
+    {
+      "path": "syria/keywords.json",
+      "bytes": 19,
+      "sha256": "79963ced11d9e3ccc17613cb3681dfeea8e0b9ebe17b86bea07aaeb8a7e5d343"
+    },
+    {
+      "path": "syria/timelines.jsonl",
+      "bytes": 28455,
+      "sha256": "ccba715b96578076d2c2bc2a8c6fd49240a3a2334a023e71925fad83ef5fdb60"
+    },
+    {
+      "path": "yemen/articles.preprocessed.jsonl.gz",
+      "bytes": 45001927,
+      "sha256": "a4b2f11ac2783d63a4c926f52c57dd83227180e9713fe100e193be86a5bcaa4a"
+    },
+    {
+      "path": "yemen/keywords.json",
+      "bytes": 9,
+      "sha256": "0be9a1cc97c1bd40e1ef67cc4e13d1e9ec7b46bc979a5315e31d8c0513deef70"
+    },
+    {
+      "path": "yemen/timelines.jsonl",
+      "bytes": 24628,
+      "sha256": "913ae6c7ac7f0b8a99d04d6d467e14321202467c7a7288d313e2c6b2dafa2125"
+    }
+  ]
+}

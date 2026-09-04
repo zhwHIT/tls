@@ -1,0 +1,954 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-09-04T05:39:54.436883+00:00",
+  "search_engine": "crisis egypt",
+  "config": {
+    "top_k": 20,
+    "max_rounds": 3,
+    "stop_no_new_rounds": 2
+  },
+  "provenance": {
+    "index": "D:\\paper\\chronos_repro\\artifacts\\crisis_ece08f344cc94933.sqlite3",
+    "index_sha256": "ed73fb8ff0e9add31df40f637783372c15f59de6f0939dd30b4f19210270bc81",
+    "index_metadata": {
+      "data_root": "D:\\paper\\chronos_repro\\snapshots\\crisis\\ece08f344cc94933",
+      "document_count": 17573,
+      "engine": "sqlite-fts5-bm25",
+      "schema_version": 1,
+      "snapshot": {
+        "dataset": "crisis",
+        "manifest": "D:\\paper\\chronos_repro\\snapshots\\crisis\\ece08f344cc94933\\MANIFEST.sha256.json",
+        "manifest_sha256": "40345dae0249badde354e4e78315799d41035467870baad78efa333efa02b460",
+        "snapshot_id": "ece08f344cc94933"
+      },
+      "topic_counts": {
+        "egypt": 4083,
+        "libya": 4274,
+        "syria": 5170,
+        "yemen": 4046
+      }
+    }
+  },
+  "rounds": [
+    {
+      "state": {
+        "round": 1,
+        "seen_doc_ids": [],
+        "document_count": 0
+      },
+      "action": {
+        "type": "SEARCH",
+        "query": "egypt crisis timeline",
+        "top_k": 20
+      },
+      "observation": {
+        "results": [
+          {
+            "id": "4884",
+            "title": "Timeline Egypt's revolution and beyond  Egypt One Year On  Al Jazeera English",
+            "snippet": "Timeline Egypt's revolution and beyond  Egypt One Year On  Al Jazeera English\n",
+            "url": "",
+            "timestamp": "2012-01-25",
+            "score": 10.510763635821258,
+            "topic": "egypt"
+          },
+          {
+            "id": "4151",
+            "title": "Egypts constitutional crisis, explained as a simple timeline",
+            "snippet": "Egypts constitutional crisis, explained as a simple timeline\nProtesters gather outside the presidential palace in Cairo. (AP Photo/Mostafa Elshemy)\nDo not make the mistake, on seeing the photos and videos of … ",
+            "url": "",
+            "timestamp": "2012-12-06",
+            "score": 10.467479473763548,
+            "topic": "egypt"
+          },
+          {
+            "id": "4061",
+            "title": "Timeline Transition in Egypt",
+            "snippet": "Timeline Transition in Egypt\nKey events leading up to the first presidential election since the ouster of President Hosni Mubarak.\n",
+            "url": "",
+            "timestamp": "2012-05-16",
+            "score": 10.460535854880872,
+            "topic": "egypt"
+          },
+          {
+            "id": "1569",
+            "title": "Egypt timeline from revolution to the current crisis",
+            "snippet": "Egypt timeline from revolution to the current crisis    Telegraph\nEgypt's army drives Morsi from presidency in dramatic coup\nMay 23  24, 2012  The first round of voting in presidential    elections has … ",
+            "url": "",
+            "timestamp": "2013-07-03",
+            "score": 10.381091113537263,
+            "topic": "egypt"
+          },
+          {
+            "id": "1851",
+            "title": "A timeline of Mubarak's rise and rule",
+            "snippet": "A timeline of Mubarak's rise and rule\nHosni Mubarak came to power in Egypt nearly 30 years ago. Here's a look at his tenure.\nPresident Anwar Sadat, left, confers with … ",
+            "url": "",
+            "timestamp": "2011-02-10",
+            "score": 10.292030097740057,
+            "topic": "egypt"
+          },
+          {
+            "id": "928",
+            "title": "Timeline The changing U.S. reaction to Egypt's crisis",
+            "snippet": " … reaction to Egypt's crisis\n(Reuters) - Following is a timeline of public comments by President Barack Obama and other U.S. officials over the course of the uprising in Egypt.\nObama says … ",
+            "url": "",
+            "timestamp": "2011-02-11",
+            "score": 10.2661154047831,
+            "topic": "egypt"
+          },
+          {
+            "id": "834",
+            "title": "Interactive A tumultuous year in Egypt  Egypt One Year On  Al Jazeera English",
+            "snippet": "Interactive A tumultuous year in Egypt  Egypt One Year On  Al Jazeera English\nTens of thousands of Egyptians have converged on Tahrir Square to mark the one-year anniversary of the revolution … ",
+            "url": "",
+            "timestamp": "2012-01-25",
+            "score": 9.496719281209112,
+            "topic": "egypt"
+          },
+          {
+            "id": "1459",
+            "title": "Egypt timeline of the Arab Spring since Hosni Mubarak's ouster",
+            "snippet": "Egypt timeline of the Arab Spring since Hosni Mubarak's ouster   Telegraph\n 13: Authorities say Mubarak is being held in a hospital in Sharm el-Sheikh.\n 7: Fifteen die and 200 injured … ",
+            "url": "",
+            "timestamp": "2012-06-24",
+            "score": 9.23143893009511,
+            "topic": "egypt"
+          },
+          {
+            "id": "5047",
+            "title": "Timeline The fall of Egypt President Hosni Mubarak",
+            "snippet": "Timeline The fall of Egypt President Hosni Mubarak  National Post\nHere is a timeline of the events in the uprising against Egyptian President Hosni Mubarak who stepped down on Friday, the 18th … ",
+            "url": "",
+            "timestamp": "2011-02-11",
+            "score": 8.852853854978898,
+            "topic": "egypt"
+          },
+          {
+            "id": "2409",
+            "title": "LINE  The changing U.S. reaction to Egypt's crisis",
+            "snippet": "TIMELINE  The changing U.S. reaction to Egypt's crisis\nU.S. President Barack Obama makes a statement about Egypt in the Grand Foyer of the White House in Washington February 11 … ",
+            "url": "",
+            "timestamp": "2011-02-12",
+            "score": 8.59361914721704,
+            "topic": "egypt"
+          },
+          {
+            "id": "5061",
+            "title": "The Digital Road to Egypt’s Revolution",
+            "snippet": "The Digital Road to Egypt’s Revolution\nA year after Egypt’s revolution inspired the world, we know only fragments of the story. The overthrow of President Zine el-Abidine Ben Ali … ",
+            "url": "",
+            "timestamp": "2012-02-10",
+            "score": 8.315734810341164,
+            "topic": "egypt"
+          },
+          {
+            "id": "5727",
+            "title": "Egypt Interim President’s Transition Plan Sparks Angry Reactions",
+            "snippet": "Egypt Interim President’s Transition Plan Sparks Angry Reactions  TIME\nAmid a political crisis where nothing important seems to happen before 10 p.m., the timing of interim Egyptian President Adly Mansour … ",
+            "url": "",
+            "timestamp": "2013-07-09",
+            "score": 8.297546471117727,
+            "topic": "egypt"
+          },
+          {
+            "id": "3312",
+            "title": "Egypt Elections Key Events Timeline In Egyptian Uprising And Transition",
+            "snippet": "Egypt Elections Key Events Timeline In Egyptian Uprising And Transition\nFireworks illuminate Tahrir Square in Cairo, Egypt, to celebrate the victory of Mohammed Morsi, in the country's presidential election, Sunday, June … ",
+            "url": "",
+            "timestamp": "2012-06-24",
+            "score": 8.17149119627341,
+            "topic": "egypt"
+          },
+          {
+            "id": "2985",
+            "title": "Egypt elections timeline of the Revolution",
+            "snippet": "Egypt elections timeline of the Revolution  Telegraph\nEgyptians head to polls for day two of presidential election\n- 11: After daily protests, president Hosni Mubarak steps down and leaves the    capital. He hands … ",
+            "url": "",
+            "timestamp": "2012-05-23",
+            "score": 8.124551327574322,
+            "topic": "egypt"
+          },
+          {
+            "id": "5044",
+            "title": "Brotherhood leader urges Egyptians to disown violence after deadly clashes",
+            "snippet": " … He has so far made no concrete concessions to defuse the crisis that has plunged the country into new turmoil and the two sides appeared at a deadlock.\nEgypt political crisis has … ",
+            "url": "",
+            "timestamp": "2012-12-08",
+            "score": 7.732525673585891,
+            "topic": "egypt"
+          },
+          {
+            "id": "2190",
+            "title": "LINE  Protests in Egypt",
+            "snippet": "TIMELINE  Protests in Egypt\nPolice fire tear gas during a demonstration in Cairo January 28, 2011.\nREUTERS - Here is a timeline of events in Egypt since protests began.\nJan. 25 - Thousands of … ",
+            "url": "",
+            "timestamp": "2011-02-08",
+            "score": 7.6708739566903805,
+            "topic": "egypt"
+          },
+          {
+            "id": "4931",
+            "title": "",
+            "snippet": " … intervening 12 months. Egypt held elections for the lower house of parliament - the first free polls in decades - and isgearing to elect a new upper house. A timeline is also in place … ",
+            "url": "",
+            "timestamp": "2012-01-23",
+            "score": 7.62928864053568,
+            "topic": "egypt"
+          },
+          {
+            "id": "3579",
+            "title": "Egypt's Tahrir Square sees mass protests against ruling military",
+            "snippet": "Egypt's Tahrir Square sees mass protests against ruling military\nProtesters converge on Tahrir Square as Egypt's political crisis deepens.\nEgyptians gather to protest in Tahrir Square on June 15, 2012 … ",
+            "url": "",
+            "timestamp": "2012-06-19",
+            "score": 7.58796907159403,
+            "topic": "egypt"
+          },
+          {
+            "id": "945",
+            "title": "How the oil price tracked Egypt's fears and joys",
+            "snippet": " … Here's a timeline of how the Egyptian unrest caused    similar unease in the markets. Click on the bubbles to view more.\nJanuary 25: Anti-government demonstrations begin in Egypt, 10 days … ",
+            "url": "",
+            "timestamp": "2011-02-11",
+            "score": 7.513709292601453,
+            "topic": "egypt"
+          },
+          {
+            "id": "1796",
+            "title": "",
+            "snippet": " … timeline and in search.\"\nFor more than a year, the Twitter has been testing translation software in general, and is currently using Microsoft's Bing Translator for the service. The Egypt tweets … ",
+            "url": "",
+            "timestamp": "2013-07-05",
+            "score": 7.234857181809971,
+            "topic": "egypt"
+          }
+        ],
+        "new_doc_ids": [
+          "4884",
+          "4151",
+          "4061",
+          "1569",
+          "1851",
+          "928",
+          "834",
+          "1459",
+          "5047",
+          "2409",
+          "5061",
+          "5727",
+          "3312",
+          "2985",
+          "5044",
+          "2190",
+          "4931",
+          "3579",
+          "945",
+          "1796"
+        ]
+      },
+      "updated_state": {
+        "round": 1,
+        "seen_doc_ids": [
+          "4884",
+          "4151",
+          "4061",
+          "1569",
+          "1851",
+          "928",
+          "834",
+          "1459",
+          "5047",
+          "2409",
+          "5061",
+          "5727",
+          "3312",
+          "2985",
+          "5044",
+          "2190",
+          "4931",
+          "3579",
+          "945",
+          "1796"
+        ],
+        "document_count": 20,
+        "new_document_count": 20
+      }
+    },
+    {
+      "state": {
+        "round": 2,
+        "seen_doc_ids": [
+          "4884",
+          "4151",
+          "4061",
+          "1569",
+          "1851",
+          "928",
+          "834",
+          "1459",
+          "5047",
+          "2409",
+          "5061",
+          "5727",
+          "3312",
+          "2985",
+          "5044",
+          "2190",
+          "4931",
+          "3579",
+          "945",
+          "1796"
+        ],
+        "document_count": 20
+      },
+      "action": {
+        "type": "SEARCH",
+        "query": "Hosni Mubarak resignation protests",
+        "top_k": 20
+      },
+      "observation": {
+        "results": [
+          {
+            "id": "2458",
+            "title": "World Leaders' Reactions To Egypt President Mubarak's Resignation (PHOTOS)",
+            "snippet": " … currently on Egypt, after President Hosni Mubarak stepped down after 18 days of civilian protests against his 30-year rule.\nSince the beleaguered leader announced his resignation, the streets of Cairo and … ",
+            "url": "",
+            "timestamp": "2011-02-11",
+            "score": 12.069369335229256,
+            "topic": "egypt"
+          },
+          {
+            "id": "155",
+            "title": "Egyptians gather in Tahrir Square for 'march of millions' as Mubarak's hold on nation weakens",
+            "snippet": " … Hundreds of thousands of protesters crammed into Cairo 's Tahrir Square on Tuesday for a planned \"march of millions\" to demand the resignation of Egyptian President Hosni Mubarak .\nAs crowds flooded the … ",
+            "url": "",
+            "timestamp": "2011-02-01",
+            "score": 11.4474908852307,
+            "topic": "egypt"
+          },
+          {
+            "id": "2562",
+            "title": "World leaders weigh in on Mubaraks resignation",
+            "snippet": "World leaders weigh in on Mubaraks resignation  National Post\nEgyptian President Hosni Mubarak stepped down on Friday after 18 days of mass protests against his rule.\n— U.S. Vice President Joe Biden … ",
+            "url": "",
+            "timestamp": "2011-02-11",
+            "score": 11.400857038660321,
+            "topic": "egypt"
+          },
+          {
+            "id": "711",
+            "title": "Israel hopes Mubarak resignation won't affect bilateral peace accord",
+            "snippet": " … Israel hopes the resignation on Friday of Egyptian President Hosni Mubarak will bring no change to its peaceful relations with Cairo, a senior Israeli official said.\n\"It's too early to foresee … ",
+            "url": "",
+            "timestamp": "2011-02-11",
+            "score": 11.117437135182598,
+            "topic": "egypt"
+          },
+          {
+            "id": "3859",
+            "title": "Egypts Hosni Mubarak is still president, court has no legal jurisdiction defense lawyer",
+            "snippet": " … to street protests. Activists are calling for mass demonstrations on January 25, the anniversary of the uprising.\nEgypt’s Coptic Christians celebrate peaceful Christmas amid heavy security\nIs Hosni Mubarak still the … ",
+            "url": "",
+            "timestamp": "2012-01-22",
+            "score": 10.982113953970213,
+            "topic": "egypt"
+          },
+          {
+            "id": "4187",
+            "title": "Egypt Revolution Anniversary Movers Of The Revolution",
+            "snippet": " … On January 25, 2011, tens of thousands of Egyptians gathered in the capital to demand the resignation of then president-Hosni Mubarak. After 18 days of massive protests, Mubarak was forced to … ",
+            "url": "",
+            "timestamp": "2012-01-25",
+            "score": 10.976842732858804,
+            "topic": "egypt"
+          },
+          {
+            "id": "2618",
+            "title": "The Young Revolutionaries of Egypt",
+            "snippet": " … So who were these impostors gathered in Cairo's Tahrir (Liberation) Square to call for the resignation of President Hosni Mubarak? They were smiling and laughing, waving witty banners, organizing spontaneous soccer … ",
+            "url": "",
+            "timestamp": "2011-02-03",
+            "score": 10.676084028437682,
+            "topic": "egypt"
+          },
+          {
+            "id": "841",
+            "title": "",
+            "snippet": " … The epicentre of protests has been Tahrir Square  scene of massive    demonstrations in 2011, that ultimately led to the February 11 ousting of    then-President Hosni Mubarak.\nTahrir Square has again been … ",
+            "url": "",
+            "timestamp": "2013-07-10",
+            "score": 10.547492495629001,
+            "topic": "egypt"
+          },
+          {
+            "id": "4109",
+            "title": "Egypt protests UK under pressure to freeze Hosni Mubarak's British assets",
+            "snippet": "Egypt protests UK under pressure to freeze Hosni Mubarak's British assets   Mail Online\nItaly declares state of emergency after 4,000 illegal immigrants fleeing Tunisia unrest land at its ports in … ",
+            "url": "",
+            "timestamp": "2011-02-14",
+            "score": 10.530302672116889,
+            "topic": "egypt"
+          },
+          {
+            "id": "3729",
+            "title": "Egypt’s Stagnant Economic Growth Fuels Protests Chart of Day",
+            "snippet": " … Protests Chart of Day  Bloomberg\nEgypt’s failure to boost economic growth over the past two decades is fueling the social unrest aimed at forcing the resignation of President Hosni Mubarak .\nThe … ",
+            "url": "",
+            "timestamp": "2011-02-03",
+            "score": 10.446998435014699,
+            "topic": "egypt"
+          },
+          {
+            "id": "2925",
+            "title": "",
+            "snippet": " … The resignation of Egypt's prime minister, Ahmed Shafiq, has seen the country take another step towards ridding itself of the old Hosni Mubarak regime. Shafiq was appointed by Mubarak, the former … ",
+            "url": "",
+            "timestamp": "2011-03-04",
+            "score": 10.395110352108702,
+            "topic": "egypt"
+          },
+          {
+            "id": "5658",
+            "title": "Egypt justice minister submits resignation",
+            "snippet": " … wanted to leave office in part because of protests against him.\nMekki, a pro-reform judge under the former regime of Hosni Mubarak, faces criticism from judges and activists who accuse him … ",
+            "url": "",
+            "timestamp": "2013-04-21",
+            "score": 10.336792846524693,
+            "topic": "egypt"
+          },
+          {
+            "id": "3011",
+            "title": "Exclusive peek 'In Tahrir Square' reveals Egypt's historic revolution",
+            "snippet": " … 25, 2011, Egyptians took to the streets of their country to  demand that President Hosni Mubarak step down. He had been in power for  30 years, and his countrymen were not happy … ",
+            "url": "",
+            "timestamp": "2012-01-25",
+            "score": 10.268016913513655,
+            "topic": "egypt"
+          },
+          {
+            "id": "5048",
+            "title": "Exclusive peek 'In Tahrir Square' reveals Egypt's historic revolution",
+            "snippet": " … 25, 2011, Egyptians took to the streets of their country to  demand that President Hosni Mubarak step down. He had been in power for  30 years, and his countrymen were not happy … ",
+            "url": "",
+            "timestamp": "2012-01-25",
+            "score": 10.268016913513655,
+            "topic": "egypt"
+          },
+          {
+            "id": "1857",
+            "title": "Hosni Mubarak resigns – and Egypt celebrates a new dawn",
+            "snippet": "Hosni Mubarak resigns – and Egypt celebrates a new dawn\n• President surrenders power to army and flies out of Cairo\n• Egypt rejoices as 18 days of mass protest end in revolution\n• Military pledges … ",
+            "url": "",
+            "timestamp": "2011-02-11",
+            "score": 10.266461316623293,
+            "topic": "egypt"
+          },
+          {
+            "id": "3636",
+            "title": "Katie Couric fires incorrect tweet saying that Egyptian President Hosni Mubarak stepped down",
+            "snippet": " … And there were reports that Hosni Mubarak had quit his post as party boss.\nThe source of the erroneous report was apparently Al Arabiya television. Reuters relayed the resignation story, which was … ",
+            "url": "",
+            "timestamp": "2011-02-05",
+            "score": 10.126790143282278,
+            "topic": "egypt"
+          },
+          {
+            "id": "4398",
+            "title": "Egypt's revolution is just the beginning",
+            "snippet": " … Hosni Mubarak's resignation is a dramatic victory for the protest movement born so suddenly on January 25. As recently as a few weeks ago, few Egyptians -- if any --could conceive of … ",
+            "url": "",
+            "timestamp": "2011-02-11",
+            "score": 10.078337494969123,
+            "topic": "egypt"
+          },
+          {
+            "id": "5588",
+            "title": "IsraeliEgyptian relations / Quiet military coup was behind Mubarak's resignation",
+            "snippet": "IsraeliEgyptian relations / Quiet military coup was behind Mubarak's resignation   Israel News  Haaretz\nThe Egyptian media were celebrating yesterday after it was announced Friday night that President Hosni Mubarak was stepping down … ",
+            "url": "",
+            "timestamp": "2011-02-13",
+            "score": 10.0711641289926,
+            "topic": "egypt"
+          },
+          {
+            "id": "1614",
+            "title": "Mubarak steps down, prompting jubilation in Cairo streets",
+            "snippet": " … despite the swelling protests against his rule, he had no plans to quit. He left it to his handpicked vice president, Omar Suleiman , to announce his resignation; Mubarak and his wife, Suzanne … ",
+            "url": "",
+            "timestamp": "2011-02-12",
+            "score": 10.049563277067202,
+            "topic": "egypt"
+          },
+          {
+            "id": "4340",
+            "title": "Mubarak Leaves Legacy of Egypt in Turmoil",
+            "snippet": " … 11 (Bloomberg) -- Shai Feldman, director of the Crown Center for Middle East Studies at Brandeis University, talks about the outlook for Egypt's government and economy following the resignation of Hosni Mubarak … ",
+            "url": "",
+            "timestamp": "2011-02-11",
+            "score": 10.033172254760531,
+            "topic": "egypt"
+          }
+        ],
+        "new_doc_ids": [
+          "2458",
+          "155",
+          "2562",
+          "711",
+          "3859",
+          "4187",
+          "2618",
+          "841",
+          "4109",
+          "3729",
+          "2925",
+          "5658",
+          "3011",
+          "5048",
+          "1857",
+          "3636",
+          "4398",
+          "5588",
+          "1614",
+          "4340"
+        ]
+      },
+      "updated_state": {
+        "round": 2,
+        "seen_doc_ids": [
+          "4884",
+          "4151",
+          "4061",
+          "1569",
+          "1851",
+          "928",
+          "834",
+          "1459",
+          "5047",
+          "2409",
+          "5061",
+          "5727",
+          "3312",
+          "2985",
+          "5044",
+          "2190",
+          "4931",
+          "3579",
+          "945",
+          "1796",
+          "2458",
+          "155",
+          "2562",
+          "711",
+          "3859",
+          "4187",
+          "2618",
+          "841",
+          "4109",
+          "3729",
+          "2925",
+          "5658",
+          "3011",
+          "5048",
+          "1857",
+          "3636",
+          "4398",
+          "5588",
+          "1614",
+          "4340"
+        ],
+        "document_count": 40,
+        "new_document_count": 20
+      }
+    },
+    {
+      "state": {
+        "round": 3,
+        "seen_doc_ids": [
+          "4884",
+          "4151",
+          "4061",
+          "1569",
+          "1851",
+          "928",
+          "834",
+          "1459",
+          "5047",
+          "2409",
+          "5061",
+          "5727",
+          "3312",
+          "2985",
+          "5044",
+          "2190",
+          "4931",
+          "3579",
+          "945",
+          "1796",
+          "2458",
+          "155",
+          "2562",
+          "711",
+          "3859",
+          "4187",
+          "2618",
+          "841",
+          "4109",
+          "3729",
+          "2925",
+          "5658",
+          "3011",
+          "5048",
+          "1857",
+          "3636",
+          "4398",
+          "5588",
+          "1614",
+          "4340"
+        ],
+        "document_count": 40
+      },
+      "action": {
+        "type": "SEARCH",
+        "query": "Egypt presidential election Morsi",
+        "top_k": 20
+      },
+      "observation": {
+        "results": [
+          {
+            "id": "4425",
+            "title": "Egypt celebrates President Mohamed Morsi in Tahrir Square",
+            "snippet": " … Ex-premier Ahmed Shafiq lost to Morsi after a hotly contested presidential run-off.\nEgyptians celebrate the election of their new president, Mohamed Morsi, on June 24, 2012 in Cairo, Egypt. Official … ",
+            "url": "",
+            "timestamp": "2012-06-25",
+            "score": 13.283382074908538,
+            "topic": "egypt"
+          },
+          {
+            "id": "4612",
+            "title": "Muslim Brotherhood's Morsi urges 'unity' in first speech as Egypt's presidentelect",
+            "snippet": " … Muslim Brotherhood supporters cheer in Cairo's Tahrir Square on Sunday after hearing of Morsi's victory in Egypt's presidential election.\nEgyptians celebrate the election of Morsi after he won 51 … ",
+            "url": "",
+            "timestamp": "2012-06-24",
+            "score": 13.058713621591846,
+            "topic": "egypt"
+          },
+          {
+            "id": "1467",
+            "title": "Egypt's new president moves into his offices, begins choosing a Cabinet",
+            "snippet": " … Muslim Brotherhood supporters cheer in Cairo's Tahrir Square on Sunday after hearing of Morsi's victory in Egypt's presidential election.\nEgyptians celebrate the election of Morsi after he won 51 … ",
+            "url": "",
+            "timestamp": "2012-06-25",
+            "score": 12.965208748259649,
+            "topic": "egypt"
+          },
+          {
+            "id": "1712",
+            "title": "Analysts 'Soft coup' court ruling could reignite Egyptian revolution",
+            "snippet": " … Muslim Brotherhood supporters cheer in Cairo's Tahrir Square on Sunday after hearing of Morsi's victory in Egypt's presidential election.\nEgyptians celebrate the election of Morsi after he won 51 … ",
+            "url": "",
+            "timestamp": "2012-06-15",
+            "score": 12.936434384210642,
+            "topic": "egypt"
+          },
+          {
+            "id": "3312",
+            "title": "Egypt Elections Key Events Timeline In Egyptian Uprising And Transition",
+            "snippet": "Egypt Elections Key Events Timeline In Egyptian Uprising And Transition\nFireworks illuminate Tahrir Square in Cairo, Egypt, to celebrate the victory of Mohammed Morsi, in the country's presidential election, Sunday, June … ",
+            "url": "",
+            "timestamp": "2012-06-24",
+            "score": 12.760863534406752,
+            "topic": "egypt"
+          },
+          {
+            "id": "2151",
+            "title": "Egypt election boycott gains momentum",
+            "snippet": "Egypt election boycott gains momentum\nThe movement to skip Egypt's presidential runoff election highlights voters' displeasure over their ballot options.\nEgyptians on a Cairo bridge hold signs urging a boycott of … ",
+            "url": "",
+            "timestamp": "2012-06-11",
+            "score": 12.16531716324479,
+            "topic": "egypt"
+          },
+          {
+            "id": "1971",
+            "title": "Officials delay announcing winner in Egypt’s disputed election as political tensions rise ",
+            "snippet": " … Egypt starts process to hold first-ever free presidential elections \nCAIRO - Officials postponed declaring a winner in Egypt's disputed election on Wednesday, sending political tensions soaring as the country awaited its … ",
+            "url": "",
+            "timestamp": "2012-06-21",
+            "score": 12.15119027231499,
+            "topic": "egypt"
+          },
+          {
+            "id": "3708",
+            "title": "Muslim Brotherhoodbacked candidate Morsi wins Egyptian presidential election",
+            "snippet": "Muslim Brotherhoodbacked candidate Morsi wins Egyptian presidential election\nMuslim Brotherhood-backed candidate Morsi wins Egyptian presidential election\nMuslim Brotherhood-backed candidate Mohammed Morsi was declared the winner in Egypt's first free … ",
+            "url": "",
+            "timestamp": "2012-06-24",
+            "score": 12.08113215485134,
+            "topic": "egypt"
+          },
+          {
+            "id": "4917",
+            "title": "Egypt's presidential candidates polish images for the runoff",
+            "snippet": "Egypt's presidential candidates polish images for the runoff  Los Angeles Times\nIn Egypt, candidates refine their images for runoff election\nPresidential contenders pitch themselves as guardians of the revolution that overthrew … ",
+            "url": "",
+            "timestamp": "2012-05-27",
+            "score": 11.94496117552004,
+            "topic": "egypt"
+          },
+          {
+            "id": "333",
+            "title": "Islamists on course to win Egypt presidential election as first round polls close",
+            "snippet": "Islamists on course to win Egypt presidential election as first round polls close   Mail Online\nIslamists were on course to win Egypts first free presidential election for 5,000 years today after … ",
+            "url": "",
+            "timestamp": "2012-05-25",
+            "score": 11.850356262073124,
+            "topic": "egypt"
+          },
+          {
+            "id": "1282",
+            "title": "Islamist jailed by Mubarak succeeds him as president in Egypt's first free election as crowds go wild",
+            "snippet": " … Egyptian supporters of Presidential candidate Mohamed Morsi celebrate with fireworks after the presidential election committee announced Mohamed Morsi's victory\nFireworks tonight in Cairo's Tahrir Square as they celebrate the victory … ",
+            "url": "",
+            "timestamp": "2012-06-24",
+            "score": 11.850293200418454,
+            "topic": "egypt"
+          },
+          {
+            "id": "1533",
+            "title": "Egypt to announce results of disputed presidential election Sunday",
+            "snippet": "Egypt to announce results of disputed presidential election Sunday\nMany Egyptians rally behind Muslim Brotherhood's candidate Morsi as a chance to finally rid the country of the old Mubarak regime, while … ",
+            "url": "",
+            "timestamp": "2012-06-24",
+            "score": 11.83966588165278,
+            "topic": "egypt"
+          },
+          {
+            "id": "1256",
+            "title": "The real power struggle in Egypt",
+            "snippet": " … The presidential election commission has rejected it, and there is no legal mechanism for implementing it. Even some of Egypt’s liberals, like MP Amr Hamzawy, view the council idea as undemocratic … ",
+            "url": "",
+            "timestamp": "2012-06-05",
+            "score": 11.794504668021988,
+            "topic": "egypt"
+          },
+          {
+            "id": "4441",
+            "title": "Egyptians protest against old regime day before presidential election",
+            "snippet": "Egyptians protest against old regime day before presidential election\nAn Egyptian protester chants slogans against presidential candidate Ahmed Safiq during a demonstration against the Supreme Constitutional Court rulings in Alexandria, Egypt, on … ",
+            "url": "",
+            "timestamp": "2012-06-15",
+            "score": 11.745811279126979,
+            "topic": "egypt"
+          },
+          {
+            "id": "4401",
+            "title": "Egypt Protesters gather to demand President Morsi’s ouster as thousands descend on Tahrir Square",
+            "snippet": " … In an interview published Sunday in The Guardian, Morsi — who has three years left in his term — said he had no plans to meet the protesters' demand for an early presidential election … ",
+            "url": "",
+            "timestamp": "2013-06-30",
+            "score": 11.675316569396799,
+            "topic": "egypt"
+          },
+          {
+            "id": "1422",
+            "title": "Egypt's Mubarak on life support amid crisis",
+            "snippet": " … The campaign of Hosni Mubarak's former prime minister said on Tuesday he has won Egypt's presidential election, not the rival Muslim Brotherhood's candidate, opening a potential fight for the … ",
+            "url": "",
+            "timestamp": "2012-06-19",
+            "score": 11.6064493811257,
+            "topic": "egypt"
+          },
+          {
+            "id": "4975",
+            "title": "Israeli tensions rise as Egyptian Islamist leader Mohammed Morsi questions peace pact",
+            "snippet": " … on Sunday evening, after Morsi was declared Egypt’s first democratically elected leader.\nIsrael values the democratic process in Egypt and respects the results of the presidential election, his office said in … ",
+            "url": "",
+            "timestamp": "2012-06-25",
+            "score": 11.585348419240606,
+            "topic": "egypt"
+          },
+          {
+            "id": "639",
+            "title": "Islamist Mohamed Morsi declared victor in Egyptian presidential vote",
+            "snippet": "Islamist Mohamed Morsi declared victor in Egyptian presidential vote\nCAIRO -- An Islamist was declared Egypt’s first freely elected president in history in a divisive poll that highlighted the sharpening battle between … ",
+            "url": "",
+            "timestamp": "2012-06-24",
+            "score": 11.583608457589882,
+            "topic": "egypt"
+          },
+          {
+            "id": "3301",
+            "title": "",
+            "snippet": " … The presidential election result is still too close to call according to the Egypt Monocle , even though the Muslim Brotherhood is claiming a 4% victory for its man Mohamed Morsi (pictured right … ",
+            "url": "",
+            "timestamp": "2012-06-20",
+            "score": 11.51118200387037,
+            "topic": "egypt"
+          },
+          {
+            "id": "5528",
+            "title": "Egypt's Morsi meets with army chief to discuss stabilization",
+            "snippet": "Egypt's Morsi meets with army chief to discuss stabilization\nRepublican guard sets 3 P.M. deadline for protesters to evacuate grounds near presidential palace; Five were killed, more than 350 injured … ",
+            "url": "",
+            "timestamp": "2012-12-06",
+            "score": 11.477899227596765,
+            "topic": "egypt"
+          }
+        ],
+        "new_doc_ids": [
+          "4425",
+          "4612",
+          "1467",
+          "1712",
+          "2151",
+          "1971",
+          "3708",
+          "4917",
+          "333",
+          "1282",
+          "1533",
+          "1256",
+          "4441",
+          "4401",
+          "1422",
+          "4975",
+          "639",
+          "3301",
+          "5528"
+        ]
+      },
+      "updated_state": {
+        "round": 3,
+        "seen_doc_ids": [
+          "4884",
+          "4151",
+          "4061",
+          "1569",
+          "1851",
+          "928",
+          "834",
+          "1459",
+          "5047",
+          "2409",
+          "5061",
+          "5727",
+          "3312",
+          "2985",
+          "5044",
+          "2190",
+          "4931",
+          "3579",
+          "945",
+          "1796",
+          "2458",
+          "155",
+          "2562",
+          "711",
+          "3859",
+          "4187",
+          "2618",
+          "841",
+          "4109",
+          "3729",
+          "2925",
+          "5658",
+          "3011",
+          "5048",
+          "1857",
+          "3636",
+          "4398",
+          "5588",
+          "1614",
+          "4340",
+          "4425",
+          "4612",
+          "1467",
+          "1712",
+          "2151",
+          "1971",
+          "3708",
+          "4917",
+          "333",
+          "1282",
+          "1533",
+          "1256",
+          "4441",
+          "4401",
+          "1422",
+          "4975",
+          "639",
+          "3301",
+          "5528"
+        ],
+        "document_count": 59,
+        "new_document_count": 19
+      }
+    }
+  ],
+  "final_state": {
+    "seen_doc_ids": [
+      "4884",
+      "4151",
+      "4061",
+      "1569",
+      "1851",
+      "928",
+      "834",
+      "1459",
+      "5047",
+      "2409",
+      "5061",
+      "5727",
+      "3312",
+      "2985",
+      "5044",
+      "2190",
+      "4931",
+      "3579",
+      "945",
+      "1796",
+      "2458",
+      "155",
+      "2562",
+      "711",
+      "3859",
+      "4187",
+      "2618",
+      "841",
+      "4109",
+      "3729",
+      "2925",
+      "5658",
+      "3011",
+      "5048",
+      "1857",
+      "3636",
+      "4398",
+      "5588",
+      "1614",
+      "4340",
+      "4425",
+      "4612",
+      "1467",
+      "1712",
+      "2151",
+      "1971",
+      "3708",
+      "4917",
+      "333",
+      "1282",
+      "1533",
+      "1256",
+      "4441",
+      "4401",
+      "1422",
+      "4975",
+      "639",
+      "3301",
+      "5528"
+    ],
+    "document_count": 59
+  },
+  "stop_reason": "max_rounds"
+}

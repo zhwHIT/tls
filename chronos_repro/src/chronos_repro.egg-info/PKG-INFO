@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: chronos-repro
+Version: 0.1.0
+Summary: Safe Open-TLS loading, CHRONOS-compatible evaluation, and immutable corpus snapshots
+Requires-Python: >=3.10
+Provides-Extra: eval
+Requires-Dist: tilse==0.2.1; extra == "eval"
+Provides-Extra: test
+Requires-Dist: pytest>=8; extra == "test"

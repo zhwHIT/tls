@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "engine": "sqlite-fts5-bm25",
+  "data_root": "D:\\paper\\chronos_repro\\snapshots\\t17\\2704b6b058774e15",
+  "snapshot": {
+    "dataset": "t17",
+    "snapshot_id": "2704b6b058774e15",
+    "manifest": "D:\\paper\\chronos_repro\\snapshots\\t17\\2704b6b058774e15\\MANIFEST.sha256.json",
+    "manifest_sha256": "9ebc6aec2bf74cd3e14e318b0b8203d52637d6d48ba234ee7171da31566bdd69"
+  },
+  "topic_counts": {
+    "bpoil": 1307,
+    "egypt": 216,
+    "finan": 256,
+    "h1n1": 370,
+    "haiti": 278,
+    "iraq": 315,
+    "libya": 716,
+    "mj": 121,
+    "syria": 624
+  },
+  "document_count": 4203,
+  "index": "D:\\paper\\chronos_repro\\artifacts\\t17_2704b6b058774e15.sqlite3",
+  "bytes": 41431040
+}

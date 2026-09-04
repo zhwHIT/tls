@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "dataset": "t17",
+  "snapshot_id": "2704b6b058774e15",
+  "created_at_utc": "2026-09-04T05:16:40.829188+00:00",
+  "source_note": "Official news-tls Google Drive folder 1gDAF5QZyCWnF_hYKbxIzOyjT6MSkbQXu; archive t17-20260904T050704Z-1-001.zip; downloaded 2026-09-04; loader commit b79c0d1c32263d685570b326f36e35d02b292c21",
+  "file_count": 27,
+  "total_bytes": 51309614,
+  "files": [
+    {
+      "path": "bpoil/articles.preprocessed.jsonl.gz",
+      "bytes": 13932115,
+      "sha256": "d61d067fd0d7fcdf585d28ee232a16b848e43121c4c8f782afa1cc7898867450"
+    },
+    {
+      "path": "bpoil/keywords.json",
+      "bytes": 22,
+      "sha256": "b936eb8bebf65093e45ce15092cad68579fba2af558cb78764e2bdb139159e47"
+    },
+    {
+      "path": "bpoil/timelines.jsonl",
+      "bytes": 62428,
+      "sha256": "88a17ce2a6e16a1e4fafa0238b2a185da51b56cea2f9e4bf464c3e367a9eff5d"
+    },
+    {
+      "path": "egypt/articles.preprocessed.jsonl.gz",
+      "bytes": 6039148,
+      "sha256": "1f3e48f94cf7c7139e0d00e110753a3e3617b113dbb7e18ca97476cfb13605c7"
+    },
+    {
+      "path": "egypt/keywords.json",
+      "bytes": 21,
+      "sha256": "0d606099133595bd75d4f6aa0bb2b1e95bdbb19664d10affbe9c2ad758a268cc"
+    },
+    {
+      "path": "egypt/timelines.jsonl",
+      "bytes": 8442,
+      "sha256": "ebfdcdaa76326cbafde1e1adea90cd1e8aef5ebf217d0a5017d16417dde005e6"
+    },
+    {
+      "path": "finan/articles.preprocessed.jsonl.gz",
+      "bytes": 3055470,
+      "sha256": "43f669991f65d0df387cb0dfd54006aedc038ac8b6139a3b0daebefa3207c0dc"
+    },
+    {
+      "path": "finan/keywords.json",
+      "bytes": 35,
+      "sha256": "411cc61b93056f50b0c517829fbb4481b75a3d2d192be4c6f7c51e3626043924"
+    },
+    {
+      "path": "finan/timelines.jsonl",
+      "bytes": 55999,
+      "sha256": "577758fadd27491a5a74319cbad3915dc454227d0610115b2c71275bc87df921"
+    },
+    {
+      "path": "h1n1/articles.preprocessed.jsonl.gz",
+      "bytes": 3614924,
+      "sha256": "926e2090779f88bdb7ceed344e0a90850f4107193e4aa77856743d29fbfcc6f7"
+    },
+    {
+      "path": "h1n1/keywords.json",
+      "bytes": 24,
+      "sha256": "8ee54db1953808bae540d5156b8f86ca97ee46029e8275746adebab5888fa42f"
+    },
+    {
+      "path": "h1n1/timelines.jsonl",
+      "bytes": 11052,
+      "sha256": "aa6b2c5a73f74adc7a9050d09b4b5a8c415af5778ba8fcd706382298ca00706a"
+    },
+    {
+      "path": "haiti/articles.preprocessed.jsonl.gz",
+      "bytes": 2322455,
+      "sha256": "371042c01bd70ed57c3b97b1af1b83a28f1e92d442de794d1514eaea26be6058"
+    },
+    {
+      "path": "haiti/keywords.json",
+      "bytes": 32,
+      "sha256": "4bd721768b1344f987910bb376fdc7a9c62fc4ac4ae28895de37e6baef5fb460"
+    },
+    {
+      "path": "haiti/timelines.jsonl",
+      "bytes": 11601,
+      "sha256": "85d4eec88d865838afcd2c541306ca36351b2281d4ab73fa8598d352e6483a30"
+    },
+    {
+      "path": "iraq/articles.preprocessed.jsonl.gz",
+      "bytes": 4927569,
+      "sha256": "8555c2361648a6b853f8eaea812205618a6259a3cc6dba316d2b7cb63e6f67f5"
+    },
+    {
+      "path": "iraq/keywords.json",
+      "bytes": 17,
+      "sha256": "290f55c076c50526c1e6c8d690ea35ca42158d81b5c49b59ef8e20f69cb92daf"
+    },
+    {
+      "path": "iraq/timelines.jsonl",
+      "bytes": 52742,
+      "sha256": "8413d8445114e865273e2ed3b6bec7e97fe37a23cd701a8c42e14aa13fc7ddd9"
+    },
+    {
+      "path": "libya/articles.preprocessed.jsonl.gz",
+      "bytes": 9737316,
+      "sha256": "9565bbb064504be2126bbc054c2eaefde4410a0988adad80bc0e742d9b82b7f6"
+    },
+    {
+      "path": "libya/keywords.json",
+      "bytes": 19,
+      "sha256": "33a70b1088118fcb16258a54ba4079d19981a01885621caf754dc37f1107cd58"
+    },
+    {
+      "path": "libya/timelines.jsonl",
+      "bytes": 16859,
+      "sha256": "d8337f7a4f36ffafc56ad8d09e07eca9df2382c5902fc817283dc99bb9bb78b6"
+    },
+    {
+      "path": "mj/articles.preprocessed.jsonl.gz",
+      "bytes": 672700,
+      "sha256": "22f484a9fc2d8408159ec52a30d5e08b64bbfc2c752fbf64b0f61f75d9748456"
+    },
+    {
+      "path": "mj/keywords.json",
+      "bytes": 22,
+      "sha256": "3635f815b9a32798accee10c72954b0117b10e29f095a499cd5158ac9a88da7a"
+    },
+    {
+      "path": "mj/timelines.jsonl",
+      "bytes": 9524,
+      "sha256": "bb20867be684a42171f8eb189962d6c206412f557196e4cd45386e2410e34196"
+    },
+    {
+      "path": "syria/articles.preprocessed.jsonl.gz",
+      "bytes": 6757159,
+      "sha256": "b077866f4971608b969788ac44ae69b6af83492bf7674da6b11da3affafb8e12"
+    },
+    {
+      "path": "syria/keywords.json",
+      "bytes": 19,
+      "sha256": "79963ced11d9e3ccc17613cb3681dfeea8e0b9ebe17b86bea07aaeb8a7e5d343"
+    },
+    {
+      "path": "syria/timelines.jsonl",
+      "bytes": 21900,
+      "sha256": "c869741d614d27bdbf6cb6da5a0445b9c4668779b021c8e682888e6156ea498c"
+    }
+  ]
+}

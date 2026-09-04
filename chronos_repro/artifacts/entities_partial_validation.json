@@ -1,0 +1,30 @@
+{
+  "dataset": "entities",
+  "root": "D:\\paper\\closed_corpora_download\\entities",
+  "mode": "quick",
+  "valid": false,
+  "expected_topics": 47,
+  "found_topics": 2,
+  "errors": [
+    "topic count mismatch: expected 47, found 2",
+    "Angela_Merkel: missing files: ['articles.preprocessed.jsonl.gz', 'keywords.json', 'timelines.jsonl']"
+  ],
+  "items": [
+    {
+      "topic_id": "Al_Gore",
+      "valid": true,
+      "article_records_checked": 1,
+      "reference_timelines": 1,
+      "errors": []
+    },
+    {
+      "topic_id": "Angela_Merkel",
+      "valid": false,
+      "article_records_checked": 0,
+      "reference_timelines": 0,
+      "errors": [
+        "missing files: ['articles.preprocessed.jsonl.gz', 'keywords.json', 'timelines.jsonl']"
+      ]
+    }
+  ]
+}

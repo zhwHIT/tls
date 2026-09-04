@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "engine": "sqlite-fts5-bm25",
+  "data_root": "D:\\paper\\chronos_repro\\snapshots\\crisis\\ece08f344cc94933",
+  "snapshot": {
+    "dataset": "crisis",
+    "snapshot_id": "ece08f344cc94933",
+    "manifest": "D:\\paper\\chronos_repro\\snapshots\\crisis\\ece08f344cc94933\\MANIFEST.sha256.json",
+    "manifest_sha256": "40345dae0249badde354e4e78315799d41035467870baad78efa333efa02b460"
+  },
+  "topic_counts": {
+    "egypt": 4083,
+    "libya": 4274,
+    "syria": 5170,
+    "yemen": 4046
+  },
+  "document_count": 17573,
+  "index": "D:\\paper\\chronos_repro\\artifacts\\crisis_ece08f344cc94933.sqlite3",
+  "bytes": 142721024
+}

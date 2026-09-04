@@ -1,0 +1,12 @@
+name: tls
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      # Install with the explicit Tsinghua index command documented in README.
+      - pytest==9.1.1
+      - tilse==0.2.1
+      - gdown==6.1.0
+      - -e .

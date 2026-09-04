@@ -1,0 +1,39 @@
+{
+  "dataset": "crisis",
+  "root": "D:\\paper\\chronos_repro\\snapshots\\crisis\\ece08f344cc94933",
+  "mode": "full",
+  "valid": true,
+  "expected_topics": 4,
+  "found_topics": 4,
+  "errors": [],
+  "items": [
+    {
+      "topic_id": "egypt",
+      "valid": true,
+      "article_records_checked": 4083,
+      "reference_timelines": 4,
+      "errors": []
+    },
+    {
+      "topic_id": "libya",
+      "valid": true,
+      "article_records_checked": 4274,
+      "reference_timelines": 7,
+      "errors": []
+    },
+    {
+      "topic_id": "syria",
+      "valid": true,
+      "article_records_checked": 5170,
+      "reference_timelines": 5,
+      "errors": []
+    },
+    {
+      "topic_id": "yemen",
+      "valid": true,
+      "article_records_checked": 4046,
+      "reference_timelines": 6,
+      "errors": []
+    }
+  ]
+}

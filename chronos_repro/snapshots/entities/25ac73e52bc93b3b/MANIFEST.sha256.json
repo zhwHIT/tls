@@ -1,0 +1,716 @@
+{
+  "schema_version": 1,
+  "dataset": "entities",
+  "snapshot_id": "25ac73e52bc93b3b",
+  "created_at_utc": "2026-09-04T05:20:08.951345+00:00",
+  "source_note": "Official news-tls Google Drive folder 1gDAF5QZyCWnF_hYKbxIzOyjT6MSkbQXu; archive entities-20260904T045721Z-1-001.zip; downloaded 2026-09-04; loader commit b79c0d1c32263d685570b326f36e35d02b292c21",
+  "file_count": 141,
+  "total_bytes": 508157475,
+  "files": [
+    {
+      "path": "Al_Gore/articles.preprocessed.jsonl.gz",
+      "bytes": 10639614,
+      "sha256": "e62e1914e22e8fffeb5f4abf9933f92b71067d47305e47f8e2014e69acac3026"
+    },
+    {
+      "path": "Al_Gore/keywords.json",
+      "bytes": 19,
+      "sha256": "5bb2b67347b03d3f1c37db5f6471c52418c747677c93a36f9ed374f7abfd8481"
+    },
+    {
+      "path": "Al_Gore/timelines.jsonl",
+      "bytes": 3561,
+      "sha256": "979e64753e55f94056bf38c6a267ba25b5cb30df7a352b276891698b03a420f9"
+    },
+    {
+      "path": "Angela_Merkel/articles.preprocessed.jsonl.gz",
+      "bytes": 20297938,
+      "sha256": "5059f790d59f3cf6deb69f54fd7324b8c1d86422a211451ce19f9145108b9a26"
+    },
+    {
+      "path": "Angela_Merkel/keywords.json",
+      "bytes": 27,
+      "sha256": "940691553ca45beef1d028c3fd811f8ec7d64b41089b8c3eaae2fe2b1a0e33c1"
+    },
+    {
+      "path": "Angela_Merkel/timelines.jsonl",
+      "bytes": 2409,
+      "sha256": "3ff659ff4d150046e9598b6f786622e9c3f519b18c5f0c6cc103b795fab73828"
+    },
+    {
+      "path": "Ariel_Sharon/articles.preprocessed.jsonl.gz",
+      "bytes": 12068906,
+      "sha256": "41644d38a88c547a00666e60da59c0c4020b6cef010956a27cf8cb670a5a6806"
+    },
+    {
+      "path": "Ariel_Sharon/keywords.json",
+      "bytes": 26,
+      "sha256": "6a0f29aa7dc0677e411555cefe0d146cc72c84bd145f7cc897a11d1cf8cfc763"
+    },
+    {
+      "path": "Ariel_Sharon/timelines.jsonl",
+      "bytes": 3388,
+      "sha256": "f6be3dd7b1fe41ef5d19d2290a3c0ab3cfe0f549e957e478c0d89b609513e55a"
+    },
+    {
+      "path": "Arnold_Schwarzenegger/articles.preprocessed.jsonl.gz",
+      "bytes": 5230510,
+      "sha256": "4af8a9af07d182868e54186776f98d25319ba5cbc7daf1155f93169691a7868d"
+    },
+    {
+      "path": "Arnold_Schwarzenegger/keywords.json",
+      "bytes": 43,
+      "sha256": "f894fa580870a2fd3ba703f18d28dd08add3578f352effc7cc49ff8afea1a430"
+    },
+    {
+      "path": "Arnold_Schwarzenegger/timelines.jsonl",
+      "bytes": 2088,
+      "sha256": "61404bd1fde70d8242e04fbb2fe9003280efd0c145d1606c5ed87d34b65f5a2b"
+    },
+    {
+      "path": "Bashar_al-Assad/articles.preprocessed.jsonl.gz",
+      "bytes": 13747023,
+      "sha256": "1d103c0400cab57a4a7abf7ba42d3ff5f610f8bd57cd78093321b3eb88f5ffb0"
+    },
+    {
+      "path": "Bashar_al-Assad/keywords.json",
+      "bytes": 40,
+      "sha256": "5fd7383618ee3747ae63c5b211640d4c91a67ed62793d726b6d00c7703627183"
+    },
+    {
+      "path": "Bashar_al-Assad/timelines.jsonl",
+      "bytes": 5362,
+      "sha256": "0ed04ab8bd154eab2bf44f966559a2842ec7262be8e87109b84c43fbf3755ad6"
+    },
+    {
+      "path": "Bill_Clinton/articles.preprocessed.jsonl.gz",
+      "bytes": 21680226,
+      "sha256": "1b54adfc49fd5850273e94892bf0e342a3eef10b4d9989a69b7de50de2933dc2"
+    },
+    {
+      "path": "Bill_Clinton/keywords.json",
+      "bytes": 27,
+      "sha256": "a11a70d92587f6fb803c3f6223d73bda2e472676de13d444ba73d01f4d1c0b27"
+    },
+    {
+      "path": "Bill_Clinton/timelines.jsonl",
+      "bytes": 7781,
+      "sha256": "ac3755736c848c8dc8c52d91effa49dbe0de48ba7808ef9f3e2da71befb3183c"
+    },
+    {
+      "path": "Charles_Taylor/articles.preprocessed.jsonl.gz",
+      "bytes": 1659814,
+      "sha256": "deaf2013d2d9fd089473d98750c75c840ded15d9c7c5140774a78eddacc1991e"
+    },
+    {
+      "path": "Charles_Taylor/keywords.json",
+      "bytes": 28,
+      "sha256": "6ecd4ea443b0ae99e5e7c2ee73bb9c4c07fe0ac609d694a18192f592c30250e3"
+    },
+    {
+      "path": "Charles_Taylor/timelines.jsonl",
+      "bytes": 2116,
+      "sha256": "0f9eaa89002007820098977c244770985c39bcb6940a947f37daaaed6151219e"
+    },
+    {
+      "path": "Chris_Brown/articles.preprocessed.jsonl.gz",
+      "bytes": 1069241,
+      "sha256": "8e59be007d79ba48a46218d975d73bfccda7764565b61adfa07d59699f653503"
+    },
+    {
+      "path": "Chris_Brown/keywords.json",
+      "bytes": 24,
+      "sha256": "ee045d70aa3f81897ed1ba953a4cb72019b9b8efb36f4b5d831345a17e4e4f8b"
+    },
+    {
+      "path": "Chris_Brown/timelines.jsonl",
+      "bytes": 4959,
+      "sha256": "90a3c1e80d025dd104654387ffd0ad2e91bc2d9da7bd37da3f22113943ab2e0a"
+    },
+    {
+      "path": "David_Beckham/articles.preprocessed.jsonl.gz",
+      "bytes": 27145982,
+      "sha256": "787263725b7536b3f09c2f52408aed18ceb07789aedbaa8c27d77a7706f70e46"
+    },
+    {
+      "path": "David_Beckham/keywords.json",
+      "bytes": 28,
+      "sha256": "e373cadbfb2c222a65bdb82358f917cc67e942a8ac35e83a31da01ccdfb215ca"
+    },
+    {
+      "path": "David_Beckham/timelines.jsonl",
+      "bytes": 2062,
+      "sha256": "85f51c389e131b4accb06610bb3b8a7aa9223cb7f857857a00fcf01e93a49c36"
+    },
+    {
+      "path": "David_Bowie/articles.preprocessed.jsonl.gz",
+      "bytes": 8566346,
+      "sha256": "80e7359570fad779e3497ab1989231def2918f1d0bf09c045eb3164b3b1009ea"
+    },
+    {
+      "path": "David_Bowie/keywords.json",
+      "bytes": 24,
+      "sha256": "fac65e46587692562210ae44a81e79497bbf8be40b3ea76e3c98cae3d314d0ea"
+    },
+    {
+      "path": "David_Bowie/timelines.jsonl",
+      "bytes": 869,
+      "sha256": "27f8f8956119d790a9fa1f9f5490ded7fe5211c47ee3dbd770eacb972936d9e2"
+    },
+    {
+      "path": "Dilma_Rousseff/articles.preprocessed.jsonl.gz",
+      "bytes": 2681818,
+      "sha256": "65b6584a482a1999f80f871f9019b41d14ab129ced28ed6fe7602a43ea463346"
+    },
+    {
+      "path": "Dilma_Rousseff/keywords.json",
+      "bytes": 30,
+      "sha256": "ec3d29a5615ce88af2aae357645ceef704caddfd58b806cbca325afa4da68e50"
+    },
+    {
+      "path": "Dilma_Rousseff/timelines.jsonl",
+      "bytes": 2753,
+      "sha256": "03260319cf0a27a48752c1a883cbe7e1454594700eeeddfc14f0c7cb91549260"
+    },
+    {
+      "path": "Dmitry_Medvedev/articles.preprocessed.jsonl.gz",
+      "bytes": 2950819,
+      "sha256": "f2652ba355892fcadb55e08f1d8baea10ea099553ec2cd75f86baf18999e47e4"
+    },
+    {
+      "path": "Dmitry_Medvedev/keywords.json",
+      "bytes": 31,
+      "sha256": "826e4aa73ddfaed40c5732df14d75f50a4e5727d29b07b1d16df057ac56d2103"
+    },
+    {
+      "path": "Dmitry_Medvedev/timelines.jsonl",
+      "bytes": 2326,
+      "sha256": "94d8d501a23b5b680a6c3b1643f26dbae6c6e290aa686ff98ae5a3e0f995a38b"
+    },
+    {
+      "path": "Dominique_Strauss-Kahn/articles.preprocessed.jsonl.gz",
+      "bytes": 2441970,
+      "sha256": "5190fa98e48be15e7bb6a1f8627479c5dd1e5fd1743b26eec09e3842ff04537f"
+    },
+    {
+      "path": "Dominique_Strauss-Kahn/keywords.json",
+      "bytes": 51,
+      "sha256": "82c14dcc9538f85773ef17e97e522995be865d4601c0d0aba2d707d42ee05091"
+    },
+    {
+      "path": "Dominique_Strauss-Kahn/timelines.jsonl",
+      "bytes": 4518,
+      "sha256": "3245c9f9fd607be88df72c6b693ef0046aa15f31b1799b5eb2be38ca74f4ece4"
+    },
+    {
+      "path": "Edward_Snowden/articles.preprocessed.jsonl.gz",
+      "bytes": 11233745,
+      "sha256": "191cab319474beb3bb60bc0e188e3c4a184969911a18197481dbcc9c61490e77"
+    },
+    {
+      "path": "Edward_Snowden/keywords.json",
+      "bytes": 29,
+      "sha256": "63a141e3ea2f8ea7fc9e771338898b8e73a4583e1fd4a64e455885230d31b1d7"
+    },
+    {
+      "path": "Edward_Snowden/timelines.jsonl",
+      "bytes": 7064,
+      "sha256": "9b1034fe5901ba441c5e10970d7e76e2b3585e4236c02e4c37a3934f3f73190c"
+    },
+    {
+      "path": "Ehud_Olmert/articles.preprocessed.jsonl.gz",
+      "bytes": 3668210,
+      "sha256": "9a0f66deea4d57f4e98b2a69b1f232cdeb8bea50eee12b5fa870eb75f14adca8"
+    },
+    {
+      "path": "Ehud_Olmert/keywords.json",
+      "bytes": 25,
+      "sha256": "47b61afae28d7e8ea8c72f4727f4b17eef7866fb7aff0fcc987d59b5ecd2c713"
+    },
+    {
+      "path": "Ehud_Olmert/timelines.jsonl",
+      "bytes": 2050,
+      "sha256": "ebd10ba31d8b26c28c54bd543bbd42d3e6624bf181a878b467e45470fca6e18a"
+    },
+    {
+      "path": "Enron/articles.preprocessed.jsonl.gz",
+      "bytes": 6571906,
+      "sha256": "84a229e8ac52ffc73ff83f0e72a53814e45507aabfe71111f8c5d6fcbcffddd8"
+    },
+    {
+      "path": "Enron/keywords.json",
+      "bytes": 9,
+      "sha256": "8e32685a4bde5aa738b4ebe5dee0a820f19089bf128425ba60dbf5f3bbe8acff"
+    },
+    {
+      "path": "Enron/timelines.jsonl",
+      "bytes": 3120,
+      "sha256": "4bc777a121afe96ea313fba0b41f58289fd572394fa8f8fceacfac4a67faf3c5"
+    },
+    {
+      "path": "Hamid_Karzai/articles.preprocessed.jsonl.gz",
+      "bytes": 6312085,
+      "sha256": "bf8252faca422862728c71afcb6dacc2a1e47cbe06b6214d7c1273e001c12155"
+    },
+    {
+      "path": "Hamid_Karzai/keywords.json",
+      "bytes": 26,
+      "sha256": "cc7e0a86a01a522dfdde711173c06110a97f20176d051114a7517c82f62b0fa6"
+    },
+    {
+      "path": "Hamid_Karzai/timelines.jsonl",
+      "bytes": 2079,
+      "sha256": "342681294353076af367bbd845a626f57c6602e7d97ceb97f46fe7877be13f88"
+    },
+    {
+      "path": "Hassan_Rouhani/articles.preprocessed.jsonl.gz",
+      "bytes": 2996428,
+      "sha256": "691128d1eeaf45b685e7d0c189e3e7aa6b23fe1fecdf04fe05c6f44c1acdd862"
+    },
+    {
+      "path": "Hassan_Rouhani/keywords.json",
+      "bytes": 29,
+      "sha256": "2b383d5171feddf3158d840137df96bb25d6e09f49fc24d19345a430ee6b1474"
+    },
+    {
+      "path": "Hassan_Rouhani/timelines.jsonl",
+      "bytes": 2005,
+      "sha256": "4d012df12a4f88179947ab9532594abd5eba025e1cf85a1c0a099576097dda54"
+    },
+    {
+      "path": "Hu_Jintao/articles.preprocessed.jsonl.gz",
+      "bytes": 2200099,
+      "sha256": "9906d27da6feef5ae65441ed2970c9c952d5b6aaadb5f9762e5fd85886646f89"
+    },
+    {
+      "path": "Hu_Jintao/keywords.json",
+      "bytes": 23,
+      "sha256": "2c6ddb12fa5c7e51a5f0834a422542e550c978a0bbbbf07e660b87565735ccd4"
+    },
+    {
+      "path": "Hu_Jintao/timelines.jsonl",
+      "bytes": 866,
+      "sha256": "f5ee79f54e62af30ad2e69e56bacdce9f5f6fb874995c4229d734ee8590bf7b9"
+    },
+    {
+      "path": "Jacob_Zuma/articles.preprocessed.jsonl.gz",
+      "bytes": 3481472,
+      "sha256": "3df01a17cca0336e0a42283da7d4c955604e1c98cff28169b84ff6faf5edaf8e"
+    },
+    {
+      "path": "Jacob_Zuma/keywords.json",
+      "bytes": 22,
+      "sha256": "4abd3943e4a2f834ae7b32f40a295b6ab92240c96d1e98f0a3252b3358d33d6b"
+    },
+    {
+      "path": "Jacob_Zuma/timelines.jsonl",
+      "bytes": 3458,
+      "sha256": "f8dd3f496eb4e82326c037cb2d9758d39c8fbfbfa343d38f51dd5cd0f3b04d79"
+    },
+    {
+      "path": "John_Boehner/articles.preprocessed.jsonl.gz",
+      "bytes": 2222721,
+      "sha256": "b3d993210e0f828698498a0fbac4040cced8884a67a067cc3bfc991c02d1f3cf"
+    },
+    {
+      "path": "John_Boehner/keywords.json",
+      "bytes": 27,
+      "sha256": "32ec4777013cd448e589b0e672afa05cace204d5e15fc592c16aa78f56962cdf"
+    },
+    {
+      "path": "John_Boehner/timelines.jsonl",
+      "bytes": 1756,
+      "sha256": "97b415701ae64058a95eefb87976c351ff9b8d810d5d1fb240bb4b0d3b6c66b1"
+    },
+    {
+      "path": "John_Kerry/articles.preprocessed.jsonl.gz",
+      "bytes": 13451697,
+      "sha256": "d30cd304f2e6e396283bcedc14b014c996d796a7a92748d2a4d212f0d7a256b0"
+    },
+    {
+      "path": "John_Kerry/keywords.json",
+      "bytes": 23,
+      "sha256": "2bafe11c36a4e033518edc3549f4b3af622daa0797f8a428d7e98d0a1fcb502f"
+    },
+    {
+      "path": "John_Kerry/timelines.jsonl",
+      "bytes": 4517,
+      "sha256": "73f7cd49708d10244972bc68449047a72b6b38b6540a023e4c08adb645c38288"
+    },
+    {
+      "path": "Julian_Assange/articles.preprocessed.jsonl.gz",
+      "bytes": 6604327,
+      "sha256": "8542af38b06d443eff35e273242b2f91b5e1f27693818521beea445b23074dae"
+    },
+    {
+      "path": "Julian_Assange/keywords.json",
+      "bytes": 29,
+      "sha256": "e7821b1be7f00db3e11da70d743053ac50ddd4c0d0269614e739dcd594d9190b"
+    },
+    {
+      "path": "Julian_Assange/timelines.jsonl",
+      "bytes": 6497,
+      "sha256": "61873231a82bad0c435c8e30eccd3737fe785271678ff1c8518bb32269f3b573"
+    },
+    {
+      "path": "Lance_Armstrong/articles.preprocessed.jsonl.gz",
+      "bytes": 6272609,
+      "sha256": "953a9e60f50e6b4b670ccad893639b88afb0408bdc447dec6942223644daa383"
+    },
+    {
+      "path": "Lance_Armstrong/keywords.json",
+      "bytes": 32,
+      "sha256": "9ef79a25457ef55866579545d63a18e4912bf1af06241456fcbae2307fad4469"
+    },
+    {
+      "path": "Lance_Armstrong/timelines.jsonl",
+      "bytes": 6752,
+      "sha256": "9b3b8c3e13d72996ab267c0667c04df3171fc6cf0b13fbfcd6215dcc647456d1"
+    },
+    {
+      "path": "Mahmoud_Ahmadinejad/articles.preprocessed.jsonl.gz",
+      "bytes": 7530200,
+      "sha256": "aa1fafde256e83cd718fc3373e7ebdfc11ba8d858189314ba8f9bf7a86294ae4"
+    },
+    {
+      "path": "Mahmoud_Ahmadinejad/keywords.json",
+      "bytes": 38,
+      "sha256": "ce3b839904e88ede1cf8c04433723ddcc3dff54767e35e338a2129c30ddf2304"
+    },
+    {
+      "path": "Mahmoud_Ahmadinejad/timelines.jsonl",
+      "bytes": 3204,
+      "sha256": "c6f9370ead1c6f66e2248819d116f5b3d9554ae579f18c81d6d156281ca33c76"
+    },
+    {
+      "path": "Marco_Rubio/articles.preprocessed.jsonl.gz",
+      "bytes": 5688417,
+      "sha256": "8a6208ab1c6a3c83adb891a2aad628ad243f2b1befe1ea9ed6e195f45ea53b61"
+    },
+    {
+      "path": "Marco_Rubio/keywords.json",
+      "bytes": 24,
+      "sha256": "e29a83d7d3b2f44938d62ad3a9886cf5133f5b08670c3b2ce30d116e3e319328"
+    },
+    {
+      "path": "Marco_Rubio/timelines.jsonl",
+      "bytes": 1814,
+      "sha256": "5adfd67dbb900969a2524906cc6a793d98520bc678a72ee1f4e905de19866ea1"
+    },
+    {
+      "path": "Margaret_Thatcher/articles.preprocessed.jsonl.gz",
+      "bytes": 29399100,
+      "sha256": "5bbe3d06e88a6538ef1a699fb90f9805d8ceee1217d2c980596e35597cf11390"
+    },
+    {
+      "path": "Margaret_Thatcher/keywords.json",
+      "bytes": 33,
+      "sha256": "a5c8b3b37046fc183831e215c548ecaa1a22e203f3c600f2fa1d1491e82060ab"
+    },
+    {
+      "path": "Margaret_Thatcher/timelines.jsonl",
+      "bytes": 1739,
+      "sha256": "6b136c19e40244d9664cceda2b7013d75c13fb4536a3c350ed9874481d75d92a"
+    },
+    {
+      "path": "Michael_Jackson/articles.preprocessed.jsonl.gz",
+      "bytes": 11487949,
+      "sha256": "998e99675b50ec5dadc4da28dc93f822b90dba81b8eaee29ed406a0b8ef67f2e"
+    },
+    {
+      "path": "Michael_Jackson/keywords.json",
+      "bytes": 30,
+      "sha256": "62ff6e97df948b851e764efb5d7802ca95b125ba85790967cb0bd4572dc83d31"
+    },
+    {
+      "path": "Michael_Jackson/timelines.jsonl",
+      "bytes": 3814,
+      "sha256": "b458926cc3d343c765d528dc33810d87c8b376564ef32754bd66c9900c68a9b5"
+    },
+    {
+      "path": "Michelle_Obama/articles.preprocessed.jsonl.gz",
+      "bytes": 4686934,
+      "sha256": "c56bb8eb47a23df9a867d2d68c6b64ba2946f1223379a30618fd50d35dba6618"
+    },
+    {
+      "path": "Michelle_Obama/keywords.json",
+      "bytes": 27,
+      "sha256": "bf939db6e160fed8daf83c8fa71bca313ce3c4226aff7d87fb96df98fdaa1c86"
+    },
+    {
+      "path": "Michelle_Obama/timelines.jsonl",
+      "bytes": 1755,
+      "sha256": "298d283d5f53662cd07b576a4285d5b1d51d11b7019de6a54a5043664566279d"
+    },
+    {
+      "path": "Mitt_Romney/articles.preprocessed.jsonl.gz",
+      "bytes": 14606310,
+      "sha256": "59a5e48f777663d763fb7292be30a261711f30a59d1744b940bc71230777223e"
+    },
+    {
+      "path": "Mitt_Romney/keywords.json",
+      "bytes": 25,
+      "sha256": "6181b302621d903e6aacf82ad255a061295bd6e000ad09ffaa44e1e2606d1a15"
+    },
+    {
+      "path": "Mitt_Romney/timelines.jsonl",
+      "bytes": 2776,
+      "sha256": "4fa425f89392759b1dac797d18c8f4dfe508aec64b883ca8bf6431d2040e127f"
+    },
+    {
+      "path": "Morgan_Tsvangirai/articles.preprocessed.jsonl.gz",
+      "bytes": 3354367,
+      "sha256": "52af1ee5bf12d63d45949733154324d267c16789b127cce1080e838190c057a9"
+    },
+    {
+      "path": "Morgan_Tsvangirai/keywords.json",
+      "bytes": 35,
+      "sha256": "7d72d10835d200a864fb34b6bd22c91cf9ee060be9069ecf422be5f6892dbb3c"
+    },
+    {
+      "path": "Morgan_Tsvangirai/timelines.jsonl",
+      "bytes": 2854,
+      "sha256": "38a4c340154f6c16058b0798ce3a3f0ba6cd2c527a56c1f3f349f3db148355f3"
+    },
+    {
+      "path": "Nawaz_Sharif/articles.preprocessed.jsonl.gz",
+      "bytes": 2136034,
+      "sha256": "0d8ca17824c00b7eed182282e13b4e48cfd77224ee4d89c6a30c7218523265c5"
+    },
+    {
+      "path": "Nawaz_Sharif/keywords.json",
+      "bytes": 26,
+      "sha256": "d16c520922ddca163cd03b572d21d5dba9835f5838c49a15de9e42747475180b"
+    },
+    {
+      "path": "Nawaz_Sharif/timelines.jsonl",
+      "bytes": 5082,
+      "sha256": "ef353d3839b88c9386baeeeae4b166f8712dc4658ddaecc767f1cde0e87589ec"
+    },
+    {
+      "path": "Nelson_Mandela/articles.preprocessed.jsonl.gz",
+      "bytes": 13624628,
+      "sha256": "7fc7da319ec87a71cefbae0c9d520cea6348f4eda8d0f989d0e4f5ba60c31f43"
+    },
+    {
+      "path": "Nelson_Mandela/keywords.json",
+      "bytes": 29,
+      "sha256": "6be530f3999eac829cce5931de039364373df717b622cde600ba82450ebffb6d"
+    },
+    {
+      "path": "Nelson_Mandela/timelines.jsonl",
+      "bytes": 5451,
+      "sha256": "ce078b5f3925e592253b0115408f45313ba3b4b430281094ee8d717340be7db9"
+    },
+    {
+      "path": "Osama_bin_Laden/articles.preprocessed.jsonl.gz",
+      "bytes": 20172772,
+      "sha256": "23ff7ba02187974483e9f418aa7e9bebc80ec81bf9f2efccc54809fa4f85b9d1"
+    },
+    {
+      "path": "Osama_bin_Laden/keywords.json",
+      "bytes": 28,
+      "sha256": "0a3829be64ff1ecc77b0155402f85c207c4aa02fd4917b630d4c0322cdb2fbaf"
+    },
+    {
+      "path": "Osama_bin_Laden/timelines.jsonl",
+      "bytes": 4403,
+      "sha256": "6100958fe54de3210199ecbc371206bc1ba6c5cdd97b064caaeb1fc8d78b36ef"
+    },
+    {
+      "path": "Oscar_Pistorius/articles.preprocessed.jsonl.gz",
+      "bytes": 5645717,
+      "sha256": "43166c5ac0ffc853b98415a7a6db5eb731ac5a929cf9ccdb5ae7286671dd2fcc"
+    },
+    {
+      "path": "Oscar_Pistorius/keywords.json",
+      "bytes": 32,
+      "sha256": "0507aaccb4ae2cc59e84b695243f68503d3aee522b3364678a71c2e84e1a5150"
+    },
+    {
+      "path": "Oscar_Pistorius/timelines.jsonl",
+      "bytes": 5031,
+      "sha256": "116d6bbe7b06adf0268ed0d7d2de81d6202e350c8f037d12812cbcbc3a80a540"
+    },
+    {
+      "path": "Phil_Spector/articles.preprocessed.jsonl.gz",
+      "bytes": 1272822,
+      "sha256": "0cd6f8e4b698c419727be24ddec8d79881f59f52bd4d1d4859dc401da214d247"
+    },
+    {
+      "path": "Phil_Spector/keywords.json",
+      "bytes": 27,
+      "sha256": "57820348c89a0757aeefd8699fe7c666c9e492372d3f9ecfb51ba3df8c2a2518"
+    },
+    {
+      "path": "Phil_Spector/timelines.jsonl",
+      "bytes": 1729,
+      "sha256": "8fd6d85d88b372c2c2b78cb576e895812620b0ded445a02320c01a1c1f7d2e0f"
+    },
+    {
+      "path": "Prince_William/articles.preprocessed.jsonl.gz",
+      "bytes": 5904528,
+      "sha256": "daffc6989f04dd72c8a0796a9eaefd75086d962c381295b2da23f75879e25e71"
+    },
+    {
+      "path": "Prince_William/keywords.json",
+      "bytes": 29,
+      "sha256": "064e4461575bf3dedeedef1f3c317848595f0f176e9166f27485111ae3040174"
+    },
+    {
+      "path": "Prince_William/timelines.jsonl",
+      "bytes": 4222,
+      "sha256": "f3e30695cac3786d88748dbea837bbe46d1b43dc18f861e3ee8db5b588bb19e3"
+    },
+    {
+      "path": "Robert_Mugabe/articles.preprocessed.jsonl.gz",
+      "bytes": 16361958,
+      "sha256": "331aec1e257365ddb73391ca854de2368cd13fff03d8bb8f30660d585e6c9dfd"
+    },
+    {
+      "path": "Robert_Mugabe/keywords.json",
+      "bytes": 27,
+      "sha256": "c61ea492affd1e8c9c4e141e6a7c4c109ef3062d8b47b32e9ffb169a82bab446"
+    },
+    {
+      "path": "Robert_Mugabe/timelines.jsonl",
+      "bytes": 3564,
+      "sha256": "cba525884489bacf998b35e75c6902a66fc51625a479d374262643d7eff6211e"
+    },
+    {
+      "path": "Rupert_Murdoch/articles.preprocessed.jsonl.gz",
+      "bytes": 39046940,
+      "sha256": "62dc9667aed3fe2f2eaf892f59f5904a7f0e6980a6d1b2611de38023faeec6f1"
+    },
+    {
+      "path": "Rupert_Murdoch/keywords.json",
+      "bytes": 29,
+      "sha256": "e613f5ece71fe22be9f30d25b5eb2cb81b9cf5f81f7cd7b45226060f74fad2e8"
+    },
+    {
+      "path": "Rupert_Murdoch/timelines.jsonl",
+      "bytes": 4110,
+      "sha256": "81cceb9b64fa8c462b2e708ec1835a97b2baa6941b98df2d671dbf69e199e99f"
+    },
+    {
+      "path": "Saddam_Hussein/articles.preprocessed.jsonl.gz",
+      "bytes": 36103391,
+      "sha256": "1b2b201497f1e365b24a11a1b7bdcb193d85abfd18f4b98cedb00abdd7fa8fb6"
+    },
+    {
+      "path": "Saddam_Hussein/keywords.json",
+      "bytes": 29,
+      "sha256": "1206a214f5c0e77ee11939b717729592f75260a458ec36b88ad21cb19a6bf1ce"
+    },
+    {
+      "path": "Saddam_Hussein/timelines.jsonl",
+      "bytes": 3152,
+      "sha256": "08d9045423a6cbab9d6e2fe97fe05b6c0e1c61f73b896c8f65fac00b3c0d5888"
+    },
+    {
+      "path": "Sarah_Palin/articles.preprocessed.jsonl.gz",
+      "bytes": 8783873,
+      "sha256": "07f664228a001d064f140e9e57f8beaf0c49b2769e90771e9a17951229a42888"
+    },
+    {
+      "path": "Sarah_Palin/keywords.json",
+      "bytes": 24,
+      "sha256": "0ac556ef58532569eb392a2ddb0a63db69e2a36666da6468d777cf852acf414c"
+    },
+    {
+      "path": "Sarah_Palin/timelines.jsonl",
+      "bytes": 3639,
+      "sha256": "04b47e8cd739868223fe908171476caba9d506b24b1d2dc59154ee9e17dd7025"
+    },
+    {
+      "path": "Silvio_Berlusconi/articles.preprocessed.jsonl.gz",
+      "bytes": 13405861,
+      "sha256": "01f5f019186f37b92bc22f026ebf3f244f6b831e7fbd54fc8276b8944b9ab462"
+    },
+    {
+      "path": "Silvio_Berlusconi/keywords.json",
+      "bytes": 35,
+      "sha256": "42a11cbb01bb2edf5fafbb0a76c5ca2cc663ff83a49d7f8c4dd4dc1fd1be8bbe"
+    },
+    {
+      "path": "Silvio_Berlusconi/timelines.jsonl",
+      "bytes": 4809,
+      "sha256": "f147693225bc6e4a0e69663a39d839a79e4dc830eb1db00f27dc963fbe6ad75e"
+    },
+    {
+      "path": "Steve_Jobs/articles.preprocessed.jsonl.gz",
+      "bytes": 8111463,
+      "sha256": "7b5ddd97aced674557b4c3ebd5d11c004d04f2a53b873ab473efaf96f06cd824"
+    },
+    {
+      "path": "Steve_Jobs/keywords.json",
+      "bytes": 22,
+      "sha256": "4d12ab4aebcf475f1265725ea9ace6e5acd8a3afc79a3ea3a42006578218dd07"
+    },
+    {
+      "path": "Steve_Jobs/timelines.jsonl",
+      "bytes": 1945,
+      "sha256": "38a109d207e007af59c3c07b19c3363d539ec3a3558a0132a868f8a06332c146"
+    },
+    {
+      "path": "Taliban/articles.preprocessed.jsonl.gz",
+      "bytes": 26802663,
+      "sha256": "416d763b5228c7f8cdfab0fb299ac354e6bdb4687374c1c168f503c5c13c7949"
+    },
+    {
+      "path": "Taliban/keywords.json",
+      "bytes": 11,
+      "sha256": "ab04a9a69cc1196421779f73de1c62bd5dbf8467c90515f9c5b69e52b16f6e40"
+    },
+    {
+      "path": "Taliban/timelines.jsonl",
+      "bytes": 4844,
+      "sha256": "b205940258e34a82540c8a5a079c60dd0293a03eefedc91085cb231d3becd9ea"
+    },
+    {
+      "path": "Ted_Cruz/articles.preprocessed.jsonl.gz",
+      "bytes": 8714783,
+      "sha256": "058353244d72dee0142d5990c2f737cf6c6237ff4880bb1e29cac61f552eb4ac"
+    },
+    {
+      "path": "Ted_Cruz/keywords.json",
+      "bytes": 20,
+      "sha256": "221c90386419c814a91d4eb037cdb4463cdd4862a403549080e3291dc60a4464"
+    },
+    {
+      "path": "Ted_Cruz/timelines.jsonl",
+      "bytes": 1793,
+      "sha256": "4aa78cb203a6b28c8d2812a8ce5eddbfeb95aa7ecefeb01ea0033d0e974c44b3"
+    },
+    {
+      "path": "Tiger_Woods/articles.preprocessed.jsonl.gz",
+      "bytes": 16172588,
+      "sha256": "9e5f2870a379e13924bfcc8b949b9689ff975428dd074be5a786c732a7aa2a91"
+    },
+    {
+      "path": "Tiger_Woods/keywords.json",
+      "bytes": 24,
+      "sha256": "fecb7328e18be6b86e942893b1fec47938693d24365aa233239b2e451708be29"
+    },
+    {
+      "path": "Tiger_Woods/timelines.jsonl",
+      "bytes": 6967,
+      "sha256": "8fa11f22c53e47b4ce1d5ebeafec88d0e39e68ab89c8af722a6a371c2de14fc6"
+    },
+    {
+      "path": "WikiLeaks/articles.preprocessed.jsonl.gz",
+      "bytes": 13778632,
+      "sha256": "c8d5b30419be7380cbfb3b1dea41ab9115aae1e4141733c0a9d00ebd20de5ddd"
+    },
+    {
+      "path": "WikiLeaks/keywords.json",
+      "bytes": 13,
+      "sha256": "2e6046432666faf9ed5ebc9fe2ed6f55ca5720c590565f9c8de1f73243cf4f31"
+    },
+    {
+      "path": "WikiLeaks/timelines.jsonl",
+      "bytes": 5697,
+      "sha256": "2771661aebfddb10775a33b152b54496fb15c356a8a9d62962f99b5209b958a7"
+    }
+  ]
+}
