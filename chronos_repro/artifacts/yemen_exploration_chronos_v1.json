@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "stopped_llm_error",
+  "status": "ok",
   "strategy": "exploration_chronos_v1",
   "search_engine": "crisis yemen",
   "config": {
@@ -281,12 +281,726 @@
         ]
       },
       "audit": null
+    },
+    {
+      "round": 2,
+      "state": {
+        "covered_dates": [
+          "2011-03-21",
+          "2011-03-24",
+          "2011-04-06",
+          "2011-04-23",
+          "2011-05-10",
+          "2011-06-02",
+          "2011-06-03",
+          "2011-06-15",
+          "2011-08-22",
+          "2011-09-20",
+          "2011-09-23",
+          "2011-09-28",
+          "2011-09-30",
+          "2011-12-15",
+          "2012-01-05",
+          "2012-02-20",
+          "2012-09-27",
+          "2012-10-07",
+          "2013-07-10"
+        ],
+        "date_gaps": [
+          {
+            "start": "2012-10-07",
+            "end": "2013-07-10",
+            "days": 276
+          },
+          {
+            "start": "2012-02-20",
+            "end": "2012-09-27",
+            "days": 220
+          },
+          {
+            "start": "2011-09-30",
+            "end": "2011-12-15",
+            "days": 76
+          },
+          {
+            "start": "2011-06-15",
+            "end": "2011-08-22",
+            "days": 68
+          },
+          {
+            "start": "2011-01-15",
+            "end": "2011-03-21",
+            "days": 65
+          },
+          {
+            "start": "2012-01-05",
+            "end": "2012-02-20",
+            "days": 46
+          },
+          {
+            "start": "2011-08-22",
+            "end": "2011-09-20",
+            "days": 29
+          },
+          {
+            "start": "2011-05-10",
+            "end": "2011-06-02",
+            "days": 23
+          },
+          {
+            "start": "2011-12-15",
+            "end": "2012-01-05",
+            "days": 21
+          },
+          {
+            "start": "2011-04-06",
+            "end": "2011-04-23",
+            "days": 17
+          },
+          {
+            "start": "2011-04-23",
+            "end": "2011-05-10",
+            "days": 17
+          },
+          {
+            "start": "2013-07-10",
+            "end": "2013-07-25",
+            "days": 15
+          }
+        ]
+      },
+      "action": {
+        "type": "SEARCH",
+        "query": "Yemen National Dialogue Conference 2013"
+      },
+      "observation": {
+        "results": [
+          {
+            "id": "192",
+            "title": "Fighting paralysis in Yemen’s dialogue",
+            "snippet": "Fighting paralysis in Yemen’s dialogue\nYemen’s National Dialogue Conference is now readying for its second general plenary to discuss the initial drafts of the dialogue committees. The committees will then … ",
+            "url": "",
+            "timestamp": "2013-07-01",
+            "score": 14.395270225146659,
+            "topic": "yemen"
+          },
+          {
+            "id": "65",
+            "title": "Yemen secessionist calls for independence of south",
+            "snippet": "Yemen secessionist calls for independence of south\nYemeni soldiers stand guard next to poster of the national dialogue during the dialogue's first opening conference in Sanaa March 19, 2013. (REUTERS/Mohamed … ",
+            "url": "",
+            "timestamp": "2013-03-19",
+            "score": 14.225569255404102,
+            "topic": "yemen"
+          },
+          {
+            "id": "2708",
+            "title": "Yemen's future remains unclear",
+            "snippet": "Yemen's future remains unclear\nApr 5 2013  Yemen's future is still unclear since an uprising forced President Ali Abdullah Saleh from office after 33 years. With the National Dialogue Conference … ",
+            "url": "",
+            "timestamp": "2013-04-05",
+            "score": 13.66048079057622,
+            "topic": "yemen"
+          },
+          {
+            "id": "1348",
+            "title": "The Myth of the \"Yemen Model\"",
+            "snippet": " … politics a chance.\" Friedman is referring to the internationally backed National Dialogue Conference (NDC) in Yemen. The NDC began in March 2013 and is to last for six months, with 565 delegates … ",
+            "url": "",
+            "timestamp": "2013-05-29",
+            "score": 13.627831061483043,
+            "topic": "yemen"
+          },
+          {
+            "id": "1180",
+            "title": "Top UN team in Yemen to push reconciliation",
+            "snippet": " … The trip comes as Sanaa struggles to organise a national dialogue conference that would result in a new constitution and presidential and parliamentary elections in February 2014, thereby ending the current two … ",
+            "url": "",
+            "timestamp": "2013-01-27",
+            "score": 13.626996177611947,
+            "topic": "yemen"
+          },
+          {
+            "id": "1340",
+            "title": "Yemeni women make their voices heard",
+            "snippet": " … Now we will fight for a constitution that is inclusive of women and men alike.\" - A young woman at the National Dialogue Conference, March 2013, Sanaa, Yemen \nYemeni women are some of … ",
+            "url": "",
+            "timestamp": "2013-05-23",
+            "score": 12.726081471969849,
+            "topic": "yemen"
+          },
+          {
+            "id": "3015",
+            "title": "Separatist marches challenge Yemen's reform conference",
+            "snippet": " … Hadi, opening a so-called national dialogue conference expected to last six months, said the restive south was the main challenge facing the discussions.\nThe conference would place the first building blocks … ",
+            "url": "",
+            "timestamp": "2013-03-18",
+            "score": 12.502797510811046,
+            "topic": "yemen"
+          },
+          {
+            "id": "1874",
+            "title": "Separatist rally challenges Yemen's reform efforts",
+            "snippet": " … The national dialogue conference, promised under a Gulf-brokered deal, is the country's most important political gathering in fifty years and is intended to pave the way for elections in 2014 … ",
+            "url": "",
+            "timestamp": "2013-03-18",
+            "score": 12.48521271104465,
+            "topic": "yemen"
+          },
+          {
+            "id": "4940",
+            "title": "Yemen national dialogue participants",
+            "snippet": "Yemen national dialogue participants\nYemen's national dialogue, which opens on Monday in Sanaa and runs for six months, brings together 565 representatives of various political groups of which the most important … ",
+            "url": "",
+            "timestamp": "2013-03-15",
+            "score": 12.420910722333947,
+            "topic": "yemen"
+          },
+          {
+            "id": "1199",
+            "title": "Yemen parties debate new political system",
+            "snippet": "Yemen parties debate new political system\nYemeni participants attend the opening of the National Dialogue Conference in Sanaa, Yemen, Monday, March 18, 2013. (AP Photo/Hani Mohammed)\nSANAA, Yemen: Yemen's politicians … ",
+            "url": "",
+            "timestamp": "2013-03-18",
+            "score": 12.420234275529701,
+            "topic": "yemen"
+          },
+          {
+            "id": "3039",
+            "title": "Ali Abdullah Saleh, Former Yemeni President, Reportedly Travels To Saudi Arabia For Medical Treatment",
+            "snippet": " … His critics accuse him of trying to impede the work of a landmark national dialogue conference that opened two weeks ago, seen as a key step in a power transfer plan for … ",
+            "url": "",
+            "timestamp": "2013-04-02",
+            "score": 12.167379880973925,
+            "topic": "yemen"
+          },
+          {
+            "id": "4090",
+            "title": "Three killed as Yemen separatists, police clash",
+            "snippet": " … South Yemen broke away in 1994, sparking a civil war, before it was overrun by northern troops. The Southern Movement has been divided over participating in Yemen's national dialogue.\nAll its … ",
+            "url": "",
+            "timestamp": "2013-02-23",
+            "score": 12.16590926178336,
+            "topic": "yemen"
+          },
+          {
+            "id": "4143",
+            "title": "Yemen's Hadi urges vigilance for national dialogue",
+            "snippet": "Yemen's Hadi urges vigilance for national dialogue\nPresident Abdrabuh Mansur Hadi Thursday urged Yemen's army and security forces brass to be vigilant in case enemies of the state try to … ",
+            "url": "",
+            "timestamp": "2013-03-07",
+            "score": 11.699899171954652,
+            "topic": "yemen"
+          },
+          {
+            "id": "432",
+            "title": "Yemen exleaders get UN sanctions warning",
+            "snippet": " … Lyall Grant said that during a Security Council mission to Yemen three weeks ago members heard concerns about Saleh and other \"spoilers\" undermining a national dialogue conference, which Hadi has scheduled to … ",
+            "url": "",
+            "timestamp": "2013-02-16",
+            "score": 11.44778554006372,
+            "topic": "yemen"
+          },
+          {
+            "id": "4017",
+            "title": "Yemen secessionist calls for independence of south",
+            "snippet": "Yemen secessionist calls for independence of south\nSANAA, Yemen (AP) — A member of the Yemeni al-Harak secessionist movement won applause at a landmark national dialogue on Tuesday by declaring that the … ",
+            "url": "",
+            "timestamp": "2013-03-19",
+            "score": 11.255163070401952,
+            "topic": "yemen"
+          },
+          {
+            "id": "2989",
+            "title": "Yemen Making Strides in Transition to Democracy After Arab Spring",
+            "snippet": " … It is called the National Dialogue Conference, and it is the closest any of the 2011 Arab revolutions has approached to a peaceful, broad-based transition from despotism to democracy.\n“It is … ",
+            "url": "",
+            "timestamp": "2013-05-25",
+            "score": 11.21664586061402,
+            "topic": "yemen"
+          },
+          {
+            "id": "3233",
+            "title": "",
+            "snippet": " … Seeking to head off the protests, Saleh called for national dialogue after meetings on Monday with the country's senior political and security chiefs. The state-run news agency said the conference … ",
+            "url": "",
+            "timestamp": "2011-03-08",
+            "score": 11.102257690879034,
+            "topic": "yemen"
+          },
+          {
+            "id": "1361",
+            "title": "Yemenis launch tough talks on national reconciliation",
+            "snippet": "Yemenis launch tough talks on national reconciliation\nYemen, the only country where an Arab Spring revolt led to a negotiated settlement, on Monday launches a UN-backed national dialogue aimed at drawing … ",
+            "url": "",
+            "timestamp": "2013-03-17",
+            "score": 11.048449399816516,
+            "topic": "yemen"
+          },
+          {
+            "id": "5735",
+            "title": "Yemen Expresident Saleh leaves for Saudi Arabia",
+            "snippet": " … His critics accuse him of trying to impede the work of a landmark national dialogue conference that opened two weeks ago, seen as a key step in a power transfer plan for … ",
+            "url": "",
+            "timestamp": "2013-04-02",
+            "score": 10.37273582018282,
+            "topic": "yemen"
+          },
+          {
+            "id": "4723",
+            "title": "Yemen needs stability for dialogue",
+            "snippet": "Yemen needs stability for dialogue\nYemen’s National Dialogue is scheduled to start on March 18, but despite government measures, the country’s overall security remains under threat. Political assassinations are on … ",
+            "url": "",
+            "timestamp": "2013-03-12",
+            "score": 10.35573260560495,
+            "topic": "yemen"
+          }
+        ],
+        "new_doc_ids": [
+          "192",
+          "65",
+          "2708",
+          "1348",
+          "1180",
+          "1340",
+          "3015",
+          "1874",
+          "4940",
+          "1199",
+          "3039",
+          "4090",
+          "4143",
+          "432",
+          "4017",
+          "2989",
+          "3233",
+          "1361",
+          "5735",
+          "4723"
+        ],
+        "new_dates": [
+          "2011-03-08",
+          "2013-01-27",
+          "2013-02-16",
+          "2013-02-23",
+          "2013-03-07",
+          "2013-03-12",
+          "2013-03-15",
+          "2013-03-17",
+          "2013-03-18",
+          "2013-03-19",
+          "2013-04-02",
+          "2013-04-05",
+          "2013-05-23",
+          "2013-05-25",
+          "2013-05-29",
+          "2013-07-01"
+        ]
+      },
+      "audit": {
+        "text": "Yemen National Dialogue Conference 2013",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "prompt_tokens": 579,
+          "completion_tokens": 203,
+          "total_tokens": 782,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 194
+          },
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 579
+        },
+        "request_id": null,
+        "target_gap": {
+          "start": "2012-10-07",
+          "end": "2013-07-10",
+          "days": 276
+        },
+        "max_previous_similarity": 0.14285714285714285,
+        "deterministic_fallback": false
+      }
+    },
+    {
+      "round": 3,
+      "state": {
+        "covered_dates": [
+          "2011-03-08",
+          "2011-03-21",
+          "2011-03-24",
+          "2011-04-06",
+          "2011-04-23",
+          "2011-05-10",
+          "2011-06-02",
+          "2011-06-03",
+          "2011-06-15",
+          "2011-08-22",
+          "2011-09-20",
+          "2011-09-23",
+          "2011-09-28",
+          "2011-09-30",
+          "2011-12-15",
+          "2012-01-05",
+          "2012-02-20",
+          "2012-09-27",
+          "2012-10-07",
+          "2013-01-27",
+          "2013-02-16",
+          "2013-02-23",
+          "2013-03-07",
+          "2013-03-12",
+          "2013-03-15",
+          "2013-03-17",
+          "2013-03-18",
+          "2013-03-19",
+          "2013-04-02",
+          "2013-04-05",
+          "2013-05-23",
+          "2013-05-25",
+          "2013-05-29",
+          "2013-07-01",
+          "2013-07-10"
+        ],
+        "date_gaps": [
+          {
+            "start": "2012-02-20",
+            "end": "2012-09-27",
+            "days": 220
+          },
+          {
+            "start": "2012-10-07",
+            "end": "2013-01-27",
+            "days": 112
+          },
+          {
+            "start": "2011-09-30",
+            "end": "2011-12-15",
+            "days": 76
+          },
+          {
+            "start": "2011-06-15",
+            "end": "2011-08-22",
+            "days": 68
+          },
+          {
+            "start": "2011-01-15",
+            "end": "2011-03-08",
+            "days": 52
+          },
+          {
+            "start": "2013-04-05",
+            "end": "2013-05-23",
+            "days": 48
+          },
+          {
+            "start": "2012-01-05",
+            "end": "2012-02-20",
+            "days": 46
+          },
+          {
+            "start": "2013-05-29",
+            "end": "2013-07-01",
+            "days": 33
+          },
+          {
+            "start": "2011-08-22",
+            "end": "2011-09-20",
+            "days": 29
+          },
+          {
+            "start": "2011-05-10",
+            "end": "2011-06-02",
+            "days": 23
+          },
+          {
+            "start": "2011-12-15",
+            "end": "2012-01-05",
+            "days": 21
+          },
+          {
+            "start": "2013-01-27",
+            "end": "2013-02-16",
+            "days": 20
+          },
+          {
+            "start": "2011-04-06",
+            "end": "2011-04-23",
+            "days": 17
+          },
+          {
+            "start": "2011-04-23",
+            "end": "2011-05-10",
+            "days": 17
+          },
+          {
+            "start": "2013-07-10",
+            "end": "2013-07-25",
+            "days": 15
+          },
+          {
+            "start": "2013-03-19",
+            "end": "2013-04-02",
+            "days": 14
+          }
+        ]
+      },
+      "action": {
+        "type": "SEARCH",
+        "query": "Yemen Hadi sworn in president February 2012"
+      },
+      "observation": {
+        "results": [
+          {
+            "id": "84",
+            "title": "Sanaa New Yemen President Abdurabu Mansur Hadi sworn in",
+            "snippet": " … February 25, 2012 ahead of formal handover of power by veteran strongman Ali Abdullah Saleh.  (MOHAMMED HUWAIS/AFP/Getty Images)\nAbdurabu Mansur Hadi has been sworn as Yemen’s president in Sanaa … ",
+            "url": "",
+            "timestamp": "2012-02-25",
+            "score": 22.169462899079367,
+            "topic": "yemen"
+          },
+          {
+            "id": "3122",
+            "title": "Newly elected Yemen president sworn in, replacing Saleh",
+            "snippet": "Newly elected Yemen president sworn in, replacing Saleh\nAbd-Rabbu Mansour Hadi takes constitutional oath; more than 60 percent of eligible voters took part in election this week.\nAbd-Rabbu Mansour Hadi … ",
+            "url": "",
+            "timestamp": "2012-02-25",
+            "score": 18.88894143982732,
+            "topic": "yemen"
+          },
+          {
+            "id": "420",
+            "title": "",
+            "snippet": " … February 25, 2012 - Abdurabu Mansur Hadi is sworn in as president of Yemen.\nFebruary 27, 2012 - The official inauguration of Abdurabu Mansur Hadi takes place.\nFebruary 29, 2012 - A spokesman for former … ",
+            "url": "",
+            "timestamp": "2013-07-10",
+            "score": 18.53950334492926,
+            "topic": "yemen"
+          },
+          {
+            "id": "4897",
+            "title": "Saleh hands difficult phase over to new Yemen",
+            "snippet": " … Yemen's new president Abd-Rabbu Mansour Hadi (L) receives the country's national flag from former president Ali Abdullah Saleh during a ceremony at the presidential palace in Sanaa February 27 … ",
+            "url": "",
+            "timestamp": "2012-02-27",
+            "score": 17.421320281517854,
+            "topic": "yemen"
+          },
+          {
+            "id": "3635",
+            "title": "Yemen the road to national dialogue",
+            "snippet": " … President Hadi pays his first visit to the south, urging separatists to take part in the national dialogue.\n- February 27: Saleh rallies his loyalists in Sanaa to reassert his support for Yemen … ",
+            "url": "",
+            "timestamp": "2013-03-15",
+            "score": 17.264919477734914,
+            "topic": "yemen"
+          },
+          {
+            "id": "3067",
+            "title": "Yemen’s new president sworn in as car bomb kills at least 25",
+            "snippet": "Yemen’s new president sworn in as car bomb kills at least 25\nNAIROBI — Hours after Yemen’s new president was sworn in, formally ending President Ali Abdullah Saleh’s 33-year … ",
+            "url": "",
+            "timestamp": "2012-02-25",
+            "score": 16.23757160177964,
+            "topic": "yemen"
+          },
+          {
+            "id": "5508",
+            "title": "Yemen car bombing Al Qaeda kills at least 26 people after President Hadi is sworn in",
+            "snippet": "Yemen car bombing Al Qaeda kills at least 26 people after President Hadi is sworn in   Mail Online\nBritish Muslim convert to face trial in Kenya over possession of explosives linked to … ",
+            "url": "",
+            "timestamp": "2012-02-25",
+            "score": 15.72240459391063,
+            "topic": "yemen"
+          },
+          {
+            "id": "53",
+            "title": "",
+            "snippet": " … The blast happened hours after Abd Rabbu Mansour Hadi was sworn as Yemen's new president [Reuters]\nA car bomb has caused many casualties and injuries outside a presidential palace in southern … ",
+            "url": "",
+            "timestamp": "2012-02-25",
+            "score": 15.693809117164456,
+            "topic": "yemen"
+          },
+          {
+            "id": "2374",
+            "title": "The Arab Spring revolt, war and transition",
+            "snippet": " … In February, veteran Yemeni President Ali Abdullah Saleh hands power to his successor Vice President Abdrabuh Mansur Hadi.\nThe transfer of power puts the seal on a handover deal mediated by Gulf … ",
+            "url": "",
+            "timestamp": "2012-12-14",
+            "score": 14.71331511295442,
+            "topic": "yemen"
+          },
+          {
+            "id": "1672",
+            "title": "Ali Abdullah Saleh, Yemen President, To Be Granted Diplomatic Immunity Upon U.S. Arrival",
+            "snippet": "Ali Abdullah Saleh, Yemen President, To Be Granted Diplomatic Immunity Upon U.S. Arrival\nIn this Feb. 5, 2012 file photo, Yemeni President Ali Abdullah Saleh waves to people protesting his presence … ",
+            "url": "",
+            "timestamp": "2012-01-25",
+            "score": 14.579290055074463,
+            "topic": "yemen"
+          },
+          {
+            "id": "3664",
+            "title": "Ali Abdullah Saleh Fast Facts",
+            "snippet": " … Yemen's embassy in Washington says Saleh has returned from the United States to his residence in Sanaa.\nFebruary 27, 2012 - Attends the handover ceremony, cementing a power transfer deal to Hadi … ",
+            "url": "",
+            "timestamp": "2013-07-11",
+            "score": 14.551466058715746,
+            "topic": "yemen"
+          },
+          {
+            "id": "1311",
+            "title": "Yemeni VP announces he'll run for president",
+            "snippet": "Yemeni VP announces he'll run for president\nFebruary 7, 2012 -- Updated 2146 GMT (0546 HKT)\nAbdurabuh Mansur Hadi, Yemen's vice president and acting leader, opened his election campaign Tuesday in … ",
+            "url": "",
+            "timestamp": "2012-02-07",
+            "score": 14.527255254447054,
+            "topic": "yemen"
+          },
+          {
+            "id": "367",
+            "title": "Yemeni Militants’ Attack Kills Dozens",
+            "snippet": " … The attack underscored the profound security challenges facing President Abdu Rabbu Mansour Hadi , who was sworn in just a week ago after the longtime leader, Ali Abdullah Saleh, stepped aside. During the … ",
+            "url": "",
+            "timestamp": "2012-03-04",
+            "score": 14.497839194955473,
+            "topic": "yemen"
+          },
+          {
+            "id": "3354",
+            "title": "Yemen protest as antiSaleh detainees on hunger strike",
+            "snippet": " … Activists said some of the detainees are suspected of involvement in an attack on Saleh, in June 2011, which killed 11 of his guards.\nHadi was elected in February 2012 as part … ",
+            "url": "",
+            "timestamp": "2013-05-28",
+            "score": 14.4945197528429,
+            "topic": "yemen"
+          },
+          {
+            "id": "3288",
+            "title": "",
+            "snippet": " … State news agency Saba said Vice President Abd-Rabbu Mansour Hadi, to whom Saleh transferred power under a deal to ease him from office, chaired the meeting of the newly sworn-in … ",
+            "url": "",
+            "timestamp": "2011-12-10",
+            "score": 14.459224523970796,
+            "topic": "yemen"
+          },
+          {
+            "id": "972",
+            "title": "Yemen cabinet approves amnesty law for Saleh",
+            "snippet": "Yemen cabinet approves amnesty law for Saleh\nJanuary 9, 2012 -- Updated 1120 GMT (1920 HKT)\nYemeni President Ali Abdullah Saleh speaks during a meeting with leaders of his ruling party in Sanaa … ",
+            "url": "",
+            "timestamp": "2012-01-09",
+            "score": 14.275685715392441,
+            "topic": "yemen"
+          },
+          {
+            "id": "4753",
+            "title": "Yemen minister on hunger strike for activists' release",
+            "snippet": " … Hadi was elected in February 2012 as part of a UN-backed, Gulf-brokered exit deal that eased veteran Saleh out of office after 33 years in power, and ended a year … ",
+            "url": "",
+            "timestamp": "2013-06-02",
+            "score": 14.195043639593164,
+            "topic": "yemen"
+          },
+          {
+            "id": "4143",
+            "title": "Yemen's Hadi urges vigilance for national dialogue",
+            "snippet": " … Hadi was elected in February 2012 as part of a UN-backed Gulf-brokered exit deal that eased veteran president Ali Abdullah Saleh out of office after 33 years in power, and … ",
+            "url": "",
+            "timestamp": "2013-03-07",
+            "score": 14.14977674641453,
+            "topic": "yemen"
+          },
+          {
+            "id": "5094",
+            "title": "Yemeni vice president fixes February 21 election date",
+            "snippet": " … are called on to vote in early elections for a new president of the republic starting at 8 o'clock on the morning of Tuesday, February 21, 2012,\" said the decree, a … ",
+            "url": "",
+            "timestamp": "2011-11-26",
+            "score": 14.129353318692054,
+            "topic": "yemen"
+          },
+          {
+            "id": "3453",
+            "title": "Yemen crisis leaves 5 million people in need of emergency food aid, says WFP",
+            "snippet": " … Last month, Abed-Rabbo Mansour Hadi was sworn in as Yemen's new president , taking over from Ali Abdullah Saleh, who ceded power after 33 years. Inspired by the revolt in Tunisia … ",
+            "url": "",
+            "timestamp": "2012-03-14",
+            "score": 14.114059093856284,
+            "topic": "yemen"
+          }
+        ],
+        "new_doc_ids": [
+          "84",
+          "3122",
+          "4897",
+          "3635",
+          "3067",
+          "5508",
+          "53",
+          "2374",
+          "1672",
+          "3664",
+          "1311",
+          "367",
+          "3354",
+          "3288",
+          "972",
+          "4753",
+          "5094",
+          "3453"
+        ],
+        "new_dates": [
+          "2011-11-26",
+          "2011-12-10",
+          "2012-01-09",
+          "2012-01-25",
+          "2012-02-07",
+          "2012-02-25",
+          "2012-02-27",
+          "2012-03-04",
+          "2012-03-14",
+          "2012-12-14",
+          "2013-05-28",
+          "2013-06-02",
+          "2013-07-11"
+        ]
+      },
+      "audit": {
+        "text": "Yemen Hadi sworn in president February 2012",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "prompt_tokens": 581,
+          "completion_tokens": 402,
+          "total_tokens": 983,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 390
+          },
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 581
+        },
+        "request_id": null,
+        "target_gap": {
+          "start": "2012-02-20",
+          "end": "2012-09-27",
+          "days": 220
+        },
+        "max_previous_similarity": 0.1111111111111111,
+        "deterministic_fallback": false
+      }
     }
   ],
-  "stop_reason": "llm_error",
-  "error": "DeepSeek connection failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)",
+  "stop_reason": "max_rounds",
   "queries": [
-    "Yemen crisis timeline"
+    "Yemen crisis timeline",
+    "Yemen National Dialogue Conference 2013",
+    "Yemen Hadi sworn in president February 2012"
   ],
   "unique_results": [
     {
@@ -468,9 +1182,352 @@
       "timestamp": "2011-04-23",
       "score": 4.999259347866559,
       "topic": "yemen"
+    },
+    {
+      "id": "192",
+      "title": "Fighting paralysis in Yemen’s dialogue",
+      "snippet": "Fighting paralysis in Yemen’s dialogue\nYemen’s National Dialogue Conference is now readying for its second general plenary to discuss the initial drafts of the dialogue committees. The committees will then … ",
+      "url": "",
+      "timestamp": "2013-07-01",
+      "score": 14.395270225146659,
+      "topic": "yemen"
+    },
+    {
+      "id": "65",
+      "title": "Yemen secessionist calls for independence of south",
+      "snippet": "Yemen secessionist calls for independence of south\nYemeni soldiers stand guard next to poster of the national dialogue during the dialogue's first opening conference in Sanaa March 19, 2013. (REUTERS/Mohamed … ",
+      "url": "",
+      "timestamp": "2013-03-19",
+      "score": 14.225569255404102,
+      "topic": "yemen"
+    },
+    {
+      "id": "2708",
+      "title": "Yemen's future remains unclear",
+      "snippet": "Yemen's future remains unclear\nApr 5 2013  Yemen's future is still unclear since an uprising forced President Ali Abdullah Saleh from office after 33 years. With the National Dialogue Conference … ",
+      "url": "",
+      "timestamp": "2013-04-05",
+      "score": 13.66048079057622,
+      "topic": "yemen"
+    },
+    {
+      "id": "1348",
+      "title": "The Myth of the \"Yemen Model\"",
+      "snippet": " … politics a chance.\" Friedman is referring to the internationally backed National Dialogue Conference (NDC) in Yemen. The NDC began in March 2013 and is to last for six months, with 565 delegates … ",
+      "url": "",
+      "timestamp": "2013-05-29",
+      "score": 13.627831061483043,
+      "topic": "yemen"
+    },
+    {
+      "id": "1180",
+      "title": "Top UN team in Yemen to push reconciliation",
+      "snippet": " … The trip comes as Sanaa struggles to organise a national dialogue conference that would result in a new constitution and presidential and parliamentary elections in February 2014, thereby ending the current two … ",
+      "url": "",
+      "timestamp": "2013-01-27",
+      "score": 13.626996177611947,
+      "topic": "yemen"
+    },
+    {
+      "id": "1340",
+      "title": "Yemeni women make their voices heard",
+      "snippet": " … Now we will fight for a constitution that is inclusive of women and men alike.\" - A young woman at the National Dialogue Conference, March 2013, Sanaa, Yemen \nYemeni women are some of … ",
+      "url": "",
+      "timestamp": "2013-05-23",
+      "score": 12.726081471969849,
+      "topic": "yemen"
+    },
+    {
+      "id": "3015",
+      "title": "Separatist marches challenge Yemen's reform conference",
+      "snippet": " … Hadi, opening a so-called national dialogue conference expected to last six months, said the restive south was the main challenge facing the discussions.\nThe conference would place the first building blocks … ",
+      "url": "",
+      "timestamp": "2013-03-18",
+      "score": 12.502797510811046,
+      "topic": "yemen"
+    },
+    {
+      "id": "1874",
+      "title": "Separatist rally challenges Yemen's reform efforts",
+      "snippet": " … The national dialogue conference, promised under a Gulf-brokered deal, is the country's most important political gathering in fifty years and is intended to pave the way for elections in 2014 … ",
+      "url": "",
+      "timestamp": "2013-03-18",
+      "score": 12.48521271104465,
+      "topic": "yemen"
+    },
+    {
+      "id": "4940",
+      "title": "Yemen national dialogue participants",
+      "snippet": "Yemen national dialogue participants\nYemen's national dialogue, which opens on Monday in Sanaa and runs for six months, brings together 565 representatives of various political groups of which the most important … ",
+      "url": "",
+      "timestamp": "2013-03-15",
+      "score": 12.420910722333947,
+      "topic": "yemen"
+    },
+    {
+      "id": "1199",
+      "title": "Yemen parties debate new political system",
+      "snippet": "Yemen parties debate new political system\nYemeni participants attend the opening of the National Dialogue Conference in Sanaa, Yemen, Monday, March 18, 2013. (AP Photo/Hani Mohammed)\nSANAA, Yemen: Yemen's politicians … ",
+      "url": "",
+      "timestamp": "2013-03-18",
+      "score": 12.420234275529701,
+      "topic": "yemen"
+    },
+    {
+      "id": "3039",
+      "title": "Ali Abdullah Saleh, Former Yemeni President, Reportedly Travels To Saudi Arabia For Medical Treatment",
+      "snippet": " … His critics accuse him of trying to impede the work of a landmark national dialogue conference that opened two weeks ago, seen as a key step in a power transfer plan for … ",
+      "url": "",
+      "timestamp": "2013-04-02",
+      "score": 12.167379880973925,
+      "topic": "yemen"
+    },
+    {
+      "id": "4090",
+      "title": "Three killed as Yemen separatists, police clash",
+      "snippet": " … South Yemen broke away in 1994, sparking a civil war, before it was overrun by northern troops. The Southern Movement has been divided over participating in Yemen's national dialogue.\nAll its … ",
+      "url": "",
+      "timestamp": "2013-02-23",
+      "score": 12.16590926178336,
+      "topic": "yemen"
+    },
+    {
+      "id": "4143",
+      "title": "Yemen's Hadi urges vigilance for national dialogue",
+      "snippet": "Yemen's Hadi urges vigilance for national dialogue\nPresident Abdrabuh Mansur Hadi Thursday urged Yemen's army and security forces brass to be vigilant in case enemies of the state try to … ",
+      "url": "",
+      "timestamp": "2013-03-07",
+      "score": 11.699899171954652,
+      "topic": "yemen"
+    },
+    {
+      "id": "432",
+      "title": "Yemen exleaders get UN sanctions warning",
+      "snippet": " … Lyall Grant said that during a Security Council mission to Yemen three weeks ago members heard concerns about Saleh and other \"spoilers\" undermining a national dialogue conference, which Hadi has scheduled to … ",
+      "url": "",
+      "timestamp": "2013-02-16",
+      "score": 11.44778554006372,
+      "topic": "yemen"
+    },
+    {
+      "id": "4017",
+      "title": "Yemen secessionist calls for independence of south",
+      "snippet": "Yemen secessionist calls for independence of south\nSANAA, Yemen (AP) — A member of the Yemeni al-Harak secessionist movement won applause at a landmark national dialogue on Tuesday by declaring that the … ",
+      "url": "",
+      "timestamp": "2013-03-19",
+      "score": 11.255163070401952,
+      "topic": "yemen"
+    },
+    {
+      "id": "2989",
+      "title": "Yemen Making Strides in Transition to Democracy After Arab Spring",
+      "snippet": " … It is called the National Dialogue Conference, and it is the closest any of the 2011 Arab revolutions has approached to a peaceful, broad-based transition from despotism to democracy.\n“It is … ",
+      "url": "",
+      "timestamp": "2013-05-25",
+      "score": 11.21664586061402,
+      "topic": "yemen"
+    },
+    {
+      "id": "3233",
+      "title": "",
+      "snippet": " … Seeking to head off the protests, Saleh called for national dialogue after meetings on Monday with the country's senior political and security chiefs. The state-run news agency said the conference … ",
+      "url": "",
+      "timestamp": "2011-03-08",
+      "score": 11.102257690879034,
+      "topic": "yemen"
+    },
+    {
+      "id": "1361",
+      "title": "Yemenis launch tough talks on national reconciliation",
+      "snippet": "Yemenis launch tough talks on national reconciliation\nYemen, the only country where an Arab Spring revolt led to a negotiated settlement, on Monday launches a UN-backed national dialogue aimed at drawing … ",
+      "url": "",
+      "timestamp": "2013-03-17",
+      "score": 11.048449399816516,
+      "topic": "yemen"
+    },
+    {
+      "id": "5735",
+      "title": "Yemen Expresident Saleh leaves for Saudi Arabia",
+      "snippet": " … His critics accuse him of trying to impede the work of a landmark national dialogue conference that opened two weeks ago, seen as a key step in a power transfer plan for … ",
+      "url": "",
+      "timestamp": "2013-04-02",
+      "score": 10.37273582018282,
+      "topic": "yemen"
+    },
+    {
+      "id": "4723",
+      "title": "Yemen needs stability for dialogue",
+      "snippet": "Yemen needs stability for dialogue\nYemen’s National Dialogue is scheduled to start on March 18, but despite government measures, the country’s overall security remains under threat. Political assassinations are on … ",
+      "url": "",
+      "timestamp": "2013-03-12",
+      "score": 10.35573260560495,
+      "topic": "yemen"
+    },
+    {
+      "id": "84",
+      "title": "Sanaa New Yemen President Abdurabu Mansur Hadi sworn in",
+      "snippet": " … February 25, 2012 ahead of formal handover of power by veteran strongman Ali Abdullah Saleh.  (MOHAMMED HUWAIS/AFP/Getty Images)\nAbdurabu Mansur Hadi has been sworn as Yemen’s president in Sanaa … ",
+      "url": "",
+      "timestamp": "2012-02-25",
+      "score": 22.169462899079367,
+      "topic": "yemen"
+    },
+    {
+      "id": "3122",
+      "title": "Newly elected Yemen president sworn in, replacing Saleh",
+      "snippet": "Newly elected Yemen president sworn in, replacing Saleh\nAbd-Rabbu Mansour Hadi takes constitutional oath; more than 60 percent of eligible voters took part in election this week.\nAbd-Rabbu Mansour Hadi … ",
+      "url": "",
+      "timestamp": "2012-02-25",
+      "score": 18.88894143982732,
+      "topic": "yemen"
+    },
+    {
+      "id": "4897",
+      "title": "Saleh hands difficult phase over to new Yemen",
+      "snippet": " … Yemen's new president Abd-Rabbu Mansour Hadi (L) receives the country's national flag from former president Ali Abdullah Saleh during a ceremony at the presidential palace in Sanaa February 27 … ",
+      "url": "",
+      "timestamp": "2012-02-27",
+      "score": 17.421320281517854,
+      "topic": "yemen"
+    },
+    {
+      "id": "3635",
+      "title": "Yemen the road to national dialogue",
+      "snippet": " … President Hadi pays his first visit to the south, urging separatists to take part in the national dialogue.\n- February 27: Saleh rallies his loyalists in Sanaa to reassert his support for Yemen … ",
+      "url": "",
+      "timestamp": "2013-03-15",
+      "score": 17.264919477734914,
+      "topic": "yemen"
+    },
+    {
+      "id": "3067",
+      "title": "Yemen’s new president sworn in as car bomb kills at least 25",
+      "snippet": "Yemen’s new president sworn in as car bomb kills at least 25\nNAIROBI — Hours after Yemen’s new president was sworn in, formally ending President Ali Abdullah Saleh’s 33-year … ",
+      "url": "",
+      "timestamp": "2012-02-25",
+      "score": 16.23757160177964,
+      "topic": "yemen"
+    },
+    {
+      "id": "5508",
+      "title": "Yemen car bombing Al Qaeda kills at least 26 people after President Hadi is sworn in",
+      "snippet": "Yemen car bombing Al Qaeda kills at least 26 people after President Hadi is sworn in   Mail Online\nBritish Muslim convert to face trial in Kenya over possession of explosives linked to … ",
+      "url": "",
+      "timestamp": "2012-02-25",
+      "score": 15.72240459391063,
+      "topic": "yemen"
+    },
+    {
+      "id": "53",
+      "title": "",
+      "snippet": " … The blast happened hours after Abd Rabbu Mansour Hadi was sworn as Yemen's new president [Reuters]\nA car bomb has caused many casualties and injuries outside a presidential palace in southern … ",
+      "url": "",
+      "timestamp": "2012-02-25",
+      "score": 15.693809117164456,
+      "topic": "yemen"
+    },
+    {
+      "id": "2374",
+      "title": "The Arab Spring revolt, war and transition",
+      "snippet": " … In February, veteran Yemeni President Ali Abdullah Saleh hands power to his successor Vice President Abdrabuh Mansur Hadi.\nThe transfer of power puts the seal on a handover deal mediated by Gulf … ",
+      "url": "",
+      "timestamp": "2012-12-14",
+      "score": 14.71331511295442,
+      "topic": "yemen"
+    },
+    {
+      "id": "1672",
+      "title": "Ali Abdullah Saleh, Yemen President, To Be Granted Diplomatic Immunity Upon U.S. Arrival",
+      "snippet": "Ali Abdullah Saleh, Yemen President, To Be Granted Diplomatic Immunity Upon U.S. Arrival\nIn this Feb. 5, 2012 file photo, Yemeni President Ali Abdullah Saleh waves to people protesting his presence … ",
+      "url": "",
+      "timestamp": "2012-01-25",
+      "score": 14.579290055074463,
+      "topic": "yemen"
+    },
+    {
+      "id": "3664",
+      "title": "Ali Abdullah Saleh Fast Facts",
+      "snippet": " … Yemen's embassy in Washington says Saleh has returned from the United States to his residence in Sanaa.\nFebruary 27, 2012 - Attends the handover ceremony, cementing a power transfer deal to Hadi … ",
+      "url": "",
+      "timestamp": "2013-07-11",
+      "score": 14.551466058715746,
+      "topic": "yemen"
+    },
+    {
+      "id": "1311",
+      "title": "Yemeni VP announces he'll run for president",
+      "snippet": "Yemeni VP announces he'll run for president\nFebruary 7, 2012 -- Updated 2146 GMT (0546 HKT)\nAbdurabuh Mansur Hadi, Yemen's vice president and acting leader, opened his election campaign Tuesday in … ",
+      "url": "",
+      "timestamp": "2012-02-07",
+      "score": 14.527255254447054,
+      "topic": "yemen"
+    },
+    {
+      "id": "367",
+      "title": "Yemeni Militants’ Attack Kills Dozens",
+      "snippet": " … The attack underscored the profound security challenges facing President Abdu Rabbu Mansour Hadi , who was sworn in just a week ago after the longtime leader, Ali Abdullah Saleh, stepped aside. During the … ",
+      "url": "",
+      "timestamp": "2012-03-04",
+      "score": 14.497839194955473,
+      "topic": "yemen"
+    },
+    {
+      "id": "3354",
+      "title": "Yemen protest as antiSaleh detainees on hunger strike",
+      "snippet": " … Activists said some of the detainees are suspected of involvement in an attack on Saleh, in June 2011, which killed 11 of his guards.\nHadi was elected in February 2012 as part … ",
+      "url": "",
+      "timestamp": "2013-05-28",
+      "score": 14.4945197528429,
+      "topic": "yemen"
+    },
+    {
+      "id": "3288",
+      "title": "",
+      "snippet": " … State news agency Saba said Vice President Abd-Rabbu Mansour Hadi, to whom Saleh transferred power under a deal to ease him from office, chaired the meeting of the newly sworn-in … ",
+      "url": "",
+      "timestamp": "2011-12-10",
+      "score": 14.459224523970796,
+      "topic": "yemen"
+    },
+    {
+      "id": "972",
+      "title": "Yemen cabinet approves amnesty law for Saleh",
+      "snippet": "Yemen cabinet approves amnesty law for Saleh\nJanuary 9, 2012 -- Updated 1120 GMT (1920 HKT)\nYemeni President Ali Abdullah Saleh speaks during a meeting with leaders of his ruling party in Sanaa … ",
+      "url": "",
+      "timestamp": "2012-01-09",
+      "score": 14.275685715392441,
+      "topic": "yemen"
+    },
+    {
+      "id": "4753",
+      "title": "Yemen minister on hunger strike for activists' release",
+      "snippet": " … Hadi was elected in February 2012 as part of a UN-backed, Gulf-brokered exit deal that eased veteran Saleh out of office after 33 years in power, and ended a year … ",
+      "url": "",
+      "timestamp": "2013-06-02",
+      "score": 14.195043639593164,
+      "topic": "yemen"
+    },
+    {
+      "id": "5094",
+      "title": "Yemeni vice president fixes February 21 election date",
+      "snippet": " … are called on to vote in early elections for a new president of the republic starting at 8 o'clock on the morning of Tuesday, February 21, 2012,\" said the decree, a … ",
+      "url": "",
+      "timestamp": "2011-11-26",
+      "score": 14.129353318692054,
+      "topic": "yemen"
+    },
+    {
+      "id": "3453",
+      "title": "Yemen crisis leaves 5 million people in need of emergency food aid, says WFP",
+      "snippet": " … Last month, Abed-Rabbo Mansour Hadi was sworn in as Yemen's new president , taking over from Ali Abdullah Saleh, who ceded power after 33 years. Inspired by the revolt in Tunisia … ",
+      "url": "",
+      "timestamp": "2012-03-14",
+      "score": 14.114059093856284,
+      "topic": "yemen"
     }
   ],
   "final_covered_dates": [
+    "2011-03-08",
     "2011-03-21",
     "2011-03-24",
     "2011-04-06",
@@ -484,16 +1541,44 @@
     "2011-09-23",
     "2011-09-28",
     "2011-09-30",
+    "2011-11-26",
+    "2011-12-10",
     "2011-12-15",
     "2012-01-05",
+    "2012-01-09",
+    "2012-01-25",
+    "2012-02-07",
     "2012-02-20",
+    "2012-02-25",
+    "2012-02-27",
+    "2012-03-04",
+    "2012-03-14",
     "2012-09-27",
     "2012-10-07",
-    "2013-07-10"
+    "2012-12-14",
+    "2013-01-27",
+    "2013-02-16",
+    "2013-02-23",
+    "2013-03-07",
+    "2013-03-12",
+    "2013-03-15",
+    "2013-03-17",
+    "2013-03-18",
+    "2013-03-19",
+    "2013-04-02",
+    "2013-04-05",
+    "2013-05-23",
+    "2013-05-25",
+    "2013-05-28",
+    "2013-05-29",
+    "2013-06-02",
+    "2013-07-01",
+    "2013-07-10",
+    "2013-07-11"
   ],
   "usage": {
-    "prompt_tokens": 0,
-    "completion_tokens": 0,
-    "total_tokens": 0
+    "prompt_tokens": 1160,
+    "completion_tokens": 605,
+    "total_tokens": 1765
   }
 }

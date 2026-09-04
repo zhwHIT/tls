@@ -97,6 +97,12 @@
         "unique_dates": 24,
         "exact_recall": 0.037037037037037035,
         "window_2d_recall": 0.2222222222222222
+      },
+      "exploration_chronos": {
+        "documents": 58,
+        "unique_dates": 48,
+        "exact_recall": 0.14814814814814814,
+        "window_2d_recall": 0.37037037037037035
       }
     }
   },
@@ -147,56 +153,53 @@
       }
     },
     "exploration_chronos": {
-      "topics": 3,
+      "topics": 4,
       "topic_ids": [
         "egypt",
         "libya",
-        "syria"
+        "syria",
+        "yemen"
       ],
       "macro": {
-        "documents": 50.333333333333336,
-        "unique_dates": 40.666666666666664,
-        "exact_recall": 0.08213060581118793,
-        "window_2d_recall": 0.22919364393673292
+        "documents": 52.25,
+        "unique_dates": 42.5,
+        "exact_recall": 0.09863499139542799,
+        "window_2d_recall": 0.2644878255451423
       }
     }
   },
   "paired_topics": [
     "egypt",
     "libya",
-    "syria"
+    "syria",
+    "yemen"
   ],
   "paired_macro": {
     "direct": {
       "documents": 20.0,
-      "unique_dates": 16.0,
-      "exact_recall": 0.050560865090058214,
-      "window_2d_recall": 0.162311858115724
+      "unique_dates": 16.75,
+      "exact_recall": 0.059525587089148596,
+      "window_2d_recall": 0.19580796766086705
     },
     "rewrite": {
       "documents": 20.0,
-      "unique_dates": 16.0,
-      "exact_recall": 0.05370551917810853,
-      "window_2d_recall": 0.1654565122037743
+      "unique_dates": 16.75,
+      "exact_recall": 0.06188407765518633,
+      "window_2d_recall": 0.1981664582269048
     },
     "free_chronos": {
-      "documents": 57.333333333333336,
-      "unique_dates": 37.0,
-      "exact_recall": 0.07776880719836572,
-      "window_2d_recall": 0.21943813882612395
+      "documents": 52.75,
+      "unique_dates": 33.75,
+      "exact_recall": 0.06758586465803355,
+      "window_2d_recall": 0.22013415967514852
     },
     "exploration_chronos": {
-      "documents": 50.333333333333336,
-      "unique_dates": 40.666666666666664,
-      "exact_recall": 0.08213060581118793,
-      "window_2d_recall": 0.22919364393673292
+      "documents": 52.25,
+      "unique_dates": 42.5,
+      "exact_recall": 0.09863499139542799,
+      "window_2d_recall": 0.2644878255451423
     }
   },
-  "failures": {
-    "yemen": {
-      "status": "stopped_llm_error",
-      "error": "DeepSeek connection failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)"
-    }
-  },
+  "failures": {},
   "note": "Publication-date retrieval diagnostic, not final TLS Date-F1."
 }
