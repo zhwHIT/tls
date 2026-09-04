@@ -1,0 +1,1561 @@
+{
+  "schema_version": 1,
+  "status": "ok",
+  "strategy": "exploration_chronos_v1",
+  "search_engine": "crisis syria",
+  "config": {
+    "model": "deepseek-v4-flash",
+    "temperature": 0.0,
+    "top_k": 20,
+    "max_rounds": 3,
+    "stop_no_new_date_rounds": 2,
+    "query_similarity_limit": 0.75
+  },
+  "provenance": {
+    "index_sha256": "ed73fb8ff0e9add31df40f637783372c15f59de6f0939dd30b4f19210270bc81",
+    "index_metadata": {
+      "data_root": "D:\\paper\\chronos_repro\\snapshots\\crisis\\ece08f344cc94933",
+      "document_count": 17573,
+      "engine": "sqlite-fts5-bm25",
+      "schema_version": 1,
+      "snapshot": {
+        "dataset": "crisis",
+        "manifest": "D:\\paper\\chronos_repro\\snapshots\\crisis\\ece08f344cc94933\\MANIFEST.sha256.json",
+        "manifest_sha256": "40345dae0249badde354e4e78315799d41035467870baad78efa333efa02b460",
+        "snapshot_id": "ece08f344cc94933"
+      },
+      "topic_counts": {
+        "egypt": 4083,
+        "libya": 4274,
+        "syria": 5170,
+        "yemen": 4046
+      }
+    }
+  },
+  "corpus_date_bounds": [
+    "2011-11-17",
+    "2013-07-26"
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "state": {
+        "covered_dates": [],
+        "date_gaps": [
+          {
+            "start": "2011-11-17",
+            "end": "2013-07-26",
+            "days": 617
+          }
+        ]
+      },
+      "action": {
+        "type": "SEARCH",
+        "query": "Syria crisis timeline"
+      },
+      "observation": {
+        "results": [
+          {
+            "id": "4493",
+            "title": "Interactive Timeline of Syria unrest  Interactive  Al Jazeera English",
+            "snippet": "Interactive Timeline of Syria unrest  Interactive  Al Jazeera English\nIt has been more than one year now that Syria has been in turmoil. What initially started out as protests for reforms has … ",
+            "url": "",
+            "timestamp": "2012-07-15",
+            "score": 11.08605256053794,
+            "topic": "syria"
+          },
+          {
+            "id": "3037",
+            "title": "Timeline Unrest in Syria",
+            "snippet": "Timeline Unrest in Syria\nTwo years after the first anti-government protests, conflict in Syria rages on. See the major events in the country's tumultuous uprising.\n",
+            "url": "",
+            "timestamp": "2013-06-13",
+            "score": 10.403597924784957,
+            "topic": "syria"
+          },
+          {
+            "id": "4499",
+            "title": "How to teach … the crisis in Syria",
+            "snippet": " … crisis.\nAll of these events can be plotted on the Guardian's Syria timeline which clearly illustrates how the conflict has escalated. Students can also compare what has been happening in Syria … ",
+            "url": "",
+            "timestamp": "2012-03-12",
+            "score": 10.08168524686596,
+            "topic": "syria"
+          },
+          {
+            "id": "4459",
+            "title": "Syria unrest timeline",
+            "snippet": "Syria unrest timeline   Telegraph\n- 25-26: Protests spread and strengthen, with calls for the regime's fall.\n– 15: More than one million protest, notably in Hama and Deir Ezzor. On the    31st … ",
+            "url": "",
+            "timestamp": "2012-07-17",
+            "score": 8.849161950509245,
+            "topic": "syria"
+          },
+          {
+            "id": "5586",
+            "title": "Syria’s civil war timeline of deadly conflict",
+            "snippet": "Syria’s civil war timeline of deadly conflict  GlobalPost\nSyria’s civil war: timeline of deadly conflict\nImportant dates and events leading up to the Damascus bombing of July 18, 2012.\nHundreds … ",
+            "url": "",
+            "timestamp": "2012-07-18",
+            "score": 8.633666860963793,
+            "topic": "syria"
+          },
+          {
+            "id": "2938",
+            "title": "Syria’s Assad returns to public eye with ally Iran ",
+            "snippet": " … She urged international leaders to begin work on a “good transition plan” to try to keep Syria from collapsing into more chaos after Assad.\n“I am not going to put a timeline … ",
+            "url": "",
+            "timestamp": "2012-08-07",
+            "score": 7.704058371235936,
+            "topic": "syria"
+          },
+          {
+            "id": "2582",
+            "title": "Plunging currency adds to Syria’s gloom",
+            "snippet": "Plunging currency adds to Syria’s gloom\nSTR/EPA - Syrians buy fruits and vegetables at al-Fahameh market in Damascus.The ongoing crisis and economic sanctions have affected the Syrian pound that … ",
+            "url": "",
+            "timestamp": "2013-07-16",
+            "score": 7.627310770724329,
+            "topic": "syria"
+          },
+          {
+            "id": "3267",
+            "title": "New images show horrific destruction and bloodshed in Syria ahead of ceasefire talks",
+            "snippet": " … Moscow says Syria’s crisis must be resolved without foreign interference, particularly military intervention.\nViolence wracked the country on Thursday, from the desert eastern city of Hassake, where five soldiers were killed … ",
+            "url": "",
+            "timestamp": "2012-10-18",
+            "score": 7.10693679835002,
+            "topic": "syria"
+          },
+          {
+            "id": "2317",
+            "title": "Syria's Assad Used Chemical Weapons Against Rebels, U.S. Officials Conclude",
+            "snippet": " … for many contingencies in Syria,\" said Ben Rhodes, Obama's deputy national security adviser. \"We are going to make decisions on further actions on our own timeline.\"\nThe White House said the … ",
+            "url": "",
+            "timestamp": "2013-06-13",
+            "score": 6.802914480447065,
+            "topic": "syria"
+          },
+          {
+            "id": "3661",
+            "title": "UN Security Council facing ‘moment of truth’ on Syria as Assad ignores withdrawal deadline",
+            "snippet": " … timeline for taking further steps,” said Basma Kodmani, a spokeswoman for the Syrian National Council. She said this would require a “serious shift” in the positions of China and Russia.\nSyria’s … ",
+            "url": "",
+            "timestamp": "2012-04-10",
+            "score": 6.710717547017616,
+            "topic": "syria"
+          },
+          {
+            "id": "4977",
+            "title": "Syrian civil war ‘The battle to topple the state is over,’ government declares",
+            "snippet": " … of Syria” conference in Turkey, which provides a safe haven for Syrian rebels.\nAfter Clinton met Gulf foreign ministers in Riyadh on Saturday, they said Annan should set a timeline for unspecified … ",
+            "url": "",
+            "timestamp": "2012-03-31",
+            "score": 6.618051994628991,
+            "topic": "syria"
+          },
+          {
+            "id": "1846",
+            "title": "Annan’s new road map for peace in Syria",
+            "snippet": " … appears to have hit a dead end in Damascus, leading to growing concerns that the Syria crisis will spiral into all-out civil war.\nWhat’s intriguing about Annan’s new approach … ",
+            "url": "",
+            "timestamp": "2012-06-05",
+            "score": 6.589922526460269,
+            "topic": "syria"
+          },
+          {
+            "id": "444",
+            "title": "Syria What would US military intervention look like?",
+            "snippet": " … More from GlobalPost:  Syria: A timeline of 'red line' rhetoric (VIDEO)\nThe US military is already assisting Syrian rebels through neighboring countries, including sending “non-lethal” assistance (like food, medicine and body … ",
+            "url": "",
+            "timestamp": "2013-04-25",
+            "score": 6.492763081483504,
+            "topic": "syria"
+          },
+          {
+            "id": "2442",
+            "title": "Syrian President Bashar Assad likely behind chemical arms use White House",
+            "snippet": " … is still looking for conclusive evidence about chemical weapons use in Syria. He said there is no timeline for the investigation.\n“We have consistently, in our conversations with the Russians and others … ",
+            "url": "",
+            "timestamp": "2013-05-06",
+            "score": 6.49239189757971,
+            "topic": "syria"
+          },
+          {
+            "id": "2453",
+            "title": "Barack Obama says Syria chemical weapon use would change US 'calculus' over intervention",
+            "snippet": "Barack Obama says Syria chemical weapon use would change US 'calculus' over intervention\nPresident insists chemical attacks are still a 'red line'\nPresident Barack Obama has insisted that use of chemical weapons … ",
+            "url": "",
+            "timestamp": "2013-04-27",
+            "score": 6.403997724341389,
+            "topic": "syria"
+          },
+          {
+            "id": "1972",
+            "title": "Obama discusses further Syrian intervention with European leaders",
+            "snippet": " … British Prime Minister David Cameron told CNN that during the video conference, Obama said further intervention into Syria \"should be done on our own timeline.\"\n\"We have already taken some decisions in … ",
+            "url": "",
+            "timestamp": "2013-06-15",
+            "score": 6.369070745741432,
+            "topic": "syria"
+          },
+          {
+            "id": "5175",
+            "title": "Iran, Hezbollah build militia networks in Syria in event that Assad falls, officials say",
+            "snippet": " … But officials think Iran’s long-term goal is to have reliable operatives in Syria in case the country fractures into ethnic and sectarian enclaves.\nTimeline: Major events in the country’s … ",
+            "url": "",
+            "timestamp": "2013-02-10",
+            "score": 6.348504385316145,
+            "topic": "syria"
+          },
+          {
+            "id": "3642",
+            "title": "",
+            "snippet": " … Speaking ahead of the G8 summit, Mr Hague said the crisis demanded a \"strong, determined and co-ordinated response from the international community\".\nIt is believed that Britain, the United States and … ",
+            "url": "",
+            "timestamp": "2013-06-14",
+            "score": 6.299080489534418,
+            "topic": "syria"
+          },
+          {
+            "id": "5076",
+            "title": "Red Line Crossed U.S. Confirms Syrian ChemicalWeapons Use",
+            "snippet": " … will be increasing its direct support to the Supreme Military Council, but did not specify whether lethal aid will flow into Syria. “It is both the political and military opposition that are … ",
+            "url": "",
+            "timestamp": "2013-06-13",
+            "score": 5.998146101217693,
+            "topic": "syria"
+          },
+          {
+            "id": "4860",
+            "title": "Syria uprising Dozens killed as violence ramps up ahead of Thursday truce",
+            "snippet": "Syria uprising Dozens killed as violence ramps up ahead of Thursday truce  National Post\nUN force heads to Syria to monitor ceasefire\nNo comment was immediately available from Syrian officials. The videos … ",
+            "url": "",
+            "timestamp": "2012-04-07",
+            "score": 5.8769954683384835,
+            "topic": "syria"
+          }
+        ],
+        "new_doc_ids": [
+          "4493",
+          "3037",
+          "4499",
+          "4459",
+          "5586",
+          "2938",
+          "2582",
+          "3267",
+          "2317",
+          "3661",
+          "4977",
+          "1846",
+          "444",
+          "2442",
+          "2453",
+          "1972",
+          "5175",
+          "3642",
+          "5076",
+          "4860"
+        ],
+        "new_dates": [
+          "2012-03-12",
+          "2012-03-31",
+          "2012-04-07",
+          "2012-04-10",
+          "2012-06-05",
+          "2012-07-15",
+          "2012-07-17",
+          "2012-07-18",
+          "2012-08-07",
+          "2012-10-18",
+          "2013-02-10",
+          "2013-04-25",
+          "2013-04-27",
+          "2013-05-06",
+          "2013-06-13",
+          "2013-06-14",
+          "2013-06-15",
+          "2013-07-16"
+        ]
+      },
+      "audit": null
+    },
+    {
+      "round": 2,
+      "state": {
+        "covered_dates": [
+          "2012-03-12",
+          "2012-03-31",
+          "2012-04-07",
+          "2012-04-10",
+          "2012-06-05",
+          "2012-07-15",
+          "2012-07-17",
+          "2012-07-18",
+          "2012-08-07",
+          "2012-10-18",
+          "2013-02-10",
+          "2013-04-25",
+          "2013-04-27",
+          "2013-05-06",
+          "2013-06-13",
+          "2013-06-14",
+          "2013-06-15",
+          "2013-07-16"
+        ],
+        "date_gaps": [
+          {
+            "start": "2011-11-17",
+            "end": "2012-03-12",
+            "days": 116
+          },
+          {
+            "start": "2012-10-18",
+            "end": "2013-02-10",
+            "days": 115
+          },
+          {
+            "start": "2013-02-10",
+            "end": "2013-04-25",
+            "days": 74
+          },
+          {
+            "start": "2012-08-07",
+            "end": "2012-10-18",
+            "days": 72
+          },
+          {
+            "start": "2012-04-10",
+            "end": "2012-06-05",
+            "days": 56
+          },
+          {
+            "start": "2012-06-05",
+            "end": "2012-07-15",
+            "days": 40
+          },
+          {
+            "start": "2013-05-06",
+            "end": "2013-06-13",
+            "days": 38
+          },
+          {
+            "start": "2013-06-15",
+            "end": "2013-07-16",
+            "days": 31
+          },
+          {
+            "start": "2012-07-18",
+            "end": "2012-08-07",
+            "days": 20
+          },
+          {
+            "start": "2012-03-12",
+            "end": "2012-03-31",
+            "days": 19
+          }
+        ]
+      },
+      "action": {
+        "type": "SEARCH",
+        "query": "Syria shelling Homs Baba Amr February 2012"
+      },
+      "observation": {
+        "results": [
+          {
+            "id": "1194",
+            "title": "Syria Crisis Shelling Continues, Catastrophic Conditions In Homs",
+            "snippet": "Syria Crisis Shelling Continues, Catastrophic Conditions In Homs\nIn this Tuesday, Feb. 21, 2012 citizen journalism image provided by the Local Coordination Committees in Syria and accessed on Wednesday, Feb. 22, 2012 … ",
+            "url": "",
+            "timestamp": "2012-03-04",
+            "score": 28.087594410614727,
+            "topic": "syria"
+          },
+          {
+            "id": "4265",
+            "title": "Syria Crisis Smell Of Death Filled Baba Amr",
+            "snippet": " … a Syrian Army tank in Idlib, north Syria, Sunday, March 4, 2012. (AP Photo/Rodrigo Abd)\nBEIRUT, March 6 (Reuters) - Residents of Baba Amr who  fled to Lebanon said the smell of … ",
+            "url": "",
+            "timestamp": "2012-03-06",
+            "score": 26.747933064541908,
+            "topic": "syria"
+          },
+          {
+            "id": "1529",
+            "title": "One step closer to civil war Syrian rebels form military council to oppose Assad’s regime ",
+            "snippet": " … On Wednesday, the Syrian regime showed a new determination to crush its opponents, vowing to “cleanse” the rebel-held district of Baba Amr in Homs from “gunmen,” as activists reported troops massing … ",
+            "url": "",
+            "timestamp": "2012-03-01",
+            "score": 26.52754890028156,
+            "topic": "syria"
+          },
+          {
+            "id": "3761",
+            "title": "Syria government troops attack rebel district in Homs stronghold; at least 16 people reported dead",
+            "snippet": " … Activists said the intense shelling of Baba Amr in Homs lasted a few hours but did not seem to be the start of a widely expected military offensive aimed at retaking rebel … ",
+            "url": "",
+            "timestamp": "2012-02-21",
+            "score": 26.394871077456795,
+            "topic": "syria"
+          },
+          {
+            "id": "47",
+            "title": "Syria Conflict Military Sends Tanks To Homs, Activists Say",
+            "snippet": "Syria Conflict Military Sends Tanks To Homs, Activists Say\nOne of three Syrian injured men who were wounded by shelling at Baba Amr neighborhood in the Syrian province of Homs, lies on … ",
+            "url": "",
+            "timestamp": "2012-02-20",
+            "score": 26.150949492695375,
+            "topic": "syria"
+          },
+          {
+            "id": "4049",
+            "title": "Syria Crisis 13 Syrians Killed In Missions To Rescue Wounded Journalists",
+            "snippet": " … The journalists were among several foreigners, and dozens of Syrians, wounded or killed in a massive shelling of a makeshift press center in the embattled Homs neighborhood of Baba Amr. The American … ",
+            "url": "",
+            "timestamp": "2012-02-29",
+            "score": 26.03092606478078,
+            "topic": "syria"
+          },
+          {
+            "id": "968",
+            "title": "",
+            "snippet": " … Both groups said Baba Amr was under intense shelling. The LCC said 50 people were killed in Homs and 27 in the province of Hama.\nThe Observatory said armed rebels known as … ",
+            "url": "",
+            "timestamp": "2012-02-28",
+            "score": 25.976663882127035,
+            "topic": "syria"
+          },
+          {
+            "id": "2583",
+            "title": "Syria official vows Homs quarter to be 'cleaned' within hours",
+            "snippet": " … Building set on fire as a result of Assad forces' bombardment of the neighborhood of Baba Amr in Homs, Syria. Photo by AP\nSyrian troops advanced Wednesday on a key rebel-held … ",
+            "url": "",
+            "timestamp": "2012-02-29",
+            "score": 25.770198245371773,
+            "topic": "syria"
+          },
+          {
+            "id": "2894",
+            "title": "Syria Crisis Rebels Retreat From Baba Amr In Homs",
+            "snippet": "Syria Crisis Rebels Retreat From Baba Amr In Homs\nn this Thursday Feb. 23, 2012 photo, Syrian rebels gather in front of the remains of a burnt military vehicle belonging to Syrian … ",
+            "url": "",
+            "timestamp": "2012-03-01",
+            "score": 23.65467147796204,
+            "topic": "syria"
+          },
+          {
+            "id": "3526",
+            "title": "Syrian Army Battles Armed Fighters in Daraa After Subduing Homs, 70 Dead",
+            "snippet": " … Assad forces restored “security and safety” to Baba Amr, “ridding it of members of armed terrorist groups,” the Syrian Arab News Agency said. Shelling of districts in Homs continued today, Al Arabiya … ",
+            "url": "",
+            "timestamp": "2012-03-03",
+            "score": 22.956428389286188,
+            "topic": "syria"
+          },
+          {
+            "id": "757",
+            "title": "Latest in mysterious car bombings in Syria kills three",
+            "snippet": " … Elsewhere in Syria, opposition activists reported renewed government shelling Saturday in the central city of Homs, the scene of the most concentrated fighting and the highest number of casualties since the uprising … ",
+            "url": "",
+            "timestamp": "2012-03-03",
+            "score": 22.79754329264169,
+            "topic": "syria"
+          },
+          {
+            "id": "1803",
+            "title": "Syria Crisis Blasts And Bullets Despite Assad's Acceptance Of Peace Plan",
+            "snippet": " … 03/28/2012  6:03 am Updated: 03/28/2012  9:54 am\nIn this image made from video, Syrian President Bashar Assad, second right, visits Baba Amr neighborhood in Homs, Syria … ",
+            "url": "",
+            "timestamp": "2012-03-28",
+            "score": 22.41192553314609,
+            "topic": "syria"
+          },
+          {
+            "id": "5002",
+            "title": "American, French journalists killed in Syria",
+            "snippet": " … Just a day before, on Tuesday, Colvin, from Oyster Bay, New York, had talked movingly about the attacks on Homs and, in particular, its Baba Amr suburb by Assads forces.\n\"The Syrians … ",
+            "url": "",
+            "timestamp": "2012-02-22",
+            "score": 22.224273823746675,
+            "topic": "syria"
+          },
+          {
+            "id": "3290",
+            "title": "Syria Crisis Rockets And Bombs Rain Down On Homs",
+            "snippet": "Syria Crisis Rockets And Bombs Rain Down On Homs\nA picture taken on February 11, 2012 shows a house that was reportedly damaged from shelling by government forces, in Baba Amr neighbourhood … ",
+            "url": "",
+            "timestamp": "2012-02-22",
+            "score": 22.106795660342627,
+            "topic": "syria"
+          },
+          {
+            "id": "5151",
+            "title": "New pressure expected for Syria ceasefire and humanitarian aid",
+            "snippet": " … They were reported killed in the shelling of a makeshift media center in the Baba Amr district. Their bodies remained in Homs as news organizations and diplomats searched for a way to … ",
+            "url": "",
+            "timestamp": "2012-02-23",
+            "score": 22.024490515046892,
+            "topic": "syria"
+          },
+          {
+            "id": "3827",
+            "title": "Syria votes on new constitution; opposition, U.S. reject the poll",
+            "snippet": " … to authorities Sunday in Baba Amr.\nAt least 40 people were reported killed Sunday across Syria, including 17 in Homs, where antigovernment activists reported renewed military shelling, according to the Local Coordination … ",
+            "url": "",
+            "timestamp": "2012-02-27",
+            "score": 21.72727711126936,
+            "topic": "syria"
+          },
+          {
+            "id": "375",
+            "title": "In the Syrian city of Homs, no reprieve from battle",
+            "snippet": " … The fighting has left vast swaths of Homs depopulated and largely reduced to rubble.\nThe Baba Amr district, which achieved fame worldwide as a defiant rebel stronghold, is now a Stalingrad-like … ",
+            "url": "",
+            "timestamp": "2013-06-08",
+            "score": 21.435853230310308,
+            "topic": "syria"
+          },
+          {
+            "id": "3856",
+            "title": "Two French journalists escape Syria to safety; 2 other reporters who died are buried in Homs",
+            "snippet": "Two French journalists escape Syria to safety; 2 other reporters who died are buried in Homs\nSyrian rebels make \"tactical retreat\" Thursday from Baba Amr, where journalists were holed up, saying they … ",
+            "url": "",
+            "timestamp": "2012-03-01",
+            "score": 21.11486946598415,
+            "topic": "syria"
+          },
+          {
+            "id": "1261",
+            "title": "",
+            "snippet": "Syria\nLive coverage of developments in Syria, as David Cameron calls for Bashar    al-Assad's \"criminal\" regime to be held to account and the Red Cross poised    to enter Baba Amr … ",
+            "url": "",
+            "timestamp": "2012-03-02",
+            "score": 20.846866521529655,
+            "topic": "syria"
+          },
+          {
+            "id": "3520",
+            "title": "Syria bloodshed rages as Arab League asks for U.N. peacekeepers",
+            "snippet": " … Syria, an anti-Syrian regime man reacts in front of flames which rise from a burning shop damaged by Syrian government forces shelling, in Baba Amr neighborhood in Homs province, central Syria … ",
+            "url": "",
+            "timestamp": "2012-02-13",
+            "score": 20.60600767121535,
+            "topic": "syria"
+          }
+        ],
+        "new_doc_ids": [
+          "1194",
+          "4265",
+          "1529",
+          "3761",
+          "47",
+          "4049",
+          "968",
+          "2583",
+          "2894",
+          "3526",
+          "757",
+          "1803",
+          "5002",
+          "3290",
+          "5151",
+          "3827",
+          "375",
+          "3856",
+          "1261",
+          "3520"
+        ],
+        "new_dates": [
+          "2012-02-13",
+          "2012-02-20",
+          "2012-02-21",
+          "2012-02-22",
+          "2012-02-23",
+          "2012-02-27",
+          "2012-02-28",
+          "2012-02-29",
+          "2012-03-01",
+          "2012-03-02",
+          "2012-03-03",
+          "2012-03-04",
+          "2012-03-06",
+          "2012-03-28",
+          "2013-06-08"
+        ]
+      },
+      "audit": {
+        "text": "\"Syria shelling Homs Baba Amr February 2012\"",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "prompt_tokens": 624,
+          "completion_tokens": 862,
+          "total_tokens": 1486,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 846
+          },
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 624
+        },
+        "request_id": null,
+        "target_gap": {
+          "start": "2011-11-17",
+          "end": "2012-03-12",
+          "days": 116
+        },
+        "max_previous_similarity": 0.1111111111111111,
+        "deterministic_fallback": false
+      }
+    },
+    {
+      "round": 3,
+      "state": {
+        "covered_dates": [
+          "2012-02-13",
+          "2012-02-20",
+          "2012-02-21",
+          "2012-02-22",
+          "2012-02-23",
+          "2012-02-27",
+          "2012-02-28",
+          "2012-02-29",
+          "2012-03-01",
+          "2012-03-02",
+          "2012-03-03",
+          "2012-03-04",
+          "2012-03-06",
+          "2012-03-12",
+          "2012-03-28",
+          "2012-03-31",
+          "2012-04-07",
+          "2012-04-10",
+          "2012-06-05",
+          "2012-07-15",
+          "2012-07-17",
+          "2012-07-18",
+          "2012-08-07",
+          "2012-10-18",
+          "2013-02-10",
+          "2013-04-25",
+          "2013-04-27",
+          "2013-05-06",
+          "2013-06-08",
+          "2013-06-13",
+          "2013-06-14",
+          "2013-06-15",
+          "2013-07-16"
+        ],
+        "date_gaps": [
+          {
+            "start": "2012-10-18",
+            "end": "2013-02-10",
+            "days": 115
+          },
+          {
+            "start": "2011-11-17",
+            "end": "2012-02-13",
+            "days": 88
+          },
+          {
+            "start": "2013-02-10",
+            "end": "2013-04-25",
+            "days": 74
+          },
+          {
+            "start": "2012-08-07",
+            "end": "2012-10-18",
+            "days": 72
+          },
+          {
+            "start": "2012-04-10",
+            "end": "2012-06-05",
+            "days": 56
+          },
+          {
+            "start": "2012-06-05",
+            "end": "2012-07-15",
+            "days": 40
+          },
+          {
+            "start": "2013-05-06",
+            "end": "2013-06-08",
+            "days": 33
+          },
+          {
+            "start": "2013-06-15",
+            "end": "2013-07-16",
+            "days": 31
+          },
+          {
+            "start": "2012-07-18",
+            "end": "2012-08-07",
+            "days": 20
+          },
+          {
+            "start": "2012-03-12",
+            "end": "2012-03-28",
+            "days": 16
+          }
+        ]
+      },
+      "action": {
+        "type": "SEARCH",
+        "query": "Syria National Coalition formed Doha November 2012"
+      },
+      "observation": {
+        "results": [
+          {
+            "id": "3850",
+            "title": "Iran 200 Syrian politicians convene in Tehran",
+            "snippet": " … was Syria's National Reconciliation Minister Ali Haidar. \nKSPR said  it's unclear if anyone from the rebel opposition, the National Coalition for Syrian Revolutionary Opposition Forces, attended. The group, formed last … ",
+            "url": "",
+            "timestamp": "2012-11-19",
+            "score": 20.417511862488908,
+            "topic": "syria"
+          },
+          {
+            "id": "4249",
+            "title": "",
+            "snippet": " … Moaz al-Khatib, left, was picked as head of the Syrian coalition after it was formed in November [AFP]\n\"What's happening within the coalition is normal. It's just like what … ",
+            "url": "",
+            "timestamp": "2013-03-27",
+            "score": 19.448254460524414,
+            "topic": "syria"
+          },
+          {
+            "id": "2650",
+            "title": "Syrian civil war spillover draws Israeli fire",
+            "snippet": " … So far, France is the only Western country to recognize the Doha-formed Syrian National Coalition for Opposition and Revolutionary Forces. Other EU nations and the United States and have said they … ",
+            "url": "",
+            "timestamp": "2012-11-18",
+            "score": 17.17149597107343,
+            "topic": "syria"
+          },
+          {
+            "id": "3165",
+            "title": "",
+            "snippet": " … The Syrian National Coalition, formed in November during a conference in Doha, Qatar, has been calling for increased international support, including military material.\n\"We need not only bread to help our people … ",
+            "url": "",
+            "timestamp": "2012-12-12",
+            "score": 17.05342455717971,
+            "topic": "syria"
+          },
+          {
+            "id": "1779",
+            "title": "",
+            "snippet": " … a major role in a post-Assad Syria.\nAccording to reports from Doha, the Syrian National Council will be subsumed into the new coalition. The breakdown of seats for various factions was … ",
+            "url": "",
+            "timestamp": "2012-11-11",
+            "score": 15.569515671928922,
+            "topic": "syria"
+          },
+          {
+            "id": "4761",
+            "title": "",
+            "snippet": "Syria\nFrench President François Hollande becomes the first Western leader to recognize the newly-formed coalition leadership of Syrian rebel forces, and ups pressure on other nations to follow his lead.\nFrench … ",
+            "url": "",
+            "timestamp": "2012-11-14",
+            "score": 14.828450573453187,
+            "topic": "syria"
+          },
+          {
+            "id": "1461",
+            "title": "Syrian Opposition Seeks U.S. Protection Against Assad’s R",
+            "snippet": " … resigned as head of the rebel coalition the same day the Arab League agreed to recognize the group as Syria’s representative. The Syrian National Coalition rejected his resignation, asking al-Khatib … ",
+            "url": "",
+            "timestamp": "2013-03-26",
+            "score": 14.743713198431603,
+            "topic": "syria"
+          },
+          {
+            "id": "5420",
+            "title": "Ordering More Airstrikes, Syria Calls French Recognition of Rebels ‘Immoral’",
+            "snippet": " … they are encouraging the destruction of Syria.”\nOn Tuesday, France became the first Western nation to fully embrace the new umbrella organization, the National Coalition of Syrian Revolutionary and Opposition Forces, which … ",
+            "url": "",
+            "timestamp": "2012-11-14",
+            "score": 13.612737670827014,
+            "topic": "syria"
+          },
+          {
+            "id": "3024",
+            "title": "How Qatar seized control of the Syrian revolution",
+            "snippet": " … The new body, the National Coalition, was announced in Doha in November 2012.\nIt was no secret that Qatari officials were less convinced of the need to improve the SNC. Their view … ",
+            "url": "",
+            "timestamp": "2013-05-17",
+            "score": 13.592396922110531,
+            "topic": "syria"
+          },
+          {
+            "id": "3678",
+            "title": "Suicide blasts in Syria kill at least 20 troops",
+            "snippet": "Suicide blasts in Syria kill at least 20 troops\nNovember 10, 2012 09:26 AM (Last updated: November 10, 2012 04:50 PM)\nResidents walk near damaged buildings in Al Mahata, near … ",
+            "url": "",
+            "timestamp": "2012-11-10",
+            "score": 13.436773801839768,
+            "topic": "syria"
+          },
+          {
+            "id": "4754",
+            "title": "Syria U.S. recognizes rebels, who ask for ‘real support’",
+            "snippet": " … Coalition, as the conference began. “I will be happy after the conference if we have something for the Syrian people.”\nThe Syrian National Coalition, formed in November during a conference in Doha … ",
+            "url": "",
+            "timestamp": "2012-12-12",
+            "score": 13.267828984625977,
+            "topic": "syria"
+          },
+          {
+            "id": "1647",
+            "title": "Syrian Opposition Leader AlKhatib Quits, Citing ‘Red Lines’",
+            "snippet": " … as head of the rebel coalition as the Arab League agreed to recognize the group as Syria’s representative.\n“I announce my resignation from the National Coalition, so that I can work … ",
+            "url": "",
+            "timestamp": "2013-03-24",
+            "score": 13.086321618561069,
+            "topic": "syria"
+          },
+          {
+            "id": "1682",
+            "title": "New Syrian opposition leader West's inaction to blame for ongoing violence",
+            "snippet": " … Israel News  Haaretz\nSyrian National Council member George Sabra attends a meeting to announce the results of the 11-member executive committee in Doha November 9, 2012. Photo by Reuters\nSyrian opposition … ",
+            "url": "",
+            "timestamp": "2012-11-10",
+            "score": 13.076626425890908,
+            "topic": "syria"
+          },
+          {
+            "id": "5437",
+            "title": "",
+            "snippet": " … So far, France is the only Western country to recognize the Doha-formed Syrian National Coalition for Opposition and Revolutionary Forces. Other EU nations and the United States and have said they … ",
+            "url": "",
+            "timestamp": "2012-11-18",
+            "score": 13.02683402545085,
+            "topic": "syria"
+          },
+          {
+            "id": "3107",
+            "title": "Syria conflict rebel 'war crime' caught on video  Friday 2 November 2012",
+            "snippet": " … shall be formed on the basis of mutual consent\".\n— Gennady Gatilov (@GGatilov) November 2, 2012\nThe leader of the beleaguered Syrian National Council has accused Hillary Clinton of ignoring the complexity of … ",
+            "url": "",
+            "timestamp": "2012-11-02",
+            "score": 12.865586844589565,
+            "topic": "syria"
+          },
+          {
+            "id": "4769",
+            "title": "Syrian civil war spillover draws Israeli fire",
+            "snippet": " … So far, France is the only Western country to recognize the Doha-formed Syrian National Coalition for Opposition and Revolutionary Forces. Other EU nations and the United States and have said they … ",
+            "url": "",
+            "timestamp": "2012-11-18",
+            "score": 12.855997937622416,
+            "topic": "syria"
+          },
+          {
+            "id": "1728",
+            "title": "",
+            "snippet": " … Syria across the Golan Heights since the 1973 Yom Kippur War.\nNovember 11, 2012 - Syrian opposition factions formally agree to unite as the National Coalition for Syrian Revolutionary and Opposition Forces.\nNovember … ",
+            "url": "",
+            "timestamp": "2013-06-18",
+            "score": 12.781058323676152,
+            "topic": "syria"
+          },
+          {
+            "id": "4765",
+            "title": "Mouaz Alkhatib, the Syria opposition’s new leader, aims to gain international recognition",
+            "snippet": " … the Syria opposition’s new leader, aims to gain international recognition  National Post\nPalestinian Authority will still press ahead with UN statehood bid, Abbas tells Obama\nHis new Syrian National Coalition for … ",
+            "url": "",
+            "timestamp": "2012-11-12",
+            "score": 12.75330216817704,
+            "topic": "syria"
+          },
+          {
+            "id": "4403",
+            "title": "France recognises Syrian National Coalition",
+            "snippet": "France recognises Syrian National Coalition\nLast updated: November 13, 2012 8:07 pm\n",
+            "url": "",
+            "timestamp": "2012-11-13",
+            "score": 12.548540391187899,
+            "topic": "syria"
+          },
+          {
+            "id": "1055",
+            "title": "",
+            "snippet": " … the exiled Syrian National Coalition as the true representatives of the Syrian people. U.S. and European diplomats have also stated that Assad has no place in Syria’s future. After months … ",
+            "url": "",
+            "timestamp": "2013-01-12",
+            "score": 12.341386652797885,
+            "topic": "syria"
+          }
+        ],
+        "new_doc_ids": [
+          "3850",
+          "4249",
+          "2650",
+          "3165",
+          "1779",
+          "4761",
+          "1461",
+          "5420",
+          "3024",
+          "3678",
+          "4754",
+          "1647",
+          "1682",
+          "5437",
+          "3107",
+          "4769",
+          "1728",
+          "4765",
+          "4403",
+          "1055"
+        ],
+        "new_dates": [
+          "2012-11-02",
+          "2012-11-10",
+          "2012-11-11",
+          "2012-11-12",
+          "2012-11-13",
+          "2012-11-14",
+          "2012-11-18",
+          "2012-11-19",
+          "2012-12-12",
+          "2013-01-12",
+          "2013-03-24",
+          "2013-03-26",
+          "2013-03-27",
+          "2013-05-17",
+          "2013-06-18"
+        ]
+      },
+      "audit": {
+        "text": "Syria National Coalition formed Doha November 2012",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "prompt_tokens": 633,
+          "completion_tokens": 490,
+          "total_tokens": 1123,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 478
+          },
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 633
+        },
+        "request_id": null,
+        "target_gap": {
+          "start": "2012-10-18",
+          "end": "2013-02-10",
+          "days": 115
+        },
+        "max_previous_similarity": 0.16666666666666666,
+        "deterministic_fallback": false
+      }
+    }
+  ],
+  "stop_reason": "max_rounds",
+  "queries": [
+    "Syria crisis timeline",
+    "Syria shelling Homs Baba Amr February 2012",
+    "Syria National Coalition formed Doha November 2012"
+  ],
+  "unique_results": [
+    {
+      "id": "4493",
+      "title": "Interactive Timeline of Syria unrest  Interactive  Al Jazeera English",
+      "snippet": "Interactive Timeline of Syria unrest  Interactive  Al Jazeera English\nIt has been more than one year now that Syria has been in turmoil. What initially started out as protests for reforms has … ",
+      "url": "",
+      "timestamp": "2012-07-15",
+      "score": 11.08605256053794,
+      "topic": "syria"
+    },
+    {
+      "id": "3037",
+      "title": "Timeline Unrest in Syria",
+      "snippet": "Timeline Unrest in Syria\nTwo years after the first anti-government protests, conflict in Syria rages on. See the major events in the country's tumultuous uprising.\n",
+      "url": "",
+      "timestamp": "2013-06-13",
+      "score": 10.403597924784957,
+      "topic": "syria"
+    },
+    {
+      "id": "4499",
+      "title": "How to teach … the crisis in Syria",
+      "snippet": " … crisis.\nAll of these events can be plotted on the Guardian's Syria timeline which clearly illustrates how the conflict has escalated. Students can also compare what has been happening in Syria … ",
+      "url": "",
+      "timestamp": "2012-03-12",
+      "score": 10.08168524686596,
+      "topic": "syria"
+    },
+    {
+      "id": "4459",
+      "title": "Syria unrest timeline",
+      "snippet": "Syria unrest timeline   Telegraph\n- 25-26: Protests spread and strengthen, with calls for the regime's fall.\n– 15: More than one million protest, notably in Hama and Deir Ezzor. On the    31st … ",
+      "url": "",
+      "timestamp": "2012-07-17",
+      "score": 8.849161950509245,
+      "topic": "syria"
+    },
+    {
+      "id": "5586",
+      "title": "Syria’s civil war timeline of deadly conflict",
+      "snippet": "Syria’s civil war timeline of deadly conflict  GlobalPost\nSyria’s civil war: timeline of deadly conflict\nImportant dates and events leading up to the Damascus bombing of July 18, 2012.\nHundreds … ",
+      "url": "",
+      "timestamp": "2012-07-18",
+      "score": 8.633666860963793,
+      "topic": "syria"
+    },
+    {
+      "id": "2938",
+      "title": "Syria’s Assad returns to public eye with ally Iran ",
+      "snippet": " … She urged international leaders to begin work on a “good transition plan” to try to keep Syria from collapsing into more chaos after Assad.\n“I am not going to put a timeline … ",
+      "url": "",
+      "timestamp": "2012-08-07",
+      "score": 7.704058371235936,
+      "topic": "syria"
+    },
+    {
+      "id": "2582",
+      "title": "Plunging currency adds to Syria’s gloom",
+      "snippet": "Plunging currency adds to Syria’s gloom\nSTR/EPA - Syrians buy fruits and vegetables at al-Fahameh market in Damascus.The ongoing crisis and economic sanctions have affected the Syrian pound that … ",
+      "url": "",
+      "timestamp": "2013-07-16",
+      "score": 7.627310770724329,
+      "topic": "syria"
+    },
+    {
+      "id": "3267",
+      "title": "New images show horrific destruction and bloodshed in Syria ahead of ceasefire talks",
+      "snippet": " … Moscow says Syria’s crisis must be resolved without foreign interference, particularly military intervention.\nViolence wracked the country on Thursday, from the desert eastern city of Hassake, where five soldiers were killed … ",
+      "url": "",
+      "timestamp": "2012-10-18",
+      "score": 7.10693679835002,
+      "topic": "syria"
+    },
+    {
+      "id": "2317",
+      "title": "Syria's Assad Used Chemical Weapons Against Rebels, U.S. Officials Conclude",
+      "snippet": " … for many contingencies in Syria,\" said Ben Rhodes, Obama's deputy national security adviser. \"We are going to make decisions on further actions on our own timeline.\"\nThe White House said the … ",
+      "url": "",
+      "timestamp": "2013-06-13",
+      "score": 6.802914480447065,
+      "topic": "syria"
+    },
+    {
+      "id": "3661",
+      "title": "UN Security Council facing ‘moment of truth’ on Syria as Assad ignores withdrawal deadline",
+      "snippet": " … timeline for taking further steps,” said Basma Kodmani, a spokeswoman for the Syrian National Council. She said this would require a “serious shift” in the positions of China and Russia.\nSyria’s … ",
+      "url": "",
+      "timestamp": "2012-04-10",
+      "score": 6.710717547017616,
+      "topic": "syria"
+    },
+    {
+      "id": "4977",
+      "title": "Syrian civil war ‘The battle to topple the state is over,’ government declares",
+      "snippet": " … of Syria” conference in Turkey, which provides a safe haven for Syrian rebels.\nAfter Clinton met Gulf foreign ministers in Riyadh on Saturday, they said Annan should set a timeline for unspecified … ",
+      "url": "",
+      "timestamp": "2012-03-31",
+      "score": 6.618051994628991,
+      "topic": "syria"
+    },
+    {
+      "id": "1846",
+      "title": "Annan’s new road map for peace in Syria",
+      "snippet": " … appears to have hit a dead end in Damascus, leading to growing concerns that the Syria crisis will spiral into all-out civil war.\nWhat’s intriguing about Annan’s new approach … ",
+      "url": "",
+      "timestamp": "2012-06-05",
+      "score": 6.589922526460269,
+      "topic": "syria"
+    },
+    {
+      "id": "444",
+      "title": "Syria What would US military intervention look like?",
+      "snippet": " … More from GlobalPost:  Syria: A timeline of 'red line' rhetoric (VIDEO)\nThe US military is already assisting Syrian rebels through neighboring countries, including sending “non-lethal” assistance (like food, medicine and body … ",
+      "url": "",
+      "timestamp": "2013-04-25",
+      "score": 6.492763081483504,
+      "topic": "syria"
+    },
+    {
+      "id": "2442",
+      "title": "Syrian President Bashar Assad likely behind chemical arms use White House",
+      "snippet": " … is still looking for conclusive evidence about chemical weapons use in Syria. He said there is no timeline for the investigation.\n“We have consistently, in our conversations with the Russians and others … ",
+      "url": "",
+      "timestamp": "2013-05-06",
+      "score": 6.49239189757971,
+      "topic": "syria"
+    },
+    {
+      "id": "2453",
+      "title": "Barack Obama says Syria chemical weapon use would change US 'calculus' over intervention",
+      "snippet": "Barack Obama says Syria chemical weapon use would change US 'calculus' over intervention\nPresident insists chemical attacks are still a 'red line'\nPresident Barack Obama has insisted that use of chemical weapons … ",
+      "url": "",
+      "timestamp": "2013-04-27",
+      "score": 6.403997724341389,
+      "topic": "syria"
+    },
+    {
+      "id": "1972",
+      "title": "Obama discusses further Syrian intervention with European leaders",
+      "snippet": " … British Prime Minister David Cameron told CNN that during the video conference, Obama said further intervention into Syria \"should be done on our own timeline.\"\n\"We have already taken some decisions in … ",
+      "url": "",
+      "timestamp": "2013-06-15",
+      "score": 6.369070745741432,
+      "topic": "syria"
+    },
+    {
+      "id": "5175",
+      "title": "Iran, Hezbollah build militia networks in Syria in event that Assad falls, officials say",
+      "snippet": " … But officials think Iran’s long-term goal is to have reliable operatives in Syria in case the country fractures into ethnic and sectarian enclaves.\nTimeline: Major events in the country’s … ",
+      "url": "",
+      "timestamp": "2013-02-10",
+      "score": 6.348504385316145,
+      "topic": "syria"
+    },
+    {
+      "id": "3642",
+      "title": "",
+      "snippet": " … Speaking ahead of the G8 summit, Mr Hague said the crisis demanded a \"strong, determined and co-ordinated response from the international community\".\nIt is believed that Britain, the United States and … ",
+      "url": "",
+      "timestamp": "2013-06-14",
+      "score": 6.299080489534418,
+      "topic": "syria"
+    },
+    {
+      "id": "5076",
+      "title": "Red Line Crossed U.S. Confirms Syrian ChemicalWeapons Use",
+      "snippet": " … will be increasing its direct support to the Supreme Military Council, but did not specify whether lethal aid will flow into Syria. “It is both the political and military opposition that are … ",
+      "url": "",
+      "timestamp": "2013-06-13",
+      "score": 5.998146101217693,
+      "topic": "syria"
+    },
+    {
+      "id": "4860",
+      "title": "Syria uprising Dozens killed as violence ramps up ahead of Thursday truce",
+      "snippet": "Syria uprising Dozens killed as violence ramps up ahead of Thursday truce  National Post\nUN force heads to Syria to monitor ceasefire\nNo comment was immediately available from Syrian officials. The videos … ",
+      "url": "",
+      "timestamp": "2012-04-07",
+      "score": 5.8769954683384835,
+      "topic": "syria"
+    },
+    {
+      "id": "1194",
+      "title": "Syria Crisis Shelling Continues, Catastrophic Conditions In Homs",
+      "snippet": "Syria Crisis Shelling Continues, Catastrophic Conditions In Homs\nIn this Tuesday, Feb. 21, 2012 citizen journalism image provided by the Local Coordination Committees in Syria and accessed on Wednesday, Feb. 22, 2012 … ",
+      "url": "",
+      "timestamp": "2012-03-04",
+      "score": 28.087594410614727,
+      "topic": "syria"
+    },
+    {
+      "id": "4265",
+      "title": "Syria Crisis Smell Of Death Filled Baba Amr",
+      "snippet": " … a Syrian Army tank in Idlib, north Syria, Sunday, March 4, 2012. (AP Photo/Rodrigo Abd)\nBEIRUT, March 6 (Reuters) - Residents of Baba Amr who  fled to Lebanon said the smell of … ",
+      "url": "",
+      "timestamp": "2012-03-06",
+      "score": 26.747933064541908,
+      "topic": "syria"
+    },
+    {
+      "id": "1529",
+      "title": "One step closer to civil war Syrian rebels form military council to oppose Assad’s regime ",
+      "snippet": " … On Wednesday, the Syrian regime showed a new determination to crush its opponents, vowing to “cleanse” the rebel-held district of Baba Amr in Homs from “gunmen,” as activists reported troops massing … ",
+      "url": "",
+      "timestamp": "2012-03-01",
+      "score": 26.52754890028156,
+      "topic": "syria"
+    },
+    {
+      "id": "3761",
+      "title": "Syria government troops attack rebel district in Homs stronghold; at least 16 people reported dead",
+      "snippet": " … Activists said the intense shelling of Baba Amr in Homs lasted a few hours but did not seem to be the start of a widely expected military offensive aimed at retaking rebel … ",
+      "url": "",
+      "timestamp": "2012-02-21",
+      "score": 26.394871077456795,
+      "topic": "syria"
+    },
+    {
+      "id": "47",
+      "title": "Syria Conflict Military Sends Tanks To Homs, Activists Say",
+      "snippet": "Syria Conflict Military Sends Tanks To Homs, Activists Say\nOne of three Syrian injured men who were wounded by shelling at Baba Amr neighborhood in the Syrian province of Homs, lies on … ",
+      "url": "",
+      "timestamp": "2012-02-20",
+      "score": 26.150949492695375,
+      "topic": "syria"
+    },
+    {
+      "id": "4049",
+      "title": "Syria Crisis 13 Syrians Killed In Missions To Rescue Wounded Journalists",
+      "snippet": " … The journalists were among several foreigners, and dozens of Syrians, wounded or killed in a massive shelling of a makeshift press center in the embattled Homs neighborhood of Baba Amr. The American … ",
+      "url": "",
+      "timestamp": "2012-02-29",
+      "score": 26.03092606478078,
+      "topic": "syria"
+    },
+    {
+      "id": "968",
+      "title": "",
+      "snippet": " … Both groups said Baba Amr was under intense shelling. The LCC said 50 people were killed in Homs and 27 in the province of Hama.\nThe Observatory said armed rebels known as … ",
+      "url": "",
+      "timestamp": "2012-02-28",
+      "score": 25.976663882127035,
+      "topic": "syria"
+    },
+    {
+      "id": "2583",
+      "title": "Syria official vows Homs quarter to be 'cleaned' within hours",
+      "snippet": " … Building set on fire as a result of Assad forces' bombardment of the neighborhood of Baba Amr in Homs, Syria. Photo by AP\nSyrian troops advanced Wednesday on a key rebel-held … ",
+      "url": "",
+      "timestamp": "2012-02-29",
+      "score": 25.770198245371773,
+      "topic": "syria"
+    },
+    {
+      "id": "2894",
+      "title": "Syria Crisis Rebels Retreat From Baba Amr In Homs",
+      "snippet": "Syria Crisis Rebels Retreat From Baba Amr In Homs\nn this Thursday Feb. 23, 2012 photo, Syrian rebels gather in front of the remains of a burnt military vehicle belonging to Syrian … ",
+      "url": "",
+      "timestamp": "2012-03-01",
+      "score": 23.65467147796204,
+      "topic": "syria"
+    },
+    {
+      "id": "3526",
+      "title": "Syrian Army Battles Armed Fighters in Daraa After Subduing Homs, 70 Dead",
+      "snippet": " … Assad forces restored “security and safety” to Baba Amr, “ridding it of members of armed terrorist groups,” the Syrian Arab News Agency said. Shelling of districts in Homs continued today, Al Arabiya … ",
+      "url": "",
+      "timestamp": "2012-03-03",
+      "score": 22.956428389286188,
+      "topic": "syria"
+    },
+    {
+      "id": "757",
+      "title": "Latest in mysterious car bombings in Syria kills three",
+      "snippet": " … Elsewhere in Syria, opposition activists reported renewed government shelling Saturday in the central city of Homs, the scene of the most concentrated fighting and the highest number of casualties since the uprising … ",
+      "url": "",
+      "timestamp": "2012-03-03",
+      "score": 22.79754329264169,
+      "topic": "syria"
+    },
+    {
+      "id": "1803",
+      "title": "Syria Crisis Blasts And Bullets Despite Assad's Acceptance Of Peace Plan",
+      "snippet": " … 03/28/2012  6:03 am Updated: 03/28/2012  9:54 am\nIn this image made from video, Syrian President Bashar Assad, second right, visits Baba Amr neighborhood in Homs, Syria … ",
+      "url": "",
+      "timestamp": "2012-03-28",
+      "score": 22.41192553314609,
+      "topic": "syria"
+    },
+    {
+      "id": "5002",
+      "title": "American, French journalists killed in Syria",
+      "snippet": " … Just a day before, on Tuesday, Colvin, from Oyster Bay, New York, had talked movingly about the attacks on Homs and, in particular, its Baba Amr suburb by Assads forces.\n\"The Syrians … ",
+      "url": "",
+      "timestamp": "2012-02-22",
+      "score": 22.224273823746675,
+      "topic": "syria"
+    },
+    {
+      "id": "3290",
+      "title": "Syria Crisis Rockets And Bombs Rain Down On Homs",
+      "snippet": "Syria Crisis Rockets And Bombs Rain Down On Homs\nA picture taken on February 11, 2012 shows a house that was reportedly damaged from shelling by government forces, in Baba Amr neighbourhood … ",
+      "url": "",
+      "timestamp": "2012-02-22",
+      "score": 22.106795660342627,
+      "topic": "syria"
+    },
+    {
+      "id": "5151",
+      "title": "New pressure expected for Syria ceasefire and humanitarian aid",
+      "snippet": " … They were reported killed in the shelling of a makeshift media center in the Baba Amr district. Their bodies remained in Homs as news organizations and diplomats searched for a way to … ",
+      "url": "",
+      "timestamp": "2012-02-23",
+      "score": 22.024490515046892,
+      "topic": "syria"
+    },
+    {
+      "id": "3827",
+      "title": "Syria votes on new constitution; opposition, U.S. reject the poll",
+      "snippet": " … to authorities Sunday in Baba Amr.\nAt least 40 people were reported killed Sunday across Syria, including 17 in Homs, where antigovernment activists reported renewed military shelling, according to the Local Coordination … ",
+      "url": "",
+      "timestamp": "2012-02-27",
+      "score": 21.72727711126936,
+      "topic": "syria"
+    },
+    {
+      "id": "375",
+      "title": "In the Syrian city of Homs, no reprieve from battle",
+      "snippet": " … The fighting has left vast swaths of Homs depopulated and largely reduced to rubble.\nThe Baba Amr district, which achieved fame worldwide as a defiant rebel stronghold, is now a Stalingrad-like … ",
+      "url": "",
+      "timestamp": "2013-06-08",
+      "score": 21.435853230310308,
+      "topic": "syria"
+    },
+    {
+      "id": "3856",
+      "title": "Two French journalists escape Syria to safety; 2 other reporters who died are buried in Homs",
+      "snippet": "Two French journalists escape Syria to safety; 2 other reporters who died are buried in Homs\nSyrian rebels make \"tactical retreat\" Thursday from Baba Amr, where journalists were holed up, saying they … ",
+      "url": "",
+      "timestamp": "2012-03-01",
+      "score": 21.11486946598415,
+      "topic": "syria"
+    },
+    {
+      "id": "1261",
+      "title": "",
+      "snippet": "Syria\nLive coverage of developments in Syria, as David Cameron calls for Bashar    al-Assad's \"criminal\" regime to be held to account and the Red Cross poised    to enter Baba Amr … ",
+      "url": "",
+      "timestamp": "2012-03-02",
+      "score": 20.846866521529655,
+      "topic": "syria"
+    },
+    {
+      "id": "3520",
+      "title": "Syria bloodshed rages as Arab League asks for U.N. peacekeepers",
+      "snippet": " … Syria, an anti-Syrian regime man reacts in front of flames which rise from a burning shop damaged by Syrian government forces shelling, in Baba Amr neighborhood in Homs province, central Syria … ",
+      "url": "",
+      "timestamp": "2012-02-13",
+      "score": 20.60600767121535,
+      "topic": "syria"
+    },
+    {
+      "id": "3850",
+      "title": "Iran 200 Syrian politicians convene in Tehran",
+      "snippet": " … was Syria's National Reconciliation Minister Ali Haidar. \nKSPR said  it's unclear if anyone from the rebel opposition, the National Coalition for Syrian Revolutionary Opposition Forces, attended. The group, formed last … ",
+      "url": "",
+      "timestamp": "2012-11-19",
+      "score": 20.417511862488908,
+      "topic": "syria"
+    },
+    {
+      "id": "4249",
+      "title": "",
+      "snippet": " … Moaz al-Khatib, left, was picked as head of the Syrian coalition after it was formed in November [AFP]\n\"What's happening within the coalition is normal. It's just like what … ",
+      "url": "",
+      "timestamp": "2013-03-27",
+      "score": 19.448254460524414,
+      "topic": "syria"
+    },
+    {
+      "id": "2650",
+      "title": "Syrian civil war spillover draws Israeli fire",
+      "snippet": " … So far, France is the only Western country to recognize the Doha-formed Syrian National Coalition for Opposition and Revolutionary Forces. Other EU nations and the United States and have said they … ",
+      "url": "",
+      "timestamp": "2012-11-18",
+      "score": 17.17149597107343,
+      "topic": "syria"
+    },
+    {
+      "id": "3165",
+      "title": "",
+      "snippet": " … The Syrian National Coalition, formed in November during a conference in Doha, Qatar, has been calling for increased international support, including military material.\n\"We need not only bread to help our people … ",
+      "url": "",
+      "timestamp": "2012-12-12",
+      "score": 17.05342455717971,
+      "topic": "syria"
+    },
+    {
+      "id": "1779",
+      "title": "",
+      "snippet": " … a major role in a post-Assad Syria.\nAccording to reports from Doha, the Syrian National Council will be subsumed into the new coalition. The breakdown of seats for various factions was … ",
+      "url": "",
+      "timestamp": "2012-11-11",
+      "score": 15.569515671928922,
+      "topic": "syria"
+    },
+    {
+      "id": "4761",
+      "title": "",
+      "snippet": "Syria\nFrench President François Hollande becomes the first Western leader to recognize the newly-formed coalition leadership of Syrian rebel forces, and ups pressure on other nations to follow his lead.\nFrench … ",
+      "url": "",
+      "timestamp": "2012-11-14",
+      "score": 14.828450573453187,
+      "topic": "syria"
+    },
+    {
+      "id": "1461",
+      "title": "Syrian Opposition Seeks U.S. Protection Against Assad’s R",
+      "snippet": " … resigned as head of the rebel coalition the same day the Arab League agreed to recognize the group as Syria’s representative. The Syrian National Coalition rejected his resignation, asking al-Khatib … ",
+      "url": "",
+      "timestamp": "2013-03-26",
+      "score": 14.743713198431603,
+      "topic": "syria"
+    },
+    {
+      "id": "5420",
+      "title": "Ordering More Airstrikes, Syria Calls French Recognition of Rebels ‘Immoral’",
+      "snippet": " … they are encouraging the destruction of Syria.”\nOn Tuesday, France became the first Western nation to fully embrace the new umbrella organization, the National Coalition of Syrian Revolutionary and Opposition Forces, which … ",
+      "url": "",
+      "timestamp": "2012-11-14",
+      "score": 13.612737670827014,
+      "topic": "syria"
+    },
+    {
+      "id": "3024",
+      "title": "How Qatar seized control of the Syrian revolution",
+      "snippet": " … The new body, the National Coalition, was announced in Doha in November 2012.\nIt was no secret that Qatari officials were less convinced of the need to improve the SNC. Their view … ",
+      "url": "",
+      "timestamp": "2013-05-17",
+      "score": 13.592396922110531,
+      "topic": "syria"
+    },
+    {
+      "id": "3678",
+      "title": "Suicide blasts in Syria kill at least 20 troops",
+      "snippet": "Suicide blasts in Syria kill at least 20 troops\nNovember 10, 2012 09:26 AM (Last updated: November 10, 2012 04:50 PM)\nResidents walk near damaged buildings in Al Mahata, near … ",
+      "url": "",
+      "timestamp": "2012-11-10",
+      "score": 13.436773801839768,
+      "topic": "syria"
+    },
+    {
+      "id": "4754",
+      "title": "Syria U.S. recognizes rebels, who ask for ‘real support’",
+      "snippet": " … Coalition, as the conference began. “I will be happy after the conference if we have something for the Syrian people.”\nThe Syrian National Coalition, formed in November during a conference in Doha … ",
+      "url": "",
+      "timestamp": "2012-12-12",
+      "score": 13.267828984625977,
+      "topic": "syria"
+    },
+    {
+      "id": "1647",
+      "title": "Syrian Opposition Leader AlKhatib Quits, Citing ‘Red Lines’",
+      "snippet": " … as head of the rebel coalition as the Arab League agreed to recognize the group as Syria’s representative.\n“I announce my resignation from the National Coalition, so that I can work … ",
+      "url": "",
+      "timestamp": "2013-03-24",
+      "score": 13.086321618561069,
+      "topic": "syria"
+    },
+    {
+      "id": "1682",
+      "title": "New Syrian opposition leader West's inaction to blame for ongoing violence",
+      "snippet": " … Israel News  Haaretz\nSyrian National Council member George Sabra attends a meeting to announce the results of the 11-member executive committee in Doha November 9, 2012. Photo by Reuters\nSyrian opposition … ",
+      "url": "",
+      "timestamp": "2012-11-10",
+      "score": 13.076626425890908,
+      "topic": "syria"
+    },
+    {
+      "id": "5437",
+      "title": "",
+      "snippet": " … So far, France is the only Western country to recognize the Doha-formed Syrian National Coalition for Opposition and Revolutionary Forces. Other EU nations and the United States and have said they … ",
+      "url": "",
+      "timestamp": "2012-11-18",
+      "score": 13.02683402545085,
+      "topic": "syria"
+    },
+    {
+      "id": "3107",
+      "title": "Syria conflict rebel 'war crime' caught on video  Friday 2 November 2012",
+      "snippet": " … shall be formed on the basis of mutual consent\".\n— Gennady Gatilov (@GGatilov) November 2, 2012\nThe leader of the beleaguered Syrian National Council has accused Hillary Clinton of ignoring the complexity of … ",
+      "url": "",
+      "timestamp": "2012-11-02",
+      "score": 12.865586844589565,
+      "topic": "syria"
+    },
+    {
+      "id": "4769",
+      "title": "Syrian civil war spillover draws Israeli fire",
+      "snippet": " … So far, France is the only Western country to recognize the Doha-formed Syrian National Coalition for Opposition and Revolutionary Forces. Other EU nations and the United States and have said they … ",
+      "url": "",
+      "timestamp": "2012-11-18",
+      "score": 12.855997937622416,
+      "topic": "syria"
+    },
+    {
+      "id": "1728",
+      "title": "",
+      "snippet": " … Syria across the Golan Heights since the 1973 Yom Kippur War.\nNovember 11, 2012 - Syrian opposition factions formally agree to unite as the National Coalition for Syrian Revolutionary and Opposition Forces.\nNovember … ",
+      "url": "",
+      "timestamp": "2013-06-18",
+      "score": 12.781058323676152,
+      "topic": "syria"
+    },
+    {
+      "id": "4765",
+      "title": "Mouaz Alkhatib, the Syria opposition’s new leader, aims to gain international recognition",
+      "snippet": " … the Syria opposition’s new leader, aims to gain international recognition  National Post\nPalestinian Authority will still press ahead with UN statehood bid, Abbas tells Obama\nHis new Syrian National Coalition for … ",
+      "url": "",
+      "timestamp": "2012-11-12",
+      "score": 12.75330216817704,
+      "topic": "syria"
+    },
+    {
+      "id": "4403",
+      "title": "France recognises Syrian National Coalition",
+      "snippet": "France recognises Syrian National Coalition\nLast updated: November 13, 2012 8:07 pm\n",
+      "url": "",
+      "timestamp": "2012-11-13",
+      "score": 12.548540391187899,
+      "topic": "syria"
+    },
+    {
+      "id": "1055",
+      "title": "",
+      "snippet": " … the exiled Syrian National Coalition as the true representatives of the Syrian people. U.S. and European diplomats have also stated that Assad has no place in Syria’s future. After months … ",
+      "url": "",
+      "timestamp": "2013-01-12",
+      "score": 12.341386652797885,
+      "topic": "syria"
+    }
+  ],
+  "final_covered_dates": [
+    "2012-02-13",
+    "2012-02-20",
+    "2012-02-21",
+    "2012-02-22",
+    "2012-02-23",
+    "2012-02-27",
+    "2012-02-28",
+    "2012-02-29",
+    "2012-03-01",
+    "2012-03-02",
+    "2012-03-03",
+    "2012-03-04",
+    "2012-03-06",
+    "2012-03-12",
+    "2012-03-28",
+    "2012-03-31",
+    "2012-04-07",
+    "2012-04-10",
+    "2012-06-05",
+    "2012-07-15",
+    "2012-07-17",
+    "2012-07-18",
+    "2012-08-07",
+    "2012-10-18",
+    "2012-11-02",
+    "2012-11-10",
+    "2012-11-11",
+    "2012-11-12",
+    "2012-11-13",
+    "2012-11-14",
+    "2012-11-18",
+    "2012-11-19",
+    "2012-12-12",
+    "2013-01-12",
+    "2013-02-10",
+    "2013-03-24",
+    "2013-03-26",
+    "2013-03-27",
+    "2013-04-25",
+    "2013-04-27",
+    "2013-05-06",
+    "2013-05-17",
+    "2013-06-08",
+    "2013-06-13",
+    "2013-06-14",
+    "2013-06-15",
+    "2013-06-18",
+    "2013-07-16"
+  ],
+  "usage": {
+    "prompt_tokens": 1257,
+    "completion_tokens": 1352,
+    "total_tokens": 2609
+  }
+}

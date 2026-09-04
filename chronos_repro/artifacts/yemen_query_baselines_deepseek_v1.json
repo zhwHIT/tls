@@ -1,0 +1,1454 @@
+{
+  "schema_version": 1,
+  "status": "ok",
+  "config": {
+    "model": "deepseek-v4-flash",
+    "base_url": "https://api.deepseek.com",
+    "temperature": 0.0,
+    "top_k": 20,
+    "max_rounds": 3
+  },
+  "provenance": {
+    "index": "D:\\paper\\chronos_repro\\artifacts\\crisis_ece08f344cc94933.sqlite3",
+    "index_sha256": "ed73fb8ff0e9add31df40f637783372c15f59de6f0939dd30b4f19210270bc81",
+    "index_metadata": {
+      "data_root": "D:\\paper\\chronos_repro\\snapshots\\crisis\\ece08f344cc94933",
+      "document_count": 17573,
+      "engine": "sqlite-fts5-bm25",
+      "schema_version": 1,
+      "snapshot": {
+        "dataset": "crisis",
+        "manifest": "D:\\paper\\chronos_repro\\snapshots\\crisis\\ece08f344cc94933\\MANIFEST.sha256.json",
+        "manifest_sha256": "40345dae0249badde354e4e78315799d41035467870baad78efa333efa02b460",
+        "snapshot_id": "ece08f344cc94933"
+      },
+      "topic_counts": {
+        "egypt": 4083,
+        "libya": 4274,
+        "syria": 5170,
+        "yemen": 4046
+      }
+    }
+  },
+  "baselines": {
+    "direct": {
+      "queries": [
+        "Yemen crisis timeline"
+      ],
+      "results": [
+        {
+          "id": "3199",
+          "title": "Timeline Saleh's 33year rule in Yemen",
+          "snippet": "Timeline Saleh's 33year rule in Yemen\n(Reuters) - Yemen's poll on Tuesday is set to confirm Vice President Abd-Rabbu Mansour Hadi - by consensus, the only candidate - as president of the … ",
+          "url": "",
+          "timestamp": "2012-02-20",
+          "score": 10.799472543102445,
+          "topic": "yemen"
+        },
+        {
+          "id": "464",
+          "title": "Yemen timeline Looking back at Saleh’s rule  WorldViews",
+          "snippet": "Yemen timeline Looking back at Saleh’s rule  WorldViews\nA supporter of Yemen's President Ali Abdullah Saleh kisses a poster of Saleh during a rally in Tahrir Square in Sanaa March … ",
+          "url": "",
+          "timestamp": "2011-06-03",
+          "score": 9.975959906737339,
+          "topic": "yemen"
+        },
+        {
+          "id": "4345",
+          "title": "Arab spring an interactive timeline of Middle East protests",
+          "snippet": "Arab spring an interactive timeline of Middle East protests\nArab spring: an interactive timeline of Middle East protests\nIn December 2010, a man in Tunisia burned himself to death in protest at … ",
+          "url": "",
+          "timestamp": "2012-01-05",
+          "score": 9.463363888626606,
+          "topic": "yemen"
+        },
+        {
+          "id": "923",
+          "title": "A 2011 timeline of protest, revolution and uprising.",
+          "snippet": "A 2011 timeline of protest, revolution and uprising.\nThe hundreds of thousands of people in Wisconsin who occupied their state capitol for several months, 24 hours a day, and marched through the … ",
+          "url": "",
+          "timestamp": "2011-12-15",
+          "score": 9.3212964135743,
+          "topic": "yemen"
+        },
+        {
+          "id": "286",
+          "title": "Timeline of the IsraeliPalestinian conflict",
+          "snippet": "Timeline of the IsraeliPalestinian conflict   Telegraph\nPalestinian push for full UN membership: a quandary for Israel\n- Sept 13: Israel and the PLO sign Declaration of Principles on autonomy after months of secret … ",
+          "url": "",
+          "timestamp": "2011-09-23",
+          "score": 8.40962884178483,
+          "topic": "yemen"
+        },
+        {
+          "id": "592",
+          "title": "Libya timeline of the conflict",
+          "snippet": "Libya timeline of the conflict  Telegraph\nIs the rebel movement ready to take on mantle of government?\nMarch 17: The UN Security Council authorises a no-fly zone and \"all    necessary measures … ",
+          "url": "",
+          "timestamp": "2011-08-22",
+          "score": 8.19908224991963,
+          "topic": "yemen"
+        },
+        {
+          "id": "5436",
+          "title": "Thursday CFR.org Roundup Clashes spread across Yemen – Global Public Square",
+          "snippet": " … This Reuters timeline lays out the  progression of events  in the ongoing Yemen political crisis.\nThe Bahraini monarchy lifted the  emergency rule (LATimes)  it had imposed since democratic anti-government uprisings took … ",
+          "url": "",
+          "timestamp": "2011-06-02",
+          "score": 7.917177754890514,
+          "topic": "yemen"
+        },
+        {
+          "id": "299",
+          "title": "Exclusive Gulf states seek to broker Yemen's Saleh exit",
+          "snippet": " … the crisis soon -- something Saleh has warned of in recent speeches.\nWashington has long seen Saleh as a pivotal ally in its fight against al Qaeda, which has used its Yemen base … ",
+          "url": "",
+          "timestamp": "2011-04-06",
+          "score": 7.854901614305058,
+          "topic": "yemen"
+        },
+        {
+          "id": "905",
+          "title": "WRAPUP 4Escalating military conflict kills six in Yemen capital",
+          "snippet": " … Raging battles between heavily armed loyalists and foes of Yemen's president killed six people in the capital on Tuesday as a crisis over his violent crackdown on popular unrest drifted towards … ",
+          "url": "",
+          "timestamp": "2011-09-20",
+          "score": 7.796676607094516,
+          "topic": "yemen"
+        },
+        {
+          "id": "5630",
+          "title": "South Yemen City Seized by Gunmen as Violence Spreads After Saleh Leaves",
+          "snippet": "South Yemen City Seized by Gunmen as Violence Spreads After Saleh Leaves\nAbout 400 gunmen seized control of parts of a city in southern Yemen for several hours as violence spreads through … ",
+          "url": "",
+          "timestamp": "2011-06-15",
+          "score": 7.760594035853295,
+          "topic": "yemen"
+        },
+        {
+          "id": "745",
+          "title": "WRAPUP 6Escalating military conflict kills 12 in Yemen capital",
+          "snippet": " … battles between government forces and military units opposed to Yemen's president killed 12 people in the capital on Tuesday as a crisis over a violent state crackdown on popular unrest drifted … ",
+          "url": "",
+          "timestamp": "2011-09-20",
+          "score": 7.55673483848796,
+          "topic": "yemen"
+        },
+        {
+          "id": "874",
+          "title": "AlAwlaki Is Dead, But Terrorists' Unholy War Is Far From Over",
+          "snippet": " … But if today’s early reports are accurate, the American-born Al Qaeda leader holding out in Yemen has finally caught the wrong end of a U.S. missile . \nThanks to Catherine … ",
+          "url": "",
+          "timestamp": "2011-09-30",
+          "score": 7.455475752677048,
+          "topic": "yemen"
+        },
+        {
+          "id": "1415",
+          "title": "",
+          "snippet": "Timeline\nOne of the poorest and least-de­veloped na­tions in the Ar­ab world, Ye­men has had a tu­mul­tu­ous his­tory but is known primar­ily … ",
+          "url": "",
+          "timestamp": "2011-05-10",
+          "score": 7.151064664193509,
+          "topic": "yemen"
+        },
+        {
+          "id": "2528",
+          "title": "Pressure for Yemen’s Saleh to step down builds",
+          "snippet": "Pressure for Yemen’s Saleh to step down builds\nSANAA, YEMEN — Outside Sanaa University, almost every inch of Justice Street is packed with tents, as is nearby Freedom Street. Doctors, teachers, students … ",
+          "url": "",
+          "timestamp": "2011-03-24",
+          "score": 7.0065011112239635,
+          "topic": "yemen"
+        },
+        {
+          "id": "420",
+          "title": "",
+          "snippet": " … 35% (2003 est.)\nTimeline: May 22, 1990 - The Republic of Yemen is created from unification of North Yemen, the People's Democratic Republic of Yemen (PDRY), and South Yemen, or the Yemen … ",
+          "url": "",
+          "timestamp": "2013-07-10",
+          "score": 6.869703099058138,
+          "topic": "yemen"
+        },
+        {
+          "id": "1964",
+          "title": "",
+          "snippet": " … They included Yemen's ambassador to Britain and the embassy's entire diplomatic staff, and Yemen's ambassador to the European Union, Mohamed Jaffer. They did not resign but rather threw their … ",
+          "url": "",
+          "timestamp": "2011-03-21",
+          "score": 6.692759936185911,
+          "topic": "yemen"
+        },
+        {
+          "id": "1983",
+          "title": "No escape from the Middle East",
+          "snippet": " … Compare the economic dynamism of Indonesia, Singapore or Korea to Afghanistan, Yemen or Somalia, and you understand the logic. As China grows more assertive, its neighbors want a dependable, if discreet, U … ",
+          "url": "",
+          "timestamp": "2012-10-07",
+          "score": 5.939561597218287,
+          "topic": "yemen"
+        },
+        {
+          "id": "855",
+          "title": "Netanyahu to make his case against Iran in speech at UN",
+          "snippet": " … Also Thursday, on the sidelines of the General Assembly, key figures will gather for a Friends of Yemen meeting that will be co-chaired by British Foreign Secretary William Hague, Yemen's … ",
+          "url": "",
+          "timestamp": "2012-09-27",
+          "score": 5.27074654573992,
+          "topic": "yemen"
+        },
+        {
+          "id": "1559",
+          "title": "U.S. Presses Egypt to Mend Ties With Israel",
+          "snippet": " … The Obama administration has championed those movements but hopes to corral their energy so that political transitions from Tunisia to Yemen don't slide back into military domination or create a powerful … ",
+          "url": "",
+          "timestamp": "2011-09-28",
+          "score": 5.221372937317484,
+          "topic": "yemen"
+        },
+        {
+          "id": "1486",
+          "title": "Iran on edge as ally fights for survival in Syria",
+          "snippet": " … Iran's Arabic-language Al-Alam television on Saturday quoted the foreign ministry spokesman, Ramin Mehmanparast, as rejecting Obama's claim of Iranian aid to Assad in his time of crisis.\nIn … ",
+          "url": "",
+          "timestamp": "2011-04-23",
+          "score": 4.999259347866559,
+          "topic": "yemen"
+        }
+      ],
+      "llm_calls": 0
+    },
+    "rewrite": {
+      "queries": [
+        "Timeline of Yemen crisis"
+      ],
+      "results": [
+        {
+          "id": "3199",
+          "title": "Timeline Saleh's 33year rule in Yemen",
+          "snippet": "Timeline Saleh's 33year rule in Yemen\n(Reuters) - Yemen's poll on Tuesday is set to confirm Vice President Abd-Rabbu Mansour Hadi - by consensus, the only candidate - as president of the … ",
+          "url": "",
+          "timestamp": "2012-02-20",
+          "score": 10.799474578747956,
+          "topic": "yemen"
+        },
+        {
+          "id": "464",
+          "title": "Yemen timeline Looking back at Saleh’s rule  WorldViews",
+          "snippet": "Yemen timeline Looking back at Saleh’s rule  WorldViews\nA supporter of Yemen's President Ali Abdullah Saleh kisses a poster of Saleh during a rally in Tahrir Square in Sanaa March … ",
+          "url": "",
+          "timestamp": "2011-06-03",
+          "score": 9.97596200341793,
+          "topic": "yemen"
+        },
+        {
+          "id": "4345",
+          "title": "Arab spring an interactive timeline of Middle East protests",
+          "snippet": "Arab spring an interactive timeline of Middle East protests\nArab spring: an interactive timeline of Middle East protests\nIn December 2010, a man in Tunisia burned himself to death in protest at … ",
+          "url": "",
+          "timestamp": "2012-01-05",
+          "score": 9.463365894153423,
+          "topic": "yemen"
+        },
+        {
+          "id": "923",
+          "title": "A 2011 timeline of protest, revolution and uprising.",
+          "snippet": "A 2011 timeline of protest, revolution and uprising.\nThe hundreds of thousands of people in Wisconsin who occupied their state capitol for several months, 24 hours a day, and marched through the … ",
+          "url": "",
+          "timestamp": "2011-12-15",
+          "score": 9.321298448340105,
+          "topic": "yemen"
+        },
+        {
+          "id": "286",
+          "title": "Timeline of the IsraeliPalestinian conflict",
+          "snippet": "Timeline of the IsraeliPalestinian conflict   Telegraph\nPalestinian push for full UN membership: a quandary for Israel\n- Sept 13: Israel and the PLO sign Declaration of Principles on autonomy after months of secret … ",
+          "url": "",
+          "timestamp": "2011-09-23",
+          "score": 8.409630897233408,
+          "topic": "yemen"
+        },
+        {
+          "id": "592",
+          "title": "Libya timeline of the conflict",
+          "snippet": "Libya timeline of the conflict  Telegraph\nIs the rebel movement ready to take on mantle of government?\nMarch 17: The UN Security Council authorises a no-fly zone and \"all    necessary measures … ",
+          "url": "",
+          "timestamp": "2011-08-22",
+          "score": 8.199084351237207,
+          "topic": "yemen"
+        },
+        {
+          "id": "5436",
+          "title": "Thursday CFR.org Roundup Clashes spread across Yemen – Global Public Square",
+          "snippet": " … This Reuters timeline lays out the  progression of events  in the ongoing Yemen political crisis.\nThe Bahraini monarchy lifted the  emergency rule (LATimes)  it had imposed since democratic anti-government uprisings took … ",
+          "url": "",
+          "timestamp": "2011-06-02",
+          "score": 7.917179836452568,
+          "topic": "yemen"
+        },
+        {
+          "id": "299",
+          "title": "Exclusive Gulf states seek to broker Yemen's Saleh exit",
+          "snippet": " … of the crisis soon -- something Saleh has warned of in recent speeches.\nWashington has long seen Saleh as a pivotal ally in its fight against al Qaeda, which has used its Yemen … ",
+          "url": "",
+          "timestamp": "2011-04-06",
+          "score": 7.854903719646452,
+          "topic": "yemen"
+        },
+        {
+          "id": "905",
+          "title": "WRAPUP 4Escalating military conflict kills six in Yemen capital",
+          "snippet": " … Raging battles between heavily armed loyalists and foes of Yemen's president killed six people in the capital on Tuesday as a crisis over his violent crackdown on popular unrest drifted towards … ",
+          "url": "",
+          "timestamp": "2011-09-20",
+          "score": 7.796678660555156,
+          "topic": "yemen"
+        },
+        {
+          "id": "5630",
+          "title": "South Yemen City Seized by Gunmen as Violence Spreads After Saleh Leaves",
+          "snippet": "South Yemen City Seized by Gunmen as Violence Spreads After Saleh Leaves\nAbout 400 gunmen seized control of parts of a city in southern Yemen for several hours as violence spreads through … ",
+          "url": "",
+          "timestamp": "2011-06-15",
+          "score": 7.760596097756016,
+          "topic": "yemen"
+        },
+        {
+          "id": "745",
+          "title": "WRAPUP 6Escalating military conflict kills 12 in Yemen capital",
+          "snippet": " … Committee of the Red Cross (ICRC) said on Tuesday it had reports of shooting at al-Gomhori Hospital, one of Sanaa's main hospitals, as violence reached \"unprecedented\" levels in Yemen's … ",
+          "url": "",
+          "timestamp": "2011-09-20",
+          "score": 7.556736887973017,
+          "topic": "yemen"
+        },
+        {
+          "id": "874",
+          "title": "AlAwlaki Is Dead, But Terrorists' Unholy War Is Far From Over",
+          "snippet": " … President Obama needs to rethink his arbitrary “drawdown timeline” pronto...\nJust as it’s wrong to think that the death of any one Al Qaeda leader marks the beginning of the end … ",
+          "url": "",
+          "timestamp": "2011-09-30",
+          "score": 7.4554778233402175,
+          "topic": "yemen"
+        },
+        {
+          "id": "1415",
+          "title": "",
+          "snippet": "Timeline\nOne of the poorest and least-de­veloped na­tions in the Ar­ab world, Ye­men has had a tu­mul­tu­ous his­tory but is known primar­ily … ",
+          "url": "",
+          "timestamp": "2011-05-10",
+          "score": 7.1510666409780566,
+          "topic": "yemen"
+        },
+        {
+          "id": "2528",
+          "title": "Pressure for Yemen’s Saleh to step down builds",
+          "snippet": "Pressure for Yemen’s Saleh to step down builds\nSANAA, YEMEN — Outside Sanaa University, almost every inch of Justice Street is packed with tents, as is nearby Freedom Street. Doctors, teachers, students … ",
+          "url": "",
+          "timestamp": "2011-03-24",
+          "score": 7.006503213280094,
+          "topic": "yemen"
+        },
+        {
+          "id": "420",
+          "title": "",
+          "snippet": " … 35% (2003 est.)\nTimeline: May 22, 1990 - The Republic of Yemen is created from unification of North Yemen, the People's Democratic Republic of Yemen (PDRY), and South Yemen, or the Yemen … ",
+          "url": "",
+          "timestamp": "2013-07-10",
+          "score": 6.869705184349415,
+          "topic": "yemen"
+        },
+        {
+          "id": "1964",
+          "title": "",
+          "snippet": "Yemen\nTens of thousands of Yemeni protesters demonstrated again on Sunday, March 20 against the government in Sanaa.\nNEW: The deal would allow for a peaceful transition of power\nNEW: President would … ",
+          "url": "",
+          "timestamp": "2011-03-21",
+          "score": 6.69276202725881,
+          "topic": "yemen"
+        },
+        {
+          "id": "1983",
+          "title": "No escape from the Middle East",
+          "snippet": " … Compare the economic dynamism of Indonesia, Singapore or Korea to Afghanistan, Yemen or Somalia, and you understand the logic. As China grows more assertive, its neighbors want a dependable, if discreet, U … ",
+          "url": "",
+          "timestamp": "2012-10-07",
+          "score": 5.939563660826211,
+          "topic": "yemen"
+        },
+        {
+          "id": "855",
+          "title": "Netanyahu to make his case against Iran in speech at UN",
+          "snippet": " … Also Thursday, on the sidelines of the General Assembly, key figures will gather for a Friends of Yemen meeting that will be co-chaired by British Foreign Secretary William Hague, Yemen's … ",
+          "url": "",
+          "timestamp": "2012-09-27",
+          "score": 5.270748562762621,
+          "topic": "yemen"
+        },
+        {
+          "id": "1559",
+          "title": "U.S. Presses Egypt to Mend Ties With Israel",
+          "snippet": " … With Syrian demonstrators desperately pressing for the end of Bashar Assad's regime, Yemen on the brink of an all-out civil war and Libya's opposition authorities seeking to destroy Muammar … ",
+          "url": "",
+          "timestamp": "2011-09-28",
+          "score": 5.221375030162602,
+          "topic": "yemen"
+        },
+        {
+          "id": "1486",
+          "title": "Iran on edge as ally fights for survival in Syria",
+          "snippet": " … Iran's Arabic-language Al-Alam television on Saturday quoted the foreign ministry spokesman, Ramin Mehmanparast, as rejecting Obama's claim of Iranian aid to Assad in his time of crisis.\nIn … ",
+          "url": "",
+          "timestamp": "2011-04-23",
+          "score": 4.9992614364657895,
+          "topic": "yemen"
+        }
+      ],
+      "llm_calls": 1,
+      "audit": {
+        "text": "Timeline of Yemen crisis",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "prompt_tokens": 110,
+          "completion_tokens": 1259,
+          "total_tokens": 1369,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 1253
+          },
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 110
+        },
+        "request_id": null
+      }
+    },
+    "chronos": {
+      "queries": [
+        "Yemen crisis timeline: date Houthi forces seized Sanaa in 2014",
+        "Yemen crisis timeline: when did Houthi forces seize control of Sanaa in 2014?",
+        "When did Houthi forces take control of Yemen’s capital Sanaa in September 2014?"
+      ],
+      "rounds": [
+        {
+          "round": 1,
+          "query": "Yemen crisis timeline: date Houthi forces seized Sanaa in 2014",
+          "results": [
+            {
+              "id": "5464",
+              "title": "Killing of 4 Shiites in Yemeni Capital Sanaa Increases Tension",
+              "snippet": "Killing of 4 Shiites in Yemeni Capital Sanaa Increases Tension\nFour Shiite Houthi Muslims were killed in an explosion at a worship site in the Yemeni capital of Sanaa in an increase … ",
+              "url": "",
+              "timestamp": "2012-11-24",
+              "score": 20.78035304751988,
+              "topic": "yemen"
+            },
+            {
+              "id": "3546",
+              "title": "Yemen demands Iran halts support for insurgents",
+              "snippet": " … ties between Tehran and Sanaa, already strained over charges that Iran was working with separatists in the south and Houthi rebels in the north to further destabilize Yemen as it tries to … ",
+              "url": "",
+              "timestamp": "2013-02-07",
+              "score": 18.661027426980187,
+              "topic": "yemen"
+            },
+            {
+              "id": "3402",
+              "title": "Yemen demands Iran halts support for insurgents",
+              "snippet": " … ties between Tehran and Sanaa, already strained over charges that Iran was working with separatists in the south and Houthi rebels in the north to further destabilise Yemen as it tries to … ",
+              "url": "",
+              "timestamp": "2013-02-07",
+              "score": 18.302776272258633,
+              "topic": "yemen"
+            },
+            {
+              "id": "5409",
+              "title": "Yemen demands Iran halts support for insurgents",
+              "snippet": " … ties between Tehran and Sanaa, already strained over charges that Iran was working with separatists in the south and Houthi rebels in the north to further destabilise Yemen as it tries to … ",
+              "url": "",
+              "timestamp": "2013-02-07",
+              "score": 18.302776272258633,
+              "topic": "yemen"
+            },
+            {
+              "id": "74",
+              "title": "Yemen demands Iran halts support for insurgents",
+              "snippet": " … in northern Yemen.\nThe discovery of the shipment will likely further sour ties between Tehran and Sanaa, already strained over charges that Iran was working with separatists in the south and Houthi … ",
+              "url": "",
+              "timestamp": "2013-02-07",
+              "score": 18.26069191922945,
+              "topic": "yemen"
+            },
+            {
+              "id": "3561",
+              "title": "Yemen security chief tells Iran to stop backing rebels",
+              "snippet": "Yemen security chief tells Iran to stop backing rebels\nMembers of the Shi'ite rebel al-Houthi group sit while guarding a group meeting in Sanaa September 16, 2012.  (REUTERS/Khaled Abdullah … ",
+              "url": "",
+              "timestamp": "2012-12-09",
+              "score": 18.19213722953248,
+              "topic": "yemen"
+            },
+            {
+              "id": "2369",
+              "title": "Iran accused of sending missiles, explosives to insurgents in Yemen",
+              "snippet": "Iran accused of sending missiles, explosives to insurgents in Yemen\nYemeni Interior Minister Abdul-Qater Qahtan (left) and senior security officials inspect seized Iranian-made weapons. Ties between Tehran and Sanaa were … ",
+              "url": "",
+              "timestamp": "2013-02-08",
+              "score": 17.81828437449301,
+              "topic": "yemen"
+            },
+            {
+              "id": "2390",
+              "title": "Separatist marches challenge Yemen's reform conference",
+              "snippet": " … Yemeni officials have also accused Iran of backing the Shi'ite Houthi rebels who operate in northern Yemen.\n",
+              "url": "",
+              "timestamp": "2013-03-18",
+              "score": 17.798679907902407,
+              "topic": "yemen"
+            },
+            {
+              "id": "3746",
+              "title": "Separatist marches challenge Yemen's reform conference",
+              "snippet": " … Yemeni officials have also accused Iran of backing the Shi'ite Houthi rebels who operate in northern Yemen.\n",
+              "url": "",
+              "timestamp": "2013-03-18",
+              "score": 17.798679907902407,
+              "topic": "yemen"
+            },
+            {
+              "id": "2711",
+              "title": "Separatist marches challenge Yemen's reform conference",
+              "snippet": " … Yemeni officials have also accused Iran of backing the Shi'ite Houthi rebels who operate in northern Yemen.\n",
+              "url": "",
+              "timestamp": "2013-03-18",
+              "score": 17.798234332542357,
+              "topic": "yemen"
+            },
+            {
+              "id": "3015",
+              "title": "Separatist marches challenge Yemen's reform conference",
+              "snippet": " … Yemeni officials have also accused Iran of backing the Shi'ite Houthi rebels who operate in northern Yemen.\n",
+              "url": "",
+              "timestamp": "2013-03-18",
+              "score": 17.652418478183858,
+              "topic": "yemen"
+            },
+            {
+              "id": "351",
+              "title": "Northern battle flares as Yemen seeks interim government",
+              "snippet": "Northern battle flares as Yemen seeks interim government\nSANAA (Reuters) - Fighting between Shi'ite rebels and Sunni Islamists wounded at least 26 people in north Yemen on Wednesday, as the new prime … ",
+              "url": "",
+              "timestamp": "2011-11-30",
+              "score": 17.64109572266665,
+              "topic": "yemen"
+            },
+            {
+              "id": "91",
+              "title": "SunniShiite violence flares in Yemen",
+              "snippet": " … REUTERS/Stringer (YEMEN - Tags: POLITICS CIVIL UNREST)\nSANAA: Fighting between Shiite rebels and Sunni Islamists wounded at least 26 people in north Yemen Wednesday, as the new prime minister worked to form … ",
+              "url": "",
+              "timestamp": "2011-12-01",
+              "score": 17.456276837486733,
+              "topic": "yemen"
+            },
+            {
+              "id": "1522",
+              "title": "Separatist rally challenges Yemen's reform efforts",
+              "snippet": " … Hundreds of security forces took positions outside Aden's main buildings such as banks and government offices but no clashes were reported, the witnesses said.\nSouth Yemen merged with North Yemen in … ",
+              "url": "",
+              "timestamp": "2013-03-18",
+              "score": 17.377474627942565,
+              "topic": "yemen"
+            },
+            {
+              "id": "2749",
+              "title": "Yemen demands Iran halt support for insurgents",
+              "snippet": " … ties between Tehran and Sanaa, already strained over charges that Iran was working with separatists in the south and Houthi rebels in the north to further destabilize Yemen as it tries to … ",
+              "url": "",
+              "timestamp": "2013-02-07",
+              "score": 17.345775069197998,
+              "topic": "yemen"
+            },
+            {
+              "id": "4043",
+              "title": "",
+              "snippet": " … ties between Tehran and Sanaa, already strained over charges that Iran was working with separatists in the south and Houthi rebels in the north to further destabilise Yemen as it tries to … ",
+              "url": "",
+              "timestamp": "2013-02-08",
+              "score": 17.22232448349977,
+              "topic": "yemen"
+            },
+            {
+              "id": "2285",
+              "title": "Yemen security chief tells Iran to stop backing rebels",
+              "snippet": " … Houthi rebels who operate in northern Yemen near the border with Saudi Arabia - the world's top oil exporter which is competing with Shi'ite Iran for regional influence.\n\"Iran seized a … ",
+              "url": "",
+              "timestamp": "2012-12-09",
+              "score": 17.115286949169455,
+              "topic": "yemen"
+            },
+            {
+              "id": "2045",
+              "title": "Yemen bomb blast kills three soldiers in capital",
+              "snippet": " … in Yemen's capital Sanaa killed three soldiers and injured two more, according to security officials.\nAn image grab taken from AFP TV shows Yemeni army forces shelling Al-Qaeda targets in … ",
+              "url": "",
+              "timestamp": "2013-07-06",
+              "score": 17.111708889263127,
+              "topic": "yemen"
+            },
+            {
+              "id": "4011",
+              "title": "Arms from Turkey found in Yemen reports",
+              "snippet": " … Yemen's al-Houthi Shiite group ride a motorcycle while carrying weapons, in the northwestern province of Saada January 23, 2013.    REUTERS/Mohamed al-Sayaghi\nSANAA: The authorities in Yemen have seized … ",
+              "url": "",
+              "timestamp": "2013-01-25",
+              "score": 17.073423623708738,
+              "topic": "yemen"
+            },
+            {
+              "id": "464",
+              "title": "Yemen timeline Looking back at Saleh’s rule  WorldViews",
+              "snippet": "Yemen timeline Looking back at Saleh’s rule  WorldViews\nA supporter of Yemen's President Ali Abdullah Saleh kisses a poster of Saleh during a rally in Tahrir Square in Sanaa March … ",
+              "url": "",
+              "timestamp": "2011-06-03",
+              "score": 17.07186875934561,
+              "topic": "yemen"
+            }
+          ],
+          "new_doc_ids": [
+            "5464",
+            "3546",
+            "3402",
+            "5409",
+            "74",
+            "3561",
+            "2369",
+            "2390",
+            "3746",
+            "2711",
+            "3015",
+            "351",
+            "91",
+            "1522",
+            "2749",
+            "4043",
+            "2285",
+            "2045",
+            "4011",
+            "464"
+          ],
+          "audit": {
+            "text": "Yemen crisis timeline: date Houthi forces seized Sanaa in 2014",
+            "model": "deepseek-v4-flash",
+            "usage": {
+              "prompt_tokens": 140,
+              "completion_tokens": 129,
+              "total_tokens": 269,
+              "prompt_tokens_details": {
+                "cached_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 110
+              },
+              "prompt_cache_hit_tokens": 0,
+              "prompt_cache_miss_tokens": 140
+            },
+            "request_id": null
+          }
+        },
+        {
+          "round": 2,
+          "query": "Yemen crisis timeline: when did Houthi forces seize control of Sanaa in 2014?",
+          "results": [
+            {
+              "id": "5464",
+              "title": "Killing of 4 Shiites in Yemeni Capital Sanaa Increases Tension",
+              "snippet": "Killing of 4 Shiites in Yemeni Capital Sanaa Increases Tension\nFour Shiite Houthi Muslims were killed in an explosion at a worship site in the Yemeni capital of Sanaa in an increase … ",
+              "url": "",
+              "timestamp": "2012-11-24",
+              "score": 20.78035513596713,
+              "topic": "yemen"
+            },
+            {
+              "id": "3561",
+              "title": "Yemen security chief tells Iran to stop backing rebels",
+              "snippet": "Yemen security chief tells Iran to stop backing rebels\nMembers of the Shi'ite rebel al-Houthi group sit while guarding a group meeting in Sanaa September 16, 2012.  (REUTERS/Khaled Abdullah … ",
+              "url": "",
+              "timestamp": "2012-12-09",
+              "score": 19.264877131676606,
+              "topic": "yemen"
+            },
+            {
+              "id": "4895",
+              "title": "Yemen begins new national talks",
+              "snippet": " … UN-brokered dialogue meetings aim to cultivate a new constitution and preparation for elections in 2014  [AFP]\nYemen has begun the second round of its national dialogue in Sanaa as President Abrabuh … ",
+              "url": "",
+              "timestamp": "2013-06-08",
+              "score": 18.94973471569208,
+              "topic": "yemen"
+            },
+            {
+              "id": "2285",
+              "title": "Yemen security chief tells Iran to stop backing rebels",
+              "snippet": " … Ahmadi accused Tehran of backing the Houthi rebels who operate in northern Yemen near the border with Saudi Arabia - the world's top oil exporter which is competing with Shi'ite Iran … ",
+              "url": "",
+              "timestamp": "2012-12-09",
+              "score": 18.202491143819046,
+              "topic": "yemen"
+            },
+            {
+              "id": "811",
+              "title": "Houthi rebels seen gaining new influence in Yemen",
+              "snippet": " … When riots erupted this month over an anti-Islam film made in California, Houthi rebels, long confined to remote corners of Yemen by then-President Ali Abdullah Saleh, covered the capital Sanaa … ",
+              "url": "",
+              "timestamp": "2012-10-03",
+              "score": 17.921927341079005,
+              "topic": "yemen"
+            },
+            {
+              "id": "16",
+              "title": "Houthi rebels seen gaining new influence in Yemen",
+              "snippet": " … SANAA (Reuters) - When riots erupted this month over an anti-Islam film made in California, Houthi rebels, long confined to remote corners of Yemen by then-President Ali Abdullah Saleh, covered the … ",
+              "url": "",
+              "timestamp": "2012-10-03",
+              "score": 17.918183710489053,
+              "topic": "yemen"
+            },
+            {
+              "id": "2390",
+              "title": "Separatist marches challenge Yemen's reform conference",
+              "snippet": " … Yemeni officials have also accused Iran of backing the Shi'ite Houthi rebels who operate in northern Yemen.\n",
+              "url": "",
+              "timestamp": "2013-03-18",
+              "score": 17.798682029913564,
+              "topic": "yemen"
+            },
+            {
+              "id": "3746",
+              "title": "Separatist marches challenge Yemen's reform conference",
+              "snippet": " … Yemeni officials have also accused Iran of backing the Shi'ite Houthi rebels who operate in northern Yemen.\n",
+              "url": "",
+              "timestamp": "2013-03-18",
+              "score": 17.798682029913564,
+              "topic": "yemen"
+            },
+            {
+              "id": "2711",
+              "title": "Separatist marches challenge Yemen's reform conference",
+              "snippet": " … Yemeni officials have also accused Iran of backing the Shi'ite Houthi rebels who operate in northern Yemen.\n",
+              "url": "",
+              "timestamp": "2013-03-18",
+              "score": 17.798236454505393,
+              "topic": "yemen"
+            },
+            {
+              "id": "3015",
+              "title": "Separatist marches challenge Yemen's reform conference",
+              "snippet": " … Yemeni officials have also accused Iran of backing the Shi'ite Houthi rebels who operate in northern Yemen.\n",
+              "url": "",
+              "timestamp": "2013-03-18",
+              "score": 17.652420598300708,
+              "topic": "yemen"
+            },
+            {
+              "id": "2853",
+              "title": "Medics Militants raid Yemen town, killing dozens",
+              "snippet": " … Militants raid Yemen town, killing dozens\nNovember 27, 2011 -- Updated 1209 GMT (2009 HKT)\nYemeni anti-government protesters march in Sanaa demanding the trial of Ali Abdullah Saleh on November 26, 2011 … ",
+              "url": "",
+              "timestamp": "2011-11-27",
+              "score": 17.58154426012919,
+              "topic": "yemen"
+            },
+            {
+              "id": "3829",
+              "title": "",
+              "snippet": " … of lethal clashes in Taiz on April 4, 2011. (-/AFP/Getty Images)\nSANAA, Yemen — At least 12 people were killed and scores more injured when Yemen security forces and police in civilian … ",
+              "url": "",
+              "timestamp": "2011-04-04",
+              "score": 17.57033173740198,
+              "topic": "yemen"
+            },
+            {
+              "id": "3602",
+              "title": "Yemen names interim PM, violence kills at least 25 in north",
+              "snippet": "Yemen names interim PM, violence kills at least 25 in north\nSANAA (Reuters) - Yemen named an opposition leader as interim prime minister on Sunday under a deal aimed at ending months of … ",
+              "url": "",
+              "timestamp": "2011-11-27",
+              "score": 17.464486857129526,
+              "topic": "yemen"
+            },
+            {
+              "id": "1522",
+              "title": "Separatist rally challenges Yemen's reform efforts",
+              "snippet": " … Hundreds of security forces took positions outside Aden's main buildings such as banks and government offices but no clashes were reported, the witnesses said.\nSouth Yemen merged with North Yemen in … ",
+              "url": "",
+              "timestamp": "2013-03-18",
+              "score": 17.377476751883208,
+              "topic": "yemen"
+            },
+            {
+              "id": "5457",
+              "title": "",
+              "snippet": " … crisis.\nMany Houthi rebels, however, have now harnessed their animosity for the government, laid down their weapons and joined the thousands of protesters camped out in Change Square in Sanaa, Yemen’s … ",
+              "url": "",
+              "timestamp": "2011-04-20",
+              "score": 17.33187110008904,
+              "topic": "yemen"
+            },
+            {
+              "id": "2533",
+              "title": "",
+              "snippet": " … in the capital Sanaa.\nThree army planes also attack the protesters, witnesses say\nThe Houthis are Shiite Muslims and followers of slain cleric Hussein al-Houthi\nHarf Sofyan, Yemen (CNN) -- Security forces … ",
+              "url": "",
+              "timestamp": "2011-03-04",
+              "score": 17.27075987752125,
+              "topic": "yemen"
+            },
+            {
+              "id": "1680",
+              "title": "At least 25 dead in north Yemen conflict, fighters say",
+              "snippet": " … Medical sources and activists in Taiz -- a hotbed of protests against Saleh -- said one person was killed when government forces fired artillery rounds at tribesmen in the city's al-Hasab district … ",
+              "url": "",
+              "timestamp": "2011-11-27",
+              "score": 17.235593138063994,
+              "topic": "yemen"
+            },
+            {
+              "id": "3342",
+              "title": "",
+              "snippet": " … However, Yemen’s revolutionary movement seems to be uniting several of the country’s disparate groups.\nRival tribes, the Houthi rebellion in the north, and the secessionist movement in the south are … ",
+              "url": "",
+              "timestamp": "2011-04-15",
+              "score": 16.95011903190364,
+              "topic": "yemen"
+            },
+            {
+              "id": "4455",
+              "title": "",
+              "snippet": " … SANAA (Reuters) - Three people were killed in north Yemen on Saturday when Shi'ite Muslim rebels shelled positions held by Sunni Islamist Salafi fighters after the collapse of a week-old cease … ",
+              "url": "",
+              "timestamp": "2011-11-26",
+              "score": 16.867694976021923,
+              "topic": "yemen"
+            },
+            {
+              "id": "3199",
+              "title": "Timeline Saleh's 33year rule in Yemen",
+              "snippet": " … May 30 - A truce between loyalist forces and tribesmen breaks down, with militants loyal to Ahmar regaining control of Yemen's ruling party building in the Hasaba district of Sanaa.\nJune 3 … ",
+              "url": "",
+              "timestamp": "2012-02-20",
+              "score": 16.688607569942683,
+              "topic": "yemen"
+            }
+          ],
+          "new_doc_ids": [
+            "4895",
+            "811",
+            "16",
+            "2853",
+            "3829",
+            "3602",
+            "5457",
+            "2533",
+            "1680",
+            "3342",
+            "4455",
+            "3199"
+          ],
+          "audit": {
+            "text": "Yemen crisis timeline: when did Houthi forces seize control of Sanaa in 2014?",
+            "model": "deepseek-v4-flash",
+            "usage": {
+              "prompt_tokens": 1617,
+              "completion_tokens": 913,
+              "total_tokens": 2530,
+              "prompt_tokens_details": {
+                "cached_tokens": 128
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 890
+              },
+              "prompt_cache_hit_tokens": 128,
+              "prompt_cache_miss_tokens": 1489
+            },
+            "request_id": null
+          }
+        },
+        {
+          "round": 3,
+          "query": "When did Houthi forces take control of Yemen’s capital Sanaa in September 2014?",
+          "results": [
+            {
+              "id": "5464",
+              "title": "Killing of 4 Shiites in Yemeni Capital Sanaa Increases Tension",
+              "snippet": "Killing of 4 Shiites in Yemeni Capital Sanaa Increases Tension\nFour Shiite Houthi Muslims were killed in an explosion at a worship site in the Yemeni capital of Sanaa in an increase … ",
+              "url": "",
+              "timestamp": "2012-11-24",
+              "score": 23.930646636709554,
+              "topic": "yemen"
+            },
+            {
+              "id": "811",
+              "title": "Houthi rebels seen gaining new influence in Yemen",
+              "snippet": " … When riots erupted this month over an anti-Islam film made in California, Houthi rebels, long confined to remote corners of Yemen by then-President Ali Abdullah Saleh, covered the capital Sanaa … ",
+              "url": "",
+              "timestamp": "2012-10-03",
+              "score": 23.158004523446998,
+              "topic": "yemen"
+            },
+            {
+              "id": "16",
+              "title": "Houthi rebels seen gaining new influence in Yemen",
+              "snippet": " … influence in Yemen\n1 of 6. A member of the Shi'ite rebel al-Houthi group sits while guarding a group meeting in Sanaa September 16, 2012.\nSANAA (Reuters) - When riots erupted … ",
+              "url": "",
+              "timestamp": "2012-10-03",
+              "score": 23.151141844046816,
+              "topic": "yemen"
+            },
+            {
+              "id": "2390",
+              "title": "Separatist marches challenge Yemen's reform conference",
+              "snippet": "Separatist marches challenge Yemen's reform conference\nSANAA (Reuters) - Yemeni leaders trying to end political upheaval and separatist demands met to chart a new constitution on Monday, the scale of their task … ",
+              "url": "",
+              "timestamp": "2013-03-18",
+              "score": 19.03365339271031,
+              "topic": "yemen"
+            },
+            {
+              "id": "3746",
+              "title": "Separatist marches challenge Yemen's reform conference",
+              "snippet": "Separatist marches challenge Yemen's reform conference\nSANAA (Reuters) - Yemeni leaders trying to end political upheaval and separatist demands met to chart a new constitution on Monday, the scale of their task … ",
+              "url": "",
+              "timestamp": "2013-03-18",
+              "score": 19.03365339271031,
+              "topic": "yemen"
+            },
+            {
+              "id": "5457",
+              "title": "",
+              "snippet": " … Many Houthi rebels, however, have now harnessed their animosity for the government, laid down their weapons and joined the thousands of protesters camped out in Change Square in Sanaa, Yemen’s capital … ",
+              "url": "",
+              "timestamp": "2011-04-20",
+              "score": 19.010487241934452,
+              "topic": "yemen"
+            },
+            {
+              "id": "2711",
+              "title": "Separatist marches challenge Yemen's reform conference",
+              "snippet": " … Yemen's reform conference\nYemeni President Abd-Rabbu Mansour Hadi is seen during meeting with U.N. special representative of the Secretary-General for Children and Armed Conflict Leila Zerrougui in Sanaa … ",
+              "url": "",
+              "timestamp": "2013-03-18",
+              "score": 19.008728713774836,
+              "topic": "yemen"
+            },
+            {
+              "id": "3015",
+              "title": "Separatist marches challenge Yemen's reform conference",
+              "snippet": " … Yemen's reform conference\nYemeni President Abd-Rabbu Mansour Hadi is seen during meeting with U.N. special representative of the Secretary-General for Children and Armed Conflict Leila Zerrougui in Sanaa … ",
+              "url": "",
+              "timestamp": "2013-03-18",
+              "score": 18.849139445075963,
+              "topic": "yemen"
+            },
+            {
+              "id": "2533",
+              "title": "",
+              "snippet": " … in the capital Sanaa.\nThree army planes also attack the protesters, witnesses say\nThe Houthis are Shiite Muslims and followers of slain cleric Hussein al-Houthi\nHarf Sofyan, Yemen (CNN) -- Security forces … ",
+              "url": "",
+              "timestamp": "2011-03-04",
+              "score": 18.72708395673388,
+              "topic": "yemen"
+            },
+            {
+              "id": "3342",
+              "title": "",
+              "snippet": " … SANAA, Yemen — Yemeni President Ali Abdullah Saleh remained defiant Friday in the face of calls by Yemen's influential tribal leaders to step down, telling a large crowd in the capital Sanaa … ",
+              "url": "",
+              "timestamp": "2011-04-15",
+              "score": 18.724154793369856,
+              "topic": "yemen"
+            },
+            {
+              "id": "4524",
+              "title": "Two Yemenis killed during protest against secret service",
+              "snippet": " … Abdel Karim al-Khaywani, a local Houthi leader, said members of his group had demonstrated outside Yemen's external security service in Sanaa demanding that it be disbanded because of its involvement … ",
+              "url": "",
+              "timestamp": "2013-06-09",
+              "score": 18.218295524075366,
+              "topic": "yemen"
+            },
+            {
+              "id": "2845",
+              "title": "At least 25 dead in north Yemen conflict, fighters say",
+              "snippet": " … of the capital Sanaa.\nThe conflict in the north, where government troops also tried to crush Shi'ite Houthi rebels before a ceasefire last year, is one of several plaguing Yemen which … ",
+              "url": "",
+              "timestamp": "2011-11-27",
+              "score": 18.089107121448013,
+              "topic": "yemen"
+            },
+            {
+              "id": "3904",
+              "title": "Yemeni debate over drones emerges after Saleh's fall",
+              "snippet": " … The comments came after a September strike that killed 12 civilians in Radaa, a small Yemeni town south of Sanaa, and the storming of the U.S. Embassy in the capital by … ",
+              "url": "",
+              "timestamp": "2012-10-17",
+              "score": 18.083997960120264,
+              "topic": "yemen"
+            },
+            {
+              "id": "2649",
+              "title": "",
+              "snippet": " … of the capital Sanaa.\nThe conflict in the north, where government troops also tried to crush Shi'ite Houthi rebels before a cease-fire last year, is one of several plaguing Yemen … ",
+              "url": "",
+              "timestamp": "2011-11-27",
+              "score": 18.05192326431087,
+              "topic": "yemen"
+            },
+            {
+              "id": "1680",
+              "title": "At least 25 dead in north Yemen conflict, fighters say",
+              "snippet": " … Medical sources and activists in Taiz -- a hotbed of protests against Saleh -- said one person was killed when government forces fired artillery rounds at tribesmen in the city's al-Hasab district … ",
+              "url": "",
+              "timestamp": "2011-11-27",
+              "score": 17.976377207214057,
+              "topic": "yemen"
+            },
+            {
+              "id": "3602",
+              "title": "Yemen names interim PM, violence kills at least 25 in north",
+              "snippet": " … religious school in Saada province, which lies in Yemen's northwest and borders Saudi Arabia.\nThe Houthis, who effectively control Saada, are deeply wary of Saudi Arabia's promotion of puritanical Sunni … ",
+              "url": "",
+              "timestamp": "2011-11-27",
+              "score": 17.929468512094818,
+              "topic": "yemen"
+            },
+            {
+              "id": "4627",
+              "title": "Yemen's Houthi rebel leader laid to rest",
+              "snippet": " … pictures of Houthi put up in the capital Sanaa.\nComplaining of social, religious and economic discrimination in Yemen, the Houthis fought several battles\nwith government forces between 2004 and 2010, when a … ",
+              "url": "",
+              "timestamp": "2013-06-06",
+              "score": 17.664747080727647,
+              "topic": "yemen"
+            },
+            {
+              "id": "5250",
+              "title": "FACTBOX  Yemen's Ali Abdullah Saleh",
+              "snippet": " … Yemen's Ali Abdullah Saleh\nYemen's President Ali Abdullah Saleh addresses a news conference in Sanaa March 18, 2011.\nREUTERS - Yemeni President Ali Abdullah Saleh suffered fresh defections on Tuesday when … ",
+              "url": "",
+              "timestamp": "2011-03-22",
+              "score": 17.62076833581677,
+              "topic": "yemen"
+            },
+            {
+              "id": "2853",
+              "title": "Medics Militants raid Yemen town, killing dozens",
+              "snippet": " … Militants raid Yemen town, killing dozens\nNovember 27, 2011 -- Updated 1209 GMT (2009 HKT)\nYemeni anti-government protesters march in Sanaa demanding the trial of Ali Abdullah Saleh on November 26, 2011 … ",
+              "url": "",
+              "timestamp": "2011-11-27",
+              "score": 17.581545422027045,
+              "topic": "yemen"
+            },
+            {
+              "id": "949",
+              "title": "",
+              "snippet": "Yemen\nYemen's president compares protests to 'influenza'\nProtesters call for the ouster of Yemeni President Ali Abdullah Saleh during a demonstration in the capital Sanaa on Monday.\nNEW: Human rights organization … ",
+              "url": "",
+              "timestamp": "2011-02-21",
+              "score": 17.525241964696175,
+              "topic": "yemen"
+            }
+          ],
+          "new_doc_ids": [
+            "4524",
+            "2845",
+            "3904",
+            "2649",
+            "4627",
+            "5250",
+            "949"
+          ],
+          "audit": {
+            "text": "When did Houthi forces take control of Yemen’s capital Sanaa in September 2014?",
+            "model": "deepseek-v4-flash",
+            "usage": {
+              "prompt_tokens": 1698,
+              "completion_tokens": 1482,
+              "total_tokens": 3180,
+              "prompt_tokens_details": {
+                "cached_tokens": 128
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 1459
+              },
+              "prompt_cache_hit_tokens": 128,
+              "prompt_cache_miss_tokens": 1570
+            },
+            "request_id": null
+          }
+        }
+      ],
+      "unique_results": [
+        {
+          "id": "5464",
+          "title": "Killing of 4 Shiites in Yemeni Capital Sanaa Increases Tension",
+          "snippet": "Killing of 4 Shiites in Yemeni Capital Sanaa Increases Tension\nFour Shiite Houthi Muslims were killed in an explosion at a worship site in the Yemeni capital of Sanaa in an increase … ",
+          "url": "",
+          "timestamp": "2012-11-24",
+          "score": 20.78035304751988,
+          "topic": "yemen"
+        },
+        {
+          "id": "3546",
+          "title": "Yemen demands Iran halts support for insurgents",
+          "snippet": " … ties between Tehran and Sanaa, already strained over charges that Iran was working with separatists in the south and Houthi rebels in the north to further destabilize Yemen as it tries to … ",
+          "url": "",
+          "timestamp": "2013-02-07",
+          "score": 18.661027426980187,
+          "topic": "yemen"
+        },
+        {
+          "id": "3402",
+          "title": "Yemen demands Iran halts support for insurgents",
+          "snippet": " … ties between Tehran and Sanaa, already strained over charges that Iran was working with separatists in the south and Houthi rebels in the north to further destabilise Yemen as it tries to … ",
+          "url": "",
+          "timestamp": "2013-02-07",
+          "score": 18.302776272258633,
+          "topic": "yemen"
+        },
+        {
+          "id": "5409",
+          "title": "Yemen demands Iran halts support for insurgents",
+          "snippet": " … ties between Tehran and Sanaa, already strained over charges that Iran was working with separatists in the south and Houthi rebels in the north to further destabilise Yemen as it tries to … ",
+          "url": "",
+          "timestamp": "2013-02-07",
+          "score": 18.302776272258633,
+          "topic": "yemen"
+        },
+        {
+          "id": "74",
+          "title": "Yemen demands Iran halts support for insurgents",
+          "snippet": " … in northern Yemen.\nThe discovery of the shipment will likely further sour ties between Tehran and Sanaa, already strained over charges that Iran was working with separatists in the south and Houthi … ",
+          "url": "",
+          "timestamp": "2013-02-07",
+          "score": 18.26069191922945,
+          "topic": "yemen"
+        },
+        {
+          "id": "3561",
+          "title": "Yemen security chief tells Iran to stop backing rebels",
+          "snippet": "Yemen security chief tells Iran to stop backing rebels\nMembers of the Shi'ite rebel al-Houthi group sit while guarding a group meeting in Sanaa September 16, 2012.  (REUTERS/Khaled Abdullah … ",
+          "url": "",
+          "timestamp": "2012-12-09",
+          "score": 18.19213722953248,
+          "topic": "yemen"
+        },
+        {
+          "id": "2369",
+          "title": "Iran accused of sending missiles, explosives to insurgents in Yemen",
+          "snippet": "Iran accused of sending missiles, explosives to insurgents in Yemen\nYemeni Interior Minister Abdul-Qater Qahtan (left) and senior security officials inspect seized Iranian-made weapons. Ties between Tehran and Sanaa were … ",
+          "url": "",
+          "timestamp": "2013-02-08",
+          "score": 17.81828437449301,
+          "topic": "yemen"
+        },
+        {
+          "id": "2390",
+          "title": "Separatist marches challenge Yemen's reform conference",
+          "snippet": " … Yemeni officials have also accused Iran of backing the Shi'ite Houthi rebels who operate in northern Yemen.\n",
+          "url": "",
+          "timestamp": "2013-03-18",
+          "score": 17.798679907902407,
+          "topic": "yemen"
+        },
+        {
+          "id": "3746",
+          "title": "Separatist marches challenge Yemen's reform conference",
+          "snippet": " … Yemeni officials have also accused Iran of backing the Shi'ite Houthi rebels who operate in northern Yemen.\n",
+          "url": "",
+          "timestamp": "2013-03-18",
+          "score": 17.798679907902407,
+          "topic": "yemen"
+        },
+        {
+          "id": "2711",
+          "title": "Separatist marches challenge Yemen's reform conference",
+          "snippet": " … Yemeni officials have also accused Iran of backing the Shi'ite Houthi rebels who operate in northern Yemen.\n",
+          "url": "",
+          "timestamp": "2013-03-18",
+          "score": 17.798234332542357,
+          "topic": "yemen"
+        },
+        {
+          "id": "3015",
+          "title": "Separatist marches challenge Yemen's reform conference",
+          "snippet": " … Yemeni officials have also accused Iran of backing the Shi'ite Houthi rebels who operate in northern Yemen.\n",
+          "url": "",
+          "timestamp": "2013-03-18",
+          "score": 17.652418478183858,
+          "topic": "yemen"
+        },
+        {
+          "id": "351",
+          "title": "Northern battle flares as Yemen seeks interim government",
+          "snippet": "Northern battle flares as Yemen seeks interim government\nSANAA (Reuters) - Fighting between Shi'ite rebels and Sunni Islamists wounded at least 26 people in north Yemen on Wednesday, as the new prime … ",
+          "url": "",
+          "timestamp": "2011-11-30",
+          "score": 17.64109572266665,
+          "topic": "yemen"
+        },
+        {
+          "id": "91",
+          "title": "SunniShiite violence flares in Yemen",
+          "snippet": " … REUTERS/Stringer (YEMEN - Tags: POLITICS CIVIL UNREST)\nSANAA: Fighting between Shiite rebels and Sunni Islamists wounded at least 26 people in north Yemen Wednesday, as the new prime minister worked to form … ",
+          "url": "",
+          "timestamp": "2011-12-01",
+          "score": 17.456276837486733,
+          "topic": "yemen"
+        },
+        {
+          "id": "1522",
+          "title": "Separatist rally challenges Yemen's reform efforts",
+          "snippet": " … Hundreds of security forces took positions outside Aden's main buildings such as banks and government offices but no clashes were reported, the witnesses said.\nSouth Yemen merged with North Yemen in … ",
+          "url": "",
+          "timestamp": "2013-03-18",
+          "score": 17.377474627942565,
+          "topic": "yemen"
+        },
+        {
+          "id": "2749",
+          "title": "Yemen demands Iran halt support for insurgents",
+          "snippet": " … ties between Tehran and Sanaa, already strained over charges that Iran was working with separatists in the south and Houthi rebels in the north to further destabilize Yemen as it tries to … ",
+          "url": "",
+          "timestamp": "2013-02-07",
+          "score": 17.345775069197998,
+          "topic": "yemen"
+        },
+        {
+          "id": "4043",
+          "title": "",
+          "snippet": " … ties between Tehran and Sanaa, already strained over charges that Iran was working with separatists in the south and Houthi rebels in the north to further destabilise Yemen as it tries to … ",
+          "url": "",
+          "timestamp": "2013-02-08",
+          "score": 17.22232448349977,
+          "topic": "yemen"
+        },
+        {
+          "id": "2285",
+          "title": "Yemen security chief tells Iran to stop backing rebels",
+          "snippet": " … Houthi rebels who operate in northern Yemen near the border with Saudi Arabia - the world's top oil exporter which is competing with Shi'ite Iran for regional influence.\n\"Iran seized a … ",
+          "url": "",
+          "timestamp": "2012-12-09",
+          "score": 17.115286949169455,
+          "topic": "yemen"
+        },
+        {
+          "id": "2045",
+          "title": "Yemen bomb blast kills three soldiers in capital",
+          "snippet": " … in Yemen's capital Sanaa killed three soldiers and injured two more, according to security officials.\nAn image grab taken from AFP TV shows Yemeni army forces shelling Al-Qaeda targets in … ",
+          "url": "",
+          "timestamp": "2013-07-06",
+          "score": 17.111708889263127,
+          "topic": "yemen"
+        },
+        {
+          "id": "4011",
+          "title": "Arms from Turkey found in Yemen reports",
+          "snippet": " … Yemen's al-Houthi Shiite group ride a motorcycle while carrying weapons, in the northwestern province of Saada January 23, 2013.    REUTERS/Mohamed al-Sayaghi\nSANAA: The authorities in Yemen have seized … ",
+          "url": "",
+          "timestamp": "2013-01-25",
+          "score": 17.073423623708738,
+          "topic": "yemen"
+        },
+        {
+          "id": "464",
+          "title": "Yemen timeline Looking back at Saleh’s rule  WorldViews",
+          "snippet": "Yemen timeline Looking back at Saleh’s rule  WorldViews\nA supporter of Yemen's President Ali Abdullah Saleh kisses a poster of Saleh during a rally in Tahrir Square in Sanaa March … ",
+          "url": "",
+          "timestamp": "2011-06-03",
+          "score": 17.07186875934561,
+          "topic": "yemen"
+        },
+        {
+          "id": "4895",
+          "title": "Yemen begins new national talks",
+          "snippet": " … UN-brokered dialogue meetings aim to cultivate a new constitution and preparation for elections in 2014  [AFP]\nYemen has begun the second round of its national dialogue in Sanaa as President Abrabuh … ",
+          "url": "",
+          "timestamp": "2013-06-08",
+          "score": 18.94973471569208,
+          "topic": "yemen"
+        },
+        {
+          "id": "811",
+          "title": "Houthi rebels seen gaining new influence in Yemen",
+          "snippet": " … When riots erupted this month over an anti-Islam film made in California, Houthi rebels, long confined to remote corners of Yemen by then-President Ali Abdullah Saleh, covered the capital Sanaa … ",
+          "url": "",
+          "timestamp": "2012-10-03",
+          "score": 17.921927341079005,
+          "topic": "yemen"
+        },
+        {
+          "id": "16",
+          "title": "Houthi rebels seen gaining new influence in Yemen",
+          "snippet": " … SANAA (Reuters) - When riots erupted this month over an anti-Islam film made in California, Houthi rebels, long confined to remote corners of Yemen by then-President Ali Abdullah Saleh, covered the … ",
+          "url": "",
+          "timestamp": "2012-10-03",
+          "score": 17.918183710489053,
+          "topic": "yemen"
+        },
+        {
+          "id": "2853",
+          "title": "Medics Militants raid Yemen town, killing dozens",
+          "snippet": " … Militants raid Yemen town, killing dozens\nNovember 27, 2011 -- Updated 1209 GMT (2009 HKT)\nYemeni anti-government protesters march in Sanaa demanding the trial of Ali Abdullah Saleh on November 26, 2011 … ",
+          "url": "",
+          "timestamp": "2011-11-27",
+          "score": 17.58154426012919,
+          "topic": "yemen"
+        },
+        {
+          "id": "3829",
+          "title": "",
+          "snippet": " … of lethal clashes in Taiz on April 4, 2011. (-/AFP/Getty Images)\nSANAA, Yemen — At least 12 people were killed and scores more injured when Yemen security forces and police in civilian … ",
+          "url": "",
+          "timestamp": "2011-04-04",
+          "score": 17.57033173740198,
+          "topic": "yemen"
+        },
+        {
+          "id": "3602",
+          "title": "Yemen names interim PM, violence kills at least 25 in north",
+          "snippet": "Yemen names interim PM, violence kills at least 25 in north\nSANAA (Reuters) - Yemen named an opposition leader as interim prime minister on Sunday under a deal aimed at ending months of … ",
+          "url": "",
+          "timestamp": "2011-11-27",
+          "score": 17.464486857129526,
+          "topic": "yemen"
+        },
+        {
+          "id": "5457",
+          "title": "",
+          "snippet": " … crisis.\nMany Houthi rebels, however, have now harnessed their animosity for the government, laid down their weapons and joined the thousands of protesters camped out in Change Square in Sanaa, Yemen’s … ",
+          "url": "",
+          "timestamp": "2011-04-20",
+          "score": 17.33187110008904,
+          "topic": "yemen"
+        },
+        {
+          "id": "2533",
+          "title": "",
+          "snippet": " … in the capital Sanaa.\nThree army planes also attack the protesters, witnesses say\nThe Houthis are Shiite Muslims and followers of slain cleric Hussein al-Houthi\nHarf Sofyan, Yemen (CNN) -- Security forces … ",
+          "url": "",
+          "timestamp": "2011-03-04",
+          "score": 17.27075987752125,
+          "topic": "yemen"
+        },
+        {
+          "id": "1680",
+          "title": "At least 25 dead in north Yemen conflict, fighters say",
+          "snippet": " … Medical sources and activists in Taiz -- a hotbed of protests against Saleh -- said one person was killed when government forces fired artillery rounds at tribesmen in the city's al-Hasab district … ",
+          "url": "",
+          "timestamp": "2011-11-27",
+          "score": 17.235593138063994,
+          "topic": "yemen"
+        },
+        {
+          "id": "3342",
+          "title": "",
+          "snippet": " … However, Yemen’s revolutionary movement seems to be uniting several of the country’s disparate groups.\nRival tribes, the Houthi rebellion in the north, and the secessionist movement in the south are … ",
+          "url": "",
+          "timestamp": "2011-04-15",
+          "score": 16.95011903190364,
+          "topic": "yemen"
+        },
+        {
+          "id": "4455",
+          "title": "",
+          "snippet": " … SANAA (Reuters) - Three people were killed in north Yemen on Saturday when Shi'ite Muslim rebels shelled positions held by Sunni Islamist Salafi fighters after the collapse of a week-old cease … ",
+          "url": "",
+          "timestamp": "2011-11-26",
+          "score": 16.867694976021923,
+          "topic": "yemen"
+        },
+        {
+          "id": "3199",
+          "title": "Timeline Saleh's 33year rule in Yemen",
+          "snippet": " … May 30 - A truce between loyalist forces and tribesmen breaks down, with militants loyal to Ahmar regaining control of Yemen's ruling party building in the Hasaba district of Sanaa.\nJune 3 … ",
+          "url": "",
+          "timestamp": "2012-02-20",
+          "score": 16.688607569942683,
+          "topic": "yemen"
+        },
+        {
+          "id": "4524",
+          "title": "Two Yemenis killed during protest against secret service",
+          "snippet": " … Abdel Karim al-Khaywani, a local Houthi leader, said members of his group had demonstrated outside Yemen's external security service in Sanaa demanding that it be disbanded because of its involvement … ",
+          "url": "",
+          "timestamp": "2013-06-09",
+          "score": 18.218295524075366,
+          "topic": "yemen"
+        },
+        {
+          "id": "2845",
+          "title": "At least 25 dead in north Yemen conflict, fighters say",
+          "snippet": " … of the capital Sanaa.\nThe conflict in the north, where government troops also tried to crush Shi'ite Houthi rebels before a ceasefire last year, is one of several plaguing Yemen which … ",
+          "url": "",
+          "timestamp": "2011-11-27",
+          "score": 18.089107121448013,
+          "topic": "yemen"
+        },
+        {
+          "id": "3904",
+          "title": "Yemeni debate over drones emerges after Saleh's fall",
+          "snippet": " … The comments came after a September strike that killed 12 civilians in Radaa, a small Yemeni town south of Sanaa, and the storming of the U.S. Embassy in the capital by … ",
+          "url": "",
+          "timestamp": "2012-10-17",
+          "score": 18.083997960120264,
+          "topic": "yemen"
+        },
+        {
+          "id": "2649",
+          "title": "",
+          "snippet": " … of the capital Sanaa.\nThe conflict in the north, where government troops also tried to crush Shi'ite Houthi rebels before a cease-fire last year, is one of several plaguing Yemen … ",
+          "url": "",
+          "timestamp": "2011-11-27",
+          "score": 18.05192326431087,
+          "topic": "yemen"
+        },
+        {
+          "id": "4627",
+          "title": "Yemen's Houthi rebel leader laid to rest",
+          "snippet": " … pictures of Houthi put up in the capital Sanaa.\nComplaining of social, religious and economic discrimination in Yemen, the Houthis fought several battles\nwith government forces between 2004 and 2010, when a … ",
+          "url": "",
+          "timestamp": "2013-06-06",
+          "score": 17.664747080727647,
+          "topic": "yemen"
+        },
+        {
+          "id": "5250",
+          "title": "FACTBOX  Yemen's Ali Abdullah Saleh",
+          "snippet": " … Yemen's Ali Abdullah Saleh\nYemen's President Ali Abdullah Saleh addresses a news conference in Sanaa March 18, 2011.\nREUTERS - Yemeni President Ali Abdullah Saleh suffered fresh defections on Tuesday when … ",
+          "url": "",
+          "timestamp": "2011-03-22",
+          "score": 17.62076833581677,
+          "topic": "yemen"
+        },
+        {
+          "id": "949",
+          "title": "",
+          "snippet": "Yemen\nYemen's president compares protests to 'influenza'\nProtesters call for the ouster of Yemeni President Ali Abdullah Saleh during a demonstration in the capital Sanaa on Monday.\nNEW: Human rights organization … ",
+          "url": "",
+          "timestamp": "2011-02-21",
+          "score": 17.525241964696175,
+          "topic": "yemen"
+        }
+      ],
+      "llm_calls": 3
+    }
+  },
+  "usage": {
+    "prompt_tokens": 3565,
+    "completion_tokens": 3783,
+    "total_tokens": 7348
+  }
+}

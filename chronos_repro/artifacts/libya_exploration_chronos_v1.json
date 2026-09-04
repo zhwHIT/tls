@@ -1,0 +1,1452 @@
+{
+  "schema_version": 1,
+  "status": "ok",
+  "strategy": "exploration_chronos_v1",
+  "search_engine": "crisis libya",
+  "config": {
+    "model": "deepseek-v4-flash",
+    "temperature": 0.0,
+    "top_k": 20,
+    "max_rounds": 3,
+    "stop_no_new_date_rounds": 2,
+    "query_similarity_limit": 0.75
+  },
+  "provenance": {
+    "index_sha256": "ed73fb8ff0e9add31df40f637783372c15f59de6f0939dd30b4f19210270bc81",
+    "index_metadata": {
+      "data_root": "D:\\paper\\chronos_repro\\snapshots\\crisis\\ece08f344cc94933",
+      "document_count": 17573,
+      "engine": "sqlite-fts5-bm25",
+      "schema_version": 1,
+      "snapshot": {
+        "dataset": "crisis",
+        "manifest": "D:\\paper\\chronos_repro\\snapshots\\crisis\\ece08f344cc94933\\MANIFEST.sha256.json",
+        "manifest_sha256": "40345dae0249badde354e4e78315799d41035467870baad78efa333efa02b460",
+        "snapshot_id": "ece08f344cc94933"
+      },
+      "topic_counts": {
+        "egypt": 4083,
+        "libya": 4274,
+        "syria": 5170,
+        "yemen": 4046
+      }
+    }
+  },
+  "corpus_date_bounds": [
+    "2011-02-16",
+    "2013-07-18"
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "state": {
+        "covered_dates": [],
+        "date_gaps": [
+          {
+            "start": "2011-02-16",
+            "end": "2013-07-18",
+            "days": 883
+          }
+        ]
+      },
+      "action": {
+        "type": "SEARCH",
+        "query": "Libya crisis timeline"
+      },
+      "observation": {
+        "results": [
+          {
+            "id": "5823",
+            "title": "Libya timeline six months of conflict  interactive",
+            "snippet": "Libya timeline six months of conflict  interactive\n",
+            "url": "",
+            "timestamp": "2011-08-22",
+            "score": 10.715574112740569,
+            "topic": "libya"
+          },
+          {
+            "id": "3874",
+            "title": "PHOTOS Timeline of Libya war in pictures",
+            "snippet": "PHOTOS Timeline of Libya war in pictures  GlobalPost\n",
+            "url": "",
+            "timestamp": "2011-10-20",
+            "score": 10.711686600813133,
+            "topic": "libya"
+          },
+          {
+            "id": "825",
+            "title": "Timeline Libya's civil war nears end",
+            "snippet": "Timeline Libya's civil war nears end\n(Reuters) - Here is a timeline of the civil war in Libya since protests against Muammar Gaddafi's four-decade rule began in February:\nFebruary 15 … ",
+            "url": "",
+            "timestamp": "2011-10-12",
+            "score": 9.450960673818088,
+            "topic": "libya"
+          },
+          {
+            "id": "1001",
+            "title": "Timeline Libya  from bloody uprising to elections",
+            "snippet": "Timeline Libya  from bloody uprising to elections\n(Reuters) - Libyans vote on Saturday for a 200-member national assembly that will name a prime minister, enact legislation and appoint a committee to draft … ",
+            "url": "",
+            "timestamp": "2012-07-07",
+            "score": 9.450474886339169,
+            "topic": "libya"
+          },
+          {
+            "id": "5456",
+            "title": "Timeline Libya's civil war nears end",
+            "snippet": "Timeline Libya's civil war nears end\nAnti-Gaddafi fighters celebrated the fall of Sirte  October 20, 2011.\n(Reuters) - Here is a timeline of the civil war in Libya since protests against … ",
+            "url": "",
+            "timestamp": "2011-10-20",
+            "score": 9.365876675372352,
+            "topic": "libya"
+          },
+          {
+            "id": "4746",
+            "title": "Libya rebellion timeline",
+            "snippet": "Libya rebellion timeline   Telegraph\nMarch 17 – The U.N. Security Council votes to authorise a no-fly zone    over Libya and military action – to protect civilians against Gaddafi's    army.\nMarch 19 … ",
+            "url": "",
+            "timestamp": "2011-10-20",
+            "score": 9.080246750035679,
+            "topic": "libya"
+          },
+          {
+            "id": "156",
+            "title": "A timeline of the war in Libya from revolt to reports of Muammar Gaddafis death",
+            "snippet": "A timeline of the war in Libya from revolt to reports of Muammar Gaddafis death  National Post\n15/16, 2011 The arrest of human rights activist Fethi Tarbel starts a riot in … ",
+            "url": "",
+            "timestamp": "2011-10-20",
+            "score": 8.90789109052922,
+            "topic": "libya"
+          },
+          {
+            "id": "1086",
+            "title": "LINE  Libya's civil war nears end",
+            "snippet": "TIMELINE  Libya's civil war nears end\nTIMELINE - Libya's civil war nears end\nAn anti-Gaddafi fighter flashes victory signs on an armored bulldozer during violent clashes with pro-Gaddafi forces … ",
+            "url": "",
+            "timestamp": "2011-10-20",
+            "score": 8.753912094598617,
+            "topic": "libya"
+          },
+          {
+            "id": "1354",
+            "title": "Moammar Khadafy dead A timeline of the Libyan leader's rise and fall",
+            "snippet": "Moammar Khadafy dead A timeline of the Libyan leader's rise and fall   NY Daily News\nDeposed Libyan leader Moammar Khadafy , who reigned over the country for 42 years, was killed in … ",
+            "url": "",
+            "timestamp": "2011-10-20",
+            "score": 8.630076036550461,
+            "topic": "libya"
+          },
+          {
+            "id": "5375",
+            "title": "White House Tells Congress We're Not at War With Libya  Fox Nation",
+            "snippet": " … is not at war with Libya and, without laying out a timeline, that the president hopes to hand over control of coalition military operations in the next few days.\nOfficials present included … ",
+            "url": "",
+            "timestamp": "2011-03-22",
+            "score": 8.25454146442272,
+            "topic": "libya"
+          },
+          {
+            "id": "5488",
+            "title": "Libya's congress rejects crisis government plan",
+            "snippet": "Libya's congress rejects crisis government plan\nOctober 8, 2012 -- Updated 0037 GMT (0837 HKT)\nLibyan Prime Minister-elect Mustafa Abushagur proposed a downsized 10-member \"crisis government\" for the country.\nThe … ",
+            "url": "",
+            "timestamp": "2012-10-07",
+            "score": 8.171963431152331,
+            "topic": "libya"
+          },
+          {
+            "id": "981",
+            "title": "A timeline of the conflict in Libya",
+            "snippet": "A timeline of the conflict in Libya\nFighting started with anti-government demonstrations and escalated into a civil war\nInternational leaders accuse Gadhafi's regime of committing human rights violations\nLibyan officials … ",
+            "url": "",
+            "timestamp": "2011-08-21",
+            "score": 7.841745871204436,
+            "topic": "libya"
+          },
+          {
+            "id": "3222",
+            "title": "What can be done to end the crisis in Libya?",
+            "snippet": "What can be done to end the crisis in Libya?\nProtesters have taken control of several key cities across Libya, but government forces appear to be fighting back.\nU.N. has imposed … ",
+            "url": "",
+            "timestamp": "2011-03-04",
+            "score": 7.513684400911442,
+            "topic": "libya"
+          },
+          {
+            "id": "768",
+            "title": "A timeline of the conflict in Libya",
+            "snippet": "A timeline of the conflict in Libya\nFighting started with anti-government demonstrations and escalated into a civil war\nInternational leaders accuse Gadhafi's regime of committing human rights violations\nLibyan officials … ",
+            "url": "",
+            "timestamp": "2011-08-24",
+            "score": 7.4803225424898585,
+            "topic": "libya"
+          },
+          {
+            "id": "1792",
+            "title": "Presidential Debate 2012 Fact Check The timeline on Libya and more",
+            "snippet": "Presidential Debate 2012 Fact Check The timeline on Libya and more  National Post\nIn the rough-and-tumble of a town hall-style presidential debate, the facts took something of a beating … ",
+            "url": "",
+            "timestamp": "2012-10-17",
+            "score": 7.403202792157183,
+            "topic": "libya"
+          },
+          {
+            "id": "2037",
+            "title": "Libya Timeline Events Leading Up To The Reported Death Of Muammar Gaddafi",
+            "snippet": "Libya Timeline Events Leading Up To The Reported Death Of Muammar Gaddafi\nIn this Saturday, Aug. 27, 2011, file photo, a Libyan man takes pictures of the courtyard of Abu Salim prison … ",
+            "url": "",
+            "timestamp": "2011-10-20",
+            "score": 7.37172136265,
+            "topic": "libya"
+          },
+          {
+            "id": "1970",
+            "title": "Baird meets with Libyan rebel fighters",
+            "snippet": " … Baird had previously expressed an interest in visiting with members of the National Transitional Council in Libya, but a timeline for a visit had not been released.\n“It was important to me … ",
+            "url": "",
+            "timestamp": "2011-06-27",
+            "score": 7.099417213900903,
+            "topic": "libya"
+          },
+          {
+            "id": "4533",
+            "title": "Libya rebels Talks over Bani Walid have failed",
+            "snippet": " … Western diplomats in Libya and opposition leaders abroad reported in 1993 that the air force had put down an uprising by army units in Misrata and Bani Walid. They said many officers … ",
+            "url": "",
+            "timestamp": "2011-09-04",
+            "score": 6.730707297690347,
+            "topic": "libya"
+          },
+          {
+            "id": "394",
+            "title": "",
+            "snippet": "National Post\nOTTAWA — The consensus around Canada’s military deployment in Libya looks set to unravel next month, unless there is a resolution on the ground.\nIn late June, the NDP supported … ",
+            "url": "",
+            "timestamp": "2011-08-08",
+            "score": 6.713731310547385,
+            "topic": "libya"
+          },
+          {
+            "id": "1075",
+            "title": "Spies at Benghazi consulate just the tip of the U.S. intelligence iceberg in Libya Expert",
+            "snippet": " … intelligence iceberg in Libya Expert  National Post\n“That would be absolutely how it is in Libya,” he said, referring to the numeric breakdown of spy vs. diplomat in Benghazi.\n“What those numbers … ",
+            "url": "",
+            "timestamp": "2012-11-02",
+            "score": 6.412846539440238,
+            "topic": "libya"
+          }
+        ],
+        "new_doc_ids": [
+          "5823",
+          "3874",
+          "825",
+          "1001",
+          "5456",
+          "4746",
+          "156",
+          "1086",
+          "1354",
+          "5375",
+          "5488",
+          "981",
+          "3222",
+          "768",
+          "1792",
+          "2037",
+          "1970",
+          "4533",
+          "394",
+          "1075"
+        ],
+        "new_dates": [
+          "2011-03-04",
+          "2011-03-22",
+          "2011-06-27",
+          "2011-08-08",
+          "2011-08-21",
+          "2011-08-22",
+          "2011-08-24",
+          "2011-09-04",
+          "2011-10-12",
+          "2011-10-20",
+          "2012-07-07",
+          "2012-10-07",
+          "2012-10-17",
+          "2012-11-02"
+        ]
+      },
+      "audit": null
+    },
+    {
+      "round": 2,
+      "state": {
+        "covered_dates": [
+          "2011-03-04",
+          "2011-03-22",
+          "2011-06-27",
+          "2011-08-08",
+          "2011-08-21",
+          "2011-08-22",
+          "2011-08-24",
+          "2011-09-04",
+          "2011-10-12",
+          "2011-10-20",
+          "2012-07-07",
+          "2012-10-07",
+          "2012-10-17",
+          "2012-11-02"
+        ],
+        "date_gaps": [
+          {
+            "start": "2011-10-20",
+            "end": "2012-07-07",
+            "days": 261
+          },
+          {
+            "start": "2012-11-02",
+            "end": "2013-07-18",
+            "days": 258
+          },
+          {
+            "start": "2011-03-22",
+            "end": "2011-06-27",
+            "days": 97
+          },
+          {
+            "start": "2012-07-07",
+            "end": "2012-10-07",
+            "days": 92
+          },
+          {
+            "start": "2011-06-27",
+            "end": "2011-08-08",
+            "days": 42
+          },
+          {
+            "start": "2011-09-04",
+            "end": "2011-10-12",
+            "days": 38
+          },
+          {
+            "start": "2011-03-04",
+            "end": "2011-03-22",
+            "days": 18
+          },
+          {
+            "start": "2011-02-16",
+            "end": "2011-03-04",
+            "days": 16
+          },
+          {
+            "start": "2012-10-17",
+            "end": "2012-11-02",
+            "days": 16
+          }
+        ]
+      },
+      "action": {
+        "type": "SEARCH",
+        "query": "Libya General National Congress election timeline 2011 2012"
+      },
+      "observation": {
+        "results": [
+          {
+            "id": "5488",
+            "title": "Libya's congress rejects crisis government plan",
+            "snippet": " … Tripoli, Libya (CNN) -- Libya's General National Congress rejected Prime Minister-elect Mustafa Abushagur's crisis government proposal Sunday.\nThe \"no confidence\" vote results in the automatic dismissal of Abushagur as prime … ",
+            "url": "",
+            "timestamp": "2012-10-07",
+            "score": 17.107990161502624,
+            "topic": "libya"
+          },
+          {
+            "id": "4242",
+            "title": "Commentary Women face challenges as Libya moves toward a new constitution",
+            "snippet": " … Libya moves toward a new constitution  GlobalPost\nA Libyan woman shows her ink-stained finger after casting her vote to elect Libya's General National Congress in Benghazi on July 7, 2012 … ",
+            "url": "",
+            "timestamp": "2013-05-31",
+            "score": 15.57248291509528,
+            "topic": "libya"
+          },
+          {
+            "id": "1001",
+            "title": "Timeline Libya  from bloody uprising to elections",
+            "snippet": " … national assembly that will name a prime minister, enact legislation and appoint a committee to draft a constitution.\nHere is a timeline of Libya since the civil war started in 2011:\nFebruary … ",
+            "url": "",
+            "timestamp": "2012-07-07",
+            "score": 14.685671057782752,
+            "topic": "libya"
+          },
+          {
+            "id": "1870",
+            "title": "Jason Pack Libya Two Years Later",
+            "snippet": " … 2012 exceeded 100 percent and that non-hydrocarbon growth is expected to average 15 percent per annum until 2018. On the other hand, on March 5 the General National Congress (GNC) -- Libya … ",
+            "url": "",
+            "timestamp": "2013-03-20",
+            "score": 14.6746267588851,
+            "topic": "libya"
+          },
+          {
+            "id": "191",
+            "title": "Libya two years on Revolution and devolution  Opinion  Al Jazeera English",
+            "snippet": " … federal movement in June 2012. \nThe interim government, especially the General National Congress (GNC), is dithering on this issue and seems inclined to prefer selection to election. This is at the core … ",
+            "url": "",
+            "timestamp": "2013-02-17",
+            "score": 14.00954133244645,
+            "topic": "libya"
+          },
+          {
+            "id": "1354",
+            "title": "Moammar Khadafy dead A timeline of the Libyan leader's rise and fall",
+            "snippet": " … contends that Khadafy has built a plant in Libya to manufacture chemical weapons.\n1990: Nelson Mandela , then the deputy president of the African National Congress , thanks Khadafy for offering to provide training … ",
+            "url": "",
+            "timestamp": "2011-10-20",
+            "score": 13.872869350510623,
+            "topic": "libya"
+          },
+          {
+            "id": "1396",
+            "title": "Libya's election Uncertainty before and after  Opinion  Al Jazeera English",
+            "snippet": " … The 2011 Libyan uprising created a temporary government whose limited revolutionary mandate is rapidly expiring. While the General National Congress election will bring new top level leadership, it will not itself change … ",
+            "url": "",
+            "timestamp": "2012-07-06",
+            "score": 13.621545311538735,
+            "topic": "libya"
+          },
+          {
+            "id": "120",
+            "title": "Photos of joy First Libyan election after Gadhafi ",
+            "snippet": " … eastern city of Benghazi on July 7, 2012 during Libya's General National Congress.\nU.S. Sen. John McCain, an Arizona Republican, gave the election a clean bill of health during a … ",
+            "url": "",
+            "timestamp": "2012-07-07",
+            "score": 13.593721652820326,
+            "topic": "libya"
+          },
+          {
+            "id": "1856",
+            "title": "Libya's congress chief steps down over former role",
+            "snippet": " … Born in 1940 in eastern Libya, where the 2011 uprising broke out, Magarief was elected head of the General National Congress after Libya's first free elections for decades last July.\nMagarief … ",
+            "url": "",
+            "timestamp": "2013-05-28",
+            "score": 13.50951797760073,
+            "topic": "libya"
+          },
+          {
+            "id": "5375",
+            "title": "White House Tells Congress We're Not at War With Libya  Fox Nation",
+            "snippet": "White House Tells Congress We're Not at War With Libya  Fox Nation\nWhite House officials told Democratic and Republican congressional aides Tuesday that the U.S. is not at war with … ",
+            "url": "",
+            "timestamp": "2011-03-22",
+            "score": 13.43189995287934,
+            "topic": "libya"
+          },
+          {
+            "id": "5964",
+            "title": "Libya appoints new interior minister",
+            "snippet": "Libya appoints new interior minister\nLibya's General National Congress, the country's top political body, has approved the appointment of Mohammed Khalifa al-Sheikh as the new interior minister after his … ",
+            "url": "",
+            "timestamp": "2013-05-27",
+            "score": 12.763270491189964,
+            "topic": "libya"
+          },
+          {
+            "id": "5456",
+            "title": "Timeline Libya's civil war nears end",
+            "snippet": "Timeline Libya's civil war nears end\nAnti-Gaddafi fighters celebrated the fall of Sirte  October 20, 2011.\n(Reuters) - Here is a timeline of the civil war in Libya since protests against … ",
+            "url": "",
+            "timestamp": "2011-10-20",
+            "score": 12.738620068094097,
+            "topic": "libya"
+          },
+          {
+            "id": "825",
+            "title": "Timeline Libya's civil war nears end",
+            "snippet": " … Security Council eases sanctions on Libya, including on its national oil company and central bank. The U.N. General Assembly approves a request to accredit interim government envoys as Libya's sole … ",
+            "url": "",
+            "timestamp": "2011-10-12",
+            "score": 12.697841683961256,
+            "topic": "libya"
+          },
+          {
+            "id": "4260",
+            "title": "GOP pounces after news of CIA cable on Libya raid",
+            "snippet": "GOP pounces after news of CIA cable on Libya raid\nHome » Kimberly Dozier » GOP pounces after news of CIA cable on Libya raid\nFILE - In this Sept. 13, 2012 file photo, a … ",
+            "url": "",
+            "timestamp": "2012-10-19",
+            "score": 12.494256641031624,
+            "topic": "libya"
+          },
+          {
+            "id": "4430",
+            "title": "Exrebel fighters exchange fire outside Libya congress",
+            "snippet": " … outside Libya congress\nLibyan security members direct traffic outside the of the Libyan General National Congress after a violent demonstration of armed protesters on September 25, 2012 in Tripoli, Libya. Former Libyan … ",
+            "url": "",
+            "timestamp": "2012-09-26",
+            "score": 12.456978590926237,
+            "topic": "libya"
+          },
+          {
+            "id": "1424",
+            "title": "ProIslamist elected to head Libya assembly",
+            "snippet": " … Libya assembly  THE DAILY STAR\nMohammed Magarief, center, poses for a picture with members of congress, after winning the presidency in the National Congress, at a hotel in Tripoli, August 9, 2012 … ",
+            "url": "",
+            "timestamp": "2012-08-10",
+            "score": 12.288041909296446,
+            "topic": "libya"
+          },
+          {
+            "id": "3722",
+            "title": "Libyan prime minister left in the cold",
+            "snippet": " … The two largest parties in the General National Congress, a democratically elected assembly that took power in August, joined forces to oust Abu Shagur in a vote of no confidence on Sunday … ",
+            "url": "",
+            "timestamp": "2012-10-09",
+            "score": 12.180133374747722,
+            "topic": "libya"
+          },
+          {
+            "id": "1792",
+            "title": "Presidential Debate 2012 Fact Check The timeline on Libya and more",
+            "snippet": "Presidential Debate 2012 Fact Check The timeline on Libya and more  National Post\nIn the rough-and-tumble of a town hall-style presidential debate, the facts took something of a beating … ",
+            "url": "",
+            "timestamp": "2012-10-17",
+            "score": 12.178316584707106,
+            "topic": "libya"
+          },
+          {
+            "id": "156",
+            "title": "A timeline of the war in Libya from revolt to reports of Muammar Gaddafis death",
+            "snippet": "A timeline of the war in Libya from revolt to reports of Muammar Gaddafis death  National Post\n15/16, 2011 The arrest of human rights activist Fethi Tarbel starts a riot in … ",
+            "url": "",
+            "timestamp": "2011-10-20",
+            "score": 12.167197724187737,
+            "topic": "libya"
+          },
+          {
+            "id": "1504",
+            "title": "The Arab Spring revolt, war and transition",
+            "snippet": " … In July 2012, Libya's liberal coalition beats Islamist parties in polls to the General National Congress, the first elected authority after more than four decades of dictatorship. Prime Minister Ali Zeidan … ",
+            "url": "",
+            "timestamp": "2012-12-14",
+            "score": 12.13541500641244,
+            "topic": "libya"
+          }
+        ],
+        "new_doc_ids": [
+          "4242",
+          "1870",
+          "191",
+          "1396",
+          "120",
+          "1856",
+          "5964",
+          "4260",
+          "4430",
+          "1424",
+          "3722",
+          "1504"
+        ],
+        "new_dates": [
+          "2012-07-06",
+          "2012-08-10",
+          "2012-09-26",
+          "2012-10-09",
+          "2012-10-19",
+          "2012-12-14",
+          "2013-02-17",
+          "2013-03-20",
+          "2013-05-27",
+          "2013-05-28",
+          "2013-05-31"
+        ]
+      },
+      "audit": {
+        "text": "Libya General National Congress election timeline 2011 2012",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "prompt_tokens": 596,
+          "completion_tokens": 1393,
+          "total_tokens": 1989,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 1379
+          },
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 596
+        },
+        "request_id": null,
+        "target_gap": {
+          "start": "2011-10-20",
+          "end": "2012-07-07",
+          "days": 261
+        },
+        "max_previous_similarity": 0.2222222222222222,
+        "deterministic_fallback": false
+      }
+    },
+    {
+      "round": 3,
+      "state": {
+        "covered_dates": [
+          "2011-03-04",
+          "2011-03-22",
+          "2011-06-27",
+          "2011-08-08",
+          "2011-08-21",
+          "2011-08-22",
+          "2011-08-24",
+          "2011-09-04",
+          "2011-10-12",
+          "2011-10-20",
+          "2012-07-06",
+          "2012-07-07",
+          "2012-08-10",
+          "2012-09-26",
+          "2012-10-07",
+          "2012-10-09",
+          "2012-10-17",
+          "2012-10-19",
+          "2012-11-02",
+          "2012-12-14",
+          "2013-02-17",
+          "2013-03-20",
+          "2013-05-27",
+          "2013-05-28",
+          "2013-05-31"
+        ],
+        "date_gaps": [
+          {
+            "start": "2011-10-20",
+            "end": "2012-07-06",
+            "days": 260
+          },
+          {
+            "start": "2011-03-22",
+            "end": "2011-06-27",
+            "days": 97
+          },
+          {
+            "start": "2013-03-20",
+            "end": "2013-05-27",
+            "days": 68
+          },
+          {
+            "start": "2012-12-14",
+            "end": "2013-02-17",
+            "days": 65
+          },
+          {
+            "start": "2013-05-31",
+            "end": "2013-07-18",
+            "days": 48
+          },
+          {
+            "start": "2012-08-10",
+            "end": "2012-09-26",
+            "days": 47
+          },
+          {
+            "start": "2011-06-27",
+            "end": "2011-08-08",
+            "days": 42
+          },
+          {
+            "start": "2012-11-02",
+            "end": "2012-12-14",
+            "days": 42
+          },
+          {
+            "start": "2011-09-04",
+            "end": "2011-10-12",
+            "days": 38
+          },
+          {
+            "start": "2012-07-07",
+            "end": "2012-08-10",
+            "days": 34
+          },
+          {
+            "start": "2013-02-17",
+            "end": "2013-03-20",
+            "days": 31
+          },
+          {
+            "start": "2011-03-04",
+            "end": "2011-03-22",
+            "days": 18
+          },
+          {
+            "start": "2011-02-16",
+            "end": "2011-03-04",
+            "days": 16
+          },
+          {
+            "start": "2012-10-19",
+            "end": "2012-11-02",
+            "days": 14
+          }
+        ]
+      },
+      "action": {
+        "type": "SEARCH",
+        "query": "Libya Cyrenaica declares autonomy March 2012"
+      },
+      "observation": {
+        "results": [
+          {
+            "id": "3541",
+            "title": "Fragile Libya faces further fractures as eastern province of Cyrenaica pushes for autonomy",
+            "snippet": "Fragile Libya faces further fractures as eastern province of Cyrenaica pushes for autonomy  National Post\nGaddafi-era Libyan diplomat tortured to death after detainment: rights group\n“We would like in Cyrenaica to … ",
+            "url": "",
+            "timestamp": "2012-03-05",
+            "score": 27.322502282657663,
+            "topic": "libya"
+          },
+          {
+            "id": "4167",
+            "title": "Federalism is unlikely in Libya, however, decentralization is probable",
+            "snippet": " … probable\n“Eastern Libya declares autonomy.” In spite of international headlines such as this one, talk of the country’s impending disintegration is misleading. Although the participants at the March 6 Barqa Conference … ",
+            "url": "",
+            "timestamp": "2012-04-03",
+            "score": 23.989282211144246,
+            "topic": "libya"
+          },
+          {
+            "id": "6057",
+            "title": "Libya will use force to stop Cyrenaica push for autonomy, leader Mustafa Abdel Jalil says",
+            "snippet": "Libya will use force to stop Cyrenaica push for autonomy, leader Mustafa Abdel Jalil says  National Post\nTRIPOLI — Libyan leader Mustafa Abdel Jalil said on Wednesday he would defend national unity “with … ",
+            "url": "",
+            "timestamp": "2012-03-06",
+            "score": 20.647482842134824,
+            "topic": "libya"
+          },
+          {
+            "id": "4211",
+            "title": "Understanding the Sanusi of Cyrenaica How to avoid a civil war in Libya  Opinion  Al Jazeera English",
+            "snippet": " … Today, liberated Libya is at a critical juncture. The people of Cyrenaica, who have made immense sacrifices to preserve their liberty, honour and dignity, will not be denied their request for autonomy … ",
+            "url": "",
+            "timestamp": "2012-03-26",
+            "score": 19.988249377681807,
+            "topic": "libya"
+          },
+          {
+            "id": "4318",
+            "title": "Libya's missteps threaten descent into federalism",
+            "snippet": " … In early March, notables in Benghazi, Libya’s second-largest city and capital of the eastern region of Cyrenaica, announced plans to establish an autonomous Cyrenaican government. In mid-May, Benghazi held … ",
+            "url": "",
+            "timestamp": "2012-06-14",
+            "score": 19.3040027910249,
+            "topic": "libya"
+          },
+          {
+            "id": "3030",
+            "title": "Federalism in Libya Tried and failed  Opinion  Al Jazeera English",
+            "snippet": " … On March 5, notables in Benghazi - Libya's second city and capital of the Eastern region of Cyrenaica - proposed to compensate for the ineffectiveness of the central NTC authorities by asking them … ",
+            "url": "",
+            "timestamp": "2012-04-20",
+            "score": 18.459290438634696,
+            "topic": "libya"
+          },
+          {
+            "id": "1001",
+            "title": "Timeline Libya  from bloody uprising to elections",
+            "snippet": " … March 5 - The rebel National Transitional Council (NTC) in Benghazi declares itself Libya's sole representative.\nMarch 17 - The U.N. Security Council votes to authorize a no-fly zone over Libya … ",
+            "url": "",
+            "timestamp": "2012-07-07",
+            "score": 18.40585986994852,
+            "topic": "libya"
+          },
+          {
+            "id": "2416",
+            "title": "Deal with exrebels ends crisis at Libya's Foreign Ministry",
+            "snippet": " … Formed about a year ago to demand greater autonomy for the east, it sets out a manifesto for a federal Libya.\n\"We will not let Cyrenaica be ruled by the power of … ",
+            "url": "",
+            "timestamp": "2013-05-11",
+            "score": 17.886932024430788,
+            "topic": "libya"
+          },
+          {
+            "id": "1774",
+            "title": "Libya moves staterun oilpany to Benghazi",
+            "snippet": " … The leader of the autonomy movement, Ahmed al-Zubair, along with tribal and former rebel leaders, declared the eastern region of Cyrenaica as a semi-independent as of June 1. Al-Zubair … ",
+            "url": "",
+            "timestamp": "2013-06-05",
+            "score": 17.6760789915745,
+            "topic": "libya"
+          },
+          {
+            "id": "2998",
+            "title": "",
+            "snippet": " … Transitional Council (NTC), demanding more autonomy for the eastern Cyrenaica region.\nThe incident was only the latest outburst of anger over what many in eastern Libya see as an unjust distribution of … ",
+            "url": "",
+            "timestamp": "2012-07-03",
+            "score": 17.62765852830876,
+            "topic": "libya"
+          },
+          {
+            "id": "3581",
+            "title": "Rajan Menon Libya What the Intervention Has Wrought",
+            "snippet": " … In early March, a \"Congress of the People of Cyrenaica\" convened in Benghazi and declared that eastern Libya would become the autonomous region of Barqa , with a parliament and \"Supreme Military Council … ",
+            "url": "",
+            "timestamp": "2012-04-02",
+            "score": 17.535980763882524,
+            "topic": "libya"
+          },
+          {
+            "id": "5961",
+            "title": "Libyan minority groups say will boycott constitution vote",
+            "snippet": " … Those who will draft the constitution will need to take into account political and tribal rivalries and calls for more autonomy in the east when deciding what political system Libya will adopt … ",
+            "url": "",
+            "timestamp": "2013-07-18",
+            "score": 13.266721113992642,
+            "topic": "libya"
+          },
+          {
+            "id": "3553",
+            "title": "",
+            "snippet": " … Libya holds its first free national election in 60 years on Saturday in a vote designed to shake off the legacy of Muammar Gaddafi but which risks being hijacked by autonomy demands … ",
+            "url": "",
+            "timestamp": "2012-07-07",
+            "score": 12.976203670100869,
+            "topic": "libya"
+          },
+          {
+            "id": "4300",
+            "title": "Libya Congress declares south closed military zone",
+            "snippet": "Libya Congress declares south closed military zone\nDecember 16, 2012 10:17 PM (Last updated: December 16, 2012 11:39 PM)\nTRIPOLI, Libya: Four policemen were shot dead in Libya's troubled … ",
+            "url": "",
+            "timestamp": "2012-12-16",
+            "score": 12.209476787514696,
+            "topic": "libya"
+          },
+          {
+            "id": "1880",
+            "title": "Muammar Gaddafi ran covert program to conceal weapons in Libyan embassies across the world official",
+            "snippet": " … Fragile Libya faces further fractures as eastern province of Cyrenaica pushes for autonomy\nGaddafi’s officials shipped weapons to “many countries. In Africa, in Asia, in Europe. So it’s not only … ",
+            "url": "",
+            "timestamp": "2012-03-08",
+            "score": 12.04087345209481,
+            "topic": "libya"
+          },
+          {
+            "id": "164",
+            "title": "Tshirt store starts new fashion trend in Libya's Benghazi  World",
+            "snippet": " … Some T-shirts are printed with \"I love Cyrenaica\", referring to Libya's eastern province where calls for more regional autonomy have heightened since Muammar Gaddafi's ouster in 2011.\nBenghazi was … ",
+            "url": "",
+            "timestamp": "2013-06-30",
+            "score": 11.949041922482518,
+            "topic": "libya"
+          },
+          {
+            "id": "4329",
+            "title": "Libya's fractured future Turmoil is nothingpared to the chaos that will follow Khadafy's fall",
+            "snippet": " … ambassador that he wanted to rule only as Amir of Cyrenaica, not as King of Libya.\nLibya at one time had four capitals — one in each of the three provinces, and a … ",
+            "url": "",
+            "timestamp": "2011-03-13",
+            "score": 11.744878927987203,
+            "topic": "libya"
+          },
+          {
+            "id": "191",
+            "title": "Libya two years on Revolution and devolution  Opinion  Al Jazeera English",
+            "snippet": " … Recent developments point to the air of fluidity and potential for new riots and turmoil in Eastern Libya. \nIn 2012, the country's Minister of Oil, Abdulrahman Ben Yezza, issued \"Resolution No … ",
+            "url": "",
+            "timestamp": "2013-02-17",
+            "score": 10.484518520924723,
+            "topic": "libya"
+          },
+          {
+            "id": "4439",
+            "title": "Hillary Clinton makes surprise visit to Libya; declares 'This is Libya's moment'",
+            "snippet": "Hillary Clinton makes surprise visit to Libya; declares 'This is Libya's moment'\nSecretary of State Hillary Clinton gestures speaks to the press after a meeting of the International contact group on … ",
+            "url": "",
+            "timestamp": "2011-10-18",
+            "score": 10.43782293025519,
+            "topic": "libya"
+          },
+          {
+            "id": "6013",
+            "title": "Would Gaddafi's Fall Really Bring Peace to Libya?",
+            "snippet": " … especially if there is a prolonged separation of Cyrenaica from the rest of the country.\"\n(See the latest unrest in the streets of Libya.)\nGaddafi's vendettas had only deepened the sense … ",
+            "url": "",
+            "timestamp": "2011-02-25",
+            "score": 10.392407778861818,
+            "topic": "libya"
+          }
+        ],
+        "new_doc_ids": [
+          "3541",
+          "4167",
+          "6057",
+          "4211",
+          "4318",
+          "3030",
+          "2416",
+          "1774",
+          "2998",
+          "3581",
+          "5961",
+          "3553",
+          "4300",
+          "1880",
+          "164",
+          "4329",
+          "4439",
+          "6013"
+        ],
+        "new_dates": [
+          "2011-02-25",
+          "2011-03-13",
+          "2011-10-18",
+          "2012-03-05",
+          "2012-03-06",
+          "2012-03-08",
+          "2012-03-26",
+          "2012-04-02",
+          "2012-04-03",
+          "2012-04-20",
+          "2012-06-14",
+          "2012-07-03",
+          "2012-12-16",
+          "2013-05-11",
+          "2013-06-05",
+          "2013-06-30",
+          "2013-07-18"
+        ]
+      },
+      "audit": {
+        "text": "Libya Cyrenaica declares autonomy March 2012",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "prompt_tokens": 605,
+          "completion_tokens": 748,
+          "total_tokens": 1353,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 736
+          },
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 605
+        },
+        "request_id": null,
+        "target_gap": {
+          "start": "2011-10-20",
+          "end": "2012-07-06",
+          "days": 260
+        },
+        "max_previous_similarity": 0.16666666666666666,
+        "deterministic_fallback": false
+      }
+    }
+  ],
+  "stop_reason": "max_rounds",
+  "queries": [
+    "Libya crisis timeline",
+    "Libya General National Congress election timeline 2011 2012",
+    "Libya Cyrenaica declares autonomy March 2012"
+  ],
+  "unique_results": [
+    {
+      "id": "5823",
+      "title": "Libya timeline six months of conflict  interactive",
+      "snippet": "Libya timeline six months of conflict  interactive\n",
+      "url": "",
+      "timestamp": "2011-08-22",
+      "score": 10.715574112740569,
+      "topic": "libya"
+    },
+    {
+      "id": "3874",
+      "title": "PHOTOS Timeline of Libya war in pictures",
+      "snippet": "PHOTOS Timeline of Libya war in pictures  GlobalPost\n",
+      "url": "",
+      "timestamp": "2011-10-20",
+      "score": 10.711686600813133,
+      "topic": "libya"
+    },
+    {
+      "id": "825",
+      "title": "Timeline Libya's civil war nears end",
+      "snippet": "Timeline Libya's civil war nears end\n(Reuters) - Here is a timeline of the civil war in Libya since protests against Muammar Gaddafi's four-decade rule began in February:\nFebruary 15 … ",
+      "url": "",
+      "timestamp": "2011-10-12",
+      "score": 9.450960673818088,
+      "topic": "libya"
+    },
+    {
+      "id": "1001",
+      "title": "Timeline Libya  from bloody uprising to elections",
+      "snippet": "Timeline Libya  from bloody uprising to elections\n(Reuters) - Libyans vote on Saturday for a 200-member national assembly that will name a prime minister, enact legislation and appoint a committee to draft … ",
+      "url": "",
+      "timestamp": "2012-07-07",
+      "score": 9.450474886339169,
+      "topic": "libya"
+    },
+    {
+      "id": "5456",
+      "title": "Timeline Libya's civil war nears end",
+      "snippet": "Timeline Libya's civil war nears end\nAnti-Gaddafi fighters celebrated the fall of Sirte  October 20, 2011.\n(Reuters) - Here is a timeline of the civil war in Libya since protests against … ",
+      "url": "",
+      "timestamp": "2011-10-20",
+      "score": 9.365876675372352,
+      "topic": "libya"
+    },
+    {
+      "id": "4746",
+      "title": "Libya rebellion timeline",
+      "snippet": "Libya rebellion timeline   Telegraph\nMarch 17 – The U.N. Security Council votes to authorise a no-fly zone    over Libya and military action – to protect civilians against Gaddafi's    army.\nMarch 19 … ",
+      "url": "",
+      "timestamp": "2011-10-20",
+      "score": 9.080246750035679,
+      "topic": "libya"
+    },
+    {
+      "id": "156",
+      "title": "A timeline of the war in Libya from revolt to reports of Muammar Gaddafis death",
+      "snippet": "A timeline of the war in Libya from revolt to reports of Muammar Gaddafis death  National Post\n15/16, 2011 The arrest of human rights activist Fethi Tarbel starts a riot in … ",
+      "url": "",
+      "timestamp": "2011-10-20",
+      "score": 8.90789109052922,
+      "topic": "libya"
+    },
+    {
+      "id": "1086",
+      "title": "LINE  Libya's civil war nears end",
+      "snippet": "TIMELINE  Libya's civil war nears end\nTIMELINE - Libya's civil war nears end\nAn anti-Gaddafi fighter flashes victory signs on an armored bulldozer during violent clashes with pro-Gaddafi forces … ",
+      "url": "",
+      "timestamp": "2011-10-20",
+      "score": 8.753912094598617,
+      "topic": "libya"
+    },
+    {
+      "id": "1354",
+      "title": "Moammar Khadafy dead A timeline of the Libyan leader's rise and fall",
+      "snippet": "Moammar Khadafy dead A timeline of the Libyan leader's rise and fall   NY Daily News\nDeposed Libyan leader Moammar Khadafy , who reigned over the country for 42 years, was killed in … ",
+      "url": "",
+      "timestamp": "2011-10-20",
+      "score": 8.630076036550461,
+      "topic": "libya"
+    },
+    {
+      "id": "5375",
+      "title": "White House Tells Congress We're Not at War With Libya  Fox Nation",
+      "snippet": " … is not at war with Libya and, without laying out a timeline, that the president hopes to hand over control of coalition military operations in the next few days.\nOfficials present included … ",
+      "url": "",
+      "timestamp": "2011-03-22",
+      "score": 8.25454146442272,
+      "topic": "libya"
+    },
+    {
+      "id": "5488",
+      "title": "Libya's congress rejects crisis government plan",
+      "snippet": "Libya's congress rejects crisis government plan\nOctober 8, 2012 -- Updated 0037 GMT (0837 HKT)\nLibyan Prime Minister-elect Mustafa Abushagur proposed a downsized 10-member \"crisis government\" for the country.\nThe … ",
+      "url": "",
+      "timestamp": "2012-10-07",
+      "score": 8.171963431152331,
+      "topic": "libya"
+    },
+    {
+      "id": "981",
+      "title": "A timeline of the conflict in Libya",
+      "snippet": "A timeline of the conflict in Libya\nFighting started with anti-government demonstrations and escalated into a civil war\nInternational leaders accuse Gadhafi's regime of committing human rights violations\nLibyan officials … ",
+      "url": "",
+      "timestamp": "2011-08-21",
+      "score": 7.841745871204436,
+      "topic": "libya"
+    },
+    {
+      "id": "3222",
+      "title": "What can be done to end the crisis in Libya?",
+      "snippet": "What can be done to end the crisis in Libya?\nProtesters have taken control of several key cities across Libya, but government forces appear to be fighting back.\nU.N. has imposed … ",
+      "url": "",
+      "timestamp": "2011-03-04",
+      "score": 7.513684400911442,
+      "topic": "libya"
+    },
+    {
+      "id": "768",
+      "title": "A timeline of the conflict in Libya",
+      "snippet": "A timeline of the conflict in Libya\nFighting started with anti-government demonstrations and escalated into a civil war\nInternational leaders accuse Gadhafi's regime of committing human rights violations\nLibyan officials … ",
+      "url": "",
+      "timestamp": "2011-08-24",
+      "score": 7.4803225424898585,
+      "topic": "libya"
+    },
+    {
+      "id": "1792",
+      "title": "Presidential Debate 2012 Fact Check The timeline on Libya and more",
+      "snippet": "Presidential Debate 2012 Fact Check The timeline on Libya and more  National Post\nIn the rough-and-tumble of a town hall-style presidential debate, the facts took something of a beating … ",
+      "url": "",
+      "timestamp": "2012-10-17",
+      "score": 7.403202792157183,
+      "topic": "libya"
+    },
+    {
+      "id": "2037",
+      "title": "Libya Timeline Events Leading Up To The Reported Death Of Muammar Gaddafi",
+      "snippet": "Libya Timeline Events Leading Up To The Reported Death Of Muammar Gaddafi\nIn this Saturday, Aug. 27, 2011, file photo, a Libyan man takes pictures of the courtyard of Abu Salim prison … ",
+      "url": "",
+      "timestamp": "2011-10-20",
+      "score": 7.37172136265,
+      "topic": "libya"
+    },
+    {
+      "id": "1970",
+      "title": "Baird meets with Libyan rebel fighters",
+      "snippet": " … Baird had previously expressed an interest in visiting with members of the National Transitional Council in Libya, but a timeline for a visit had not been released.\n“It was important to me … ",
+      "url": "",
+      "timestamp": "2011-06-27",
+      "score": 7.099417213900903,
+      "topic": "libya"
+    },
+    {
+      "id": "4533",
+      "title": "Libya rebels Talks over Bani Walid have failed",
+      "snippet": " … Western diplomats in Libya and opposition leaders abroad reported in 1993 that the air force had put down an uprising by army units in Misrata and Bani Walid. They said many officers … ",
+      "url": "",
+      "timestamp": "2011-09-04",
+      "score": 6.730707297690347,
+      "topic": "libya"
+    },
+    {
+      "id": "394",
+      "title": "",
+      "snippet": "National Post\nOTTAWA — The consensus around Canada’s military deployment in Libya looks set to unravel next month, unless there is a resolution on the ground.\nIn late June, the NDP supported … ",
+      "url": "",
+      "timestamp": "2011-08-08",
+      "score": 6.713731310547385,
+      "topic": "libya"
+    },
+    {
+      "id": "1075",
+      "title": "Spies at Benghazi consulate just the tip of the U.S. intelligence iceberg in Libya Expert",
+      "snippet": " … intelligence iceberg in Libya Expert  National Post\n“That would be absolutely how it is in Libya,” he said, referring to the numeric breakdown of spy vs. diplomat in Benghazi.\n“What those numbers … ",
+      "url": "",
+      "timestamp": "2012-11-02",
+      "score": 6.412846539440238,
+      "topic": "libya"
+    },
+    {
+      "id": "4242",
+      "title": "Commentary Women face challenges as Libya moves toward a new constitution",
+      "snippet": " … Libya moves toward a new constitution  GlobalPost\nA Libyan woman shows her ink-stained finger after casting her vote to elect Libya's General National Congress in Benghazi on July 7, 2012 … ",
+      "url": "",
+      "timestamp": "2013-05-31",
+      "score": 15.57248291509528,
+      "topic": "libya"
+    },
+    {
+      "id": "1870",
+      "title": "Jason Pack Libya Two Years Later",
+      "snippet": " … 2012 exceeded 100 percent and that non-hydrocarbon growth is expected to average 15 percent per annum until 2018. On the other hand, on March 5 the General National Congress (GNC) -- Libya … ",
+      "url": "",
+      "timestamp": "2013-03-20",
+      "score": 14.6746267588851,
+      "topic": "libya"
+    },
+    {
+      "id": "191",
+      "title": "Libya two years on Revolution and devolution  Opinion  Al Jazeera English",
+      "snippet": " … federal movement in June 2012. \nThe interim government, especially the General National Congress (GNC), is dithering on this issue and seems inclined to prefer selection to election. This is at the core … ",
+      "url": "",
+      "timestamp": "2013-02-17",
+      "score": 14.00954133244645,
+      "topic": "libya"
+    },
+    {
+      "id": "1396",
+      "title": "Libya's election Uncertainty before and after  Opinion  Al Jazeera English",
+      "snippet": " … The 2011 Libyan uprising created a temporary government whose limited revolutionary mandate is rapidly expiring. While the General National Congress election will bring new top level leadership, it will not itself change … ",
+      "url": "",
+      "timestamp": "2012-07-06",
+      "score": 13.621545311538735,
+      "topic": "libya"
+    },
+    {
+      "id": "120",
+      "title": "Photos of joy First Libyan election after Gadhafi ",
+      "snippet": " … eastern city of Benghazi on July 7, 2012 during Libya's General National Congress.\nU.S. Sen. John McCain, an Arizona Republican, gave the election a clean bill of health during a … ",
+      "url": "",
+      "timestamp": "2012-07-07",
+      "score": 13.593721652820326,
+      "topic": "libya"
+    },
+    {
+      "id": "1856",
+      "title": "Libya's congress chief steps down over former role",
+      "snippet": " … Born in 1940 in eastern Libya, where the 2011 uprising broke out, Magarief was elected head of the General National Congress after Libya's first free elections for decades last July.\nMagarief … ",
+      "url": "",
+      "timestamp": "2013-05-28",
+      "score": 13.50951797760073,
+      "topic": "libya"
+    },
+    {
+      "id": "5964",
+      "title": "Libya appoints new interior minister",
+      "snippet": "Libya appoints new interior minister\nLibya's General National Congress, the country's top political body, has approved the appointment of Mohammed Khalifa al-Sheikh as the new interior minister after his … ",
+      "url": "",
+      "timestamp": "2013-05-27",
+      "score": 12.763270491189964,
+      "topic": "libya"
+    },
+    {
+      "id": "4260",
+      "title": "GOP pounces after news of CIA cable on Libya raid",
+      "snippet": "GOP pounces after news of CIA cable on Libya raid\nHome » Kimberly Dozier » GOP pounces after news of CIA cable on Libya raid\nFILE - In this Sept. 13, 2012 file photo, a … ",
+      "url": "",
+      "timestamp": "2012-10-19",
+      "score": 12.494256641031624,
+      "topic": "libya"
+    },
+    {
+      "id": "4430",
+      "title": "Exrebel fighters exchange fire outside Libya congress",
+      "snippet": " … outside Libya congress\nLibyan security members direct traffic outside the of the Libyan General National Congress after a violent demonstration of armed protesters on September 25, 2012 in Tripoli, Libya. Former Libyan … ",
+      "url": "",
+      "timestamp": "2012-09-26",
+      "score": 12.456978590926237,
+      "topic": "libya"
+    },
+    {
+      "id": "1424",
+      "title": "ProIslamist elected to head Libya assembly",
+      "snippet": " … Libya assembly  THE DAILY STAR\nMohammed Magarief, center, poses for a picture with members of congress, after winning the presidency in the National Congress, at a hotel in Tripoli, August 9, 2012 … ",
+      "url": "",
+      "timestamp": "2012-08-10",
+      "score": 12.288041909296446,
+      "topic": "libya"
+    },
+    {
+      "id": "3722",
+      "title": "Libyan prime minister left in the cold",
+      "snippet": " … The two largest parties in the General National Congress, a democratically elected assembly that took power in August, joined forces to oust Abu Shagur in a vote of no confidence on Sunday … ",
+      "url": "",
+      "timestamp": "2012-10-09",
+      "score": 12.180133374747722,
+      "topic": "libya"
+    },
+    {
+      "id": "1504",
+      "title": "The Arab Spring revolt, war and transition",
+      "snippet": " … In July 2012, Libya's liberal coalition beats Islamist parties in polls to the General National Congress, the first elected authority after more than four decades of dictatorship. Prime Minister Ali Zeidan … ",
+      "url": "",
+      "timestamp": "2012-12-14",
+      "score": 12.13541500641244,
+      "topic": "libya"
+    },
+    {
+      "id": "3541",
+      "title": "Fragile Libya faces further fractures as eastern province of Cyrenaica pushes for autonomy",
+      "snippet": "Fragile Libya faces further fractures as eastern province of Cyrenaica pushes for autonomy  National Post\nGaddafi-era Libyan diplomat tortured to death after detainment: rights group\n“We would like in Cyrenaica to … ",
+      "url": "",
+      "timestamp": "2012-03-05",
+      "score": 27.322502282657663,
+      "topic": "libya"
+    },
+    {
+      "id": "4167",
+      "title": "Federalism is unlikely in Libya, however, decentralization is probable",
+      "snippet": " … probable\n“Eastern Libya declares autonomy.” In spite of international headlines such as this one, talk of the country’s impending disintegration is misleading. Although the participants at the March 6 Barqa Conference … ",
+      "url": "",
+      "timestamp": "2012-04-03",
+      "score": 23.989282211144246,
+      "topic": "libya"
+    },
+    {
+      "id": "6057",
+      "title": "Libya will use force to stop Cyrenaica push for autonomy, leader Mustafa Abdel Jalil says",
+      "snippet": "Libya will use force to stop Cyrenaica push for autonomy, leader Mustafa Abdel Jalil says  National Post\nTRIPOLI — Libyan leader Mustafa Abdel Jalil said on Wednesday he would defend national unity “with … ",
+      "url": "",
+      "timestamp": "2012-03-06",
+      "score": 20.647482842134824,
+      "topic": "libya"
+    },
+    {
+      "id": "4211",
+      "title": "Understanding the Sanusi of Cyrenaica How to avoid a civil war in Libya  Opinion  Al Jazeera English",
+      "snippet": " … Today, liberated Libya is at a critical juncture. The people of Cyrenaica, who have made immense sacrifices to preserve their liberty, honour and dignity, will not be denied their request for autonomy … ",
+      "url": "",
+      "timestamp": "2012-03-26",
+      "score": 19.988249377681807,
+      "topic": "libya"
+    },
+    {
+      "id": "4318",
+      "title": "Libya's missteps threaten descent into federalism",
+      "snippet": " … In early March, notables in Benghazi, Libya’s second-largest city and capital of the eastern region of Cyrenaica, announced plans to establish an autonomous Cyrenaican government. In mid-May, Benghazi held … ",
+      "url": "",
+      "timestamp": "2012-06-14",
+      "score": 19.3040027910249,
+      "topic": "libya"
+    },
+    {
+      "id": "3030",
+      "title": "Federalism in Libya Tried and failed  Opinion  Al Jazeera English",
+      "snippet": " … On March 5, notables in Benghazi - Libya's second city and capital of the Eastern region of Cyrenaica - proposed to compensate for the ineffectiveness of the central NTC authorities by asking them … ",
+      "url": "",
+      "timestamp": "2012-04-20",
+      "score": 18.459290438634696,
+      "topic": "libya"
+    },
+    {
+      "id": "2416",
+      "title": "Deal with exrebels ends crisis at Libya's Foreign Ministry",
+      "snippet": " … Formed about a year ago to demand greater autonomy for the east, it sets out a manifesto for a federal Libya.\n\"We will not let Cyrenaica be ruled by the power of … ",
+      "url": "",
+      "timestamp": "2013-05-11",
+      "score": 17.886932024430788,
+      "topic": "libya"
+    },
+    {
+      "id": "1774",
+      "title": "Libya moves staterun oilpany to Benghazi",
+      "snippet": " … The leader of the autonomy movement, Ahmed al-Zubair, along with tribal and former rebel leaders, declared the eastern region of Cyrenaica as a semi-independent as of June 1. Al-Zubair … ",
+      "url": "",
+      "timestamp": "2013-06-05",
+      "score": 17.6760789915745,
+      "topic": "libya"
+    },
+    {
+      "id": "2998",
+      "title": "",
+      "snippet": " … Transitional Council (NTC), demanding more autonomy for the eastern Cyrenaica region.\nThe incident was only the latest outburst of anger over what many in eastern Libya see as an unjust distribution of … ",
+      "url": "",
+      "timestamp": "2012-07-03",
+      "score": 17.62765852830876,
+      "topic": "libya"
+    },
+    {
+      "id": "3581",
+      "title": "Rajan Menon Libya What the Intervention Has Wrought",
+      "snippet": " … In early March, a \"Congress of the People of Cyrenaica\" convened in Benghazi and declared that eastern Libya would become the autonomous region of Barqa , with a parliament and \"Supreme Military Council … ",
+      "url": "",
+      "timestamp": "2012-04-02",
+      "score": 17.535980763882524,
+      "topic": "libya"
+    },
+    {
+      "id": "5961",
+      "title": "Libyan minority groups say will boycott constitution vote",
+      "snippet": " … Those who will draft the constitution will need to take into account political and tribal rivalries and calls for more autonomy in the east when deciding what political system Libya will adopt … ",
+      "url": "",
+      "timestamp": "2013-07-18",
+      "score": 13.266721113992642,
+      "topic": "libya"
+    },
+    {
+      "id": "3553",
+      "title": "",
+      "snippet": " … Libya holds its first free national election in 60 years on Saturday in a vote designed to shake off the legacy of Muammar Gaddafi but which risks being hijacked by autonomy demands … ",
+      "url": "",
+      "timestamp": "2012-07-07",
+      "score": 12.976203670100869,
+      "topic": "libya"
+    },
+    {
+      "id": "4300",
+      "title": "Libya Congress declares south closed military zone",
+      "snippet": "Libya Congress declares south closed military zone\nDecember 16, 2012 10:17 PM (Last updated: December 16, 2012 11:39 PM)\nTRIPOLI, Libya: Four policemen were shot dead in Libya's troubled … ",
+      "url": "",
+      "timestamp": "2012-12-16",
+      "score": 12.209476787514696,
+      "topic": "libya"
+    },
+    {
+      "id": "1880",
+      "title": "Muammar Gaddafi ran covert program to conceal weapons in Libyan embassies across the world official",
+      "snippet": " … Fragile Libya faces further fractures as eastern province of Cyrenaica pushes for autonomy\nGaddafi’s officials shipped weapons to “many countries. In Africa, in Asia, in Europe. So it’s not only … ",
+      "url": "",
+      "timestamp": "2012-03-08",
+      "score": 12.04087345209481,
+      "topic": "libya"
+    },
+    {
+      "id": "164",
+      "title": "Tshirt store starts new fashion trend in Libya's Benghazi  World",
+      "snippet": " … Some T-shirts are printed with \"I love Cyrenaica\", referring to Libya's eastern province where calls for more regional autonomy have heightened since Muammar Gaddafi's ouster in 2011.\nBenghazi was … ",
+      "url": "",
+      "timestamp": "2013-06-30",
+      "score": 11.949041922482518,
+      "topic": "libya"
+    },
+    {
+      "id": "4329",
+      "title": "Libya's fractured future Turmoil is nothingpared to the chaos that will follow Khadafy's fall",
+      "snippet": " … ambassador that he wanted to rule only as Amir of Cyrenaica, not as King of Libya.\nLibya at one time had four capitals — one in each of the three provinces, and a … ",
+      "url": "",
+      "timestamp": "2011-03-13",
+      "score": 11.744878927987203,
+      "topic": "libya"
+    },
+    {
+      "id": "4439",
+      "title": "Hillary Clinton makes surprise visit to Libya; declares 'This is Libya's moment'",
+      "snippet": "Hillary Clinton makes surprise visit to Libya; declares 'This is Libya's moment'\nSecretary of State Hillary Clinton gestures speaks to the press after a meeting of the International contact group on … ",
+      "url": "",
+      "timestamp": "2011-10-18",
+      "score": 10.43782293025519,
+      "topic": "libya"
+    },
+    {
+      "id": "6013",
+      "title": "Would Gaddafi's Fall Really Bring Peace to Libya?",
+      "snippet": " … especially if there is a prolonged separation of Cyrenaica from the rest of the country.\"\n(See the latest unrest in the streets of Libya.)\nGaddafi's vendettas had only deepened the sense … ",
+      "url": "",
+      "timestamp": "2011-02-25",
+      "score": 10.392407778861818,
+      "topic": "libya"
+    }
+  ],
+  "final_covered_dates": [
+    "2011-02-25",
+    "2011-03-04",
+    "2011-03-13",
+    "2011-03-22",
+    "2011-06-27",
+    "2011-08-08",
+    "2011-08-21",
+    "2011-08-22",
+    "2011-08-24",
+    "2011-09-04",
+    "2011-10-12",
+    "2011-10-18",
+    "2011-10-20",
+    "2012-03-05",
+    "2012-03-06",
+    "2012-03-08",
+    "2012-03-26",
+    "2012-04-02",
+    "2012-04-03",
+    "2012-04-20",
+    "2012-06-14",
+    "2012-07-03",
+    "2012-07-06",
+    "2012-07-07",
+    "2012-08-10",
+    "2012-09-26",
+    "2012-10-07",
+    "2012-10-09",
+    "2012-10-17",
+    "2012-10-19",
+    "2012-11-02",
+    "2012-12-14",
+    "2012-12-16",
+    "2013-02-17",
+    "2013-03-20",
+    "2013-05-11",
+    "2013-05-27",
+    "2013-05-28",
+    "2013-05-31",
+    "2013-06-05",
+    "2013-06-30",
+    "2013-07-18"
+  ],
+  "usage": {
+    "prompt_tokens": 1201,
+    "completion_tokens": 2141,
+    "total_tokens": 3342
+  }
+}

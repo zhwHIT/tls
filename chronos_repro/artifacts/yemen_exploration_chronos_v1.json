@@ -1,0 +1,499 @@
+{
+  "schema_version": 1,
+  "status": "stopped_llm_error",
+  "strategy": "exploration_chronos_v1",
+  "search_engine": "crisis yemen",
+  "config": {
+    "model": "deepseek-v4-flash",
+    "temperature": 0.0,
+    "top_k": 20,
+    "max_rounds": 3,
+    "stop_no_new_date_rounds": 2,
+    "query_similarity_limit": 0.75
+  },
+  "provenance": {
+    "index_sha256": "ed73fb8ff0e9add31df40f637783372c15f59de6f0939dd30b4f19210270bc81",
+    "index_metadata": {
+      "data_root": "D:\\paper\\chronos_repro\\snapshots\\crisis\\ece08f344cc94933",
+      "document_count": 17573,
+      "engine": "sqlite-fts5-bm25",
+      "schema_version": 1,
+      "snapshot": {
+        "dataset": "crisis",
+        "manifest": "D:\\paper\\chronos_repro\\snapshots\\crisis\\ece08f344cc94933\\MANIFEST.sha256.json",
+        "manifest_sha256": "40345dae0249badde354e4e78315799d41035467870baad78efa333efa02b460",
+        "snapshot_id": "ece08f344cc94933"
+      },
+      "topic_counts": {
+        "egypt": 4083,
+        "libya": 4274,
+        "syria": 5170,
+        "yemen": 4046
+      }
+    }
+  },
+  "corpus_date_bounds": [
+    "2011-01-15",
+    "2013-07-25"
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "state": {
+        "covered_dates": [],
+        "date_gaps": [
+          {
+            "start": "2011-01-15",
+            "end": "2013-07-25",
+            "days": 922
+          }
+        ]
+      },
+      "action": {
+        "type": "SEARCH",
+        "query": "Yemen crisis timeline"
+      },
+      "observation": {
+        "results": [
+          {
+            "id": "3199",
+            "title": "Timeline Saleh's 33year rule in Yemen",
+            "snippet": "Timeline Saleh's 33year rule in Yemen\n(Reuters) - Yemen's poll on Tuesday is set to confirm Vice President Abd-Rabbu Mansour Hadi - by consensus, the only candidate - as president of the … ",
+            "url": "",
+            "timestamp": "2012-02-20",
+            "score": 10.799472543102445,
+            "topic": "yemen"
+          },
+          {
+            "id": "464",
+            "title": "Yemen timeline Looking back at Saleh’s rule  WorldViews",
+            "snippet": "Yemen timeline Looking back at Saleh’s rule  WorldViews\nA supporter of Yemen's President Ali Abdullah Saleh kisses a poster of Saleh during a rally in Tahrir Square in Sanaa March … ",
+            "url": "",
+            "timestamp": "2011-06-03",
+            "score": 9.975959906737339,
+            "topic": "yemen"
+          },
+          {
+            "id": "4345",
+            "title": "Arab spring an interactive timeline of Middle East protests",
+            "snippet": "Arab spring an interactive timeline of Middle East protests\nArab spring: an interactive timeline of Middle East protests\nIn December 2010, a man in Tunisia burned himself to death in protest at … ",
+            "url": "",
+            "timestamp": "2012-01-05",
+            "score": 9.463363888626606,
+            "topic": "yemen"
+          },
+          {
+            "id": "923",
+            "title": "A 2011 timeline of protest, revolution and uprising.",
+            "snippet": "A 2011 timeline of protest, revolution and uprising.\nThe hundreds of thousands of people in Wisconsin who occupied their state capitol for several months, 24 hours a day, and marched through the … ",
+            "url": "",
+            "timestamp": "2011-12-15",
+            "score": 9.3212964135743,
+            "topic": "yemen"
+          },
+          {
+            "id": "286",
+            "title": "Timeline of the IsraeliPalestinian conflict",
+            "snippet": "Timeline of the IsraeliPalestinian conflict   Telegraph\nPalestinian push for full UN membership: a quandary for Israel\n- Sept 13: Israel and the PLO sign Declaration of Principles on autonomy after months of secret … ",
+            "url": "",
+            "timestamp": "2011-09-23",
+            "score": 8.40962884178483,
+            "topic": "yemen"
+          },
+          {
+            "id": "592",
+            "title": "Libya timeline of the conflict",
+            "snippet": "Libya timeline of the conflict  Telegraph\nIs the rebel movement ready to take on mantle of government?\nMarch 17: The UN Security Council authorises a no-fly zone and \"all    necessary measures … ",
+            "url": "",
+            "timestamp": "2011-08-22",
+            "score": 8.19908224991963,
+            "topic": "yemen"
+          },
+          {
+            "id": "5436",
+            "title": "Thursday CFR.org Roundup Clashes spread across Yemen – Global Public Square",
+            "snippet": " … This Reuters timeline lays out the  progression of events  in the ongoing Yemen political crisis.\nThe Bahraini monarchy lifted the  emergency rule (LATimes)  it had imposed since democratic anti-government uprisings took … ",
+            "url": "",
+            "timestamp": "2011-06-02",
+            "score": 7.917177754890514,
+            "topic": "yemen"
+          },
+          {
+            "id": "299",
+            "title": "Exclusive Gulf states seek to broker Yemen's Saleh exit",
+            "snippet": " … the crisis soon -- something Saleh has warned of in recent speeches.\nWashington has long seen Saleh as a pivotal ally in its fight against al Qaeda, which has used its Yemen base … ",
+            "url": "",
+            "timestamp": "2011-04-06",
+            "score": 7.854901614305058,
+            "topic": "yemen"
+          },
+          {
+            "id": "905",
+            "title": "WRAPUP 4Escalating military conflict kills six in Yemen capital",
+            "snippet": " … Raging battles between heavily armed loyalists and foes of Yemen's president killed six people in the capital on Tuesday as a crisis over his violent crackdown on popular unrest drifted towards … ",
+            "url": "",
+            "timestamp": "2011-09-20",
+            "score": 7.796676607094516,
+            "topic": "yemen"
+          },
+          {
+            "id": "5630",
+            "title": "South Yemen City Seized by Gunmen as Violence Spreads After Saleh Leaves",
+            "snippet": "South Yemen City Seized by Gunmen as Violence Spreads After Saleh Leaves\nAbout 400 gunmen seized control of parts of a city in southern Yemen for several hours as violence spreads through … ",
+            "url": "",
+            "timestamp": "2011-06-15",
+            "score": 7.760594035853295,
+            "topic": "yemen"
+          },
+          {
+            "id": "745",
+            "title": "WRAPUP 6Escalating military conflict kills 12 in Yemen capital",
+            "snippet": " … battles between government forces and military units opposed to Yemen's president killed 12 people in the capital on Tuesday as a crisis over a violent state crackdown on popular unrest drifted … ",
+            "url": "",
+            "timestamp": "2011-09-20",
+            "score": 7.55673483848796,
+            "topic": "yemen"
+          },
+          {
+            "id": "874",
+            "title": "AlAwlaki Is Dead, But Terrorists' Unholy War Is Far From Over",
+            "snippet": " … But if today’s early reports are accurate, the American-born Al Qaeda leader holding out in Yemen has finally caught the wrong end of a U.S. missile . \nThanks to Catherine … ",
+            "url": "",
+            "timestamp": "2011-09-30",
+            "score": 7.455475752677048,
+            "topic": "yemen"
+          },
+          {
+            "id": "1415",
+            "title": "",
+            "snippet": "Timeline\nOne of the poorest and least-de­veloped na­tions in the Ar­ab world, Ye­men has had a tu­mul­tu­ous his­tory but is known primar­ily … ",
+            "url": "",
+            "timestamp": "2011-05-10",
+            "score": 7.151064664193509,
+            "topic": "yemen"
+          },
+          {
+            "id": "2528",
+            "title": "Pressure for Yemen’s Saleh to step down builds",
+            "snippet": "Pressure for Yemen’s Saleh to step down builds\nSANAA, YEMEN — Outside Sanaa University, almost every inch of Justice Street is packed with tents, as is nearby Freedom Street. Doctors, teachers, students … ",
+            "url": "",
+            "timestamp": "2011-03-24",
+            "score": 7.0065011112239635,
+            "topic": "yemen"
+          },
+          {
+            "id": "420",
+            "title": "",
+            "snippet": " … 35% (2003 est.)\nTimeline: May 22, 1990 - The Republic of Yemen is created from unification of North Yemen, the People's Democratic Republic of Yemen (PDRY), and South Yemen, or the Yemen … ",
+            "url": "",
+            "timestamp": "2013-07-10",
+            "score": 6.869703099058138,
+            "topic": "yemen"
+          },
+          {
+            "id": "1964",
+            "title": "",
+            "snippet": " … They included Yemen's ambassador to Britain and the embassy's entire diplomatic staff, and Yemen's ambassador to the European Union, Mohamed Jaffer. They did not resign but rather threw their … ",
+            "url": "",
+            "timestamp": "2011-03-21",
+            "score": 6.692759936185911,
+            "topic": "yemen"
+          },
+          {
+            "id": "1983",
+            "title": "No escape from the Middle East",
+            "snippet": " … Compare the economic dynamism of Indonesia, Singapore or Korea to Afghanistan, Yemen or Somalia, and you understand the logic. As China grows more assertive, its neighbors want a dependable, if discreet, U … ",
+            "url": "",
+            "timestamp": "2012-10-07",
+            "score": 5.939561597218287,
+            "topic": "yemen"
+          },
+          {
+            "id": "855",
+            "title": "Netanyahu to make his case against Iran in speech at UN",
+            "snippet": " … Also Thursday, on the sidelines of the General Assembly, key figures will gather for a Friends of Yemen meeting that will be co-chaired by British Foreign Secretary William Hague, Yemen's … ",
+            "url": "",
+            "timestamp": "2012-09-27",
+            "score": 5.27074654573992,
+            "topic": "yemen"
+          },
+          {
+            "id": "1559",
+            "title": "U.S. Presses Egypt to Mend Ties With Israel",
+            "snippet": " … The Obama administration has championed those movements but hopes to corral their energy so that political transitions from Tunisia to Yemen don't slide back into military domination or create a powerful … ",
+            "url": "",
+            "timestamp": "2011-09-28",
+            "score": 5.221372937317484,
+            "topic": "yemen"
+          },
+          {
+            "id": "1486",
+            "title": "Iran on edge as ally fights for survival in Syria",
+            "snippet": " … Iran's Arabic-language Al-Alam television on Saturday quoted the foreign ministry spokesman, Ramin Mehmanparast, as rejecting Obama's claim of Iranian aid to Assad in his time of crisis.\nIn … ",
+            "url": "",
+            "timestamp": "2011-04-23",
+            "score": 4.999259347866559,
+            "topic": "yemen"
+          }
+        ],
+        "new_doc_ids": [
+          "3199",
+          "464",
+          "4345",
+          "923",
+          "286",
+          "592",
+          "5436",
+          "299",
+          "905",
+          "5630",
+          "745",
+          "874",
+          "1415",
+          "2528",
+          "420",
+          "1964",
+          "1983",
+          "855",
+          "1559",
+          "1486"
+        ],
+        "new_dates": [
+          "2011-03-21",
+          "2011-03-24",
+          "2011-04-06",
+          "2011-04-23",
+          "2011-05-10",
+          "2011-06-02",
+          "2011-06-03",
+          "2011-06-15",
+          "2011-08-22",
+          "2011-09-20",
+          "2011-09-23",
+          "2011-09-28",
+          "2011-09-30",
+          "2011-12-15",
+          "2012-01-05",
+          "2012-02-20",
+          "2012-09-27",
+          "2012-10-07",
+          "2013-07-10"
+        ]
+      },
+      "audit": null
+    }
+  ],
+  "stop_reason": "llm_error",
+  "error": "DeepSeek connection failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)",
+  "queries": [
+    "Yemen crisis timeline"
+  ],
+  "unique_results": [
+    {
+      "id": "3199",
+      "title": "Timeline Saleh's 33year rule in Yemen",
+      "snippet": "Timeline Saleh's 33year rule in Yemen\n(Reuters) - Yemen's poll on Tuesday is set to confirm Vice President Abd-Rabbu Mansour Hadi - by consensus, the only candidate - as president of the … ",
+      "url": "",
+      "timestamp": "2012-02-20",
+      "score": 10.799472543102445,
+      "topic": "yemen"
+    },
+    {
+      "id": "464",
+      "title": "Yemen timeline Looking back at Saleh’s rule  WorldViews",
+      "snippet": "Yemen timeline Looking back at Saleh’s rule  WorldViews\nA supporter of Yemen's President Ali Abdullah Saleh kisses a poster of Saleh during a rally in Tahrir Square in Sanaa March … ",
+      "url": "",
+      "timestamp": "2011-06-03",
+      "score": 9.975959906737339,
+      "topic": "yemen"
+    },
+    {
+      "id": "4345",
+      "title": "Arab spring an interactive timeline of Middle East protests",
+      "snippet": "Arab spring an interactive timeline of Middle East protests\nArab spring: an interactive timeline of Middle East protests\nIn December 2010, a man in Tunisia burned himself to death in protest at … ",
+      "url": "",
+      "timestamp": "2012-01-05",
+      "score": 9.463363888626606,
+      "topic": "yemen"
+    },
+    {
+      "id": "923",
+      "title": "A 2011 timeline of protest, revolution and uprising.",
+      "snippet": "A 2011 timeline of protest, revolution and uprising.\nThe hundreds of thousands of people in Wisconsin who occupied their state capitol for several months, 24 hours a day, and marched through the … ",
+      "url": "",
+      "timestamp": "2011-12-15",
+      "score": 9.3212964135743,
+      "topic": "yemen"
+    },
+    {
+      "id": "286",
+      "title": "Timeline of the IsraeliPalestinian conflict",
+      "snippet": "Timeline of the IsraeliPalestinian conflict   Telegraph\nPalestinian push for full UN membership: a quandary for Israel\n- Sept 13: Israel and the PLO sign Declaration of Principles on autonomy after months of secret … ",
+      "url": "",
+      "timestamp": "2011-09-23",
+      "score": 8.40962884178483,
+      "topic": "yemen"
+    },
+    {
+      "id": "592",
+      "title": "Libya timeline of the conflict",
+      "snippet": "Libya timeline of the conflict  Telegraph\nIs the rebel movement ready to take on mantle of government?\nMarch 17: The UN Security Council authorises a no-fly zone and \"all    necessary measures … ",
+      "url": "",
+      "timestamp": "2011-08-22",
+      "score": 8.19908224991963,
+      "topic": "yemen"
+    },
+    {
+      "id": "5436",
+      "title": "Thursday CFR.org Roundup Clashes spread across Yemen – Global Public Square",
+      "snippet": " … This Reuters timeline lays out the  progression of events  in the ongoing Yemen political crisis.\nThe Bahraini monarchy lifted the  emergency rule (LATimes)  it had imposed since democratic anti-government uprisings took … ",
+      "url": "",
+      "timestamp": "2011-06-02",
+      "score": 7.917177754890514,
+      "topic": "yemen"
+    },
+    {
+      "id": "299",
+      "title": "Exclusive Gulf states seek to broker Yemen's Saleh exit",
+      "snippet": " … the crisis soon -- something Saleh has warned of in recent speeches.\nWashington has long seen Saleh as a pivotal ally in its fight against al Qaeda, which has used its Yemen base … ",
+      "url": "",
+      "timestamp": "2011-04-06",
+      "score": 7.854901614305058,
+      "topic": "yemen"
+    },
+    {
+      "id": "905",
+      "title": "WRAPUP 4Escalating military conflict kills six in Yemen capital",
+      "snippet": " … Raging battles between heavily armed loyalists and foes of Yemen's president killed six people in the capital on Tuesday as a crisis over his violent crackdown on popular unrest drifted towards … ",
+      "url": "",
+      "timestamp": "2011-09-20",
+      "score": 7.796676607094516,
+      "topic": "yemen"
+    },
+    {
+      "id": "5630",
+      "title": "South Yemen City Seized by Gunmen as Violence Spreads After Saleh Leaves",
+      "snippet": "South Yemen City Seized by Gunmen as Violence Spreads After Saleh Leaves\nAbout 400 gunmen seized control of parts of a city in southern Yemen for several hours as violence spreads through … ",
+      "url": "",
+      "timestamp": "2011-06-15",
+      "score": 7.760594035853295,
+      "topic": "yemen"
+    },
+    {
+      "id": "745",
+      "title": "WRAPUP 6Escalating military conflict kills 12 in Yemen capital",
+      "snippet": " … battles between government forces and military units opposed to Yemen's president killed 12 people in the capital on Tuesday as a crisis over a violent state crackdown on popular unrest drifted … ",
+      "url": "",
+      "timestamp": "2011-09-20",
+      "score": 7.55673483848796,
+      "topic": "yemen"
+    },
+    {
+      "id": "874",
+      "title": "AlAwlaki Is Dead, But Terrorists' Unholy War Is Far From Over",
+      "snippet": " … But if today’s early reports are accurate, the American-born Al Qaeda leader holding out in Yemen has finally caught the wrong end of a U.S. missile . \nThanks to Catherine … ",
+      "url": "",
+      "timestamp": "2011-09-30",
+      "score": 7.455475752677048,
+      "topic": "yemen"
+    },
+    {
+      "id": "1415",
+      "title": "",
+      "snippet": "Timeline\nOne of the poorest and least-de­veloped na­tions in the Ar­ab world, Ye­men has had a tu­mul­tu­ous his­tory but is known primar­ily … ",
+      "url": "",
+      "timestamp": "2011-05-10",
+      "score": 7.151064664193509,
+      "topic": "yemen"
+    },
+    {
+      "id": "2528",
+      "title": "Pressure for Yemen’s Saleh to step down builds",
+      "snippet": "Pressure for Yemen’s Saleh to step down builds\nSANAA, YEMEN — Outside Sanaa University, almost every inch of Justice Street is packed with tents, as is nearby Freedom Street. Doctors, teachers, students … ",
+      "url": "",
+      "timestamp": "2011-03-24",
+      "score": 7.0065011112239635,
+      "topic": "yemen"
+    },
+    {
+      "id": "420",
+      "title": "",
+      "snippet": " … 35% (2003 est.)\nTimeline: May 22, 1990 - The Republic of Yemen is created from unification of North Yemen, the People's Democratic Republic of Yemen (PDRY), and South Yemen, or the Yemen … ",
+      "url": "",
+      "timestamp": "2013-07-10",
+      "score": 6.869703099058138,
+      "topic": "yemen"
+    },
+    {
+      "id": "1964",
+      "title": "",
+      "snippet": " … They included Yemen's ambassador to Britain and the embassy's entire diplomatic staff, and Yemen's ambassador to the European Union, Mohamed Jaffer. They did not resign but rather threw their … ",
+      "url": "",
+      "timestamp": "2011-03-21",
+      "score": 6.692759936185911,
+      "topic": "yemen"
+    },
+    {
+      "id": "1983",
+      "title": "No escape from the Middle East",
+      "snippet": " … Compare the economic dynamism of Indonesia, Singapore or Korea to Afghanistan, Yemen or Somalia, and you understand the logic. As China grows more assertive, its neighbors want a dependable, if discreet, U … ",
+      "url": "",
+      "timestamp": "2012-10-07",
+      "score": 5.939561597218287,
+      "topic": "yemen"
+    },
+    {
+      "id": "855",
+      "title": "Netanyahu to make his case against Iran in speech at UN",
+      "snippet": " … Also Thursday, on the sidelines of the General Assembly, key figures will gather for a Friends of Yemen meeting that will be co-chaired by British Foreign Secretary William Hague, Yemen's … ",
+      "url": "",
+      "timestamp": "2012-09-27",
+      "score": 5.27074654573992,
+      "topic": "yemen"
+    },
+    {
+      "id": "1559",
+      "title": "U.S. Presses Egypt to Mend Ties With Israel",
+      "snippet": " … The Obama administration has championed those movements but hopes to corral their energy so that political transitions from Tunisia to Yemen don't slide back into military domination or create a powerful … ",
+      "url": "",
+      "timestamp": "2011-09-28",
+      "score": 5.221372937317484,
+      "topic": "yemen"
+    },
+    {
+      "id": "1486",
+      "title": "Iran on edge as ally fights for survival in Syria",
+      "snippet": " … Iran's Arabic-language Al-Alam television on Saturday quoted the foreign ministry spokesman, Ramin Mehmanparast, as rejecting Obama's claim of Iranian aid to Assad in his time of crisis.\nIn … ",
+      "url": "",
+      "timestamp": "2011-04-23",
+      "score": 4.999259347866559,
+      "topic": "yemen"
+    }
+  ],
+  "final_covered_dates": [
+    "2011-03-21",
+    "2011-03-24",
+    "2011-04-06",
+    "2011-04-23",
+    "2011-05-10",
+    "2011-06-02",
+    "2011-06-03",
+    "2011-06-15",
+    "2011-08-22",
+    "2011-09-20",
+    "2011-09-23",
+    "2011-09-28",
+    "2011-09-30",
+    "2011-12-15",
+    "2012-01-05",
+    "2012-02-20",
+    "2012-09-27",
+    "2012-10-07",
+    "2013-07-10"
+  ],
+  "usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
+  }
+}

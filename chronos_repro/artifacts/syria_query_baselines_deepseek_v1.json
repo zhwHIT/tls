@@ -1,0 +1,1624 @@
+{
+  "schema_version": 1,
+  "status": "ok",
+  "config": {
+    "model": "deepseek-v4-flash",
+    "base_url": "https://api.deepseek.com",
+    "temperature": 0.0,
+    "top_k": 20,
+    "max_rounds": 3
+  },
+  "provenance": {
+    "index": "D:\\paper\\chronos_repro\\artifacts\\crisis_ece08f344cc94933.sqlite3",
+    "index_sha256": "ed73fb8ff0e9add31df40f637783372c15f59de6f0939dd30b4f19210270bc81",
+    "index_metadata": {
+      "data_root": "D:\\paper\\chronos_repro\\snapshots\\crisis\\ece08f344cc94933",
+      "document_count": 17573,
+      "engine": "sqlite-fts5-bm25",
+      "schema_version": 1,
+      "snapshot": {
+        "dataset": "crisis",
+        "manifest": "D:\\paper\\chronos_repro\\snapshots\\crisis\\ece08f344cc94933\\MANIFEST.sha256.json",
+        "manifest_sha256": "40345dae0249badde354e4e78315799d41035467870baad78efa333efa02b460",
+        "snapshot_id": "ece08f344cc94933"
+      },
+      "topic_counts": {
+        "egypt": 4083,
+        "libya": 4274,
+        "syria": 5170,
+        "yemen": 4046
+      }
+    }
+  },
+  "baselines": {
+    "direct": {
+      "queries": [
+        "Syria crisis timeline"
+      ],
+      "results": [
+        {
+          "id": "4493",
+          "title": "Interactive Timeline of Syria unrest  Interactive  Al Jazeera English",
+          "snippet": "Interactive Timeline of Syria unrest  Interactive  Al Jazeera English\nIt has been more than one year now that Syria has been in turmoil. What initially started out as protests for reforms has … ",
+          "url": "",
+          "timestamp": "2012-07-15",
+          "score": 11.08605256053794,
+          "topic": "syria"
+        },
+        {
+          "id": "3037",
+          "title": "Timeline Unrest in Syria",
+          "snippet": "Timeline Unrest in Syria\nTwo years after the first anti-government protests, conflict in Syria rages on. See the major events in the country's tumultuous uprising.\n",
+          "url": "",
+          "timestamp": "2013-06-13",
+          "score": 10.403597924784957,
+          "topic": "syria"
+        },
+        {
+          "id": "4499",
+          "title": "How to teach … the crisis in Syria",
+          "snippet": " … crisis.\nAll of these events can be plotted on the Guardian's Syria timeline which clearly illustrates how the conflict has escalated. Students can also compare what has been happening in Syria … ",
+          "url": "",
+          "timestamp": "2012-03-12",
+          "score": 10.08168524686596,
+          "topic": "syria"
+        },
+        {
+          "id": "4459",
+          "title": "Syria unrest timeline",
+          "snippet": "Syria unrest timeline   Telegraph\n- 25-26: Protests spread and strengthen, with calls for the regime's fall.\n– 15: More than one million protest, notably in Hama and Deir Ezzor. On the    31st … ",
+          "url": "",
+          "timestamp": "2012-07-17",
+          "score": 8.849161950509245,
+          "topic": "syria"
+        },
+        {
+          "id": "5586",
+          "title": "Syria’s civil war timeline of deadly conflict",
+          "snippet": "Syria’s civil war timeline of deadly conflict  GlobalPost\nSyria’s civil war: timeline of deadly conflict\nImportant dates and events leading up to the Damascus bombing of July 18, 2012.\nHundreds … ",
+          "url": "",
+          "timestamp": "2012-07-18",
+          "score": 8.633666860963793,
+          "topic": "syria"
+        },
+        {
+          "id": "2938",
+          "title": "Syria’s Assad returns to public eye with ally Iran ",
+          "snippet": " … She urged international leaders to begin work on a “good transition plan” to try to keep Syria from collapsing into more chaos after Assad.\n“I am not going to put a timeline … ",
+          "url": "",
+          "timestamp": "2012-08-07",
+          "score": 7.704058371235936,
+          "topic": "syria"
+        },
+        {
+          "id": "2582",
+          "title": "Plunging currency adds to Syria’s gloom",
+          "snippet": "Plunging currency adds to Syria’s gloom\nSTR/EPA - Syrians buy fruits and vegetables at al-Fahameh market in Damascus.The ongoing crisis and economic sanctions have affected the Syrian pound that … ",
+          "url": "",
+          "timestamp": "2013-07-16",
+          "score": 7.627310770724329,
+          "topic": "syria"
+        },
+        {
+          "id": "3267",
+          "title": "New images show horrific destruction and bloodshed in Syria ahead of ceasefire talks",
+          "snippet": " … Moscow says Syria’s crisis must be resolved without foreign interference, particularly military intervention.\nViolence wracked the country on Thursday, from the desert eastern city of Hassake, where five soldiers were killed … ",
+          "url": "",
+          "timestamp": "2012-10-18",
+          "score": 7.10693679835002,
+          "topic": "syria"
+        },
+        {
+          "id": "2317",
+          "title": "Syria's Assad Used Chemical Weapons Against Rebels, U.S. Officials Conclude",
+          "snippet": " … for many contingencies in Syria,\" said Ben Rhodes, Obama's deputy national security adviser. \"We are going to make decisions on further actions on our own timeline.\"\nThe White House said the … ",
+          "url": "",
+          "timestamp": "2013-06-13",
+          "score": 6.802914480447065,
+          "topic": "syria"
+        },
+        {
+          "id": "3661",
+          "title": "UN Security Council facing ‘moment of truth’ on Syria as Assad ignores withdrawal deadline",
+          "snippet": " … timeline for taking further steps,” said Basma Kodmani, a spokeswoman for the Syrian National Council. She said this would require a “serious shift” in the positions of China and Russia.\nSyria’s … ",
+          "url": "",
+          "timestamp": "2012-04-10",
+          "score": 6.710717547017616,
+          "topic": "syria"
+        },
+        {
+          "id": "4977",
+          "title": "Syrian civil war ‘The battle to topple the state is over,’ government declares",
+          "snippet": " … of Syria” conference in Turkey, which provides a safe haven for Syrian rebels.\nAfter Clinton met Gulf foreign ministers in Riyadh on Saturday, they said Annan should set a timeline for unspecified … ",
+          "url": "",
+          "timestamp": "2012-03-31",
+          "score": 6.618051994628991,
+          "topic": "syria"
+        },
+        {
+          "id": "1846",
+          "title": "Annan’s new road map for peace in Syria",
+          "snippet": " … appears to have hit a dead end in Damascus, leading to growing concerns that the Syria crisis will spiral into all-out civil war.\nWhat’s intriguing about Annan’s new approach … ",
+          "url": "",
+          "timestamp": "2012-06-05",
+          "score": 6.589922526460269,
+          "topic": "syria"
+        },
+        {
+          "id": "444",
+          "title": "Syria What would US military intervention look like?",
+          "snippet": " … More from GlobalPost:  Syria: A timeline of 'red line' rhetoric (VIDEO)\nThe US military is already assisting Syrian rebels through neighboring countries, including sending “non-lethal” assistance (like food, medicine and body … ",
+          "url": "",
+          "timestamp": "2013-04-25",
+          "score": 6.492763081483504,
+          "topic": "syria"
+        },
+        {
+          "id": "2442",
+          "title": "Syrian President Bashar Assad likely behind chemical arms use White House",
+          "snippet": " … is still looking for conclusive evidence about chemical weapons use in Syria. He said there is no timeline for the investigation.\n“We have consistently, in our conversations with the Russians and others … ",
+          "url": "",
+          "timestamp": "2013-05-06",
+          "score": 6.49239189757971,
+          "topic": "syria"
+        },
+        {
+          "id": "2453",
+          "title": "Barack Obama says Syria chemical weapon use would change US 'calculus' over intervention",
+          "snippet": "Barack Obama says Syria chemical weapon use would change US 'calculus' over intervention\nPresident insists chemical attacks are still a 'red line'\nPresident Barack Obama has insisted that use of chemical weapons … ",
+          "url": "",
+          "timestamp": "2013-04-27",
+          "score": 6.403997724341389,
+          "topic": "syria"
+        },
+        {
+          "id": "1972",
+          "title": "Obama discusses further Syrian intervention with European leaders",
+          "snippet": " … British Prime Minister David Cameron told CNN that during the video conference, Obama said further intervention into Syria \"should be done on our own timeline.\"\n\"We have already taken some decisions in … ",
+          "url": "",
+          "timestamp": "2013-06-15",
+          "score": 6.369070745741432,
+          "topic": "syria"
+        },
+        {
+          "id": "5175",
+          "title": "Iran, Hezbollah build militia networks in Syria in event that Assad falls, officials say",
+          "snippet": " … But officials think Iran’s long-term goal is to have reliable operatives in Syria in case the country fractures into ethnic and sectarian enclaves.\nTimeline: Major events in the country’s … ",
+          "url": "",
+          "timestamp": "2013-02-10",
+          "score": 6.348504385316145,
+          "topic": "syria"
+        },
+        {
+          "id": "3642",
+          "title": "",
+          "snippet": " … Speaking ahead of the G8 summit, Mr Hague said the crisis demanded a \"strong, determined and co-ordinated response from the international community\".\nIt is believed that Britain, the United States and … ",
+          "url": "",
+          "timestamp": "2013-06-14",
+          "score": 6.299080489534418,
+          "topic": "syria"
+        },
+        {
+          "id": "5076",
+          "title": "Red Line Crossed U.S. Confirms Syrian ChemicalWeapons Use",
+          "snippet": " … will be increasing its direct support to the Supreme Military Council, but did not specify whether lethal aid will flow into Syria. “It is both the political and military opposition that are … ",
+          "url": "",
+          "timestamp": "2013-06-13",
+          "score": 5.998146101217693,
+          "topic": "syria"
+        },
+        {
+          "id": "4860",
+          "title": "Syria uprising Dozens killed as violence ramps up ahead of Thursday truce",
+          "snippet": "Syria uprising Dozens killed as violence ramps up ahead of Thursday truce  National Post\nUN force heads to Syria to monitor ceasefire\nNo comment was immediately available from Syrian officials. The videos … ",
+          "url": "",
+          "timestamp": "2012-04-07",
+          "score": 5.8769954683384835,
+          "topic": "syria"
+        }
+      ],
+      "llm_calls": 0
+    },
+    "rewrite": {
+      "queries": [
+        "Syria conflict timeline"
+      ],
+      "results": [
+        {
+          "id": "3037",
+          "title": "Timeline Unrest in Syria",
+          "snippet": "Timeline Unrest in Syria\nTwo years after the first anti-government protests, conflict in Syria rages on. See the major events in the country's tumultuous uprising.\n",
+          "url": "",
+          "timestamp": "2013-06-13",
+          "score": 11.403239189257178,
+          "topic": "syria"
+        },
+        {
+          "id": "4459",
+          "title": "Syria unrest timeline",
+          "snippet": "Syria unrest timeline   Telegraph\n- 25-26: Protests spread and strengthen, with calls for the regime's fall.\n– 15: More than one million protest, notably in Hama and Deir Ezzor. On the    31st … ",
+          "url": "",
+          "timestamp": "2012-07-17",
+          "score": 9.747055726622625,
+          "topic": "syria"
+        },
+        {
+          "id": "4493",
+          "title": "Interactive Timeline of Syria unrest  Interactive  Al Jazeera English",
+          "snippet": "Interactive Timeline of Syria unrest  Interactive  Al Jazeera English\nIt has been more than one year now that Syria has been in turmoil. What initially started out as protests for reforms has … ",
+          "url": "",
+          "timestamp": "2012-07-15",
+          "score": 9.708087751447716,
+          "topic": "syria"
+        },
+        {
+          "id": "5586",
+          "title": "Syria’s civil war timeline of deadly conflict",
+          "snippet": "Syria’s civil war timeline of deadly conflict  GlobalPost\nSyria’s civil war: timeline of deadly conflict\nImportant dates and events leading up to the Damascus bombing of July 18, 2012.\nHundreds … ",
+          "url": "",
+          "timestamp": "2012-07-18",
+          "score": 9.662741587790752,
+          "topic": "syria"
+        },
+        {
+          "id": "4499",
+          "title": "How to teach … the crisis in Syria",
+          "snippet": " … All of these events can be plotted on the Guardian's Syria timeline which clearly illustrates how the conflict has escalated. Students can also compare what has been happening in Syria with … ",
+          "url": "",
+          "timestamp": "2012-03-12",
+          "score": 9.017303365095689,
+          "topic": "syria"
+        },
+        {
+          "id": "2453",
+          "title": "Barack Obama says Syria chemical weapon use would change US 'calculus' over intervention",
+          "snippet": "Barack Obama says Syria chemical weapon use would change US 'calculus' over intervention\nPresident insists chemical attacks are still a 'red line'\nPresident Barack Obama has insisted that use of chemical weapons … ",
+          "url": "",
+          "timestamp": "2013-04-27",
+          "score": 7.09898267171045,
+          "topic": "syria"
+        },
+        {
+          "id": "2582",
+          "title": "Plunging currency adds to Syria’s gloom",
+          "snippet": " … BEIRUT — After more than two years of relentless conflict, Syria’s government is desperately trying to avert a secondary crisis: a sharp decline in the Syrian currency, which is adding to the … ",
+          "url": "",
+          "timestamp": "2013-07-16",
+          "score": 7.050681151255403,
+          "topic": "syria"
+        },
+        {
+          "id": "5175",
+          "title": "Iran, Hezbollah build militia networks in Syria in event that Assad falls, officials say",
+          "snippet": " … But officials think Iran’s long-term goal is to have reliable operatives in Syria in case the country fractures into ethnic and sectarian enclaves.\nTimeline: Major events in the country’s … ",
+          "url": "",
+          "timestamp": "2013-02-10",
+          "score": 7.0261035686115125,
+          "topic": "syria"
+        },
+        {
+          "id": "1972",
+          "title": "Obama discusses further Syrian intervention with European leaders",
+          "snippet": " … conflict\" in Syria, the White House said.\nBritish Prime Minister David Cameron told CNN that during the video conference, Obama said further intervention into Syria \"should be done on our own timeline … ",
+          "url": "",
+          "timestamp": "2013-06-15",
+          "score": 6.834720338531286,
+          "topic": "syria"
+        },
+        {
+          "id": "1932",
+          "title": "Syria toll passes 100,000 as peace meet prospects fade",
+          "snippet": " … The conflict has left Syria with few allies in the Middle East, and spilled over its borders.\nIn the capital of neighbouring Lebanon, men armed with knives attacked a group of Syrians … ",
+          "url": "",
+          "timestamp": "2013-06-26",
+          "score": 6.6894013103159695,
+          "topic": "syria"
+        },
+        {
+          "id": "444",
+          "title": "Syria What would US military intervention look like?",
+          "snippet": " … More from GlobalPost:  Syria: A timeline of 'red line' rhetoric (VIDEO)\nThe US military is already assisting Syrian rebels through neighboring countries, including sending “non-lethal” assistance (like food, medicine and body … ",
+          "url": "",
+          "timestamp": "2013-04-25",
+          "score": 6.635106775095743,
+          "topic": "syria"
+        },
+        {
+          "id": "4977",
+          "title": "Syrian civil war ‘The battle to topple the state is over,’ government declares",
+          "snippet": " … of Syria” conference in Turkey, which provides a safe haven for Syrian rebels.\nAfter Clinton met Gulf foreign ministers in Riyadh on Saturday, they said Annan should set a timeline for unspecified … ",
+          "url": "",
+          "timestamp": "2012-03-31",
+          "score": 6.618051994628991,
+          "topic": "syria"
+        },
+        {
+          "id": "3267",
+          "title": "New images show horrific destruction and bloodshed in Syria ahead of ceasefire talks",
+          "snippet": " … and help bring about a longer truce in the 19-month-old conflict.\n“Yes I am going to Syria. This appeal we made to our Syrian brothers, whether in the government or … ",
+          "url": "",
+          "timestamp": "2012-10-18",
+          "score": 6.563565754206329,
+          "topic": "syria"
+        },
+        {
+          "id": "2938",
+          "title": "Syria’s Assad returns to public eye with ally Iran ",
+          "snippet": " … She urged international leaders to begin work on a “good transition plan” to try to keep Syria from collapsing into more chaos after Assad.\n“I am not going to put a timeline … ",
+          "url": "",
+          "timestamp": "2012-08-07",
+          "score": 6.539847082684525,
+          "topic": "syria"
+        },
+        {
+          "id": "2442",
+          "title": "Syrian President Bashar Assad likely behind chemical arms use White House",
+          "snippet": " … is still looking for conclusive evidence about chemical weapons use in Syria. He said there is no timeline for the investigation.\n“We have consistently, in our conversations with the Russians and others … ",
+          "url": "",
+          "timestamp": "2013-05-06",
+          "score": 6.49239189757971,
+          "topic": "syria"
+        },
+        {
+          "id": "2317",
+          "title": "Syria's Assad Used Chemical Weapons Against Rebels, U.S. Officials Conclude",
+          "snippet": " … for many contingencies in Syria,\" said Ben Rhodes, Obama's deputy national security adviser. \"We are going to make decisions on further actions on our own timeline.\"\nThe White House said the … ",
+          "url": "",
+          "timestamp": "2013-06-13",
+          "score": 6.40735209655445,
+          "topic": "syria"
+        },
+        {
+          "id": "3661",
+          "title": "UN Security Council facing ‘moment of truth’ on Syria as Assad ignores withdrawal deadline",
+          "snippet": " … the situation in Syria is an armed conflict. This is a war,” he said.\nThe idea of establishing “safe zones” inside Syria to protect refugees is being considered by Turkey. “Turkey and … ",
+          "url": "",
+          "timestamp": "2012-04-10",
+          "score": 6.321772956201613,
+          "topic": "syria"
+        },
+        {
+          "id": "1846",
+          "title": "Annan’s new road map for peace in Syria",
+          "snippet": "Annan’s new road map for peace in Syria\nKofi Annan is tinkering with a radical idea for reviving his moribund peace plan for Syria — a road map for political transition there … ",
+          "url": "",
+          "timestamp": "2012-06-05",
+          "score": 6.204925664308942,
+          "topic": "syria"
+        },
+        {
+          "id": "5076",
+          "title": "Red Line Crossed U.S. Confirms Syrian ChemicalWeapons Use",
+          "snippet": " … will be increasing its direct support to the Supreme Military Council, but did not specify whether lethal aid will flow into Syria. “It is both the political and military opposition that are … ",
+          "url": "",
+          "timestamp": "2013-06-13",
+          "score": 5.998146101217693,
+          "topic": "syria"
+        },
+        {
+          "id": "2886",
+          "title": "Clinton Calls for ‘Immense Pressure’ on Assad",
+          "snippet": " … to facilitate a political transition in Syria . It was the second time Russia blocked attempts at the UN to hold Assad accountable for a conflict that the UN says has killed more … ",
+          "url": "",
+          "timestamp": "2012-02-06",
+          "score": 5.900558588545329,
+          "topic": "syria"
+        }
+      ],
+      "llm_calls": 1,
+      "audit": {
+        "text": "Syria conflict timeline",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "prompt_tokens": 110,
+          "completion_tokens": 433,
+          "total_tokens": 543,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 428
+          },
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 110
+        },
+        "request_id": null
+      }
+    },
+    "chronos": {
+      "queries": [
+        "Syria crisis timeline key events dates causes consequences",
+        "Syria uprising 2011 timeline Daraa protests start date",
+        "Ghouta chemical weapons attack Syria date 2013"
+      ],
+      "rounds": [
+        {
+          "round": 1,
+          "query": "Syria crisis timeline key events dates causes consequences",
+          "results": [
+            {
+              "id": "4499",
+              "title": "How to teach … the crisis in Syria",
+              "snippet": " … Arab Spring is a resource created by the Association for Citizenship Teaching that focuses on events in Egypt. It raises many issues relevant to the crisis in Syria, including the causes of … ",
+              "url": "",
+              "timestamp": "2012-03-12",
+              "score": 21.07551621190032,
+              "topic": "syria"
+            },
+            {
+              "id": "5586",
+              "title": "Syria’s civil war timeline of deadly conflict",
+              "snippet": "Syria’s civil war timeline of deadly conflict  GlobalPost\nSyria’s civil war: timeline of deadly conflict\nImportant dates and events leading up to the Damascus bombing of July 18, 2012.\nHundreds … ",
+              "url": "",
+              "timestamp": "2012-07-18",
+              "score": 17.771249025070674,
+              "topic": "syria"
+            },
+            {
+              "id": "4493",
+              "title": "Interactive Timeline of Syria unrest  Interactive  Al Jazeera English",
+              "snippet": "Interactive Timeline of Syria unrest  Interactive  Al Jazeera English\nIt has been more than one year now that Syria has been in turmoil. What initially started out as protests for reforms has … ",
+              "url": "",
+              "timestamp": "2012-07-15",
+              "score": 14.155251811283271,
+              "topic": "syria"
+            },
+            {
+              "id": "3037",
+              "title": "Timeline Unrest in Syria",
+              "snippet": "Timeline Unrest in Syria\nTwo years after the first anti-government protests, conflict in Syria rages on. See the major events in the country's tumultuous uprising.\n",
+              "url": "",
+              "timestamp": "2013-06-13",
+              "score": 14.075061870377189,
+              "topic": "syria"
+            },
+            {
+              "id": "5602",
+              "title": "Russia’s Success, the West’s Failure",
+              "snippet": " … But this approach also forces Russia to cope with the immensely difficult consequences.\nRussia has been present in Syria as a major provider of defense and political support for half a century … ",
+              "url": "",
+              "timestamp": "2013-06-07",
+              "score": 12.509898307780734,
+              "topic": "syria"
+            },
+            {
+              "id": "1972",
+              "title": "Obama discusses further Syrian intervention with European leaders",
+              "snippet": " … British Prime Minister David Cameron told CNN that during the video conference, Obama said further intervention into Syria \"should be done on our own timeline.\"\n\"We have already taken some decisions in … ",
+              "url": "",
+              "timestamp": "2013-06-15",
+              "score": 11.931580903913002,
+              "topic": "syria"
+            },
+            {
+              "id": "2453",
+              "title": "Barack Obama says Syria chemical weapon use would change US 'calculus' over intervention",
+              "snippet": " … He had previously said that chemical attacks were a \"red line\" with \"enormous consequences.\"\nSyria's civil war, now in its third year, is thought to have killed more than 70,000 … ",
+              "url": "",
+              "timestamp": "2013-04-27",
+              "score": 11.798654927940921,
+              "topic": "syria"
+            },
+            {
+              "id": "5924",
+              "title": "Syrian official War causes $15 billion in losses",
+              "snippet": " … War causes $15 billion in losses\nA Free Syrian Army fighter walks with his weapon through the damaged Khalid bin al Walid Mosque in Homs June 30, 2013. REUTERS/Yazan Homsy (SYRIA … ",
+              "url": "",
+              "timestamp": "2013-06-30",
+              "score": 11.531659549106116,
+              "topic": "syria"
+            },
+            {
+              "id": "4382",
+              "title": "Syria is a '10year issue,' top general says",
+              "snippet": " … Martin Dempsey said the United States faces \"a 10-year issue\" in Syria.\nSyria is a regional conflict where causes \"will persist for 10 years,\" Dempsey says\n\"We need to understand what … ",
+              "url": "",
+              "timestamp": "2013-07-08",
+              "score": 10.603135093186598,
+              "topic": "syria"
+            },
+            {
+              "id": "946",
+              "title": "US, Russia seeking 'creative' solutions to Syria crisis, mediator says",
+              "snippet": "US, Russia seeking 'creative' solutions to Syria crisis, mediator says\nSecretary of State Hillary Clinton with Taoiseach Enda Kenny at the Organization for Security and Co-operation in Europe on Dec. 6 … ",
+              "url": "",
+              "timestamp": "2012-12-06",
+              "score": 10.350198284788103,
+              "topic": "syria"
+            },
+            {
+              "id": "2713",
+              "title": "The horror of war Video captures the moment two Syrian army tanks are destroyed by rebel fighters in brutal ambush",
+              "snippet": " … The apparent crack in Assad's diplomatic ranks came as international diplomacy inched along, plagued by divisions over what the next steps should be to address Syria's crisis.\nAnnan, appointed mediator … ",
+              "url": "",
+              "timestamp": "2012-07-11",
+              "score": 10.226000432559697,
+              "topic": "syria"
+            },
+            {
+              "id": "2582",
+              "title": "Plunging currency adds to Syria’s gloom",
+              "snippet": "Plunging currency adds to Syria’s gloom\nSTR/EPA - Syrians buy fruits and vegetables at al-Fahameh market in Damascus.The ongoing crisis and economic sanctions have affected the Syrian pound that … ",
+              "url": "",
+              "timestamp": "2013-07-16",
+              "score": 10.071249653323346,
+              "topic": "syria"
+            },
+            {
+              "id": "4974",
+              "title": "Syria today Iraq denies role in the conflict",
+              "snippet": " … Lieberman said Washington must \"make real our strategic partnership\" with Baghdad, especially as the Syria crisis worsens,\" according to a Twitter post. He also called for a no-fly zone in Syria … ",
+              "url": "",
+              "timestamp": "2012-09-06",
+              "score": 9.993743243788451,
+              "topic": "syria"
+            },
+            {
+              "id": "3503",
+              "title": "'A lamb to the slaughter' Rumors of military draft panic Syrian men",
+              "snippet": " … Not one country suffered the consequences of the inevitable American Victory nor the consequences of the power vacuum felt in the withdrawal of the American Victors.\nAnd best of all these wars … ",
+              "url": "",
+              "timestamp": "2013-03-14",
+              "score": 9.958257311047195,
+              "topic": "syria"
+            },
+            {
+              "id": "3661",
+              "title": "UN Security Council facing ‘moment of truth’ on Syria as Assad ignores withdrawal deadline",
+              "snippet": " … envoy Rice said however that deadlock risks pushing Syria “into full-scale civil war — with all of the consequences that that entails for the people of Syria, for neighboring countries, and the … ",
+              "url": "",
+              "timestamp": "2012-04-10",
+              "score": 9.702427401682336,
+              "topic": "syria"
+            },
+            {
+              "id": "2751",
+              "title": "Syria's sectarian war causes Hamas split",
+              "snippet": "Syria's sectarian war causes Hamas split\nSyria's civil war has caused a split within Hamas over whether to cling to Shiite backers Damascus, Tehran and Hezbollah or side with Sunni … ",
+              "url": "",
+              "timestamp": "2013-06-21",
+              "score": 9.589554830770812,
+              "topic": "syria"
+            },
+            {
+              "id": "4746",
+              "title": "",
+              "snippet": " … REUTERS/Muzaffar Salman\nMost of the international debate about Syria policy focuses on how to remove President Bashar al-Assad from power.\nOptions for NATO states and key Arab League partners include … ",
+              "url": "",
+              "timestamp": "2013-05-22",
+              "score": 9.583346336689448,
+              "topic": "syria"
+            },
+            {
+              "id": "5088",
+              "title": "Syrian rebels seize the alFurat dam in blow to President Bashar al Assad's government troops",
+              "snippet": " … Daily News\nSyrian rebels capture key town near Jordan border \n BEIRUT -- Syrian rebels scored one of their biggest strategic victories Monday since the country's crisis began two years ago, capturing the … ",
+              "url": "",
+              "timestamp": "2013-02-11",
+              "score": 9.501071234513573,
+              "topic": "syria"
+            },
+            {
+              "id": "291",
+              "title": "The disaster in Syria is getting steadily worse, and no one has any idea what to do about it",
+              "snippet": " … Meanwhile, Western and regional governments are deeply worried by the consequences of Syria’s explosion. I say “explosion” because the consequences of this tragic conflict are spreading beyond the country’s borders … ",
+              "url": "",
+              "timestamp": "2012-12-11",
+              "score": 9.472643679487222,
+              "topic": "syria"
+            },
+            {
+              "id": "3172",
+              "title": "Syria’s sectarian war causes Hamas split, analysts say",
+              "snippet": "Syria’s sectarian war causes Hamas split, analysts say\nAn Egyptian border police sits at his post as he observes  Palestinian youths waving their green Islamic and national flags while taking part … ",
+              "url": "",
+              "timestamp": "2013-06-22",
+              "score": 9.406899798123604,
+              "topic": "syria"
+            }
+          ],
+          "new_doc_ids": [
+            "4499",
+            "5586",
+            "4493",
+            "3037",
+            "5602",
+            "1972",
+            "2453",
+            "5924",
+            "4382",
+            "946",
+            "2713",
+            "2582",
+            "4974",
+            "3503",
+            "3661",
+            "2751",
+            "4746",
+            "5088",
+            "291",
+            "3172"
+          ],
+          "audit": {
+            "text": "Syria crisis timeline key events dates causes consequences",
+            "model": "deepseek-v4-flash",
+            "usage": {
+              "prompt_tokens": 140,
+              "completion_tokens": 96,
+              "total_tokens": 236,
+              "prompt_tokens_details": {
+                "cached_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 86
+              },
+              "prompt_cache_hit_tokens": 0,
+              "prompt_cache_miss_tokens": 140
+            },
+            "request_id": null
+          }
+        },
+        {
+          "round": 2,
+          "query": "Syria uprising 2011 timeline Daraa protests start date",
+          "results": [
+            {
+              "id": "5586",
+              "title": "Syria’s civil war timeline of deadly conflict",
+              "snippet": " … on March 25, 2011 chanting \"Daraa is Syria\" and \"We will sacrifice ourselves for Syria,\" as protests spread in Syria from the opposition's southern epicentre of Daraa to Damascus and a … ",
+              "url": "",
+              "timestamp": "2012-07-18",
+              "score": 18.655747850428327,
+              "topic": "syria"
+            },
+            {
+              "id": "4499",
+              "title": "How to teach … the crisis in Syria",
+              "snippet": " … Newspaper reports are an excellent way for pupils to research what has been happening in Syria. Syrian police seal off city of Daraa covers the outbreak of unrest in March 2011. Syria … ",
+              "url": "",
+              "timestamp": "2012-03-12",
+              "score": 14.316609863221572,
+              "topic": "syria"
+            },
+            {
+              "id": "3037",
+              "title": "Timeline Unrest in Syria",
+              "snippet": "Timeline Unrest in Syria\nTwo years after the first anti-government protests, conflict in Syria rages on. See the major events in the country's tumultuous uprising.\n",
+              "url": "",
+              "timestamp": "2013-06-13",
+              "score": 13.445488673181545,
+              "topic": "syria"
+            },
+            {
+              "id": "3160",
+              "title": "Syria opposition consult allies before peace push",
+              "snippet": " … no date has been set. Initially, the U.S. and Russia said it should be held by the end of the month.\nThe uprising against Assad erupted in March 2011 and escalated … ",
+              "url": "",
+              "timestamp": "2013-05-13",
+              "score": 12.924469990757498,
+              "topic": "syria"
+            },
+            {
+              "id": "4493",
+              "title": "Interactive Timeline of Syria unrest  Interactive  Al Jazeera English",
+              "snippet": "Interactive Timeline of Syria unrest  Interactive  Al Jazeera English\nIt has been more than one year now that Syria has been in turmoil. What initially started out as protests for reforms has … ",
+              "url": "",
+              "timestamp": "2012-07-15",
+              "score": 12.53085133216328,
+              "topic": "syria"
+            },
+            {
+              "id": "4862",
+              "title": "Syria Crisis Roadside Bomb Targets Military, 6 Soldiers Wounded",
+              "snippet": " … observer team, rode in a clearly marked armored white Land Cruiser from the capital, Damascus, to the southern city of Daraa, where Syria's uprising began.\nThe explosion, which occurred at about … ",
+              "url": "",
+              "timestamp": "2012-05-09",
+              "score": 12.381089575961512,
+              "topic": "syria"
+            },
+            {
+              "id": "1614",
+              "title": "Syria government shuts down the Internet nationwide",
+              "snippet": " … The bombing took place in Daraa, where the uprising began in March 2011. Since then, rebels have frequently targeted regime figures and military commanders. The increasing frequency of bombings, a hallmark of … ",
+              "url": "",
+              "timestamp": "2012-11-29",
+              "score": 12.355220003653908,
+              "topic": "syria"
+            },
+            {
+              "id": "5611",
+              "title": "Syrian human rights group says nearly 9,000 regime troops killed during 2year conflict",
+              "snippet": " … The Syria-based Violations Documentation Center has been keeping track of the dead, wounded and missing since the start the uprising against Assad's rule. It said on Monday 8,785 Syrian … ",
+              "url": "",
+              "timestamp": "2013-04-08",
+              "score": 12.33758895087259,
+              "topic": "syria"
+            },
+            {
+              "id": "125",
+              "title": "exclusive A visit to the wartorn heart of Syria's struggle for independence",
+              "snippet": " … More than 11,000 people have been killed in Syria since March 2011, according to the Syrian opposition. Of those, 1,385 people have been killed in Daraa alone. And they keep … ",
+              "url": "",
+              "timestamp": "2012-04-27",
+              "score": 12.085613486750084,
+              "topic": "syria"
+            },
+            {
+              "id": "1335",
+              "title": "A year into uprising, Syrian protesters say they won’t give up",
+              "snippet": "A year into uprising, Syrian protesters say they won’t give up\nView Photo Gallery - Civilian death toll rises in Syria amid continuing attacks by government…\nBEIRUT — When ordinary Syrians began taking … ",
+              "url": "",
+              "timestamp": "2012-03-14",
+              "score": 12.003828764063055,
+              "topic": "syria"
+            },
+            {
+              "id": "1538",
+              "title": "Syria November Deadliest Month In Uprising",
+              "snippet": "Syria November Deadliest Month In Uprising\nSyrian pro-regime supporters gather around a giant picture of President Bashar al-Assad during a rally in Damascus on December 2, 2011.\nBASSEM MROUE   12 … ",
+              "url": "",
+              "timestamp": "2011-12-02",
+              "score": 11.939870771701472,
+              "topic": "syria"
+            },
+            {
+              "id": "3369",
+              "title": "",
+              "snippet": " … The town lies only miles from the Jordanian border in Daraa province where the uprising against President Bashar Assad's regime began in 2011.\nAt least 17 insurgents, 12 soldiers and nine … ",
+              "url": "",
+              "timestamp": "2013-03-29",
+              "score": 11.868674290281918,
+              "topic": "syria"
+            },
+            {
+              "id": "1007",
+              "title": "In birthplace of Syria’s uprising, a fragile military control",
+              "snippet": "In birthplace of Syria’s uprising, a fragile military control\nDARAA, Syria — Nearly 11 months ago, protests against local authorities began in this small southern town and spread to become an uprising … ",
+              "url": "",
+              "timestamp": "2012-02-05",
+              "score": 11.7667011177733,
+              "topic": "syria"
+            },
+            {
+              "id": "3526",
+              "title": "Syrian Army Battles Armed Fighters in Daraa After Subduing Homs, 70 Dead",
+              "snippet": "Syrian Army Battles Armed Fighters in Daraa After Subduing Homs, 70 Dead\nSyrian army troops battled opposition fighters in the south of the country two days after the government regained control of … ",
+              "url": "",
+              "timestamp": "2012-03-03",
+              "score": 11.684972506784394,
+              "topic": "syria"
+            },
+            {
+              "id": "2210",
+              "title": "Homs Hit With Air Strike By Syrian Fighter Jets As Assad Troops Remain Offensive",
+              "snippet": " … The onslaught only boosted the intensity of the protests, fueling a revolt that has posed the most serious challenge to date to the Assad family dynasty that has ruled Syria since 1970 … ",
+              "url": "",
+              "timestamp": "2013-06-29",
+              "score": 11.595767132333012,
+              "topic": "syria"
+            },
+            {
+              "id": "2955",
+              "title": "Syria Crisis Palestinians Get Pulled Into Syria Conflict",
+              "snippet": " … have been killed since the uprising began in March 2011. Palestinian activists provided the names of 198 people killed, 67 in July alone.\nMost of Syria's 496,000 U.N.-registered … ",
+              "url": "",
+              "timestamp": "2012-07-26",
+              "score": 11.573280359596888,
+              "topic": "syria"
+            },
+            {
+              "id": "2249",
+              "title": "",
+              "snippet": " … The Syria uprising, which began with peaceful protests in the south of the country on March 15, 2011, developed into an armed conflict that has claimed more than 70,000 lives.\nOne … ",
+              "url": "",
+              "timestamp": "2013-03-15",
+              "score": 11.539460886122978,
+              "topic": "syria"
+            },
+            {
+              "id": "2694",
+              "title": "Aleppo blast, car bombs cap bloody Syria week",
+              "snippet": " … Daraa is the birthplace of the revolt against Assad's rule that erupted in March 2011. The uprising began as peaceful protests but quickly turned into a civil war after a brutal … ",
+              "url": "",
+              "timestamp": "2013-01-18",
+              "score": 11.277759295531762,
+              "topic": "syria"
+            },
+            {
+              "id": "16",
+              "title": "Assad Syria transition talks are internal matter",
+              "snippet": " … More than 70,000 people have been killed and several million displaced since the uprising against Assad erupted in March 2011 and escalated into a civil war.\nAssad has dismissed those trying … ",
+              "url": "",
+              "timestamp": "2013-05-18",
+              "score": 11.192314463794787,
+              "topic": "syria"
+            },
+            {
+              "id": "2544",
+              "title": "Syria's Daraa, origin of uprising, rocked by twin blasts",
+              "snippet": "Syria's Daraa, origin of uprising, rocked by twin blasts\nA Syrian man holding a boy runs for cover as a second bomb explodes near the northern Syrian town of Al-Bab … ",
+              "url": "",
+              "timestamp": "2012-11-10",
+              "score": 11.118062993709414,
+              "topic": "syria"
+            }
+          ],
+          "new_doc_ids": [
+            "3160",
+            "4862",
+            "1614",
+            "5611",
+            "125",
+            "1335",
+            "1538",
+            "3369",
+            "1007",
+            "3526",
+            "2210",
+            "2955",
+            "2249",
+            "2694",
+            "16",
+            "2544"
+          ],
+          "audit": {
+            "text": "Syria uprising 2011 timeline Daraa protests start date",
+            "model": "deepseek-v4-flash",
+            "usage": {
+              "prompt_tokens": 1701,
+              "completion_tokens": 342,
+              "total_tokens": 2043,
+              "prompt_tokens_details": {
+                "cached_tokens": 128
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 328
+              },
+              "prompt_cache_hit_tokens": 128,
+              "prompt_cache_miss_tokens": 1573
+            },
+            "request_id": null
+          }
+        },
+        {
+          "round": 3,
+          "query": "Ghouta chemical weapons attack Syria date 2013",
+          "results": [
+            {
+              "id": "106",
+              "title": "Syria rebels say U.S. force needed to curb Assad",
+              "snippet": " … chemical weapons attack by Saddam Hussein's forces in 1988 that killed thousands of civilians.\nWashington said 100 to 150 people were killed in what it called \"detected chemical attacks\" in Syria … ",
+              "url": "",
+              "timestamp": "2013-06-14",
+              "score": 20.994669269066677,
+              "topic": "syria"
+            },
+            {
+              "id": "3338",
+              "title": "Both sides in Syrian civil war claim chemical weapons were used on them",
+              "snippet": " … The Syrian regime described it as a “dangerous escalation” while rebels blamed the government and claimed there had been another chemical attack in the Damascus suburb of east Ghouta.\nThe US, which … ",
+              "url": "",
+              "timestamp": "2013-03-19",
+              "score": 17.479443557507444,
+              "topic": "syria"
+            },
+            {
+              "id": "4958",
+              "title": "France, Britain confirm use of sarin gas in Syria",
+              "snippet": " … gas in Syria\nFILE - In this Tuesday March 19, 2013 file photo released by the Syrian official news agency SANA, a Syrian victim who suffered an alleged chemical attack at Khan al … ",
+              "url": "",
+              "timestamp": "2013-06-04",
+              "score": 16.136281496822033,
+              "topic": "syria"
+            },
+            {
+              "id": "539",
+              "title": "Syria mixes chemical weapons ready 'for potential use on President Assad's own people'",
+              "snippet": " … weapons'\nDeadly: Non-chemical cluster bombs allegedy used by Syrian security forces on the town of Deir Essafir, East Ghouta district in Damascus\nThe effects of shelling by forces loyal to Syria … ",
+              "url": "",
+              "timestamp": "2012-12-05",
+              "score": 15.968117065748995,
+              "topic": "syria"
+            },
+            {
+              "id": "2325",
+              "title": "Rebels set their sights on Syria's capital",
+              "snippet": " … to hasten the fall of Syria's government set their sights on the capital, Damascus, as diplomats went into high gear amid concerns about chemical weapons.\n\"Our country will be free, we … ",
+              "url": "",
+              "timestamp": "2012-12-07",
+              "score": 14.905974197996285,
+              "topic": "syria"
+            },
+            {
+              "id": "4394",
+              "title": "John McCain makes surprise visit to rebel leaders in Syria",
+              "snippet": "John McCain makes surprise visit to rebel leaders in Syria\nHawkish war veteran's meeting coincides with new French reports of chemical weapons use by regime forces\nJohn McCain's office has … ",
+              "url": "",
+              "timestamp": "2013-05-27",
+              "score": 14.643171828841679,
+              "topic": "syria"
+            },
+            {
+              "id": "377",
+              "title": "Syria \"likely\" to have used chemical weapons, says UK",
+              "snippet": "Syria \"likely\" to have used chemical weapons, says UK\nA view of a street seen from a damaged balcony in the Khaldiyeh district in central Homs May 9, 2013. REUTERS/Yazan Homsy … ",
+              "url": "",
+              "timestamp": "2013-05-09",
+              "score": 14.599006296678041,
+              "topic": "syria"
+            },
+            {
+              "id": "846",
+              "title": "CIA to arm, train Syrian rebels; Hagel says US jets, missiles brought to Jordan will stay",
+              "snippet": " … small arms and ammunition, following confirmation that the regime of Syria President Bashar al-Assad's has been using chemical weapons in the 2-year-long civil war in which at least … ",
+              "url": "",
+              "timestamp": "2013-06-15",
+              "score": 14.384322602246586,
+              "topic": "syria"
+            },
+            {
+              "id": "2317",
+              "title": "Syria's Assad Used Chemical Weapons Against Rebels, U.S. Officials Conclude",
+              "snippet": "Syria's Assad Used Chemical Weapons Against Rebels, U.S. Officials Conclude\nPosted: 06/13/2013  5:00 pm EDT  |  Updated: 06/13/2013  6:57 pm EDT\nCongressional sources told CNN … ",
+              "url": "",
+              "timestamp": "2013-06-13",
+              "score": 14.126308148148187,
+              "topic": "syria"
+            },
+            {
+              "id": "4106",
+              "title": "Syria likely to have used chemical weapons, says UK",
+              "snippet": "Syria likely to have used chemical weapons, says UK\n1 of 4. A view of a street seen from a damaged balcony in the Khaldiyeh district in central Homs May 9, 2013 … ",
+              "url": "",
+              "timestamp": "2013-05-09",
+              "score": 13.850647295990829,
+              "topic": "syria"
+            },
+            {
+              "id": "5076",
+              "title": "Red Line Crossed U.S. Confirms Syrian ChemicalWeapons Use",
+              "snippet": " … The intelligence community estimates that 100 to 150 people have died from detected chemical weapons attacks in Syria to date; however, casualty data is likely incomplete. While the lethality of these attacks … ",
+              "url": "",
+              "timestamp": "2013-06-13",
+              "score": 13.753402690992239,
+              "topic": "syria"
+            },
+            {
+              "id": "2083",
+              "title": "UK and France claim Syrian attack victims have tested positive for sarin",
+              "snippet": " … Barack Obama has warned Syria that use of chemical weapons crosses a \"red line\", though his concerns centred on \"seeing a whole bunch of weapons moving around or being utilised\". To date … ",
+              "url": "",
+              "timestamp": "2013-06-04",
+              "score": 13.715722756035245,
+              "topic": "syria"
+            },
+            {
+              "id": "912",
+              "title": "Syria crisis Assad says more time needed to 'win the battle'  Wednesday 29 August 2012",
+              "snippet": " … The video above, posted on YouTube today is said to show shelling of al-Ghouta.\nUN secretary-general Ban Ki-moon has arrived in Iran where he is expected discuss Syria with … ",
+              "url": "",
+              "timestamp": "2012-08-29",
+              "score": 13.713037651335325,
+              "topic": "syria"
+            },
+            {
+              "id": "3308",
+              "title": "Syrian troops capture Damascus suburb near airport",
+              "snippet": " … Syria's ally Russia also suggested Saturday that the evidence put forth by the United States of the use of chemical weapons doesn't meet stringent criteria for reliability.\nU.S. Secretary … ",
+              "url": "",
+              "timestamp": "2013-06-15",
+              "score": 13.686826479804608,
+              "topic": "syria"
+            },
+            {
+              "id": "4519",
+              "title": "Syrian troops push forward with offensive against rebels, seizing Damascus suburb near airport",
+              "snippet": " … Syria's ally Russia also suggested Saturday that the evidence put forth by the United States of the use of chemical weapons doesn't meet stringent criteria for reliability.\nU.S. Secretary … ",
+              "url": "",
+              "timestamp": "2013-06-15",
+              "score": 13.64777085582935,
+              "topic": "syria"
+            },
+            {
+              "id": "5407",
+              "title": "Israel says it's not pushing for intervention in Syria, despite chemical weapons claims",
+              "snippet": "Israel says it's not pushing for intervention in Syria, despite chemical weapons claims\nThe topic of intervention in Syria is divisive, but Israeli officials say they are not urging the US … ",
+              "url": "",
+              "timestamp": "2013-04-29",
+              "score": 13.403754424086307,
+              "topic": "syria"
+            },
+            {
+              "id": "1401",
+              "title": "Iran says use of chemical arms by anyone in Syria is \"red line\"",
+              "snippet": " … 4/30/2013 7:31:22 AM ET 2013-04-30T11:31:22\nDUBAI (Reuters) - Iran said on Tuesday it regarded the alleged use of chemical weapons in Syria's civil war … ",
+              "url": "",
+              "timestamp": "2013-04-30",
+              "score": 13.255941537523306,
+              "topic": "syria"
+            },
+            {
+              "id": "1278",
+              "title": "Hold Syrian peace talks soon, says UN chief",
+              "snippet": " … Assad and the rebels both have accused each other of using chemical weapons in Aleppo in December and in Homs in March. Syria is not a party to international treaties banning poison … ",
+              "url": "",
+              "timestamp": "2013-05-17",
+              "score": 13.179374687307359,
+              "topic": "syria"
+            },
+            {
+              "id": "5901",
+              "title": "Syria regime, rebels trade chemical weapons accusations",
+              "snippet": "Syria regime, rebels trade chemical weapons accusations\nThe US and UN are attempting to verify claims and counterclaims by Syrian troops and insurgents that chemical weapons were used for the first time … ",
+              "url": "",
+              "timestamp": "2013-03-20",
+              "score": 13.137714269922704,
+              "topic": "syria"
+            },
+            {
+              "id": "3768",
+              "title": "UN hopes chemical arms team deploys to Syria soon envoys",
+              "snippet": " … other alleged chemical attacks \"with a view to verifying any alleged use of chemical weapons in Syria.\"\nWestern officials say there is no hard evidence of a chemical weapons attack, but there … ",
+              "url": "",
+              "timestamp": "2013-03-27",
+              "score": 13.120648893256698,
+              "topic": "syria"
+            }
+          ],
+          "new_doc_ids": [
+            "106",
+            "3338",
+            "4958",
+            "539",
+            "2325",
+            "4394",
+            "377",
+            "846",
+            "2317",
+            "4106",
+            "5076",
+            "2083",
+            "912",
+            "3308",
+            "4519",
+            "5407",
+            "1401",
+            "1278",
+            "5901",
+            "3768"
+          ],
+          "audit": {
+            "text": "Ghouta chemical weapons attack Syria date 2013",
+            "model": "deepseek-v4-flash",
+            "usage": {
+              "prompt_tokens": 1742,
+              "completion_tokens": 1663,
+              "total_tokens": 3405,
+              "prompt_tokens_details": {
+                "cached_tokens": 128
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 1651
+              },
+              "prompt_cache_hit_tokens": 128,
+              "prompt_cache_miss_tokens": 1614
+            },
+            "request_id": null
+          }
+        }
+      ],
+      "unique_results": [
+        {
+          "id": "4499",
+          "title": "How to teach … the crisis in Syria",
+          "snippet": " … Arab Spring is a resource created by the Association for Citizenship Teaching that focuses on events in Egypt. It raises many issues relevant to the crisis in Syria, including the causes of … ",
+          "url": "",
+          "timestamp": "2012-03-12",
+          "score": 21.07551621190032,
+          "topic": "syria"
+        },
+        {
+          "id": "5586",
+          "title": "Syria’s civil war timeline of deadly conflict",
+          "snippet": "Syria’s civil war timeline of deadly conflict  GlobalPost\nSyria’s civil war: timeline of deadly conflict\nImportant dates and events leading up to the Damascus bombing of July 18, 2012.\nHundreds … ",
+          "url": "",
+          "timestamp": "2012-07-18",
+          "score": 17.771249025070674,
+          "topic": "syria"
+        },
+        {
+          "id": "4493",
+          "title": "Interactive Timeline of Syria unrest  Interactive  Al Jazeera English",
+          "snippet": "Interactive Timeline of Syria unrest  Interactive  Al Jazeera English\nIt has been more than one year now that Syria has been in turmoil. What initially started out as protests for reforms has … ",
+          "url": "",
+          "timestamp": "2012-07-15",
+          "score": 14.155251811283271,
+          "topic": "syria"
+        },
+        {
+          "id": "3037",
+          "title": "Timeline Unrest in Syria",
+          "snippet": "Timeline Unrest in Syria\nTwo years after the first anti-government protests, conflict in Syria rages on. See the major events in the country's tumultuous uprising.\n",
+          "url": "",
+          "timestamp": "2013-06-13",
+          "score": 14.075061870377189,
+          "topic": "syria"
+        },
+        {
+          "id": "5602",
+          "title": "Russia’s Success, the West’s Failure",
+          "snippet": " … But this approach also forces Russia to cope with the immensely difficult consequences.\nRussia has been present in Syria as a major provider of defense and political support for half a century … ",
+          "url": "",
+          "timestamp": "2013-06-07",
+          "score": 12.509898307780734,
+          "topic": "syria"
+        },
+        {
+          "id": "1972",
+          "title": "Obama discusses further Syrian intervention with European leaders",
+          "snippet": " … British Prime Minister David Cameron told CNN that during the video conference, Obama said further intervention into Syria \"should be done on our own timeline.\"\n\"We have already taken some decisions in … ",
+          "url": "",
+          "timestamp": "2013-06-15",
+          "score": 11.931580903913002,
+          "topic": "syria"
+        },
+        {
+          "id": "2453",
+          "title": "Barack Obama says Syria chemical weapon use would change US 'calculus' over intervention",
+          "snippet": " … He had previously said that chemical attacks were a \"red line\" with \"enormous consequences.\"\nSyria's civil war, now in its third year, is thought to have killed more than 70,000 … ",
+          "url": "",
+          "timestamp": "2013-04-27",
+          "score": 11.798654927940921,
+          "topic": "syria"
+        },
+        {
+          "id": "5924",
+          "title": "Syrian official War causes $15 billion in losses",
+          "snippet": " … War causes $15 billion in losses\nA Free Syrian Army fighter walks with his weapon through the damaged Khalid bin al Walid Mosque in Homs June 30, 2013. REUTERS/Yazan Homsy (SYRIA … ",
+          "url": "",
+          "timestamp": "2013-06-30",
+          "score": 11.531659549106116,
+          "topic": "syria"
+        },
+        {
+          "id": "4382",
+          "title": "Syria is a '10year issue,' top general says",
+          "snippet": " … Martin Dempsey said the United States faces \"a 10-year issue\" in Syria.\nSyria is a regional conflict where causes \"will persist for 10 years,\" Dempsey says\n\"We need to understand what … ",
+          "url": "",
+          "timestamp": "2013-07-08",
+          "score": 10.603135093186598,
+          "topic": "syria"
+        },
+        {
+          "id": "946",
+          "title": "US, Russia seeking 'creative' solutions to Syria crisis, mediator says",
+          "snippet": "US, Russia seeking 'creative' solutions to Syria crisis, mediator says\nSecretary of State Hillary Clinton with Taoiseach Enda Kenny at the Organization for Security and Co-operation in Europe on Dec. 6 … ",
+          "url": "",
+          "timestamp": "2012-12-06",
+          "score": 10.350198284788103,
+          "topic": "syria"
+        },
+        {
+          "id": "2713",
+          "title": "The horror of war Video captures the moment two Syrian army tanks are destroyed by rebel fighters in brutal ambush",
+          "snippet": " … The apparent crack in Assad's diplomatic ranks came as international diplomacy inched along, plagued by divisions over what the next steps should be to address Syria's crisis.\nAnnan, appointed mediator … ",
+          "url": "",
+          "timestamp": "2012-07-11",
+          "score": 10.226000432559697,
+          "topic": "syria"
+        },
+        {
+          "id": "2582",
+          "title": "Plunging currency adds to Syria’s gloom",
+          "snippet": "Plunging currency adds to Syria’s gloom\nSTR/EPA - Syrians buy fruits and vegetables at al-Fahameh market in Damascus.The ongoing crisis and economic sanctions have affected the Syrian pound that … ",
+          "url": "",
+          "timestamp": "2013-07-16",
+          "score": 10.071249653323346,
+          "topic": "syria"
+        },
+        {
+          "id": "4974",
+          "title": "Syria today Iraq denies role in the conflict",
+          "snippet": " … Lieberman said Washington must \"make real our strategic partnership\" with Baghdad, especially as the Syria crisis worsens,\" according to a Twitter post. He also called for a no-fly zone in Syria … ",
+          "url": "",
+          "timestamp": "2012-09-06",
+          "score": 9.993743243788451,
+          "topic": "syria"
+        },
+        {
+          "id": "3503",
+          "title": "'A lamb to the slaughter' Rumors of military draft panic Syrian men",
+          "snippet": " … Not one country suffered the consequences of the inevitable American Victory nor the consequences of the power vacuum felt in the withdrawal of the American Victors.\nAnd best of all these wars … ",
+          "url": "",
+          "timestamp": "2013-03-14",
+          "score": 9.958257311047195,
+          "topic": "syria"
+        },
+        {
+          "id": "3661",
+          "title": "UN Security Council facing ‘moment of truth’ on Syria as Assad ignores withdrawal deadline",
+          "snippet": " … envoy Rice said however that deadlock risks pushing Syria “into full-scale civil war — with all of the consequences that that entails for the people of Syria, for neighboring countries, and the … ",
+          "url": "",
+          "timestamp": "2012-04-10",
+          "score": 9.702427401682336,
+          "topic": "syria"
+        },
+        {
+          "id": "2751",
+          "title": "Syria's sectarian war causes Hamas split",
+          "snippet": "Syria's sectarian war causes Hamas split\nSyria's civil war has caused a split within Hamas over whether to cling to Shiite backers Damascus, Tehran and Hezbollah or side with Sunni … ",
+          "url": "",
+          "timestamp": "2013-06-21",
+          "score": 9.589554830770812,
+          "topic": "syria"
+        },
+        {
+          "id": "4746",
+          "title": "",
+          "snippet": " … REUTERS/Muzaffar Salman\nMost of the international debate about Syria policy focuses on how to remove President Bashar al-Assad from power.\nOptions for NATO states and key Arab League partners include … ",
+          "url": "",
+          "timestamp": "2013-05-22",
+          "score": 9.583346336689448,
+          "topic": "syria"
+        },
+        {
+          "id": "5088",
+          "title": "Syrian rebels seize the alFurat dam in blow to President Bashar al Assad's government troops",
+          "snippet": " … Daily News\nSyrian rebels capture key town near Jordan border \n BEIRUT -- Syrian rebels scored one of their biggest strategic victories Monday since the country's crisis began two years ago, capturing the … ",
+          "url": "",
+          "timestamp": "2013-02-11",
+          "score": 9.501071234513573,
+          "topic": "syria"
+        },
+        {
+          "id": "291",
+          "title": "The disaster in Syria is getting steadily worse, and no one has any idea what to do about it",
+          "snippet": " … Meanwhile, Western and regional governments are deeply worried by the consequences of Syria’s explosion. I say “explosion” because the consequences of this tragic conflict are spreading beyond the country’s borders … ",
+          "url": "",
+          "timestamp": "2012-12-11",
+          "score": 9.472643679487222,
+          "topic": "syria"
+        },
+        {
+          "id": "3172",
+          "title": "Syria’s sectarian war causes Hamas split, analysts say",
+          "snippet": "Syria’s sectarian war causes Hamas split, analysts say\nAn Egyptian border police sits at his post as he observes  Palestinian youths waving their green Islamic and national flags while taking part … ",
+          "url": "",
+          "timestamp": "2013-06-22",
+          "score": 9.406899798123604,
+          "topic": "syria"
+        },
+        {
+          "id": "3160",
+          "title": "Syria opposition consult allies before peace push",
+          "snippet": " … no date has been set. Initially, the U.S. and Russia said it should be held by the end of the month.\nThe uprising against Assad erupted in March 2011 and escalated … ",
+          "url": "",
+          "timestamp": "2013-05-13",
+          "score": 12.924469990757498,
+          "topic": "syria"
+        },
+        {
+          "id": "4862",
+          "title": "Syria Crisis Roadside Bomb Targets Military, 6 Soldiers Wounded",
+          "snippet": " … observer team, rode in a clearly marked armored white Land Cruiser from the capital, Damascus, to the southern city of Daraa, where Syria's uprising began.\nThe explosion, which occurred at about … ",
+          "url": "",
+          "timestamp": "2012-05-09",
+          "score": 12.381089575961512,
+          "topic": "syria"
+        },
+        {
+          "id": "1614",
+          "title": "Syria government shuts down the Internet nationwide",
+          "snippet": " … The bombing took place in Daraa, where the uprising began in March 2011. Since then, rebels have frequently targeted regime figures and military commanders. The increasing frequency of bombings, a hallmark of … ",
+          "url": "",
+          "timestamp": "2012-11-29",
+          "score": 12.355220003653908,
+          "topic": "syria"
+        },
+        {
+          "id": "5611",
+          "title": "Syrian human rights group says nearly 9,000 regime troops killed during 2year conflict",
+          "snippet": " … The Syria-based Violations Documentation Center has been keeping track of the dead, wounded and missing since the start the uprising against Assad's rule. It said on Monday 8,785 Syrian … ",
+          "url": "",
+          "timestamp": "2013-04-08",
+          "score": 12.33758895087259,
+          "topic": "syria"
+        },
+        {
+          "id": "125",
+          "title": "exclusive A visit to the wartorn heart of Syria's struggle for independence",
+          "snippet": " … More than 11,000 people have been killed in Syria since March 2011, according to the Syrian opposition. Of those, 1,385 people have been killed in Daraa alone. And they keep … ",
+          "url": "",
+          "timestamp": "2012-04-27",
+          "score": 12.085613486750084,
+          "topic": "syria"
+        },
+        {
+          "id": "1335",
+          "title": "A year into uprising, Syrian protesters say they won’t give up",
+          "snippet": "A year into uprising, Syrian protesters say they won’t give up\nView Photo Gallery - Civilian death toll rises in Syria amid continuing attacks by government…\nBEIRUT — When ordinary Syrians began taking … ",
+          "url": "",
+          "timestamp": "2012-03-14",
+          "score": 12.003828764063055,
+          "topic": "syria"
+        },
+        {
+          "id": "1538",
+          "title": "Syria November Deadliest Month In Uprising",
+          "snippet": "Syria November Deadliest Month In Uprising\nSyrian pro-regime supporters gather around a giant picture of President Bashar al-Assad during a rally in Damascus on December 2, 2011.\nBASSEM MROUE   12 … ",
+          "url": "",
+          "timestamp": "2011-12-02",
+          "score": 11.939870771701472,
+          "topic": "syria"
+        },
+        {
+          "id": "3369",
+          "title": "",
+          "snippet": " … The town lies only miles from the Jordanian border in Daraa province where the uprising against President Bashar Assad's regime began in 2011.\nAt least 17 insurgents, 12 soldiers and nine … ",
+          "url": "",
+          "timestamp": "2013-03-29",
+          "score": 11.868674290281918,
+          "topic": "syria"
+        },
+        {
+          "id": "1007",
+          "title": "In birthplace of Syria’s uprising, a fragile military control",
+          "snippet": "In birthplace of Syria’s uprising, a fragile military control\nDARAA, Syria — Nearly 11 months ago, protests against local authorities began in this small southern town and spread to become an uprising … ",
+          "url": "",
+          "timestamp": "2012-02-05",
+          "score": 11.7667011177733,
+          "topic": "syria"
+        },
+        {
+          "id": "3526",
+          "title": "Syrian Army Battles Armed Fighters in Daraa After Subduing Homs, 70 Dead",
+          "snippet": "Syrian Army Battles Armed Fighters in Daraa After Subduing Homs, 70 Dead\nSyrian army troops battled opposition fighters in the south of the country two days after the government regained control of … ",
+          "url": "",
+          "timestamp": "2012-03-03",
+          "score": 11.684972506784394,
+          "topic": "syria"
+        },
+        {
+          "id": "2210",
+          "title": "Homs Hit With Air Strike By Syrian Fighter Jets As Assad Troops Remain Offensive",
+          "snippet": " … The onslaught only boosted the intensity of the protests, fueling a revolt that has posed the most serious challenge to date to the Assad family dynasty that has ruled Syria since 1970 … ",
+          "url": "",
+          "timestamp": "2013-06-29",
+          "score": 11.595767132333012,
+          "topic": "syria"
+        },
+        {
+          "id": "2955",
+          "title": "Syria Crisis Palestinians Get Pulled Into Syria Conflict",
+          "snippet": " … have been killed since the uprising began in March 2011. Palestinian activists provided the names of 198 people killed, 67 in July alone.\nMost of Syria's 496,000 U.N.-registered … ",
+          "url": "",
+          "timestamp": "2012-07-26",
+          "score": 11.573280359596888,
+          "topic": "syria"
+        },
+        {
+          "id": "2249",
+          "title": "",
+          "snippet": " … The Syria uprising, which began with peaceful protests in the south of the country on March 15, 2011, developed into an armed conflict that has claimed more than 70,000 lives.\nOne … ",
+          "url": "",
+          "timestamp": "2013-03-15",
+          "score": 11.539460886122978,
+          "topic": "syria"
+        },
+        {
+          "id": "2694",
+          "title": "Aleppo blast, car bombs cap bloody Syria week",
+          "snippet": " … Daraa is the birthplace of the revolt against Assad's rule that erupted in March 2011. The uprising began as peaceful protests but quickly turned into a civil war after a brutal … ",
+          "url": "",
+          "timestamp": "2013-01-18",
+          "score": 11.277759295531762,
+          "topic": "syria"
+        },
+        {
+          "id": "16",
+          "title": "Assad Syria transition talks are internal matter",
+          "snippet": " … More than 70,000 people have been killed and several million displaced since the uprising against Assad erupted in March 2011 and escalated into a civil war.\nAssad has dismissed those trying … ",
+          "url": "",
+          "timestamp": "2013-05-18",
+          "score": 11.192314463794787,
+          "topic": "syria"
+        },
+        {
+          "id": "2544",
+          "title": "Syria's Daraa, origin of uprising, rocked by twin blasts",
+          "snippet": "Syria's Daraa, origin of uprising, rocked by twin blasts\nA Syrian man holding a boy runs for cover as a second bomb explodes near the northern Syrian town of Al-Bab … ",
+          "url": "",
+          "timestamp": "2012-11-10",
+          "score": 11.118062993709414,
+          "topic": "syria"
+        },
+        {
+          "id": "106",
+          "title": "Syria rebels say U.S. force needed to curb Assad",
+          "snippet": " … chemical weapons attack by Saddam Hussein's forces in 1988 that killed thousands of civilians.\nWashington said 100 to 150 people were killed in what it called \"detected chemical attacks\" in Syria … ",
+          "url": "",
+          "timestamp": "2013-06-14",
+          "score": 20.994669269066677,
+          "topic": "syria"
+        },
+        {
+          "id": "3338",
+          "title": "Both sides in Syrian civil war claim chemical weapons were used on them",
+          "snippet": " … The Syrian regime described it as a “dangerous escalation” while rebels blamed the government and claimed there had been another chemical attack in the Damascus suburb of east Ghouta.\nThe US, which … ",
+          "url": "",
+          "timestamp": "2013-03-19",
+          "score": 17.479443557507444,
+          "topic": "syria"
+        },
+        {
+          "id": "4958",
+          "title": "France, Britain confirm use of sarin gas in Syria",
+          "snippet": " … gas in Syria\nFILE - In this Tuesday March 19, 2013 file photo released by the Syrian official news agency SANA, a Syrian victim who suffered an alleged chemical attack at Khan al … ",
+          "url": "",
+          "timestamp": "2013-06-04",
+          "score": 16.136281496822033,
+          "topic": "syria"
+        },
+        {
+          "id": "539",
+          "title": "Syria mixes chemical weapons ready 'for potential use on President Assad's own people'",
+          "snippet": " … weapons'\nDeadly: Non-chemical cluster bombs allegedy used by Syrian security forces on the town of Deir Essafir, East Ghouta district in Damascus\nThe effects of shelling by forces loyal to Syria … ",
+          "url": "",
+          "timestamp": "2012-12-05",
+          "score": 15.968117065748995,
+          "topic": "syria"
+        },
+        {
+          "id": "2325",
+          "title": "Rebels set their sights on Syria's capital",
+          "snippet": " … to hasten the fall of Syria's government set their sights on the capital, Damascus, as diplomats went into high gear amid concerns about chemical weapons.\n\"Our country will be free, we … ",
+          "url": "",
+          "timestamp": "2012-12-07",
+          "score": 14.905974197996285,
+          "topic": "syria"
+        },
+        {
+          "id": "4394",
+          "title": "John McCain makes surprise visit to rebel leaders in Syria",
+          "snippet": "John McCain makes surprise visit to rebel leaders in Syria\nHawkish war veteran's meeting coincides with new French reports of chemical weapons use by regime forces\nJohn McCain's office has … ",
+          "url": "",
+          "timestamp": "2013-05-27",
+          "score": 14.643171828841679,
+          "topic": "syria"
+        },
+        {
+          "id": "377",
+          "title": "Syria \"likely\" to have used chemical weapons, says UK",
+          "snippet": "Syria \"likely\" to have used chemical weapons, says UK\nA view of a street seen from a damaged balcony in the Khaldiyeh district in central Homs May 9, 2013. REUTERS/Yazan Homsy … ",
+          "url": "",
+          "timestamp": "2013-05-09",
+          "score": 14.599006296678041,
+          "topic": "syria"
+        },
+        {
+          "id": "846",
+          "title": "CIA to arm, train Syrian rebels; Hagel says US jets, missiles brought to Jordan will stay",
+          "snippet": " … small arms and ammunition, following confirmation that the regime of Syria President Bashar al-Assad's has been using chemical weapons in the 2-year-long civil war in which at least … ",
+          "url": "",
+          "timestamp": "2013-06-15",
+          "score": 14.384322602246586,
+          "topic": "syria"
+        },
+        {
+          "id": "2317",
+          "title": "Syria's Assad Used Chemical Weapons Against Rebels, U.S. Officials Conclude",
+          "snippet": "Syria's Assad Used Chemical Weapons Against Rebels, U.S. Officials Conclude\nPosted: 06/13/2013  5:00 pm EDT  |  Updated: 06/13/2013  6:57 pm EDT\nCongressional sources told CNN … ",
+          "url": "",
+          "timestamp": "2013-06-13",
+          "score": 14.126308148148187,
+          "topic": "syria"
+        },
+        {
+          "id": "4106",
+          "title": "Syria likely to have used chemical weapons, says UK",
+          "snippet": "Syria likely to have used chemical weapons, says UK\n1 of 4. A view of a street seen from a damaged balcony in the Khaldiyeh district in central Homs May 9, 2013 … ",
+          "url": "",
+          "timestamp": "2013-05-09",
+          "score": 13.850647295990829,
+          "topic": "syria"
+        },
+        {
+          "id": "5076",
+          "title": "Red Line Crossed U.S. Confirms Syrian ChemicalWeapons Use",
+          "snippet": " … The intelligence community estimates that 100 to 150 people have died from detected chemical weapons attacks in Syria to date; however, casualty data is likely incomplete. While the lethality of these attacks … ",
+          "url": "",
+          "timestamp": "2013-06-13",
+          "score": 13.753402690992239,
+          "topic": "syria"
+        },
+        {
+          "id": "2083",
+          "title": "UK and France claim Syrian attack victims have tested positive for sarin",
+          "snippet": " … Barack Obama has warned Syria that use of chemical weapons crosses a \"red line\", though his concerns centred on \"seeing a whole bunch of weapons moving around or being utilised\". To date … ",
+          "url": "",
+          "timestamp": "2013-06-04",
+          "score": 13.715722756035245,
+          "topic": "syria"
+        },
+        {
+          "id": "912",
+          "title": "Syria crisis Assad says more time needed to 'win the battle'  Wednesday 29 August 2012",
+          "snippet": " … The video above, posted on YouTube today is said to show shelling of al-Ghouta.\nUN secretary-general Ban Ki-moon has arrived in Iran where he is expected discuss Syria with … ",
+          "url": "",
+          "timestamp": "2012-08-29",
+          "score": 13.713037651335325,
+          "topic": "syria"
+        },
+        {
+          "id": "3308",
+          "title": "Syrian troops capture Damascus suburb near airport",
+          "snippet": " … Syria's ally Russia also suggested Saturday that the evidence put forth by the United States of the use of chemical weapons doesn't meet stringent criteria for reliability.\nU.S. Secretary … ",
+          "url": "",
+          "timestamp": "2013-06-15",
+          "score": 13.686826479804608,
+          "topic": "syria"
+        },
+        {
+          "id": "4519",
+          "title": "Syrian troops push forward with offensive against rebels, seizing Damascus suburb near airport",
+          "snippet": " … Syria's ally Russia also suggested Saturday that the evidence put forth by the United States of the use of chemical weapons doesn't meet stringent criteria for reliability.\nU.S. Secretary … ",
+          "url": "",
+          "timestamp": "2013-06-15",
+          "score": 13.64777085582935,
+          "topic": "syria"
+        },
+        {
+          "id": "5407",
+          "title": "Israel says it's not pushing for intervention in Syria, despite chemical weapons claims",
+          "snippet": "Israel says it's not pushing for intervention in Syria, despite chemical weapons claims\nThe topic of intervention in Syria is divisive, but Israeli officials say they are not urging the US … ",
+          "url": "",
+          "timestamp": "2013-04-29",
+          "score": 13.403754424086307,
+          "topic": "syria"
+        },
+        {
+          "id": "1401",
+          "title": "Iran says use of chemical arms by anyone in Syria is \"red line\"",
+          "snippet": " … 4/30/2013 7:31:22 AM ET 2013-04-30T11:31:22\nDUBAI (Reuters) - Iran said on Tuesday it regarded the alleged use of chemical weapons in Syria's civil war … ",
+          "url": "",
+          "timestamp": "2013-04-30",
+          "score": 13.255941537523306,
+          "topic": "syria"
+        },
+        {
+          "id": "1278",
+          "title": "Hold Syrian peace talks soon, says UN chief",
+          "snippet": " … Assad and the rebels both have accused each other of using chemical weapons in Aleppo in December and in Homs in March. Syria is not a party to international treaties banning poison … ",
+          "url": "",
+          "timestamp": "2013-05-17",
+          "score": 13.179374687307359,
+          "topic": "syria"
+        },
+        {
+          "id": "5901",
+          "title": "Syria regime, rebels trade chemical weapons accusations",
+          "snippet": "Syria regime, rebels trade chemical weapons accusations\nThe US and UN are attempting to verify claims and counterclaims by Syrian troops and insurgents that chemical weapons were used for the first time … ",
+          "url": "",
+          "timestamp": "2013-03-20",
+          "score": 13.137714269922704,
+          "topic": "syria"
+        },
+        {
+          "id": "3768",
+          "title": "UN hopes chemical arms team deploys to Syria soon envoys",
+          "snippet": " … other alleged chemical attacks \"with a view to verifying any alleged use of chemical weapons in Syria.\"\nWestern officials say there is no hard evidence of a chemical weapons attack, but there … ",
+          "url": "",
+          "timestamp": "2013-03-27",
+          "score": 13.120648893256698,
+          "topic": "syria"
+        }
+      ],
+      "llm_calls": 3
+    }
+  },
+  "usage": {
+    "prompt_tokens": 3693,
+    "completion_tokens": 2534,
+    "total_tokens": 6227
+  }
+}

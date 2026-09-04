@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "per_topic": {
+    "egypt": {
+      "direct": {
+        "documents": 20,
+        "unique_dates": 16,
+        "exact_recall": 0.08196721311475409,
+        "window_2d_recall": 0.19672131147540983
+      },
+      "rewrite": {
+        "documents": 20,
+        "unique_dates": 16,
+        "exact_recall": 0.08196721311475409,
+        "window_2d_recall": 0.19672131147540983
+      },
+      "free_chronos": {
+        "documents": 57,
+        "unique_dates": 17,
+        "exact_recall": 0.06557377049180328,
+        "window_2d_recall": 0.06557377049180328
+      },
+      "exploration_chronos": {
+        "documents": 41,
+        "unique_dates": 32,
+        "exact_recall": 0.12295081967213115,
+        "window_2d_recall": 0.2540983606557377
+      }
+    },
+    "libya": {
+      "direct": {
+        "documents": 20,
+        "unique_dates": 14,
+        "exact_recall": 0.05084745762711865,
+        "window_2d_recall": 0.1864406779661017
+      },
+      "rewrite": {
+        "documents": 20,
+        "unique_dates": 14,
+        "exact_recall": 0.05084745762711865,
+        "window_2d_recall": 0.1864406779661017
+      },
+      "free_chronos": {
+        "documents": 59,
+        "unique_dates": 45,
+        "exact_recall": 0.1016949152542373,
+        "window_2d_recall": 0.3474576271186441
+      },
+      "exploration_chronos": {
+        "documents": 50,
+        "unique_dates": 42,
+        "exact_recall": 0.07627118644067797,
+        "window_2d_recall": 0.2542372881355932
+      }
+    },
+    "syria": {
+      "direct": {
+        "documents": 20,
+        "unique_dates": 18,
+        "exact_recall": 0.018867924528301886,
+        "window_2d_recall": 0.10377358490566038
+      },
+      "rewrite": {
+        "documents": 20,
+        "unique_dates": 18,
+        "exact_recall": 0.02830188679245283,
+        "window_2d_recall": 0.11320754716981132
+      },
+      "free_chronos": {
+        "documents": 56,
+        "unique_dates": 49,
+        "exact_recall": 0.0660377358490566,
+        "window_2d_recall": 0.24528301886792453
+      },
+      "exploration_chronos": {
+        "documents": 60,
+        "unique_dates": 48,
+        "exact_recall": 0.04716981132075472,
+        "window_2d_recall": 0.1792452830188679
+      }
+    },
+    "yemen": {
+      "direct": {
+        "documents": 20,
+        "unique_dates": 19,
+        "exact_recall": 0.08641975308641975,
+        "window_2d_recall": 0.2962962962962963
+      },
+      "rewrite": {
+        "documents": 20,
+        "unique_dates": 19,
+        "exact_recall": 0.08641975308641975,
+        "window_2d_recall": 0.2962962962962963
+      },
+      "free_chronos": {
+        "documents": 39,
+        "unique_dates": 24,
+        "exact_recall": 0.037037037037037035,
+        "window_2d_recall": 0.2222222222222222
+      }
+    }
+  },
+  "aggregate_available": {
+    "direct": {
+      "topics": 4,
+      "topic_ids": [
+        "egypt",
+        "libya",
+        "syria",
+        "yemen"
+      ],
+      "macro": {
+        "documents": 20.0,
+        "unique_dates": 16.75,
+        "exact_recall": 0.059525587089148596,
+        "window_2d_recall": 0.19580796766086705
+      }
+    },
+    "rewrite": {
+      "topics": 4,
+      "topic_ids": [
+        "egypt",
+        "libya",
+        "syria",
+        "yemen"
+      ],
+      "macro": {
+        "documents": 20.0,
+        "unique_dates": 16.75,
+        "exact_recall": 0.06188407765518633,
+        "window_2d_recall": 0.1981664582269048
+      }
+    },
+    "free_chronos": {
+      "topics": 4,
+      "topic_ids": [
+        "egypt",
+        "libya",
+        "syria",
+        "yemen"
+      ],
+      "macro": {
+        "documents": 52.75,
+        "unique_dates": 33.75,
+        "exact_recall": 0.06758586465803355,
+        "window_2d_recall": 0.22013415967514852
+      }
+    },
+    "exploration_chronos": {
+      "topics": 3,
+      "topic_ids": [
+        "egypt",
+        "libya",
+        "syria"
+      ],
+      "macro": {
+        "documents": 50.333333333333336,
+        "unique_dates": 40.666666666666664,
+        "exact_recall": 0.08213060581118793,
+        "window_2d_recall": 0.22919364393673292
+      }
+    }
+  },
+  "paired_topics": [
+    "egypt",
+    "libya",
+    "syria"
+  ],
+  "paired_macro": {
+    "direct": {
+      "documents": 20.0,
+      "unique_dates": 16.0,
+      "exact_recall": 0.050560865090058214,
+      "window_2d_recall": 0.162311858115724
+    },
+    "rewrite": {
+      "documents": 20.0,
+      "unique_dates": 16.0,
+      "exact_recall": 0.05370551917810853,
+      "window_2d_recall": 0.1654565122037743
+    },
+    "free_chronos": {
+      "documents": 57.333333333333336,
+      "unique_dates": 37.0,
+      "exact_recall": 0.07776880719836572,
+      "window_2d_recall": 0.21943813882612395
+    },
+    "exploration_chronos": {
+      "documents": 50.333333333333336,
+      "unique_dates": 40.666666666666664,
+      "exact_recall": 0.08213060581118793,
+      "window_2d_recall": 0.22919364393673292
+    }
+  },
+  "failures": {
+    "yemen": {
+      "status": "stopped_llm_error",
+      "error": "DeepSeek connection failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)"
+    }
+  },
+  "note": "Publication-date retrieval diagnostic, not final TLS Date-F1."
+}

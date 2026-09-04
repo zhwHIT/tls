@@ -1,0 +1,1654 @@
+{
+  "schema_version": 1,
+  "status": "ok",
+  "config": {
+    "model": "deepseek-v4-flash",
+    "base_url": "https://api.deepseek.com",
+    "temperature": 0.0,
+    "top_k": 20,
+    "max_rounds": 3
+  },
+  "provenance": {
+    "index": "D:\\paper\\chronos_repro\\artifacts\\crisis_ece08f344cc94933.sqlite3",
+    "index_sha256": "ed73fb8ff0e9add31df40f637783372c15f59de6f0939dd30b4f19210270bc81",
+    "index_metadata": {
+      "data_root": "D:\\paper\\chronos_repro\\snapshots\\crisis\\ece08f344cc94933",
+      "document_count": 17573,
+      "engine": "sqlite-fts5-bm25",
+      "schema_version": 1,
+      "snapshot": {
+        "dataset": "crisis",
+        "manifest": "D:\\paper\\chronos_repro\\snapshots\\crisis\\ece08f344cc94933\\MANIFEST.sha256.json",
+        "manifest_sha256": "40345dae0249badde354e4e78315799d41035467870baad78efa333efa02b460",
+        "snapshot_id": "ece08f344cc94933"
+      },
+      "topic_counts": {
+        "egypt": 4083,
+        "libya": 4274,
+        "syria": 5170,
+        "yemen": 4046
+      }
+    }
+  },
+  "baselines": {
+    "direct": {
+      "queries": [
+        "Libya crisis timeline"
+      ],
+      "results": [
+        {
+          "id": "5823",
+          "title": "Libya timeline six months of conflict  interactive",
+          "snippet": "Libya timeline six months of conflict  interactive\n",
+          "url": "",
+          "timestamp": "2011-08-22",
+          "score": 10.715574112740569,
+          "topic": "libya"
+        },
+        {
+          "id": "3874",
+          "title": "PHOTOS Timeline of Libya war in pictures",
+          "snippet": "PHOTOS Timeline of Libya war in pictures  GlobalPost\n",
+          "url": "",
+          "timestamp": "2011-10-20",
+          "score": 10.711686600813133,
+          "topic": "libya"
+        },
+        {
+          "id": "825",
+          "title": "Timeline Libya's civil war nears end",
+          "snippet": "Timeline Libya's civil war nears end\n(Reuters) - Here is a timeline of the civil war in Libya since protests against Muammar Gaddafi's four-decade rule began in February:\nFebruary 15 … ",
+          "url": "",
+          "timestamp": "2011-10-12",
+          "score": 9.450960673818088,
+          "topic": "libya"
+        },
+        {
+          "id": "1001",
+          "title": "Timeline Libya  from bloody uprising to elections",
+          "snippet": "Timeline Libya  from bloody uprising to elections\n(Reuters) - Libyans vote on Saturday for a 200-member national assembly that will name a prime minister, enact legislation and appoint a committee to draft … ",
+          "url": "",
+          "timestamp": "2012-07-07",
+          "score": 9.450474886339169,
+          "topic": "libya"
+        },
+        {
+          "id": "5456",
+          "title": "Timeline Libya's civil war nears end",
+          "snippet": "Timeline Libya's civil war nears end\nAnti-Gaddafi fighters celebrated the fall of Sirte  October 20, 2011.\n(Reuters) - Here is a timeline of the civil war in Libya since protests against … ",
+          "url": "",
+          "timestamp": "2011-10-20",
+          "score": 9.365876675372352,
+          "topic": "libya"
+        },
+        {
+          "id": "4746",
+          "title": "Libya rebellion timeline",
+          "snippet": "Libya rebellion timeline   Telegraph\nMarch 17 – The U.N. Security Council votes to authorise a no-fly zone    over Libya and military action – to protect civilians against Gaddafi's    army.\nMarch 19 … ",
+          "url": "",
+          "timestamp": "2011-10-20",
+          "score": 9.080246750035679,
+          "topic": "libya"
+        },
+        {
+          "id": "156",
+          "title": "A timeline of the war in Libya from revolt to reports of Muammar Gaddafis death",
+          "snippet": "A timeline of the war in Libya from revolt to reports of Muammar Gaddafis death  National Post\n15/16, 2011 The arrest of human rights activist Fethi Tarbel starts a riot in … ",
+          "url": "",
+          "timestamp": "2011-10-20",
+          "score": 8.90789109052922,
+          "topic": "libya"
+        },
+        {
+          "id": "1086",
+          "title": "LINE  Libya's civil war nears end",
+          "snippet": "TIMELINE  Libya's civil war nears end\nTIMELINE - Libya's civil war nears end\nAn anti-Gaddafi fighter flashes victory signs on an armored bulldozer during violent clashes with pro-Gaddafi forces … ",
+          "url": "",
+          "timestamp": "2011-10-20",
+          "score": 8.753912094598617,
+          "topic": "libya"
+        },
+        {
+          "id": "1354",
+          "title": "Moammar Khadafy dead A timeline of the Libyan leader's rise and fall",
+          "snippet": "Moammar Khadafy dead A timeline of the Libyan leader's rise and fall   NY Daily News\nDeposed Libyan leader Moammar Khadafy , who reigned over the country for 42 years, was killed in … ",
+          "url": "",
+          "timestamp": "2011-10-20",
+          "score": 8.630076036550461,
+          "topic": "libya"
+        },
+        {
+          "id": "5375",
+          "title": "White House Tells Congress We're Not at War With Libya  Fox Nation",
+          "snippet": " … is not at war with Libya and, without laying out a timeline, that the president hopes to hand over control of coalition military operations in the next few days.\nOfficials present included … ",
+          "url": "",
+          "timestamp": "2011-03-22",
+          "score": 8.25454146442272,
+          "topic": "libya"
+        },
+        {
+          "id": "5488",
+          "title": "Libya's congress rejects crisis government plan",
+          "snippet": "Libya's congress rejects crisis government plan\nOctober 8, 2012 -- Updated 0037 GMT (0837 HKT)\nLibyan Prime Minister-elect Mustafa Abushagur proposed a downsized 10-member \"crisis government\" for the country.\nThe … ",
+          "url": "",
+          "timestamp": "2012-10-07",
+          "score": 8.171963431152331,
+          "topic": "libya"
+        },
+        {
+          "id": "981",
+          "title": "A timeline of the conflict in Libya",
+          "snippet": "A timeline of the conflict in Libya\nFighting started with anti-government demonstrations and escalated into a civil war\nInternational leaders accuse Gadhafi's regime of committing human rights violations\nLibyan officials … ",
+          "url": "",
+          "timestamp": "2011-08-21",
+          "score": 7.841745871204436,
+          "topic": "libya"
+        },
+        {
+          "id": "3222",
+          "title": "What can be done to end the crisis in Libya?",
+          "snippet": "What can be done to end the crisis in Libya?\nProtesters have taken control of several key cities across Libya, but government forces appear to be fighting back.\nU.N. has imposed … ",
+          "url": "",
+          "timestamp": "2011-03-04",
+          "score": 7.513684400911442,
+          "topic": "libya"
+        },
+        {
+          "id": "768",
+          "title": "A timeline of the conflict in Libya",
+          "snippet": "A timeline of the conflict in Libya\nFighting started with anti-government demonstrations and escalated into a civil war\nInternational leaders accuse Gadhafi's regime of committing human rights violations\nLibyan officials … ",
+          "url": "",
+          "timestamp": "2011-08-24",
+          "score": 7.4803225424898585,
+          "topic": "libya"
+        },
+        {
+          "id": "1792",
+          "title": "Presidential Debate 2012 Fact Check The timeline on Libya and more",
+          "snippet": "Presidential Debate 2012 Fact Check The timeline on Libya and more  National Post\nIn the rough-and-tumble of a town hall-style presidential debate, the facts took something of a beating … ",
+          "url": "",
+          "timestamp": "2012-10-17",
+          "score": 7.403202792157183,
+          "topic": "libya"
+        },
+        {
+          "id": "2037",
+          "title": "Libya Timeline Events Leading Up To The Reported Death Of Muammar Gaddafi",
+          "snippet": "Libya Timeline Events Leading Up To The Reported Death Of Muammar Gaddafi\nIn this Saturday, Aug. 27, 2011, file photo, a Libyan man takes pictures of the courtyard of Abu Salim prison … ",
+          "url": "",
+          "timestamp": "2011-10-20",
+          "score": 7.37172136265,
+          "topic": "libya"
+        },
+        {
+          "id": "1970",
+          "title": "Baird meets with Libyan rebel fighters",
+          "snippet": " … Baird had previously expressed an interest in visiting with members of the National Transitional Council in Libya, but a timeline for a visit had not been released.\n“It was important to me … ",
+          "url": "",
+          "timestamp": "2011-06-27",
+          "score": 7.099417213900903,
+          "topic": "libya"
+        },
+        {
+          "id": "4533",
+          "title": "Libya rebels Talks over Bani Walid have failed",
+          "snippet": " … Western diplomats in Libya and opposition leaders abroad reported in 1993 that the air force had put down an uprising by army units in Misrata and Bani Walid. They said many officers … ",
+          "url": "",
+          "timestamp": "2011-09-04",
+          "score": 6.730707297690347,
+          "topic": "libya"
+        },
+        {
+          "id": "394",
+          "title": "",
+          "snippet": "National Post\nOTTAWA — The consensus around Canada’s military deployment in Libya looks set to unravel next month, unless there is a resolution on the ground.\nIn late June, the NDP supported … ",
+          "url": "",
+          "timestamp": "2011-08-08",
+          "score": 6.713731310547385,
+          "topic": "libya"
+        },
+        {
+          "id": "1075",
+          "title": "Spies at Benghazi consulate just the tip of the U.S. intelligence iceberg in Libya Expert",
+          "snippet": " … intelligence iceberg in Libya Expert  National Post\n“That would be absolutely how it is in Libya,” he said, referring to the numeric breakdown of spy vs. diplomat in Benghazi.\n“What those numbers … ",
+          "url": "",
+          "timestamp": "2012-11-02",
+          "score": 6.412846539440238,
+          "topic": "libya"
+        }
+      ],
+      "llm_calls": 0
+    },
+    "rewrite": {
+      "queries": [
+        "Libya crisis timeline"
+      ],
+      "results": [
+        {
+          "id": "5823",
+          "title": "Libya timeline six months of conflict  interactive",
+          "snippet": "Libya timeline six months of conflict  interactive\n",
+          "url": "",
+          "timestamp": "2011-08-22",
+          "score": 10.715574112740569,
+          "topic": "libya"
+        },
+        {
+          "id": "3874",
+          "title": "PHOTOS Timeline of Libya war in pictures",
+          "snippet": "PHOTOS Timeline of Libya war in pictures  GlobalPost\n",
+          "url": "",
+          "timestamp": "2011-10-20",
+          "score": 10.711686600813133,
+          "topic": "libya"
+        },
+        {
+          "id": "825",
+          "title": "Timeline Libya's civil war nears end",
+          "snippet": "Timeline Libya's civil war nears end\n(Reuters) - Here is a timeline of the civil war in Libya since protests against Muammar Gaddafi's four-decade rule began in February:\nFebruary 15 … ",
+          "url": "",
+          "timestamp": "2011-10-12",
+          "score": 9.450960673818088,
+          "topic": "libya"
+        },
+        {
+          "id": "1001",
+          "title": "Timeline Libya  from bloody uprising to elections",
+          "snippet": "Timeline Libya  from bloody uprising to elections\n(Reuters) - Libyans vote on Saturday for a 200-member national assembly that will name a prime minister, enact legislation and appoint a committee to draft … ",
+          "url": "",
+          "timestamp": "2012-07-07",
+          "score": 9.450474886339169,
+          "topic": "libya"
+        },
+        {
+          "id": "5456",
+          "title": "Timeline Libya's civil war nears end",
+          "snippet": "Timeline Libya's civil war nears end\nAnti-Gaddafi fighters celebrated the fall of Sirte  October 20, 2011.\n(Reuters) - Here is a timeline of the civil war in Libya since protests against … ",
+          "url": "",
+          "timestamp": "2011-10-20",
+          "score": 9.365876675372352,
+          "topic": "libya"
+        },
+        {
+          "id": "4746",
+          "title": "Libya rebellion timeline",
+          "snippet": "Libya rebellion timeline   Telegraph\nMarch 17 – The U.N. Security Council votes to authorise a no-fly zone    over Libya and military action – to protect civilians against Gaddafi's    army.\nMarch 19 … ",
+          "url": "",
+          "timestamp": "2011-10-20",
+          "score": 9.080246750035679,
+          "topic": "libya"
+        },
+        {
+          "id": "156",
+          "title": "A timeline of the war in Libya from revolt to reports of Muammar Gaddafis death",
+          "snippet": "A timeline of the war in Libya from revolt to reports of Muammar Gaddafis death  National Post\n15/16, 2011 The arrest of human rights activist Fethi Tarbel starts a riot in … ",
+          "url": "",
+          "timestamp": "2011-10-20",
+          "score": 8.90789109052922,
+          "topic": "libya"
+        },
+        {
+          "id": "1086",
+          "title": "LINE  Libya's civil war nears end",
+          "snippet": "TIMELINE  Libya's civil war nears end\nTIMELINE - Libya's civil war nears end\nAn anti-Gaddafi fighter flashes victory signs on an armored bulldozer during violent clashes with pro-Gaddafi forces … ",
+          "url": "",
+          "timestamp": "2011-10-20",
+          "score": 8.753912094598617,
+          "topic": "libya"
+        },
+        {
+          "id": "1354",
+          "title": "Moammar Khadafy dead A timeline of the Libyan leader's rise and fall",
+          "snippet": "Moammar Khadafy dead A timeline of the Libyan leader's rise and fall   NY Daily News\nDeposed Libyan leader Moammar Khadafy , who reigned over the country for 42 years, was killed in … ",
+          "url": "",
+          "timestamp": "2011-10-20",
+          "score": 8.630076036550461,
+          "topic": "libya"
+        },
+        {
+          "id": "5375",
+          "title": "White House Tells Congress We're Not at War With Libya  Fox Nation",
+          "snippet": " … is not at war with Libya and, without laying out a timeline, that the president hopes to hand over control of coalition military operations in the next few days.\nOfficials present included … ",
+          "url": "",
+          "timestamp": "2011-03-22",
+          "score": 8.25454146442272,
+          "topic": "libya"
+        },
+        {
+          "id": "5488",
+          "title": "Libya's congress rejects crisis government plan",
+          "snippet": "Libya's congress rejects crisis government plan\nOctober 8, 2012 -- Updated 0037 GMT (0837 HKT)\nLibyan Prime Minister-elect Mustafa Abushagur proposed a downsized 10-member \"crisis government\" for the country.\nThe … ",
+          "url": "",
+          "timestamp": "2012-10-07",
+          "score": 8.171963431152331,
+          "topic": "libya"
+        },
+        {
+          "id": "981",
+          "title": "A timeline of the conflict in Libya",
+          "snippet": "A timeline of the conflict in Libya\nFighting started with anti-government demonstrations and escalated into a civil war\nInternational leaders accuse Gadhafi's regime of committing human rights violations\nLibyan officials … ",
+          "url": "",
+          "timestamp": "2011-08-21",
+          "score": 7.841745871204436,
+          "topic": "libya"
+        },
+        {
+          "id": "3222",
+          "title": "What can be done to end the crisis in Libya?",
+          "snippet": "What can be done to end the crisis in Libya?\nProtesters have taken control of several key cities across Libya, but government forces appear to be fighting back.\nU.N. has imposed … ",
+          "url": "",
+          "timestamp": "2011-03-04",
+          "score": 7.513684400911442,
+          "topic": "libya"
+        },
+        {
+          "id": "768",
+          "title": "A timeline of the conflict in Libya",
+          "snippet": "A timeline of the conflict in Libya\nFighting started with anti-government demonstrations and escalated into a civil war\nInternational leaders accuse Gadhafi's regime of committing human rights violations\nLibyan officials … ",
+          "url": "",
+          "timestamp": "2011-08-24",
+          "score": 7.4803225424898585,
+          "topic": "libya"
+        },
+        {
+          "id": "1792",
+          "title": "Presidential Debate 2012 Fact Check The timeline on Libya and more",
+          "snippet": "Presidential Debate 2012 Fact Check The timeline on Libya and more  National Post\nIn the rough-and-tumble of a town hall-style presidential debate, the facts took something of a beating … ",
+          "url": "",
+          "timestamp": "2012-10-17",
+          "score": 7.403202792157183,
+          "topic": "libya"
+        },
+        {
+          "id": "2037",
+          "title": "Libya Timeline Events Leading Up To The Reported Death Of Muammar Gaddafi",
+          "snippet": "Libya Timeline Events Leading Up To The Reported Death Of Muammar Gaddafi\nIn this Saturday, Aug. 27, 2011, file photo, a Libyan man takes pictures of the courtyard of Abu Salim prison … ",
+          "url": "",
+          "timestamp": "2011-10-20",
+          "score": 7.37172136265,
+          "topic": "libya"
+        },
+        {
+          "id": "1970",
+          "title": "Baird meets with Libyan rebel fighters",
+          "snippet": " … Baird had previously expressed an interest in visiting with members of the National Transitional Council in Libya, but a timeline for a visit had not been released.\n“It was important to me … ",
+          "url": "",
+          "timestamp": "2011-06-27",
+          "score": 7.099417213900903,
+          "topic": "libya"
+        },
+        {
+          "id": "4533",
+          "title": "Libya rebels Talks over Bani Walid have failed",
+          "snippet": " … Western diplomats in Libya and opposition leaders abroad reported in 1993 that the air force had put down an uprising by army units in Misrata and Bani Walid. They said many officers … ",
+          "url": "",
+          "timestamp": "2011-09-04",
+          "score": 6.730707297690347,
+          "topic": "libya"
+        },
+        {
+          "id": "394",
+          "title": "",
+          "snippet": "National Post\nOTTAWA — The consensus around Canada’s military deployment in Libya looks set to unravel next month, unless there is a resolution on the ground.\nIn late June, the NDP supported … ",
+          "url": "",
+          "timestamp": "2011-08-08",
+          "score": 6.713731310547385,
+          "topic": "libya"
+        },
+        {
+          "id": "1075",
+          "title": "Spies at Benghazi consulate just the tip of the U.S. intelligence iceberg in Libya Expert",
+          "snippet": " … intelligence iceberg in Libya Expert  National Post\n“That would be absolutely how it is in Libya,” he said, referring to the numeric breakdown of spy vs. diplomat in Benghazi.\n“What those numbers … ",
+          "url": "",
+          "timestamp": "2012-11-02",
+          "score": 6.412846539440238,
+          "topic": "libya"
+        }
+      ],
+      "llm_calls": 1,
+      "audit": {
+        "text": "Libya crisis timeline",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "prompt_tokens": 110,
+          "completion_tokens": 1276,
+          "total_tokens": 1386,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 1271
+          },
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 110
+        },
+        "request_id": null
+      }
+    },
+    "chronos": {
+      "queries": [
+        "Libya crisis timeline 2011 uprising key dates",
+        "When was the U.S. consulate attack in Benghazi, Libya, that killed Ambassador Chris Stevens?",
+        "When did the Second Libyan Civil War begin?"
+      ],
+      "rounds": [
+        {
+          "round": 1,
+          "query": "Libya crisis timeline 2011 uprising key dates",
+          "results": [
+            {
+              "id": "1001",
+              "title": "Timeline Libya  from bloody uprising to elections",
+              "snippet": "Timeline Libya  from bloody uprising to elections\n(Reuters) - Libyans vote on Saturday for a 200-member national assembly that will name a prime minister, enact legislation and appoint a committee to draft … ",
+              "url": "",
+              "timestamp": "2012-07-07",
+              "score": 12.194820852445874,
+              "topic": "libya"
+            },
+            {
+              "id": "3222",
+              "title": "What can be done to end the crisis in Libya?",
+              "snippet": "What can be done to end the crisis in Libya?\nProtesters have taken control of several key cities across Libya, but government forces appear to be fighting back.\nU.N. has imposed … ",
+              "url": "",
+              "timestamp": "2011-03-04",
+              "score": 10.756337948999384,
+              "topic": "libya"
+            },
+            {
+              "id": "5823",
+              "title": "Libya timeline six months of conflict  interactive",
+              "snippet": "Libya timeline six months of conflict  interactive\n",
+              "url": "",
+              "timestamp": "2011-08-22",
+              "score": 10.715574112740569,
+              "topic": "libya"
+            },
+            {
+              "id": "3874",
+              "title": "PHOTOS Timeline of Libya war in pictures",
+              "snippet": "PHOTOS Timeline of Libya war in pictures  GlobalPost\n",
+              "url": "",
+              "timestamp": "2011-10-20",
+              "score": 10.711686600813133,
+              "topic": "libya"
+            },
+            {
+              "id": "5456",
+              "title": "Timeline Libya's civil war nears end",
+              "snippet": "Timeline Libya's civil war nears end\nAnti-Gaddafi fighters celebrated the fall of Sirte  October 20, 2011.\n(Reuters) - Here is a timeline of the civil war in Libya since protests against … ",
+              "url": "",
+              "timestamp": "2011-10-20",
+              "score": 10.54079834581572,
+              "topic": "libya"
+            },
+            {
+              "id": "1963",
+              "title": "At Tripoli fair, Libyan and foreign firms eye postwar trade",
+              "snippet": " … 1.6 million barrels per day (bpd) seen before the uprising that toppled Gaddafi in October 2011.\n\"Libya produces good-quality dates, fish and olives, for example, and there is no reason … ",
+              "url": "",
+              "timestamp": "2013-04-10",
+              "score": 10.345023828208436,
+              "topic": "libya"
+            },
+            {
+              "id": "825",
+              "title": "Timeline Libya's civil war nears end",
+              "snippet": " … Reuters) - Here is a timeline of the civil war in Libya since protests against Muammar Gaddafi's four-decade rule began in February:\nFebruary 15/16, 2011 - The arrest of human rights … ",
+              "url": "",
+              "timestamp": "2011-10-12",
+              "score": 10.327929089968572,
+              "topic": "libya"
+            },
+            {
+              "id": "2955",
+              "title": "At Tripoli fair, Libyan and foreign firms eye postwar trade",
+              "snippet": "At Tripoli fair, Libyan and foreign firms eye postwar trade    Africa             NBC News\n\"Libya produces good-quality dates, fish and olives, for example, and there is no reason why it can't … ",
+              "url": "",
+              "timestamp": "2013-04-10",
+              "score": 10.002210468046473,
+              "topic": "libya"
+            },
+            {
+              "id": "1086",
+              "title": "LINE  Libya's civil war nears end",
+              "snippet": " … REUTERS - Here is a timeline of the civil war in Libya since protests against Muammar Gaddafi broke out in February:\nFeb. 15/16, 2011 - The arrest of human rights activist Fethi Tarbel … ",
+              "url": "",
+              "timestamp": "2011-10-20",
+              "score": 9.918711500846648,
+              "topic": "libya"
+            },
+            {
+              "id": "2037",
+              "title": "Libya Timeline Events Leading Up To The Reported Death Of Muammar Gaddafi",
+              "snippet": "Libya Timeline Events Leading Up To The Reported Death Of Muammar Gaddafi\nIn this Saturday, Aug. 27, 2011, file photo, a Libyan man takes pictures of the courtyard of Abu Salim prison … ",
+              "url": "",
+              "timestamp": "2011-10-20",
+              "score": 9.823350665273903,
+              "topic": "libya"
+            },
+            {
+              "id": "156",
+              "title": "A timeline of the war in Libya from revolt to reports of Muammar Gaddafis death",
+              "snippet": "A timeline of the war in Libya from revolt to reports of Muammar Gaddafis death  National Post\n15/16, 2011 The arrest of human rights activist Fethi Tarbel starts a riot in … ",
+              "url": "",
+              "timestamp": "2011-10-20",
+              "score": 9.788834548919654,
+              "topic": "libya"
+            },
+            {
+              "id": "1354",
+              "title": "Moammar Khadafy dead A timeline of the Libyan leader's rise and fall",
+              "snippet": " … President Barack Obama as \"our son\" and says the Security Council \"should be called the terror council.\"\n2011: Nationwide political violence erupts in Libya in February, following uprisings in Tunisia and Egypt … ",
+              "url": "",
+              "timestamp": "2011-10-20",
+              "score": 9.45015098774517,
+              "topic": "libya"
+            },
+            {
+              "id": "981",
+              "title": "A timeline of the conflict in Libya",
+              "snippet": "A timeline of the conflict in Libya\nFighting started with anti-government demonstrations and escalated into a civil war\nInternational leaders accuse Gadhafi's regime of committing human rights violations\nLibyan officials … ",
+              "url": "",
+              "timestamp": "2011-08-21",
+              "score": 9.447778852879557,
+              "topic": "libya"
+            },
+            {
+              "id": "5097",
+              "title": "The Libyan Uprising, Looking Back in Photos",
+              "snippet": " … 24, 2011, just days after the city’s residents had expelled troops and officials loyal to Col. Muammar el-Qaddafi, marking the birth of Libya’s uprising.\nThousands of jubilant Libyans thronged … ",
+              "url": "",
+              "timestamp": "2012-03-06",
+              "score": 9.098821877924184,
+              "topic": "libya"
+            },
+            {
+              "id": "4746",
+              "title": "Libya rebellion timeline",
+              "snippet": "Libya rebellion timeline   Telegraph\nMarch 17 – The U.N. Security Council votes to authorise a no-fly zone    over Libya and military action – to protect civilians against Gaddafi's    army.\nMarch 19 … ",
+              "url": "",
+              "timestamp": "2011-10-20",
+              "score": 9.080246750035679,
+              "topic": "libya"
+            },
+            {
+              "id": "5488",
+              "title": "Libya's congress rejects crisis government plan",
+              "snippet": "Libya's congress rejects crisis government plan\nOctober 8, 2012 -- Updated 0037 GMT (0837 HKT)\nLibyan Prime Minister-elect Mustafa Abushagur proposed a downsized 10-member \"crisis government\" for the country.\nThe … ",
+              "url": "",
+              "timestamp": "2012-10-07",
+              "score": 9.058431780713143,
+              "topic": "libya"
+            },
+            {
+              "id": "768",
+              "title": "A timeline of the conflict in Libya",
+              "snippet": "A timeline of the conflict in Libya\nFighting started with anti-government demonstrations and escalated into a civil war\nInternational leaders accuse Gadhafi's regime of committing human rights violations\nLibyan officials … ",
+              "url": "",
+              "timestamp": "2011-08-24",
+              "score": 8.982466809210097,
+              "topic": "libya"
+            },
+            {
+              "id": "5700",
+              "title": "Libya War Rebels Claim Most Successful Advance In Months",
+              "snippet": " … 13, 2011 photo, workers modify a civilian pick-up truck into a military vehicle, adding weapons and reinforcements, in Zintan, western Libya.\nZINTAN, Libya -- Rebels in the western mountains of Libya spent … ",
+              "url": "",
+              "timestamp": "2011-08-15",
+              "score": 8.389443715248545,
+              "topic": "libya"
+            },
+            {
+              "id": "6166",
+              "title": "Libya army chief vows end to militias this year",
+              "snippet": " … 12 Libya Shield brigades, a largely Islamist grouping of militias paid by the government to help maintain security.\nQineydi did not give specifics on how the government would implement the timeline, but … ",
+              "url": "",
+              "timestamp": "2013-06-11",
+              "score": 8.357585260187118,
+              "topic": "libya"
+            },
+            {
+              "id": "4415",
+              "title": "CIA found evidence of militant links a day after U.S. Consulate attack that killed Libyan ambassador",
+              "snippet": " … 11, 2012, in Benghazi, Libya.\nLibya ambassador Chris Stevens killed: U.S. warships headed to Libyan coast as Obama says 'justice will be done'\nWASHINGTON — The CIA station chief in Libya reported … ",
+              "url": "",
+              "timestamp": "2012-10-19",
+              "score": 8.265207077835377,
+              "topic": "libya"
+            }
+          ],
+          "new_doc_ids": [
+            "1001",
+            "3222",
+            "5823",
+            "3874",
+            "5456",
+            "1963",
+            "825",
+            "2955",
+            "1086",
+            "2037",
+            "156",
+            "1354",
+            "981",
+            "5097",
+            "4746",
+            "5488",
+            "768",
+            "5700",
+            "6166",
+            "4415"
+          ],
+          "audit": {
+            "text": "Libya crisis timeline 2011 uprising key dates",
+            "model": "deepseek-v4-flash",
+            "usage": {
+              "prompt_tokens": 140,
+              "completion_tokens": 264,
+              "total_tokens": 404,
+              "prompt_tokens_details": {
+                "cached_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 253
+              },
+              "prompt_cache_hit_tokens": 0,
+              "prompt_cache_miss_tokens": 140
+            },
+            "request_id": null
+          }
+        },
+        {
+          "round": 2,
+          "query": "When was the U.S. consulate attack in Benghazi, Libya, that killed Ambassador Chris Stevens?",
+          "results": [
+            {
+              "id": "1991",
+              "title": "Libyan attacks said to be 2part militant assault",
+              "snippet": " … in the rubble of the damaged  U.S. consulate, after an attack that killed four Americans, including Ambassador Chris Stevens on the night of Tuesday, Sept. 11, 2012, in Benghazi, Libya, Thursday … ",
+              "url": "",
+              "timestamp": "2012-09-13",
+              "score": 37.82441238811403,
+              "topic": "libya"
+            },
+            {
+              "id": "3598",
+              "title": "2 suspects held in Istanbul over killing of U.S. ambassador Chris Stevens report",
+              "snippet": "2 suspects held in Istanbul over killing of U.S. ambassador Chris Stevens report  NY Daily News\nChristopher Stevens was killed in an attack on the U.S. embassy in Libya on … ",
+              "url": "",
+              "timestamp": "2012-10-05",
+              "score": 34.55942868396951,
+              "topic": "libya"
+            },
+            {
+              "id": "5809",
+              "title": "US consulate attack in Libya said twin operation",
+              "snippet": " … in the rubble of the damaged  U.S. consulate, after an attack that killed four Americans, including Ambassador Chris Stevens on the night of Tuesday, Sept. 11, 2012, in Benghazi, Libya, Thursday … ",
+              "url": "",
+              "timestamp": "2012-09-12",
+              "score": 34.312373505940684,
+              "topic": "libya"
+            },
+            {
+              "id": "4415",
+              "title": "CIA found evidence of militant links a day after U.S. Consulate attack that killed Libyan ambassador",
+              "snippet": " … Consulate, two days after an attack that killed four Americans, including Ambassador Chris Stevens on the night of Tuesday, Sept. 11, 2012, in Benghazi, Libya.\nLibya ambassador Chris Stevens killed: U.S … ",
+              "url": "",
+              "timestamp": "2012-10-19",
+              "score": 33.501505565466275,
+              "topic": "libya"
+            },
+            {
+              "id": "1613",
+              "title": "Libya Protests Spurred By AntiMuslim Film Whose Maker's Religion Is Widely Reported But LittleKnown",
+              "snippet": " … 12, 2012. (AP Photo/Ibrahim Alaguri)\nA man walks through a room in the gutted U.S. consulate in Benghazi, Libya, after an attack that killed four Americans, including Ambassador Chris Stevens … ",
+              "url": "",
+              "timestamp": "2012-09-12",
+              "score": 33.4334163144668,
+              "topic": "libya"
+            },
+            {
+              "id": "5124",
+              "title": "Libya ambassador Chris Stevens killed U.S. warships headed to Libyan coast as Obama says 'justice will be done'",
+              "snippet": " … Stevens was the first American ambassador killed since Adolph Dubs was slain in Afghanistan in 1979.\nA burnt car is parked at the U.S. consulate.\n“The world needs more Chris Stevenses … ",
+              "url": "",
+              "timestamp": "2012-09-12",
+              "score": 32.921577805184754,
+              "topic": "libya"
+            },
+            {
+              "id": "599",
+              "title": "Libya consulate attack Ambassador Chris Stevens told officials of security worries on day he died",
+              "snippet": " … Chris Stevens wrote cable warning militias could turn against U.S.\nHead of special-operations team tells of dismay at being ordered to leave Libya a month before attack which killed ambassador … ",
+              "url": "",
+              "timestamp": "2012-10-09",
+              "score": 32.88642678197272,
+              "topic": "libya"
+            },
+            {
+              "id": "1547",
+              "title": "Green Beret who led team that was to assess security of diplomatic personnel in Libya says that he and slain Ambassador Christopher Stevens believed more protection was needed",
+              "snippet": " … the deadly attack\nA Libyan man investigates the inside of the U.S. consulate in Benghazi, Libya, after the Sept. 11 attack by militants that killed four Americans, including Ambassador Chris Stevens … ",
+              "url": "",
+              "timestamp": "2012-10-08",
+              "score": 32.03469714314374,
+              "topic": "libya"
+            },
+            {
+              "id": "6083",
+              "title": "US ambassador killed in consulate attack in Libya",
+              "snippet": " … attack on the U.S. consulate in the eastern city of Benghazi by protesters angry over a film that ridiculed Islam's Prophet Muhammad. The officials say Ambassador Chris Stevens was killed … ",
+              "url": "",
+              "timestamp": "2012-09-12",
+              "score": 31.968619686755556,
+              "topic": "libya"
+            },
+            {
+              "id": "5024",
+              "title": "Libyan witnesses recount organized Benghazi attack",
+              "snippet": " … 12, 2012 file photo, Libyans walk on the grounds of the gutted U.S. consulate in Benghazi, Libya, after an attack the previous day that killed four Americans, including Ambassador Chris Stevens … ",
+              "url": "",
+              "timestamp": "2012-10-27",
+              "score": 31.8482842713759,
+              "topic": "libya"
+            },
+            {
+              "id": "3645",
+              "title": "U.S. Consulate in Libya Scarred by Lethal Night Assault",
+              "snippet": "U.S. Consulate in Libya Scarred by Lethal Night Assault\nAs Libyan and American investigators began probing the Sept. 11 attack that killed U.S. Ambassador to Libya Chris Stevens and three … ",
+              "url": "",
+              "timestamp": "2012-09-14",
+              "score": 31.72619186419303,
+              "topic": "libya"
+            },
+            {
+              "id": "3744",
+              "title": "Republicans hammer State witnesses on Libya attack",
+              "snippet": " … investigates the inside of the  U.S. Consulate, after an attack that killed four Americans, including Ambassador Chris Stevens on the night of Tuesday, Sept. 11, 2012, in Benghazi, Libya. The State … ",
+              "url": "",
+              "timestamp": "2012-10-10",
+              "score": 31.16210415988351,
+              "topic": "libya"
+            },
+            {
+              "id": "2640",
+              "title": "Libyan president says 50 arrested in U.S. consulate attack investigation",
+              "snippet": " … consulate attack investigation\nLibyans walk on the grounds of the gutted U.S. consulate in Benghazi, Libya, after an attack that killed four Americans, including Ambassador Chris Stevens. Photo by AP\nLibyan … ",
+              "url": "",
+              "timestamp": "2012-09-16",
+              "score": 30.651885779524626,
+              "topic": "libya"
+            },
+            {
+              "id": "596",
+              "title": "Slain U.S. ambassador to Libya remembered by colleagues in Israel",
+              "snippet": " … Christopher Stevens, the 52-year-old U.S. ambassador to Libya who was killed Wednesday in Benghazi.\nThe first U.S. ambassador to be killed in the line of duty since 1979 … ",
+              "url": "",
+              "timestamp": "2012-09-13",
+              "score": 30.18162054305151,
+              "topic": "libya"
+            },
+            {
+              "id": "258",
+              "title": "Who is responsible for the mess in Libya?",
+              "snippet": " … in the case of the death of Chris Stevens, the former US ambassador to Libya.\nStevens and three State Department employees were murdered in the U.S. consulate in Benghazi, Libya, last … ",
+              "url": "",
+              "timestamp": "2012-10-18",
+              "score": 30.03048121663874,
+              "topic": "libya"
+            },
+            {
+              "id": "4544",
+              "title": "Obama Responds To Libya Criticism Romney Tends 'To Shoot First And Aim Later'",
+              "snippet": " … Consulate in Benghazi, Libya yesterday. \"We are anguished and outraged by the death of four citizens of the United States, including Ambassador Chris Stevens, during an attack on the U.S. Consulate … ",
+              "url": "",
+              "timestamp": "2012-09-12",
+              "score": 29.933375786902033,
+              "topic": "libya"
+            },
+            {
+              "id": "5160",
+              "title": "",
+              "snippet": " … 50 people in connection to the attack on the US consulate in Benghazi in which the US ambassador and three embassy staff were killed, Libya's parliamentary chief said.\n\"The number reached … ",
+              "url": "",
+              "timestamp": "2012-09-17",
+              "score": 29.74680094472665,
+              "topic": "libya"
+            },
+            {
+              "id": "3551",
+              "title": "Missing British guns from US consulate in Libya 'could have been seized by extremists'",
+              "snippet": " … military force in Libya\nAttacks: U.S. Ambassador Chris Stevens (left) died in last month's attack. Sir Dominic Asquith (right), Britain's ambassador to Libya, was in a convoy hit by … ",
+              "url": "",
+              "timestamp": "2012-10-11",
+              "score": 29.54916957466289,
+              "topic": "libya"
+            },
+            {
+              "id": "1149",
+              "title": "Libya deputy PM condemns killing of U.S. ambassador, three staff in Benghazi",
+              "snippet": " … Wednesday that the U.S. ambassador to Libya, Christopher Stevens, was killed in an attack in Libya.\n\"I do condemn the cowardly act of attacking the U.S. consulate and the killing … ",
+              "url": "",
+              "timestamp": "2012-09-12",
+              "score": 28.722449914693275,
+              "topic": "libya"
+            },
+            {
+              "id": "3327",
+              "title": "What really went wrong in Benghazi",
+              "snippet": " … that had come into play in Libya and beyond. Stevens was left to face the furies in what all belatedly acknowledge was a highly orchestrated terror attack.\nThat the U.S. came … ",
+              "url": "",
+              "timestamp": "2012-10-20",
+              "score": 28.684106423908418,
+              "topic": "libya"
+            }
+          ],
+          "new_doc_ids": [
+            "1991",
+            "3598",
+            "5809",
+            "1613",
+            "5124",
+            "599",
+            "1547",
+            "6083",
+            "5024",
+            "3645",
+            "3744",
+            "2640",
+            "596",
+            "258",
+            "4544",
+            "5160",
+            "3551",
+            "1149",
+            "3327"
+          ],
+          "audit": {
+            "text": "When was the U.S. consulate attack in Benghazi, Libya, that killed Ambassador Chris Stevens?",
+            "model": "deepseek-v4-flash",
+            "usage": {
+              "prompt_tokens": 1720,
+              "completion_tokens": 593,
+              "total_tokens": 2313,
+              "prompt_tokens_details": {
+                "cached_tokens": 128
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 570
+              },
+              "prompt_cache_hit_tokens": 128,
+              "prompt_cache_miss_tokens": 1592
+            },
+            "request_id": null
+          }
+        },
+        {
+          "round": 3,
+          "query": "When did the Second Libyan Civil War begin?",
+          "results": [
+            {
+              "id": "2489",
+              "title": "Libyan oil fever fades as 2013 talks begin",
+              "snippet": "Libyan oil fever fades as 2013 talks begin\nAn armed National Transitional Council (NTC) fighter patrols inside the Libyan Oil Refining Company (LERCO) in Ras Lanuf, about 660 km (410 miles) west … ",
+              "url": "",
+              "timestamp": "2012-11-26",
+              "score": 8.91236185725128,
+              "topic": "libya"
+            },
+            {
+              "id": "2957",
+              "title": "BP Resumes Exploration in Libya After War That Ousted Qaddafi",
+              "snippet": "BP Resumes Exploration in Libya After War That Ousted Qaddafi\nBP Plc (BP/) , Europe ’s second-biggest oil company, said it will begin exploring in Libya again after the civil war last … ",
+              "url": "",
+              "timestamp": "2012-05-29",
+              "score": 8.893053473933342,
+              "topic": "libya"
+            },
+            {
+              "id": "3090",
+              "title": "",
+              "snippet": " … Under federal immigration law, the CBSA can begin inadmissibility proceedings against a non-Canadian suspected of involvement in serious criminality, terrorism or war crimes.\n“I rang up and I said, ‘Am I … ",
+              "url": "",
+              "timestamp": "2012-02-13",
+              "score": 8.453124029607235,
+              "topic": "libya"
+            },
+            {
+              "id": "4006",
+              "title": "NATO sets date to end operation in Libya",
+              "snippet": " … with the aim of ending the operation completely by the end of the month.\n\"We did what we said we would do, and now is the time for the Libyan people to … ",
+              "url": "",
+              "timestamp": "2011-10-22",
+              "score": 8.065994227321873,
+              "topic": "libya"
+            },
+            {
+              "id": "5994",
+              "title": "Libya Politics of humanitarian intervention   Opinion  Al Jazeera English",
+              "snippet": " … The New York Times reported that Libyan tanks on the road to Benghazi were bombed from the air Iraq War-style, when they were retreating and not when they were advancing.\nThe … ",
+              "url": "",
+              "timestamp": "2011-03-31",
+              "score": 8.018945897751927,
+              "topic": "libya"
+            },
+            {
+              "id": "2590",
+              "title": "",
+              "snippet": " … When the head of the financial-crimes unit in the Libyan …\nAhmad Abu Khattallah has been linked to the incident again and again. But more than two months after, he has yet … ",
+              "url": "",
+              "timestamp": "2013-04-23",
+              "score": 7.945588446839555,
+              "topic": "libya"
+            },
+            {
+              "id": "5082",
+              "title": "Gaddafi is dead. Let the civil war begin?",
+              "snippet": " … Let the civil war begin?\nLibya is in the hands of the rebels. Deeply divided rebels.\nA Libyan rebel flashes the V-sign for victory on Sept. 25, 2011 outside of Bani … ",
+              "url": "",
+              "timestamp": "2011-10-20",
+              "score": 7.941068396979214,
+              "topic": "libya"
+            },
+            {
+              "id": "5936",
+              "title": "Mixed mood in eastern Libya on revolution anniversary",
+              "snippet": " … 15.\"\nThe actual second anniversary of the start of the anti-Gaddafi revolt is not until Sunday, but celebrations were to begin on Friday in remembrance of the arrest of a human … ",
+              "url": "",
+              "timestamp": "2013-02-15",
+              "score": 7.862590693626222,
+              "topic": "libya"
+            },
+            {
+              "id": "2544",
+              "title": "Gaddafi says Libya could be 'another Vietnam'",
+              "snippet": " … In a fiery speech, the Libyan leader vowed to wage a bloody war if foreign powers dared to intervene, saying it would only plunge Libya into \"another Vietnam\". \"We will enter a … ",
+              "url": "",
+              "timestamp": "2011-03-03",
+              "score": 7.8271935582367895,
+              "topic": "libya"
+            },
+            {
+              "id": "4989",
+              "title": "The US must end its illegal war in Libya now",
+              "snippet": "The US must end its illegal war in Libya now\nPresident Obama has ripped up the US constitution for Nato's ill-considered Libyan adventure. Congress must restore sense\nFrance has confirmed … ",
+              "url": "",
+              "timestamp": "2011-07-06",
+              "score": 7.7447590434384015,
+              "topic": "libya"
+            },
+            {
+              "id": "5008",
+              "title": "Libya rejects rebel claims Gadhafi seeking refuge for his family",
+              "snippet": " … The officials, who have knowledge of the situation on the ground, did not want to be named because of the sensitive intelligence matters.\nIn an address broadcast on Libyan state television Monday … ",
+              "url": "",
+              "timestamp": "2011-08-20",
+              "score": 7.705019431320197,
+              "topic": "libya"
+            },
+            {
+              "id": "1320",
+              "title": "NATO Strikes Qaddafi Compound",
+              "snippet": " … The second took place a few nights ago, when two NATO missiles slammed into some kind of underground concrete bunker just outside the compound’s walls.\nIn Misurata, pro-Qaddafi officials said … ",
+              "url": "",
+              "timestamp": "2011-04-25",
+              "score": 7.587682432042776,
+              "topic": "libya"
+            },
+            {
+              "id": "3850",
+              "title": "Libya's Civil War The Limits of People Power",
+              "snippet": " … Lanuf, the result of air strikes Wednesday by the Libyan government, seemed to mark an ominous escalation in what has all the makings of a protracted Libyan civil war. Though the country … ",
+              "url": "",
+              "timestamp": "2011-03-10",
+              "score": 7.543394399566839,
+              "topic": "libya"
+            },
+            {
+              "id": "5052",
+              "title": "Libyan stock exchange opens for first time since revolution",
+              "snippet": "Libyan stock exchange opens for first time since revolution  GlobalPost\nLibyan stock exchange opens for first time since anti-Gaddafi uprising\nLibya has reopened its stock exchange for the first time since … ",
+              "url": "",
+              "timestamp": "2012-03-15",
+              "score": 7.492899741316698,
+              "topic": "libya"
+            },
+            {
+              "id": "4750",
+              "title": "John F. Kerry  A nofly zone for Libya",
+              "snippet": " … It probably would not tip the balance if Libya deteriorates into a full-scale civil war. But it would eliminate airstrikes and save the lives of civilians. It is a tool that … ",
+              "url": "",
+              "timestamp": "2011-03-11",
+              "score": 7.417301488230469,
+              "topic": "libya"
+            },
+            {
+              "id": "5958",
+              "title": "Stalemate in Libya increasingly viewed as a likely oue",
+              "snippet": " … and he will fend for his own survival,” the official said.\nDefense Secretary Robert M. Gates did not mention such an outcome when he was asked in congressional testimony Thursday about likely … ",
+              "url": "",
+              "timestamp": "2011-04-01",
+              "score": 7.395313853608425,
+              "topic": "libya"
+            },
+            {
+              "id": "3611",
+              "title": "Russian envoy heads to Libya to begin settlement talks",
+              "snippet": " … Two people were killed and 17 others were wounded in the fighting on the western front of Misrata, rebels said.\nLibya has been in the throes of a civil war for months … ",
+              "url": "",
+              "timestamp": "2011-06-06",
+              "score": 7.3688937880909995,
+              "topic": "libya"
+            },
+            {
+              "id": "5754",
+              "title": "The cost of Libyan intervention",
+              "snippet": " … There is also a second set of lessons from the Iraq war relating to the costs and benefits of military action that should raise serious concerns about the White House’s decision … ",
+              "url": "",
+              "timestamp": "2011-03-22",
+              "score": 7.294712827509173,
+              "topic": "libya"
+            },
+            {
+              "id": "192",
+              "title": "Qaddafi's Son Warns of Civil War as Thousands Clash in Tripoli",
+              "snippet": " … state television that the country's army and police did make mistakes dealing with protesters and that the country is running the risk of plunging into civil war. He claimed that there … ",
+              "url": "",
+              "timestamp": "2011-02-20",
+              "score": 7.157763341657495,
+              "topic": "libya"
+            },
+            {
+              "id": "6014",
+              "title": "Lesson for Libya fight You go to war to win",
+              "snippet": " … Instead, we watched impotently for weeks while Gadhafi regained his footing and the rebels suffered defeat after defeat. Only when rebel-held Benghazi, Libya's second-largest city, was threatened did we … ",
+              "url": "",
+              "timestamp": "2011-03-28",
+              "score": 7.138641308986711,
+              "topic": "libya"
+            }
+          ],
+          "new_doc_ids": [
+            "2489",
+            "2957",
+            "3090",
+            "4006",
+            "5994",
+            "2590",
+            "5082",
+            "5936",
+            "2544",
+            "4989",
+            "5008",
+            "1320",
+            "3850",
+            "5052",
+            "4750",
+            "5958",
+            "3611",
+            "5754",
+            "192",
+            "6014"
+          ],
+          "audit": {
+            "text": "When did the Second Libyan Civil War begin?",
+            "model": "deepseek-v4-flash",
+            "usage": {
+              "prompt_tokens": 1837,
+              "completion_tokens": 1849,
+              "total_tokens": 3686,
+              "prompt_tokens_details": {
+                "cached_tokens": 128
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 1839
+              },
+              "prompt_cache_hit_tokens": 128,
+              "prompt_cache_miss_tokens": 1709
+            },
+            "request_id": null
+          }
+        }
+      ],
+      "unique_results": [
+        {
+          "id": "1001",
+          "title": "Timeline Libya  from bloody uprising to elections",
+          "snippet": "Timeline Libya  from bloody uprising to elections\n(Reuters) - Libyans vote on Saturday for a 200-member national assembly that will name a prime minister, enact legislation and appoint a committee to draft … ",
+          "url": "",
+          "timestamp": "2012-07-07",
+          "score": 12.194820852445874,
+          "topic": "libya"
+        },
+        {
+          "id": "3222",
+          "title": "What can be done to end the crisis in Libya?",
+          "snippet": "What can be done to end the crisis in Libya?\nProtesters have taken control of several key cities across Libya, but government forces appear to be fighting back.\nU.N. has imposed … ",
+          "url": "",
+          "timestamp": "2011-03-04",
+          "score": 10.756337948999384,
+          "topic": "libya"
+        },
+        {
+          "id": "5823",
+          "title": "Libya timeline six months of conflict  interactive",
+          "snippet": "Libya timeline six months of conflict  interactive\n",
+          "url": "",
+          "timestamp": "2011-08-22",
+          "score": 10.715574112740569,
+          "topic": "libya"
+        },
+        {
+          "id": "3874",
+          "title": "PHOTOS Timeline of Libya war in pictures",
+          "snippet": "PHOTOS Timeline of Libya war in pictures  GlobalPost\n",
+          "url": "",
+          "timestamp": "2011-10-20",
+          "score": 10.711686600813133,
+          "topic": "libya"
+        },
+        {
+          "id": "5456",
+          "title": "Timeline Libya's civil war nears end",
+          "snippet": "Timeline Libya's civil war nears end\nAnti-Gaddafi fighters celebrated the fall of Sirte  October 20, 2011.\n(Reuters) - Here is a timeline of the civil war in Libya since protests against … ",
+          "url": "",
+          "timestamp": "2011-10-20",
+          "score": 10.54079834581572,
+          "topic": "libya"
+        },
+        {
+          "id": "1963",
+          "title": "At Tripoli fair, Libyan and foreign firms eye postwar trade",
+          "snippet": " … 1.6 million barrels per day (bpd) seen before the uprising that toppled Gaddafi in October 2011.\n\"Libya produces good-quality dates, fish and olives, for example, and there is no reason … ",
+          "url": "",
+          "timestamp": "2013-04-10",
+          "score": 10.345023828208436,
+          "topic": "libya"
+        },
+        {
+          "id": "825",
+          "title": "Timeline Libya's civil war nears end",
+          "snippet": " … Reuters) - Here is a timeline of the civil war in Libya since protests against Muammar Gaddafi's four-decade rule began in February:\nFebruary 15/16, 2011 - The arrest of human rights … ",
+          "url": "",
+          "timestamp": "2011-10-12",
+          "score": 10.327929089968572,
+          "topic": "libya"
+        },
+        {
+          "id": "2955",
+          "title": "At Tripoli fair, Libyan and foreign firms eye postwar trade",
+          "snippet": "At Tripoli fair, Libyan and foreign firms eye postwar trade    Africa             NBC News\n\"Libya produces good-quality dates, fish and olives, for example, and there is no reason why it can't … ",
+          "url": "",
+          "timestamp": "2013-04-10",
+          "score": 10.002210468046473,
+          "topic": "libya"
+        },
+        {
+          "id": "1086",
+          "title": "LINE  Libya's civil war nears end",
+          "snippet": " … REUTERS - Here is a timeline of the civil war in Libya since protests against Muammar Gaddafi broke out in February:\nFeb. 15/16, 2011 - The arrest of human rights activist Fethi Tarbel … ",
+          "url": "",
+          "timestamp": "2011-10-20",
+          "score": 9.918711500846648,
+          "topic": "libya"
+        },
+        {
+          "id": "2037",
+          "title": "Libya Timeline Events Leading Up To The Reported Death Of Muammar Gaddafi",
+          "snippet": "Libya Timeline Events Leading Up To The Reported Death Of Muammar Gaddafi\nIn this Saturday, Aug. 27, 2011, file photo, a Libyan man takes pictures of the courtyard of Abu Salim prison … ",
+          "url": "",
+          "timestamp": "2011-10-20",
+          "score": 9.823350665273903,
+          "topic": "libya"
+        },
+        {
+          "id": "156",
+          "title": "A timeline of the war in Libya from revolt to reports of Muammar Gaddafis death",
+          "snippet": "A timeline of the war in Libya from revolt to reports of Muammar Gaddafis death  National Post\n15/16, 2011 The arrest of human rights activist Fethi Tarbel starts a riot in … ",
+          "url": "",
+          "timestamp": "2011-10-20",
+          "score": 9.788834548919654,
+          "topic": "libya"
+        },
+        {
+          "id": "1354",
+          "title": "Moammar Khadafy dead A timeline of the Libyan leader's rise and fall",
+          "snippet": " … President Barack Obama as \"our son\" and says the Security Council \"should be called the terror council.\"\n2011: Nationwide political violence erupts in Libya in February, following uprisings in Tunisia and Egypt … ",
+          "url": "",
+          "timestamp": "2011-10-20",
+          "score": 9.45015098774517,
+          "topic": "libya"
+        },
+        {
+          "id": "981",
+          "title": "A timeline of the conflict in Libya",
+          "snippet": "A timeline of the conflict in Libya\nFighting started with anti-government demonstrations and escalated into a civil war\nInternational leaders accuse Gadhafi's regime of committing human rights violations\nLibyan officials … ",
+          "url": "",
+          "timestamp": "2011-08-21",
+          "score": 9.447778852879557,
+          "topic": "libya"
+        },
+        {
+          "id": "5097",
+          "title": "The Libyan Uprising, Looking Back in Photos",
+          "snippet": " … 24, 2011, just days after the city’s residents had expelled troops and officials loyal to Col. Muammar el-Qaddafi, marking the birth of Libya’s uprising.\nThousands of jubilant Libyans thronged … ",
+          "url": "",
+          "timestamp": "2012-03-06",
+          "score": 9.098821877924184,
+          "topic": "libya"
+        },
+        {
+          "id": "4746",
+          "title": "Libya rebellion timeline",
+          "snippet": "Libya rebellion timeline   Telegraph\nMarch 17 – The U.N. Security Council votes to authorise a no-fly zone    over Libya and military action – to protect civilians against Gaddafi's    army.\nMarch 19 … ",
+          "url": "",
+          "timestamp": "2011-10-20",
+          "score": 9.080246750035679,
+          "topic": "libya"
+        },
+        {
+          "id": "5488",
+          "title": "Libya's congress rejects crisis government plan",
+          "snippet": "Libya's congress rejects crisis government plan\nOctober 8, 2012 -- Updated 0037 GMT (0837 HKT)\nLibyan Prime Minister-elect Mustafa Abushagur proposed a downsized 10-member \"crisis government\" for the country.\nThe … ",
+          "url": "",
+          "timestamp": "2012-10-07",
+          "score": 9.058431780713143,
+          "topic": "libya"
+        },
+        {
+          "id": "768",
+          "title": "A timeline of the conflict in Libya",
+          "snippet": "A timeline of the conflict in Libya\nFighting started with anti-government demonstrations and escalated into a civil war\nInternational leaders accuse Gadhafi's regime of committing human rights violations\nLibyan officials … ",
+          "url": "",
+          "timestamp": "2011-08-24",
+          "score": 8.982466809210097,
+          "topic": "libya"
+        },
+        {
+          "id": "5700",
+          "title": "Libya War Rebels Claim Most Successful Advance In Months",
+          "snippet": " … 13, 2011 photo, workers modify a civilian pick-up truck into a military vehicle, adding weapons and reinforcements, in Zintan, western Libya.\nZINTAN, Libya -- Rebels in the western mountains of Libya spent … ",
+          "url": "",
+          "timestamp": "2011-08-15",
+          "score": 8.389443715248545,
+          "topic": "libya"
+        },
+        {
+          "id": "6166",
+          "title": "Libya army chief vows end to militias this year",
+          "snippet": " … 12 Libya Shield brigades, a largely Islamist grouping of militias paid by the government to help maintain security.\nQineydi did not give specifics on how the government would implement the timeline, but … ",
+          "url": "",
+          "timestamp": "2013-06-11",
+          "score": 8.357585260187118,
+          "topic": "libya"
+        },
+        {
+          "id": "4415",
+          "title": "CIA found evidence of militant links a day after U.S. Consulate attack that killed Libyan ambassador",
+          "snippet": " … 11, 2012, in Benghazi, Libya.\nLibya ambassador Chris Stevens killed: U.S. warships headed to Libyan coast as Obama says 'justice will be done'\nWASHINGTON — The CIA station chief in Libya reported … ",
+          "url": "",
+          "timestamp": "2012-10-19",
+          "score": 8.265207077835377,
+          "topic": "libya"
+        },
+        {
+          "id": "1991",
+          "title": "Libyan attacks said to be 2part militant assault",
+          "snippet": " … in the rubble of the damaged  U.S. consulate, after an attack that killed four Americans, including Ambassador Chris Stevens on the night of Tuesday, Sept. 11, 2012, in Benghazi, Libya, Thursday … ",
+          "url": "",
+          "timestamp": "2012-09-13",
+          "score": 37.82441238811403,
+          "topic": "libya"
+        },
+        {
+          "id": "3598",
+          "title": "2 suspects held in Istanbul over killing of U.S. ambassador Chris Stevens report",
+          "snippet": "2 suspects held in Istanbul over killing of U.S. ambassador Chris Stevens report  NY Daily News\nChristopher Stevens was killed in an attack on the U.S. embassy in Libya on … ",
+          "url": "",
+          "timestamp": "2012-10-05",
+          "score": 34.55942868396951,
+          "topic": "libya"
+        },
+        {
+          "id": "5809",
+          "title": "US consulate attack in Libya said twin operation",
+          "snippet": " … in the rubble of the damaged  U.S. consulate, after an attack that killed four Americans, including Ambassador Chris Stevens on the night of Tuesday, Sept. 11, 2012, in Benghazi, Libya, Thursday … ",
+          "url": "",
+          "timestamp": "2012-09-12",
+          "score": 34.312373505940684,
+          "topic": "libya"
+        },
+        {
+          "id": "1613",
+          "title": "Libya Protests Spurred By AntiMuslim Film Whose Maker's Religion Is Widely Reported But LittleKnown",
+          "snippet": " … 12, 2012. (AP Photo/Ibrahim Alaguri)\nA man walks through a room in the gutted U.S. consulate in Benghazi, Libya, after an attack that killed four Americans, including Ambassador Chris Stevens … ",
+          "url": "",
+          "timestamp": "2012-09-12",
+          "score": 33.4334163144668,
+          "topic": "libya"
+        },
+        {
+          "id": "5124",
+          "title": "Libya ambassador Chris Stevens killed U.S. warships headed to Libyan coast as Obama says 'justice will be done'",
+          "snippet": " … Stevens was the first American ambassador killed since Adolph Dubs was slain in Afghanistan in 1979.\nA burnt car is parked at the U.S. consulate.\n“The world needs more Chris Stevenses … ",
+          "url": "",
+          "timestamp": "2012-09-12",
+          "score": 32.921577805184754,
+          "topic": "libya"
+        },
+        {
+          "id": "599",
+          "title": "Libya consulate attack Ambassador Chris Stevens told officials of security worries on day he died",
+          "snippet": " … Chris Stevens wrote cable warning militias could turn against U.S.\nHead of special-operations team tells of dismay at being ordered to leave Libya a month before attack which killed ambassador … ",
+          "url": "",
+          "timestamp": "2012-10-09",
+          "score": 32.88642678197272,
+          "topic": "libya"
+        },
+        {
+          "id": "1547",
+          "title": "Green Beret who led team that was to assess security of diplomatic personnel in Libya says that he and slain Ambassador Christopher Stevens believed more protection was needed",
+          "snippet": " … the deadly attack\nA Libyan man investigates the inside of the U.S. consulate in Benghazi, Libya, after the Sept. 11 attack by militants that killed four Americans, including Ambassador Chris Stevens … ",
+          "url": "",
+          "timestamp": "2012-10-08",
+          "score": 32.03469714314374,
+          "topic": "libya"
+        },
+        {
+          "id": "6083",
+          "title": "US ambassador killed in consulate attack in Libya",
+          "snippet": " … attack on the U.S. consulate in the eastern city of Benghazi by protesters angry over a film that ridiculed Islam's Prophet Muhammad. The officials say Ambassador Chris Stevens was killed … ",
+          "url": "",
+          "timestamp": "2012-09-12",
+          "score": 31.968619686755556,
+          "topic": "libya"
+        },
+        {
+          "id": "5024",
+          "title": "Libyan witnesses recount organized Benghazi attack",
+          "snippet": " … 12, 2012 file photo, Libyans walk on the grounds of the gutted U.S. consulate in Benghazi, Libya, after an attack the previous day that killed four Americans, including Ambassador Chris Stevens … ",
+          "url": "",
+          "timestamp": "2012-10-27",
+          "score": 31.8482842713759,
+          "topic": "libya"
+        },
+        {
+          "id": "3645",
+          "title": "U.S. Consulate in Libya Scarred by Lethal Night Assault",
+          "snippet": "U.S. Consulate in Libya Scarred by Lethal Night Assault\nAs Libyan and American investigators began probing the Sept. 11 attack that killed U.S. Ambassador to Libya Chris Stevens and three … ",
+          "url": "",
+          "timestamp": "2012-09-14",
+          "score": 31.72619186419303,
+          "topic": "libya"
+        },
+        {
+          "id": "3744",
+          "title": "Republicans hammer State witnesses on Libya attack",
+          "snippet": " … investigates the inside of the  U.S. Consulate, after an attack that killed four Americans, including Ambassador Chris Stevens on the night of Tuesday, Sept. 11, 2012, in Benghazi, Libya. The State … ",
+          "url": "",
+          "timestamp": "2012-10-10",
+          "score": 31.16210415988351,
+          "topic": "libya"
+        },
+        {
+          "id": "2640",
+          "title": "Libyan president says 50 arrested in U.S. consulate attack investigation",
+          "snippet": " … consulate attack investigation\nLibyans walk on the grounds of the gutted U.S. consulate in Benghazi, Libya, after an attack that killed four Americans, including Ambassador Chris Stevens. Photo by AP\nLibyan … ",
+          "url": "",
+          "timestamp": "2012-09-16",
+          "score": 30.651885779524626,
+          "topic": "libya"
+        },
+        {
+          "id": "596",
+          "title": "Slain U.S. ambassador to Libya remembered by colleagues in Israel",
+          "snippet": " … Christopher Stevens, the 52-year-old U.S. ambassador to Libya who was killed Wednesday in Benghazi.\nThe first U.S. ambassador to be killed in the line of duty since 1979 … ",
+          "url": "",
+          "timestamp": "2012-09-13",
+          "score": 30.18162054305151,
+          "topic": "libya"
+        },
+        {
+          "id": "258",
+          "title": "Who is responsible for the mess in Libya?",
+          "snippet": " … in the case of the death of Chris Stevens, the former US ambassador to Libya.\nStevens and three State Department employees were murdered in the U.S. consulate in Benghazi, Libya, last … ",
+          "url": "",
+          "timestamp": "2012-10-18",
+          "score": 30.03048121663874,
+          "topic": "libya"
+        },
+        {
+          "id": "4544",
+          "title": "Obama Responds To Libya Criticism Romney Tends 'To Shoot First And Aim Later'",
+          "snippet": " … Consulate in Benghazi, Libya yesterday. \"We are anguished and outraged by the death of four citizens of the United States, including Ambassador Chris Stevens, during an attack on the U.S. Consulate … ",
+          "url": "",
+          "timestamp": "2012-09-12",
+          "score": 29.933375786902033,
+          "topic": "libya"
+        },
+        {
+          "id": "5160",
+          "title": "",
+          "snippet": " … 50 people in connection to the attack on the US consulate in Benghazi in which the US ambassador and three embassy staff were killed, Libya's parliamentary chief said.\n\"The number reached … ",
+          "url": "",
+          "timestamp": "2012-09-17",
+          "score": 29.74680094472665,
+          "topic": "libya"
+        },
+        {
+          "id": "3551",
+          "title": "Missing British guns from US consulate in Libya 'could have been seized by extremists'",
+          "snippet": " … military force in Libya\nAttacks: U.S. Ambassador Chris Stevens (left) died in last month's attack. Sir Dominic Asquith (right), Britain's ambassador to Libya, was in a convoy hit by … ",
+          "url": "",
+          "timestamp": "2012-10-11",
+          "score": 29.54916957466289,
+          "topic": "libya"
+        },
+        {
+          "id": "1149",
+          "title": "Libya deputy PM condemns killing of U.S. ambassador, three staff in Benghazi",
+          "snippet": " … Wednesday that the U.S. ambassador to Libya, Christopher Stevens, was killed in an attack in Libya.\n\"I do condemn the cowardly act of attacking the U.S. consulate and the killing … ",
+          "url": "",
+          "timestamp": "2012-09-12",
+          "score": 28.722449914693275,
+          "topic": "libya"
+        },
+        {
+          "id": "3327",
+          "title": "What really went wrong in Benghazi",
+          "snippet": " … that had come into play in Libya and beyond. Stevens was left to face the furies in what all belatedly acknowledge was a highly orchestrated terror attack.\nThat the U.S. came … ",
+          "url": "",
+          "timestamp": "2012-10-20",
+          "score": 28.684106423908418,
+          "topic": "libya"
+        },
+        {
+          "id": "2489",
+          "title": "Libyan oil fever fades as 2013 talks begin",
+          "snippet": "Libyan oil fever fades as 2013 talks begin\nAn armed National Transitional Council (NTC) fighter patrols inside the Libyan Oil Refining Company (LERCO) in Ras Lanuf, about 660 km (410 miles) west … ",
+          "url": "",
+          "timestamp": "2012-11-26",
+          "score": 8.91236185725128,
+          "topic": "libya"
+        },
+        {
+          "id": "2957",
+          "title": "BP Resumes Exploration in Libya After War That Ousted Qaddafi",
+          "snippet": "BP Resumes Exploration in Libya After War That Ousted Qaddafi\nBP Plc (BP/) , Europe ’s second-biggest oil company, said it will begin exploring in Libya again after the civil war last … ",
+          "url": "",
+          "timestamp": "2012-05-29",
+          "score": 8.893053473933342,
+          "topic": "libya"
+        },
+        {
+          "id": "3090",
+          "title": "",
+          "snippet": " … Under federal immigration law, the CBSA can begin inadmissibility proceedings against a non-Canadian suspected of involvement in serious criminality, terrorism or war crimes.\n“I rang up and I said, ‘Am I … ",
+          "url": "",
+          "timestamp": "2012-02-13",
+          "score": 8.453124029607235,
+          "topic": "libya"
+        },
+        {
+          "id": "4006",
+          "title": "NATO sets date to end operation in Libya",
+          "snippet": " … with the aim of ending the operation completely by the end of the month.\n\"We did what we said we would do, and now is the time for the Libyan people to … ",
+          "url": "",
+          "timestamp": "2011-10-22",
+          "score": 8.065994227321873,
+          "topic": "libya"
+        },
+        {
+          "id": "5994",
+          "title": "Libya Politics of humanitarian intervention   Opinion  Al Jazeera English",
+          "snippet": " … The New York Times reported that Libyan tanks on the road to Benghazi were bombed from the air Iraq War-style, when they were retreating and not when they were advancing.\nThe … ",
+          "url": "",
+          "timestamp": "2011-03-31",
+          "score": 8.018945897751927,
+          "topic": "libya"
+        },
+        {
+          "id": "2590",
+          "title": "",
+          "snippet": " … When the head of the financial-crimes unit in the Libyan …\nAhmad Abu Khattallah has been linked to the incident again and again. But more than two months after, he has yet … ",
+          "url": "",
+          "timestamp": "2013-04-23",
+          "score": 7.945588446839555,
+          "topic": "libya"
+        },
+        {
+          "id": "5082",
+          "title": "Gaddafi is dead. Let the civil war begin?",
+          "snippet": " … Let the civil war begin?\nLibya is in the hands of the rebels. Deeply divided rebels.\nA Libyan rebel flashes the V-sign for victory on Sept. 25, 2011 outside of Bani … ",
+          "url": "",
+          "timestamp": "2011-10-20",
+          "score": 7.941068396979214,
+          "topic": "libya"
+        },
+        {
+          "id": "5936",
+          "title": "Mixed mood in eastern Libya on revolution anniversary",
+          "snippet": " … 15.\"\nThe actual second anniversary of the start of the anti-Gaddafi revolt is not until Sunday, but celebrations were to begin on Friday in remembrance of the arrest of a human … ",
+          "url": "",
+          "timestamp": "2013-02-15",
+          "score": 7.862590693626222,
+          "topic": "libya"
+        },
+        {
+          "id": "2544",
+          "title": "Gaddafi says Libya could be 'another Vietnam'",
+          "snippet": " … In a fiery speech, the Libyan leader vowed to wage a bloody war if foreign powers dared to intervene, saying it would only plunge Libya into \"another Vietnam\". \"We will enter a … ",
+          "url": "",
+          "timestamp": "2011-03-03",
+          "score": 7.8271935582367895,
+          "topic": "libya"
+        },
+        {
+          "id": "4989",
+          "title": "The US must end its illegal war in Libya now",
+          "snippet": "The US must end its illegal war in Libya now\nPresident Obama has ripped up the US constitution for Nato's ill-considered Libyan adventure. Congress must restore sense\nFrance has confirmed … ",
+          "url": "",
+          "timestamp": "2011-07-06",
+          "score": 7.7447590434384015,
+          "topic": "libya"
+        },
+        {
+          "id": "5008",
+          "title": "Libya rejects rebel claims Gadhafi seeking refuge for his family",
+          "snippet": " … The officials, who have knowledge of the situation on the ground, did not want to be named because of the sensitive intelligence matters.\nIn an address broadcast on Libyan state television Monday … ",
+          "url": "",
+          "timestamp": "2011-08-20",
+          "score": 7.705019431320197,
+          "topic": "libya"
+        },
+        {
+          "id": "1320",
+          "title": "NATO Strikes Qaddafi Compound",
+          "snippet": " … The second took place a few nights ago, when two NATO missiles slammed into some kind of underground concrete bunker just outside the compound’s walls.\nIn Misurata, pro-Qaddafi officials said … ",
+          "url": "",
+          "timestamp": "2011-04-25",
+          "score": 7.587682432042776,
+          "topic": "libya"
+        },
+        {
+          "id": "3850",
+          "title": "Libya's Civil War The Limits of People Power",
+          "snippet": " … Lanuf, the result of air strikes Wednesday by the Libyan government, seemed to mark an ominous escalation in what has all the makings of a protracted Libyan civil war. Though the country … ",
+          "url": "",
+          "timestamp": "2011-03-10",
+          "score": 7.543394399566839,
+          "topic": "libya"
+        },
+        {
+          "id": "5052",
+          "title": "Libyan stock exchange opens for first time since revolution",
+          "snippet": "Libyan stock exchange opens for first time since revolution  GlobalPost\nLibyan stock exchange opens for first time since anti-Gaddafi uprising\nLibya has reopened its stock exchange for the first time since … ",
+          "url": "",
+          "timestamp": "2012-03-15",
+          "score": 7.492899741316698,
+          "topic": "libya"
+        },
+        {
+          "id": "4750",
+          "title": "John F. Kerry  A nofly zone for Libya",
+          "snippet": " … It probably would not tip the balance if Libya deteriorates into a full-scale civil war. But it would eliminate airstrikes and save the lives of civilians. It is a tool that … ",
+          "url": "",
+          "timestamp": "2011-03-11",
+          "score": 7.417301488230469,
+          "topic": "libya"
+        },
+        {
+          "id": "5958",
+          "title": "Stalemate in Libya increasingly viewed as a likely oue",
+          "snippet": " … and he will fend for his own survival,” the official said.\nDefense Secretary Robert M. Gates did not mention such an outcome when he was asked in congressional testimony Thursday about likely … ",
+          "url": "",
+          "timestamp": "2011-04-01",
+          "score": 7.395313853608425,
+          "topic": "libya"
+        },
+        {
+          "id": "3611",
+          "title": "Russian envoy heads to Libya to begin settlement talks",
+          "snippet": " … Two people were killed and 17 others were wounded in the fighting on the western front of Misrata, rebels said.\nLibya has been in the throes of a civil war for months … ",
+          "url": "",
+          "timestamp": "2011-06-06",
+          "score": 7.3688937880909995,
+          "topic": "libya"
+        },
+        {
+          "id": "5754",
+          "title": "The cost of Libyan intervention",
+          "snippet": " … There is also a second set of lessons from the Iraq war relating to the costs and benefits of military action that should raise serious concerns about the White House’s decision … ",
+          "url": "",
+          "timestamp": "2011-03-22",
+          "score": 7.294712827509173,
+          "topic": "libya"
+        },
+        {
+          "id": "192",
+          "title": "Qaddafi's Son Warns of Civil War as Thousands Clash in Tripoli",
+          "snippet": " … state television that the country's army and police did make mistakes dealing with protesters and that the country is running the risk of plunging into civil war. He claimed that there … ",
+          "url": "",
+          "timestamp": "2011-02-20",
+          "score": 7.157763341657495,
+          "topic": "libya"
+        },
+        {
+          "id": "6014",
+          "title": "Lesson for Libya fight You go to war to win",
+          "snippet": " … Instead, we watched impotently for weeks while Gadhafi regained his footing and the rebels suffered defeat after defeat. Only when rebel-held Benghazi, Libya's second-largest city, was threatened did we … ",
+          "url": "",
+          "timestamp": "2011-03-28",
+          "score": 7.138641308986711,
+          "topic": "libya"
+        }
+      ],
+      "llm_calls": 3
+    }
+  },
+  "usage": {
+    "prompt_tokens": 3807,
+    "completion_tokens": 3982,
+    "total_tokens": 7789
+  }
+}
