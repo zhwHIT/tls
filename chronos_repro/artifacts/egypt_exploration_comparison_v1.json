@@ -1,0 +1,39 @@
+{
+  "topic": "egypt",
+  "gold_dates": 122,
+  "metrics": {
+    "direct": {
+      "documents": 20,
+      "unique_dates": 16,
+      "exact_covered": 10,
+      "exact_recall": 0.08196721311475409,
+      "window_2d_covered": 24,
+      "window_2d_recall": 0.19672131147540983
+    },
+    "rewrite": {
+      "documents": 20,
+      "unique_dates": 16,
+      "exact_covered": 10,
+      "exact_recall": 0.08196721311475409,
+      "window_2d_covered": 24,
+      "window_2d_recall": 0.19672131147540983
+    },
+    "free_chronos": {
+      "documents": 57,
+      "unique_dates": 17,
+      "exact_covered": 8,
+      "exact_recall": 0.06557377049180328,
+      "window_2d_covered": 8,
+      "window_2d_recall": 0.06557377049180328
+    },
+    "exploration_chronos": {
+      "documents": 41,
+      "unique_dates": 32,
+      "exact_covered": 15,
+      "exact_recall": 0.12295081967213115,
+      "window_2d_covered": 31,
+      "window_2d_recall": 0.2540983606557377
+    }
+  },
+  "note": "Retrieval publication-date coverage diagnostic; not final TLS Date-F1."
+}

@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "model": "deepseek-v4-flash",
+  "text": "TLS_OK",
+  "usage": {
+    "prompt_tokens": 89,
+    "completion_tokens": 18,
+    "total_tokens": 107,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 14
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 89
+  },
+  "request_id": null
+}

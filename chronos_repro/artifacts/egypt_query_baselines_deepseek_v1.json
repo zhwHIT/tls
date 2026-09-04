@@ -1,0 +1,1634 @@
+{
+  "schema_version": 1,
+  "status": "ok",
+  "config": {
+    "model": "deepseek-v4-flash",
+    "base_url": "https://api.deepseek.com",
+    "temperature": 0.0,
+    "top_k": 20,
+    "max_rounds": 3
+  },
+  "provenance": {
+    "index": "D:\\paper\\chronos_repro\\artifacts\\crisis_ece08f344cc94933.sqlite3",
+    "index_sha256": "ed73fb8ff0e9add31df40f637783372c15f59de6f0939dd30b4f19210270bc81",
+    "index_metadata": {
+      "data_root": "D:\\paper\\chronos_repro\\snapshots\\crisis\\ece08f344cc94933",
+      "document_count": 17573,
+      "engine": "sqlite-fts5-bm25",
+      "schema_version": 1,
+      "snapshot": {
+        "dataset": "crisis",
+        "manifest": "D:\\paper\\chronos_repro\\snapshots\\crisis\\ece08f344cc94933\\MANIFEST.sha256.json",
+        "manifest_sha256": "40345dae0249badde354e4e78315799d41035467870baad78efa333efa02b460",
+        "snapshot_id": "ece08f344cc94933"
+      },
+      "topic_counts": {
+        "egypt": 4083,
+        "libya": 4274,
+        "syria": 5170,
+        "yemen": 4046
+      }
+    }
+  },
+  "baselines": {
+    "direct": {
+      "queries": [
+        "Egypt crisis timeline"
+      ],
+      "results": [
+        {
+          "id": "4884",
+          "title": "Timeline Egypt's revolution and beyond  Egypt One Year On  Al Jazeera English",
+          "snippet": "Timeline Egypt's revolution and beyond  Egypt One Year On  Al Jazeera English\n",
+          "url": "",
+          "timestamp": "2012-01-25",
+          "score": 10.510763635821258,
+          "topic": "egypt"
+        },
+        {
+          "id": "4151",
+          "title": "Egypts constitutional crisis, explained as a simple timeline",
+          "snippet": "Egypts constitutional crisis, explained as a simple timeline\nProtesters gather outside the presidential palace in Cairo. (AP Photo/Mostafa Elshemy)\nDo not make the mistake, on seeing the photos and videos of … ",
+          "url": "",
+          "timestamp": "2012-12-06",
+          "score": 10.467479473763548,
+          "topic": "egypt"
+        },
+        {
+          "id": "4061",
+          "title": "Timeline Transition in Egypt",
+          "snippet": "Timeline Transition in Egypt\nKey events leading up to the first presidential election since the ouster of President Hosni Mubarak.\n",
+          "url": "",
+          "timestamp": "2012-05-16",
+          "score": 10.460535854880872,
+          "topic": "egypt"
+        },
+        {
+          "id": "1569",
+          "title": "Egypt timeline from revolution to the current crisis",
+          "snippet": "Egypt timeline from revolution to the current crisis    Telegraph\nEgypt's army drives Morsi from presidency in dramatic coup\nMay 23  24, 2012  The first round of voting in presidential    elections has … ",
+          "url": "",
+          "timestamp": "2013-07-03",
+          "score": 10.381091113537263,
+          "topic": "egypt"
+        },
+        {
+          "id": "1851",
+          "title": "A timeline of Mubarak's rise and rule",
+          "snippet": "A timeline of Mubarak's rise and rule\nHosni Mubarak came to power in Egypt nearly 30 years ago. Here's a look at his tenure.\nPresident Anwar Sadat, left, confers with … ",
+          "url": "",
+          "timestamp": "2011-02-10",
+          "score": 10.292030097740057,
+          "topic": "egypt"
+        },
+        {
+          "id": "928",
+          "title": "Timeline The changing U.S. reaction to Egypt's crisis",
+          "snippet": " … reaction to Egypt's crisis\n(Reuters) - Following is a timeline of public comments by President Barack Obama and other U.S. officials over the course of the uprising in Egypt.\nObama says … ",
+          "url": "",
+          "timestamp": "2011-02-11",
+          "score": 10.2661154047831,
+          "topic": "egypt"
+        },
+        {
+          "id": "834",
+          "title": "Interactive A tumultuous year in Egypt  Egypt One Year On  Al Jazeera English",
+          "snippet": "Interactive A tumultuous year in Egypt  Egypt One Year On  Al Jazeera English\nTens of thousands of Egyptians have converged on Tahrir Square to mark the one-year anniversary of the revolution … ",
+          "url": "",
+          "timestamp": "2012-01-25",
+          "score": 9.496719281209112,
+          "topic": "egypt"
+        },
+        {
+          "id": "1459",
+          "title": "Egypt timeline of the Arab Spring since Hosni Mubarak's ouster",
+          "snippet": "Egypt timeline of the Arab Spring since Hosni Mubarak's ouster   Telegraph\n 13: Authorities say Mubarak is being held in a hospital in Sharm el-Sheikh.\n 7: Fifteen die and 200 injured … ",
+          "url": "",
+          "timestamp": "2012-06-24",
+          "score": 9.23143893009511,
+          "topic": "egypt"
+        },
+        {
+          "id": "5047",
+          "title": "Timeline The fall of Egypt President Hosni Mubarak",
+          "snippet": "Timeline The fall of Egypt President Hosni Mubarak  National Post\nHere is a timeline of the events in the uprising against Egyptian President Hosni Mubarak who stepped down on Friday, the 18th … ",
+          "url": "",
+          "timestamp": "2011-02-11",
+          "score": 8.852853854978898,
+          "topic": "egypt"
+        },
+        {
+          "id": "2409",
+          "title": "LINE  The changing U.S. reaction to Egypt's crisis",
+          "snippet": "TIMELINE  The changing U.S. reaction to Egypt's crisis\nU.S. President Barack Obama makes a statement about Egypt in the Grand Foyer of the White House in Washington February 11 … ",
+          "url": "",
+          "timestamp": "2011-02-12",
+          "score": 8.59361914721704,
+          "topic": "egypt"
+        },
+        {
+          "id": "5061",
+          "title": "The Digital Road to Egypt’s Revolution",
+          "snippet": "The Digital Road to Egypt’s Revolution\nA year after Egypt’s revolution inspired the world, we know only fragments of the story. The overthrow of President Zine el-Abidine Ben Ali … ",
+          "url": "",
+          "timestamp": "2012-02-10",
+          "score": 8.315734810341164,
+          "topic": "egypt"
+        },
+        {
+          "id": "5727",
+          "title": "Egypt Interim President’s Transition Plan Sparks Angry Reactions",
+          "snippet": "Egypt Interim President’s Transition Plan Sparks Angry Reactions  TIME\nAmid a political crisis where nothing important seems to happen before 10 p.m., the timing of interim Egyptian President Adly Mansour … ",
+          "url": "",
+          "timestamp": "2013-07-09",
+          "score": 8.297546471117727,
+          "topic": "egypt"
+        },
+        {
+          "id": "3312",
+          "title": "Egypt Elections Key Events Timeline In Egyptian Uprising And Transition",
+          "snippet": "Egypt Elections Key Events Timeline In Egyptian Uprising And Transition\nFireworks illuminate Tahrir Square in Cairo, Egypt, to celebrate the victory of Mohammed Morsi, in the country's presidential election, Sunday, June … ",
+          "url": "",
+          "timestamp": "2012-06-24",
+          "score": 8.17149119627341,
+          "topic": "egypt"
+        },
+        {
+          "id": "2985",
+          "title": "Egypt elections timeline of the Revolution",
+          "snippet": "Egypt elections timeline of the Revolution  Telegraph\nEgyptians head to polls for day two of presidential election\n- 11: After daily protests, president Hosni Mubarak steps down and leaves the    capital. He hands … ",
+          "url": "",
+          "timestamp": "2012-05-23",
+          "score": 8.124551327574322,
+          "topic": "egypt"
+        },
+        {
+          "id": "5044",
+          "title": "Brotherhood leader urges Egyptians to disown violence after deadly clashes",
+          "snippet": " … He has so far made no concrete concessions to defuse the crisis that has plunged the country into new turmoil and the two sides appeared at a deadlock.\nEgypt political crisis has … ",
+          "url": "",
+          "timestamp": "2012-12-08",
+          "score": 7.732525673585891,
+          "topic": "egypt"
+        },
+        {
+          "id": "2190",
+          "title": "LINE  Protests in Egypt",
+          "snippet": "TIMELINE  Protests in Egypt\nPolice fire tear gas during a demonstration in Cairo January 28, 2011.\nREUTERS - Here is a timeline of events in Egypt since protests began.\nJan. 25 - Thousands of … ",
+          "url": "",
+          "timestamp": "2011-02-08",
+          "score": 7.6708739566903805,
+          "topic": "egypt"
+        },
+        {
+          "id": "4931",
+          "title": "",
+          "snippet": " … intervening 12 months. Egypt held elections for the lower house of parliament - the first free polls in decades - and isgearing to elect a new upper house. A timeline is also in place … ",
+          "url": "",
+          "timestamp": "2012-01-23",
+          "score": 7.62928864053568,
+          "topic": "egypt"
+        },
+        {
+          "id": "3579",
+          "title": "Egypt's Tahrir Square sees mass protests against ruling military",
+          "snippet": "Egypt's Tahrir Square sees mass protests against ruling military\nProtesters converge on Tahrir Square as Egypt's political crisis deepens.\nEgyptians gather to protest in Tahrir Square on June 15, 2012 … ",
+          "url": "",
+          "timestamp": "2012-06-19",
+          "score": 7.58796907159403,
+          "topic": "egypt"
+        },
+        {
+          "id": "945",
+          "title": "How the oil price tracked Egypt's fears and joys",
+          "snippet": " … Here's a timeline of how the Egyptian unrest caused    similar unease in the markets. Click on the bubbles to view more.\nJanuary 25: Anti-government demonstrations begin in Egypt, 10 days … ",
+          "url": "",
+          "timestamp": "2011-02-11",
+          "score": 7.513709292601453,
+          "topic": "egypt"
+        },
+        {
+          "id": "1796",
+          "title": "",
+          "snippet": " … timeline and in search.\"\nFor more than a year, the Twitter has been testing translation software in general, and is currently using Microsoft's Bing Translator for the service. The Egypt tweets … ",
+          "url": "",
+          "timestamp": "2013-07-05",
+          "score": 7.234857181809971,
+          "topic": "egypt"
+        }
+      ],
+      "llm_calls": 0
+    },
+    "rewrite": {
+      "queries": [
+        "Timeline of Egypt crisis"
+      ],
+      "results": [
+        {
+          "id": "4884",
+          "title": "Timeline Egypt's revolution and beyond  Egypt One Year On  Al Jazeera English",
+          "snippet": "Timeline Egypt's revolution and beyond  Egypt One Year On  Al Jazeera English\n",
+          "url": "",
+          "timestamp": "2012-01-25",
+          "score": 10.510763635821258,
+          "topic": "egypt"
+        },
+        {
+          "id": "4151",
+          "title": "Egypts constitutional crisis, explained as a simple timeline",
+          "snippet": "Egypts constitutional crisis, explained as a simple timeline\nProtesters gather outside the presidential palace in Cairo. (AP Photo/Mostafa Elshemy)\nDo not make the mistake, on seeing the photos and videos of … ",
+          "url": "",
+          "timestamp": "2012-12-06",
+          "score": 10.467481561885476,
+          "topic": "egypt"
+        },
+        {
+          "id": "4061",
+          "title": "Timeline Transition in Egypt",
+          "snippet": "Timeline Transition in Egypt\nKey events leading up to the first presidential election since the ouster of President Hosni Mubarak.\n",
+          "url": "",
+          "timestamp": "2012-05-16",
+          "score": 10.460537510397572,
+          "topic": "egypt"
+        },
+        {
+          "id": "1569",
+          "title": "Egypt timeline from revolution to the current crisis",
+          "snippet": "Egypt timeline from revolution to the current crisis    Telegraph\nEgypt's army drives Morsi from presidency in dramatic coup\nMay 23  24, 2012  The first round of voting in presidential    elections has … ",
+          "url": "",
+          "timestamp": "2013-07-03",
+          "score": 10.38109321801905,
+          "topic": "egypt"
+        },
+        {
+          "id": "1851",
+          "title": "A timeline of Mubarak's rise and rule",
+          "snippet": "A timeline of Mubarak's rise and rule\nHosni Mubarak came to power in Egypt nearly 30 years ago. Here's a look at his tenure.\nPresident Anwar Sadat, left, confers with … ",
+          "url": "",
+          "timestamp": "2011-02-10",
+          "score": 10.292032059105285,
+          "topic": "egypt"
+        },
+        {
+          "id": "928",
+          "title": "Timeline The changing U.S. reaction to Egypt's crisis",
+          "snippet": " … reaction to Egypt's crisis\n(Reuters) - Following is a timeline of public comments by President Barack Obama and other U.S. officials over the course of the uprising in Egypt.\nObama says … ",
+          "url": "",
+          "timestamp": "2011-02-11",
+          "score": 10.266117425205252,
+          "topic": "egypt"
+        },
+        {
+          "id": "834",
+          "title": "Interactive A tumultuous year in Egypt  Egypt One Year On  Al Jazeera English",
+          "snippet": "Interactive A tumultuous year in Egypt  Egypt One Year On  Al Jazeera English\nTens of thousands of Egyptians have converged on Tahrir Square to mark the one-year anniversary of the revolution … ",
+          "url": "",
+          "timestamp": "2012-01-25",
+          "score": 9.496721339215057,
+          "topic": "egypt"
+        },
+        {
+          "id": "1459",
+          "title": "Egypt timeline of the Arab Spring since Hosni Mubarak's ouster",
+          "snippet": "Egypt timeline of the Arab Spring since Hosni Mubarak's ouster   Telegraph\n 13: Authorities say Mubarak is being held in a hospital in Sharm el-Sheikh.\n 7: Fifteen die and 200 injured … ",
+          "url": "",
+          "timestamp": "2012-06-24",
+          "score": 9.231440977468193,
+          "topic": "egypt"
+        },
+        {
+          "id": "5047",
+          "title": "Timeline The fall of Egypt President Hosni Mubarak",
+          "snippet": "Timeline The fall of Egypt President Hosni Mubarak  National Post\nHere is a timeline of the events in the uprising against Egyptian President Hosni Mubarak who stepped down on Friday, the 18th … ",
+          "url": "",
+          "timestamp": "2011-02-11",
+          "score": 8.852855962043556,
+          "topic": "egypt"
+        },
+        {
+          "id": "2409",
+          "title": "LINE  The changing U.S. reaction to Egypt's crisis",
+          "snippet": " … Egypt's crisis\nU.S. President Barack Obama makes a statement about Egypt in the Grand Foyer of the White House in Washington February 11, 2011.\nREUTERS - Following is a timeline of … ",
+          "url": "",
+          "timestamp": "2011-02-12",
+          "score": 8.593621173967126,
+          "topic": "egypt"
+        },
+        {
+          "id": "5061",
+          "title": "The Digital Road to Egypt’s Revolution",
+          "snippet": "The Digital Road to Egypt’s Revolution\nA year after Egypt’s revolution inspired the world, we know only fragments of the story. The overthrow of President Zine el-Abidine Ben Ali … ",
+          "url": "",
+          "timestamp": "2012-02-10",
+          "score": 8.315736613888754,
+          "topic": "egypt"
+        },
+        {
+          "id": "5727",
+          "title": "Egypt Interim President’s Transition Plan Sparks Angry Reactions",
+          "snippet": "Egypt Interim President’s Transition Plan Sparks Angry Reactions  TIME\nAmid a political crisis where nothing important seems to happen before 10 p.m., the timing of interim Egyptian President Adly Mansour … ",
+          "url": "",
+          "timestamp": "2013-07-09",
+          "score": 8.297548577721313,
+          "topic": "egypt"
+        },
+        {
+          "id": "3312",
+          "title": "Egypt Elections Key Events Timeline In Egyptian Uprising And Transition",
+          "snippet": "Egypt Elections Key Events Timeline In Egyptian Uprising And Transition\nFireworks illuminate Tahrir Square in Cairo, Egypt, to celebrate the victory of Mohammed Morsi, in the country's presidential election, Sunday, June … ",
+          "url": "",
+          "timestamp": "2012-06-24",
+          "score": 8.171493310106348,
+          "topic": "egypt"
+        },
+        {
+          "id": "2985",
+          "title": "Egypt elections timeline of the Revolution",
+          "snippet": "Egypt elections timeline of the Revolution  Telegraph\nEgyptians head to polls for day two of presidential election\n- 11: After daily protests, president Hosni Mubarak steps down and leaves the    capital. He hands … ",
+          "url": "",
+          "timestamp": "2012-05-23",
+          "score": 8.12455341202948,
+          "topic": "egypt"
+        },
+        {
+          "id": "5044",
+          "title": "Brotherhood leader urges Egyptians to disown violence after deadly clashes",
+          "snippet": " … Egypt's fundamentalist Muslim Brotherhood is urging Egyptians to disown violence, saying that working through the ballot box is the best way to lift the country out of its current political crisis … ",
+          "url": "",
+          "timestamp": "2012-12-08",
+          "score": 7.732527709520513,
+          "topic": "egypt"
+        },
+        {
+          "id": "2190",
+          "title": "LINE  Protests in Egypt",
+          "snippet": "TIMELINE  Protests in Egypt\nPolice fire tear gas during a demonstration in Cairo January 28, 2011.\nREUTERS - Here is a timeline of events in Egypt since protests began.\nJan. 25 - Thousands of … ",
+          "url": "",
+          "timestamp": "2011-02-08",
+          "score": 7.670876042142821,
+          "topic": "egypt"
+        },
+        {
+          "id": "4931",
+          "title": "",
+          "snippet": " … Egypt held elections for the lower house of parliament - the first free polls in decades - and isgearing to elect a new upper house. A timeline is also in place to write a … ",
+          "url": "",
+          "timestamp": "2012-01-23",
+          "score": 7.629290496344421,
+          "topic": "egypt"
+        },
+        {
+          "id": "3579",
+          "title": "Egypt's Tahrir Square sees mass protests against ruling military",
+          "snippet": " … crisis deepens.\nEgyptians gather to protest in Tahrir Square on June 15, 2012 in Cairo, Egypt. (Daniel Berehulak/AFP/Getty Images)\nCAIRO, Egypt -- Massive demonstrations against Egypt's Supreme Council of Armed … ",
+          "url": "",
+          "timestamp": "2012-06-19",
+          "score": 7.587971097918147,
+          "topic": "egypt"
+        },
+        {
+          "id": "945",
+          "title": "How the oil price tracked Egypt's fears and joys",
+          "snippet": " … Here's a timeline of how the Egyptian unrest caused    similar unease in the markets. Click on the bubbles to view more.\nJanuary 25: Anti-government demonstrations begin in Egypt, 10 days … ",
+          "url": "",
+          "timestamp": "2011-02-11",
+          "score": 7.513710971091282,
+          "topic": "egypt"
+        },
+        {
+          "id": "1796",
+          "title": "",
+          "snippet": "Twitter\nAs the strife in Egypt continues, Twitter is testing out a translation service that lets users worldwide read the tweets of high-profile Egyptians in the users' own languages.\n\"Watching Egypt … ",
+          "url": "",
+          "timestamp": "2013-07-05",
+          "score": 7.234859123234317,
+          "topic": "egypt"
+        }
+      ],
+      "llm_calls": 1,
+      "audit": {
+        "text": "Timeline of Egypt crisis",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "prompt_tokens": 109,
+          "completion_tokens": 545,
+          "total_tokens": 654,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 539
+          },
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 109
+        },
+        "request_id": null
+      }
+    },
+    "chronos": {
+      "queries": [
+        "Egypt crisis 2011 revolution to 2013 coup: key events and dates",
+        "Egypt June 30 2013 anti-Morsi protests and Tamarod role in triggering the military ultimatum: key details and dates",
+        "Egypt July 3 2013 military ouster of Morsi: exact date of army statement, suspension of constitution, and appointment of Adly Mansour"
+      ],
+      "rounds": [
+        {
+          "round": 1,
+          "query": "Egypt crisis 2011 revolution to 2013 coup: key events and dates",
+          "results": [
+            {
+              "id": "3926",
+              "title": "Egypt Uprising 2013  Revolution not Coup   iReport",
+              "snippet": " … in Egypt and left many dead, in an attempt to suppress the protests before its start.\nI believe that the current events are not a crisis; simply Egyptians rose up to demand … ",
+              "url": "",
+              "timestamp": "2013-07-11",
+              "score": 15.594324596727711,
+              "topic": "egypt"
+            },
+            {
+              "id": "4431",
+              "title": "Christian Copts of California Tell President Obama Egypt Is Having A Revolution, Not A Coup!",
+              "snippet": "Christian Copts of California Tell President Obama Egypt Is Having A Revolution, Not A Coup!\n* Reuters is not responsible for the content in this press release.\nLOS ANGELES, July 8, 2013 /PRNewswire … ",
+              "url": "",
+              "timestamp": "2013-07-08",
+              "score": 15.280009639959115,
+              "topic": "egypt"
+            },
+            {
+              "id": "4200",
+              "title": "Mohamed Morsi ousted in Egypt's second revolution in two years",
+              "snippet": " … of Egypt's 2011 revolution, the ex-president's Islamist allies viewed it as a coup, and a betrayal of democracy. Thousands of Morsi supporters gathered in the streets to back him … ",
+              "url": "",
+              "timestamp": "2013-07-03",
+              "score": 14.519553870489272,
+              "topic": "egypt"
+            },
+            {
+              "id": "223",
+              "title": "Obama Meets on Egypt as Return to Elected Rule Urged",
+              "snippet": " … officials weigh how to respond to the Egyptian military’s overhaul of their elected government, while avoiding the word “coup” that could cost Egypt more than $1.5 billion in military and … ",
+              "url": "",
+              "timestamp": "2013-07-04",
+              "score": 14.200909315106921,
+              "topic": "egypt"
+            },
+            {
+              "id": "1940",
+              "title": "Morsi camp slams 'coup' as Egypt leader hit with travel ban",
+              "snippet": " … get to post on this page.\"\nThe announcement came after Morsi proposed a \"consensus government\" in a last-ditch bid to end Egypt's worst crisis since the 2011 revolution that overthrew … ",
+              "url": "",
+              "timestamp": "2013-07-03",
+              "score": 13.522817200229225,
+              "topic": "egypt"
+            },
+            {
+              "id": "1283",
+              "title": "Key congressionalmittee backs Egypt coup",
+              "snippet": " … to events in Egypt  which may itself be a key factor in how the coup-backed government behaves.\nShould the Obama administration decide to label what happened in Egypt a coup – something … ",
+              "url": "",
+              "timestamp": "2013-07-05",
+              "score": 13.261815491350655,
+              "topic": "egypt"
+            },
+            {
+              "id": "4544",
+              "title": "Malaysian students in Egypt face uncertainty over   exam dates",
+              "snippet": " … Many of them are using Twitter to post pictures of the tumultous events in Egypt, taking pictures of the rally goers and the massive protests from the windows of their homes.\nPresident … ",
+              "url": "",
+              "timestamp": "2013-07-05",
+              "score": 13.240252093896505,
+              "topic": "egypt"
+            },
+            {
+              "id": "2890",
+              "title": "Egypt protesters erupt in joy as army ousts Morsi",
+              "snippet": " … they cheered, ignited firecrackers and honked horns as soon as the army announced President Mohamed Morsi's rule was over, ending Egypt's worst crisis since its 2011 revolt.\nCamped out in … ",
+              "url": "",
+              "timestamp": "2013-07-03",
+              "score": 13.233934850448176,
+              "topic": "egypt"
+            },
+            {
+              "id": "608",
+              "title": "Key events in Egypt's revolution and upheaval",
+              "snippet": "Key events in Egypt's revolution and upheaval\nOpponents of Egypt's Islamist President Mohammed Morsi light flares in Tahrir Square in Cairo, Egypt, Tuesday, July 2, 2013. With a military deadline … ",
+              "url": "",
+              "timestamp": "2013-07-02",
+              "score": 13.213744011462662,
+              "topic": "egypt"
+            },
+            {
+              "id": "2603",
+              "title": "Is what happened in Egypt a coup or a revolution? Its both.",
+              "snippet": " … seemed unwilling to believe could be rooted in legitimate gripes.\nSo, were the events of July 3 a coup, or were they a second iteration of the February 2011 revolution? Was democracy … ",
+              "url": "",
+              "timestamp": "2013-07-03",
+              "score": 12.984560069101052,
+              "topic": "egypt"
+            },
+            {
+              "id": "4971",
+              "title": "When a coup is not called a coup",
+              "snippet": "When a coup is not called a coup\nJuly 6, 2013 -- Updated 2017 GMT (0417 HKT)\nThe overthrow of Egypt's Morsy meets most definitions of a coup\nBut the events in … ",
+              "url": "",
+              "timestamp": "2013-07-06",
+              "score": 12.982798052087755,
+              "topic": "egypt"
+            },
+            {
+              "id": "3264",
+              "title": "Egypt seeks quick elections, in shock at more bloodshed",
+              "snippet": " … ET 2013-07-09T00:05:33\nCAIRO (Reuters) - Egypt's interim head of state has set a speedy timetable for elections to drag the Arab world's biggest country from crisis, after … ",
+              "url": "",
+              "timestamp": "2013-07-08",
+              "score": 12.877896437003024,
+              "topic": "egypt"
+            },
+            {
+              "id": "2076",
+              "title": "Fearing chaos, U.S. wades into Egypt turmoil",
+              "snippet": " … revolution that led to strongman Hosni Mubarak’s toppling in 2011.\nObama told Mursi in their phone call that “the United States is committed to the democratic process in Egypt and does … ",
+              "url": "",
+              "timestamp": "2013-07-03",
+              "score": 12.681826255070986,
+              "topic": "egypt"
+            },
+            {
+              "id": "1336",
+              "title": "Egypt opposition says would not support 'military coup'",
+              "snippet": " … 1, 2013. Egypt's main opposition coalition says it would not support a \"military coup\" and trusted that an army statement giving political leaders 48 hours to resolve the current crisis did … ",
+              "url": "",
+              "timestamp": "2013-07-02",
+              "score": 12.67220093304713,
+              "topic": "egypt"
+            },
+            {
+              "id": "4121",
+              "title": "Egypt pressure on Morsi rises as military reiterates ultimatum",
+              "snippet": " … The military command again claimed that the widely anticipated events would not amount to a military coup. However, according to details of a roadmap for ending the crisis, obtained by Reuters, military … ",
+              "url": "",
+              "timestamp": "2013-07-02",
+              "score": 12.670227356963641,
+              "topic": "egypt"
+            },
+            {
+              "id": "1490",
+              "title": "Iranian lawmaker says Egypt president toppled because failed to exert influence over military",
+              "snippet": " … to solve key economic problems in Egypt.\nAfter Iran's Islamic Revolution, the new leadership formed military and security forces loyal to the clerics and others.\nMorsi, however, had little opportunity to … ",
+              "url": "",
+              "timestamp": "2013-07-04",
+              "score": 12.4507660850831,
+              "topic": "egypt"
+            },
+            {
+              "id": "5438",
+              "title": "Egypt names new prime minister after coup Who is Hazem Beblawi?",
+              "snippet": "Egypt names new prime minister after coup Who is Hazem Beblawi?  latimes\nJuly 9, 2013, 8:41 a.m.\nCAIRO  Hazem Beblawi, a leading liberal economist, was named Egypts caretaker prime minister … ",
+              "url": "",
+              "timestamp": "2013-07-09",
+              "score": 12.428202292335232,
+              "topic": "egypt"
+            },
+            {
+              "id": "1240",
+              "title": "Egypt on the edge after Mursi rebuffs army ultimatum",
+              "snippet": " … 2, 2013. REUTERS/Suhaib Salem\nCAIRO (Reuters) - President Mohamed Mursi clung to office on Tuesday after rebuffing an army ultimatum to force a resolution to Egypt's political crisis, and the ruling … ",
+              "url": "",
+              "timestamp": "2013-07-02",
+              "score": 12.385173693698206,
+              "topic": "egypt"
+            },
+            {
+              "id": "1544",
+              "title": "Lessons from Algeria Getting Egypt's revolution back on track  Opinion  Al Jazeera English",
+              "snippet": " … subsequent events of Algerias springof October 1988 and Egypts springof January 2011, but there are also major differences.\nThe principal similarity between Algeria in the 1990s and Egypt in 2011 and today … ",
+              "url": "",
+              "timestamp": "2013-07-17",
+              "score": 12.355524510756972,
+              "topic": "egypt"
+            },
+            {
+              "id": "1830",
+              "title": "Egypt's coup What we know",
+              "snippet": "Egypt's coup What we know\nJuly 4, 2013 -- Updated 1323 GMT (2123 HKT)\nMorsy ousted after rejecting army ultimatum to resolve the crisis within 48 hours\nSome analysts are warning of … ",
+              "url": "",
+              "timestamp": "2013-07-04",
+              "score": 12.325393054977384,
+              "topic": "egypt"
+            }
+          ],
+          "new_doc_ids": [
+            "3926",
+            "4431",
+            "4200",
+            "223",
+            "1940",
+            "1283",
+            "4544",
+            "2890",
+            "608",
+            "2603",
+            "4971",
+            "3264",
+            "2076",
+            "1336",
+            "4121",
+            "1490",
+            "5438",
+            "1240",
+            "1544",
+            "1830"
+          ],
+          "audit": {
+            "text": "Egypt crisis 2011 revolution to 2013 coup: key events and dates",
+            "model": "deepseek-v4-flash",
+            "usage": {
+              "prompt_tokens": 140,
+              "completion_tokens": 75,
+              "total_tokens": 215,
+              "prompt_tokens_details": {
+                "cached_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 58
+              },
+              "prompt_cache_hit_tokens": 0,
+              "prompt_cache_miss_tokens": 140
+            },
+            "request_id": null
+          }
+        },
+        {
+          "round": 2,
+          "query": "Egypt June 30 2013 anti-Morsi protests and Tamarod role in triggering the military ultimatum: key details and dates",
+          "results": [
+            {
+              "id": "4643",
+              "title": "Egypt's army issues 48 hours warning to political forces",
+              "snippet": " … Hundreds of Thousands of Egyptians demonstrate outside the presidential palace protesting against President Mohamed Morsi and the Muslim Brotherhood on June 30, 2013 in Cairo.  (Gianluigi Guercia/AFP/Getty Images)\nEgypt's … ",
+              "url": "",
+              "timestamp": "2013-07-01",
+              "score": 29.56851471285681,
+              "topic": "egypt"
+            },
+            {
+              "id": "1864",
+              "title": "Understanding Egyptian military's role in unrest as Morsi's deadline expires",
+              "snippet": " … of persistence yesterday in Egypt, as the imminent deadline for military intervention in the countrys demonstrations hangs over Egyptian President Mohamed Morsi and the Muslim Brotherhood.\nThe protests began on Sundaythe anniversary … ",
+              "url": "",
+              "timestamp": "2013-07-03",
+              "score": 26.392283598948154,
+              "topic": "egypt"
+            },
+            {
+              "id": "3440",
+              "title": "Egypt's presidency rejects army ultimatum",
+              "snippet": " … Morsi's Islamist supporters and a broad-based opposition.\nThe huge turnout for Sunday's protests, which the military put at millions nationwide, handed the initiative to the opposition Tamarod movement.\nTamarod … ",
+              "url": "",
+              "timestamp": "2013-07-01",
+              "score": 25.85855983649087,
+              "topic": "egypt"
+            },
+            {
+              "id": "755",
+              "title": "Four days that shook Morsi's rule in Egypt",
+              "snippet": " … in the canal cities of Suez and Port Said.\n- The army speaks of \"several million\" protesters and a military source tells AFP: \"It is the biggest protest in Egypt's history.\"\n- Morsi … ",
+              "url": "",
+              "timestamp": "2013-07-03",
+              "score": 25.773997118540176,
+              "topic": "egypt"
+            },
+            {
+              "id": "1940",
+              "title": "Morsi camp slams 'coup' as Egypt leader hit with travel ban",
+              "snippet": " … the Salafist Al-Nur party, the Freedom and Justice Party, the political wing of Morsi's Muslim Brotherhood, and members of the Tamarod movement that organised the anti-Morsi protests.\nMilitary spokesman … ",
+              "url": "",
+              "timestamp": "2013-07-03",
+              "score": 25.05103828574641,
+              "topic": "egypt"
+            },
+            {
+              "id": "2967",
+              "title": "Egypt deeper in crisis as Morsi rebuffs army ultimatum",
+              "snippet": " … the streets in Cairo, Alexandria and several other provinces, waving flags, chanting for the army and against Morsi.\nTamarod, the grassroots campaign behind Sunday's massive protests against Morsi, also hailed the … ",
+              "url": "",
+              "timestamp": "2013-07-02",
+              "score": 24.85911552723351,
+              "topic": "egypt"
+            },
+            {
+              "id": "4200",
+              "title": "Mohamed Morsi ousted in Egypt's second revolution in two years",
+              "snippet": " … Morsi's national security adviser, Essam Haddad, seemed to confirm to both camps that the military was taking a new role in post-revolutionary Egypt. \"For the sake of Egypt and for … ",
+              "url": "",
+              "timestamp": "2013-07-03",
+              "score": 24.4817346641285,
+              "topic": "egypt"
+            },
+            {
+              "id": "497",
+              "title": "Egypt on Edge After Armys Ultimatum to President",
+              "snippet": " … administration supports peaceful democratic transition in Egypt.\nThe militarys statement came on the second day straight day of anti-Morsi protests nationwide, and even though many of the opposition supporters welcomed it … ",
+              "url": "",
+              "timestamp": "2013-07-02",
+              "score": 24.46966346652897,
+              "topic": "egypt"
+            },
+            {
+              "id": "963",
+              "title": "Egypt since Morsi came to power",
+              "snippet": " … Morsi in Cairo's landmark Tahrir Square on June 29, 2013.AFP\nCAIRO (AFP)  Key developments in Egypt since Islamist President Mohamed Morsi took the oath one year ago.\n- 30: Morsi, elected … ",
+              "url": "",
+              "timestamp": "2013-06-30",
+              "score": 24.437716785190187,
+              "topic": "egypt"
+            },
+            {
+              "id": "3501",
+              "title": "Four days that ended Morsi's rule in Egypt",
+              "snippet": " … in the canal cities of Suez and Port Said.\n- The army speaks of \"several million\" protesters and a military source tells AFP: \"It is the biggest protest in Egypt's history.\"\n- Morsi … ",
+              "url": "",
+              "timestamp": "2013-07-03",
+              "score": 24.293842147809997,
+              "topic": "egypt"
+            },
+            {
+              "id": "2654",
+              "title": "Egypt protests Morsi yet to respond to army ultimatum",
+              "snippet": " … administration supports peaceful democratic transition in Egypt.\nThe militarys statement came on the second day straight day of anti-Morsi protests nationwide, and even though many of the opposition supporters welcomed it … ",
+              "url": "",
+              "timestamp": "2013-07-02",
+              "score": 24.27445180184094,
+              "topic": "egypt"
+            },
+            {
+              "id": "3142",
+              "title": "Four days that shook Morsi's rule in Egypt",
+              "snippet": " … in the canal cities of Suez and Port Said.\n- The army speaks of \"several million\" protesters and a military source tells AFP: \"It is the biggest protest in Egypt's history.\"\n- Morsi … ",
+              "url": "",
+              "timestamp": "2013-07-03",
+              "score": 24.168256035709714,
+              "topic": "egypt"
+            },
+            {
+              "id": "544",
+              "title": "Egypt Uprising 2013, Morsi Ousted  The END!   iReport",
+              "snippet": " … June 30 made a great start with millions of people revolting in almost all governorates of Egypt. With red cards and whistles, Egypt declared Morsi out. Rules were put for the protesters … ",
+              "url": "",
+              "timestamp": "2013-07-03",
+              "score": 23.532354549043557,
+              "topic": "egypt"
+            },
+            {
+              "id": "5334",
+              "title": "Egypt Uprising 2013  The final rehearsal of June30 (RED CARD)!   iReport",
+              "snippet": " … Egyptians took their decision and raised the red card against President Mohamed Morsi!\nAs Egypt approaches June 30, the date of the uprising called for by Tamarod (Rebel), a movement that has … ",
+              "url": "",
+              "timestamp": "2013-06-29",
+              "score": 23.519653981030267,
+              "topic": "egypt"
+            },
+            {
+              "id": "4583",
+              "title": "Fears of more unrest as rival protesters mass in Egypt",
+              "snippet": "Fears of more unrest as rival protesters mass in Egypt\nSupporters of Egyptian President Mohamed Morsi and anti-Morsi protesters clash in Sedy Gaber in Alexandria, June 28, 2013.REUTERS/Stringer\nCAIRO … ",
+              "url": "",
+              "timestamp": "2013-06-28",
+              "score": 22.692702891811024,
+              "topic": "egypt"
+            },
+            {
+              "id": "787",
+              "title": "",
+              "snippet": " … The Tamarod campaign – which brought millions on to the streets on 30 June in protests that led the army to oust Morsi – raised doubts over Egypt's new constitutional declaration , announced on … ",
+              "url": "",
+              "timestamp": "2013-07-11",
+              "score": 22.618446146232074,
+              "topic": "egypt"
+            },
+            {
+              "id": "2823",
+              "title": "Egypt Uprising 2013  June 30, the second wave of the revolution has started!   iReport",
+              "snippet": " … the revolution has started!   iReport\nEgypt Uprising 2013 - June 30, the second wave of the revolution has started!\n iReporter MahmoudGamal attended Sunday's protests in Cairo against President Mohamed Morsy and his … ",
+              "url": "",
+              "timestamp": "2013-06-30",
+              "score": 22.56509386624844,
+              "topic": "egypt"
+            },
+            {
+              "id": "2342",
+              "title": "Egypt PostRevolution Timeline Key Events Since Fall Of Mubarak",
+              "snippet": " … the military's role in political affairs, but it also gave Morsi the power to legislate in the absence of parliament.\nNov. 19  Members of liberal parties and representatives of Egypt's … ",
+              "url": "",
+              "timestamp": "2013-07-01",
+              "score": 22.320228532814735,
+              "topic": "egypt"
+            },
+            {
+              "id": "1631",
+              "title": "",
+              "snippet": " … He returned home to assume a role in the anti-Mubarak uprising and emerged as one of the most visible leaders in the badly fractured Egyptian liberal and secular opposition to Morsi … ",
+              "url": "",
+              "timestamp": "2013-07-14",
+              "score": 22.293324406767077,
+              "topic": "egypt"
+            },
+            {
+              "id": "487",
+              "title": "Will Obama and US stand with or against Egypt's people?",
+              "snippet": "Will Obama and US stand with or against Egypt's people?\nIn a rare historic moment for humanity, the BBC reported on June 30, 2013, that “the number of anti-Muslim Brotherhood … ",
+              "url": "",
+              "timestamp": "2013-07-01",
+              "score": 22.266881712846597,
+              "topic": "egypt"
+            }
+          ],
+          "new_doc_ids": [
+            "4643",
+            "1864",
+            "3440",
+            "755",
+            "2967",
+            "497",
+            "963",
+            "3501",
+            "2654",
+            "3142",
+            "544",
+            "5334",
+            "4583",
+            "787",
+            "2823",
+            "2342",
+            "1631",
+            "487"
+          ],
+          "audit": {
+            "text": "Egypt June 30 2013 anti-Morsi protests and Tamarod role in triggering the military ultimatum: key details and dates",
+            "model": "deepseek-v4-flash",
+            "usage": {
+              "prompt_tokens": 1798,
+              "completion_tokens": 360,
+              "total_tokens": 2158,
+              "prompt_tokens_details": {
+                "cached_tokens": 128
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 332
+              },
+              "prompt_cache_hit_tokens": 128,
+              "prompt_cache_miss_tokens": 1670
+            },
+            "request_id": null
+          }
+        },
+        {
+          "round": 3,
+          "query": "Egypt July 3 2013 military ouster of Morsi: exact date of army statement, suspension of constitution, and appointment of Adly Mansour",
+          "results": [
+            {
+              "id": "359",
+              "title": "Reactions to Morsi ouster reveal domestic politics",
+              "snippet": " … July 3, 2013, opponents of Egypt's Islamist leader Mohammed Morsi wave national flags to a passing underground train as they celebrate Morsi's ouster in Cairo, Egypt. The chief justice of … ",
+              "url": "",
+              "timestamp": "2013-07-03",
+              "score": 40.97580890627365,
+              "topic": "egypt"
+            },
+            {
+              "id": "3948",
+              "title": "Killing of 51 Egyptians triggers Islamist uprising call",
+              "snippet": " … of deposed president Mohamed Morsi protest near the headquarters of the Republican Guard in Cairo on July 8, 2013.AFP\nChronology with photos and map of the politcal crisis in Egypt.AFP … ",
+              "url": "",
+              "timestamp": "2013-07-08",
+              "score": 37.718024566124036,
+              "topic": "egypt"
+            },
+            {
+              "id": "1149",
+              "title": "Top Brotherhood figures seized in Egypt sweep",
+              "snippet": " … July 4, 2013. Adly Mansour, the chief justice of Egypt's Supreme Constitutional Court, was sworn in Thursday as the nation's interim president, taking over hours after the military ousted Morsi … ",
+              "url": "",
+              "timestamp": "2013-07-03",
+              "score": 37.33357571214714,
+              "topic": "egypt"
+            },
+            {
+              "id": "5538",
+              "title": "Questions and answers about Egypt's latest turmoil",
+              "snippet": " … is customary in Egypt in such cases. There are fears among activists that Morsi's ouster could usher in yet another era of army rule. However, the military statement  did not include … ",
+              "url": "",
+              "timestamp": "2013-07-04",
+              "score": 32.69899230035214,
+              "topic": "egypt"
+            },
+            {
+              "id": "5727",
+              "title": "Egypt Interim President’s Transition Plan Sparks Angry Reactions",
+              "snippet": " … Until the new parliament is elected, Mansour will hold both legislative and executive authority.\nThe sheer speed of the process is likely meant to assuage fears that the military — which ousted Morsi … ",
+              "url": "",
+              "timestamp": "2013-07-09",
+              "score": 30.55470360317442,
+              "topic": "egypt"
+            },
+            {
+              "id": "3321",
+              "title": "Egypt Muslim Brotherhood accuses military of 'massacre' after Morsi supporters shot dead in Cairo",
+              "snippet": "Egypt Muslim Brotherhood accuses military of 'massacre' after Morsi supporters shot dead in Cairo (VIDEO)  GlobalPost\nNews DeskJuly 8, 2013 04:09Updated July 8, 2013 14:00\nEgypt: Muslim Brotherhood accuses military … ",
+              "url": "",
+              "timestamp": "2013-07-08",
+              "score": 29.906050084052442,
+              "topic": "egypt"
+            },
+            {
+              "id": "2009",
+              "title": "In Egypt, U.S. envoy calls for political transition, end to unrest",
+              "snippet": " … Deputy Secretary of State William J. Burns, left, meets with Egypt's interim president, Adly Mahmoud Mansour, at the presidential palace in Cairo. (Khaled Desouki / AFP/Getty Images / July 15, 2013)\nJuly … ",
+              "url": "",
+              "timestamp": "2013-07-15",
+              "score": 29.625400389595853,
+              "topic": "egypt"
+            },
+            {
+              "id": "3552",
+              "title": "Egypt Muslim Brotherhood rejects interim leader Adly Mansour's promise of fresh election",
+              "snippet": " … Supporters of deposed Egyptian President Mohammed Morsi demonstrate at the Rabaa al-Adweya Mosque in the Nasr City district on July 8, 2013 in Cairo, Egypt. Egyptian health ministry officials are reporting … ",
+              "url": "",
+              "timestamp": "2013-07-09",
+              "score": 29.41462605683282,
+              "topic": "egypt"
+            },
+            {
+              "id": "223",
+              "title": "Obama Meets on Egypt as Return to Elected Rule Urged",
+              "snippet": " … 2013.  Photographer: Spencer Platt/Getty Images\nJuly 3 (Bloomberg) -- Egyptian Defense Minister Abdelfatah al-Seesi speaks on a televised broadcast about the military's ouster of President Mohamed Mursi and suspension of … ",
+              "url": "",
+              "timestamp": "2013-07-04",
+              "score": 29.39984015547196,
+              "topic": "egypt"
+            },
+            {
+              "id": "2434",
+              "title": "US officials approach tumult in Egypt with caution",
+              "snippet": " … On Thursday, the supreme justice of Egypt's Supreme Constitutional Court, Adly Mansour, was sworn in as interim president.\nOn his other request — that the military not arbitrarily arrest Morsi or aides … ",
+              "url": "",
+              "timestamp": "2013-07-04",
+              "score": 29.060174823613416,
+              "topic": "egypt"
+            },
+            {
+              "id": "4611",
+              "title": "Egypt braces for new unrest as Morsi supporters plan protests",
+              "snippet": " … The military also suspended the constitution, dissolved parliament and installed an interim president but has yet to announce a date for new elections.\nThe interim leader, Judge Adly Mahmoud Mansour, head of … ",
+              "url": "",
+              "timestamp": "2013-07-05",
+              "score": 28.97994734430366,
+              "topic": "egypt"
+            },
+            {
+              "id": "549",
+              "title": "Muslim Brotherhood’s supreme leader arrested hours before Egypt’s interim president sworn in",
+              "snippet": " … Brotherhood and Morsi supporters are camped.\nOutside the Supreme Constitutional Court, Army soldiers keep guard during the swearing-in ceremony of the head of Egypt's Constitutional Court, Adly Mansour, as the … ",
+              "url": "",
+              "timestamp": "2013-07-04",
+              "score": 28.94674571512878,
+              "topic": "egypt"
+            },
+            {
+              "id": "2330",
+              "title": "World reacts to Egypt's coup",
+              "snippet": " … news of the suspension of Egypt's constitution and the removal of President Mohamed Morsy from power,\" said Marcin Bosacki, Poland's Ministry of Foreign Affairs spokesman, in a statement.\n\"Such a … ",
+              "url": "",
+              "timestamp": "2013-07-04",
+              "score": 28.93554649470478,
+              "topic": "egypt"
+            },
+            {
+              "id": "1776",
+              "title": "U.S. Officials Approach Egypt Crisis With Caution",
+              "snippet": " … army toppling Islamist President Mohamed Morsi in Egypt's landmark Tahrir square on July 3, 2013 in Cairo, Egypt. Opposition leader Mohamed ElBaradei and the heads of the Coptic Church and Al … ",
+              "url": "",
+              "timestamp": "2013-07-04",
+              "score": 28.498578061473086,
+              "topic": "egypt"
+            },
+            {
+              "id": "1474",
+              "title": "Egypt crisis Adly Mansour takes over for ousted Morsi",
+              "snippet": " … Nevertheless, we are deeply concerned by the decision of the Egyptian armed forces to remove President Morsi and suspend the Egyptian constitution.\nHe notably stopped short of labeling Morsis ouster a coup … ",
+              "url": "",
+              "timestamp": "2013-07-04",
+              "score": 28.393091412226372,
+              "topic": "egypt"
+            },
+            {
+              "id": "742",
+              "title": "Mansour Seeks to Form Government Ahead of Planned Protest",
+              "snippet": " … and warned against any “provocative acts” in a statement on the Facebook page of its spokesman.\nThe turmoil convulsing Egypt after Mursi’s removal by the military sparked clashes on July 5 … ",
+              "url": "",
+              "timestamp": "2013-07-07",
+              "score": 28.065961318047535,
+              "topic": "egypt"
+            },
+            {
+              "id": "2081",
+              "title": "",
+              "snippet": " … zealousness.\"\nA spokesman for Mansour announced the appointment of el-Beblawi as prime minister and of pro-democracy leader Mohamed ElBaradei, a leader of the National Salvation Front, as vice president.\nThe … ",
+              "url": "",
+              "timestamp": "2013-07-10",
+              "score": 27.999515324298855,
+              "topic": "egypt"
+            },
+            {
+              "id": "3664",
+              "title": "Egyptian army cracks down on Muslim Brotherhood",
+              "snippet": " … aside Morsi, army chief Gen. Abdel-Fattah el-Sissi announced Wednesday in a televised speech that the military had suspended the Islamist-drafted constitution, and that a civilian Cabinet of technocrat would … ",
+              "url": "",
+              "timestamp": "2013-07-04",
+              "score": 27.49681028603176,
+              "topic": "egypt"
+            },
+            {
+              "id": "4914",
+              "title": "Egypt on the Brink Dozens of Morsi Supporters Killed in Cairo as Crisis Deepens",
+              "snippet": " … and social luminaries backing the military’s move.\nThe Nour Party, however, are active lynchpins of the new coalition; their presence among those publicly endorsing the military’s ouster of Morsi is … ",
+              "url": "",
+              "timestamp": "2013-07-08",
+              "score": 27.372185871558397,
+              "topic": "egypt"
+            },
+            {
+              "id": "5651",
+              "title": "Egypt rounds up Morsi's Brotherhood leadership",
+              "snippet": " … Thousands of protesters dispersed after celebrating wildly through the night at the news of his downfall.\nEgypt's press almost unanimously hailed Morsi's ouster as a \"legitimate\" revolution.\n\"And the people … ",
+              "url": "",
+              "timestamp": "2013-07-04",
+              "score": 27.30636940338777,
+              "topic": "egypt"
+            }
+          ],
+          "new_doc_ids": [
+            "359",
+            "3948",
+            "1149",
+            "5538",
+            "5727",
+            "3321",
+            "2009",
+            "3552",
+            "2434",
+            "4611",
+            "549",
+            "2330",
+            "1776",
+            "1474",
+            "742",
+            "2081",
+            "3664",
+            "4914",
+            "5651"
+          ],
+          "audit": {
+            "text": "Egypt July 3 2013 military ouster of Morsi: exact date of army statement, suspension of constitution, and appointment of Adly Mansour",
+            "model": "deepseek-v4-flash",
+            "usage": {
+              "prompt_tokens": 1786,
+              "completion_tokens": 316,
+              "total_tokens": 2102,
+              "prompt_tokens_details": {
+                "cached_tokens": 128
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 284
+              },
+              "prompt_cache_hit_tokens": 128,
+              "prompt_cache_miss_tokens": 1658
+            },
+            "request_id": null
+          }
+        }
+      ],
+      "unique_results": [
+        {
+          "id": "3926",
+          "title": "Egypt Uprising 2013  Revolution not Coup   iReport",
+          "snippet": " … in Egypt and left many dead, in an attempt to suppress the protests before its start.\nI believe that the current events are not a crisis; simply Egyptians rose up to demand … ",
+          "url": "",
+          "timestamp": "2013-07-11",
+          "score": 15.594324596727711,
+          "topic": "egypt"
+        },
+        {
+          "id": "4431",
+          "title": "Christian Copts of California Tell President Obama Egypt Is Having A Revolution, Not A Coup!",
+          "snippet": "Christian Copts of California Tell President Obama Egypt Is Having A Revolution, Not A Coup!\n* Reuters is not responsible for the content in this press release.\nLOS ANGELES, July 8, 2013 /PRNewswire … ",
+          "url": "",
+          "timestamp": "2013-07-08",
+          "score": 15.280009639959115,
+          "topic": "egypt"
+        },
+        {
+          "id": "4200",
+          "title": "Mohamed Morsi ousted in Egypt's second revolution in two years",
+          "snippet": " … of Egypt's 2011 revolution, the ex-president's Islamist allies viewed it as a coup, and a betrayal of democracy. Thousands of Morsi supporters gathered in the streets to back him … ",
+          "url": "",
+          "timestamp": "2013-07-03",
+          "score": 14.519553870489272,
+          "topic": "egypt"
+        },
+        {
+          "id": "223",
+          "title": "Obama Meets on Egypt as Return to Elected Rule Urged",
+          "snippet": " … officials weigh how to respond to the Egyptian military’s overhaul of their elected government, while avoiding the word “coup” that could cost Egypt more than $1.5 billion in military and … ",
+          "url": "",
+          "timestamp": "2013-07-04",
+          "score": 14.200909315106921,
+          "topic": "egypt"
+        },
+        {
+          "id": "1940",
+          "title": "Morsi camp slams 'coup' as Egypt leader hit with travel ban",
+          "snippet": " … get to post on this page.\"\nThe announcement came after Morsi proposed a \"consensus government\" in a last-ditch bid to end Egypt's worst crisis since the 2011 revolution that overthrew … ",
+          "url": "",
+          "timestamp": "2013-07-03",
+          "score": 13.522817200229225,
+          "topic": "egypt"
+        },
+        {
+          "id": "1283",
+          "title": "Key congressionalmittee backs Egypt coup",
+          "snippet": " … to events in Egypt  which may itself be a key factor in how the coup-backed government behaves.\nShould the Obama administration decide to label what happened in Egypt a coup – something … ",
+          "url": "",
+          "timestamp": "2013-07-05",
+          "score": 13.261815491350655,
+          "topic": "egypt"
+        },
+        {
+          "id": "4544",
+          "title": "Malaysian students in Egypt face uncertainty over   exam dates",
+          "snippet": " … Many of them are using Twitter to post pictures of the tumultous events in Egypt, taking pictures of the rally goers and the massive protests from the windows of their homes.\nPresident … ",
+          "url": "",
+          "timestamp": "2013-07-05",
+          "score": 13.240252093896505,
+          "topic": "egypt"
+        },
+        {
+          "id": "2890",
+          "title": "Egypt protesters erupt in joy as army ousts Morsi",
+          "snippet": " … they cheered, ignited firecrackers and honked horns as soon as the army announced President Mohamed Morsi's rule was over, ending Egypt's worst crisis since its 2011 revolt.\nCamped out in … ",
+          "url": "",
+          "timestamp": "2013-07-03",
+          "score": 13.233934850448176,
+          "topic": "egypt"
+        },
+        {
+          "id": "608",
+          "title": "Key events in Egypt's revolution and upheaval",
+          "snippet": "Key events in Egypt's revolution and upheaval\nOpponents of Egypt's Islamist President Mohammed Morsi light flares in Tahrir Square in Cairo, Egypt, Tuesday, July 2, 2013. With a military deadline … ",
+          "url": "",
+          "timestamp": "2013-07-02",
+          "score": 13.213744011462662,
+          "topic": "egypt"
+        },
+        {
+          "id": "2603",
+          "title": "Is what happened in Egypt a coup or a revolution? Its both.",
+          "snippet": " … seemed unwilling to believe could be rooted in legitimate gripes.\nSo, were the events of July 3 a coup, or were they a second iteration of the February 2011 revolution? Was democracy … ",
+          "url": "",
+          "timestamp": "2013-07-03",
+          "score": 12.984560069101052,
+          "topic": "egypt"
+        },
+        {
+          "id": "4971",
+          "title": "When a coup is not called a coup",
+          "snippet": "When a coup is not called a coup\nJuly 6, 2013 -- Updated 2017 GMT (0417 HKT)\nThe overthrow of Egypt's Morsy meets most definitions of a coup\nBut the events in … ",
+          "url": "",
+          "timestamp": "2013-07-06",
+          "score": 12.982798052087755,
+          "topic": "egypt"
+        },
+        {
+          "id": "3264",
+          "title": "Egypt seeks quick elections, in shock at more bloodshed",
+          "snippet": " … ET 2013-07-09T00:05:33\nCAIRO (Reuters) - Egypt's interim head of state has set a speedy timetable for elections to drag the Arab world's biggest country from crisis, after … ",
+          "url": "",
+          "timestamp": "2013-07-08",
+          "score": 12.877896437003024,
+          "topic": "egypt"
+        },
+        {
+          "id": "2076",
+          "title": "Fearing chaos, U.S. wades into Egypt turmoil",
+          "snippet": " … revolution that led to strongman Hosni Mubarak’s toppling in 2011.\nObama told Mursi in their phone call that “the United States is committed to the democratic process in Egypt and does … ",
+          "url": "",
+          "timestamp": "2013-07-03",
+          "score": 12.681826255070986,
+          "topic": "egypt"
+        },
+        {
+          "id": "1336",
+          "title": "Egypt opposition says would not support 'military coup'",
+          "snippet": " … 1, 2013. Egypt's main opposition coalition says it would not support a \"military coup\" and trusted that an army statement giving political leaders 48 hours to resolve the current crisis did … ",
+          "url": "",
+          "timestamp": "2013-07-02",
+          "score": 12.67220093304713,
+          "topic": "egypt"
+        },
+        {
+          "id": "4121",
+          "title": "Egypt pressure on Morsi rises as military reiterates ultimatum",
+          "snippet": " … The military command again claimed that the widely anticipated events would not amount to a military coup. However, according to details of a roadmap for ending the crisis, obtained by Reuters, military … ",
+          "url": "",
+          "timestamp": "2013-07-02",
+          "score": 12.670227356963641,
+          "topic": "egypt"
+        },
+        {
+          "id": "1490",
+          "title": "Iranian lawmaker says Egypt president toppled because failed to exert influence over military",
+          "snippet": " … to solve key economic problems in Egypt.\nAfter Iran's Islamic Revolution, the new leadership formed military and security forces loyal to the clerics and others.\nMorsi, however, had little opportunity to … ",
+          "url": "",
+          "timestamp": "2013-07-04",
+          "score": 12.4507660850831,
+          "topic": "egypt"
+        },
+        {
+          "id": "5438",
+          "title": "Egypt names new prime minister after coup Who is Hazem Beblawi?",
+          "snippet": "Egypt names new prime minister after coup Who is Hazem Beblawi?  latimes\nJuly 9, 2013, 8:41 a.m.\nCAIRO  Hazem Beblawi, a leading liberal economist, was named Egypts caretaker prime minister … ",
+          "url": "",
+          "timestamp": "2013-07-09",
+          "score": 12.428202292335232,
+          "topic": "egypt"
+        },
+        {
+          "id": "1240",
+          "title": "Egypt on the edge after Mursi rebuffs army ultimatum",
+          "snippet": " … 2, 2013. REUTERS/Suhaib Salem\nCAIRO (Reuters) - President Mohamed Mursi clung to office on Tuesday after rebuffing an army ultimatum to force a resolution to Egypt's political crisis, and the ruling … ",
+          "url": "",
+          "timestamp": "2013-07-02",
+          "score": 12.385173693698206,
+          "topic": "egypt"
+        },
+        {
+          "id": "1544",
+          "title": "Lessons from Algeria Getting Egypt's revolution back on track  Opinion  Al Jazeera English",
+          "snippet": " … subsequent events of Algerias springof October 1988 and Egypts springof January 2011, but there are also major differences.\nThe principal similarity between Algeria in the 1990s and Egypt in 2011 and today … ",
+          "url": "",
+          "timestamp": "2013-07-17",
+          "score": 12.355524510756972,
+          "topic": "egypt"
+        },
+        {
+          "id": "1830",
+          "title": "Egypt's coup What we know",
+          "snippet": "Egypt's coup What we know\nJuly 4, 2013 -- Updated 1323 GMT (2123 HKT)\nMorsy ousted after rejecting army ultimatum to resolve the crisis within 48 hours\nSome analysts are warning of … ",
+          "url": "",
+          "timestamp": "2013-07-04",
+          "score": 12.325393054977384,
+          "topic": "egypt"
+        },
+        {
+          "id": "4643",
+          "title": "Egypt's army issues 48 hours warning to political forces",
+          "snippet": " … Hundreds of Thousands of Egyptians demonstrate outside the presidential palace protesting against President Mohamed Morsi and the Muslim Brotherhood on June 30, 2013 in Cairo.  (Gianluigi Guercia/AFP/Getty Images)\nEgypt's … ",
+          "url": "",
+          "timestamp": "2013-07-01",
+          "score": 29.56851471285681,
+          "topic": "egypt"
+        },
+        {
+          "id": "1864",
+          "title": "Understanding Egyptian military's role in unrest as Morsi's deadline expires",
+          "snippet": " … of persistence yesterday in Egypt, as the imminent deadline for military intervention in the countrys demonstrations hangs over Egyptian President Mohamed Morsi and the Muslim Brotherhood.\nThe protests began on Sundaythe anniversary … ",
+          "url": "",
+          "timestamp": "2013-07-03",
+          "score": 26.392283598948154,
+          "topic": "egypt"
+        },
+        {
+          "id": "3440",
+          "title": "Egypt's presidency rejects army ultimatum",
+          "snippet": " … Morsi's Islamist supporters and a broad-based opposition.\nThe huge turnout for Sunday's protests, which the military put at millions nationwide, handed the initiative to the opposition Tamarod movement.\nTamarod … ",
+          "url": "",
+          "timestamp": "2013-07-01",
+          "score": 25.85855983649087,
+          "topic": "egypt"
+        },
+        {
+          "id": "755",
+          "title": "Four days that shook Morsi's rule in Egypt",
+          "snippet": " … in the canal cities of Suez and Port Said.\n- The army speaks of \"several million\" protesters and a military source tells AFP: \"It is the biggest protest in Egypt's history.\"\n- Morsi … ",
+          "url": "",
+          "timestamp": "2013-07-03",
+          "score": 25.773997118540176,
+          "topic": "egypt"
+        },
+        {
+          "id": "2967",
+          "title": "Egypt deeper in crisis as Morsi rebuffs army ultimatum",
+          "snippet": " … the streets in Cairo, Alexandria and several other provinces, waving flags, chanting for the army and against Morsi.\nTamarod, the grassroots campaign behind Sunday's massive protests against Morsi, also hailed the … ",
+          "url": "",
+          "timestamp": "2013-07-02",
+          "score": 24.85911552723351,
+          "topic": "egypt"
+        },
+        {
+          "id": "497",
+          "title": "Egypt on Edge After Armys Ultimatum to President",
+          "snippet": " … administration supports peaceful democratic transition in Egypt.\nThe militarys statement came on the second day straight day of anti-Morsi protests nationwide, and even though many of the opposition supporters welcomed it … ",
+          "url": "",
+          "timestamp": "2013-07-02",
+          "score": 24.46966346652897,
+          "topic": "egypt"
+        },
+        {
+          "id": "963",
+          "title": "Egypt since Morsi came to power",
+          "snippet": " … Morsi in Cairo's landmark Tahrir Square on June 29, 2013.AFP\nCAIRO (AFP)  Key developments in Egypt since Islamist President Mohamed Morsi took the oath one year ago.\n- 30: Morsi, elected … ",
+          "url": "",
+          "timestamp": "2013-06-30",
+          "score": 24.437716785190187,
+          "topic": "egypt"
+        },
+        {
+          "id": "3501",
+          "title": "Four days that ended Morsi's rule in Egypt",
+          "snippet": " … in the canal cities of Suez and Port Said.\n- The army speaks of \"several million\" protesters and a military source tells AFP: \"It is the biggest protest in Egypt's history.\"\n- Morsi … ",
+          "url": "",
+          "timestamp": "2013-07-03",
+          "score": 24.293842147809997,
+          "topic": "egypt"
+        },
+        {
+          "id": "2654",
+          "title": "Egypt protests Morsi yet to respond to army ultimatum",
+          "snippet": " … administration supports peaceful democratic transition in Egypt.\nThe militarys statement came on the second day straight day of anti-Morsi protests nationwide, and even though many of the opposition supporters welcomed it … ",
+          "url": "",
+          "timestamp": "2013-07-02",
+          "score": 24.27445180184094,
+          "topic": "egypt"
+        },
+        {
+          "id": "3142",
+          "title": "Four days that shook Morsi's rule in Egypt",
+          "snippet": " … in the canal cities of Suez and Port Said.\n- The army speaks of \"several million\" protesters and a military source tells AFP: \"It is the biggest protest in Egypt's history.\"\n- Morsi … ",
+          "url": "",
+          "timestamp": "2013-07-03",
+          "score": 24.168256035709714,
+          "topic": "egypt"
+        },
+        {
+          "id": "544",
+          "title": "Egypt Uprising 2013, Morsi Ousted  The END!   iReport",
+          "snippet": " … June 30 made a great start with millions of people revolting in almost all governorates of Egypt. With red cards and whistles, Egypt declared Morsi out. Rules were put for the protesters … ",
+          "url": "",
+          "timestamp": "2013-07-03",
+          "score": 23.532354549043557,
+          "topic": "egypt"
+        },
+        {
+          "id": "5334",
+          "title": "Egypt Uprising 2013  The final rehearsal of June30 (RED CARD)!   iReport",
+          "snippet": " … Egyptians took their decision and raised the red card against President Mohamed Morsi!\nAs Egypt approaches June 30, the date of the uprising called for by Tamarod (Rebel), a movement that has … ",
+          "url": "",
+          "timestamp": "2013-06-29",
+          "score": 23.519653981030267,
+          "topic": "egypt"
+        },
+        {
+          "id": "4583",
+          "title": "Fears of more unrest as rival protesters mass in Egypt",
+          "snippet": "Fears of more unrest as rival protesters mass in Egypt\nSupporters of Egyptian President Mohamed Morsi and anti-Morsi protesters clash in Sedy Gaber in Alexandria, June 28, 2013.REUTERS/Stringer\nCAIRO … ",
+          "url": "",
+          "timestamp": "2013-06-28",
+          "score": 22.692702891811024,
+          "topic": "egypt"
+        },
+        {
+          "id": "787",
+          "title": "",
+          "snippet": " … The Tamarod campaign – which brought millions on to the streets on 30 June in protests that led the army to oust Morsi – raised doubts over Egypt's new constitutional declaration , announced on … ",
+          "url": "",
+          "timestamp": "2013-07-11",
+          "score": 22.618446146232074,
+          "topic": "egypt"
+        },
+        {
+          "id": "2823",
+          "title": "Egypt Uprising 2013  June 30, the second wave of the revolution has started!   iReport",
+          "snippet": " … the revolution has started!   iReport\nEgypt Uprising 2013 - June 30, the second wave of the revolution has started!\n iReporter MahmoudGamal attended Sunday's protests in Cairo against President Mohamed Morsy and his … ",
+          "url": "",
+          "timestamp": "2013-06-30",
+          "score": 22.56509386624844,
+          "topic": "egypt"
+        },
+        {
+          "id": "2342",
+          "title": "Egypt PostRevolution Timeline Key Events Since Fall Of Mubarak",
+          "snippet": " … the military's role in political affairs, but it also gave Morsi the power to legislate in the absence of parliament.\nNov. 19  Members of liberal parties and representatives of Egypt's … ",
+          "url": "",
+          "timestamp": "2013-07-01",
+          "score": 22.320228532814735,
+          "topic": "egypt"
+        },
+        {
+          "id": "1631",
+          "title": "",
+          "snippet": " … He returned home to assume a role in the anti-Mubarak uprising and emerged as one of the most visible leaders in the badly fractured Egyptian liberal and secular opposition to Morsi … ",
+          "url": "",
+          "timestamp": "2013-07-14",
+          "score": 22.293324406767077,
+          "topic": "egypt"
+        },
+        {
+          "id": "487",
+          "title": "Will Obama and US stand with or against Egypt's people?",
+          "snippet": "Will Obama and US stand with or against Egypt's people?\nIn a rare historic moment for humanity, the BBC reported on June 30, 2013, that “the number of anti-Muslim Brotherhood … ",
+          "url": "",
+          "timestamp": "2013-07-01",
+          "score": 22.266881712846597,
+          "topic": "egypt"
+        },
+        {
+          "id": "359",
+          "title": "Reactions to Morsi ouster reveal domestic politics",
+          "snippet": " … July 3, 2013, opponents of Egypt's Islamist leader Mohammed Morsi wave national flags to a passing underground train as they celebrate Morsi's ouster in Cairo, Egypt. The chief justice of … ",
+          "url": "",
+          "timestamp": "2013-07-03",
+          "score": 40.97580890627365,
+          "topic": "egypt"
+        },
+        {
+          "id": "3948",
+          "title": "Killing of 51 Egyptians triggers Islamist uprising call",
+          "snippet": " … of deposed president Mohamed Morsi protest near the headquarters of the Republican Guard in Cairo on July 8, 2013.AFP\nChronology with photos and map of the politcal crisis in Egypt.AFP … ",
+          "url": "",
+          "timestamp": "2013-07-08",
+          "score": 37.718024566124036,
+          "topic": "egypt"
+        },
+        {
+          "id": "1149",
+          "title": "Top Brotherhood figures seized in Egypt sweep",
+          "snippet": " … July 4, 2013. Adly Mansour, the chief justice of Egypt's Supreme Constitutional Court, was sworn in Thursday as the nation's interim president, taking over hours after the military ousted Morsi … ",
+          "url": "",
+          "timestamp": "2013-07-03",
+          "score": 37.33357571214714,
+          "topic": "egypt"
+        },
+        {
+          "id": "5538",
+          "title": "Questions and answers about Egypt's latest turmoil",
+          "snippet": " … is customary in Egypt in such cases. There are fears among activists that Morsi's ouster could usher in yet another era of army rule. However, the military statement  did not include … ",
+          "url": "",
+          "timestamp": "2013-07-04",
+          "score": 32.69899230035214,
+          "topic": "egypt"
+        },
+        {
+          "id": "5727",
+          "title": "Egypt Interim President’s Transition Plan Sparks Angry Reactions",
+          "snippet": " … Until the new parliament is elected, Mansour will hold both legislative and executive authority.\nThe sheer speed of the process is likely meant to assuage fears that the military — which ousted Morsi … ",
+          "url": "",
+          "timestamp": "2013-07-09",
+          "score": 30.55470360317442,
+          "topic": "egypt"
+        },
+        {
+          "id": "3321",
+          "title": "Egypt Muslim Brotherhood accuses military of 'massacre' after Morsi supporters shot dead in Cairo",
+          "snippet": "Egypt Muslim Brotherhood accuses military of 'massacre' after Morsi supporters shot dead in Cairo (VIDEO)  GlobalPost\nNews DeskJuly 8, 2013 04:09Updated July 8, 2013 14:00\nEgypt: Muslim Brotherhood accuses military … ",
+          "url": "",
+          "timestamp": "2013-07-08",
+          "score": 29.906050084052442,
+          "topic": "egypt"
+        },
+        {
+          "id": "2009",
+          "title": "In Egypt, U.S. envoy calls for political transition, end to unrest",
+          "snippet": " … Deputy Secretary of State William J. Burns, left, meets with Egypt's interim president, Adly Mahmoud Mansour, at the presidential palace in Cairo. (Khaled Desouki / AFP/Getty Images / July 15, 2013)\nJuly … ",
+          "url": "",
+          "timestamp": "2013-07-15",
+          "score": 29.625400389595853,
+          "topic": "egypt"
+        },
+        {
+          "id": "3552",
+          "title": "Egypt Muslim Brotherhood rejects interim leader Adly Mansour's promise of fresh election",
+          "snippet": " … Supporters of deposed Egyptian President Mohammed Morsi demonstrate at the Rabaa al-Adweya Mosque in the Nasr City district on July 8, 2013 in Cairo, Egypt. Egyptian health ministry officials are reporting … ",
+          "url": "",
+          "timestamp": "2013-07-09",
+          "score": 29.41462605683282,
+          "topic": "egypt"
+        },
+        {
+          "id": "2434",
+          "title": "US officials approach tumult in Egypt with caution",
+          "snippet": " … On Thursday, the supreme justice of Egypt's Supreme Constitutional Court, Adly Mansour, was sworn in as interim president.\nOn his other request — that the military not arbitrarily arrest Morsi or aides … ",
+          "url": "",
+          "timestamp": "2013-07-04",
+          "score": 29.060174823613416,
+          "topic": "egypt"
+        },
+        {
+          "id": "4611",
+          "title": "Egypt braces for new unrest as Morsi supporters plan protests",
+          "snippet": " … The military also suspended the constitution, dissolved parliament and installed an interim president but has yet to announce a date for new elections.\nThe interim leader, Judge Adly Mahmoud Mansour, head of … ",
+          "url": "",
+          "timestamp": "2013-07-05",
+          "score": 28.97994734430366,
+          "topic": "egypt"
+        },
+        {
+          "id": "549",
+          "title": "Muslim Brotherhood’s supreme leader arrested hours before Egypt’s interim president sworn in",
+          "snippet": " … Brotherhood and Morsi supporters are camped.\nOutside the Supreme Constitutional Court, Army soldiers keep guard during the swearing-in ceremony of the head of Egypt's Constitutional Court, Adly Mansour, as the … ",
+          "url": "",
+          "timestamp": "2013-07-04",
+          "score": 28.94674571512878,
+          "topic": "egypt"
+        },
+        {
+          "id": "2330",
+          "title": "World reacts to Egypt's coup",
+          "snippet": " … news of the suspension of Egypt's constitution and the removal of President Mohamed Morsy from power,\" said Marcin Bosacki, Poland's Ministry of Foreign Affairs spokesman, in a statement.\n\"Such a … ",
+          "url": "",
+          "timestamp": "2013-07-04",
+          "score": 28.93554649470478,
+          "topic": "egypt"
+        },
+        {
+          "id": "1776",
+          "title": "U.S. Officials Approach Egypt Crisis With Caution",
+          "snippet": " … army toppling Islamist President Mohamed Morsi in Egypt's landmark Tahrir square on July 3, 2013 in Cairo, Egypt. Opposition leader Mohamed ElBaradei and the heads of the Coptic Church and Al … ",
+          "url": "",
+          "timestamp": "2013-07-04",
+          "score": 28.498578061473086,
+          "topic": "egypt"
+        },
+        {
+          "id": "1474",
+          "title": "Egypt crisis Adly Mansour takes over for ousted Morsi",
+          "snippet": " … Nevertheless, we are deeply concerned by the decision of the Egyptian armed forces to remove President Morsi and suspend the Egyptian constitution.\nHe notably stopped short of labeling Morsis ouster a coup … ",
+          "url": "",
+          "timestamp": "2013-07-04",
+          "score": 28.393091412226372,
+          "topic": "egypt"
+        },
+        {
+          "id": "742",
+          "title": "Mansour Seeks to Form Government Ahead of Planned Protest",
+          "snippet": " … and warned against any “provocative acts” in a statement on the Facebook page of its spokesman.\nThe turmoil convulsing Egypt after Mursi’s removal by the military sparked clashes on July 5 … ",
+          "url": "",
+          "timestamp": "2013-07-07",
+          "score": 28.065961318047535,
+          "topic": "egypt"
+        },
+        {
+          "id": "2081",
+          "title": "",
+          "snippet": " … zealousness.\"\nA spokesman for Mansour announced the appointment of el-Beblawi as prime minister and of pro-democracy leader Mohamed ElBaradei, a leader of the National Salvation Front, as vice president.\nThe … ",
+          "url": "",
+          "timestamp": "2013-07-10",
+          "score": 27.999515324298855,
+          "topic": "egypt"
+        },
+        {
+          "id": "3664",
+          "title": "Egyptian army cracks down on Muslim Brotherhood",
+          "snippet": " … aside Morsi, army chief Gen. Abdel-Fattah el-Sissi announced Wednesday in a televised speech that the military had suspended the Islamist-drafted constitution, and that a civilian Cabinet of technocrat would … ",
+          "url": "",
+          "timestamp": "2013-07-04",
+          "score": 27.49681028603176,
+          "topic": "egypt"
+        },
+        {
+          "id": "4914",
+          "title": "Egypt on the Brink Dozens of Morsi Supporters Killed in Cairo as Crisis Deepens",
+          "snippet": " … and social luminaries backing the military’s move.\nThe Nour Party, however, are active lynchpins of the new coalition; their presence among those publicly endorsing the military’s ouster of Morsi is … ",
+          "url": "",
+          "timestamp": "2013-07-08",
+          "score": 27.372185871558397,
+          "topic": "egypt"
+        },
+        {
+          "id": "5651",
+          "title": "Egypt rounds up Morsi's Brotherhood leadership",
+          "snippet": " … Thousands of protesters dispersed after celebrating wildly through the night at the news of his downfall.\nEgypt's press almost unanimously hailed Morsi's ouster as a \"legitimate\" revolution.\n\"And the people … ",
+          "url": "",
+          "timestamp": "2013-07-04",
+          "score": 27.30636940338777,
+          "topic": "egypt"
+        }
+      ],
+      "llm_calls": 3
+    }
+  },
+  "usage": {
+    "prompt_tokens": 3833,
+    "completion_tokens": 1296,
+    "total_tokens": 5129
+  }
+}

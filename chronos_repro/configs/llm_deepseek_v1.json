@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "base_url": "https://api.deepseek.com",
+  "api_key_env": "DEEPSEEK_API_KEY",
+  "temperature": 0.0,
+  "prompt_version": "query-strategies-v1",
+  "on_insufficient_balance": "stop_without_retry",
+  "retry_on_insufficient_balance": false,
+  "status": "configured_not_called"
+}

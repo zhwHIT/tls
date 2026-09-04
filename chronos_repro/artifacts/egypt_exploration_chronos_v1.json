@@ -1,0 +1,1315 @@
+{
+  "schema_version": 1,
+  "status": "ok",
+  "strategy": "exploration_chronos_v1",
+  "search_engine": "crisis egypt",
+  "config": {
+    "model": "deepseek-v4-flash",
+    "temperature": 0.0,
+    "top_k": 20,
+    "max_rounds": 3,
+    "stop_no_new_date_rounds": 2,
+    "query_similarity_limit": 0.75
+  },
+  "provenance": {
+    "index_sha256": "ed73fb8ff0e9add31df40f637783372c15f59de6f0939dd30b4f19210270bc81",
+    "index_metadata": {
+      "data_root": "D:\\paper\\chronos_repro\\snapshots\\crisis\\ece08f344cc94933",
+      "document_count": 17573,
+      "engine": "sqlite-fts5-bm25",
+      "schema_version": 1,
+      "snapshot": {
+        "dataset": "crisis",
+        "manifest": "D:\\paper\\chronos_repro\\snapshots\\crisis\\ece08f344cc94933\\MANIFEST.sha256.json",
+        "manifest_sha256": "40345dae0249badde354e4e78315799d41035467870baad78efa333efa02b460",
+        "snapshot_id": "ece08f344cc94933"
+      },
+      "topic_counts": {
+        "egypt": 4083,
+        "libya": 4274,
+        "syria": 5170,
+        "yemen": 4046
+      }
+    }
+  },
+  "corpus_date_bounds": [
+    "2011-01-16",
+    "2013-07-22"
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "state": {
+        "covered_dates": [],
+        "date_gaps": [
+          {
+            "start": "2011-01-16",
+            "end": "2013-07-22",
+            "days": 918
+          }
+        ]
+      },
+      "action": {
+        "type": "SEARCH",
+        "query": "Egypt crisis timeline"
+      },
+      "observation": {
+        "results": [
+          {
+            "id": "4884",
+            "title": "Timeline Egypt's revolution and beyond  Egypt One Year On  Al Jazeera English",
+            "snippet": "Timeline Egypt's revolution and beyond  Egypt One Year On  Al Jazeera English\n",
+            "url": "",
+            "timestamp": "2012-01-25",
+            "score": 10.510763635821258,
+            "topic": "egypt"
+          },
+          {
+            "id": "4151",
+            "title": "Egypts constitutional crisis, explained as a simple timeline",
+            "snippet": "Egypts constitutional crisis, explained as a simple timeline\nProtesters gather outside the presidential palace in Cairo. (AP Photo/Mostafa Elshemy)\nDo not make the mistake, on seeing the photos and videos of … ",
+            "url": "",
+            "timestamp": "2012-12-06",
+            "score": 10.467479473763548,
+            "topic": "egypt"
+          },
+          {
+            "id": "4061",
+            "title": "Timeline Transition in Egypt",
+            "snippet": "Timeline Transition in Egypt\nKey events leading up to the first presidential election since the ouster of President Hosni Mubarak.\n",
+            "url": "",
+            "timestamp": "2012-05-16",
+            "score": 10.460535854880872,
+            "topic": "egypt"
+          },
+          {
+            "id": "1569",
+            "title": "Egypt timeline from revolution to the current crisis",
+            "snippet": "Egypt timeline from revolution to the current crisis    Telegraph\nEgypt's army drives Morsi from presidency in dramatic coup\nMay 23  24, 2012  The first round of voting in presidential    elections has … ",
+            "url": "",
+            "timestamp": "2013-07-03",
+            "score": 10.381091113537263,
+            "topic": "egypt"
+          },
+          {
+            "id": "1851",
+            "title": "A timeline of Mubarak's rise and rule",
+            "snippet": "A timeline of Mubarak's rise and rule\nHosni Mubarak came to power in Egypt nearly 30 years ago. Here's a look at his tenure.\nPresident Anwar Sadat, left, confers with … ",
+            "url": "",
+            "timestamp": "2011-02-10",
+            "score": 10.292030097740057,
+            "topic": "egypt"
+          },
+          {
+            "id": "928",
+            "title": "Timeline The changing U.S. reaction to Egypt's crisis",
+            "snippet": " … reaction to Egypt's crisis\n(Reuters) - Following is a timeline of public comments by President Barack Obama and other U.S. officials over the course of the uprising in Egypt.\nObama says … ",
+            "url": "",
+            "timestamp": "2011-02-11",
+            "score": 10.2661154047831,
+            "topic": "egypt"
+          },
+          {
+            "id": "834",
+            "title": "Interactive A tumultuous year in Egypt  Egypt One Year On  Al Jazeera English",
+            "snippet": "Interactive A tumultuous year in Egypt  Egypt One Year On  Al Jazeera English\nTens of thousands of Egyptians have converged on Tahrir Square to mark the one-year anniversary of the revolution … ",
+            "url": "",
+            "timestamp": "2012-01-25",
+            "score": 9.496719281209112,
+            "topic": "egypt"
+          },
+          {
+            "id": "1459",
+            "title": "Egypt timeline of the Arab Spring since Hosni Mubarak's ouster",
+            "snippet": "Egypt timeline of the Arab Spring since Hosni Mubarak's ouster   Telegraph\n 13: Authorities say Mubarak is being held in a hospital in Sharm el-Sheikh.\n 7: Fifteen die and 200 injured … ",
+            "url": "",
+            "timestamp": "2012-06-24",
+            "score": 9.23143893009511,
+            "topic": "egypt"
+          },
+          {
+            "id": "5047",
+            "title": "Timeline The fall of Egypt President Hosni Mubarak",
+            "snippet": "Timeline The fall of Egypt President Hosni Mubarak  National Post\nHere is a timeline of the events in the uprising against Egyptian President Hosni Mubarak who stepped down on Friday, the 18th … ",
+            "url": "",
+            "timestamp": "2011-02-11",
+            "score": 8.852853854978898,
+            "topic": "egypt"
+          },
+          {
+            "id": "2409",
+            "title": "LINE  The changing U.S. reaction to Egypt's crisis",
+            "snippet": "TIMELINE  The changing U.S. reaction to Egypt's crisis\nU.S. President Barack Obama makes a statement about Egypt in the Grand Foyer of the White House in Washington February 11 … ",
+            "url": "",
+            "timestamp": "2011-02-12",
+            "score": 8.59361914721704,
+            "topic": "egypt"
+          },
+          {
+            "id": "5061",
+            "title": "The Digital Road to Egypt’s Revolution",
+            "snippet": "The Digital Road to Egypt’s Revolution\nA year after Egypt’s revolution inspired the world, we know only fragments of the story. The overthrow of President Zine el-Abidine Ben Ali … ",
+            "url": "",
+            "timestamp": "2012-02-10",
+            "score": 8.315734810341164,
+            "topic": "egypt"
+          },
+          {
+            "id": "5727",
+            "title": "Egypt Interim President’s Transition Plan Sparks Angry Reactions",
+            "snippet": "Egypt Interim President’s Transition Plan Sparks Angry Reactions  TIME\nAmid a political crisis where nothing important seems to happen before 10 p.m., the timing of interim Egyptian President Adly Mansour … ",
+            "url": "",
+            "timestamp": "2013-07-09",
+            "score": 8.297546471117727,
+            "topic": "egypt"
+          },
+          {
+            "id": "3312",
+            "title": "Egypt Elections Key Events Timeline In Egyptian Uprising And Transition",
+            "snippet": "Egypt Elections Key Events Timeline In Egyptian Uprising And Transition\nFireworks illuminate Tahrir Square in Cairo, Egypt, to celebrate the victory of Mohammed Morsi, in the country's presidential election, Sunday, June … ",
+            "url": "",
+            "timestamp": "2012-06-24",
+            "score": 8.17149119627341,
+            "topic": "egypt"
+          },
+          {
+            "id": "2985",
+            "title": "Egypt elections timeline of the Revolution",
+            "snippet": "Egypt elections timeline of the Revolution  Telegraph\nEgyptians head to polls for day two of presidential election\n- 11: After daily protests, president Hosni Mubarak steps down and leaves the    capital. He hands … ",
+            "url": "",
+            "timestamp": "2012-05-23",
+            "score": 8.124551327574322,
+            "topic": "egypt"
+          },
+          {
+            "id": "5044",
+            "title": "Brotherhood leader urges Egyptians to disown violence after deadly clashes",
+            "snippet": " … He has so far made no concrete concessions to defuse the crisis that has plunged the country into new turmoil and the two sides appeared at a deadlock.\nEgypt political crisis has … ",
+            "url": "",
+            "timestamp": "2012-12-08",
+            "score": 7.732525673585891,
+            "topic": "egypt"
+          },
+          {
+            "id": "2190",
+            "title": "LINE  Protests in Egypt",
+            "snippet": "TIMELINE  Protests in Egypt\nPolice fire tear gas during a demonstration in Cairo January 28, 2011.\nREUTERS - Here is a timeline of events in Egypt since protests began.\nJan. 25 - Thousands of … ",
+            "url": "",
+            "timestamp": "2011-02-08",
+            "score": 7.6708739566903805,
+            "topic": "egypt"
+          },
+          {
+            "id": "4931",
+            "title": "",
+            "snippet": " … intervening 12 months. Egypt held elections for the lower house of parliament - the first free polls in decades - and isgearing to elect a new upper house. A timeline is also in place … ",
+            "url": "",
+            "timestamp": "2012-01-23",
+            "score": 7.62928864053568,
+            "topic": "egypt"
+          },
+          {
+            "id": "3579",
+            "title": "Egypt's Tahrir Square sees mass protests against ruling military",
+            "snippet": "Egypt's Tahrir Square sees mass protests against ruling military\nProtesters converge on Tahrir Square as Egypt's political crisis deepens.\nEgyptians gather to protest in Tahrir Square on June 15, 2012 … ",
+            "url": "",
+            "timestamp": "2012-06-19",
+            "score": 7.58796907159403,
+            "topic": "egypt"
+          },
+          {
+            "id": "945",
+            "title": "How the oil price tracked Egypt's fears and joys",
+            "snippet": " … Here's a timeline of how the Egyptian unrest caused    similar unease in the markets. Click on the bubbles to view more.\nJanuary 25: Anti-government demonstrations begin in Egypt, 10 days … ",
+            "url": "",
+            "timestamp": "2011-02-11",
+            "score": 7.513709292601453,
+            "topic": "egypt"
+          },
+          {
+            "id": "1796",
+            "title": "",
+            "snippet": " … timeline and in search.\"\nFor more than a year, the Twitter has been testing translation software in general, and is currently using Microsoft's Bing Translator for the service. The Egypt tweets … ",
+            "url": "",
+            "timestamp": "2013-07-05",
+            "score": 7.234857181809971,
+            "topic": "egypt"
+          }
+        ],
+        "new_doc_ids": [
+          "4884",
+          "4151",
+          "4061",
+          "1569",
+          "1851",
+          "928",
+          "834",
+          "1459",
+          "5047",
+          "2409",
+          "5061",
+          "5727",
+          "3312",
+          "2985",
+          "5044",
+          "2190",
+          "4931",
+          "3579",
+          "945",
+          "1796"
+        ],
+        "new_dates": [
+          "2011-02-08",
+          "2011-02-10",
+          "2011-02-11",
+          "2011-02-12",
+          "2012-01-23",
+          "2012-01-25",
+          "2012-02-10",
+          "2012-05-16",
+          "2012-05-23",
+          "2012-06-19",
+          "2012-06-24",
+          "2012-12-06",
+          "2012-12-08",
+          "2013-07-03",
+          "2013-07-05",
+          "2013-07-09"
+        ]
+      },
+      "audit": null
+    },
+    {
+      "round": 2,
+      "state": {
+        "covered_dates": [
+          "2011-02-08",
+          "2011-02-10",
+          "2011-02-11",
+          "2011-02-12",
+          "2012-01-23",
+          "2012-01-25",
+          "2012-02-10",
+          "2012-05-16",
+          "2012-05-23",
+          "2012-06-19",
+          "2012-06-24",
+          "2012-12-06",
+          "2012-12-08",
+          "2013-07-03",
+          "2013-07-05",
+          "2013-07-09"
+        ],
+        "date_gaps": [
+          {
+            "start": "2011-02-12",
+            "end": "2012-01-23",
+            "days": 345
+          },
+          {
+            "start": "2012-12-08",
+            "end": "2013-07-03",
+            "days": 207
+          },
+          {
+            "start": "2012-06-24",
+            "end": "2012-12-06",
+            "days": 165
+          },
+          {
+            "start": "2012-02-10",
+            "end": "2012-05-16",
+            "days": 96
+          },
+          {
+            "start": "2012-05-23",
+            "end": "2012-06-19",
+            "days": 27
+          },
+          {
+            "start": "2011-01-16",
+            "end": "2011-02-08",
+            "days": 23
+          },
+          {
+            "start": "2012-01-25",
+            "end": "2012-02-10",
+            "days": 16
+          }
+        ]
+      },
+      "action": {
+        "type": "SEARCH",
+        "query": "Egypt parliamentary elections 2011-2012 timeline coverage"
+      },
+      "observation": {
+        "results": [
+          {
+            "id": "3312",
+            "title": "Egypt Elections Key Events Timeline In Egyptian Uprising And Transition",
+            "snippet": "Egypt Elections Key Events Timeline In Egyptian Uprising And Transition\nFireworks illuminate Tahrir Square in Cairo, Egypt, to celebrate the victory of Mohammed Morsi, in the country's presidential election, Sunday, June … ",
+            "url": "",
+            "timestamp": "2012-06-24",
+            "score": 17.8098485390721,
+            "topic": "egypt"
+          },
+          {
+            "id": "5727",
+            "title": "Egypt Interim President’s Transition Plan Sparks Angry Reactions",
+            "snippet": " … The 33-article declaration sets out a fresh transitional timeline starting with amending the 2012 constitution later this year, followed immediately by parliamentary and then presidential elections, the latter probably happening sometime … ",
+            "url": "",
+            "timestamp": "2013-07-09",
+            "score": 15.964725180203908,
+            "topic": "egypt"
+          },
+          {
+            "id": "1268",
+            "title": "",
+            "snippet": " … 23, 2012 Photo by Reuters\nHere is a timeline of events in Egypt since protests against former President Hosni Mubarak began.\nJanuary 25, 2011 - Anti-government protests begin across Egypt following the … ",
+            "url": "",
+            "timestamp": "2012-05-23",
+            "score": 14.832307274766258,
+            "topic": "egypt"
+          },
+          {
+            "id": "2342",
+            "title": "Egypt PostRevolution Timeline Key Events Since Fall Of Mubarak",
+            "snippet": " … 28, 2011-Feb 15, 2012  Egypt holds multistage, weekslong parliamentary elections, with Islamists winning big. In the lawmaking lower house, the Muslim Brotherhood wins nearly half the seats, and ultraconservative Salafis take … ",
+            "url": "",
+            "timestamp": "2013-07-01",
+            "score": 14.579228644304909,
+            "topic": "egypt"
+          },
+          {
+            "id": "3579",
+            "title": "Egypt's Tahrir Square sees mass protests against ruling military",
+            "snippet": " … The proposed constitution will then face a popular referendum within a stated timeline, after which parliamentary elections are to be held.\nHowever, even after the public weighs in on the constitution, the … ",
+            "url": "",
+            "timestamp": "2012-06-19",
+            "score": 14.211595570795048,
+            "topic": "egypt"
+          },
+          {
+            "id": "2985",
+            "title": "Egypt elections timeline of the Revolution",
+            "snippet": "Egypt elections timeline of the Revolution  Telegraph\nEgyptians head to polls for day two of presidential election\n- 11: After daily protests, president Hosni Mubarak steps down and leaves the    capital. He hands … ",
+            "url": "",
+            "timestamp": "2012-05-23",
+            "score": 14.016560310226973,
+            "topic": "egypt"
+          },
+          {
+            "id": "2260",
+            "title": "In Egypt, one coup leads to another",
+            "snippet": " … fair and inclusive elections, the outcome will need to be respected rather than discarded as it was in the five successive polls over the course of 2011 and 2012. Democracy, at its … ",
+            "url": "",
+            "timestamp": "2013-07-12",
+            "score": 13.432193119238159,
+            "topic": "egypt"
+          },
+          {
+            "id": "4151",
+            "title": "Egypts constitutional crisis, explained as a simple timeline",
+            "snippet": " … November 2011 through January 2012: Egyptians elect a parliament. Islamists do very well.\nMarch 26, 2012: Constitution-writing assembly forms. Parliament appoints the members of the Constituent Assembly to draft the new … ",
+            "url": "",
+            "timestamp": "2012-12-06",
+            "score": 13.294608812621998,
+            "topic": "egypt"
+          },
+          {
+            "id": "1569",
+            "title": "Egypt timeline from revolution to the current crisis",
+            "snippet": "Egypt timeline from revolution to the current crisis    Telegraph\nEgypt's army drives Morsi from presidency in dramatic coup\nMay 23  24, 2012  The first round of voting in presidential    elections has … ",
+            "url": "",
+            "timestamp": "2013-07-03",
+            "score": 12.971658606706058,
+            "topic": "egypt"
+          },
+          {
+            "id": "5708",
+            "title": "Eunice Roque Egypt's Elections Owning the Revolution",
+            "snippet": "Eunice Roque Egypt's Elections Owning the Revolution\nEgyptians young and old, educated or illiterate -- and unprecedented numbers of women -- were early to rise and quick to line up outside polling stations … ",
+            "url": "",
+            "timestamp": "2011-11-29",
+            "score": 12.463547925296647,
+            "topic": "egypt"
+          },
+          {
+            "id": "3110",
+            "title": "Key events in Egypt's revolution and transition",
+            "snippet": " … which set the timeline for the country's transition to democracy, including the first parliamentary and presidential elections.\nNov. 28 - Voting begins in Egypt's first parliamentary elections since Mubarak's ouster … ",
+            "url": "",
+            "timestamp": "2012-12-22",
+            "score": 12.440739289927118,
+            "topic": "egypt"
+          },
+          {
+            "id": "1459",
+            "title": "Egypt timeline of the Arab Spring since Hosni Mubarak's ouster",
+            "snippet": "Egypt timeline of the Arab Spring since Hosni Mubarak's ouster   Telegraph\n 13: Authorities say Mubarak is being held in a hospital in Sharm el-Sheikh.\n 7: Fifteen die and 200 injured … ",
+            "url": "",
+            "timestamp": "2012-06-24",
+            "score": 12.418263239633614,
+            "topic": "egypt"
+          },
+          {
+            "id": "2190",
+            "title": "LINE  Protests in Egypt",
+            "snippet": "TIMELINE  Protests in Egypt\nPolice fire tear gas during a demonstration in Cairo January 28, 2011.\nREUTERS - Here is a timeline of events in Egypt since protests began.\nJan. 25 - Thousands of … ",
+            "url": "",
+            "timestamp": "2011-02-08",
+            "score": 12.37962275523252,
+            "topic": "egypt"
+          },
+          {
+            "id": "2510",
+            "title": "Key events in Egypt's revolution and transition",
+            "snippet": " … which set the timeline for the country's transition to democracy, including the first parliamentary and presidential elections.\nNov. 28 — Voting begins in Egypt's first parliamentary elections since Mubarak's ouster … ",
+            "url": "",
+            "timestamp": "2012-12-22",
+            "score": 12.241172090736598,
+            "topic": "egypt"
+          },
+          {
+            "id": "4983",
+            "title": "Key events in Egypt's revolution and transition leading up to referendum on draft constitution",
+            "snippet": " … which set the timeline for the country's transition to democracy, including the first parliamentary and presidential elections.\nNov. 28  Voting begins in Egypt's first parliamentary elections since Mubarak's ouster … ",
+            "url": "",
+            "timestamp": "2012-12-21",
+            "score": 12.215805814262701,
+            "topic": "egypt"
+          },
+          {
+            "id": "1885",
+            "title": "Scorecard Egypt since the revolution  Egypt One Year On  Al Jazeera English",
+            "snippet": " … A series of lower court rulings barred former NDP officials from running in the recent parliamentary elections, but those decisions were overturned on appeal, and SCAF refused to issue its own decree … ",
+            "url": "",
+            "timestamp": "2012-01-24",
+            "score": 12.137987268262307,
+            "topic": "egypt"
+          },
+          {
+            "id": "1009",
+            "title": "Egypt's military government is the enemy of our revolution",
+            "snippet": " … The proposed Scaf timeline for a handover was: parliamentary elections that take three months. Then parliament elects a founding committee to write the constitution. Six months for this. Then a referendum on … ",
+            "url": "",
+            "timestamp": "2011-11-22",
+            "score": 12.10017633121208,
+            "topic": "egypt"
+          },
+          {
+            "id": "2314",
+            "title": "",
+            "snippet": " … The Islamists, who have dominated presidential and parliamentary elections since Mubarak was overthrown, are confident they can win the referendum and the parliamentary election to follow.\nEgypt's pound hit an eight … ",
+            "url": "",
+            "timestamp": "2012-12-07",
+            "score": 12.077501847087282,
+            "topic": "egypt"
+          },
+          {
+            "id": "3878",
+            "title": "Postrevolution Cairo casts cynical eye on race to White House",
+            "snippet": " … several visits to Egypt, underlining the importance of democracy and freedom of speech. In 2005, he said, the fruits of that pressure resulted in \"relatively fair\" parliamentary elections, particularly when compared to … ",
+            "url": "",
+            "timestamp": "2012-03-05",
+            "score": 12.056049098249423,
+            "topic": "egypt"
+          },
+          {
+            "id": "3239",
+            "title": "Egypt's parliamentary vote won't stem spreading unrest, ease popular discontent",
+            "snippet": " … 1 2012.\nMorsi's supporters say that delaying elections, protesting and boycotting are affecting Egypt's ability to lure foreign investors and tourists again as the economy deteriorates.\nLack of confidence in … ",
+            "url": "",
+            "timestamp": "2013-02-24",
+            "score": 11.685959658531349,
+            "topic": "egypt"
+          }
+        ],
+        "new_doc_ids": [
+          "1268",
+          "2342",
+          "2260",
+          "5708",
+          "3110",
+          "2510",
+          "4983",
+          "1885",
+          "1009",
+          "2314",
+          "3878",
+          "3239"
+        ],
+        "new_dates": [
+          "2011-11-22",
+          "2011-11-29",
+          "2012-01-24",
+          "2012-03-05",
+          "2012-12-07",
+          "2012-12-21",
+          "2012-12-22",
+          "2013-02-24",
+          "2013-07-01",
+          "2013-07-12"
+        ]
+      },
+      "audit": {
+        "text": "Egypt parliamentary elections 2011-2012 timeline coverage",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "prompt_tokens": 561,
+          "completion_tokens": 685,
+          "total_tokens": 1246,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 673
+          },
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 561
+        },
+        "request_id": null,
+        "target_gap": {
+          "start": "2011-02-12",
+          "end": "2012-01-23",
+          "days": 345
+        },
+        "max_previous_similarity": 0.25,
+        "deterministic_fallback": false
+      }
+    },
+    {
+      "round": 3,
+      "state": {
+        "covered_dates": [
+          "2011-02-08",
+          "2011-02-10",
+          "2011-02-11",
+          "2011-02-12",
+          "2011-11-22",
+          "2011-11-29",
+          "2012-01-23",
+          "2012-01-24",
+          "2012-01-25",
+          "2012-02-10",
+          "2012-03-05",
+          "2012-05-16",
+          "2012-05-23",
+          "2012-06-19",
+          "2012-06-24",
+          "2012-12-06",
+          "2012-12-07",
+          "2012-12-08",
+          "2012-12-21",
+          "2012-12-22",
+          "2013-02-24",
+          "2013-07-01",
+          "2013-07-03",
+          "2013-07-05",
+          "2013-07-09",
+          "2013-07-12"
+        ],
+        "date_gaps": [
+          {
+            "start": "2011-02-12",
+            "end": "2011-11-22",
+            "days": 283
+          },
+          {
+            "start": "2012-06-24",
+            "end": "2012-12-06",
+            "days": 165
+          },
+          {
+            "start": "2013-02-24",
+            "end": "2013-07-01",
+            "days": 127
+          },
+          {
+            "start": "2012-03-05",
+            "end": "2012-05-16",
+            "days": 72
+          },
+          {
+            "start": "2012-12-22",
+            "end": "2013-02-24",
+            "days": 64
+          },
+          {
+            "start": "2011-11-29",
+            "end": "2012-01-23",
+            "days": 55
+          },
+          {
+            "start": "2012-05-23",
+            "end": "2012-06-19",
+            "days": 27
+          },
+          {
+            "start": "2012-02-10",
+            "end": "2012-03-05",
+            "days": 24
+          },
+          {
+            "start": "2011-01-16",
+            "end": "2011-02-08",
+            "days": 23
+          },
+          {
+            "start": "2012-01-25",
+            "end": "2012-02-10",
+            "days": 16
+          }
+        ]
+      },
+      "action": {
+        "type": "SEARCH",
+        "query": "Egypt Maspero attacks timeline 2011"
+      },
+      "observation": {
+        "results": [
+          {
+            "id": "1885",
+            "title": "Scorecard Egypt since the revolution  Egypt One Year On  Al Jazeera English",
+            "snippet": " … Mohamed Ibrahim, who was appointed to the post in November, spent decades working in general security, including a stint in Upper Egypt in the 1990s, when fundamentalists staged several high-profile attacks … ",
+            "url": "",
+            "timestamp": "2012-01-24",
+            "score": 13.065429277811518,
+            "topic": "egypt"
+          },
+          {
+            "id": "4687",
+            "title": "Mothers of the Revolution",
+            "snippet": " … the state-run television station at Maspero. Christians in Egypt have been increasingly upset with the military rulers of the country, due to recent attacks on churches, and to what is perceived … ",
+            "url": "",
+            "timestamp": "2011-10-23",
+            "score": 12.944582936263279,
+            "topic": "egypt"
+          },
+          {
+            "id": "3383",
+            "title": "Hundreds of journalists attacked in Egypt since revolution, study finds",
+            "snippet": " … 12, 2012; Wael Mikhael, of the Christian satellite channel Tarek, who was killed during Maspero massacre Oct. 9, 2011, and Ahmad Mohamed Mahmoud, who died Feb. 4, 2011, after being shot the … ",
+            "url": "",
+            "timestamp": "2013-05-30",
+            "score": 12.050879153719098,
+            "topic": "egypt"
+          },
+          {
+            "id": "2230",
+            "title": "Christians in Egypt A storm within the storm",
+            "snippet": " … No one wants to risk losing favor among the majority.”\nMaspero has left a scar on a post-revolution Egypt that was supposed to be more equitable than three decades of life … ",
+            "url": "",
+            "timestamp": "2012-05-23",
+            "score": 11.81880470086361,
+            "topic": "egypt"
+          },
+          {
+            "id": "5267",
+            "title": "Coptic Christians endure a rough year in Egypt",
+            "snippet": " … 16, at her family home in Mellawi, Egypt. (Lauren E. Bohn/GlobalPost)\nA series of deadly attacks in 2011 — most recently the death of a 17-year-old boy — suggest sectarian strife … ",
+            "url": "",
+            "timestamp": "2011-11-14",
+            "score": 11.792140084525291,
+            "topic": "egypt"
+          },
+          {
+            "id": "3233",
+            "title": "State of fear Egypt's Copts in peril",
+            "snippet": "State of fear Egypt's Copts in peril  GlobalPost\nYoung Egyptian Coptic men display their Christian tattoos in October 2011. These tattoos are a rite of passage within the community and the … ",
+            "url": "",
+            "timestamp": "2011-11-14",
+            "score": 11.635754103107999,
+            "topic": "egypt"
+          },
+          {
+            "id": "5058",
+            "title": "Press censorship threatens Egypt's 'unfinished revolution'",
+            "snippet": "Press censorship threatens Egypt's 'unfinished revolution'\nWell-known for his bold, hard-hitting journalism, Yosri Fouda's graffitied face appears all over Cairo, reading \"Original,\" a sign of respect in Egypt … ",
+            "url": "",
+            "timestamp": "2011-10-22",
+            "score": 11.468198168031067,
+            "topic": "egypt"
+          },
+          {
+            "id": "1009",
+            "title": "Egypt's military government is the enemy of our revolution",
+            "snippet": " … Amr Nabil/AP\nAs I write, the cabinet of Egypt's prime minister, Essam Sharaf, brought in amid much hope, but emasculated by the military and so now discredited – has resigned – and … ",
+            "url": "",
+            "timestamp": "2011-11-22",
+            "score": 10.718097401795717,
+            "topic": "egypt"
+          },
+          {
+            "id": "4884",
+            "title": "Timeline Egypt's revolution and beyond  Egypt One Year On  Al Jazeera English",
+            "snippet": "Timeline Egypt's revolution and beyond  Egypt One Year On  Al Jazeera English\n",
+            "url": "",
+            "timestamp": "2012-01-25",
+            "score": 10.510763635821258,
+            "topic": "egypt"
+          },
+          {
+            "id": "4061",
+            "title": "Timeline Transition in Egypt",
+            "snippet": "Timeline Transition in Egypt\nKey events leading up to the first presidential election since the ouster of President Hosni Mubarak.\n",
+            "url": "",
+            "timestamp": "2012-05-16",
+            "score": 10.460535854880872,
+            "topic": "egypt"
+          },
+          {
+            "id": "1851",
+            "title": "A timeline of Mubarak's rise and rule",
+            "snippet": "A timeline of Mubarak's rise and rule\nHosni Mubarak came to power in Egypt nearly 30 years ago. Here's a look at his tenure.\nPresident Anwar Sadat, left, confers with … ",
+            "url": "",
+            "timestamp": "2011-02-10",
+            "score": 10.292030097740057,
+            "topic": "egypt"
+          },
+          {
+            "id": "928",
+            "title": "Timeline The changing U.S. reaction to Egypt's crisis",
+            "snippet": " … reaction to Egypt's crisis\n(Reuters) - Following is a timeline of public comments by President Barack Obama and other U.S. officials over the course of the uprising in Egypt.\nObama says … ",
+            "url": "",
+            "timestamp": "2011-02-11",
+            "score": 10.245540527931755,
+            "topic": "egypt"
+          },
+          {
+            "id": "1569",
+            "title": "Egypt timeline from revolution to the current crisis",
+            "snippet": "Egypt timeline from revolution to the current crisis    Telegraph\nEgypt's army drives Morsi from presidency in dramatic coup\nMay 23  24, 2012  The first round of voting in presidential    elections has … ",
+            "url": "",
+            "timestamp": "2013-07-03",
+            "score": 10.102296712556978,
+            "topic": "egypt"
+          },
+          {
+            "id": "4151",
+            "title": "Egypts constitutional crisis, explained as a simple timeline",
+            "snippet": " … timeline of the long-building constitutional crisis, and the larger post-Mubarak political crisis of which it is a major component, shows both its development and its  unknowable trajectory.\nFeb. 11, 2011 … ",
+            "url": "",
+            "timestamp": "2012-12-06",
+            "score": 10.02413251063014,
+            "topic": "egypt"
+          },
+          {
+            "id": "4939",
+            "title": "Egypt's media must undergo its own revolution",
+            "snippet": " … Khaled Elfiqi/EPA\nAs Egypt's deeply flawed parliamentary elections approach and the revolution struggles to maintain momentum, the battle over the media – and TV in particular – is of great importance. In … ",
+            "url": "",
+            "timestamp": "2011-11-05",
+            "score": 9.712614952171762,
+            "topic": "egypt"
+          },
+          {
+            "id": "5047",
+            "title": "Timeline The fall of Egypt President Hosni Mubarak",
+            "snippet": "Timeline The fall of Egypt President Hosni Mubarak  National Post\nHere is a timeline of the events in the uprising against Egyptian President Hosni Mubarak who stepped down on Friday, the 18th … ",
+            "url": "",
+            "timestamp": "2011-02-11",
+            "score": 9.658481509113932,
+            "topic": "egypt"
+          },
+          {
+            "id": "2350",
+            "title": "The Most Powerful Weapon of Egypt's Ruling Generals State TV",
+            "snippet": " … 9th, when the army and Muslim supporters massacred more than two dozen mostly Christian protesters outside the TV building ? popularly known as Maspero. Anchor Rasha Magdy, speaking live on Egypt News at … ",
+            "url": "",
+            "timestamp": "2012-02-29",
+            "score": 9.611393978299889,
+            "topic": "egypt"
+          },
+          {
+            "id": "834",
+            "title": "Interactive A tumultuous year in Egypt  Egypt One Year On  Al Jazeera English",
+            "snippet": "Interactive A tumultuous year in Egypt  Egypt One Year On  Al Jazeera English\nTens of thousands of Egyptians have converged on Tahrir Square to mark the one-year anniversary of the revolution … ",
+            "url": "",
+            "timestamp": "2012-01-25",
+            "score": 9.496719281209112,
+            "topic": "egypt"
+          },
+          {
+            "id": "2409",
+            "title": "LINE  The changing U.S. reaction to Egypt's crisis",
+            "snippet": " … President Barack Obama makes a statement about Egypt in the Grand Foyer of the White House in Washington February 11, 2011.\nREUTERS - Following is a timeline of public comments by President Barack … ",
+            "url": "",
+            "timestamp": "2011-02-12",
+            "score": 9.305933803145894,
+            "topic": "egypt"
+          },
+          {
+            "id": "5010",
+            "title": "Moment of youth Egypts new activists  FT",
+            "snippet": " … Tamry is one of the founders of the Maspero Youth Union, an activist group born last year that has organised sit-ins to decry sectarian attacks against Christians and their churches.\nFor … ",
+            "url": "",
+            "timestamp": "2012-02-10",
+            "score": 9.28922098034767,
+            "topic": "egypt"
+          }
+        ],
+        "new_doc_ids": [
+          "4687",
+          "3383",
+          "2230",
+          "5267",
+          "3233",
+          "5058",
+          "4939",
+          "2350",
+          "5010"
+        ],
+        "new_dates": [
+          "2011-10-22",
+          "2011-10-23",
+          "2011-11-05",
+          "2011-11-14",
+          "2012-02-29",
+          "2013-05-30"
+        ]
+      },
+      "audit": {
+        "text": "Egypt Maspero attacks timeline 2011",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "prompt_tokens": 587,
+          "completion_tokens": 750,
+          "total_tokens": 1337,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 740
+          },
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 587
+        },
+        "request_id": null,
+        "target_gap": {
+          "start": "2011-02-12",
+          "end": "2011-11-22",
+          "days": 283
+        },
+        "max_previous_similarity": 0.3333333333333333,
+        "deterministic_fallback": false
+      }
+    }
+  ],
+  "stop_reason": "max_rounds",
+  "queries": [
+    "Egypt crisis timeline",
+    "Egypt parliamentary elections 2011-2012 timeline coverage",
+    "Egypt Maspero attacks timeline 2011"
+  ],
+  "unique_results": [
+    {
+      "id": "4884",
+      "title": "Timeline Egypt's revolution and beyond  Egypt One Year On  Al Jazeera English",
+      "snippet": "Timeline Egypt's revolution and beyond  Egypt One Year On  Al Jazeera English\n",
+      "url": "",
+      "timestamp": "2012-01-25",
+      "score": 10.510763635821258,
+      "topic": "egypt"
+    },
+    {
+      "id": "4151",
+      "title": "Egypts constitutional crisis, explained as a simple timeline",
+      "snippet": "Egypts constitutional crisis, explained as a simple timeline\nProtesters gather outside the presidential palace in Cairo. (AP Photo/Mostafa Elshemy)\nDo not make the mistake, on seeing the photos and videos of … ",
+      "url": "",
+      "timestamp": "2012-12-06",
+      "score": 10.467479473763548,
+      "topic": "egypt"
+    },
+    {
+      "id": "4061",
+      "title": "Timeline Transition in Egypt",
+      "snippet": "Timeline Transition in Egypt\nKey events leading up to the first presidential election since the ouster of President Hosni Mubarak.\n",
+      "url": "",
+      "timestamp": "2012-05-16",
+      "score": 10.460535854880872,
+      "topic": "egypt"
+    },
+    {
+      "id": "1569",
+      "title": "Egypt timeline from revolution to the current crisis",
+      "snippet": "Egypt timeline from revolution to the current crisis    Telegraph\nEgypt's army drives Morsi from presidency in dramatic coup\nMay 23  24, 2012  The first round of voting in presidential    elections has … ",
+      "url": "",
+      "timestamp": "2013-07-03",
+      "score": 10.381091113537263,
+      "topic": "egypt"
+    },
+    {
+      "id": "1851",
+      "title": "A timeline of Mubarak's rise and rule",
+      "snippet": "A timeline of Mubarak's rise and rule\nHosni Mubarak came to power in Egypt nearly 30 years ago. Here's a look at his tenure.\nPresident Anwar Sadat, left, confers with … ",
+      "url": "",
+      "timestamp": "2011-02-10",
+      "score": 10.292030097740057,
+      "topic": "egypt"
+    },
+    {
+      "id": "928",
+      "title": "Timeline The changing U.S. reaction to Egypt's crisis",
+      "snippet": " … reaction to Egypt's crisis\n(Reuters) - Following is a timeline of public comments by President Barack Obama and other U.S. officials over the course of the uprising in Egypt.\nObama says … ",
+      "url": "",
+      "timestamp": "2011-02-11",
+      "score": 10.2661154047831,
+      "topic": "egypt"
+    },
+    {
+      "id": "834",
+      "title": "Interactive A tumultuous year in Egypt  Egypt One Year On  Al Jazeera English",
+      "snippet": "Interactive A tumultuous year in Egypt  Egypt One Year On  Al Jazeera English\nTens of thousands of Egyptians have converged on Tahrir Square to mark the one-year anniversary of the revolution … ",
+      "url": "",
+      "timestamp": "2012-01-25",
+      "score": 9.496719281209112,
+      "topic": "egypt"
+    },
+    {
+      "id": "1459",
+      "title": "Egypt timeline of the Arab Spring since Hosni Mubarak's ouster",
+      "snippet": "Egypt timeline of the Arab Spring since Hosni Mubarak's ouster   Telegraph\n 13: Authorities say Mubarak is being held in a hospital in Sharm el-Sheikh.\n 7: Fifteen die and 200 injured … ",
+      "url": "",
+      "timestamp": "2012-06-24",
+      "score": 9.23143893009511,
+      "topic": "egypt"
+    },
+    {
+      "id": "5047",
+      "title": "Timeline The fall of Egypt President Hosni Mubarak",
+      "snippet": "Timeline The fall of Egypt President Hosni Mubarak  National Post\nHere is a timeline of the events in the uprising against Egyptian President Hosni Mubarak who stepped down on Friday, the 18th … ",
+      "url": "",
+      "timestamp": "2011-02-11",
+      "score": 8.852853854978898,
+      "topic": "egypt"
+    },
+    {
+      "id": "2409",
+      "title": "LINE  The changing U.S. reaction to Egypt's crisis",
+      "snippet": "TIMELINE  The changing U.S. reaction to Egypt's crisis\nU.S. President Barack Obama makes a statement about Egypt in the Grand Foyer of the White House in Washington February 11 … ",
+      "url": "",
+      "timestamp": "2011-02-12",
+      "score": 8.59361914721704,
+      "topic": "egypt"
+    },
+    {
+      "id": "5061",
+      "title": "The Digital Road to Egypt’s Revolution",
+      "snippet": "The Digital Road to Egypt’s Revolution\nA year after Egypt’s revolution inspired the world, we know only fragments of the story. The overthrow of President Zine el-Abidine Ben Ali … ",
+      "url": "",
+      "timestamp": "2012-02-10",
+      "score": 8.315734810341164,
+      "topic": "egypt"
+    },
+    {
+      "id": "5727",
+      "title": "Egypt Interim President’s Transition Plan Sparks Angry Reactions",
+      "snippet": "Egypt Interim President’s Transition Plan Sparks Angry Reactions  TIME\nAmid a political crisis where nothing important seems to happen before 10 p.m., the timing of interim Egyptian President Adly Mansour … ",
+      "url": "",
+      "timestamp": "2013-07-09",
+      "score": 8.297546471117727,
+      "topic": "egypt"
+    },
+    {
+      "id": "3312",
+      "title": "Egypt Elections Key Events Timeline In Egyptian Uprising And Transition",
+      "snippet": "Egypt Elections Key Events Timeline In Egyptian Uprising And Transition\nFireworks illuminate Tahrir Square in Cairo, Egypt, to celebrate the victory of Mohammed Morsi, in the country's presidential election, Sunday, June … ",
+      "url": "",
+      "timestamp": "2012-06-24",
+      "score": 8.17149119627341,
+      "topic": "egypt"
+    },
+    {
+      "id": "2985",
+      "title": "Egypt elections timeline of the Revolution",
+      "snippet": "Egypt elections timeline of the Revolution  Telegraph\nEgyptians head to polls for day two of presidential election\n- 11: After daily protests, president Hosni Mubarak steps down and leaves the    capital. He hands … ",
+      "url": "",
+      "timestamp": "2012-05-23",
+      "score": 8.124551327574322,
+      "topic": "egypt"
+    },
+    {
+      "id": "5044",
+      "title": "Brotherhood leader urges Egyptians to disown violence after deadly clashes",
+      "snippet": " … He has so far made no concrete concessions to defuse the crisis that has plunged the country into new turmoil and the two sides appeared at a deadlock.\nEgypt political crisis has … ",
+      "url": "",
+      "timestamp": "2012-12-08",
+      "score": 7.732525673585891,
+      "topic": "egypt"
+    },
+    {
+      "id": "2190",
+      "title": "LINE  Protests in Egypt",
+      "snippet": "TIMELINE  Protests in Egypt\nPolice fire tear gas during a demonstration in Cairo January 28, 2011.\nREUTERS - Here is a timeline of events in Egypt since protests began.\nJan. 25 - Thousands of … ",
+      "url": "",
+      "timestamp": "2011-02-08",
+      "score": 7.6708739566903805,
+      "topic": "egypt"
+    },
+    {
+      "id": "4931",
+      "title": "",
+      "snippet": " … intervening 12 months. Egypt held elections for the lower house of parliament - the first free polls in decades - and isgearing to elect a new upper house. A timeline is also in place … ",
+      "url": "",
+      "timestamp": "2012-01-23",
+      "score": 7.62928864053568,
+      "topic": "egypt"
+    },
+    {
+      "id": "3579",
+      "title": "Egypt's Tahrir Square sees mass protests against ruling military",
+      "snippet": "Egypt's Tahrir Square sees mass protests against ruling military\nProtesters converge on Tahrir Square as Egypt's political crisis deepens.\nEgyptians gather to protest in Tahrir Square on June 15, 2012 … ",
+      "url": "",
+      "timestamp": "2012-06-19",
+      "score": 7.58796907159403,
+      "topic": "egypt"
+    },
+    {
+      "id": "945",
+      "title": "How the oil price tracked Egypt's fears and joys",
+      "snippet": " … Here's a timeline of how the Egyptian unrest caused    similar unease in the markets. Click on the bubbles to view more.\nJanuary 25: Anti-government demonstrations begin in Egypt, 10 days … ",
+      "url": "",
+      "timestamp": "2011-02-11",
+      "score": 7.513709292601453,
+      "topic": "egypt"
+    },
+    {
+      "id": "1796",
+      "title": "",
+      "snippet": " … timeline and in search.\"\nFor more than a year, the Twitter has been testing translation software in general, and is currently using Microsoft's Bing Translator for the service. The Egypt tweets … ",
+      "url": "",
+      "timestamp": "2013-07-05",
+      "score": 7.234857181809971,
+      "topic": "egypt"
+    },
+    {
+      "id": "1268",
+      "title": "",
+      "snippet": " … 23, 2012 Photo by Reuters\nHere is a timeline of events in Egypt since protests against former President Hosni Mubarak began.\nJanuary 25, 2011 - Anti-government protests begin across Egypt following the … ",
+      "url": "",
+      "timestamp": "2012-05-23",
+      "score": 14.832307274766258,
+      "topic": "egypt"
+    },
+    {
+      "id": "2342",
+      "title": "Egypt PostRevolution Timeline Key Events Since Fall Of Mubarak",
+      "snippet": " … 28, 2011-Feb 15, 2012  Egypt holds multistage, weekslong parliamentary elections, with Islamists winning big. In the lawmaking lower house, the Muslim Brotherhood wins nearly half the seats, and ultraconservative Salafis take … ",
+      "url": "",
+      "timestamp": "2013-07-01",
+      "score": 14.579228644304909,
+      "topic": "egypt"
+    },
+    {
+      "id": "2260",
+      "title": "In Egypt, one coup leads to another",
+      "snippet": " … fair and inclusive elections, the outcome will need to be respected rather than discarded as it was in the five successive polls over the course of 2011 and 2012. Democracy, at its … ",
+      "url": "",
+      "timestamp": "2013-07-12",
+      "score": 13.432193119238159,
+      "topic": "egypt"
+    },
+    {
+      "id": "5708",
+      "title": "Eunice Roque Egypt's Elections Owning the Revolution",
+      "snippet": "Eunice Roque Egypt's Elections Owning the Revolution\nEgyptians young and old, educated or illiterate -- and unprecedented numbers of women -- were early to rise and quick to line up outside polling stations … ",
+      "url": "",
+      "timestamp": "2011-11-29",
+      "score": 12.463547925296647,
+      "topic": "egypt"
+    },
+    {
+      "id": "3110",
+      "title": "Key events in Egypt's revolution and transition",
+      "snippet": " … which set the timeline for the country's transition to democracy, including the first parliamentary and presidential elections.\nNov. 28 - Voting begins in Egypt's first parliamentary elections since Mubarak's ouster … ",
+      "url": "",
+      "timestamp": "2012-12-22",
+      "score": 12.440739289927118,
+      "topic": "egypt"
+    },
+    {
+      "id": "2510",
+      "title": "Key events in Egypt's revolution and transition",
+      "snippet": " … which set the timeline for the country's transition to democracy, including the first parliamentary and presidential elections.\nNov. 28 — Voting begins in Egypt's first parliamentary elections since Mubarak's ouster … ",
+      "url": "",
+      "timestamp": "2012-12-22",
+      "score": 12.241172090736598,
+      "topic": "egypt"
+    },
+    {
+      "id": "4983",
+      "title": "Key events in Egypt's revolution and transition leading up to referendum on draft constitution",
+      "snippet": " … which set the timeline for the country's transition to democracy, including the first parliamentary and presidential elections.\nNov. 28  Voting begins in Egypt's first parliamentary elections since Mubarak's ouster … ",
+      "url": "",
+      "timestamp": "2012-12-21",
+      "score": 12.215805814262701,
+      "topic": "egypt"
+    },
+    {
+      "id": "1885",
+      "title": "Scorecard Egypt since the revolution  Egypt One Year On  Al Jazeera English",
+      "snippet": " … A series of lower court rulings barred former NDP officials from running in the recent parliamentary elections, but those decisions were overturned on appeal, and SCAF refused to issue its own decree … ",
+      "url": "",
+      "timestamp": "2012-01-24",
+      "score": 12.137987268262307,
+      "topic": "egypt"
+    },
+    {
+      "id": "1009",
+      "title": "Egypt's military government is the enemy of our revolution",
+      "snippet": " … The proposed Scaf timeline for a handover was: parliamentary elections that take three months. Then parliament elects a founding committee to write the constitution. Six months for this. Then a referendum on … ",
+      "url": "",
+      "timestamp": "2011-11-22",
+      "score": 12.10017633121208,
+      "topic": "egypt"
+    },
+    {
+      "id": "2314",
+      "title": "",
+      "snippet": " … The Islamists, who have dominated presidential and parliamentary elections since Mubarak was overthrown, are confident they can win the referendum and the parliamentary election to follow.\nEgypt's pound hit an eight … ",
+      "url": "",
+      "timestamp": "2012-12-07",
+      "score": 12.077501847087282,
+      "topic": "egypt"
+    },
+    {
+      "id": "3878",
+      "title": "Postrevolution Cairo casts cynical eye on race to White House",
+      "snippet": " … several visits to Egypt, underlining the importance of democracy and freedom of speech. In 2005, he said, the fruits of that pressure resulted in \"relatively fair\" parliamentary elections, particularly when compared to … ",
+      "url": "",
+      "timestamp": "2012-03-05",
+      "score": 12.056049098249423,
+      "topic": "egypt"
+    },
+    {
+      "id": "3239",
+      "title": "Egypt's parliamentary vote won't stem spreading unrest, ease popular discontent",
+      "snippet": " … 1 2012.\nMorsi's supporters say that delaying elections, protesting and boycotting are affecting Egypt's ability to lure foreign investors and tourists again as the economy deteriorates.\nLack of confidence in … ",
+      "url": "",
+      "timestamp": "2013-02-24",
+      "score": 11.685959658531349,
+      "topic": "egypt"
+    },
+    {
+      "id": "4687",
+      "title": "Mothers of the Revolution",
+      "snippet": " … the state-run television station at Maspero. Christians in Egypt have been increasingly upset with the military rulers of the country, due to recent attacks on churches, and to what is perceived … ",
+      "url": "",
+      "timestamp": "2011-10-23",
+      "score": 12.944582936263279,
+      "topic": "egypt"
+    },
+    {
+      "id": "3383",
+      "title": "Hundreds of journalists attacked in Egypt since revolution, study finds",
+      "snippet": " … 12, 2012; Wael Mikhael, of the Christian satellite channel Tarek, who was killed during Maspero massacre Oct. 9, 2011, and Ahmad Mohamed Mahmoud, who died Feb. 4, 2011, after being shot the … ",
+      "url": "",
+      "timestamp": "2013-05-30",
+      "score": 12.050879153719098,
+      "topic": "egypt"
+    },
+    {
+      "id": "2230",
+      "title": "Christians in Egypt A storm within the storm",
+      "snippet": " … No one wants to risk losing favor among the majority.”\nMaspero has left a scar on a post-revolution Egypt that was supposed to be more equitable than three decades of life … ",
+      "url": "",
+      "timestamp": "2012-05-23",
+      "score": 11.81880470086361,
+      "topic": "egypt"
+    },
+    {
+      "id": "5267",
+      "title": "Coptic Christians endure a rough year in Egypt",
+      "snippet": " … 16, at her family home in Mellawi, Egypt. (Lauren E. Bohn/GlobalPost)\nA series of deadly attacks in 2011 — most recently the death of a 17-year-old boy — suggest sectarian strife … ",
+      "url": "",
+      "timestamp": "2011-11-14",
+      "score": 11.792140084525291,
+      "topic": "egypt"
+    },
+    {
+      "id": "3233",
+      "title": "State of fear Egypt's Copts in peril",
+      "snippet": "State of fear Egypt's Copts in peril  GlobalPost\nYoung Egyptian Coptic men display their Christian tattoos in October 2011. These tattoos are a rite of passage within the community and the … ",
+      "url": "",
+      "timestamp": "2011-11-14",
+      "score": 11.635754103107999,
+      "topic": "egypt"
+    },
+    {
+      "id": "5058",
+      "title": "Press censorship threatens Egypt's 'unfinished revolution'",
+      "snippet": "Press censorship threatens Egypt's 'unfinished revolution'\nWell-known for his bold, hard-hitting journalism, Yosri Fouda's graffitied face appears all over Cairo, reading \"Original,\" a sign of respect in Egypt … ",
+      "url": "",
+      "timestamp": "2011-10-22",
+      "score": 11.468198168031067,
+      "topic": "egypt"
+    },
+    {
+      "id": "4939",
+      "title": "Egypt's media must undergo its own revolution",
+      "snippet": " … Khaled Elfiqi/EPA\nAs Egypt's deeply flawed parliamentary elections approach and the revolution struggles to maintain momentum, the battle over the media – and TV in particular – is of great importance. In … ",
+      "url": "",
+      "timestamp": "2011-11-05",
+      "score": 9.712614952171762,
+      "topic": "egypt"
+    },
+    {
+      "id": "2350",
+      "title": "The Most Powerful Weapon of Egypt's Ruling Generals State TV",
+      "snippet": " … 9th, when the army and Muslim supporters massacred more than two dozen mostly Christian protesters outside the TV building ? popularly known as Maspero. Anchor Rasha Magdy, speaking live on Egypt News at … ",
+      "url": "",
+      "timestamp": "2012-02-29",
+      "score": 9.611393978299889,
+      "topic": "egypt"
+    },
+    {
+      "id": "5010",
+      "title": "Moment of youth Egypts new activists  FT",
+      "snippet": " … Tamry is one of the founders of the Maspero Youth Union, an activist group born last year that has organised sit-ins to decry sectarian attacks against Christians and their churches.\nFor … ",
+      "url": "",
+      "timestamp": "2012-02-10",
+      "score": 9.28922098034767,
+      "topic": "egypt"
+    }
+  ],
+  "final_covered_dates": [
+    "2011-02-08",
+    "2011-02-10",
+    "2011-02-11",
+    "2011-02-12",
+    "2011-10-22",
+    "2011-10-23",
+    "2011-11-05",
+    "2011-11-14",
+    "2011-11-22",
+    "2011-11-29",
+    "2012-01-23",
+    "2012-01-24",
+    "2012-01-25",
+    "2012-02-10",
+    "2012-02-29",
+    "2012-03-05",
+    "2012-05-16",
+    "2012-05-23",
+    "2012-06-19",
+    "2012-06-24",
+    "2012-12-06",
+    "2012-12-07",
+    "2012-12-08",
+    "2012-12-21",
+    "2012-12-22",
+    "2013-02-24",
+    "2013-05-30",
+    "2013-07-01",
+    "2013-07-03",
+    "2013-07-05",
+    "2013-07-09",
+    "2013-07-12"
+  ],
+  "usage": {
+    "prompt_tokens": 1148,
+    "completion_tokens": 1435,
+    "total_tokens": 2583
+  }
+}
