@@ -8,5 +8,19 @@
   "prompt_version": "query-strategies-v1",
   "on_insufficient_balance": "stop_without_retry",
   "retry_on_insufficient_balance": false,
+  "on_other_errors": "analyze_then_retry_when_recoverable",
+  "max_retries": 2,
+  "retry_backoff_seconds": 1.0,
+  "retryable_errors": [
+    "connection",
+    "timeout",
+    "invalid_response",
+    "HTTP 408/409/425/429",
+    "HTTP 5xx"
+  ],
+  "non_retryable_errors": [
+    "missing_api_key",
+    "HTTP 4xx except 408/409/425/429"
+  ],
   "status": "configured_not_called"
 }

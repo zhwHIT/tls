@@ -46,6 +46,16 @@ python -m pip install -e . --no-deps `
 
 Run commands without shell activation with `conda run -n tls <command>`.
 
+### LLM error handling
+
+`DeepSeekClient` makes at most three attempts: one initial request plus two
+retries. Recoverable cases include connection failures, timeouts, malformed or
+empty responses, HTTP 408/409/425/429, and HTTP 5xx. Retries use exponential
+backoff of 1 and 2 seconds. Insufficient balance always stops immediately.
+Missing credentials and deterministic HTTP 4xx request or authentication errors
+are judged non-recoverable and also stop immediately. Successful audit records
+include the actual number of attempts.
+
 ## 1. Audit Open-TLS
 
 No third-party package is required:
