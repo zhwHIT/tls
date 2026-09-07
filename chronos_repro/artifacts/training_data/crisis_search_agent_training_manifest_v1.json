@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "dataset": "crisis",
+  "snapshot": {
+    "dataset": "crisis",
+    "manifest": "D:\\paper\\chronos_repro\\snapshots\\crisis\\ece08f344cc94933\\MANIFEST.sha256.json",
+    "manifest_sha256": "40345dae0249badde354e4e78315799d41035467870baad78efa333efa02b460",
+    "snapshot_id": "ece08f344cc94933"
+  },
+  "index_sha256": "ed73fb8ff0e9add31df40f637783372c15f59de6f0939dd30b4f19210270bc81",
+  "source_artifact_sha256": {
+    "egypt_query_baselines_deepseek_v1.json": "f1c01c81d5f1a5543b864db95eb0d2f9665d74a2a81c120a048dbef1fb7d17e0",
+    "egypt_exploration_chronos_v1.json": "e288f1150bc7a4979a3bc3ab5f0ee331f80a3078e5afde6749692b2687d52309",
+    "libya_query_baselines_deepseek_v1.json": "db4c7fd47475d00df4febbeef5caafee9206319bc3d676818643aafdc0fb909e",
+    "libya_exploration_chronos_v1.json": "c6f983c32470a7f5a195c06c090d79a4f0eb36d46bd27e08e265a0688ba29467",
+    "syria_query_baselines_deepseek_v1.json": "df7fb3150011a3376a65a9e92dd9cf354f6136b1c941b00efa0b08d5fc30f90e",
+    "syria_exploration_chronos_v1.json": "56ee63ac5566b59863099f2ef7ecf4d07b19989bb2cf2d12940731565a6a3a68",
+    "yemen_query_baselines_deepseek_v1.json": "cda2932d7f1302acdceb344b5fe6bf4fbce867ad550ae5fca4f4674f009e569f",
+    "yemen_exploration_chronos_v1.json": "2c345f3394a0d31bb82718ee99108d85ba1150bbd99255ddc3a91ec1c9494a6b"
+  },
+  "top_k": 20,
+  "reward": "1000*exact_gold_gain + 100*window_2d_gold_gain + 2*new_date_count + query_novelty",
+  "counts": {
+    "transitions": 12,
+    "sft": 8,
+    "dpo": 8
+  },
+  "outputs": {
+    "transitions": {
+      "file": "crisis_search_agent_transitions_v1.jsonl",
+      "sha256": "a8d86b3f3f5637fd56bb99665afba1ad65ea118ca17e8ade5d2c226163ad467c"
+    },
+    "sft": {
+      "file": "crisis_search_agent_sft_seed_v1.jsonl",
+      "sha256": "199d9acedb9479a98d8fdb739249f36a66eb886053b4905c83d9d5c502116913"
+    },
+    "dpo": {
+      "file": "crisis_search_agent_dpo_seed_v1.jsonl",
+      "sha256": "2cbd9ae91e6c0c380f7fd84f254f0c117888e4e2e1975cc9b64a850a4710c9d1"
+    }
+  },
+  "limitations": [
+    "Seed data only; four Crisis topics are insufficient for final training.",
+    "Labels use article publication-date coverage, not final TLS content quality.",
+    "Gold dates are used only for offline preference labeling."
+  ]
+}

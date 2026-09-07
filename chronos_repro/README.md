@@ -30,6 +30,25 @@ chronos-repro search --index artifacts\crisis_ece08f344cc94933.sqlite3 `
   --search-engine "crisis egypt" --query "Mubarak resignation" --top-k 20
 ```
 
+## P2 search-agent seed data
+
+Build deterministic transition, SFT, and DPO seed files by replaying candidate
+queries against the frozen Crisis index. This step does not call an LLM:
+
+```powershell
+$env:PYTHONPATH = "src"
+python scripts\build_search_agent_training_data.py `
+  --data snapshots\crisis\ece08f344cc94933 `
+  --index artifacts\crisis_ece08f344cc94933.sqlite3 `
+  --artifacts artifacts `
+  --output-dir artifacts\training_data `
+  --top-k 20
+```
+
+Gold dates label offline preferences but are not included in inference prompts.
+The current four-topic files are seed data for format and reward validation, not
+a sufficient final training corpus.
+
 ## Environment
 
 The working environment is the Conda environment `tls`. On this Windows host it

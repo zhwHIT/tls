@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "dataset": "crisis",
+  "snapshot_id": "ece08f344cc94933",
+  "index": "artifacts/crisis_ece08f344cc94933.sqlite3",
+  "topics": ["egypt", "libya", "syria", "yemen"],
+  "minimum_sft_round": 2,
+  "top_k": 20,
+  "candidate_sources": ["direct", "rewrite", "chronos", "exploration_prefix"],
+  "reward": {
+    "exact_gold_gain": 1000.0,
+    "window_2d_gold_gain": 100.0,
+    "new_date_count": 2.0,
+    "query_novelty": 1.0
+  },
+  "outputs": ["transitions", "sft_seed", "dpo_seed", "manifest"],
+  "note": "Offline seed construction only; gold dates label preferences and are never put into inference prompts."
+}
