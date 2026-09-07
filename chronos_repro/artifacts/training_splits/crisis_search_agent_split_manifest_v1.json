@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "dataset": "crisis",
+  "split_unit": "topic",
+  "splits": {
+    "train": [
+      "egypt",
+      "libya"
+    ],
+    "dev": [
+      "syria"
+    ],
+    "test": [
+      "yemen"
+    ]
+  },
+  "counts": {
+    "train": {
+      "transitions": 6,
+      "sft": 4,
+      "dpo": 4
+    },
+    "dev": {
+      "transitions": 3,
+      "sft": 2,
+      "dpo": 2
+    },
+    "test": {
+      "transitions": 3,
+      "sft": 2,
+      "dpo": 2
+    }
+  },
+  "source_manifest": "crisis_search_agent_training_manifest_v1.json",
+  "source_manifest_sha256": "5dd2ada9c39961b91549cc269cddae47e37c5ba54e8d363d78db8b60b536b26c",
+  "source_files_sha256": {
+    "crisis_search_agent_transitions_v1.jsonl": "a8d86b3f3f5637fd56bb99665afba1ad65ea118ca17e8ade5d2c226163ad467c",
+    "crisis_search_agent_sft_seed_v1.jsonl": "199d9acedb9479a98d8fdb739249f36a66eb886053b4905c83d9d5c502116913",
+    "crisis_search_agent_dpo_seed_v1.jsonl": "2cbd9ae91e6c0c380f7fd84f254f0c117888e4e2e1975cc9b64a850a4710c9d1"
+  },
+  "outputs": {
+    "train/crisis_search_agent_transitions_v1.jsonl": {
+      "sha256": "0e82892b64eab7e690f004a2a1e521bd58501b8197b5e226cab82beffe154c30",
+      "rows": 6,
+      "topics": [
+        "egypt",
+        "libya"
+      ]
+    },
+    "dev/crisis_search_agent_transitions_v1.jsonl": {
+      "sha256": "a36187ce6b8ff0518ff73bb6634af473b50831d490c4a170f3b4a5d3479a6cad",
+      "rows": 3,
+      "topics": [
+        "syria"
+      ]
+    },
+    "test/crisis_search_agent_transitions_v1.jsonl": {
+      "sha256": "7f6a81425dee35e148473534b8dffe4cea2b55ef56327f05463f8ef8ff89b875",
+      "rows": 3,
+      "topics": [
+        "yemen"
+      ]
+    },
+    "train/crisis_search_agent_sft_seed_v1.jsonl": {
+      "sha256": "75254fcc69f798919a7424728689a680e89c15c74fc81961c14c1fc0b2193969",
+      "rows": 4,
+      "topics": [
+        "egypt",
+        "libya"
+      ]
+    },
+    "dev/crisis_search_agent_sft_seed_v1.jsonl": {
+      "sha256": "4bfce70a9eedf8b5e399c241afc0740633564841b11f2c74ce758dfa96300984",
+      "rows": 2,
+      "topics": [
+        "syria"
+      ]
+    },
+    "test/crisis_search_agent_sft_seed_v1.jsonl": {
+      "sha256": "58312ac99fd66d58db10ca3babd079eec8dfc7556077566838edc50e5723a23b",
+      "rows": 2,
+      "topics": [
+        "yemen"
+      ]
+    },
+    "train/crisis_search_agent_dpo_seed_v1.jsonl": {
+      "sha256": "521c595f4fb7a1df155b3ba767206c2a386bd0bc35f8d2e04f5fe7238d3082a4",
+      "rows": 4,
+      "topics": [
+        "egypt",
+        "libya"
+      ]
+    },
+    "dev/crisis_search_agent_dpo_seed_v1.jsonl": {
+      "sha256": "ccf181fccfb015624817e4ddca4be9f2fe2f9ef3dcda6cfc0f0ba0cb04bc5537",
+      "rows": 2,
+      "topics": [
+        "syria"
+      ]
+    },
+    "test/crisis_search_agent_dpo_seed_v1.jsonl": {
+      "sha256": "f22ea235a6dd9cef96c939f697b66b4bc73879adc338c240cc9dc0e0173bf506",
+      "rows": 2,
+      "topics": [
+        "yemen"
+      ]
+    }
+  },
+  "checks": {
+    "topic_overlap": false,
+    "all_rows_assigned": true,
+    "dpo_reward_order_valid": true
+  },
+  "limitations": [
+    "This is a pipeline-validation split, not a statistically sufficient benchmark.",
+    "Only two train topics and one topic each for dev and test are available.",
+    "Test labels must remain excluded from optimization and checkpoint selection."
+  ]
+}

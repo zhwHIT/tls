@@ -49,6 +49,18 @@ Gold dates label offline preferences but are not included in inference prompts.
 The current four-topic files are seed data for format and reward validation, not
 a sufficient final training corpus.
 
+Create topic-disjoint pipeline-validation splits:
+
+```powershell
+python scripts\split_search_agent_training_data.py `
+  --input-dir artifacts\training_data `
+  --output-dir artifacts\training_splits `
+  --config configs\search_agent_topic_split_v1.json
+```
+
+The fixed seed split uses Egypt/Libya for train, Syria for dev, and Yemen for
+test. Test labels must not be used for optimization or checkpoint selection.
+
 ## Environment
 
 The working environment is the Conda environment `tls`. On this Windows host it

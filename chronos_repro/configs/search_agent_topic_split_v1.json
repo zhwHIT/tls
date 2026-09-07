@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "dataset": "crisis",
+  "split_unit": "topic",
+  "splits": {
+    "train": ["egypt", "libya"],
+    "dev": ["syria"],
+    "test": ["yemen"]
+  },
+  "input_files": {
+    "transitions": "crisis_search_agent_transitions_v1.jsonl",
+    "sft": "crisis_search_agent_sft_seed_v1.jsonl",
+    "dpo": "crisis_search_agent_dpo_seed_v1.jsonl"
+  },
+  "source_manifest": "crisis_search_agent_training_manifest_v1.json",
+  "selection_policy": {
+    "train": "Two development topics with complementary retrieval behavior.",
+    "dev": "Syria is reserved for reward and checkpoint selection checks.",
+    "test": "Yemen is held out for final pipeline-only evaluation."
+  },
+  "warning": "Seed split only. Do not report statistical model conclusions from four topics."
+}
