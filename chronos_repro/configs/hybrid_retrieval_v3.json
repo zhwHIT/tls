@@ -1,0 +1,41 @@
+{
+  "schema": "chronos-repro.hybrid-retrieval-config.v2",
+  "encoder": {
+    "repo_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "local_path": "models/paraphrase-multilingual-MiniLM-L12-v2",
+    "dimension": 384,
+    "backend": "onnx",
+    "onnx_file": "onnx/model_avx2.onnx",
+    "model_quantization": "dynamic-int8-avx2",
+    "embedding_storage": "float16",
+    "batch_size": 256
+  },
+  "document_representation": {
+    "max_chars": 600,
+    "max_chunks_per_document": 1,
+    "selection": "stratified",
+    "stratified_segments": 3,
+    "segments": ["beginning", "middle", "end"],
+    "bm25_indexes_full_text": true
+  },
+  "index_layout": {
+    "type": "topic_sharded_collection",
+    "atomic_shard_publish": true,
+    "resume_completed_shards": true,
+    "manifest_routes_topic": true
+  },
+  "fusion": {
+    "method": "weighted_rrf",
+    "bm25_weight": 1.0,
+    "dense_weight": 1.0,
+    "rrf_k": 60,
+    "candidate_multiplier": 5,
+    "temporal_diversity": 0.05
+  },
+  "evaluation_boundary": {
+    "gold_in_runtime_retrieval": false,
+    "tune_only_on_train_dev_event_passage_labels": true,
+    "publication_date_is_diagnostic_proxy_only": true
+  }
+}

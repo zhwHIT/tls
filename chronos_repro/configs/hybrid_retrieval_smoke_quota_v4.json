@@ -1,0 +1,24 @@
+{
+  "schema": "chronos-repro.hybrid-runtime-benchmark-config.v1",
+  "top_k": 20,
+  "cases": [
+    {
+      "name": "t17_mj_zh_quota",
+      "index": "artifacts/t17_collection_quota_v4_hybrid_index.json",
+      "search_engine": "t17 mj",
+      "queries": ["迈克尔杰克逊 去世 葬礼 纪念"]
+    },
+    {
+      "name": "crisis_egypt_quota",
+      "index": "artifacts/crisis_collection_quota_v4_hybrid_index.json",
+      "search_engine": "crisis egypt",
+      "queries": ["Mubarak resignation"]
+    },
+    {
+      "name": "entities_david_bowie_quota",
+      "index": "artifacts/entities_collection_quota_v4_hybrid_index.json",
+      "search_engine": "entities David_Bowie",
+      "queries": ["David Bowie album health death"]
+    }
+  ]
+}

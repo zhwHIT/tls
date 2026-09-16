@@ -1,0 +1,155 @@
+{
+  "checked_date": "2026-09-16",
+  "evaluation_mode": "state_continuation",
+  "total_events": 1038,
+  "new_requests": 1557,
+  "cumulative_requests": 4433,
+  "max_prompt_tokens_including_parent_caches": 3712,
+  "offline_tests_passed": 330,
+  "topics": [
+    {
+      "topic": "bpoil",
+      "status": "ok",
+      "event_count": 129,
+      "phase1_termination": "runner_limit",
+      "phase2_termination": "runner_limit",
+      "cumulative_requests": 572,
+      "new_requests": 221,
+      "usage": {
+        "prompt_tokens": 329989,
+        "completion_tokens": 62406,
+        "total_tokens": 392395,
+        "logical_calls": 223,
+        "http_attempts": 221
+      }
+    },
+    {
+      "topic": "egypt",
+      "status": "ok",
+      "event_count": 88,
+      "phase1_termination": "runner_limit",
+      "phase2_termination": "runner_limit",
+      "cumulative_requests": 482,
+      "new_requests": 271,
+      "usage": {
+        "prompt_tokens": 418196,
+        "completion_tokens": 82126,
+        "total_tokens": 500322,
+        "logical_calls": 270,
+        "http_attempts": 270
+      }
+    },
+    {
+      "topic": "finan",
+      "status": "ok",
+      "event_count": 81,
+      "phase1_termination": "invalid_policy_handoff",
+      "phase2_termination": "runner_limit",
+      "cumulative_requests": 337,
+      "new_requests": 143,
+      "usage": {
+        "prompt_tokens": 197849,
+        "completion_tokens": 35706,
+        "total_tokens": 233555,
+        "logical_calls": 143,
+        "http_attempts": 143
+      }
+    },
+    {
+      "topic": "h1n1",
+      "status": "ok",
+      "event_count": 107,
+      "phase1_termination": "runner_limit",
+      "phase2_termination": "runner_limit",
+      "cumulative_requests": 534,
+      "new_requests": 34,
+      "usage": {
+        "prompt_tokens": 47459,
+        "completion_tokens": 6951,
+        "total_tokens": 54410,
+        "logical_calls": 34,
+        "http_attempts": 34
+      }
+    },
+    {
+      "topic": "haiti",
+      "status": "stopped_request_limit",
+      "event_count": 55,
+      "phase1_termination": "runner_limit",
+      "phase2_termination": null,
+      "cumulative_requests": 378,
+      "new_requests": 300,
+      "usage": {
+        "prompt_tokens": 459207,
+        "completion_tokens": 89191,
+        "total_tokens": 548398,
+        "logical_calls": 301,
+        "http_attempts": 300
+      }
+    },
+    {
+      "topic": "iraq",
+      "status": "stopped_request_limit",
+      "event_count": 94,
+      "phase1_termination": "runner_limit",
+      "phase2_termination": null,
+      "cumulative_requests": 449,
+      "new_requests": 300,
+      "usage": {
+        "prompt_tokens": 450922,
+        "completion_tokens": 75440,
+        "total_tokens": 526362,
+        "logical_calls": 301,
+        "http_attempts": 300
+      }
+    },
+    {
+      "topic": "libya",
+      "status": "ok",
+      "event_count": 192,
+      "phase1_termination": "runner_limit",
+      "phase2_termination": "runner_limit",
+      "cumulative_requests": 606,
+      "new_requests": 106,
+      "usage": {
+        "prompt_tokens": 154838,
+        "completion_tokens": 33087,
+        "total_tokens": 187925,
+        "logical_calls": 106,
+        "http_attempts": 106
+      }
+    },
+    {
+      "topic": "mj",
+      "status": "ok",
+      "event_count": 69,
+      "phase1_termination": "runner_limit",
+      "phase2_termination": "runner_limit",
+      "cumulative_requests": 460,
+      "new_requests": 67,
+      "usage": {
+        "prompt_tokens": 90210,
+        "completion_tokens": 14945,
+        "total_tokens": 105155,
+        "logical_calls": 69,
+        "http_attempts": 67
+      }
+    },
+    {
+      "topic": "syria",
+      "status": "ok",
+      "event_count": 223,
+      "phase1_termination": "runner_limit",
+      "phase2_termination": "runner_limit",
+      "cumulative_requests": 615,
+      "new_requests": 115,
+      "usage": {
+        "prompt_tokens": 156861,
+        "completion_tokens": 36968,
+        "total_tokens": 193829,
+        "logical_calls": 118,
+        "http_attempts": 115
+      }
+    }
+  ]
+}

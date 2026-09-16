@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "dataset": "entities",
+  "topic": "David_Bowie",
+  "model": "deepseek-v4-flash",
+  "data": "snapshots/entities/25ac73e52bc93b3b",
+  "index": "artifacts/entities_25ac73e52bc93b3b.sqlite3",
+  "top_k": 12,
+  "document_char_limit": 1800,
+  "max_candidates_per_round": 12,
+  "max_rounds": 4,
+  "minimum_search_rounds": 2,
+  "query_budget": 4,
+  "minimum_timeline_events": 6,
+  "label_repair_attempts": 2,
+  "temperature": 0.0,
+  "semantic_coverage_threshold": 0.2,
+  "policy_visibility": "topic, current state, budget, search history, and tool observations only",
+  "gold_visibility": "offline evaluator only"
+}

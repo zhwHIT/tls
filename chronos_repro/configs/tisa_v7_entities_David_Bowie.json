@@ -1,0 +1,53 @@
+{
+  "schema_version": 5,
+  "pipeline_revision": "two-phase-v7",
+  "model": "deepseek-v4-flash",
+  "top_k": 40,
+  "document_char_limit": 3200,
+  "max_candidates_per_round": 24,
+  "strict_date_evidence": true,
+  "phase1_max_rounds": 16,
+  "phase1_min_search_rounds": 6,
+  "phase1_min_events": 12,
+  "exploration_memory": {
+    "enabled": true,
+    "progress_control_enabled": true,
+    "minimum_stages": 3
+  },
+  "coverage_pipeline": {
+    "enabled": true,
+    "passage_words": 500,
+    "passage_chars": 3200,
+    "overlap_words": 60,
+    "passages_per_search": 8,
+    "verification_batch_passages": 2,
+    "candidates_per_batch": 24,
+    "extraction_pages": 3,
+    "merge_context_events": 40
+  },
+  "max_api_requests": 400,
+  "phase2_max_gaps": 24,
+  "phase2_max_gap_cycles": 12,
+  "resume_failed_phase1": false,
+  "label_repair_attempts": 2,
+  "temperature": 0,
+  "semantic_coverage_threshold": 0.2,
+  "phase2_teacher_guidance": false,
+  "temporal_search": {
+    "enabled": true,
+    "soft_penalty": 0.5,
+    "max_padding_days": 90,
+    "suggested_padding_days": 14
+  },
+  "compact_context": {
+    "enabled": true,
+    "local_events": 16,
+    "recent_queries": 8,
+    "max_request_chars": 64000
+  },
+  "evaluation_role": "diagnostic_only_not_training_or_model_selection",
+  "dataset": "entities",
+  "topic": "David_Bowie",
+  "data": "snapshots/entities/25ac73e52bc93b3b",
+  "index": "artifacts/entities_collection_v3_hybrid_index.json"
+}

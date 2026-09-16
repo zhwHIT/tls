@@ -1,0 +1,39 @@
+{
+  "schema_version": 5,
+  "dataset": "crisis",
+  "topic": "egypt",
+  "model": "deepseek-v4-flash",
+  "data": "snapshots/crisis/ece08f344cc94933",
+  "index": "artifacts/crisis_collection_v3_hybrid_index.json",
+  "top_k": 8,
+  "document_char_limit": 700,
+  "max_candidates_per_round": 6,
+  "strict_date_evidence": true,
+  "phase1_max_rounds": 16,
+  "phase1_min_search_rounds": 6,
+  "phase1_min_events": 4,
+  "exploration_memory": {
+    "enabled": true,
+    "revision": "document-driven-skeleton-v2-grounded-progress",
+    "progress_control_enabled": true,
+    "minimum_stages": 3,
+    "keyword_source": "frozen topic keywords.json",
+    "few_shot_scope": "fictional unrelated topics only"
+  },
+  "phase2_max_gaps": 8,
+  "phase2_max_gap_cycles": 4,
+  "resume_failed_phase1": false,
+  "label_repair_attempts": 2,
+  "temperature": 0.0,
+  "semantic_coverage_threshold": 0.2,
+  "phase2_teacher_guidance": false,
+  "temporal_search": {
+    "enabled": true,
+    "soft_penalty": 0.5,
+    "max_padding_days": 90,
+    "suggested_padding_days": 14
+  },
+  "student_input_contract": "no budget; sorted daily events with literal date evidence; provisional partial dates in memory; completed cycle gains and unconfirmed deferrals visible",
+  "phase1_supervision": "actual rollout without private references; runner-limit STOP excluded",
+  "phase2_supervision": "attempt-balanced gap scheduling; policy uses current events and memory only; Gold used for local evaluation; runner-limit STOP excluded"
+}

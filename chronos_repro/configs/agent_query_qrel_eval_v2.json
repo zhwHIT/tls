@@ -1,0 +1,56 @@
+{
+  "schema": "chronos-repro.agent-query-qrel-eval-config.v1",
+  "qrels": "artifacts/agent_query_qrel_expansion_v1/qrels.merged.jsonl",
+  "top_k_per_query": 20,
+  "cases": [
+    {
+      "dataset": "crisis",
+      "topic": "yemen",
+      "hybrid_index": "artifacts/crisis_collection_v3_hybrid_index.json",
+      "runs": [
+        {
+          "name": "exploration_chronos_v1",
+          "path": "artifacts/yemen_exploration_chronos_v1.json",
+          "source": {
+            "type": "top_level_queries",
+            "field": "queries"
+          }
+        },
+        {
+          "name": "chronos_query_baseline",
+          "path": "artifacts/yemen_query_baselines_deepseek_v1.json",
+          "source": {
+            "type": "baseline_queries",
+            "name": "chronos"
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "t17",
+      "topic": "mj",
+      "hybrid_index": "artifacts/t17_collection_v3_hybrid_index.json",
+      "runs": [
+        {
+          "name": "two_phase_agent",
+          "status": "missing_query_rollout",
+          "reason": "No executed MJ Search Agent trajectory exists; policy tasks contain states but no model-generated SEARCH queries."
+        }
+      ]
+    },
+    {
+      "dataset": "entities",
+      "topic": "David_Bowie",
+      "hybrid_index": "artifacts/entities_collection_v3_hybrid_index.json",
+      "runs": [
+        {
+          "name": "full_timeline_api_agent_v3",
+          "path": "artifacts/full_timeline_api_david_bowie_v3/full_trajectory.json",
+          "source": {
+            "type": "trajectory_steps"
+          }
+        }
+      ]
+    }
+  ]
+}

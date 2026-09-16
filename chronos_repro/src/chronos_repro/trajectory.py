@@ -15,6 +15,11 @@ def run_trajectory(
     top_k: int = 20,
     max_rounds: int = 3,
     stop_no_new_rounds: int = 2,
+    *,
+    date_from: str | None = None,
+    date_to: str | None = None,
+    date_filter_mode: str = "none",
+    date_soft_penalty: float = 0.5,
 ) -> dict:
     """Run deterministic retrieval rounds and retain a replayable state transition log."""
     if max_rounds < 1 or stop_no_new_rounds < 1:
@@ -27,7 +32,16 @@ def run_trajectory(
     stop_reason = "queries_exhausted"
     for round_index, query in enumerate(queries[:max_rounds], 1):
         state = {"round": round_index, "seen_doc_ids": list(seen), "document_count": len(seen)}
-        results = search(index, [query], top_k, search_engine)
+        results = search(
+            index,
+            [query],
+            top_k,
+            search_engine,
+            date_from=date_from,
+            date_to=date_to,
+            date_filter_mode=date_filter_mode,
+            date_soft_penalty=date_soft_penalty,
+        )
         new_ids = [item["id"] for item in results if item["id"] not in seen_set]
         for doc_id in new_ids:
             seen_set.add(doc_id)
@@ -36,7 +50,17 @@ def run_trajectory(
         rounds.append(
             {
                 "state": state,
-                "action": {"type": "SEARCH", "query": query, "top_k": top_k},
+                "action": {
+                    "type": "SEARCH",
+                    "query": query,
+                    "top_k": top_k,
+                    "date_filter": {
+                        "mode": date_filter_mode,
+                        "date_from": date_from,
+                        "date_to": date_to,
+                        "soft_penalty": date_soft_penalty,
+                    },
+                },
                 "observation": {"results": results, "new_doc_ids": new_ids},
                 "updated_state": {
                     "round": round_index,
@@ -60,6 +84,12 @@ def run_trajectory(
             "top_k": top_k,
             "max_rounds": max_rounds,
             "stop_no_new_rounds": stop_no_new_rounds,
+            "date_filter": {
+                "mode": date_filter_mode,
+                "date_from": date_from,
+                "date_to": date_to,
+                "soft_penalty": date_soft_penalty,
+            },
         },
         "provenance": {
             "index": str(index),
@@ -82,7 +112,17 @@ def replay_trajectory(path: str | Path, index: str | Path | None = None) -> dict
     mismatches = []
     for number, record in enumerate(trace["rounds"], 1):
         action = record["action"]
-        actual = search(index_path, [action["query"]], action["top_k"], trace["search_engine"])
+        date_filter = action.get("date_filter") or {}
+        actual = search(
+            index_path,
+            [action["query"]],
+            action["top_k"],
+            trace["search_engine"],
+            date_from=date_filter.get("date_from"),
+            date_to=date_filter.get("date_to"),
+            date_filter_mode=date_filter.get("mode", "none"),
+            date_soft_penalty=float(date_filter.get("soft_penalty", 0.5)),
+        )
         expected = record["observation"]["results"]
         if actual != expected:
             mismatches.append(number)

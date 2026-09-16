@@ -9,4 +9,5 @@ dependencies:
       - pytest==9.1.1
       - tilse==0.2.1
       - gdown==6.1.0
+      - sentence-transformers[onnx]==5.1.2
       - -e .

@@ -1,0 +1,29 @@
+{
+  "schema": "chronos-repro.hybrid-retrieval-config.v1",
+  "encoder": {
+    "repo_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "local_path": "models/paraphrase-multilingual-MiniLM-L12-v2",
+    "dimension": 384,
+    "max_sequence_tokens": 128,
+    "chunking": {
+      "max_chars": 600,
+      "overlap_chars": 100
+    },
+    "storage_dtype": "float16"
+  },
+  "fusion": {
+    "method": "weighted_rrf",
+    "bm25_weight": 1.0,
+    "dense_weight": 1.0,
+    "rrf_k": 60,
+    "candidate_multiplier": 5,
+    "temporal_diversity": 0.05
+  },
+  "retrieval_policy": {
+    "retrieve_each_query_with_both_channels": true,
+    "deduplicate_by_content_hash": true,
+    "preserve_modality_signals": true,
+    "gold_is_for_offline_evaluation_only": true
+  }
+}

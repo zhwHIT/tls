@@ -1,0 +1,130 @@
+{
+  "started_at_utc": "2026-09-16T06:32:19.380533+00:00",
+  "status": "completed_with_errors",
+  "source_sha256": "a7a1ad801900a986d76425d57216399c794f4d87654949cbc7ff58cf3b757f2c",
+  "plan": [
+    {
+      "dataset": "t17",
+      "topic": "bpoil",
+      "config": "configs/tisa_v95_resume_bpoil.json",
+      "output_dir": "artifacts/tisa_v95_continuation/bpoil",
+      "requests_already_started": 351,
+      "remaining_http_requests": 300
+    },
+    {
+      "dataset": "t17",
+      "topic": "egypt",
+      "config": "configs/tisa_v95_resume_egypt.json",
+      "output_dir": "artifacts/tisa_v95_continuation/egypt",
+      "requests_already_started": 211,
+      "remaining_http_requests": 300
+    },
+    {
+      "dataset": "t17",
+      "topic": "finan",
+      "config": "configs/tisa_v95_resume_finan.json",
+      "output_dir": "artifacts/tisa_v95_continuation/finan",
+      "requests_already_started": 194,
+      "remaining_http_requests": 300
+    },
+    {
+      "dataset": "t17",
+      "topic": "h1n1",
+      "config": "configs/tisa_v95_resume_h1n1.json",
+      "output_dir": "artifacts/tisa_v95_continuation/h1n1",
+      "requests_already_started": 500,
+      "remaining_http_requests": 300
+    },
+    {
+      "dataset": "t17",
+      "topic": "haiti",
+      "config": "configs/tisa_v95_resume_haiti.json",
+      "output_dir": "artifacts/tisa_v95_continuation/haiti",
+      "requests_already_started": 78,
+      "remaining_http_requests": 300
+    },
+    {
+      "dataset": "t17",
+      "topic": "iraq",
+      "config": "configs/tisa_v95_resume_iraq.json",
+      "output_dir": "artifacts/tisa_v95_continuation/iraq",
+      "requests_already_started": 149,
+      "remaining_http_requests": 300
+    },
+    {
+      "dataset": "t17",
+      "topic": "libya",
+      "config": "configs/tisa_v95_resume_libya.json",
+      "output_dir": "artifacts/tisa_v95_continuation/libya",
+      "requests_already_started": 500,
+      "remaining_http_requests": 300
+    },
+    {
+      "dataset": "t17",
+      "topic": "mj",
+      "config": "configs/tisa_v95_resume_mj.json",
+      "output_dir": "artifacts/tisa_v95_continuation/mj",
+      "requests_already_started": 393,
+      "remaining_http_requests": 300
+    },
+    {
+      "dataset": "t17",
+      "topic": "syria",
+      "config": "configs/tisa_v95_resume_syria.json",
+      "output_dir": "artifacts/tisa_v95_continuation/syria",
+      "requests_already_started": 500,
+      "remaining_http_requests": 300
+    }
+  ],
+  "completed_processes": [
+    {
+      "topic": "t17:bpoil",
+      "returncode": 0,
+      "log": "D:\\paper\\chronos_repro\\artifacts\\tisa_v95_continuation\\batch\\t17_bpoil.log"
+    },
+    {
+      "topic": "t17:egypt",
+      "returncode": 0,
+      "log": "D:\\paper\\chronos_repro\\artifacts\\tisa_v95_continuation\\batch\\t17_egypt.log"
+    },
+    {
+      "topic": "t17:finan",
+      "returncode": 0,
+      "log": "D:\\paper\\chronos_repro\\artifacts\\tisa_v95_continuation\\batch\\t17_finan.log"
+    },
+    {
+      "topic": "t17:h1n1",
+      "returncode": 0,
+      "log": "D:\\paper\\chronos_repro\\artifacts\\tisa_v95_continuation\\batch\\t17_h1n1.log"
+    },
+    {
+      "topic": "t17:haiti",
+      "returncode": 2,
+      "log": "D:\\paper\\chronos_repro\\artifacts\\tisa_v95_continuation\\batch\\t17_haiti.log"
+    },
+    {
+      "topic": "t17:iraq",
+      "returncode": 2,
+      "log": "D:\\paper\\chronos_repro\\artifacts\\tisa_v95_continuation\\batch\\t17_iraq.log"
+    },
+    {
+      "topic": "t17:libya",
+      "returncode": 0,
+      "log": "D:\\paper\\chronos_repro\\artifacts\\tisa_v95_continuation\\batch\\t17_libya.log"
+    },
+    {
+      "topic": "t17:mj",
+      "returncode": 0,
+      "log": "D:\\paper\\chronos_repro\\artifacts\\tisa_v95_continuation\\batch\\t17_mj.log"
+    },
+    {
+      "topic": "t17:syria",
+      "returncode": 0,
+      "log": "D:\\paper\\chronos_repro\\artifacts\\tisa_v95_continuation\\batch\\t17_syria.log"
+    }
+  ],
+  "active_topic": null,
+  "latest_evaluation": "D:\\paper\\chronos_repro\\artifacts\\tisa_v95_continuation\\batch\\evaluation_after_09.json",
+  "all_topics_complete": false,
+  "aggregate": null
+}

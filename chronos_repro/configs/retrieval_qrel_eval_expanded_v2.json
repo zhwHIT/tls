@@ -1,0 +1,46 @@
+{
+  "schema": "chronos-repro.retrieval-qrel-eval-config.v1",
+  "split": "dev",
+  "oracle_query_warning": "Gold event summaries are evaluator-only oracle queries and never enter runtime Search Agent prompts.",
+  "max_events_per_case": 10,
+  "retrieve_depth": 20,
+  "cutoffs": [1, 3, 5, 10, 20],
+  "judge": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash",
+    "base_url": "https://api.deepseek.com",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "temperature": 0.0,
+    "max_retries": 2,
+    "retry_backoff_seconds": 1.0,
+    "format_retries": 2,
+    "batch_size": 30,
+    "document_max_chars": 700
+  },
+  "cases": [
+    {
+      "dataset": "crisis",
+      "topic": "yemen",
+      "data": "snapshots/crisis/ece08f344cc94933",
+      "bm25_index": "artifacts/crisis_ece08f344cc94933.sqlite3",
+      "dense_index": "artifacts/crisis_dense_collection_v3",
+      "hybrid_index": "artifacts/crisis_collection_v3_hybrid_index.json"
+    },
+    {
+      "dataset": "t17",
+      "topic": "mj",
+      "data": "snapshots/t17/2704b6b058774e15",
+      "bm25_index": "artifacts/t17_2704b6b058774e15.sqlite3",
+      "dense_index": "artifacts/t17_dense_collection_v3",
+      "hybrid_index": "artifacts/t17_collection_v3_hybrid_index.json"
+    },
+    {
+      "dataset": "entities",
+      "topic": "David_Bowie",
+      "data": "snapshots/entities/25ac73e52bc93b3b",
+      "bm25_index": "artifacts/entities_25ac73e52bc93b3b.sqlite3",
+      "dense_index": "artifacts/entities_dense_collection_v3",
+      "hybrid_index": "artifacts/entities_collection_v3_hybrid_index.json"
+    }
+  ]
+}

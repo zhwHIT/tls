@@ -1,0 +1,25 @@
+{
+  "schema": "chronos-repro.temporal-filter-qrel-expansion-config.v1",
+  "temporal_report": "artifacts/temporal_filter_qrel_ablation_v1.json",
+  "source_qrels": "artifacts/agent_query_qrel_expansion_v1/qrels.merged.jsonl",
+  "modes": ["soft", "hard"],
+  "document_max_chars": 700,
+  "batch_size": 8,
+  "cases": [
+    {
+      "dataset": "crisis",
+      "topic": "yemen",
+      "bm25_index": "artifacts/crisis_ece08f344cc94933.sqlite3"
+    },
+    {
+      "dataset": "t17",
+      "topic": "mj",
+      "bm25_index": "artifacts/t17_2704b6b058774e15.sqlite3"
+    },
+    {
+      "dataset": "entities",
+      "topic": "David_Bowie",
+      "bm25_index": "artifacts/entities_25ac73e52bc93b3b.sqlite3"
+    }
+  ]
+}

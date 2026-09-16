@@ -1,0 +1,13 @@
+{
+  "schema_version": 2,
+  "model": "deepseek-v4-flash",
+  "top_k": 10,
+  "maximum_query_gold_copy_ratio": 0.8,
+  "preference_margin": 0.2,
+  "label_repair_attempts": 2,
+  "temperature": 0.0,
+  "annotation_scope": "train_only",
+  "required_actions": ["SEARCH", "VERIFY", "MERGE", "STOP"],
+  "balance_policy": "stop_immediately",
+  "other_error_policy": "retry_then_reject_only_if_validation_remains_impossible"
+}

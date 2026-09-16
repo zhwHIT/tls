@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "pipeline_revision": "two-phase-v7",
+  "split": "diagnostic_only_previously_inspected",
+  "target_gold_date_recall": 0.7,
+  "api_execution_authorized_by_this_file": false,
+  "split_warning": "Yemen is test in the legacy crisis seed split but has subsequently been inspected. Do not train, select checkpoints or claim untouched-test generalization on this suite.",
+  "topics": [
+    {
+      "dataset": "crisis",
+      "topic": "yemen",
+      "config": "configs/tisa_v7_crisis_yemen.json",
+      "output_dir": "artifacts/tisa_v7_diagnostic/crisis_yemen"
+    },
+    {
+      "dataset": "t17",
+      "topic": "mj",
+      "config": "configs/tisa_v7_t17_mj.json",
+      "output_dir": "artifacts/tisa_v7_diagnostic/t17_mj"
+    },
+    {
+      "dataset": "entities",
+      "topic": "David_Bowie",
+      "config": "configs/tisa_v7_entities_David_Bowie.json",
+      "output_dir": "artifacts/tisa_v7_diagnostic/entities_David_Bowie"
+    }
+  ]
+}

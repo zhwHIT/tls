@@ -1,4 +1,5 @@
 import json
+import http.client
 import ssl
 import urllib.error
 
@@ -76,6 +77,26 @@ def test_connection_error_retries_then_succeeds(monkeypatch):
         calls += 1
         if calls == 1:
             raise urllib.error.URLError(ssl.SSLError("unexpected eof"))
+        return FakeResponse()
+
+    monkeypatch.setattr("urllib.request.urlopen", urlopen)
+    result = DeepSeekClient(max_retries=2, retry_backoff_seconds=0).chat(
+        [{"role": "user", "content": "test"}]
+    )
+    assert calls == 2
+    assert result.text == "recovered"
+    assert result.attempts == 2
+
+
+def test_incomplete_chunked_response_retries_then_succeeds(monkeypatch):
+    monkeypatch.setenv("DEEPSEEK_API_KEY", "test-only")
+    calls = 0
+
+    def urlopen(*args, **kwargs):
+        nonlocal calls
+        calls += 1
+        if calls == 1:
+            raise http.client.IncompleteRead(b"")
         return FakeResponse()
 
     monkeypatch.setattr("urllib.request.urlopen", urlopen)

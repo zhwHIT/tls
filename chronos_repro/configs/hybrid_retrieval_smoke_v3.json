@@ -1,0 +1,24 @@
+{
+  "schema": "chronos-repro.hybrid-smoke-config.v1",
+  "top_k": 20,
+  "cases": [
+    {
+      "name": "t17_mj_zh",
+      "index": "artifacts/t17_collection_v3_hybrid_index.json",
+      "search_engine": "t17 mj",
+      "queries": ["迈克尔杰克逊 去世 葬礼 纪念"]
+    },
+    {
+      "name": "crisis_egypt",
+      "index": "artifacts/crisis_collection_v3_hybrid_index.json",
+      "search_engine": "crisis egypt",
+      "queries": ["Mubarak resignation Egyptian revolution"]
+    },
+    {
+      "name": "entities_david_bowie",
+      "index": "artifacts/entities_collection_v3_hybrid_index.json",
+      "search_engine": "entities David_Bowie",
+      "queries": ["David Bowie career health death retrospective"]
+    }
+  ]
+}

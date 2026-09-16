@@ -12,7 +12,12 @@ from .evaluate import evaluate_dates, evaluate_tilse
 from .provenance import CHRONOS_UPSTREAM_COMMIT, runtime_metadata
 from .snapshot import sha256
 from .snapshot import freeze, verify
-from .retrieval import build_bm25_index, read_index_metadata, search
+from .retrieval import (
+    build_bm25_index,
+    create_hybrid_manifest,
+    read_index_metadata,
+    search,
+)
 from .trajectory import replay_trajectory, run_trajectory
 
 
@@ -111,10 +116,83 @@ def cmd_build_index(args: argparse.Namespace) -> None:
     _write(build_bm25_index(args.data, args.output), args.report)
 
 
+def cmd_build_dense_index(args: argparse.Namespace) -> None:
+    from .dense_retrieval import build_dense_index
+
+    _write(
+        build_dense_index(
+            args.bm25_index,
+            args.output,
+            args.model,
+            batch_size=args.batch_size,
+            max_chars=args.max_chars,
+            overlap_chars=args.overlap_chars,
+            storage_dtype=args.storage_dtype,
+            device=args.device,
+            topics=set(args.topic) if args.topic else None,
+            max_chunks_per_document=args.max_chunks_per_document,
+            backend=args.backend,
+            onnx_file=args.onnx_file,
+        ),
+        args.report,
+    )
+
+
+def cmd_build_dense_collection(args: argparse.Namespace) -> None:
+    from .dense_retrieval import build_dense_collection
+
+    _write(
+        build_dense_collection(
+            args.bm25_index,
+            args.output,
+            args.model,
+            batch_size=args.batch_size,
+            max_chars=args.max_chars,
+            overlap_chars=args.overlap_chars,
+            max_chunks_per_document=args.max_chunks_per_document,
+            storage_dtype=args.storage_dtype,
+            device=args.device,
+            backend=args.backend,
+            onnx_file=args.onnx_file,
+            topics=set(args.topic) if args.topic else None,
+        ),
+        args.report,
+    )
+
+
+def cmd_create_hybrid_index(args: argparse.Namespace) -> None:
+    _write(
+        create_hybrid_manifest(
+            args.bm25_index,
+            args.dense_index,
+            args.output,
+            bm25_weight=args.bm25_weight,
+            dense_weight=args.dense_weight,
+            rrf_k=args.rrf_k,
+            candidate_multiplier=args.candidate_multiplier,
+            temporal_diversity=args.temporal_diversity,
+            fusion_method=args.fusion_method,
+            dense_quota=args.dense_quota,
+        ),
+        args.report,
+    )
+
+
 def cmd_search(args: argparse.Namespace) -> None:
-    result = search(args.index, args.query, args.top_k, args.search_engine)
+    result = search(
+        args.index,
+        args.query,
+        args.top_k,
+        args.search_engine,
+        date_from=args.date_from,
+        date_to=args.date_to,
+        date_filter_mode=args.date_filter_mode,
+        date_soft_penalty=args.date_soft_penalty,
+    )
     _write(
         {"query": args.query, "search_engine": args.search_engine, "top_k": args.top_k,
+         "date_filter": {"mode": args.date_filter_mode, "date_from": args.date_from,
+                         "date_to": args.date_to, "soft_penalty": args.date_soft_penalty},
          "index_metadata": read_index_metadata(args.index), "results": result},
         args.output,
     )
@@ -125,6 +203,10 @@ def cmd_trace(args: argparse.Namespace) -> None:
         run_trajectory(
             args.index, args.search_engine, args.query, args.top_k,
             args.max_rounds, args.stop_no_new_rounds,
+            date_from=args.date_from,
+            date_to=args.date_to,
+            date_filter_mode=args.date_filter_mode,
+            date_soft_penalty=args.date_soft_penalty,
         ),
         args.output,
     )
@@ -192,11 +274,81 @@ def build_parser() -> argparse.ArgumentParser:
     index_parser.add_argument("--output", required=True)
     index_parser.add_argument("--report")
     index_parser.set_defaults(func=cmd_build_index)
+    dense_parser = sub.add_parser(
+        "build-dense-index", help="encode BM25 documents into a multilingual dense index"
+    )
+    dense_parser.add_argument("--bm25-index", required=True)
+    dense_parser.add_argument("--model", required=True)
+    dense_parser.add_argument("--output", required=True)
+    dense_parser.add_argument("--batch-size", type=int, default=32)
+    dense_parser.add_argument("--max-chars", type=int, default=600)
+    dense_parser.add_argument("--overlap-chars", type=int, default=100)
+    dense_parser.add_argument(
+        "--storage-dtype", choices=["float16", "float32"], default="float16"
+    )
+    dense_parser.add_argument("--device", choices=["cpu", "cuda"])
+    dense_parser.add_argument("--backend", choices=["torch", "onnx"], default="torch")
+    dense_parser.add_argument("--onnx-file")
+    dense_parser.add_argument("--max-chunks-per-document", type=int)
+    dense_parser.add_argument(
+        "--topic", action="append", help="optional topic scope; repeat for multiple topics"
+    )
+    dense_parser.add_argument("--report")
+    dense_parser.set_defaults(func=cmd_build_dense_index)
+    collection_parser = sub.add_parser(
+        "build-dense-collection",
+        help="build or resume a topic-sharded multilingual dense collection",
+    )
+    collection_parser.add_argument("--bm25-index", required=True)
+    collection_parser.add_argument("--model", required=True)
+    collection_parser.add_argument("--output", required=True)
+    collection_parser.add_argument("--batch-size", type=int, default=256)
+    collection_parser.add_argument("--max-chars", type=int, default=600)
+    collection_parser.add_argument("--overlap-chars", type=int, default=100)
+    collection_parser.add_argument("--max-chunks-per-document", type=int, default=1)
+    collection_parser.add_argument(
+        "--storage-dtype", choices=["float16", "float32"], default="float16"
+    )
+    collection_parser.add_argument("--device", choices=["cpu", "cuda"])
+    collection_parser.add_argument("--backend", choices=["torch", "onnx"], default="onnx")
+    collection_parser.add_argument(
+        "--onnx-file", default="onnx/model_avx2.onnx"
+    )
+    collection_parser.add_argument(
+        "--topic", action="append", help="optional topic scope; repeat to resume subsets"
+    )
+    collection_parser.add_argument("--report")
+    collection_parser.set_defaults(func=cmd_build_dense_collection)
+    hybrid_parser = sub.add_parser(
+        "create-hybrid-index", help="bind BM25 and dense indexes with RRF or quota fusion"
+    )
+    hybrid_parser.add_argument("--bm25-index", required=True)
+    hybrid_parser.add_argument("--dense-index", required=True)
+    hybrid_parser.add_argument("--output", required=True)
+    hybrid_parser.add_argument("--bm25-weight", type=float, default=1.0)
+    hybrid_parser.add_argument("--dense-weight", type=float, default=1.0)
+    hybrid_parser.add_argument("--rrf-k", type=int, default=60)
+    hybrid_parser.add_argument("--candidate-multiplier", type=int, default=5)
+    hybrid_parser.add_argument("--temporal-diversity", type=float, default=0.05)
+    hybrid_parser.add_argument(
+        "--fusion-method",
+        choices=["weighted_rrf", "bm25_dense_quota"],
+        default="weighted_rrf",
+    )
+    hybrid_parser.add_argument("--dense-quota", type=float, default=0.3)
+    hybrid_parser.add_argument("--report")
+    hybrid_parser.set_defaults(func=cmd_create_hybrid_index)
     search_parser = sub.add_parser("search", help="query a closed-domain index")
     search_parser.add_argument("--index", required=True)
     search_parser.add_argument("--search-engine", required=True, help="for example: crisis egypt")
     search_parser.add_argument("--query", action="append", required=True)
     search_parser.add_argument("--top-k", type=int, default=20)
+    search_parser.add_argument("--date-from")
+    search_parser.add_argument("--date-to")
+    search_parser.add_argument(
+        "--date-filter-mode", choices=["none", "soft", "hard"], default="none"
+    )
+    search_parser.add_argument("--date-soft-penalty", type=float, default=0.5)
     search_parser.add_argument("--output")
     search_parser.set_defaults(func=cmd_search)
     trace_parser = sub.add_parser("trace-search", help="run and cache deterministic search rounds")
@@ -206,6 +358,12 @@ def build_parser() -> argparse.ArgumentParser:
     trace_parser.add_argument("--top-k", type=int, default=20)
     trace_parser.add_argument("--max-rounds", type=int, default=3)
     trace_parser.add_argument("--stop-no-new-rounds", type=int, default=2)
+    trace_parser.add_argument("--date-from")
+    trace_parser.add_argument("--date-to")
+    trace_parser.add_argument(
+        "--date-filter-mode", choices=["none", "soft", "hard"], default="none"
+    )
+    trace_parser.add_argument("--date-soft-penalty", type=float, default=0.5)
     trace_parser.add_argument("--output", required=True)
     trace_parser.set_defaults(func=cmd_trace)
     replay_parser = sub.add_parser("replay-search", help="verify a cached search trajectory")

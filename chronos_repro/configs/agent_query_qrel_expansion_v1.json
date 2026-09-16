@@ -1,0 +1,20 @@
+{
+  "schema": "chronos-repro.agent-query-qrel-expansion-config.v1",
+  "source_candidates": "artifacts/retrieval_qrel_eval_expanded_v2/candidates.json",
+  "source_qrels": "artifacts/retrieval_qrel_eval_expanded_v2/qrels.jsonl",
+  "agent_query_report": "artifacts/agent_query_qrel_eval_v1.json",
+  "document_max_chars": 700,
+  "batch_size": 15,
+  "cases": [
+    {
+      "dataset": "crisis",
+      "topic": "yemen",
+      "bm25_index": "artifacts/crisis_ece08f344cc94933.sqlite3"
+    },
+    {
+      "dataset": "entities",
+      "topic": "David_Bowie",
+      "bm25_index": "artifacts/entities_25ac73e52bc93b3b.sqlite3"
+    }
+  ]
+}

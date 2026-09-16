@@ -1,0 +1,23 @@
+{
+  "schema_version": 4,
+  "dataset": "crisis",
+  "topic": "egypt",
+  "model": "deepseek-v4-flash",
+  "data": "snapshots/crisis/ece08f344cc94933",
+  "index": "artifacts/crisis_ece08f344cc94933.sqlite3",
+  "top_k": 8,
+  "document_char_limit": 1000,
+  "max_candidates_per_round": 6,
+  "phase1_max_rounds": 2,
+  "phase1_min_search_rounds": 1,
+  "phase1_min_events": 2,
+  "phase2_max_gaps": 4,
+  "phase2_max_gap_cycles": 2,
+  "resume_failed_phase1": true,
+  "label_repair_attempts": 2,
+  "temperature": 0.0,
+  "semantic_coverage_threshold": 0.2,
+  "student_input_contract": "no budget; events sorted chronologically",
+  "phase1_supervision": "DeepSeek actual rollout without private references",
+  "phase2_supervision": "private-reference-guided teacher labels with student-visible output sanitization"
+}

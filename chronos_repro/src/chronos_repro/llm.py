@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import http.client
 import os
 import time
 import urllib.error
@@ -46,7 +47,7 @@ class ChatResult:
 class DeepSeekClient:
     def __init__(self, model="deepseek-v4-flash", base_url="https://api.deepseek.com",
                  api_key_env="DEEPSEEK_API_KEY", timeout=60.0, max_retries=2,
-                 retry_backoff_seconds=1.0) -> None:
+                 retry_backoff_seconds=1.0, request_options=None) -> None:
         if max_retries < 0:
             raise ValueError("max_retries must be non-negative")
         if retry_backoff_seconds < 0:
@@ -57,6 +58,14 @@ class DeepSeekClient:
         self.timeout = timeout
         self.max_retries = max_retries
         self.retry_backoff_seconds = retry_backoff_seconds
+        self.request_options = dict(request_options or {})
+        if set(self.request_options) - {'thinking', 'max_tokens'}:
+            raise ValueError('Unsupported model request option')
+        if 'thinking' in self.request_options and self.request_options['thinking'] not in ({'type': 'enabled'}, {'type': 'disabled'}):
+            raise ValueError('Invalid thinking option')
+        maximum = self.request_options.get('max_tokens', 8192)
+        if type(maximum) is not int or not 1 <= maximum <= 8192:
+            raise ValueError('max_tokens must be an integer in 1..8192')
 
     def _wait_before_retry(self, attempt: int) -> None:
         delay = self.retry_backoff_seconds * (2 ** (attempt - 1))
@@ -84,7 +93,7 @@ class DeepSeekClient:
                 f"Missing required environment variable: {self.api_key_env}"
             )
         body = json.dumps({"model": self.model, "messages": messages,
-                           "temperature": temperature}, ensure_ascii=False).encode("utf-8")
+                           "temperature": temperature, **self.request_options}, ensure_ascii=False).encode("utf-8")
         request = urllib.request.Request(
             f"{self.base_url}/chat/completions", data=body,
             headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
@@ -105,7 +114,14 @@ class DeepSeekClient:
             ) from error
         except urllib.error.URLError as error:
             raise RetryableLLMError(f"DeepSeek connection failed: {error.reason}") from error
-        except (TimeoutError, json.JSONDecodeError, UnicodeDecodeError) as error:
+        except (
+            TimeoutError,
+            ConnectionError,
+            http.client.IncompleteRead,
+            http.client.RemoteDisconnected,
+            json.JSONDecodeError,
+            UnicodeDecodeError,
+        ) as error:
             raise RetryableLLMError(f"DeepSeek response transport failed: {error}") from error
         try:
             text = payload["choices"][0]["message"]["content"]

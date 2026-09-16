@@ -1,0 +1,96 @@
+{
+  "api_calls": 0,
+  "all_states_preserved": true,
+  "topics": [
+    {
+      "topic": "bpoil",
+      "events": 86,
+      "queries": 79,
+      "completed_phase1_batches": 24,
+      "phase1_termination": "runner_limit",
+      "pending_passages": 0,
+      "gaps": 17,
+      "prior_http_requests": 351
+    },
+    {
+      "topic": "egypt",
+      "events": 48,
+      "queries": 49,
+      "completed_phase1_batches": 24,
+      "phase1_termination": "runner_limit",
+      "pending_passages": 0,
+      "gaps": 11,
+      "prior_http_requests": 211
+    },
+    {
+      "topic": "finan",
+      "events": 55,
+      "queries": 41,
+      "completed_phase1_batches": 10,
+      "phase1_termination": "invalid_policy_handoff",
+      "pending_passages": 0,
+      "gaps": 18,
+      "prior_http_requests": 194
+    },
+    {
+      "topic": "h1n1",
+      "events": 103,
+      "queries": 116,
+      "completed_phase1_batches": 24,
+      "phase1_termination": "runner_limit",
+      "pending_passages": 0,
+      "gaps": 36,
+      "prior_http_requests": 500
+    },
+    {
+      "topic": "haiti",
+      "events": 19,
+      "queries": 21,
+      "completed_phase1_batches": 6,
+      "phase1_termination": null,
+      "pending_passages": 2,
+      "gaps": 0,
+      "prior_http_requests": 78
+    },
+    {
+      "topic": "iraq",
+      "events": 43,
+      "queries": 40,
+      "completed_phase1_batches": 13,
+      "phase1_termination": null,
+      "pending_passages": 4,
+      "gaps": 0,
+      "prior_http_requests": 149
+    },
+    {
+      "topic": "libya",
+      "events": 172,
+      "queries": 102,
+      "completed_phase1_batches": 24,
+      "phase1_termination": "runner_limit",
+      "pending_passages": 0,
+      "gaps": 23,
+      "prior_http_requests": 500
+    },
+    {
+      "topic": "mj",
+      "events": 61,
+      "queries": 90,
+      "completed_phase1_batches": 24,
+      "phase1_termination": "runner_limit",
+      "pending_passages": 0,
+      "gaps": 23,
+      "prior_http_requests": 393
+    },
+    {
+      "topic": "syria",
+      "events": 188,
+      "queries": 104,
+      "completed_phase1_batches": 24,
+      "phase1_termination": "runner_limit",
+      "pending_passages": 1,
+      "gaps": 21,
+      "prior_http_requests": 500
+    }
+  ]
+}

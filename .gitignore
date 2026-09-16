@@ -1,4 +1,7 @@
 # Python/runtime caches
+.env
+.env.*
+!.env.example
 __pycache__/
 *.py[cod]
 .pytest_cache/
@@ -10,6 +13,11 @@ __pycache__/
 
 # Empty extraction staging directories
 closed_corpora_staging/
+
+# Downloaded embedding weights and generated dense indexes
+chronos_repro/models/
+chronos_repro/artifacts/*_dense*/
+chronos_repro/artifacts/*_hybrid_index.json
 
 # OS files
 Thumbs.db

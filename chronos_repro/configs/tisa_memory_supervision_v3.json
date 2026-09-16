@@ -1,0 +1,73 @@
+{
+  "schema_version": 3,
+  "max_targets_per_topic": 2,
+  "queries_left": 2,
+  "phase1_state_modes": ["empty", "head", "sparse"],
+  "phase1_max_visible_events": 12,
+  "phase1_max_private_events": 16,
+  "phase1_queries_left": 5,
+  "phase1_tokens_left": 6000,
+  "phase1_max_steps": 8,
+  "phase2_queries_left": 3,
+  "phase2_max_steps": 6,
+  "date_alignment_window_days": 2,
+  "summary_similarity_threshold": 0.2,
+  "maximum_query_gold_copy_ratio": 0.8,
+  "preference_margin": 0.2,
+  "datasets": {
+    "crisis": {
+      "data": "snapshots/crisis/ece08f344cc94933",
+      "index": "artifacts/crisis_ece08f344cc94933.sqlite3",
+      "splits": {
+        "train": ["egypt", "libya"],
+        "dev": ["yemen"],
+        "test": ["syria"]
+      }
+    },
+    "t17": {
+      "data": "snapshots/t17/2704b6b058774e15",
+      "index": "artifacts/t17_2704b6b058774e15.sqlite3",
+      "splits": {
+        "train": ["bpoil", "egypt", "finan", "h1n1", "haiti", "iraq", "libya"],
+        "dev": ["mj"],
+        "test": ["syria"]
+      }
+    },
+    "entities": {
+      "data": "snapshots/entities/25ac73e52bc93b3b",
+      "index": "artifacts/entities_25ac73e52bc93b3b.sqlite3",
+      "splits": {
+        "train": [
+          "Al_Gore", "Angela_Merkel", "Ariel_Sharon", "Arnold_Schwarzenegger",
+          "Bill_Clinton", "Charles_Taylor", "Chris_Brown", "David_Beckham",
+          "Dilma_Rousseff", "Dmitry_Medvedev", "Dominique_Strauss-Kahn",
+          "Ehud_Olmert", "Enron", "Hamid_Karzai", "Hassan_Rouhani", "Hu_Jintao",
+          "Jacob_Zuma", "John_Boehner", "John_Kerry", "Lance_Armstrong",
+          "Mahmoud_Ahmadinejad", "Marco_Rubio", "Michelle_Obama", "Mitt_Romney",
+          "Morgan_Tsvangirai", "Nawaz_Sharif", "Oscar_Pistorius", "Phil_Spector",
+          "Prince_William", "Robert_Mugabe", "Rupert_Murdoch", "Saddam_Hussein",
+          "Sarah_Palin", "Silvio_Berlusconi", "Ted_Cruz", "Tiger_Woods"
+        ],
+        "dev": [
+          "David_Bowie", "Margaret_Thatcher", "Michael_Jackson",
+          "Nelson_Mandela", "Steve_Jobs"
+        ],
+        "test": [
+          "Bashar_al-Assad", "Edward_Snowden", "Julian_Assange",
+          "Osama_bin_Laden", "Taliban", "WikiLeaks"
+        ]
+      }
+    }
+  },
+  "split_policy": {
+    "unit": "topic",
+    "cross_dataset_groups": [
+      ["crisis:egypt", "t17:egypt"],
+      ["crisis:libya", "t17:libya"],
+      ["crisis:syria", "t17:syria", "entities:Bashar_al-Assad"],
+      ["t17:mj", "entities:Michael_Jackson"],
+      ["entities:Julian_Assange", "entities:WikiLeaks"]
+    ],
+    "rule": "Related topics stay in one split; dev/test private targets never reach the teacher."
+  }
+}

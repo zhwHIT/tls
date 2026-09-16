@@ -1,0 +1,18 @@
+{
+  "schema": "chronos-repro.agent-query-multievent-annotation-config.v1",
+  "candidates": "artifacts/temporal_filter_qrel_expansion_v1/candidates.json",
+  "source_qrels": "artifacts/agent_query_qrel_expansion_v1/qrels.merged.jsonl",
+  "env_file": ".env",
+  "judge": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash",
+    "base_url": "https://api.deepseek.com",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "temperature": 0.0,
+    "max_retries": 4,
+    "retry_backoff_seconds": 5.0,
+    "format_retries": 3,
+    "batch_size": 8,
+    "document_max_chars": 700
+  }
+}

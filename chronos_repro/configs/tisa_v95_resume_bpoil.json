@@ -1,0 +1,72 @@
+{
+  "schema_version": 6,
+  "pipeline_revision": "two-phase-v9.5-state-continuation-and-gap-contract",
+  "model": "deepseek-v4-flash",
+  "dataset": "t17",
+  "topic": "bpoil",
+  "data": "snapshots/t17/2704b6b058774e15",
+  "index": "artifacts/t17_collection_v3_hybrid_index.json",
+  "top_k": 12,
+  "document_char_limit": 1200,
+  "max_candidates_per_round": 4,
+  "strict_date_evidence": true,
+  "phase1_max_rounds": 24,
+  "phase1_min_search_rounds": 0,
+  "phase1_min_events": 0,
+  "exploration_memory": {
+    "enabled": true,
+    "progress_control_enabled": true,
+    "minimum_stages": 0
+  },
+  "coverage_pipeline": {
+    "enabled": true,
+    "passage_words": 180,
+    "passage_chars": 1200,
+    "overlap_words": 30,
+    "passages_per_search": 2,
+    "verification_batch_passages": 1,
+    "candidates_per_batch": 6,
+    "extraction_pages": 2,
+    "merge_context_events": 8
+  },
+  "max_api_requests": 651,
+  "phase2_max_gaps": 12,
+  "phase2_max_gap_cycles": 18,
+  "phase2_max_attempts_per_gap": 3,
+  "phase2_teacher_guidance": false,
+  "resume_failed_phase1": false,
+  "label_repair_attempts": 1,
+  "temperature": 0,
+  "semantic_coverage_threshold": 0.2,
+  "temporal_search": {
+    "enabled": true,
+    "soft_penalty": 0.5
+  },
+  "compact_context": {
+    "enabled": true,
+    "local_events": 8,
+    "recent_queries": 4,
+    "max_request_chars": 64000
+  },
+  "batch_controller": {
+    "enabled": true,
+    "max_queries": 3,
+    "summary_interval_batches": 3,
+    "summary_delta_chars": 4500,
+    "tokens": {
+      "tokenizer_path": "artifacts/deepseek_v4_tokenizer/tokenizer.json",
+      "preflight_limit": 3800,
+      "input_limit": 4096
+    },
+    "summary_fact_max_chars": 320,
+    "summary_fact_target_chars": 240
+  },
+  "evaluation_role": "development_state_continuation_not_fresh_baseline",
+  "authorization_note": "User requested resuming interrupted progress. Preserve immutable parent and cumulative requests; at most 300 additional HTTP attempts for this continuation.",
+  "continuation": {
+    "snapshot": "artifacts/tisa_v94_all_t17/bpoil/trajectory.json",
+    "snapshot_sha256": "b488efcef96d475301c48bf746b29a794d55e5fac480d6b3cf3dc28d8d3efb23",
+    "ledger_sha256": "7a9c5189ebd824d0327f8cf21ea604c0cdbaa4a4ab488933fdcfa6451706508d",
+    "additional_requests": 300
+  }
+}

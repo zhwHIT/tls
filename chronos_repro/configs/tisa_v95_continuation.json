@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "pipeline_revision": "two-phase-v9.5-state-continuation-and-gap-contract",
+  "split": "development_state_continuation",
+  "target_gold_date_recall": 0.7,
+  "topics": [
+    {
+      "dataset": "t17",
+      "topic": "bpoil",
+      "config": "configs/tisa_v95_resume_bpoil.json",
+      "output_dir": "artifacts/tisa_v95_continuation/bpoil"
+    },
+    {
+      "dataset": "t17",
+      "topic": "egypt",
+      "config": "configs/tisa_v95_resume_egypt.json",
+      "output_dir": "artifacts/tisa_v95_continuation/egypt"
+    },
+    {
+      "dataset": "t17",
+      "topic": "finan",
+      "config": "configs/tisa_v95_resume_finan.json",
+      "output_dir": "artifacts/tisa_v95_continuation/finan"
+    },
+    {
+      "dataset": "t17",
+      "topic": "h1n1",
+      "config": "configs/tisa_v95_resume_h1n1.json",
+      "output_dir": "artifacts/tisa_v95_continuation/h1n1"
+    },
+    {
+      "dataset": "t17",
+      "topic": "haiti",
+      "config": "configs/tisa_v95_resume_haiti.json",
+      "output_dir": "artifacts/tisa_v95_continuation/haiti"
+    },
+    {
+      "dataset": "t17",
+      "topic": "iraq",
+      "config": "configs/tisa_v95_resume_iraq.json",
+      "output_dir": "artifacts/tisa_v95_continuation/iraq"
+    },
+    {
+      "dataset": "t17",
+      "topic": "libya",
+      "config": "configs/tisa_v95_resume_libya.json",
+      "output_dir": "artifacts/tisa_v95_continuation/libya"
+    },
+    {
+      "dataset": "t17",
+      "topic": "mj",
+      "config": "configs/tisa_v95_resume_mj.json",
+      "output_dir": "artifacts/tisa_v95_continuation/mj"
+    },
+    {
+      "dataset": "t17",
+      "topic": "syria",
+      "config": "configs/tisa_v95_resume_syria.json",
+      "output_dir": "artifacts/tisa_v95_continuation/syria"
+    }
+  ]
+}

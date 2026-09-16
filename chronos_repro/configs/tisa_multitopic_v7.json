@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "pipeline_revision": "two-phase-v7",
+  "split": "development",
+  "target_gold_date_recall": 0.7,
+  "api_execution_authorized_by_this_file": false,
+  "topics": [
+    {"dataset": "crisis", "topic": "yemen", "output_dir": "artifacts/tisa_v7_dev/crisis_yemen"},
+    {"dataset": "t17", "topic": "mj", "output_dir": "artifacts/tisa_v7_dev/t17_mj"},
+    {"dataset": "entities", "topic": "David_Bowie", "output_dir": "artifacts/tisa_v7_dev/entities_David_Bowie"}
+  ]
+}

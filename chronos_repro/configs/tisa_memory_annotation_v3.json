@@ -1,0 +1,18 @@
+{
+  "schema_version": 3,
+  "model": "deepseek-v4-flash",
+  "top_k": 12,
+  "review_top_docs_per_query": 4,
+  "review_snippet_chars": 300,
+  "minimum_query_candidates": 3,
+  "maximum_query_candidates": 4,
+  "maximum_query_gold_copy_ratio": 0.8,
+  "preference_margin": 0.2,
+  "label_repair_attempts": 2,
+  "temperature": 0.0,
+  "annotation_scope": "train_only",
+  "controller_actions": ["SEARCH", "SWITCH_PHASE", "STOP"],
+  "executor_actions": ["VERIFY", "MERGE"],
+  "balance_policy": "stop_immediately",
+  "other_error_policy": "retry_then_reject_only_if_validation_remains_impossible"
+}
