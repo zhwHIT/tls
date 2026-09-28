@@ -1,0 +1,4446 @@
+[
+  {
+    "candidate_id": "7ce2ab28d1b636de58e2c6a9",
+    "time": "2001-01-05",
+    "date_precision": "day",
+    "summary": "Opinion polls indicate Ariel Sharon holds a massive lead ahead of the February 6 direct election for Israeli prime minister.",
+    "time_range": null,
+    "evidence_ids": [
+      "3865"
+    ],
+    "job_id": "c052accb91eb5b9c667d10bc7b1c0ebb11e7c8217ae026b2b52faefea1cafe10",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Poll lead ahead of the February 6 direct election is a relevant milestone in Sharon's rise to prime minister.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ab234c0ff9213f97"
+  },
+  {
+    "candidate_id": "05660421276f5e71961aacc2",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "3685"
+    ],
+    "job_id": "c48b347facd1d66d56e8e13427b69ecdf28b7047898ca99d12801c6c376fe323",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush and Clinton tsunami donation appeal does not involve or contribute to Ariel Sharon's timeline.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "d02f50783a355d20cc19a6eb",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Ariel Sharon experienced a sudden change in rhetoric and policy, including evacuating Jewish settlers and the Israeli army from Gaza, but the article does not specify a date for this event.",
+    "time_range": null,
+    "evidence_ids": [
+      "3245"
+    ],
+    "job_id": "5db3926851fc12cff2a12f9e8e5ecf2694c5ebab26e5f63ca40963c51f356367",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's policy shift and Gaza disengagement are central to his timeline; unknown date is allowed.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-869d1f87c5165295"
+  },
+  {
+    "candidate_id": "1ee4254ba969b7142c7562d1",
+    "time": "2014-01-13",
+    "date_precision": "day",
+    "summary": "Ariel Sharon was laid to rest in a family ceremony at his ranch near the Negev desert, following a state memorial at the Knesset and a military service at Latrun.",
+    "time_range": null,
+    "evidence_ids": [
+      "3131"
+    ],
+    "job_id": "0479a448f3ff0c1557edfb400e6b061bd6f0480b5432098020035fd0fadf9c87",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Burial ceremony is a distinct post-death milestone in Sharon's timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2d04eaac9792abf0"
+  },
+  {
+    "candidate_id": "fc4982c538ced9b6f60a3bd1",
+    "time": "2014-01-11",
+    "date_precision": "day",
+    "summary": "Former Israeli Prime Minister Ariel Sharon dies at age 85, eight years after a stroke left him in a coma.",
+    "time_range": null,
+    "evidence_ids": [
+      "3134"
+    ],
+    "job_id": "3f3a4872963711fb14763f4a7e2f1cd26f5ce0cef0e6d6647ac9d8df7ac6d72f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's death is a major milestone; no existing event to merge with.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-52bcdf2ed57c93b8"
+  },
+  {
+    "candidate_id": "2247c127a6d9deabeedac01b",
+    "time": "2001-07-11",
+    "date_precision": "day",
+    "summary": "A Dutch general practitioner calls for Ariel Sharon to be brought to justice for war crimes, alleging he coordinated the 1982 Phalangist militia entry into the Sabra and Shatila refugee camps that led to the murder of over 2,000 civilians.",
+    "time_range": null,
+    "evidence_ids": [
+      "4150"
+    ],
+    "job_id": "ea33088472692c1b361775d643f1ec3b60f950c66f34e88045c61bd7d315773c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "War crimes accusation tied to Sharon's role in Sabra and Shatila is a relevant event in his timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f805fc9764883ed4"
+  },
+  {
+    "candidate_id": "80517f2d153ba947dbfb6b63",
+    "time": "2014-01-12",
+    "date_precision": "day",
+    "summary": "Ariel Sharon's legacy is assessed following his death, focusing on his divisive role in Israeli politics, including the West Bank separation barrier, settlements, and the Gaza disengagement.",
+    "time_range": null,
+    "evidence_ids": [
+      "3118"
+    ],
+    "job_id": "587f4da705ba3fc138a36c8f7566efe3b7b371806473291b2b6ec3397b37bcde",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assessment of Sharon's legacy after his death is a relevant retrospective milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-36a05461309b97f6"
+  },
+  {
+    "candidate_id": "3b703d6d9624034391ca92ae",
+    "time": "2014-01-11",
+    "date_precision": "day",
+    "summary": "Ariel Sharon dies at Sheba Medical Centre near Tel Aviv.",
+    "time_range": null,
+    "evidence_ids": [
+      "3119"
+    ],
+    "job_id": "fae0ac6cdce70fa269655abdea17f1efe7a76b1d978c62d3694ce35bfeaaa86c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "fc4982c538ced9b6f60a3bd1",
+    "reason": "Same date (2014-01-11) and same event as the other death report; duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-52bcdf2ed57c93b8"
+    },
+    "timeline_event_id": "event-52bcdf2ed57c93b8"
+  },
+  {
+    "candidate_id": "b5c9878dbdb3fd882a26018f",
+    "time": "2014-01-12",
+    "date_precision": "day",
+    "summary": "Ariel Sharon, former Israeli prime minister who had been in a deep coma since suffering a stroke in January 2006, died at age 85.",
+    "time_range": null,
+    "evidence_ids": [
+      "3133"
+    ],
+    "job_id": "f19926e0b77bab181a18d60f3e9db518f0e773012d7f034f95563ea4768b056c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-36a05461309b97f6",
+    "reason": "Duplicate of existing 2014-01-12 event on Sharon's death and legacy.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-36a05461309b97f6"
+  },
+  {
+    "candidate_id": "13693ed9ced7e458020e5ae1",
+    "time": "2002-03-13",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon vowed to continue the deadliest military offensive against the Palestinians in 20 years, overriding his defence minister’s protests and pushing the assault on Ramallah hours before the arrival of US envoy Anthony Zinni.",
+    "time_range": null,
+    "evidence_ids": [
+      "4111"
+    ],
+    "job_id": "356fb50ce1b5517a2dbee9e14c9875685e85eff93b31fe5ca0330089c3c42b5f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Milestone in Sharon's premiership: major military offensive decision.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7e5f3a6b1c12a673"
+  },
+  {
+    "candidate_id": "7d9fa61cef7044714d2f737a",
+    "time": "2014-01-11",
+    "date_precision": "day",
+    "summary": "Former Israeli Prime Minister Ariel Sharon dies at age 85 after eight years in a coma following a stroke.",
+    "time_range": null,
+    "evidence_ids": [
+      "3124"
+    ],
+    "job_id": "0eac49696149e385842c833dae34187e00093bef6e2d5569703a749fafb4e90f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-52bcdf2ed57c93b8",
+    "reason": "Duplicate of existing 2014-01-11 event on Sharon's death.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-52bcdf2ed57c93b8"
+  },
+  {
+    "candidate_id": "2981c18c1e0bda3c8c2837de",
+    "time": "2006-04-11",
+    "date_precision": "day",
+    "summary": "The Israeli cabinet declared Ariel Sharon permanently incapacitated, formally ending his term as prime minister and formalizing Ehud Olmert's role as acting prime minister.",
+    "time_range": null,
+    "evidence_ids": [
+      "3178"
+    ],
+    "job_id": "14742fc2d29c236b9acbf207d901d0df26b606d28f2eb057cebe3913c5d40c07",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Formal end of Sharon's premiership due to permanent incapacitation.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8143737dd2cd72d1"
+  },
+  {
+    "candidate_id": "639861bef37bde1d3b19a53d",
+    "time": "2006-01-05",
+    "date_precision": "day",
+    "summary": "Ariel Sharon's almost certain withdrawal from office would leave a vacuum at the heart of Israeli government, raising questions about his possible successors.",
+    "time_range": null,
+    "evidence_ids": [
+      "3277"
+    ],
+    "job_id": "30920b0e199cf2766d9640b5ce47fabc79ca5730337f9ea32512e31d962a477e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's impending withdrawal from office and succession vacuum.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-976355e757fb983b"
+  },
+  {
+    "candidate_id": "b5a8f78a935cb7ba3027a8eb",
+    "time": "2005-11-20",
+    "date_precision": "day",
+    "summary": "Ariel Sharon decides to leave the Likud party he founded and force new elections, reportedly to form a new centrist party.",
+    "time_range": null,
+    "evidence_ids": [
+      "3237"
+    ],
+    "job_id": "09204710074472f841c56b54c6551f2c84777c506e5f1d88b69a98c6c28fd926",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's departure from Likud and formation of new centrist party.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-186dcfab14dcb32f"
+  },
+  {
+    "candidate_id": "58256c3cd16a9be348452440",
+    "time": "2004-01-21",
+    "date_precision": "day",
+    "summary": "Israeli businessman David Appel is indicted for allegedly paying hundreds of thousands of dollars to Ariel Sharon's family for political favors, leaving Sharon one step away from corruption charges and being forced from office.",
+    "time_range": null,
+    "evidence_ids": [
+      "3560"
+    ],
+    "job_id": "c1df1ff81d4a541d577a15af65314dc362d0b9f9a6aa361a8d06869939da157f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Corruption indictment linked to Sharon's family and political future.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3638a9861169f04e"
+  },
+  {
+    "candidate_id": "6d3ad2bb9a7c6fa198419f36",
+    "time": "2006-02-12",
+    "date_precision": "day",
+    "summary": "Ariel Sharon was in critical but stable condition after surgeons removed a decayed section of his large intestine, with doctors saying his chances of recovering from a massive stroke have dimmed.",
+    "time_range": null,
+    "evidence_ids": [
+      "3189"
+    ],
+    "job_id": "aa5ccb073ceab54b5008e5acf5d08283d170f66d8d1f6442fe3993ea650c464e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Update on Sharon's medical condition after his stroke.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-397c244144765f53"
+  },
+  {
+    "candidate_id": "45261a74e7430977ee2735ea",
+    "time": "2006-01-05",
+    "date_precision": "day",
+    "summary": "Ariel Sharon's condition was greeted with deep concern by the Bush administration, and Condoleezza Rice praised him as \"a wonderful, historic leader.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "3239"
+    ],
+    "job_id": "e1e363f67e11427d39002e76b5f3b30a7117232fbe24b2f4c5245b596f1eb115",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "International reaction to Sharon's 2006 stroke; distinct from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8586c9ae74055aed"
+  },
+  {
+    "candidate_id": "b2f375c725cfc7eb79d98726",
+    "time": "2005-11-10",
+    "date_precision": "day",
+    "summary": "Ariel Sharon is likely to be forced into an early general election after Shimon Peres was unexpectedly toppled as leader of the Labour party, his main coalition partner.",
+    "time_range": null,
+    "evidence_ids": [
+      "3344"
+    ],
+    "job_id": "99b7a73f5ccbe8ce6aea35d9f0dc3656f7fba6211ec149ff2e738759821cd88b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Political development affecting Sharon's coalition and early election prospects.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-73796d109d267cd3"
+  },
+  {
+    "candidate_id": "27b68c86c77d0c4b744eefa6",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No topic-related event described in the article content.",
+    "time_range": null,
+    "evidence_ids": [
+      "3136"
+    ],
+    "job_id": "6a33e9274301cdf211b3b8d9aed9a65184cc64601b36684e9ad0c78ede33aa64",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No topic-related event described.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "bdaea3ccbd6056fa6a70ee19",
+    "time": "2001-03-07",
+    "date_precision": "day",
+    "summary": "Ariel Sharon is sworn in as Israel's prime minister, leading a broad-based national unity coalition government.",
+    "time_range": null,
+    "evidence_ids": [
+      "4306"
+    ],
+    "job_id": "5c43f0e463bd5603b14d8c283219c6331fc0b35a64f9ce3771fd3132434d29cc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon sworn in as prime minister; key milestone not in existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-20d94d214eefd858"
+  },
+  {
+    "candidate_id": "e1406bba9ac095ae327cce68",
+    "time": "2005-12-26",
+    "date_precision": "day",
+    "summary": "Doctors at a Jerusalem hospital said that 77-year-old Ariel Sharon will undergo a minor operation next month to close a small hole in his heart.",
+    "time_range": null,
+    "evidence_ids": [
+      "3171"
+    ],
+    "job_id": "756eab6e2c5cff0c0a42fd657f74ae1bd78fd4b4eacde1cd3d7437ce258a9557",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Planned minor heart operation; distinct health milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2f305fd5350d3384"
+  },
+  {
+    "candidate_id": "52b1a79eb4798036e86323c6",
+    "time": "2006-01-04",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon suffers a significant stroke, undergoes surgery for cerebral bleeding, and his authorities are transferred to deputy Ehud Olmert.",
+    "time_range": null,
+    "evidence_ids": [
+      "3185"
+    ],
+    "job_id": "b1e112ba4c18bfeeb4a49fccd81d7b6b3733031fc50066a57b357bc880d46e3c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's major stroke and transfer of authority; key milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df3fae3574964c17"
+  },
+  {
+    "candidate_id": "86eae39d167764f49a313270",
+    "time": "2006-01-05",
+    "date_precision": "day",
+    "summary": "Ariel Sharon is in intensive care after seven hours of emergency surgery to stop massive, widespread bleeding in his brain following a stroke.",
+    "time_range": null,
+    "evidence_ids": [
+      "3240"
+    ],
+    "job_id": "47705d89c0962096c483f62e99069e3356566d402205ac60a7a7f80bbd292067",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Post-surgery intensive care on 2006-01-05; distinct from existing 2006-01-05 succession-vacuum event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ed9e65b2a9fb0c8c"
+  },
+  {
+    "candidate_id": "2dfd23ececd6aa644febe116",
+    "time": "2006-01-04",
+    "date_precision": "day",
+    "summary": "Ariel Sharon suffered a major stroke.",
+    "time_range": null,
+    "evidence_ids": [
+      "3155"
+    ],
+    "job_id": "c10e72c2bc02adaba79aad8fdbd7539f7946d98d2d6fa8b2a5f67b3b205ab390",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "52b1a79eb4798036e86323c6",
+    "reason": "Same 2006-01-04 stroke event as candidate 52b1a79eb4798036e86323c6.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-df3fae3574964c17"
+    },
+    "timeline_event_id": "event-df3fae3574964c17"
+  },
+  {
+    "candidate_id": "2f321d9643c72726162a28e0",
+    "time": "2006-01-04",
+    "date_precision": "day",
+    "summary": "Ariel Sharon has been comatose since suffering a stroke on this date.",
+    "time_range": null,
+    "evidence_ids": [
+      "3188"
+    ],
+    "job_id": "c2b97bdeda1f51c53e793249c0f35eca7033c1f7803cbce06e74e9eb0a6f29fd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-df3fae3574964c17",
+    "reason": "Duplicate of the existing 2006-01-04 stroke event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df3fae3574964c17"
+  },
+  {
+    "candidate_id": "741f4f4e9060415aa4104132",
+    "time": "2005-12-18",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon suffered a mild stroke and was rushed to Jerusalem's Hadassah hospital for treatment.",
+    "time_range": null,
+    "evidence_ids": [
+      "3201"
+    ],
+    "job_id": "b85437220204e76497de11d433329f2f4d08ec8cb7185f2269aadba3c7cf763e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Sharon's 2005-12-18 mild stroke and hospitalization.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d141cac7df09e7fe"
+  },
+  {
+    "candidate_id": "44e94321e1912b8ba233ba59",
+    "time": "2014-01-01",
+    "date_precision": "day",
+    "summary": "Former Israeli prime minister Ariel Sharon's medical condition has deteriorated significantly, with reports saying death could come in a matter of days.",
+    "time_range": null,
+    "evidence_ids": [
+      "3138"
+    ],
+    "job_id": "734ee9831be503660c181fce9574c37f16c3cd299f8b19c43808628203462340",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Sharon's condition deteriorates in 2014 before his death.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3fd092c6f238c476"
+  },
+  {
+    "candidate_id": "d024308b498c955120e52283",
+    "time": "2010-11-12",
+    "date_precision": "day",
+    "summary": "Former Israeli prime minister Ariel Sharon, in a coma for almost five years, was taken home to his ranch in the western Negev.",
+    "time_range": null,
+    "evidence_ids": [
+      "3147"
+    ],
+    "job_id": "7e7e0f956cd4b6747e84ceae5f1ac390bbdb4a2140002bb02c16a15405cf0acf",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Sharon moved home in 2010 after years in a coma.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ed3b35fbeb68f0e1"
+  },
+  {
+    "candidate_id": "fc622366db44d215dd112210",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "3146"
+    ],
+    "job_id": "a7fb3082d110c355cb68db0e26121597dc7a89d4063b3f23f65b36db2d395b0b",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Not related to Ariel Sharon; concerns Bush and Clinton tsunami donation appeal.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "03fbb60666b074c826ac1cab",
+    "time": "2005-12-20",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon is to be released from hospital following a mild stroke.",
+    "time_range": null,
+    "evidence_ids": [
+      "3324"
+    ],
+    "job_id": "4a33cfc1e11aa6f01f112fefd3b685ebeb123000fe151a72f80d7892b50a7767",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Sharon's planned release from hospital after mild stroke.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1ee6d0bf424370b8"
+  },
+  {
+    "candidate_id": "e05d03029669650eb87e4fbc",
+    "time": "2006-05-24",
+    "date_precision": "day",
+    "summary": "Ariel Sharon, comatose since January after a stroke, is to be moved to a long-term care centre next week, according to a hospital statement.",
+    "time_range": null,
+    "evidence_ids": [
+      "3184"
+    ],
+    "job_id": "14f084661b2adfd5c5e9795443cc7bb0b25efe0bbb509847e055e93d4e9e7a87",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Sharon to be moved to long-term care in 2006.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-70f3ea60b4d8ff09"
+  },
+  {
+    "candidate_id": "b010897f3f93bdfc25742935",
+    "time": "2005-12-18",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon was taken to hospital after suffering a minor stroke.",
+    "time_range": null,
+    "evidence_ids": [
+      "3252"
+    ],
+    "job_id": "7eebe6a1f856c913e44e3a480769a2930b9b47b65142dd60a32e0e01aa0813c6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "741f4f4e9060415aa4104132",
+    "reason": "Duplicate of the same 2005-12-18 minor stroke hospitalization event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-d141cac7df09e7fe"
+    },
+    "timeline_event_id": "event-d141cac7df09e7fe"
+  },
+  {
+    "candidate_id": "bdc494332a53d88ec1513c9b",
+    "time": "2006-01-13",
+    "date_precision": "day",
+    "summary": "US TV evangelist Pat Robertson apologised to Ariel Sharon's family for suggesting Sharon's stroke was God's punishment for withdrawing from Gaza.",
+    "time_range": null,
+    "evidence_ids": [
+      "3213"
+    ],
+    "job_id": "5d024881e50a77aeb835559f58dfae28bd44e1e6e736f5f060b28caf6786fe3d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant to Ariel Sharon: public apology to his family over remarks about his stroke; no existing event matches this date or content.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c35158a6587422f6"
+  },
+  {
+    "candidate_id": "251454a07e44d6d76bd11e24",
+    "time": "2002-04",
+    "date_precision": "month",
+    "summary": "Ariel Sharon’s ongoing assault on the Palestinian Authority and his establishment of 34 new settlement outposts are described as a return to the existential confrontations of 1948.",
+    "time_range": null,
+    "evidence_ids": [
+      "4168"
+    ],
+    "job_id": "1c484391be8d19313feda4c546cac841923e674cddd363658f6ac7920f90df20",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant to Sharon's premiership and settlement policy; distinct April 2002 occurrence, no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9c459a35c3ac7ca6"
+  },
+  {
+    "candidate_id": "6363f284da837b322c4fa6f4",
+    "time": "2004-08-20",
+    "date_precision": "day",
+    "summary": "Ariel Sharon was almost certainly invoking Likud members' adulation of Menachem Begin to win support for his disengagement plan.",
+    "time_range": null,
+    "evidence_ids": [
+      "3389"
+    ],
+    "job_id": "f38966b1705f8c1f6c50888002bc99e7262f4939eb86bbffacd27aaec5019952",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant to Sharon's disengagement strategy and Likud politics; no existing event on this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5f58db041df838e7"
+  },
+  {
+    "candidate_id": "4e152120dfb8d0f16ff66013",
+    "time": "2014-01-11",
+    "date_precision": "day",
+    "summary": "Ariel Sharon, former Israeli prime minister, dies at age 85 after being in a coma since a stroke in January 2006.",
+    "time_range": null,
+    "evidence_ids": [
+      "3128"
+    ],
+    "job_id": "9288936c41dc2c652302d194ba51bd343db3b47ad8c626ab84f731ca169d2876",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-52bcdf2ed57c93b8",
+    "reason": "Duplicate of existing event-52bcdf2ed57c93b8: same date 2014-01-11 and same death event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-52bcdf2ed57c93b8"
+  },
+  {
+    "candidate_id": "f44eb5c671cf0ba99f3f94cc",
+    "time": "2001-02-08",
+    "date_precision": "day",
+    "summary": "Ariel Sharon, Israel's prime minister-elect, pledges not to resume peace talks until violence ends, following a suspected car bomb explosion in west Jerusalem.",
+    "time_range": null,
+    "evidence_ids": [
+      "4319"
+    ],
+    "job_id": "98fdbd68f16e6ebe9ca6de8163c5207609f877ed2d2cda23171780e1b2e48cf1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in Sharon's rise to prime minister and early peace-talk stance; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a51c012c86910d01"
+  },
+  {
+    "candidate_id": "a7088409ee873d31c62a1589",
+    "time": "2014-01-13",
+    "date_precision": "day",
+    "summary": "Ariel Sharon's death is marked by an obituary and critical letters assessing his legacy, including the 1982 Sabra and Chatila refugee camp massacre and the 2005 Gaza withdrawal.",
+    "time_range": null,
+    "evidence_ids": [
+      "3139"
+    ],
+    "job_id": "c271d56e4f5a431846a1216601376b0bc24cece11ffd97f4aaca5b9f76d8bc2c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant post-death legacy assessment; date 2014-01-13 differs from existing event-2d04eaac9792abf0 (funeral), so separate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7bb8982ef2721cca"
+  },
+  {
+    "candidate_id": "ef80bcff20e1ede5bcaf7289",
+    "time": "2014-01-03",
+    "date_precision": "day",
+    "summary": "Ariel Sharon died after being in a coma since a stroke in 2006.",
+    "time_range": null,
+    "evidence_ids": [
+      "3141"
+    ],
+    "job_id": "20064d56eac53259b03cda889ee3f741cc09b03c7ab7d8714031b3f19397d229",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant death report, but date 2014-01-03 differs from existing death event 2014-01-11; separate occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-61af9a4782b28eae"
+  },
+  {
+    "candidate_id": "d2a0b8ac33fc8e5e72a966b5",
+    "time": "2000-09-28",
+    "date_precision": "day",
+    "summary": "Israeli hardliner Ariel Sharon leads a group of Likud politicians into the sacred area in east Jerusalem known to Muslims as al-Haram al-Sharif and to Jews as the Temple Mount.",
+    "time_range": null,
+    "evidence_ids": [
+      "4181"
+    ],
+    "job_id": "0c81828460d5789d5430dea7b6c44a84b3480f16b757830e1389b7ce5e6ee09d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant pivotal event in Sharon's career and Second Intifada; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f0fd72b2e74a36d4"
+  },
+  {
+    "candidate_id": "dccbb61189285a0c166bafbf",
+    "time": "2006-01-06",
+    "date_precision": "day",
+    "summary": "Ariel Sharon is succeeded by an unspecified successor amid uncertainty over his political future after he abandoned Likud to form a new party for March elections.",
+    "time_range": null,
+    "evidence_ids": [
+      "3166"
+    ],
+    "job_id": "61c3068a7b4275cc4f451bd4e7c28d7d45b9f726a68bd7995be77f93e344e3fb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant to Sharon's succession and political uncertainty after his stroke; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4bbb619520dff97a"
+  },
+  {
+    "candidate_id": "84eefca6f3a828a968e299df",
+    "time": "2001-10-22",
+    "date_precision": "day",
+    "summary": "Ariel Sharon's government conducted a military invasion into Palestinian areas including Ramallah, Jenin, Bethlehem, Beit Jala, Beit Sahour, Qalqilya and Tulkarm, beginning a gradual reoccupation of Palestinian-controlled areas.",
+    "time_range": null,
+    "evidence_ids": [
+      "4326"
+    ],
+    "job_id": "be8dbe7f255d916c8bf8faa9e61ed7d87c92435ba9703d83b1d791a5a1bfcba1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon government military invasion and reoccupation of Palestinian areas is a relevant milestone in his premiership.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fbc5cb4ed0f5b539"
+  },
+  {
+    "candidate_id": "67d70b925e76541e4e4ef0b5",
+    "time": "2001-02-10",
+    "date_precision": "day",
+    "summary": "Ariel Sharon, the new Israeli Prime Minister, makes a dramatic bid to woo senior left-wing figures, including Shimon Peres as Foreign Minister and Ehud Barak as Defence Minister, into his government.",
+    "time_range": null,
+    "evidence_ids": [
+      "4364"
+    ],
+    "job_id": "a5c18719362322cab2d30546553837d54cc2d4a2acbf3d843c50e5e0df1ab768",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's post-election bid to bring left-wing figures into his government is a relevant formative political event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f817c0b8603a3f28"
+  },
+  {
+    "candidate_id": "a595a5115174dc84fda78895",
+    "time": "2000-10-12",
+    "date_precision": "day",
+    "summary": "Ariel Sharon, leader of the opposition Likud party, was still considering Prime Minister Ehud Barak's request to join an emergency national unity coalition following the violent collapse of the peace process.",
+    "time_range": null,
+    "evidence_ids": [
+      "4445"
+    ],
+    "job_id": "90b5463acbeb146f9e3576d3609ad22b3ffd660427a78de7d49a72f7af58e0b3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon considering joining an emergency unity coalition is a relevant pre-premiership political development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6c352edc4cc1ae1f"
+  },
+  {
+    "candidate_id": "ec79a7971de652ddf269603a",
+    "time": "2001-01-30",
+    "date_precision": "day",
+    "summary": "Ariel Sharon is widely expected to be elected Israeli prime minister in the upcoming election, despite his role as defense minister during the 1982 Sabra and Shatila massacre.",
+    "time_range": null,
+    "evidence_ids": [
+      "4233"
+    ],
+    "job_id": "caec42c574a8a83c9e14c9c7fcc1621020bf0ee179bbad7ffe2fd315036a1782",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Expectation of Sharon's election as prime minister is a relevant milestone in his rise to power.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c2416307b7043aa7"
+  },
+  {
+    "candidate_id": "dcdeb97974f80889c5cb7d36",
+    "time": "2002-03-26",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon demanded that Washington allow the possible exile of Yasser Arafat and toughened his demands on barring Arafat from returning if he attended the Arab League summit.",
+    "time_range": null,
+    "evidence_ids": [
+      "4113"
+    ],
+    "job_id": "974a822ffd8d9168ac45b0da59115617a591b00bcfc9258a2dc66ff0232b42c5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's demand regarding Arafat's exile is a relevant policy action during his premiership.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d7c4b6330845d4fc"
+  },
+  {
+    "candidate_id": "8e7c3d368cb349b927659428",
+    "time": "2002-02-01",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon says in a newspaper interview that Israel should have eliminated Yasser Arafat during the 1982 invasion of Lebanon and regrets not doing so, while stating Israel has no intention of harming Arafat now.",
+    "time_range": null,
+    "evidence_ids": [
+      "3927"
+    ],
+    "job_id": "2886d506a96b05e29207442a027b64204714a14963751a1a481d7750cb84ca22",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's remarks on eliminating Arafat in 1982 are a relevant statement reflecting his views.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b057deffb8db8cdf"
+  },
+  {
+    "candidate_id": "0d3505a68864efde7132d5e6",
+    "time": "2004-08-31",
+    "date_precision": "day",
+    "summary": "Prime Minister Ariel Sharon outlines an accelerated plan to evacuate Jewish settlements in the Gaza Strip, proposing that the withdrawal begin as early as next year.",
+    "time_range": null,
+    "evidence_ids": [
+      "3384"
+    ],
+    "job_id": "8a3b85242f74a52eb9bb3344d5c1857c92910dc353db0b58f57a660122688fba",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's accelerated Gaza settlement evacuation plan is a relevant policy milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-99e1645fa5bc4628"
+  },
+  {
+    "candidate_id": "4d74af545fed82bc648f7e53",
+    "time": "2004-02-02",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon told his Likud Party that he plans to dismantle Israeli settlements in the Gaza Strip, saying he had ordered planning for the evacuation of the 17 Gaza settlements.",
+    "time_range": null,
+    "evidence_ids": [
+      "3648"
+    ],
+    "job_id": "a19f5ca24291e8491c81c86c73e78e78ba06696e6de57ff7c3b06732140907a6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's announcement to Likud of plans to dismantle Gaza settlements is a relevant policy milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-677d9c4ddf419335"
+  },
+  {
+    "candidate_id": "19a3ba9287b47bb8989ad102",
+    "time": "2004-02-02",
+    "date_precision": "day",
+    "summary": "Ariel Sharon reveals plans to dismantle all Jewish settlements in the Gaza Strip, drawing criticism from his cabinet and party.",
+    "time_range": null,
+    "evidence_ids": [
+      "3561"
+    ],
+    "job_id": "4e3ee60e5b09f30b758a7a6e51c338f63d740dc3dfd4c382b5252aa1d87a3fcc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-677d9c4ddf419335",
+    "reason": "Same date and same event: Sharon revealing plans to dismantle Gaza settlements.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-677d9c4ddf419335"
+  },
+  {
+    "candidate_id": "e0c3b2097800c7e1429120b3",
+    "time": "2005-08-23",
+    "date_precision": "day",
+    "summary": "Israeli forces completed the evacuation of the last 25 Jewish settlements in the Gaza Strip and West Bank under Ariel Sharon's disengagement plan.",
+    "time_range": null,
+    "evidence_ids": [
+      "3334"
+    ],
+    "job_id": "1d5be7856b756b35910946ba49a26eadcd4fa04399c1210424155fa889e1f642",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Milestone completion of Sharon's Gaza disengagement evacuation.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d24b6617f7cb97da"
+  },
+  {
+    "candidate_id": "2279a8f8933372c70e425e65",
+    "time": "2004-01-27",
+    "date_precision": "day",
+    "summary": "Jewish settlers say they rejected an offer by Ariel Sharon to limit settlement evacuations in return for cooperation with his unilateral withdrawal plan, while Sharon denies planning to evacuate seven Jewish settlements.",
+    "time_range": null,
+    "evidence_ids": [
+      "3566"
+    ],
+    "job_id": "93a657bb757d656a75a87366c0977c3a8f05e18fbe7da3faee3f5109687a77b3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon withdrawal-plan dispute with settlers; distinct date and development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-738fd90112015c9c"
+  },
+  {
+    "candidate_id": "f2f0e3f36559d482082e8422",
+    "time": "2005-05-08",
+    "date_precision": "day",
+    "summary": "Ariel Sharon says he will delay the forcible removal of Jewish settlers from the Gaza Strip until mid-August, after a traditional Jewish mourning period ends on August 14.",
+    "time_range": null,
+    "evidence_ids": [
+      "3271"
+    ],
+    "job_id": "5c39203e98162fa2cb35b07228ae9d4a343ba95d258ffa236af86e35c9c70308",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's decision to delay forcible settler removal; distinct timeline step.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ec60e7c4366f8cb5"
+  },
+  {
+    "candidate_id": "cd0cf433b5caefa7d9c0db4b",
+    "time": "2004-02-18",
+    "date_precision": "day",
+    "summary": "The US tacitly approves Ariel Sharon's plan for unilateral disengagement from the Palestinians, setting conditions including a refusal to let Israel formally annex Jewish settlements in the West Bank.",
+    "time_range": null,
+    "evidence_ids": [
+      "3720"
+    ],
+    "job_id": "732d3a678eb3322b9b64dc776621668ef2dbef79eddc8b408c1d39c3ff584933",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "US approval of Sharon's disengagement plan; distinct date and actor.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e4d0677edddb72af"
+  },
+  {
+    "candidate_id": "12993767ad035027c7783bc7",
+    "time": "2004-10-27",
+    "date_precision": "day",
+    "summary": "The Knesset approves Ariel Sharon's disengagement plan from Gaza.",
+    "time_range": null,
+    "evidence_ids": [
+      "3546"
+    ],
+    "job_id": "1272e7ba31c41cbb12d5eed5ea02514d2f8db8537108a607f344fd15d8f9ea5c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Knesset approval of Sharon's Gaza disengagement plan; key milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-404dd6446a851b5e"
+  },
+  {
+    "candidate_id": "f00a727cc3b2cc239ef6f0bb",
+    "time": "2005-02-20",
+    "date_precision": "day",
+    "summary": "The Israeli cabinet approved Ariel Sharon's plan to pull out of the Gaza Strip and a small part of the West Bank, authorizing the first ever removal of Jewish settlers from the Palestinian territories.",
+    "time_range": null,
+    "evidence_ids": [
+      "3426"
+    ],
+    "job_id": "54d9bee192a7d8a1abbb2238c09bc630b352bec57f62e38de09c49d0e4e0882d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cabinet approval of Sharon's Gaza/West Bank pullout; distinct milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f89fb5d52aa55523"
+  },
+  {
+    "candidate_id": "4f24973f6f49cbd55465df16",
+    "time": "2004-03-10",
+    "date_precision": "day",
+    "summary": "Israeli and Palestinian prime ministers Ariel Sharon and Ahmed Qureia agree to meet next week, their first meeting in more than six months.",
+    "time_range": null,
+    "evidence_ids": [
+      "3537"
+    ],
+    "job_id": "387b5cefe0128ac020555bf00ff6d540efc4dc88659a152b250b2c95973f3e44",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon-Qureia meeting agreement; relevant to Sharon's diplomatic timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-329366e549d23938"
+  },
+  {
+    "candidate_id": "8c2281121e4b7c383d488277",
+    "time": "2005-05-01",
+    "date_precision": "day",
+    "summary": "Natan Sharansky resigns from Ariel Sharon's government in protest at the plan to evacuate settlements in Gaza and the northern West Bank.",
+    "time_range": null,
+    "evidence_ids": [
+      "3342"
+    ],
+    "job_id": "47ba16dbeebdf3e85039b30a409ec08fe85a6bd0c6510e0dcfe30a15b65db1fe",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: resignation from Sharon's government over the Gaza disengagement plan; distinct date from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3ef095339576a0fb"
+  },
+  {
+    "candidate_id": "1b2a29d72848d6a7034ea203",
+    "time": "2005-08-04",
+    "date_precision": "day",
+    "summary": "Ariel Sharon condemns the killing of four Arab civilians by an Israeli soldier as a \"despicable act by a bloodthirsty terrorist.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "3315"
+    ],
+    "job_id": "5e91efa26437cb97ac1e4ba077c7dde6e5e787108e010992df961b1b4808b9cb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant to Sharon's public response during the disengagement period; no matching existing event date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bec636639db6ddb2"
+  },
+  {
+    "candidate_id": "da34b2b0a1e9825778b8dd18",
+    "time": "2001-11-26",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon replaces Israel's most seasoned negotiator with hardline former general Meir Dagan as lead negotiator ahead of a US peace mission.",
+    "time_range": null,
+    "evidence_ids": [
+      "4022"
+    ],
+    "job_id": "d64bbb60ddf68469ce6cafc96b601e2f772fc9b6b10a43435c81bad3571c7176",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Sharon personnel decision ahead of US peace mission; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-76f755f38aeb139a"
+  },
+  {
+    "candidate_id": "5fea9c9b99f9fc5b35fd30a6",
+    "time": "2005-08",
+    "date_precision": "month",
+    "summary": "Ariel Sharon served as Israeli prime minister during Israel's unilateral withdrawal from the Gaza Strip.",
+    "time_range": null,
+    "evidence_ids": [
+      "3149"
+    ],
+    "job_id": "80992ff9445fd919e39502ae575058904ee5d523968b8e876bc0402efd1c8b19",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Sharon role in Gaza disengagement; month-level date differs from existing withdrawal events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-dd72ad02697a0388"
+  },
+  {
+    "candidate_id": "157840a1316d63e51fcdbea5",
+    "time": "2004-12-01",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon's government faces collapse after his main coalition partner, the Shinui party, causes the defeat of the annual budget in parliament, prompting Sharon to sack Shinui ministers from his cabinet.",
+    "time_range": null,
+    "evidence_ids": [
+      "3529"
+    ],
+    "job_id": "8ebf20eab1a7fa8db48ae3669a0dbe0c753019a46266ccf2a3ada233da90bdf5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant coalition crisis and cabinet sackings; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-625537482a800dcc"
+  },
+  {
+    "candidate_id": "6cd95ea67dd7174cbf18cf47",
+    "time": "2005-11-21",
+    "date_precision": "day",
+    "summary": "Ariel Sharon announces his departure from the ruling Likud party and runs for prime minister at the head of a new party, Kadima.",
+    "time_range": null,
+    "evidence_ids": [
+      "3336"
+    ],
+    "job_id": "51bfa5db3c1cec163b416bbc6e097dbae7eb847db907f1e9da91a611fce629c7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Sharon departure from Likud and Kadima formation; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c731369e32a14f32"
+  },
+  {
+    "candidate_id": "872d5ddb540bad89e68bc406",
+    "time": "2005-03-27",
+    "date_precision": "day",
+    "summary": "Ariel Sharon averts a political crisis by winning opposition support for his budget, removing the last major legislative obstacle to closing settlements in Gaza and four isolated ones in the northern West Bank.",
+    "time_range": null,
+    "evidence_ids": [
+      "3333"
+    ],
+    "job_id": "b843c67fb5aae2b9fe7d1a3ea8a1d587e28a0233b991ba7a4d96410f3734a5ca",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant budget win enabling Gaza settlement closure; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-37246c84e556133a"
+  },
+  {
+    "candidate_id": "364453c95ac9b4e5f61626c5",
+    "time": "2002-02-01",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon's public approval rating dropped to its lowest in months amid a petition by 104 combat reservist officers refusing to serve in the occupied territories.",
+    "time_range": null,
+    "evidence_ids": [
+      "4046"
+    ],
+    "job_id": "33abde63e181899ae47d34ff533a44965ff73085d35a39b04d316905ac0801f2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Sharon approval drop amid reservist petition; same date as existing event but different topic.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c48802dce8b06ed3"
+  },
+  {
+    "candidate_id": "5d61624b19efe083d90b7c64",
+    "time": "2004-05-27",
+    "date_precision": "day",
+    "summary": "Ariel Sharon is reported to have shelved a plan for a cabinet vote on an Israeli withdrawal from Gaza.",
+    "time_range": null,
+    "evidence_ids": [
+      "3547"
+    ],
+    "job_id": "42b8c8e35267b94173614e5f3d131fd609f4311ecc0265b768e576404ff22622",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Sharon Gaza withdrawal cabinet vote shelved; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a2d3a0aa56971b3e"
+  },
+  {
+    "candidate_id": "aece71ee173edce7f467aab2",
+    "time": "2004-03-02",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon is reported to back a total withdrawal of Israeli settlers and soldiers from the Gaza Strip, though no final decision has been made.",
+    "time_range": null,
+    "evidence_ids": [
+      "3494"
+    ],
+    "job_id": "4f0f82ae7efc652846e148b41403353a63801e1d9ceaa0c3e7582a5c3ef43b99",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Sharon reported backing Gaza withdrawal; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d85f3c1d202cd16b"
+  },
+  {
+    "candidate_id": "1f77002b2aee0bcc6017fe68",
+    "time": "2005-08-20",
+    "date_precision": "day",
+    "summary": "Ariel Sharon accuses settler leaders of causing unnecessary suffering for political gain during the Gaza Strip pullout.",
+    "time_range": null,
+    "evidence_ids": [
+      "3270"
+    ],
+    "job_id": "5d1a97f67c863e14dc2c2a7241cb6de9fc468789706669c285792b8ac95bc52c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's accusation during the Gaza pullout is a relevant milestone in his handling of the disengagement.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-eeca5cafcd8b812b"
+  },
+  {
+    "candidate_id": "78b9af2a0e884789e1cd5c71",
+    "time": "2000-09-28",
+    "date_precision": "day",
+    "summary": "Israeli opposition leader Ariel Sharon visits a Jerusalem shrine sacred to Jews and Muslims, angering Palestinians and sparking riots.",
+    "time_range": null,
+    "evidence_ids": [
+      "4388"
+    ],
+    "job_id": "78fb3adca00aa0bd55fb8b256a674d86ab783a3442ddf2194ae9fe2f7748e81c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-f0fd72b2e74a36d4",
+    "reason": "Same 2000-09-28 Temple Mount visit as the existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f0fd72b2e74a36d4"
+  },
+  {
+    "candidate_id": "49efd9bb7c25597a2203c8b4",
+    "time": "2000-09-28",
+    "date_precision": "day",
+    "summary": "Ariel Sharon visits the Temple Mount/Dome of the Rock in Jerusalem accompanied by hundreds of riot police, a visit that sparked five days of bloody violence.",
+    "time_range": null,
+    "evidence_ids": [
+      "4039"
+    ],
+    "job_id": "37dd0fcb08a0016cf05904cb82cde622860f1f88ca2a1c80996fdc5da0dbce22",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-f0fd72b2e74a36d4",
+    "reason": "Same 2000-09-28 Temple Mount visit as the existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f0fd72b2e74a36d4"
+  },
+  {
+    "candidate_id": "56e93f28e4a715908b1fed6e",
+    "time": "2002-01-28",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon is being urged to create a \"hermetic\" security cordon dividing Arab east from Jewish west Jerusalem, following a suicide bombing in west Jerusalem.",
+    "time_range": null,
+    "evidence_ids": [
+      "3969"
+    ],
+    "job_id": "aa346733deab745737245988764da4220e38fde7a9b418ca8ab3849fd308b21d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon being urged to create a Jerusalem security cordon is a relevant policy development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-487594dc73e27e43"
+  },
+  {
+    "candidate_id": "7dab4498a83831ec1f321f21",
+    "time": "2002-06-08",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon flew to Washington to persuade President Bush against a return to negotiations with the Palestinians.",
+    "time_range": null,
+    "evidence_ids": [
+      "4134"
+    ],
+    "job_id": "3940710aafc09d459eb8326179feba2a42ed9dbd478ace40015f39ffafe22d96",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's Washington trip to oppose negotiations with the Palestinians is a relevant diplomatic milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-be3ab15d978c04f9"
+  },
+  {
+    "candidate_id": "27d1d968799f19f513d161db",
+    "time": "2003-12-18",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon delivered an ultimatum to the Palestinians to act against terrorists or he will embark on a \"unilateral separation\" plan within months.",
+    "time_range": null,
+    "evidence_ids": [
+      "3752"
+    ],
+    "job_id": "1f1ff66b8446938932185da786235ccc7a2ed540f32609d2f26db2624d8dceda",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's ultimatum and unilateral separation threat is a relevant milestone in his policy toward the Palestinians.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-395d3ab1cf6c2f80"
+  },
+  {
+    "candidate_id": "75b40a5596ab1ab74546b7ad",
+    "time": "2002-11-18",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon was considering razing Palestinian homes to create a secure corridor for Jewish settlers in the West Bank.",
+    "time_range": null,
+    "evidence_ids": [
+      "3839"
+    ],
+    "job_id": "4cba3e1c1829a33358849f4eeeafa7e741ff3800a8c828217c2679ebeb0dc191",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon considering razing Palestinian homes for a settler corridor is a relevant policy item.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-271dc39745dee73a"
+  },
+  {
+    "candidate_id": "67ec4a6b4e6b2167538befcb",
+    "time": "2003-06-04",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon endorses the establishment of an independent Palestinian state at a summit in Aqaba, Jordan, and pledges to dismantle unauthorized settlement outposts.",
+    "time_range": null,
+    "evidence_ids": [
+      "3696"
+    ],
+    "job_id": "94e13d60ca91b11d9e1977c41a53a4ee227dddf9629021845f1f57cecd95e003",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's Aqaba endorsement of a Palestinian state and outpost dismantlement is a relevant milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a91689b0c80cbc95"
+  },
+  {
+    "candidate_id": "d05786c7cf0b8c19a3310879",
+    "time": "2001-08-14",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon warned that Palestinians would lose \"additional assets\" as Israeli forces moved toward an incursion around Bethlehem.",
+    "time_range": null,
+    "evidence_ids": [
+      "4177"
+    ],
+    "job_id": "ab54e94ac80651cd7a38a868a11f7272f8c4b3f33d90f09018378f4f6be9cabd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's warning and Israeli incursion around Bethlehem mark a distinct 2001 milestone in his premiership.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8bca927d199792ce"
+  },
+  {
+    "candidate_id": "8872deca092e11ddf2b16c52",
+    "time": "2001-05-25",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon again calls for a Palestinian ceasefire, hours after a car bomb killed three people in Hadera.",
+    "time_range": null,
+    "evidence_ids": [
+      "4244"
+    ],
+    "job_id": "565d36e64be96a1f46bc210be90fbeb18d27dc660d975b9976daec21a28c53ed",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's ceasefire call after the Hadera car bomb is a distinct dated event in his tenure.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9ad01ba965def8ef"
+  },
+  {
+    "candidate_id": "248061c1c701c7d81f807684",
+    "time": "2002-06-10",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon met with US President George W. Bush at the White House and won US backing for Israel's demand that the Palestinian leadership be overhauled before meaningful peace talks can begin.",
+    "time_range": null,
+    "evidence_ids": [
+      "4065"
+    ],
+    "job_id": "fad9459d9c04af909b3f70176200662e40d3dab1d969cbdcd948e1da2c9958fd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's White House meeting with Bush and US backing on Palestinian leadership is a distinct 2002 milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1fd83106acf5becd"
+  },
+  {
+    "candidate_id": "cd12271ce8ed3cb673c52c80",
+    "time": "2004-01-11",
+    "date_precision": "day",
+    "summary": "Tens of thousands of Israeli settlers and supporters rally in Tel Aviv to denounce Ariel Sharon's plan to remove Jewish outposts in the West Bank and Gaza.",
+    "time_range": null,
+    "evidence_ids": [
+      "3742"
+    ],
+    "job_id": "9381ab31c2f78a32f897c2913219bcdf1d1d3178110232144fa6fcb7b302babe",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Mass settler rally against Sharon's disengagement plan is a distinct 2004 event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5aea79ee8c8a1090"
+  },
+  {
+    "candidate_id": "08989634dcb3ee92e47fe10b",
+    "time": "2003-07-20",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon met with Palestinian Prime Minister Mahmoud Abbas, who described the meeting as \"extremely disappointing\" after Israel deferred action on Palestinian demands, including prisoner releases, until after Sharon's visit to Washington.",
+    "time_range": null,
+    "evidence_ids": [
+      "3699"
+    ],
+    "job_id": "492a12cd1e20b23035c59fa471907f1421c833944f332b7c1481c36ed8574717",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon-Abbas meeting described as disappointing is a distinct 2003 diplomatic milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3185077502983b08"
+  },
+  {
+    "candidate_id": "66673b8e6c2d0abd854c54ca",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "Ariel Sharon denied a Newsweek report that he was willing to compromise on Jerusalem and give up 90% of the West Bank in a future peace deal with the Palestinians.",
+    "time_range": null,
+    "evidence_ids": [
+      "3283"
+    ],
+    "job_id": "b8f1f7e589852a95dd10e0d2f12e4aa1673c99cb138140c5ee1b67a642604150",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's denial of the Newsweek report on Jerusalem and West Bank concessions is a distinct 2005 event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-aee50b67866ecc0d"
+  },
+  {
+    "candidate_id": "04e91b667d65cbd499fa22fc",
+    "time": "2002-04-02",
+    "date_precision": "day",
+    "summary": "Israeli warplanes, armour and infantry launch a huge attack on Bethlehem as Ariel Sharon pushes ahead with the second phase of his five-day long assault on Palestinian targets.",
+    "time_range": null,
+    "evidence_ids": [
+      "3959"
+    ],
+    "job_id": "2ffc583e1956af00d4afbc60cb959d69c09a9850205f4a7803e9ba65a043bf63",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's second-phase assault on Bethlehem is a distinct dated event; existing 2002-04 event is a month-precision summary, not a same-date duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b4ea69ad6234aafb"
+  },
+  {
+    "candidate_id": "c1a761312d69412061bf1238",
+    "time": "2005-06-09",
+    "date_precision": "day",
+    "summary": "Israel's supreme court ruled that Prime Minister Ariel Sharon's Gaza withdrawal plan is constitutional, removing the last legal obstacle to the pullback scheduled for mid-August.",
+    "time_range": null,
+    "evidence_ids": [
+      "3371"
+    ],
+    "job_id": "d24fde4a0352d0da6d483fe6f2cdeceaead3586419288bf64f2b4d31763febb1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Milestone in Sharon's Gaza disengagement plan; distinct date and event from existing entries.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-faa5a2e63139cdde"
+  },
+  {
+    "candidate_id": "e4a34aeec704905b9b738992",
+    "time": "2005-07-20",
+    "date_precision": "day",
+    "summary": "A parliamentary vote to delay Ariel Sharon's Gaza disengagement plan failed, and police contained anti-disengagement protesters at a campsite.",
+    "time_range": null,
+    "evidence_ids": [
+      "3398"
+    ],
+    "job_id": "e9374bdfbd5d0184ec6dc20393b12632b80700d2a969fe2cebdf87525dc11c1f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Parliamentary vote on delaying Sharon's Gaza disengagement; relevant distinct milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-596cf6149ee54749"
+  },
+  {
+    "candidate_id": "ff2393ebccedae5e77c7b901",
+    "time": "2005-04-04",
+    "date_precision": "day",
+    "summary": "Jewish settlers split over Ariel Sharon's plan to pull out of the Gaza Strip as their leaders meet the prime minister to discuss terms for a mass relocation.",
+    "time_range": null,
+    "evidence_ids": [
+      "3353"
+    ],
+    "job_id": "0f5fc2f6e7895e830430b5fdec5ca1ad9ae5b4dff242fb430882d46ff8ccf46d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Settler division over Sharon's Gaza pullout plan; relevant to disengagement timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1d1a9f7d01e404d1"
+  },
+  {
+    "candidate_id": "c70d59c3dcd2c7138f64944e",
+    "time": "2002-03-15",
+    "date_precision": "day",
+    "summary": "Ariel Sharon is criticized for ordering Israeli military incursions into Palestinian areas, described as the country's biggest military operation in 20 years.",
+    "time_range": null,
+    "evidence_ids": [
+      "4123"
+    ],
+    "job_id": "83bc2364262bae4ecf28826d85920ca4ae081c9f8e5e6f35e833fe69357e1650",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Criticism of Sharon's military incursions; relevant to his security policy timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-870ea88d9c490b06"
+  },
+  {
+    "candidate_id": "15850ed890419ab226edc4f7",
+    "time": "2002-01-24",
+    "date_precision": "day",
+    "summary": "Elie Hobeika, a potential key witness in the Belgian war crimes case against Israeli Prime Minister Ariel Sharon, was killed by a bomb in Beirut along with three bodyguards.",
+    "time_range": null,
+    "evidence_ids": [
+      "4049"
+    ],
+    "job_id": "4fd675ae4cf005ac78820be6dbc991ef9d3ab67ff6f7a7fa69c658c67869631c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Killing of potential witness in Belgian war crimes case against Sharon; relevant distinct event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bdb6d1b734afb704"
+  },
+  {
+    "candidate_id": "18f3b870f47267fd5fe500fb",
+    "time": "2002-04-14",
+    "date_precision": "day",
+    "summary": "Ariel Sharon wages a military operation on the West Bank, named 'Operation Defensive Shield', which is described as a replay of his 1982 invasion of Lebanon.",
+    "time_range": null,
+    "evidence_ids": [
+      "4075"
+    ],
+    "job_id": "2847c7c0c095cbcf3df227735a6d8bb17fd641bd9a8d8ee0d5ef20411a71f8b5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Operation Defensive Shield under Sharon; relevant military milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9fc7e443a576dba8"
+  },
+  {
+    "candidate_id": "c12488f71989bf895ea86d1c",
+    "time": "2001-04-17",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon sent troops into a Palestinian autonomous area in the Gaza Strip, destroying four Palestinian border posts, before withdrawing them less than 24 hours later under US pressure.",
+    "time_range": null,
+    "evidence_ids": [
+      "4274"
+    ],
+    "job_id": "edef6bc32066e44fea09e238b15b2922b960f7812af609a2c65d1e79c23debc4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon ordered Gaza incursion and withdrawal; relevant distinct event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fb8f72c0787607ad"
+  },
+  {
+    "candidate_id": "6b68c73b525ecad7406fe8a5",
+    "time": "2001-01-05",
+    "date_precision": "day",
+    "summary": "Polls published in Israeli newspapers show Ariel Sharon leading Ehud Barak 50% to 32% or 22% ahead of the February 6 prime ministerial election.",
+    "time_range": null,
+    "evidence_ids": [
+      "4348"
+    ],
+    "job_id": "efe62d25b9183248724a21e678ea2cf66c12a4e33cb2d8b1a2acd88c701719ab",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ab234c0ff9213f97",
+    "reason": "Same date and same poll lead ahead of February 6 election as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ab234c0ff9213f97"
+  },
+  {
+    "candidate_id": "68425d9dbd6462c2ae17f032",
+    "time": "2002-02-22",
+    "date_precision": "day",
+    "summary": "Ariel Sharon’s siege of Yasser Arafat in Ramallah is described as facing risks and resistance similar to his 1982 siege of West Beirut, with no clear new event beyond the ongoing siege.",
+    "time_range": null,
+    "evidence_ids": [
+      "3932"
+    ],
+    "job_id": "18afd5f3e1c60f415a06f629d50855229d27a67a60aef1ba2f36cba4264ad9bc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant to Sharon's Ramallah siege of Arafat; no matching existing event date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-282959d949e5801a"
+  },
+  {
+    "candidate_id": "a28868a088fecda5c5f9fdb6",
+    "time": "2001-02-08",
+    "date_precision": "day",
+    "summary": "Ariel Sharon becomes prime minister of Israel at a critical time for the country.",
+    "time_range": null,
+    "evidence_ids": [
+      "4400"
+    ],
+    "job_id": "28ccf36259838cc0f09d276da60234561f68c5a51c4b9e3ed5f016d99f80591f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-a51c012c86910d01",
+    "reason": "Same date as existing event on Sharon becoming prime minister; duplicate milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a51c012c86910d01"
+  },
+  {
+    "candidate_id": "9a4f8d252f70089cdb8c4e23",
+    "time": "2001-04-15",
+    "date_precision": "day",
+    "summary": "Ariel Sharon's government escalated military action against the Palestinians, including helicopter gunship strikes on Palestinian security barracks, abductions in Palestinian areas, and political assassinations in Gaza.",
+    "time_range": null,
+    "evidence_ids": [
+      "4406"
+    ],
+    "job_id": "3e6a39b216be415625aced67c7347b6f9dcb195b84e5f84355124f6c10a8487d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant escalation under Sharon's government; no existing event with same date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e407159802c773ab"
+  },
+  {
+    "candidate_id": "326b5324537018a542c57545",
+    "time": "2002-10-31",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon appoints former army chief Shaul Mofaz as defence minister after Labour ministers resigned from the coalition government.",
+    "time_range": null,
+    "evidence_ids": [
+      "3852"
+    ],
+    "job_id": "4db359ffe6ffad45a9d672b9429f88ab60b420efd5af33fc7e2624eafb411c2c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Sharon cabinet appointment; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b71a132cad9ce928"
+  },
+  {
+    "candidate_id": "3ab504a0d3033a60851e892c",
+    "time": "2002-06-05",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon came under intense pressure to reoccupy the entire West Bank and Gaza and expel Palestinian leader Yasser Arafat after a Palestinian suicide car bombing killed 16 people.",
+    "time_range": null,
+    "evidence_ids": [
+      "4054"
+    ],
+    "job_id": "8fab8da0275fa4aceb1fb27b4c4c45161e3193d2a142ef3e17b05b63e8ca8b15",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant pressure on Sharon after bombing; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bb608709387bec1a"
+  },
+  {
+    "candidate_id": "09d9fef601dc828f317871c8",
+    "time": "2002-04-21",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon said the first stage of Israel's offensive had ended as tanks redeployed around Nablus and Ramallah, while the siege of Yasser Arafat's headquarters continued.",
+    "time_range": null,
+    "evidence_ids": [
+      "3919"
+    ],
+    "job_id": "2d82a05ec894b220af880edc5b446cefc7204e02259b52c73905884f42445178",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Sharon statement on offensive stage; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c6967bb192c48177"
+  },
+  {
+    "candidate_id": "f19aeca11019c0dee1986cb9",
+    "time": "2002-06-10",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon is due to meet US President George Bush at the White House, hours after Israeli tanks and troops raided Ramallah.",
+    "time_range": null,
+    "evidence_ids": [
+      "4066"
+    ],
+    "job_id": "2ed1cd3fdf76d286045cf15b3aeded1227b2085120fdb714c3837e462827effd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-1fd83106acf5becd",
+    "reason": "Same date as existing event on Sharon meeting Bush at White House; duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1fd83106acf5becd"
+  },
+  {
+    "candidate_id": "33035ff014510c0687f7b686",
+    "time": "2002-06-24",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon said the army was preparing \"massive activity\" against Hamas in the Gaza Strip, following a helicopter missile strike that killed six Palestinians.",
+    "time_range": null,
+    "evidence_ids": [
+      "4118"
+    ],
+    "job_id": "789f1d4c3c455e08e7604bd1ff540e031824d6e30199da260b4f96893ba4d1e1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Sharon statement on planned Gaza activity; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-acf2f66677abd45b"
+  },
+  {
+    "candidate_id": "0a9b7c1421207b82ffe803c2",
+    "time": "2004-04-02",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon threatens in media interviews to take action against Palestinian Authority chairman Yasser Arafat, though it is unclear what action he proposes.",
+    "time_range": null,
+    "evidence_ids": [
+      "3474"
+    ],
+    "job_id": "7a392d907b4ba1f2db6e6d21b2bbbcb09dc99a9aaf776b316e2bc260eea917a0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's threat against Arafat is a relevant milestone in his policy toward the Palestinian leadership; no existing event matches this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1b67f0d70a4226d9"
+  },
+  {
+    "candidate_id": "b101f322610534da61efa988",
+    "time": "2002-04-08",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon said he intended to complete the military operation against Yasser Arafat's \"regime of terror,\" defying US calls to pull troops out of the West Bank immediately.",
+    "time_range": null,
+    "evidence_ids": [
+      "3993"
+    ],
+    "job_id": "57b9add573773291b55fa13302143a496e8e7b3ee64d596e3dda4c488d5103e6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's stated intent to complete the West Bank operation is a relevant milestone; no existing event has this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1e8f58c8c1206eae"
+  },
+  {
+    "candidate_id": "069af86458f550fa17d6afc4",
+    "time": "2002-09-28",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon orders a siege of Yasser Arafat's Ramallah compound, demanding the handover of alleged terrorists.",
+    "time_range": null,
+    "evidence_ids": [
+      "4099"
+    ],
+    "job_id": "deca0ad3428dfbd6171b1e25e1dbf16e6a4676a5d3c7d82702e8fd241150b805",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's order to besiege Arafat's Ramallah compound is a relevant milestone; no existing event matches this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d54cbded9bd3909f"
+  },
+  {
+    "candidate_id": "a6dd93846d8c02ff92748f49",
+    "time": "2002-04-04",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon's offensive in the West Bank destroyed Palestinian Authority institutions and targeted Yasser Arafat's compound, which critics said aimed to erase the eight-year period of Arafat's rule.",
+    "time_range": null,
+    "evidence_ids": [
+      "4197"
+    ],
+    "job_id": "4cc295cbfab00236d1c50fcd942cbac7f03ff054c9b4737b3e56dd8c564b8977",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's West Bank offensive targeting Arafat's compound is a relevant milestone; no existing event matches this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-40ab16f458ca71da"
+  },
+  {
+    "candidate_id": "6b285430464dbb1a3b6ae477",
+    "time": "2002-05-08",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon returns from Washington facing options including expelling Yasser Arafat, invading the Gaza Strip, or escalating raids on West Bank towns, with no ceasefire among the choices.",
+    "time_range": null,
+    "evidence_ids": [
+      "4223"
+    ],
+    "job_id": "a9a4f395dba3165dd0f7423a24106a82fcbdd976d7eff861d606daa92143f76f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's post-Washington options including expelling Arafat are a relevant milestone; no existing event matches this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-08246b9bdfaa84c7"
+  },
+  {
+    "candidate_id": "6e7b170ceb39155faf614de6",
+    "time": "2001-09-16",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon rebuffs US calls for ceasefire talks and orders the third invasion of a Palestinian-ruled city in less than a week, setting new conditions for truce talks.",
+    "time_range": null,
+    "evidence_ids": [
+      "4266"
+    ],
+    "job_id": "d03a572193c2b6e9cd93af604745a7c627082a23751384df17da4787eeb3e98e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon rebuffing US ceasefire calls and ordering a new incursion is a relevant milestone; no existing event matches this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ac0181b81fb96e31"
+  },
+  {
+    "candidate_id": "ce72e167329019ba6288cb44",
+    "time": "2002-04-14",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon threatened to storm Yasser Arafat's headquarters to capture the killers of far-right cabinet minister Rechavam Zeevi, potentially derailing US Secretary of State Colin Powell's Middle East peace mission.",
+    "time_range": null,
+    "evidence_ids": [
+      "4085"
+    ],
+    "job_id": "1ea48ad71ad20439ec7f28f09a2af98fe2ddb80d2420af89c581062c11b2c90d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's threat to storm Arafat's headquarters is a relevant milestone; existing event-9fc7e443a576dba8 shares the date but describes a different West Bank operation, so it is not a duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fd79ea4f1a3562da"
+  },
+  {
+    "candidate_id": "ba01d4f684356c36390a2c77",
+    "time": "2005-08-15",
+    "date_precision": "day",
+    "summary": "Ariel Sharon says that if the Palestinians reach out a hand in peace, Israel will respond with an olive branch, but if they choose fire, Israel will respond with fire more severe than ever.",
+    "time_range": null,
+    "evidence_ids": [
+      "3298"
+    ],
+    "job_id": "5250ae6653ad9405658bc6c26ef608ab18ebbd12ce317fd7194fd586da5664ef",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's 2005 statement on responding to Palestinian peace or violence is a relevant milestone in his leadership.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e0e88b16cc589929"
+  },
+  {
+    "candidate_id": "cdaa4676b163f4e81ee2d136",
+    "time": "2003-07-20",
+    "date_precision": "day",
+    "summary": "Ariel Sharon meets Palestinian prime minister Mahmoud Abbas.",
+    "time_range": null,
+    "evidence_ids": [
+      "3734"
+    ],
+    "job_id": "8bee255756059544b41de5825af003f492a6062fd07757f58bf0908fe1b9e4ab",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-3185077502983b08",
+    "reason": "Same date and same Sharon-Abbas meeting as the existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3185077502983b08"
+  },
+  {
+    "candidate_id": "b527b20eafb6de17526c37e4",
+    "time": "2002-02-28",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon launched the most concerted effort to crush Palestinian militants on their home terrain since the uprising began, as the Israeli army stormed the Balata and Jenin refugee camps in the West Bank.",
+    "time_range": null,
+    "evidence_ids": [
+      "4137"
+    ],
+    "job_id": "6b9266616ea0686bae3fcc30579c1c67881b4f84469358ab5f90d9ce08271e28",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's launch of a major West Bank refugee-camp operation is a distinct relevant milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e5cea2e6ffc4eb65"
+  },
+  {
+    "candidate_id": "ddcf09b2be3459565df4b3e5",
+    "time": "2002-04-28",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon's government threatened to block a UN investigation into the Israeli assault on the Jenin refugee camp, with the UN team expected to arrive in Tel Aviv that evening after delays.",
+    "time_range": null,
+    "evidence_ids": [
+      "4175"
+    ],
+    "job_id": "dbdcdbcc9cf6f1d05faa206c79d30550891c315e849890f4c3419f972ae4dfdf",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon government's threat to block the UN Jenin investigation is a relevant distinct development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0164a75d9f96e822"
+  },
+  {
+    "candidate_id": "4f17732625cce6c43ab3e78a",
+    "time": "2002-04-19",
+    "date_precision": "day",
+    "summary": "Palestinians hope the UN Security Council's decision to send a fact-finding mission to the Jenin refugee camp could lead to an international criminal trial of Israeli Prime Minister Ariel Sharon and other senior figures.",
+    "time_range": null,
+    "evidence_ids": [
+      "4094"
+    ],
+    "job_id": "19a6b7e946570e846bc0e7482a76f52cbbb9c025ab7ec6f4d7a88f780504564f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palestinian hopes for a UN mission and possible Sharon trial are relevant to Sharon's timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7c5bf9793d9f0a34"
+  },
+  {
+    "candidate_id": "dba01ff171c0ce2760421c8a",
+    "time": "2002-04-23",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon decided to reject the UN fact-finding mission to the Jenin refugee camp, reversing Israel's earlier commitment and prompting a US rebuke.",
+    "time_range": null,
+    "evidence_ids": [
+      "4180"
+    ],
+    "job_id": "0cc5a1a2642cdf5c66e5957a42d955584f49dd8f16814743a81e939be726c028",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's decision to reject the UN Jenin fact-finding mission is a distinct relevant milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8a5923c7b53b40be"
+  },
+  {
+    "candidate_id": "4d91bfd3ba36405f7a878580",
+    "time": "2002-03-29",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon launched a sweeping military offensive in the West Bank, calling up 31,000 reservists.",
+    "time_range": null,
+    "evidence_ids": [
+      "4247"
+    ],
+    "job_id": "f62d76a41b815a58e827c51245cb4d25e51d42c19291a8b39476feaff5c5bb19",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's launch of the sweeping West Bank offensive and reservist call-up is a major distinct milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-48bb5edce281b426"
+  },
+  {
+    "candidate_id": "4f7654215a15d0f4a2153162",
+    "time": "2004-10",
+    "date_precision": "month",
+    "summary": "Ariel Sharon pledged to remove settlers from the Gaza Strip and was advised by a retired Israeli general on how to carry out the eviction.",
+    "time_range": null,
+    "evidence_ids": [
+      "3601"
+    ],
+    "job_id": "c304baee258a155ee054908059e4b9478d5f24d7ac22c18089f77ab04ac80f61",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's October 2004 Gaza settler-removal pledge is a relevant milestone with a different date from existing Gaza-plan events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f1c636111ac75758"
+  },
+  {
+    "candidate_id": "09f901cc04bbf9df1c3ef21d",
+    "time": "2002-04-16",
+    "date_precision": "day",
+    "summary": "Labour MP Gerald Kaufman accused Israeli Prime Minister Ariel Sharon of being a \"war criminal\" and using \"methods of barbarism\" against Palestinians during a Commons debate on the Middle East crisis.",
+    "time_range": null,
+    "evidence_ids": [
+      "3922"
+    ],
+    "job_id": "257c020c18ab8565228a3e08de5a6b34630510665bb0d461c383cd35e4af6088",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: public accusation against Sharon during the Second Intifada; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7ac52752b4ebeba5"
+  },
+  {
+    "candidate_id": "1073c0d13c4d6a2c14641996",
+    "time": "2000-09-28",
+    "date_precision": "day",
+    "summary": "Ariel Sharon visits the Temple Mount area of Jerusalem, sparking clashes that begin the intifada.",
+    "time_range": null,
+    "evidence_ids": [
+      "3895"
+    ],
+    "job_id": "9aef9a7ee83c5a65c1dd2059667e83d6f87a61c284854f72d17201e89a4e34fe",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-f0fd72b2e74a36d4",
+    "reason": "Same date and same Temple Mount visit already represented by existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f0fd72b2e74a36d4"
+  },
+  {
+    "candidate_id": "3f0080d7e71eb1e677b3c2f6",
+    "time": "2002-04-09",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon vowed to continue the military offensive after 13 Israeli soldiers were killed in Jenin.",
+    "time_range": null,
+    "evidence_ids": [
+      "4087"
+    ],
+    "job_id": "66ad65995afaf0115633e97ca201f0fda4008b51a6f5c3253feec434ddc156e7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Sharon decision during Jenin offensive; distinct date from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5a4dfb414e9f0424"
+  },
+  {
+    "candidate_id": "5530165a7d39a3718f1562e3",
+    "time": "2002-04",
+    "date_precision": "month",
+    "summary": "Ariel Sharon’s military offensive in Jenin is described as intending to destroy the Palestinian nation but instead strengthening Palestinian national consciousness.",
+    "time_range": null,
+    "evidence_ids": [
+      "4182"
+    ],
+    "job_id": "eca1fb4e51c795f968397c08f9f360fd34836c1e9f062c8775ef283a63b92c5a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant assessment of Sharon's Jenin offensive; month-level date differs from existing April 2002 event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8fe3b26cd16ded5d"
+  },
+  {
+    "candidate_id": "b4f2f33917b2c131cfffb862",
+    "time": "2004-12",
+    "date_precision": "month",
+    "summary": "Israeli Labour party considers joining Prime Minister Ariel Sharon's extreme rightwing coalition after the withdrawal of the Shinui party from his government.",
+    "time_range": null,
+    "evidence_ids": [
+      "3246"
+    ],
+    "job_id": "c53dfb12c1a6c550daf3925560e4a29630e0dc78e3949e737c8c13c1d9b973bc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant coalition development after Shinui withdrawal; distinct from existing December 2004 event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bb3dcf1dfe61a8ff"
+  },
+  {
+    "candidate_id": "d3964f31e6f98522e7310a1c",
+    "time": "2004-06-04",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon sacked two hardline ministers from the far-right National Union party in an attempt to win cabinet support for his plan to remove all Jewish settlers from the Gaza Strip.",
+    "time_range": null,
+    "evidence_ids": [
+      "3644"
+    ],
+    "job_id": "57861a598da9f6dff8b68754108f0e1ae414f6895af38a258212494411082b9f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Sharon cabinet action on Gaza disengagement; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-79289fbe7e83ca13"
+  },
+  {
+    "candidate_id": "ec005281a95a41de1f991b10",
+    "time": "2004-05-30",
+    "date_precision": "day",
+    "summary": "Ariel Sharon threatened to dismiss ministers opposed to his Gaza disengagement plan and to take unprecedented political steps to force it through, staking his premiership on the plan amid a power struggle with Binyamin Netanyahu.",
+    "time_range": null,
+    "evidence_ids": [
+      "3499"
+    ],
+    "job_id": "179cdd2529e0056866a6ca8af25cf9515f552b7dfc835e3187bc4e6e931fd39a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Sharon threat over Gaza disengagement; distinct date from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7c0b407a7c7e7ea5"
+  },
+  {
+    "candidate_id": "e3d6070b2b78f8316c270d33",
+    "time": "2001-10-16",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon attempted to shore up his coalition government after the resignation of two rightwing ministers.",
+    "time_range": null,
+    "evidence_ids": [
+      "4053"
+    ],
+    "job_id": "5217d59ec2dcc4d7fc516631a9ab4be17f0e61b7eb0314768c38f842d4335005",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant coalition management after rightwing resignations; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5e3c4bf5e6937aa3"
+  },
+  {
+    "candidate_id": "bd1957049ed3d300c0e49651",
+    "time": "2002-10-31",
+    "date_precision": "day",
+    "summary": "Ariel Sharon names former army chief of staff Shaul Mofaz as his new defence minister after Labour walked out of his coalition.",
+    "time_range": null,
+    "evidence_ids": [
+      "3850"
+    ],
+    "job_id": "805cd8be253b2a77f748847d1e778fa1f45a8248dd767f2b98eb89a46e01739b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-b71a132cad9ce928",
+    "reason": "Same date and same event: Sharon appoints Shaul Mofaz as defence minister after Labour left the coalition.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b71a132cad9ce928"
+  },
+  {
+    "candidate_id": "d3342d49dd275384689a1511",
+    "time": "2005-11-21",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon resigns from the ruling Likud party he co-founded, planning to form a new party called National Responsibility.",
+    "time_range": null,
+    "evidence_ids": [
+      "3235"
+    ],
+    "job_id": "b251dbb762cbb52f5de4a3ac2ed7a6ed2dc06379af7d0aa3a32d9ba36a51f024",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-c731369e32a14f32",
+    "reason": "Same date and same event: Sharon leaves Likud to form a new party.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c731369e32a14f32"
+  },
+  {
+    "candidate_id": "12e81b1676021542573c41ce",
+    "time": "2000-10-02",
+    "date_precision": "day",
+    "summary": "World leaders condemn Ariel Sharon's visit to a holy site in Jerusalem, which triggered five days of violence.",
+    "time_range": null,
+    "evidence_ids": [
+      "4347"
+    ],
+    "job_id": "5124ecdbf50163ad0b17cd6d1fc7c0fc88c3c2cf4caabec364dba2cc8b8b0b19",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Sharon's Jerusalem holy site visit triggered major violence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a656d28c1330b701"
+  },
+  {
+    "candidate_id": "8eff01e330c45e853279a7c9",
+    "time": "2006-01-03",
+    "date_precision": "day",
+    "summary": "Likud party leader Benjamin Netanyahu ordered his cabinet ministers to quit the Israeli government, six weeks after Prime Minister Ariel Sharon resigned as Likud leader and set up the centrist Kadima party.",
+    "time_range": null,
+    "evidence_ids": [
+      "3241"
+    ],
+    "job_id": "418bd4d23ea12a97cb756ec5a2a41c577b97fe769f66f80e282fbe0e543d3d55",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant political consequence of Sharon's resignation from Likud and formation of Kadima.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b5a10ea6f2265f01"
+  },
+  {
+    "candidate_id": "27fb0fbd21c7820681d5d092",
+    "time": "2006-01-06",
+    "date_precision": "day",
+    "summary": "Ariel Sharon is removed as Israel's driving political force after a stroke, with Ehud Olmert taking over as acting prime minister and Kadima party leader ahead of the March general election.",
+    "time_range": null,
+    "evidence_ids": [
+      "3395"
+    ],
+    "job_id": "53fa537cc836251ae7178971217d52ddb3734034670f3e44a3bcd95ecf7b0249",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-4bbb619520dff97a",
+    "reason": "Same date and event: Sharon removed after stroke, Olmert takes over.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4bbb619520dff97a"
+  },
+  {
+    "candidate_id": "30d6c7cff5e792b8244cf55b",
+    "time": "2005-12-20",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon was expected to leave hospital after making a full recovery from a stroke, as his chief rival Binyamin Netanyahu won control of the Likud party.",
+    "time_range": null,
+    "evidence_ids": [
+      "3327"
+    ],
+    "job_id": "86af8edaa6e011f97393999219d4c3d4134dbd07d500a344f5c311eb7445c95a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-1ee6d0bf424370b8",
+    "reason": "Same date and event: Sharon expected to leave hospital after mild stroke.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1ee6d0bf424370b8"
+  },
+  {
+    "candidate_id": "1178b30a159894057d6fbaac",
+    "time": "2006-03-28",
+    "date_precision": "day",
+    "summary": "Likud suffers a crushing defeat in Israeli elections, falling to fifth place with 11 seats, a result attributed in part to Ariel Sharon's earlier departure from the party to form Kadima.",
+    "time_range": null,
+    "evidence_ids": [
+      "3248"
+    ],
+    "job_id": "124b64984ae1dbf1b74e7e13ed1f01dbdae30777074b61a0144c4a5a60786908",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant later consequence of Sharon's departure from Likud for Kadima.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-13b621c4514b0a19"
+  },
+  {
+    "candidate_id": "9366e6f18d1e623ba0496f97",
+    "time": "2005-11-21",
+    "date_precision": "day",
+    "summary": "Ariel Sharon resigns as leader of the ruling Likud party and announces the launch of a new party, National Responsibility, to compete in the March general election.",
+    "time_range": null,
+    "evidence_ids": [
+      "3215"
+    ],
+    "job_id": "01b23926ef9b54617f9fca83f75106c7cbf96766ac4efc56e385707cfc2affc3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-c731369e32a14f32",
+    "reason": "Same date and event: Sharon resigns Likud leadership and launches new party.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c731369e32a14f32"
+  },
+  {
+    "candidate_id": "767a55d6be29b5b1ddfe2ecc",
+    "time": "2006-01-04",
+    "date_precision": "day",
+    "summary": "Ariel Sharon suffered a devastating stroke and has been in a coma ever since.",
+    "time_range": null,
+    "evidence_ids": [
+      "3183"
+    ],
+    "job_id": "45bb0bbd94358754b419f9d3efc2ebc41e46d2297492feebf4cf8e9c41142bea",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-df3fae3574964c17",
+    "reason": "Same date and event: Sharon suffers major stroke and remains in coma.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df3fae3574964c17"
+  },
+  {
+    "candidate_id": "02bf767f383ca610888be26b",
+    "time": "2006-01-04",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon suffers a major stroke and remains in a coma.",
+    "time_range": null,
+    "evidence_ids": [
+      "3272"
+    ],
+    "job_id": "017e7ce109679d93a314772ff049e966f98ae382f75e6bdabda46a0739a6ba4a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-df3fae3574964c17",
+    "reason": "Same date and event: Sharon suffers major stroke and remains in coma.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df3fae3574964c17"
+  },
+  {
+    "candidate_id": "8f8684ef010f54b01786dd66",
+    "time": "2005-12-20",
+    "date_precision": "day",
+    "summary": "Ariel Sharon left a Jerusalem hospital after treatment for a mild stroke and said he planned to return to work quickly.",
+    "time_range": null,
+    "evidence_ids": [
+      "3200"
+    ],
+    "job_id": "99d4924324afa3a02d79879fd72e2006cee52ad079dad2292440c1623699ee2f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-1ee6d0bf424370b8",
+    "reason": "Same 2005-12-20 event as existing record: Sharon leaving hospital after mild stroke.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1ee6d0bf424370b8"
+  },
+  {
+    "candidate_id": "30f22d6e6875475f9249b194",
+    "time": "2005-11-30",
+    "date_precision": "day",
+    "summary": "Shimon Peres resigned from Israel's Labour party to support Ariel Sharon's re-election, saying Sharon offers the best opportunity for peace with the Palestinians.",
+    "time_range": null,
+    "evidence_ids": [
+      "3260"
+    ],
+    "job_id": "86d259345d085ef4764f8425972320b86516ac4e2156e74f3bc5b564832cd449",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Peres resigning Labour to back Sharon's re-election is a distinct milestone in Sharon's political timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-89e62de01a6bfb32"
+  },
+  {
+    "candidate_id": "c871ad8ce81ca4f8863d2989",
+    "time": "2002-04-17",
+    "date_precision": "day",
+    "summary": "President George W. Bush declared Israeli Prime Minister Ariel Sharon a \"man of peace.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "4058"
+    ],
+    "job_id": "46db5b423a33ee4fdaef7923b8e1da76f0b894e826b3a736f8ae4c6ebe9a0a67",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Bush's characterization of Sharon as a 'man of peace' is a distinct dated event in Sharon's international standing; no existing event shares the 2002-04-17 date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-eeb3b11ad4ad691d"
+  },
+  {
+    "candidate_id": "78afe87045358a37155dc1ad",
+    "time": "2004-06-06",
+    "date_precision": "day",
+    "summary": "The Israeli government accepted the removal of some Jewish settlements from occupied Palestinian territories, paving the way for Ariel Sharon to fulfill a pledge to dismantle all settlements in Gaza by the end of next year.",
+    "time_range": null,
+    "evidence_ids": [
+      "3640"
+    ],
+    "job_id": "39b830261882301455066d7959288ce6a89ddd5fa371b41581efe3ff266cf9f2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Israeli government acceptance of settlement removal, a distinct milestone in Sharon's Gaza disengagement timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ef795d12248d9714"
+  },
+  {
+    "candidate_id": "9938607e6f6f5e9fe0926b95",
+    "time": "2004-10-26",
+    "date_precision": "day",
+    "summary": "Israel's parliament voted 67-45 to approve Ariel Sharon's unilateral disengagement plan to remove Jewish settlements from the Gaza Strip and a small part of the West Bank.",
+    "time_range": null,
+    "evidence_ids": [
+      "3554"
+    ],
+    "job_id": "91bbb4138bab0b7c573c200bbe78a29e46931724ebe1dd8026fd84be57ee109f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Knesset vote approving Sharon's disengagement plan; no existing event on this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-31cb71cc315ab84c"
+  },
+  {
+    "candidate_id": "3bffd610a3c7aab8d404c1c6",
+    "time": "2004-10-25",
+    "date_precision": "day",
+    "summary": "Ariel Sharon opened a parliamentary debate on his plan to remove Jewish settlers from Gaza, defending the \"disengagement plan\" ahead of a vote expected to split his Likud party.",
+    "time_range": null,
+    "evidence_ids": [
+      "3407"
+    ],
+    "job_id": "1fc673c37f64ec2ea3f1fbc804938bb18577104b15f8b5e7815dd525ea751183",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon opening parliamentary debate on the disengagement plan, a distinct prior-day milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d08195e5a9bd4e3f"
+  },
+  {
+    "candidate_id": "ab37fedc2e9301ff250ed49b",
+    "time": "2005-08-18",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon’s disengagement plan gained public support as soldiers and policemen completed the removal of Jewish families from all but four of the 21 doomed Gaza settlements ahead of schedule.",
+    "time_range": null,
+    "evidence_ids": [
+      "3377"
+    ],
+    "job_id": "4f01140bec465969925c200acd3f78e7fce0f4a460c0d1d8d74602deea6b2ce7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Gaza settlement removal proceeding ahead of schedule, a distinct implementation milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-985d055c2e74a21f"
+  },
+  {
+    "candidate_id": "84676e94fb38c8ac3d7c8447",
+    "time": "2004-08-18",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon suffered a blow when his Likud party voted to prevent him from inviting new partners into the government, though he vowed to proceed with negotiations to expand the coalition.",
+    "time_range": null,
+    "evidence_ids": [
+      "3590"
+    ],
+    "job_id": "a4b7c78ef5b5a3f0619be82a5aa73b1af3408d42e627e0c972943283380af6eb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Likud party vote constraining Sharon's coalition-building, a distinct political setback.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5b95cfeb0b96361e"
+  },
+  {
+    "candidate_id": "22493e0e7a33b577e7c0b1b6",
+    "time": "2003-02-13",
+    "date_precision": "day",
+    "summary": "Labour party leader Amram Mitzna softened his stance towards joining a national unity government led by Ariel Sharon, with Mitzna and Shinui leader Tommy Lapid set to meet to discuss joining a Sharon-led cabinet.",
+    "time_range": null,
+    "evidence_ids": [
+      "3697"
+    ],
+    "job_id": "abfe24dbab39c027a20b4654aede5618fa4fe985153019d6e3b6f81feb01d8cb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Labour softening stance on joining a Sharon-led government, a distinct coalition development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-13195dae84396694"
+  },
+  {
+    "candidate_id": "a6d69da81a72063430c7fa73",
+    "time": "2003-02-03",
+    "date_precision": "day",
+    "summary": "Israeli Labour party leader Amram Mitzna told Ariel Sharon he would not join a coalition government unless Sharon agreed to shut Jewish settlements in the Gaza Strip and begin negotiations with the Palestinians.",
+    "time_range": null,
+    "evidence_ids": [
+      "3787"
+    ],
+    "job_id": "860a067de81ebe424cddf7f5c808a31835cb9f5f7e5ccc1005e05e75e01bb0e5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Mitzna's coalition condition to Sharon, a distinct early coalition-development event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9433d0e972fba5c6"
+  },
+  {
+    "candidate_id": "e95acd88dd0b07c471a1458c",
+    "time": "2004-10-26",
+    "date_precision": "day",
+    "summary": "Israel's parliament ratified Prime Minister Ariel Sharon's plan to withdraw from the Gaza Strip.",
+    "time_range": null,
+    "evidence_ids": [
+      "3555"
+    ],
+    "job_id": "f22aae11223d4086febdbc2a146e7ba0f60acfabc6f1befc2a9d1def9ea7a1de",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "9938607e6f6f5e9fe0926b95",
+    "reason": "Same 2004-10-26 Knesset ratification of Sharon's Gaza disengagement plan as the other candidate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-31cb71cc315ab84c"
+    },
+    "timeline_event_id": "event-31cb71cc315ab84c"
+  },
+  {
+    "candidate_id": "909949415559ffd8f0d399a9",
+    "time": "2003-02-23",
+    "date_precision": "day",
+    "summary": "Israeli Labour party ruled out joining a national unity government with Ariel Sharon after he insisted on including the rightwing National Religious party as a coalition partner.",
+    "time_range": null,
+    "evidence_ids": [
+      "3944"
+    ],
+    "job_id": "2893b56fc750c720d05d091dfe94c4bf11fe423dfe96347a6f74a52d87ba580f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant coalition-development milestone; distinct date from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-62451c9b1f886497"
+  },
+  {
+    "candidate_id": "4e03f8d0bff07eec658fd7b0",
+    "time": "2003-01-14",
+    "date_precision": "day",
+    "summary": "Israel's opposition Labour party rules out rejoining a government headed by Ariel Sharon after the general election, while Sharon rules out working with religious parties.",
+    "time_range": null,
+    "evidence_ids": [
+      "3798"
+    ],
+    "job_id": "babaf25ec4f0f7af2dffd28e0c113df9195c41e8a4346c343ac4a3cb67f29a0d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant post-election coalition stance; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2bdcc7ffd35f2cce"
+  },
+  {
+    "candidate_id": "dafc8c47640749ec4843a0c7",
+    "time": "2003-02-21",
+    "date_precision": "day",
+    "summary": "Ariel Sharon’s Likud party reached a tentative agreement with the secular Shinui party and the National Religious Party to form a coalition government.",
+    "time_range": null,
+    "evidence_ids": [
+      "3881"
+    ],
+    "job_id": "c3b2db3572da878ad326bb055a5f94b27434a7c763eee501ab6dfbd9d368a7e7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant coalition agreement milestone; distinct date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-964cadb3fb127b90"
+  },
+  {
+    "candidate_id": "9eefff9cdcbcb19e99e00400",
+    "time": "2004-08-18",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon appealed to his Likud party to allow him to bring the opposition Labour party into his government to help push through his plan to withdraw from Gaza.",
+    "time_range": null,
+    "evidence_ids": [
+      "3445"
+    ],
+    "job_id": "f1bf8a70f9208e26e81a9001b7b64a274faebbe3f9ef6e1dd3740b57a45d29ed",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-5b95cfeb0b96361e",
+    "reason": "Same 2004-08-18 event as existing event-5b95cfeb0b96361e: Sharon appealing to Likud over bringing Labour into government.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5b95cfeb0b96361e"
+  },
+  {
+    "candidate_id": "d85764d5d4d5e28db59ceea7",
+    "time": "2004-07-12",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon invited the moderate Labour party into his fragile coalition government and warned rebels in his Likud party that he would call early elections if they tried to block the move.",
+    "time_range": null,
+    "evidence_ids": [
+      "3467"
+    ],
+    "job_id": "5d2302180ec63f167974e760d6aed067b718d83b84ecf5bdbbfc090687eab0c0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant coalition-expansion milestone; distinct 2004-07-12 event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e3d7d7929f4b6fef"
+  },
+  {
+    "candidate_id": "c471a4b0f095a04cc48b5235",
+    "time": "2003-01-29",
+    "date_precision": "day",
+    "summary": "Ariel Sharon threatened to call another election if Labour refuses to join a coalition government, saying he would not establish a narrow rightwing government under any circumstances.",
+    "time_range": null,
+    "evidence_ids": [
+      "3955"
+    ],
+    "job_id": "f28dca9330a4d77da663db6db3abd86a7b9d888f57ad66032fcde35698e6125c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant coalition threat after election; distinct date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-074a9f84717e9438"
+  },
+  {
+    "candidate_id": "5572012854a02ba158395754",
+    "time": "2004-12-09",
+    "date_precision": "day",
+    "summary": "Ariel Sharon wins backing from his ruling Likud party to invite the Labour opposition into the government, appearing to assure his Gaza withdrawal plan.",
+    "time_range": null,
+    "evidence_ids": [
+      "3379"
+    ],
+    "job_id": "03c3bfd97a2959feecfa06e1334dc5b3d28ce9e1b76d03eed1973f907bd3109b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Likud backing for Labour coalition move; distinct date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ba33e84a67081827"
+  },
+  {
+    "candidate_id": "272cfc0e2673a7561fcce3ca",
+    "time": "2004-07-12",
+    "date_precision": "day",
+    "summary": "Ariel Sharon invited opposition Labour party leader Shimon Peres to join a coalition government to advance the Gaza withdrawal plan.",
+    "time_range": null,
+    "evidence_ids": [
+      "3465"
+    ],
+    "job_id": "b90e9248148d67e7b3f1780ae7937b99d1ee4a52645da60151948cea4dd7b636",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "d85764d5d4d5e28db59ceea7",
+    "reason": "Same 2004-07-12 event as candidate d85764d5d4d5e28db59ceea7: Sharon inviting Labour into the coalition.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-e3d7d7929f4b6fef"
+    },
+    "timeline_event_id": "event-e3d7d7929f4b6fef"
+  },
+  {
+    "candidate_id": "11537163b5a7b2b061a95cd9",
+    "time": "1999-09-03",
+    "date_precision": "day",
+    "summary": "Ariel Sharon wins the leadership of Israel's opposition Likud party.",
+    "time_range": null,
+    "evidence_ids": [
+      "4450"
+    ],
+    "job_id": "135bcf6d3e90ab9eb1a9533090f157b7f1e7c0e433207f49fcd6790c0be9a5bb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon winning Likud leadership is a key milestone in his political rise.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-74627b0100ee716b"
+  },
+  {
+    "candidate_id": "bb3d8e7d238d4bff394ee76f",
+    "time": "2002-11-01",
+    "date_precision": "day",
+    "summary": "Ariel Sharon invites his rival Binyamin Netanyahu to join the cabinet as foreign minister in an effort to neutralize the threat to his position as prime minister.",
+    "time_range": null,
+    "evidence_ids": [
+      "4026"
+    ],
+    "job_id": "987c2e007be691f10882438329291657b9bdb7cbbc7840e29b6b0ec8843d3975",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon inviting Netanyahu to the cabinet is a relevant leadership and rivalry milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c059b89bbf7763de"
+  },
+  {
+    "candidate_id": "3c31dfe6a12a08c79ae1bbc7",
+    "time": "2005-09-26",
+    "date_precision": "day",
+    "summary": "Ariel Sharon narrowly survived an attempt to force an early leadership election in the ruling Likud party, in retaliation for his demolition of Jewish settlements in Gaza.",
+    "time_range": null,
+    "evidence_ids": [
+      "3257"
+    ],
+    "job_id": "7c6568f715aba33c31092f06b37bfa8c08ebc8ea3edf0fa373e793ea67a53a78",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon surviving a Likud leadership challenge over Gaza disengagement is a relevant milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8e286eb64d0a2885"
+  },
+  {
+    "candidate_id": "87f94a129cce9862252a1a92",
+    "time": "2005-08-29",
+    "date_precision": "day",
+    "summary": "Binyamin Netanyahu launched a bid to unseat Israeli prime minister Ariel Sharon by seeking the leadership of the ruling Likud party.",
+    "time_range": null,
+    "evidence_ids": [
+      "3268"
+    ],
+    "job_id": "4b574827686a26a89a3ac2e5b93d58b45dfbbf81fb4a46316033317aa8314095",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Netanyahu's bid to unseat Sharon for Likud leadership is a relevant challenge to Sharon.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-005efce33d883780"
+  },
+  {
+    "candidate_id": "6731651f714b342186c8ebfa",
+    "time": "2005-11-21",
+    "date_precision": "day",
+    "summary": "Ariel Sharon quit the Likud party to form a new centrist party.",
+    "time_range": null,
+    "evidence_ids": [
+      "3208"
+    ],
+    "job_id": "1fad20cdda506dfd9b97613ebbf31524717ed67fa0d76e7842cd51dd534688f0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-c731369e32a14f32",
+    "reason": "Same date and event as Sharon quitting Likud to form a new centrist party.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c731369e32a14f32"
+  },
+  {
+    "candidate_id": "d8d4776621730484e9dd1d57",
+    "time": "2002-11-13",
+    "date_precision": "day",
+    "summary": "Binyamin Netanyahu secures a Likud arrangement making him next in line to succeed Ariel Sharon, though Sharon’s aides say it does not guarantee Netanyahu a leading role in the next government if Sharon is returned to office.",
+    "time_range": null,
+    "evidence_ids": [
+      "3842"
+    ],
+    "job_id": "6c78eac2e4c38d81b1fe43d486d9a118d5fead13c25676209c0ad72fc57b486c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Netanyahu's succession arrangement is a relevant Likud leadership development involving Sharon.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-729f50c4a60df6b4"
+  },
+  {
+    "candidate_id": "86d7bf9e62cc1da5b684f9fc",
+    "time": "2003-02-26",
+    "date_precision": "day",
+    "summary": "Ariel Sharon sacks Benjamin Netanyahu as foreign minister and replaces him with Silvan Shalom, in a move apparently aimed at reassuring the United States about the new government's seriousness in pursuing a peace agreement with the Palestinians.",
+    "time_range": null,
+    "evidence_ids": [
+      "3861"
+    ],
+    "job_id": "18697df9aa405073dd251c119eb276cc7aabf6ba76df331ea9d4bbe0a5f748aa",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon sacking Netanyahu as foreign minister is a relevant cabinet and leadership milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-81470d8c9d340152"
+  },
+  {
+    "candidate_id": "bb78c8f1699fcb27782413be",
+    "time": "2002-05-12",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon was publicly defied and humiliated when Binyamin Netanyahu led Likud party members to reject the foundation of a Palestinian state.",
+    "time_range": null,
+    "evidence_ids": [
+      "3960"
+    ],
+    "job_id": "8d66c2acbb152417d5376892b0e56a81c8d52e6af43de678951494fd8df57cb7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Netanyahu leading Likud to defy Sharon is a relevant internal leadership challenge.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a2b8b61823c1fb1c"
+  },
+  {
+    "candidate_id": "74e56ccf149fc23a7763778a",
+    "time": "2002-11-07",
+    "date_precision": "day",
+    "summary": "Israeli Foreign Minister Binyamin Netanyahu said in an interview that Ariel Sharon's leadership had left Israel in dire straits, as Netanyahu planned to challenge Sharon for the Likud party leadership.",
+    "time_range": null,
+    "evidence_ids": [
+      "3912"
+    ],
+    "job_id": "b0813039f9f5b37a9f654180110450e103963dccc0ea4fb072f60f29be8feb37",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Netanyahu's criticism of Sharon's leadership and planned Likud leadership challenge is a relevant milestone in Sharon's political timeline; no existing event shares this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-385a3db0a45988cb"
+  },
+  {
+    "candidate_id": "9ad284860370c385c6efeb55",
+    "time": "2014-01-11",
+    "date_precision": "day",
+    "summary": "Ariel Sharon, former Israeli prime minister, died after eight years in a coma following a massive stroke.",
+    "time_range": null,
+    "evidence_ids": [
+      "3135"
+    ],
+    "job_id": "a14b398e9d527b28d2fb971921293df4890fe8e0235b1ec5e1f486b13f296946",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-52bcdf2ed57c93b8",
+    "reason": "Same date and event as existing record of Sharon's death.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-52bcdf2ed57c93b8"
+  },
+  {
+    "candidate_id": "e4806d62b6b6780c3b2d5e6a",
+    "time": "2006-01-06",
+    "date_precision": "day",
+    "summary": "Doctors treating Ariel Sharon said a second round of emergency brain surgery had resulted in a significant improvement in the Israeli prime minister's condition.",
+    "time_range": null,
+    "evidence_ids": [
+      "3196"
+    ],
+    "job_id": "a7af4bcc571212a6245c00c8dae76dd43654bcb93cc0f1d24141be565a197437",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in Sharon's 2006 health crisis; distinct from existing 2006-01-06 event about succession.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-eab6bce34ebc1795"
+  },
+  {
+    "candidate_id": "a1f434703476b08d18dfd62b",
+    "time": "2006-03-06",
+    "date_precision": "day",
+    "summary": "The director of the Jerusalem hospital treating Ariel Sharon says there is a chance the comatose Israeli prime minister could regain consciousness, though the chances are not great and his condition if he wakes remains an open question.",
+    "time_range": null,
+    "evidence_ids": [
+      "3198"
+    ],
+    "job_id": "dd1846059e3a8086bf20990223fea8eff119cd6c8978b8094d07893acc3d030e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant update on Sharon's coma prognosis; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-453ef984b9ebac44"
+  },
+  {
+    "candidate_id": "4141f54e31a42de9ff02273c",
+    "time": "2005-12-26",
+    "date_precision": "day",
+    "summary": "Ariel Sharon's doctors hold a press conference to calm speculation about his health, announcing he will undergo heart surgery to repair a hole believed to have caused a mild stroke.",
+    "time_range": null,
+    "evidence_ids": [
+      "3278"
+    ],
+    "job_id": "897880eca0f310f376455807282320ec1c83a5d8a027241bd105ab04ac5b275f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-2f305fd5350d3384",
+    "reason": "Same date and event as existing record of doctors announcing Sharon's heart surgery.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2f305fd5350d3384"
+  },
+  {
+    "candidate_id": "6d78385c8c70f21bb1c07ecf",
+    "time": "2003-06-11",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon ordered a failed assassination attempt on Hamas political leader Abdel-Aziz al-Rantissi, which was followed by a Hamas suicide bombing in Jerusalem that killed 16 people.",
+    "time_range": null,
+    "evidence_ids": [
+      "3866"
+    ],
+    "job_id": "70bdcd2b0009894c2c7f09b9e667867e2b3f6f87937255543c2a152a6069e32a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Sharon-ordered assassination attempt and ensuing attack; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4c164d3a51fe2851"
+  },
+  {
+    "candidate_id": "df51181a71cff768af846c79",
+    "time": "2002-03-06",
+    "date_precision": "day",
+    "summary": "US Secretary of State Colin Powell calls on Israeli Prime Minister Ariel Sharon to reconsider his policies, saying declaring war on Palestinians will not work.",
+    "time_range": null,
+    "evidence_ids": [
+      "4017"
+    ],
+    "job_id": "0619852f06279403a02d70e78bfe6cd5276f1d0c7e9ff9db5a3889b6371d2909",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant international pressure on Sharon's policies; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b31689b86f4871ff"
+  },
+  {
+    "candidate_id": "9577ba9dab0d926b44795d68",
+    "time": "2002-10-14",
+    "date_precision": "day",
+    "summary": "Ariel Sharon is quoted as regretting his failure to kill Yasir Arafat in Beirut during the 1982 Israeli invasion of Lebanon.",
+    "time_range": null,
+    "evidence_ids": [
+      "4416"
+    ],
+    "job_id": "97d480599879a20e5721fa3b6ad9370cbc50f5bd18c3cc7a5933114f87b20c6c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's regret over not killing Arafat in 1982 is a relevant milestone; date differs from the similar existing 2002-02-01 event, so it stays separate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-45a02baab77a35a2"
+  },
+  {
+    "candidate_id": "16125a3cce41771dd8258e21",
+    "time": "2000-09-28",
+    "date_precision": "day",
+    "summary": "Ariel Sharon visits the Haram al-Sharif mosque complex in Jerusalem, an event cited as sparking the latest bloodletting.",
+    "time_range": null,
+    "evidence_ids": [
+      "4313"
+    ],
+    "job_id": "6aa0fb3530b60f237e789545f6f1252d40919a847ee60c8dca79ac41cefe55d6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-f0fd72b2e74a36d4",
+    "reason": "Same date and same Haram al-Sharif/Temple Mount visit already recorded.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f0fd72b2e74a36d4"
+  },
+  {
+    "candidate_id": "491b15992d6cd1fd286140a7",
+    "time": "2002-11-05",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon survived three no-confidence votes in parliament, with parliament also approving Shaul Mofaz as the new defence minister.",
+    "time_range": null,
+    "evidence_ids": [
+      "3783"
+    ],
+    "job_id": "d97018fe84cdeed02b9cfba8c8ae1e0155dd31b469b54b0cb1aa531713e34cce",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon surviving no-confidence votes and Mofaz's approval is a relevant political milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-14c388fc52f3ae23"
+  },
+  {
+    "candidate_id": "cbce68282b7485c427e51418",
+    "time": "2001-05-11",
+    "date_precision": "day",
+    "summary": "A senior aide to Israeli Prime Minister Ariel Sharon resigns in anger over the special envoy post given to Sharon's son Omri.",
+    "time_range": null,
+    "evidence_ids": [
+      "4263"
+    ],
+    "job_id": "5ed4f5996881b4bea06375f4a42b3041e0caafbe348cd0f41c66035e3c578110",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Resignation of a senior Sharon aide over Omri Sharon's envoy post is a relevant political development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c4a5e77f6c4fe53e"
+  },
+  {
+    "candidate_id": "8bb1e1b364cb6d04eb61aa93",
+    "time": "2001-03-06",
+    "date_precision": "day",
+    "summary": "Ariel Sharon told Israel's parliament he had successfully formed a broad-based national unity government and is ready to take power the next day.",
+    "time_range": null,
+    "evidence_ids": [
+      "4239"
+    ],
+    "job_id": "a5a2acca787e436ccd3286849a44d2f7c6ea0138985612e906b392e50abd21c6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon announcing formation of a national unity government is a relevant milestone; date differs from the swearing-in event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-75957f8fc583cb95"
+  },
+  {
+    "candidate_id": "e2b0912380f1906da858cca4",
+    "time": "2001-03-07",
+    "date_precision": "day",
+    "summary": "Ariel Sharon takes office as prime minister of Israel, leading a national-unity government.",
+    "time_range": null,
+    "evidence_ids": [
+      "4422"
+    ],
+    "job_id": "a49898d5a606a4cf9b3d7e80875546670eec23c8f623e993271e74e4e80bf1d6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-20d94d214eefd858",
+    "reason": "Same date and same event as Sharon taking office as prime minister.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-20d94d214eefd858"
+  },
+  {
+    "candidate_id": "704e59d2b15cfc59aafb0548",
+    "time": "2004-11-25",
+    "date_precision": "day",
+    "summary": "Lieut-Gen Rafael Eitan, who with then-defence minister Ariel Sharon conceived the 1982 Peace for Galilee plan to dislodge the PLO from southern Lebanon, has drowned aged 75.",
+    "time_range": null,
+    "evidence_ids": [
+      "3576"
+    ],
+    "job_id": "acb722549f817f1daf2289193eeede216d7aa55b556fb4de26955cc17875785a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Death of Rafael Eitan, co-conceiver with Sharon of the 1982 Lebanon plan, is a relevant milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8ba4962a7faf0b7c"
+  },
+  {
+    "candidate_id": "83e6d6e8db1f5d756c8fe701",
+    "time": "2001-02-17",
+    "date_precision": "day",
+    "summary": "Ehud Barak agrees to serve as defence minister under incoming Likud prime minister Ariel Sharon.",
+    "time_range": null,
+    "evidence_ids": [
+      "4276"
+    ],
+    "job_id": "78a42ae083af881a925d9749154ef74e602ed7639fb94e87b763c99f621d4da9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Barak agreeing to serve as defence minister under Sharon is a relevant political development; date differs from the existing coalition-wooing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-28443603a29be802"
+  },
+  {
+    "candidate_id": "02656ac5fd1d2eede99bc4a4",
+    "time": "2004-06-15",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon was cleared of corruption charges when the attorney general decided there was insufficient evidence to indict him and his son Gilad over the Greek Island affair.",
+    "time_range": null,
+    "evidence_ids": [
+      "3393"
+    ],
+    "job_id": "d19aa1e34104163ab78757a19568379ef8260b71b3b683c1445455b5d715bdd0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Sharon cleared of corruption charges, distinct from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b445b07341aaf722"
+  },
+  {
+    "candidate_id": "0daee36733bc3c1a163eb1ca",
+    "time": "2001-02-13",
+    "date_precision": "day",
+    "summary": "Prime minister-elect Ariel Sharon is on the verge of stitching up a coalition deal ahead of the installation of his new government.",
+    "time_range": null,
+    "evidence_ids": [
+      "4315"
+    ],
+    "job_id": "6f2824ad025159f98d5b04ef298bf13afb3242a7af49ffae5817a75bfe3b03d7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: coalition deal ahead of Sharon government installation.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b5fed1d544a7d6e5"
+  },
+  {
+    "candidate_id": "9e0db542bcc87974c44cce19",
+    "time": "2005-04-11",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon brushed off President George W. Bush's warning against further West Bank settlement growth, indicating Israel would continue to solidify its hold on areas it considers strategically important.",
+    "time_range": null,
+    "evidence_ids": [
+      "3326"
+    ],
+    "job_id": "9c369a1c851d8f863e5b90903c1749090a6b43cf876180c43107984d7b55503f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant: Sharon's response to Bush on West Bank settlements.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-59de1a47de0c929a"
+  },
+  {
+    "candidate_id": "cd45d300cb36bd2078d2086c",
+    "time": "2003-06-04",
+    "date_precision": "day",
+    "summary": "Ariel Sharon is set to attend a summit with President George Bush and Palestinian leadership in Jordan to push forward the US-led \"road map\" to the creation of a Palestinian state, amid settler fury over his stated willingness to make \"painful concessions\" on settlements.",
+    "time_range": null,
+    "evidence_ids": [
+      "3924"
+    ],
+    "job_id": "3a6a48e03b9af479817068447415507c71f32df0ad8a038ba94ccaac00a9b7a3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-a91689b0c80cbc95",
+    "reason": "Same date and event as existing Aqaba summit entry.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a91689b0c80cbc95"
+  },
+  {
+    "candidate_id": "074c4ce0a8c54db9ee6248d2",
+    "time": "2001-05-22",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon rejects the Mitchell report's call for an immediate freeze on illegal Jewish settlements in the West Bank and Gaza, while calling for a ceasefire.",
+    "time_range": null,
+    "evidence_ids": [
+      "4249"
+    ],
+    "job_id": "bf91ad99c16e1638f1d9e942e1a296c166bb8ffbf38459c3fc2e165755be8607",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant: Sharon rejects Mitchell report settlement freeze call.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ea145a8aae8ab5b9"
+  },
+  {
+    "candidate_id": "51fefdf0674cb14e9f75f3b4",
+    "time": "2003-07-29",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon is preparing to meet US President George W. Bush at the White House, with Israel claiming it is fulfilling commitments made at the Aqaba summit to dismantle unauthorized settlement outposts.",
+    "time_range": null,
+    "evidence_ids": [
+      "3618"
+    ],
+    "job_id": "034aa7945ca1036b5e1aa2d83672582c403b18c79f3691935eb288bd93595332",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant: Sharon preparing White House meeting on settlement outposts.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f529c2afa233202e"
+  },
+  {
+    "candidate_id": "d28d7e725ddb9243554e0d7f",
+    "time": "2002-10-30",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon met with Labour leader Binyamin Ben-Eliezer to discuss a compromise to prevent the coalition government from collapsing over the budget.",
+    "time_range": null,
+    "evidence_ids": [
+      "3918"
+    ],
+    "job_id": "3edbbaf535f214e019a4dede6c846ce8602285f47e7c13cd410cf5695ccfa64d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant: Sharon coalition budget compromise talks.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7873603e17073257"
+  },
+  {
+    "candidate_id": "134a2416614941a22ff64c78",
+    "time": "2004-01-05",
+    "date_precision": "day",
+    "summary": "Ariel Sharon was heckled and booed by members of his own Likud party as he defended his plan for a partial withdrawal from occupied territories and the dismantling of some Jewish settlements.",
+    "time_range": null,
+    "evidence_ids": [
+      "3692"
+    ],
+    "job_id": "44ae67c0b9a0a2f0f29a7c70736974da98af886ce193946d2058ee27c8fa99d8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant: Sharon heckled by Likud over withdrawal plan.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f0f80f31b957833e"
+  },
+  {
+    "candidate_id": "378963bac97979397e25ebf9",
+    "time": "2004-01-04",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon ordered the army to remove two inhabited Jewish outposts in the West Bank, drawing criticism from both the religious right and the left.",
+    "time_range": null,
+    "evidence_ids": [
+      "3580"
+    ],
+    "job_id": "21512945790ad73d96fe42e9084962907453712cc70ae67c4c72da23c39c2d24",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Sharon milestone: ordering removal of two West Bank outposts; distinct date from existing events, no duplicate match.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-20c19f2d78064f57"
+  },
+  {
+    "candidate_id": "417af8c2f9d8fdd73ad3426f",
+    "time": "2006-02-11",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon underwent emergency surgery to remove about 50 cm of his large intestine after an abdominal scan revealed severe damage to his digestive tract; he was in critical but stable condition with no immediate danger to his life.",
+    "time_range": null,
+    "evidence_ids": [
+      "3182"
+    ],
+    "job_id": "7860c276695b740c890f39e8dd469fa69572845e252444c7761a975ebecaf68d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in Sharon's 2006 health crisis; date differs from the similar existing event (2006-02-12), so it remains a separate dated occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5951a4eb10667f3a"
+  },
+  {
+    "candidate_id": "b60463df59c3309b98f30d3e",
+    "time": "2006-01-09",
+    "date_precision": "day",
+    "summary": "Ariel Sharon's doctors plan to begin bringing the Israeli prime minister out of his medically induced coma to assess brain damage caused by a stroke.",
+    "time_range": null,
+    "evidence_ids": [
+      "3314"
+    ],
+    "job_id": "83b703a9c51fa8157260d7b912259a95e634a89f2024e3de33cd8a410049fe1d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in Sharon's coma treatment and assessment after his stroke.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0a44ef4d0e613246"
+  },
+  {
+    "candidate_id": "88da0573664310f38310efbb",
+    "time": "2006-01-14",
+    "date_precision": "day",
+    "summary": "Doctors treating Ariel Sharon are concerned that the Israeli prime minister has failed to show signs of emerging from a coma despite being taken off anaesthesia.",
+    "time_range": null,
+    "evidence_ids": [
+      "3193"
+    ],
+    "job_id": "01fc00835e9849b15729eef126caf49e313e116fe08e35a362e98b1ed4b1828a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in Sharon's failure to emerge from coma after anaesthesia was stopped.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a3a8d2f8188a149f"
+  },
+  {
+    "candidate_id": "953c6685026b4cfdbd09e1e7",
+    "time": "2001-10-04",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon renounced the week-old Middle East ceasefire and accused Washington of sacrificing Israel to win Arab support for a broad war coalition.",
+    "time_range": null,
+    "evidence_ids": [
+      "4130"
+    ],
+    "job_id": "a3669edf0e57c33b555e8283c9d665d3dbff8093fca8afbb80738caaacdf8b82",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant to Sharon's premiership and Middle East diplomacy; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-999844b55eb9840b"
+  },
+  {
+    "candidate_id": "46bd0f4a76d1acbd54021112",
+    "time": "2002-09-03",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon ordered military and emergency preparations for a possible Iraqi counterstrike to be completed by November 1.",
+    "time_range": null,
+    "evidence_ids": [
+      "3893"
+    ],
+    "job_id": "0ab4af1fb55d3f954912e379e28efacdc3443cd70eb5a67074ebacf94d5ce252",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant to Sharon's security preparations regarding a possible Iraqi counterstrike; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4bd9cdf38feef2e1"
+  },
+  {
+    "candidate_id": "89d8ae1ea03eb95070f6297b",
+    "time": "2005-08-18",
+    "date_precision": "day",
+    "summary": "Israel began demolishing evacuated homes in Jewish settlements in the Gaza Strip and troops forcibly entered synagogues amid protests against Ariel Sharon's disengagement plan.",
+    "time_range": null,
+    "evidence_ids": [
+      "3378"
+    ],
+    "job_id": "50c00528167d277bf0b135d2b122e69cfc65695885305694efcf46ec5be1b44d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in Sharon's Gaza disengagement; same date as an existing event but describes a distinct demolition phase rather than the settlement evacuation, so it is not a duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-da1d9ed4f29bfb51"
+  },
+  {
+    "candidate_id": "73616a3051422e454d601a40",
+    "time": "2001-04-18",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon ordered a withdrawal from northern Gaza after US criticism, then launched a further incursion into Gaza the next day.",
+    "time_range": null,
+    "evidence_ids": [
+      "4352"
+    ],
+    "job_id": "4abad3d57169d3280b0cf7936eeff140c3876ec394f8ad50e2eae05945ead05c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant to Sharon's security policy as prime minister; the withdrawal and renewed incursion are a distinct dated occurrence from the existing 2001-04-17 Gaza incursion event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-22d15f47c0dd869a"
+  },
+  {
+    "candidate_id": "82308417440882f3cd0e38f7",
+    "time": "2002-03-27",
+    "date_precision": "day",
+    "summary": "Arab newspapers report that Israeli Prime Minister Ariel Sharon has effectively ruled out the Saudi peace initiative and is pursuing a brute-force policy that complicates US diplomacy.",
+    "time_range": null,
+    "evidence_ids": [
+      "3972"
+    ],
+    "job_id": "8201f2e3557d5b514700abdf79289851c80d93548a64bf79bd012cbb4ee11dba",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant to Sharon's diplomatic posture toward the Saudi peace initiative; no existing event covers this 2002-03-27 report.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9f66cca3dd73ef7a"
+  },
+  {
+    "candidate_id": "fe8ac8be988e8adbee741302",
+    "time": "2005-08-15",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon describes the abandonment of Gaza settlements as a \"painful step\" but essential for Israel's future in a televised speech as the eviction of settlers begins.",
+    "time_range": null,
+    "evidence_ids": [
+      "3381"
+    ],
+    "job_id": "b97be42e3f4555a0a388abb77ffdb4f7f5261c8e121295a504618ed7769f3419",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's televised speech marking the start of Gaza settler eviction is a distinct milestone in his Gaza disengagement policy, not a duplicate of the same-date olive-branch/fire speech.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9181a7de873d2919"
+  },
+  {
+    "candidate_id": "f86a5e12e15ed620c7fb4315",
+    "time": "2006-01-10",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon showed improvement in his recovery from a major stroke, moving his left arm in response to stimulation, though doctors said it would still be days before they could assess whether he had lost his ability to think and reason.",
+    "time_range": null,
+    "evidence_ids": [
+      "3195"
+    ],
+    "job_id": "c617cda274f10bdc734521006df7502f1515f9cd987ee0ef2ebfeb0a6fe746d2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's post-stroke improvement is a distinct health milestone, separate from the later 2006-03-06 coma-prognosis event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-47feba28d0f3d994"
+  },
+  {
+    "candidate_id": "78eea85d7b1d42d9d7295c78",
+    "time": "2003-03-30",
+    "date_precision": "day",
+    "summary": "Ariel Sharon's coalition government survives its first crisis after ultra-orthodox parties refused to attend a cabinet meeting in protest at a de facto lifting of the ban on working on the Sabbath.",
+    "time_range": null,
+    "evidence_ids": [
+      "3853"
+    ],
+    "job_id": "50a77657117b9f5d39c7196c6fa0daaaebd68f95db94aa9604ce4fdf2cbbd3e4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in Sharon's coalition management; no matching existing event date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-26b90f49751ee4a0"
+  },
+  {
+    "candidate_id": "e399dc1a7e5b8a2a0b464640",
+    "time": "2005-11-17",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon agrees to call a general election in about three months after Labour party leader Amir Peretz threatened a no-confidence vote.",
+    "time_range": null,
+    "evidence_ids": [
+      "3238"
+    ],
+    "job_id": "8d28466dbb03da8010ddf561646c2b89006522b879865b2bdde9e2e275d87300",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in Sharon's political timeline; no existing event on this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e13b4354925898dc"
+  },
+  {
+    "candidate_id": "4b03ed20bcbd3ecaae9ef2f8",
+    "time": "2003-01-14",
+    "date_precision": "day",
+    "summary": "Israeli Labour party says it will not join a coalition government led by Prime Minister Ariel Sharon, citing corruption allegations against the Sharon family.",
+    "time_range": null,
+    "evidence_ids": [
+      "3747"
+    ],
+    "job_id": "d38bce61d95f16885524ad41ff9f311d458411d3d7ddd03113db65afe8a881c0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-2bdcc7ffd35f2cce",
+    "reason": "Same date and same Labour coalition decision involving Sharon.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2bdcc7ffd35f2cce"
+  },
+  {
+    "candidate_id": "fb4ac0ecd5994ffc595cf819",
+    "time": "2004-12-09",
+    "date_precision": "day",
+    "summary": "Ariel Sharon's Likud party voted in favor of forming a unity government with the Labour party, a move seen as a personal victory for Sharon.",
+    "time_range": null,
+    "evidence_ids": [
+      "3430"
+    ],
+    "job_id": "e7cb00bdc42a225f2348f74e79a3ab720273fb9e8b3aef262b90f8e336f311bb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ba33e84a67081827",
+    "reason": "Same date and same Likud vote backing a unity government with Labour.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ba33e84a67081827"
+  },
+  {
+    "candidate_id": "7e54a56979167c8ab1b97f74",
+    "time": "2002-04-08",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon says military operations in the West Bank will continue until the \"threat of terrorism\" is totally dismantled, defying US demands for an immediate withdrawal.",
+    "time_range": null,
+    "evidence_ids": [
+      "3991"
+    ],
+    "job_id": "f0c23ac94de710d400f2ba771b97d56a90f16a86814c7fd7dc209e76ea121dc7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-1e8f58c8c1206eae",
+    "reason": "Same date and same Sharon statement defying US calls to end West Bank operations.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1e8f58c8c1206eae"
+  },
+  {
+    "candidate_id": "4f56341cafdb19ab1c6dbcf3",
+    "time": "2002-03-03",
+    "date_precision": "day",
+    "summary": "Ariel Sharon's strongarm tactics of sending the Israeli army into refugee camps in Balata and Jenin backfired, producing more bloodshed, innocent victims, and bitterness, with further Palestinian attacks following.",
+    "time_range": null,
+    "evidence_ids": [
+      "4084"
+    ],
+    "job_id": "5fc4c72d5a364bee270c341a9a543c3faaf7924c45f3d8edc19a734b4f6bc683",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant to Sharon's West Bank military policy; date differs from the related Balata/Jenin existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fdc30e2348613ece"
+  },
+  {
+    "candidate_id": "59cc6cacb05ff12fed434cc5",
+    "time": "2001-03-07",
+    "date_precision": "day",
+    "summary": "Ariel Sharon is set to become Israel's prime minister, having assembled a grand coalition of seven factions in the Knesset.",
+    "time_range": null,
+    "evidence_ids": [
+      "4380"
+    ],
+    "job_id": "c2d111124212ba051c2a06a447c9911386fef1a37fcb6b04fad345cfe7c802c6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-20d94d214eefd858",
+    "reason": "Same date and same event: Sharon becoming prime minister with a broad coalition.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-20d94d214eefd858"
+  },
+  {
+    "candidate_id": "6c8800b9bee4942ec46405e6",
+    "time": "2002-10-30",
+    "date_precision": "day",
+    "summary": "Israel's national unity coalition government collapsed after Labour party ministers resigned over a budget dispute, forcing Prime Minister Ariel Sharon to rely on rightwing minority parties.",
+    "time_range": null,
+    "evidence_ids": [
+      "3951"
+    ],
+    "job_id": "7ddde3f436091bfc1b4962c94a4c46e01d19168f48d8399df02cc7c8ffdb6911",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct milestone: coalition collapse after Labour resignations, forcing Sharon to rely on rightwing parties.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-65ec99e87f203b75"
+  },
+  {
+    "candidate_id": "aa65267aa7b03610e298861f",
+    "time": "2005-11-21",
+    "date_precision": "day",
+    "summary": "Ariel Sharon decides to abandon the Likud party and form a new electoral vehicle.",
+    "time_range": null,
+    "evidence_ids": [
+      "3258"
+    ],
+    "job_id": "7ec1117e4b30f0e93c223c2041d9c487c5164c9a52de0c19480920083dc524f1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-c731369e32a14f32",
+    "reason": "Same date and same event: Sharon leaving Likud to form a new electoral vehicle.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c731369e32a14f32"
+  },
+  {
+    "candidate_id": "43f03ce6dd46e50a3374f7ec",
+    "time": "2001-02-11",
+    "date_precision": "day",
+    "summary": "Labour party splits over the prospect of an alliance with hardline prime minister-elect Ariel Sharon, as Shimon Peres declares willingness to serve as foreign minister in a national unity coalition while other Labour figures prepare to exit.",
+    "time_range": null,
+    "evidence_ids": [
+      "4309"
+    ],
+    "job_id": "ea66335bf765e9cd9556293b65456f5238c60d197e024f37cd11d33019b34260",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct dated development: Labour split over alliance with Sharon, with Peres willing to serve.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ca77bcb12dc989e7"
+  },
+  {
+    "candidate_id": "f7c69f109e4ba04778c553ab",
+    "time": "2005-08-07",
+    "date_precision": "day",
+    "summary": "Israeli Finance Minister Binyamin Netanyahu resigned from the government over Prime Minister Ariel Sharon's plan to withdraw from settlements in Gaza.",
+    "time_range": null,
+    "evidence_ids": [
+      "3343"
+    ],
+    "job_id": "17b88e2303ecb4a5edc24215ab0d43a92f718890bedc731d57041cdbd9682f4e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Netanyahu's resignation over Sharon's Gaza withdrawal is a distinct milestone in Sharon's premiership.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9a7c489fc6fd06c9"
+  },
+  {
+    "candidate_id": "f7942aa9e2af88595e488df8",
+    "time": "2004-12-09",
+    "date_precision": "day",
+    "summary": "Ariel Sharon's government and Gaza disengagement plan hang in the balance as Likud's central committee votes on whether to authorize coalition negotiations with Labour.",
+    "time_range": null,
+    "evidence_ids": [
+      "3526"
+    ],
+    "job_id": "96e12ef0e662495baf355f99221ca28fb890f197922a32ffb2479e3e03e79326",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ba33e84a67081827",
+    "reason": "Same date and same Likud central committee vote on coalition talks with Labour affecting Sharon's Gaza plan.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ba33e84a67081827"
+  },
+  {
+    "candidate_id": "9c0fd0b18513245e1762f673",
+    "time": "2004-10-27",
+    "date_precision": "day",
+    "summary": "Ariel Sharon rejects calls from four cabinet ministers to hold a referendum on his unilateral disengagement plan for removing Jewish settlers from the Gaza Strip and part of the West Bank, saying he will not give in to pressures, threats, or ultimatums.",
+    "time_range": null,
+    "evidence_ids": [
+      "3455"
+    ],
+    "job_id": "413f0e69181ff22da5cfcbd275dbafb9f21d347f8d4eaff224ae20ff7706575d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon rejecting referendum calls is a distinct event from the Knesset approval on the prior day.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-620d53582389bc11"
+  },
+  {
+    "candidate_id": "fb06353bb9122d1e4bb49d78",
+    "time": "2004-05-30",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon was forced to postpone a cabinet vote on his plan for an Israeli withdrawal from Gaza due to a lack of support from ministers.",
+    "time_range": null,
+    "evidence_ids": [
+      "3284"
+    ],
+    "job_id": "0a4a76cebaea923f56fd47af281e56fb23af291242776725bbcde27ba464d196",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-7c0b407a7c7e7ea5",
+    "reason": "Same date and same Gaza disengagement cabinet-vote struggle under Sharon.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7c0b407a7c7e7ea5"
+  },
+  {
+    "candidate_id": "b284b98e38a0cbb0a04b2a0f",
+    "time": "2006-03-28",
+    "date_precision": "day",
+    "summary": "Kadima, the party founded by Ariel Sharon, wins the most seats in Israel's general election, though fewer than expected, with acting Prime Minister Ehud Olmert beginning coalition talks.",
+    "time_range": null,
+    "evidence_ids": [
+      "3247"
+    ],
+    "job_id": "c3f7f226e5b1c82ff12db6ddaaf641f3a94f87a972358e1086c7f38c4ca52c3d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Kadima's election win is a distinct post-stroke milestone tied to Sharon's party.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b77a5f536779da41"
+  },
+  {
+    "candidate_id": "57119b1e07638a9eecfe8aa2",
+    "time": "2006-01-04",
+    "date_precision": "day",
+    "summary": "Ariel Sharon suffers a second, massive stroke, leading to Ehud Olmert becoming acting prime minister.",
+    "time_range": null,
+    "evidence_ids": [
+      "3220"
+    ],
+    "job_id": "6901670f86b099317871aae01ceda753f45fd0cedfb1187da736a49699016472",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-df3fae3574964c17",
+    "reason": "Same date and same Sharon stroke with Olmert becoming acting prime minister.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df3fae3574964c17"
+  },
+  {
+    "candidate_id": "1f0f54be678e174ba98f8543",
+    "time": "2006-01-04",
+    "date_precision": "day",
+    "summary": "Ariel Sharon suffers a major stroke that leaves him comatose and plunges Israel into political crisis.",
+    "time_range": null,
+    "evidence_ids": [
+      "3309"
+    ],
+    "job_id": "05178b36af224a63399144dc919e31be29ee8e4b00b3cbed98092714e4e1ebd0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-df3fae3574964c17",
+    "reason": "Same date and same Sharon stroke leaving him comatose.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df3fae3574964c17"
+  },
+  {
+    "candidate_id": "740c409cf00a7437beaeb1ec",
+    "time": "2006-03-28",
+    "date_precision": "day",
+    "summary": "Israelis vote in a general election in which Ariel Sharon's Kadima party, now led by Ehud Olmert while Sharon remains in a coma, is favoured by opinion polls.",
+    "time_range": null,
+    "evidence_ids": [
+      "3281"
+    ],
+    "job_id": "100eb7504f14c74e50a76d7dda6a38cc0a0fc34e543f06385a1b48e168338ebf",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-13b621c4514b0a19",
+    "reason": "Same date and same Israeli general election involving Sharon's Kadima party.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-13b621c4514b0a19"
+  },
+  {
+    "candidate_id": "9a9e61b9e673ef1fae7aa18a",
+    "time": "2006-01",
+    "date_precision": "month",
+    "summary": "Ariel Sharon fell into a coma after suffering a stroke, leading to Ehud Olmert becoming acting prime minister of Israel.",
+    "time_range": null,
+    "evidence_ids": [
+      "3156"
+    ],
+    "job_id": "85db089269ce1352f17f9c67e5ab2bb1273cc465ff77d376e9884ee8089899be",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Sharon's coma and Olmert becoming acting prime minister; month-level date differs from the day-precision existing stroke/coma events, so it is not a duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8e2bd54641c44850"
+  },
+  {
+    "candidate_id": "3f7c5a3e79dc819dc9c7b782",
+    "time": "2004-05-28",
+    "date_precision": "day",
+    "summary": "Ariel Sharon reveals a new four-stage plan for evacuating settlements in the Gaza Strip, with the cabinet to vote on the first phase the following Sunday.",
+    "time_range": null,
+    "evidence_ids": [
+      "3645"
+    ],
+    "job_id": "42a8e912a045a1ca56e48b9a56935da994026ae238d8693f7a2f6ac93e6938f8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Sharon unveils a four-stage Gaza settlement evacuation plan with a cabinet vote imminent; distinct date from existing events, so no merge.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1ce600035ddc06ac"
+  },
+  {
+    "candidate_id": "869ed49f8140336099be43ff",
+    "time": "2002-01-04",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon informed US peace envoy Anthony Zinni of the interception of the Karine-A, a vessel allegedly carrying illicit weapons for the Palestinian Authority, before Zinni met with Yasser Arafat.",
+    "time_range": null,
+    "evidence_ids": [
+      "4174"
+    ],
+    "job_id": "6516a16e3bbf8f21f495c594fe3eaea5a2268646c8dc355edfa8b4503a5a224d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Sharon milestone: he informed US envoy Zinni of the Karine-A weapons interception; no existing event shares this date or content.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5fa8e54124c6dece"
+  },
+  {
+    "candidate_id": "668510caaaf89307901c8d7a",
+    "time": "2001-02-07",
+    "date_precision": "day",
+    "summary": "Ariel Sharon is elected prime minister of Israel, prompting cautious and critical reactions from world leaders.",
+    "time_range": null,
+    "evidence_ids": [
+      "4255"
+    ],
+    "job_id": "c6f1d0f74645ff2d8ba67584819d928fcd3d5aa05d7115a3afe390ab8afac734",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's election as prime minister is a core milestone in his political career.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-54abd264dd945e6f"
+  },
+  {
+    "candidate_id": "1ec7c6b64909a02d5af557bc",
+    "time": "2001-02-06",
+    "date_precision": "day",
+    "summary": "Israelis vote in a general election widely expected to result in a landslide victory for Likud leader Ariel Sharon over Prime Minister Ehud Barak.",
+    "time_range": null,
+    "evidence_ids": [
+      "4324"
+    ],
+    "job_id": "b58fbf8c306af89e2d76f93b9cc6b14f650460f030fcfc2d95ed6260ddca3f9c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "The election day vote that led to Sharon's victory is a distinct milestone from the later result declaration.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-cb78a2875a60a78f"
+  },
+  {
+    "candidate_id": "030353c877c8ee770806d791",
+    "time": "2001-02-06",
+    "date_precision": "day",
+    "summary": "Ariel Sharon wins Israel's election for prime minister with 62.5% of the vote, defeating Ehud Barak.",
+    "time_range": null,
+    "evidence_ids": [
+      "4335"
+    ],
+    "job_id": "ac7b93b902d07754621db343e939629a22b5ae36eb3ace5d56bd595219416245",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's confirmed election win with vote share is a key milestone; no existing event covers it.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e2b9a043f600a5ec"
+  },
+  {
+    "candidate_id": "c7cad2b9339b91f69aa8707f",
+    "time": "2001-02-06",
+    "date_precision": "day",
+    "summary": "Exit polls project Ariel Sharon winning Israel's prime ministerial election over Ehud Barak by 59.5 percent to 40.5 percent.",
+    "time_range": null,
+    "evidence_ids": [
+      "4409"
+    ],
+    "job_id": "262ff890edd96e87c4ce2a83ecc2360ac63be81dfa00543ae3535b58093cd091",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Exit poll projection of Sharon's win is a distinct same-day development from the confirmed result.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df6e970e226a3dbe"
+  },
+  {
+    "candidate_id": "03293ab26bd169a46645140f",
+    "time": "2002-03-01",
+    "date_precision": "day",
+    "summary": "An opinion poll finds that for the first time a majority of Israelis (53%) are dissatisfied with Prime Minister Ariel Sharon's performance.",
+    "time_range": null,
+    "evidence_ids": [
+      "3907"
+    ],
+    "job_id": "d0ddf4ba000543a5e9abe479bb709b6ec205d30f40bbdb55dc6efaa0cb9f818e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "First majority dissatisfaction with Sharon's performance marks a notable shift in his premiership.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a9886cc1fcfb2734"
+  },
+  {
+    "candidate_id": "bc3653f86ecc62333cf8de87",
+    "time": "2006-01-16",
+    "date_precision": "day",
+    "summary": "Relatives of Ariel Sharon claimed he opened his eyes, but doctors treating him played down the report, and he remained in a coma since suffering a stroke almost two weeks earlier.",
+    "time_range": null,
+    "evidence_ids": [
+      "3192"
+    ],
+    "job_id": "fa9efd5945b9031156bd5c232b5a631f79949e8180107edd32ec9fc19e1aa05f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Update on Sharon's coma condition is a relevant later development; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2b9ac701e4058fcc"
+  },
+  {
+    "candidate_id": "4f75475bbb57067a38b1b51f",
+    "time": "2006-01-04",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon suffers a massive stroke and is rushed to hospital, with Deputy Prime Minister Ehud Olmert taking over his powers.",
+    "time_range": null,
+    "evidence_ids": [
+      "3206"
+    ],
+    "job_id": "12268b77c241cbf2e140bf7fbc02cd57ac5c77ba894c4370a2b01a36db3d672a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-df3fae3574964c17",
+    "reason": "Same date and event as existing record of Sharon's stroke and transfer of powers to Olmert.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df3fae3574964c17"
+  },
+  {
+    "candidate_id": "8447ad5070956cd2cc56b088",
+    "time": "2007-01-04",
+    "date_precision": "day",
+    "summary": "A year after suffering a brain haemorrhage that left him in a persistent vegetative state, Ariel Sharon's political legacy is described as under siege, with his Gaza withdrawal and Kadima party facing criticism and his successor Ehud Olmert struggling.",
+    "time_range": null,
+    "evidence_ids": [
+      "3157"
+    ],
+    "job_id": "f89aabd174fbb8f96382c4eba627bd260c1afb7dfc9e0919a8be37e4c680f398",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "One-year retrospective on Sharon's condition and political legacy is a distinct milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0a5e1e8c1b7d462a"
+  },
+  {
+    "candidate_id": "90ce00a5af9f1a4cf3ea8a8b",
+    "time": "2004-01-21",
+    "date_precision": "day",
+    "summary": "Israeli businessman David Appel is indicted for allegedly paying bribes to Prime Minister Ariel Sharon and his son Gilad in connection with a Greek island resort and casino plan.",
+    "time_range": null,
+    "evidence_ids": [
+      "3559"
+    ],
+    "job_id": "c25ded12b9bc039a8743ab3b2f6cd5ca6a69bc81160f1009a8b94952c6a2674f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-3638a9861169f04e",
+    "reason": "Same date and same David Appel indictment of Sharon family over Greek island affair; duplicate of existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3638a9861169f04e"
+  },
+  {
+    "candidate_id": "1ca83f7b2c116c53de5e6a1f",
+    "time": "2001-06-14",
+    "date_precision": "day",
+    "summary": "Israeli officials criticized the BBC over a Panorama programme concluding that Prime Minister Ariel Sharon could be tried for war crimes related to the 1982 Sabra and Shatila massacres.",
+    "time_range": null,
+    "evidence_ids": [
+      "4232"
+    ],
+    "job_id": "d45b4ef5039ec61a570b2cfb3934763b448e5e1112860360496acc21c70c2494",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Sharon milestone: BBC Panorama war-crimes controversy tied to Sabra and Shatila; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-339fd1f7d56aa1ba"
+  },
+  {
+    "candidate_id": "4ad0075a3387785bee62cd6d",
+    "time": "2004-08-18",
+    "date_precision": "day",
+    "summary": "Ariel Sharon vows to press ahead with his plan to withdraw Gaza's Jewish settlements despite his defeat in a Likud central committee vote that barred him from asking the Labour party to join his coalition government.",
+    "time_range": null,
+    "evidence_ids": [
+      "3444"
+    ],
+    "job_id": "eacdadd559ef21c689a11719bf118b0d76aaf3ad8c1a857256a829fbaae531ce",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-5b95cfeb0b96361e",
+    "reason": "Same date and same Likud vote setback for Sharon's Gaza withdrawal/coalition plan as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5b95cfeb0b96361e"
+  },
+  {
+    "candidate_id": "2f61ec98eff100c6e7230919",
+    "time": "2004-10-26",
+    "date_precision": "day",
+    "summary": "Israeli politicians debate Ariel Sharon's Gaza withdrawal plan ahead of a critical Knesset vote that could give the prime minister crucial support to push it forward.",
+    "time_range": null,
+    "evidence_ids": [
+      "3549"
+    ],
+    "job_id": "0bc1f6bad70a68978d3177906aece5037da360b4a4ee1cb3a4a846e6aa4fb4ed",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-31cb71cc315ab84c",
+    "reason": "Same date and same Knesset vote on Sharon's Gaza disengagement plan as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-31cb71cc315ab84c"
+  },
+  {
+    "candidate_id": "70d42f84ef09728742767c41",
+    "time": "2004-10-22",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon faces accusations of betrayal from within his Likud party over his Gaza withdrawal plan ahead of a Knesset vote.",
+    "time_range": null,
+    "evidence_ids": [
+      "3557"
+    ],
+    "job_id": "8d4b0775f3dc0d75b140d28d5cebe3cc8b35122010643877769f5c4dbca4135b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct dated development in Sharon's Gaza withdrawal struggle, showing Likud backlash ahead of the Knesset vote.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fbdab69cca8724f3"
+  },
+  {
+    "candidate_id": "eaa0a046aa526d53dbc31979",
+    "time": "2004-04-10",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon struggled to garner support for his proposal that Israel unilaterally withdraw from the Gaza Strip, with his \"disengagement\" plan expected to face a Likud party vote next month.",
+    "time_range": null,
+    "evidence_ids": [
+      "3579"
+    ],
+    "job_id": "401378833ba05e7745650a2af384f41cd7e9fa87066c80a4722a852af094c11d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Early dated milestone in Sharon's effort to build support for the Gaza disengagement plan before the Likud vote.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8ffada488c306e5a"
+  },
+  {
+    "candidate_id": "5e77b25405922669c592f332",
+    "time": "2004-10-24",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon seeks Knesset approval for parts of his plan to withdraw from Jewish settlements in the Gaza Strip and northern West Bank.",
+    "time_range": null,
+    "evidence_ids": [
+      "3599"
+    ],
+    "job_id": "4595a429119e95a5c53b479bc0b3eaac9cafc02330d3478c4f0961e59e6a61cf",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct dated step in Sharon seeking Knesset approval for the Gaza/northern West Bank withdrawal plan.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2e32972ea6741b6c"
+  },
+  {
+    "candidate_id": "e392b7e9bf9f45b0ace13226",
+    "time": "2005-10-26",
+    "date_precision": "day",
+    "summary": "Ariel Sharon announced a \"broad and continuous\" offensive in the occupied territories and warned that Palestinians have no hope of winning independence until they combat armed Islamist groups, a day after an Islamic Jihad suicide bombing killed five Israelis.",
+    "time_range": null,
+    "evidence_ids": [
+      "3305"
+    ],
+    "job_id": "ae0072821fb2165832c9000e08332d6f1a2b7724fd8a077c8cf51337f8510b81",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sharon's announced offensive and warning after a suicide bombing is a distinct milestone in his security policy.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d7dc1c660aae3edd"
+  },
+  {
+    "candidate_id": "f519ec4941ff9e87d9520cf3",
+    "time": "2004-12-11",
+    "date_precision": "day",
+    "summary": "Israel's opposition Labour party began talks with Prime Minister Ariel Sharon's Likud party about joining its coalition, a partnership aimed at promoting a military withdrawal from Gaza.",
+    "time_range": null,
+    "evidence_ids": [
+      "3429"
+    ],
+    "job_id": "a8765626bd85fc4223451c29dfb0db5e520e38448e52efb1eddb05a15c0afdde",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Labour-Likud coalition talks aimed at promoting Gaza withdrawal are a distinct dated development; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2b7b65a76d24b630"
+  },
+  {
+    "candidate_id": "cf08f33d9525edf18c3d01ee",
+    "time": "2001-02-26",
+    "date_precision": "day",
+    "summary": "Israel's Labour party voted to join prime minister-elect Ariel Sharon's unity government.",
+    "time_range": null,
+    "evidence_ids": [
+      "4314"
+    ],
+    "job_id": "c642d21556564af9786316f14b87fe8b5a812b01d11c5b493bbb9419a745b2ac",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Labour's vote to join Sharon's unity government is a distinct milestone; existing related events have different dates.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8ceb24742091fb15"
+  },
+  {
+    "candidate_id": "ea661dcca5d793c48bb96bc1",
+    "time": "2005-11-21",
+    "date_precision": "day",
+    "summary": "Israeli Prime Minister Ariel Sharon announced his departure from the Likud party to form a new centrist party, saying Likud no longer gave the Israeli people hope.",
+    "time_range": null,
+    "evidence_ids": [
+      "3212"
+    ],
+    "job_id": "690d49f80cbaa020b5e0e57731b726bcb69f76fc6029d53be5a82d1ff31033de",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-c731369e32a14f32",
+    "reason": "Same event and date: Sharon's departure from Likud to form a new centrist party (Kadima).",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c731369e32a14f32"
+  },
+  {
+    "candidate_id": "9cce7622d16cef0cb4005775",
+    "time": "2006-02-11",
+    "date_precision": "day",
+    "summary": "Ariel Sharon underwent four hours of emergency surgery to clear a blood clot in his intestines, with doctors saying his life was in danger.",
+    "time_range": null,
+    "evidence_ids": [
+      "3265"
+    ],
+    "job_id": "ec5149ab68c184cb3af1f5ad07e0bf0d5c4f7efa0ad533a0ab846b9891f30437",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-5951a4eb10667f3a",
+    "reason": "Same event and date: Sharon's emergency surgery for an intestinal blood clot.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5951a4eb10667f3a"
+  }
+]

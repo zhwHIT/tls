@@ -1,0 +1,68 @@
+{
+  "schema_version": 6,
+  "pipeline_revision": "first-phase-preextracted-events-v1",
+  "model": "deepseek-v4-flash",
+  "dataset": "entities",
+  "topic": "Al_Gore",
+  "data": "snapshots/entities/25ac73e52bc93b3b",
+  "index": "artifacts/entities_collection_v3_hybrid_index.json",
+  "top_k": 12,
+  "document_char_limit": 1200,
+  "max_candidates_per_round": 4,
+  "strict_date_evidence": false,
+  "phase1_max_rounds": 24,
+  "phase1_min_search_rounds": 0,
+  "phase1_min_events": 0,
+  "exploration_memory": {
+    "enabled": true,
+    "progress_control_enabled": true,
+    "minimum_stages": 0
+  },
+  "coverage_pipeline": {
+    "enabled": true
+  },
+  "max_api_requests": 500,
+  "phase2_max_gaps": 12,
+  "phase2_max_gap_cycles": 30,
+  "phase2_teacher_guidance": false,
+  "resume_failed_phase1": false,
+  "label_repair_attempts": 1,
+  "temperature": 0,
+  "semantic_coverage_threshold": 0.2,
+  "temporal_search": {
+    "enabled": true,
+    "soft_penalty": 0.5
+  },
+  "compact_context": {
+    "enabled": true,
+    "local_events": 8,
+    "recent_queries": 4,
+    "max_request_chars": 64000
+  },
+  "batch_controller": {
+    "enabled": true,
+    "max_queries": 3,
+    "summary_interval_batches": 3,
+    "summary_delta_chars": 4500,
+    "tokens": {
+      "tokenizer_path": "artifacts/deepseek_v4_tokenizer/tokenizer.json",
+      "preflight_limit": 3800,
+      "input_limit": 4096
+    },
+    "summary_fact_max_chars": 320,
+    "summary_fact_target_chars": 240,
+    "pending_lead_limit": 8
+  },
+  "evaluation_role": "all_dataset_first_phase_evaluation",
+  "authorization_note": "User authorized current retrieval strategy on all datasets, first phase only. Extraction error tolerance remains accepted.",
+  "unlimited_verify": true,
+  "phase2_max_batches_per_gap": 3,
+  "first_phase_only": true,
+  "preextracted_events": {
+    "enabled": true,
+    "event_root": "artifacts/llm_tls_extraction_v1/events",
+    "verify_batch_events": 8,
+    "merge_context_events": 8
+  },
+  "verification_semantics": "relevance_and_timeline_membership_only; extraction errors accepted"
+}
