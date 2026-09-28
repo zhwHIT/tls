@@ -1,0 +1,10 @@
+{
+  "repo_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "local_path": "D:/paper/chronos_repro/models/paraphrase-multilingual-MiniLM-L12-v2",
+  "dimension": 384,
+  "max_sequence_tokens": 128,
+  "download_filter": {
+    "excluded": ["*.bin", "*.h5", "*.msgpack", "onnx/*", "openvino/*"]
+  }
+}
