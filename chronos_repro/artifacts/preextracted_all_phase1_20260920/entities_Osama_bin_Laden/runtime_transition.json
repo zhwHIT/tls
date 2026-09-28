@@ -1,0 +1,15 @@
+{
+  "at_utc": "2026-09-20T08:53:57.734647+00:00",
+  "reason": "User requested checkpoint continuation of four failed topics after SEARCH schema recovery fixes.",
+  "previous_source_sha256": "f6e7ce70694d4dba3a79f689efe2983d50cac99c8dae226ae25cfb4358676743",
+  "new_source_sha256": "126cb0a18c2ace018226be65da48523481247e1054bb5923dfd72b4e125c2c31",
+  "changed_files": [
+    "scripts/batched_search_phase.py",
+    "src/chronos_repro/batch_policy.py"
+  ],
+  "checkpoint_resume": true,
+  "completed_batches_retained": 20,
+  "requests_started_before_resume": 100,
+  "request_ledger_reset": false,
+  "archive": "artifacts\\preextracted_all_phase1_20260920\\entities_Osama_bin_Laden\\history\\before_search_schema_resume_20260920T085349Z"
+}
