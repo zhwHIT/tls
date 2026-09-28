@@ -1,0 +1,67 @@
+{
+  "metric": "exact_gold_date_coverage",
+  "gold_date_count": 6,
+  "matched_gold_date_count": 4,
+  "gold_date_recall": 0.6666666666666666,
+  "matched_gold_dates": [
+    "2004-06-25",
+    "2015-12-07",
+    "2016-01-08",
+    "2016-01-10"
+  ],
+  "missed_gold_dates": [
+    "1996-01-17",
+    "2016-12-06"
+  ],
+  "predicted_date_count": 121,
+  "predicted_start": "1998-09-01",
+  "predicted_end": "2017-07-12",
+  "gold_start": "1996-01-17",
+  "gold_end": "2016-12-06",
+  "gold_start_exactly_matched": false,
+  "gold_end_exactly_matched": false,
+  "span_contains_gold_endpoints": false,
+  "retrieved_extracted_date_hits": 4,
+  "all_topic_extracted_date_hits": 4,
+  "not_available_in_extraction": [
+    "1996-01-17",
+    "2016-12-06"
+  ],
+  "available_but_not_retrieved": [],
+  "retrieved_but_not_selected": [],
+  "partial_or_unknown_selected_events": 26,
+  "gold_used_in_search_or_verify": false,
+  "gold_sha256": "27f8f8956119d790a9fa1f9f5490ded7fe5211c47ee3dbd770eacb972936d9e2",
+  "limitations": [
+    "Date matches do not establish event semantic correctness.",
+    "Diagnostic topics were selected by historical Gold performance.",
+    "Historical runs differ in budgets and versions; not a controlled equal-cost comparison."
+  ],
+  "runtime_status": "ok",
+  "phase1_termination": "runner_limit",
+  "accepted_event_count": 161,
+  "candidate_count": 213,
+  "deferred_verification_count": 0,
+  "query_count": 67,
+  "completed_batches": 24,
+  "retrieved_articles": 236,
+  "usage": {
+    "prompt_tokens": 192748,
+    "completion_tokens": 36443,
+    "total_tokens": 229191,
+    "logical_calls": 93,
+    "http_attempts": 93
+  },
+  "returned_response_usage_cumulative": {
+    "prompt_tokens": 192748,
+    "completion_tokens": 36443,
+    "total_tokens": 229191,
+    "prompt_cache_hit_tokens": 26624,
+    "prompt_cache_miss_tokens": 166124
+  },
+  "candidate_status_counts": {
+    "ACCEPTED": 185,
+    "IRRELEVANT": 27,
+    "NOT_SELECTED": 1
+  }
+}

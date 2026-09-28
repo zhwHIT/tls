@@ -1,0 +1,1997 @@
+[
+  {
+    "candidate_id": "f536e129f24269968df985e0",
+    "time": "2006-03-29",
+    "date_precision": "day",
+    "summary": "Charles Taylor was locked up in a cell of the United Nations special tribunal on war crimes in Sierra Leone, and the tribunal asked for him to be taken to the special international war crimes court in the Hague.",
+    "time_range": null,
+    "evidence_ids": [
+      "13803"
+    ],
+    "job_id": "e3e43f3f8f29820c2d5bfaa8719eb02b456f352720ddd383c72de61ecb41c4d0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Taylor's detention by the UN-backed Sierra Leone tribunal and transfer request to The Hague.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6b0a47a3e6efe53e"
+  },
+  {
+    "candidate_id": "56dcd74ac5c10aee0041785c",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No article content was provided for Charles Taylor, so no topic-related event can be identified.",
+    "time_range": null,
+    "evidence_ids": [
+      "13730"
+    ],
+    "job_id": "9170db89852b1b8dd3e46512a8473fdf8558b2176a45802c3f389b2713b6ed59",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No identifiable topic-related event; no content provided.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "853d67f6f6638b15cbd7a156",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "13754"
+    ],
+    "job_id": "4938b9a2a29e4bc97f7abb8328b4354b62a483b2fa1f39a1eafd1a3254232fe9",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Not about Charles Taylor; concerns tsunami donation appeal by Bush and Clinton.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "53bda3db79b8b5eed2edf3d8",
+    "time": "2012-05-30",
+    "date_precision": "day",
+    "summary": "Former Liberian president Charles Taylor is scheduled to be sentenced by the Special Court for Sierra Leone for aiding and abetting war crimes during the Sierra Leone civil war.",
+    "time_range": null,
+    "evidence_ids": [
+      "13708"
+    ],
+    "job_id": "ffde44d3c2ce608c22ec1cc48fb06a6f74c41d20db4fdcef68445b3184b44b83",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Taylor scheduled for sentencing by the Special Court for Sierra Leone on 2012-05-30.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-07e5a87e379100b2"
+  },
+  {
+    "candidate_id": "dfb8fa2594b342f9e88af96b",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Charles Taylor speaks at sentencing for Sierra Leone war crimes.",
+    "time_range": null,
+    "evidence_ids": [
+      "13716"
+    ],
+    "job_id": "b2c970705eadbc5991f97169b1fc7f8ecc8da1c5dd4f72215aa80b8f8fe128a8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Taylor event at sentencing, but date unknown so cannot merge with dated sentencing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-beaa1876378298c0"
+  },
+  {
+    "candidate_id": "6b90385bb8b0c13f64c0ab11",
+    "time": "2013-09-26",
+    "date_precision": "day",
+    "summary": "Charles Taylor loses appeal at The Hague over war crimes conviction.",
+    "time_range": null,
+    "evidence_ids": [
+      "13701"
+    ],
+    "job_id": "6d5ed48928694c8f6d6e5a9e7ce51fadd0b1da886c40352d3a719f516388cbd0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Taylor loses war crimes appeal at The Hague on 2013-09-26.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1955809d16509ace"
+  },
+  {
+    "candidate_id": "ceb6b01d03ebcb16faf6c34c",
+    "time": "2012-05-30",
+    "date_precision": "day",
+    "summary": "Charles Taylor is sentenced to 50 years for war crimes.",
+    "time_range": null,
+    "evidence_ids": [
+      "13707"
+    ],
+    "job_id": "34839ecc9c3929dd971d89daa5fb3131e5140b0dad718ced85e8fb9178c02543",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "53bda3db79b8b5eed2edf3d8",
+    "reason": "Same dated event as the scheduled sentencing: Taylor sentenced to 50 years on 2012-05-30.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-07e5a87e379100b2"
+    },
+    "timeline_event_id": "event-07e5a87e379100b2"
+  },
+  {
+    "candidate_id": "7cdf4c5a974b9dbb0e3aff24",
+    "time": "2013-09-26",
+    "date_precision": "day",
+    "summary": "A UN-backed tribunal upheld Charles Taylor's 50-year sentence for aiding and abetting war crimes in West Africa.",
+    "time_range": null,
+    "evidence_ids": [
+      "13702"
+    ],
+    "job_id": "71d70500304921e5fdcb0efa241c22ec7977270cba4033fff9966a11b79e0b8b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "6b90385bb8b0c13f64c0ab11",
+    "reason": "Same dated event as Taylor's appeal loss: UN-backed tribunal upholds 50-year sentence on 2013-09-26.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-1955809d16509ace"
+    },
+    "timeline_event_id": "event-1955809d16509ace"
+  },
+  {
+    "candidate_id": "61fed954dd7a24ce3c8969e1",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Charles Taylor was found guilty of war crimes in Sierra Leone.",
+    "time_range": null,
+    "evidence_ids": [
+      "13713"
+    ],
+    "job_id": "0cd58119415873af4619b811177eeba19fa7fe410714040a96462ed387bedce1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant guilty verdict milestone; unknown date, no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a01fcbf70ca0c5b4"
+  },
+  {
+    "candidate_id": "23210f78a86542cc0e1bfc23",
+    "time": "2016-10-08",
+    "date_precision": "day",
+    "summary": "Charles Taylor was awarded the inaugural Berggruen prize, worth $1 million, for ideas shaping human self-understanding and the advancement of humanity.",
+    "time_range": null,
+    "evidence_ids": [
+      "13695"
+    ],
+    "job_id": "09916cded8a3d49d5d32435764df4362117ea8169433198c2e63eb3ef9a7f002",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Berggruen prize is unrelated to Charles Taylor war crimes timeline.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "ffc7a778bd99e9984f2d68d5",
+    "time": "2010-12-17",
+    "date_precision": "day",
+    "summary": "WikiLeaks cables reveal US concerns that judges in Charles Taylor's war crimes trial at The Hague have deliberately slowed proceedings, with US officials exploring options to try him in the US.",
+    "time_range": null,
+    "evidence_ids": [
+      "13733"
+    ],
+    "job_id": "097426b193c94c91b36545774258f7f5354ad15908e222a155a8a7564b3521de",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant WikiLeaks disclosure about Taylor trial proceedings; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0bcfc709a8d182be"
+  },
+  {
+    "candidate_id": "f6018e93e313cfde1abbe91f",
+    "time": "2012-04-27",
+    "date_precision": "day",
+    "summary": "Charles Taylor was found guilty at The Hague of aiding and abetting war crimes in Sierra Leone.",
+    "time_range": null,
+    "evidence_ids": [
+      "13704"
+    ],
+    "job_id": "7a3928dc659a20edd16defb4cad5a94406b8e85f2b850597566bb667758d9cc0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant guilty verdict milestone; distinct date from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f8c6a164410e5365"
+  },
+  {
+    "candidate_id": "1c96d483bba1dad688880844",
+    "time": "2014-06-19",
+    "date_precision": "day",
+    "summary": "Charles Taylor launches a legal action at the UN-backed tribunal in The Hague seeking removal from a British prison to an African jail, arguing he is deprived of his right to family life.",
+    "time_range": null,
+    "evidence_ids": [
+      "13698"
+    ],
+    "job_id": "c5d219daa0cf4ca422b72697f3d5916b87f03114c6d30774eda59c9dffe0aede",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant post-conviction legal action; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ff864346776a5b02"
+  },
+  {
+    "candidate_id": "82e008178aa19a8c4d500bf0",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Defence and prosecution lawyers react to the sentence in the Charles Taylor trial.",
+    "time_range": null,
+    "evidence_ids": [
+      "13714"
+    ],
+    "job_id": "03f41e37bb479a99a80728d95f0938564bbf4ce208147261ae3c66f159b6a54e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant trial reaction item; unknown date, no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f00d611f3408ea89"
+  },
+  {
+    "candidate_id": "1800c1943d8320dd39a73681",
+    "time": "2010-02-24",
+    "date_precision": "day",
+    "summary": "Special Court for Sierra Leone prosecutor Stephen Rapp suggested Charles Taylor may go free because of budgetary reasons, raising concern within the Liberian government and emboldening Taylor supporters.",
+    "time_range": null,
+    "evidence_ids": [
+      "13734"
+    ],
+    "job_id": "a001305add5956057b2ae45ea88ec45b0e47af5fe28283967e596b0f534a40ce",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant trial development concerning possible release; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f77ddf098d0334df"
+  },
+  {
+    "candidate_id": "5753d31d212fe8cfa8d7c50a",
+    "time": "2008-01-07",
+    "date_precision": "day",
+    "summary": "The war crimes trial of former Liberian president Charles Taylor reopened at the International Criminal Court in The Hague, six months after he boycotted the opening session.",
+    "time_range": null,
+    "evidence_ids": [
+      "13789"
+    ],
+    "job_id": "2a945e4e53d81ce6dd68e5add17d617ddaebc445938ea5130697cbfabcc0c21f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant trial reopening milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c8173916f266cc48"
+  },
+  {
+    "candidate_id": "7dd9ae6ce94849f88187a6f8",
+    "time": "2012-04-26",
+    "date_precision": "day",
+    "summary": "Former Liberian president Charles Taylor was found guilty by a UN-backed court of aiding and abetting war crimes and crimes against humanity in Sierra Leone.",
+    "time_range": null,
+    "evidence_ids": [
+      "13711"
+    ],
+    "job_id": "eefbc6124d87497802de2dc8c9f3bb330e5a99d320ab257f44cfc39ecf124196",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Guilty verdict is a major milestone in Taylor's war crimes case; date differs from existing 2012-04-27 verdict event, so kept separate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-89c0011396a371e4"
+  },
+  {
+    "candidate_id": "b9b29718dc285dc30962fb3e",
+    "time": "2006-04-03",
+    "date_precision": "day",
+    "summary": "Former Liberian president Charles Taylor appeared before a UN-backed war crimes court in Freetown, Sierra Leone, and pleaded not guilty to 11 charges of war crimes and crimes against humanity.",
+    "time_range": null,
+    "evidence_ids": [
+      "13820"
+    ],
+    "job_id": "3633909a17290a2bffeae2f0c2d15b594c4143181f1c50d163d034ec2f5ca935",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Taylor's initial not-guilty plea is a key early milestone in the trial timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f409ecc15a88a57a"
+  },
+  {
+    "candidate_id": "fa6f724e898d1c4ad93fc6f2",
+    "time": "2009-07-14",
+    "date_precision": "day",
+    "summary": "Former Liberian president Charles Taylor launched his own defence at his war crimes trial, dismissing charges of murder and crimes against humanity as based on lies and misinformation.",
+    "time_range": null,
+    "evidence_ids": [
+      "13760"
+    ],
+    "job_id": "6dabfd4061aa9868c610d528fd81221dcf01edb46286d66bdc1b4f8894421e60",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Launch of Taylor's own defence is a distinct trial milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-34fdf4f97a05b665"
+  },
+  {
+    "candidate_id": "b8125f9394f416f538c6125f",
+    "time": "2012-05-30",
+    "date_precision": "day",
+    "summary": "Charles Taylor, Liberia's former president, was sentenced to 50 years in prison by a UN-backed tribunal for aiding and abetting war crimes and crimes against humanity in Sierra Leone.",
+    "time_range": null,
+    "evidence_ids": [
+      "13715"
+    ],
+    "job_id": "8e434acafff09e2460798864be422c882e761e661671edb6ad76dc61dde44e6a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-07e5a87e379100b2",
+    "reason": "Same 2012-05-30 sentencing event as existing event-07e5a87e379100b2.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-07e5a87e379100b2"
+  },
+  {
+    "candidate_id": "c5a73d28d5e0a56147f0143a",
+    "time": "2012-05-04",
+    "date_precision": "day",
+    "summary": "UN prosecutors urged the Special Court for Sierra Leone to sentence former Liberian president Charles Taylor to 80 years in prison for aiding and abetting war crimes and crimes against humanity, with sentencing scheduled for 2012-05-30.",
+    "time_range": null,
+    "evidence_ids": [
+      "13717"
+    ],
+    "job_id": "f01f739969a1b1e6b13a6a07d0e767eec61b9c8a9e1d301f24b6fe701f45d28c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Prosecutors' 80-year sentencing request is a distinct pre-sentencing milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-62e9c95282dcdc0b"
+  },
+  {
+    "candidate_id": "de482da29157f680852616bb",
+    "time": "2009-07-13",
+    "date_precision": "day",
+    "summary": "Lawyers for former Liberian president Charles Taylor began his war crimes defence at The Hague, arguing he was not responsible for atrocities committed by rebels in Sierra Leone.",
+    "time_range": null,
+    "evidence_ids": [
+      "13759"
+    ],
+    "job_id": "fc5326eb6fb178ee5ef14df03e6255c6031b4b61eae9618e3ab47ff9ab9449d7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Start of defence case at The Hague is a distinct trial milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6db9fdd72343a655"
+  },
+  {
+    "candidate_id": "d0b44243961a9e9200d94c1b",
+    "time": "2008-01-08",
+    "date_precision": "day",
+    "summary": "A survivor testified at the international war crimes trial of former Liberian president Charles Taylor in The Hague, describing atrocities committed during the Sierra Leone civil war.",
+    "time_range": null,
+    "evidence_ids": [
+      "13800"
+    ],
+    "job_id": "51c7ca1d9492c72bf7742905a35768f162a099f5fd336a1dcfe7ad969fc837d9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Survivor testimony is a distinct trial development; date differs from existing 2008-01-07 trial-reopening event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-be113efec3668eec"
+  },
+  {
+    "candidate_id": "f48c774fbf05044815ca61ad",
+    "time": "2012-04-26",
+    "date_precision": "day",
+    "summary": "Former Liberian president Charles Taylor was found by a UN-backed tribunal in The Hague to have aided and abetted war crimes and crimes against humanity in Sierra Leone.",
+    "time_range": null,
+    "evidence_ids": [
+      "13721"
+    ],
+    "job_id": "1963732922590e47e9f58521062037cb8112cd5a7c51219f0252ad4c14c33c68",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "7dd9ae6ce94849f88187a6f8",
+    "reason": "Same 2012-04-26 guilty-verdict event as candidate 7dd9ae6ce94849f88187a6f8.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-89c0011396a371e4"
+    },
+    "timeline_event_id": "event-89c0011396a371e4"
+  },
+  {
+    "candidate_id": "87f8fc66831ce743aa1551b7",
+    "time": "2012-04-26",
+    "date_precision": "day",
+    "summary": "Charles Taylor is convicted of aiding and abetting war crimes and crimes against humanity on all counts for his involvement in Sierra Leone's civil war.",
+    "time_range": null,
+    "evidence_ids": [
+      "13719"
+    ],
+    "job_id": "966a89e4c66ea0937a6d87e52fb2b67c8659c284db9ac7857350c2c1d1ac3eac",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-89c0011396a371e4",
+    "reason": "Same date and same conviction event as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-89c0011396a371e4"
+  },
+  {
+    "candidate_id": "1888118f1d2d4b65f14dab51",
+    "time": "2011-02-08",
+    "date_precision": "day",
+    "summary": "Charles Taylor's lead defence lawyer Courtenay Griffiths stormed out of the war crimes trial in The Hague after judges refused to accept a written summary of Taylor's defence.",
+    "time_range": null,
+    "evidence_ids": [
+      "13738"
+    ],
+    "job_id": "588a6d471b6671d1a3479c5e44def7dba963902f83db674b6cbdb77304882d73",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct procedural development in Taylor's war crimes trial.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-abd1fbd97841e7d0"
+  },
+  {
+    "candidate_id": "a7b9aaecec583a38859dd8ec",
+    "time": "2010-08-05",
+    "date_precision": "day",
+    "summary": "Naomi Campbell testified at Charles Taylor's war crimes trial at The Hague, saying she received \"dirty-looking stones\" but not stating that Taylor gave her diamonds.",
+    "time_range": null,
+    "evidence_ids": [
+      "13736"
+    ],
+    "job_id": "0f3cb00bc35003efeb64f779212a591c068ad76d30f2ad816a106f3a3cb70c5c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Notable testimony in Taylor's war crimes trial.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2cc9426a1ff6521c"
+  },
+  {
+    "candidate_id": "9ddd4ef75f92ee91c515c475",
+    "time": "2009-01-09",
+    "date_precision": "day",
+    "summary": "Charles Taylor's son, Charles \"Chuckie\" Taylor Jr., was sentenced to 97 years in prison in the US for torture committed in Liberia.",
+    "time_range": null,
+    "evidence_ids": [
+      "13792"
+    ],
+    "job_id": "83589f47b4935272b1babdc530562cdaa88664d82d233e9d07b9af10a626f6cb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Related to Charles Taylor through his son's conviction for Liberia atrocities.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-887f152af66a6ae4"
+  },
+  {
+    "candidate_id": "894c917d4203f8895789241f",
+    "time": "2006-03-26",
+    "date_precision": "day",
+    "summary": "Nigeria said Liberia's new government, which had formally sought Charles Taylor's extradition, was free to take him into custody, though it did not say when or how he would be transferred.",
+    "time_range": null,
+    "evidence_ids": [
+      "13830"
+    ],
+    "job_id": "30daee845324899f8b6d212d562dc5444b66b82d0733acd0e4b9dfab26915a08",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Step in Taylor's extradition/custody process.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f505ab0a9c8f4f61"
+  },
+  {
+    "candidate_id": "a7f81d5781f1829e605b7bbd",
+    "time": "2006-03-27",
+    "date_precision": "day",
+    "summary": "Charles Taylor disappeared from his safe haven in Nigeria days before he was due to be transferred to a war crimes court.",
+    "time_range": null,
+    "evidence_ids": [
+      "13824"
+    ],
+    "job_id": "41541052724433d81935e25f199fdeda75b6eb4310b6b5aa8256b3e1b8809ace",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Taylor's disappearance before transfer is a distinct milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f0502f6c683f7222"
+  },
+  {
+    "candidate_id": "fa482cbea66ac33df2249798",
+    "time": "2006-03-29",
+    "date_precision": "day",
+    "summary": "Charles Taylor is arrested in Nigeria and flown to Liberia to be delivered to a UN-backed war crimes court in Sierra Leone.",
+    "time_range": null,
+    "evidence_ids": [
+      "13804"
+    ],
+    "job_id": "5a73de4f722c36dccd082a4f9c463a7cb7afa17240ac84b2e81e618e7cb65e71",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-6b0a47a3e6efe53e",
+    "reason": "Same date and same arrest/custody event as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6b0a47a3e6efe53e"
+  },
+  {
+    "candidate_id": "a1c576b65a43bbce3f3ad1e0",
+    "time": "2006-03-26",
+    "date_precision": "day",
+    "summary": "UN war crimes tribunal prosecutor Desmond de Silva asks Nigeria's president Olusegun Obasanjo to arrest former Liberian president Charles Taylor, amid concerns he might flee to evade trial.",
+    "time_range": null,
+    "evidence_ids": [
+      "13831"
+    ],
+    "job_id": "e7d891dbb47800fc5393ea1581514ea7d03fc133d60f63bed9e715ed4164eac4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Prosecutor's request to arrest Taylor is a distinct step.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-cd63f40689821e59"
+  },
+  {
+    "candidate_id": "68ccf8c1ddcde3e6c1cc3b01",
+    "time": "2006-06-19",
+    "date_precision": "day",
+    "summary": "Charles Taylor, the former president of Liberia, was transferred to The Hague to face a war crimes trial related to Sierra Leone's civil war.",
+    "time_range": null,
+    "evidence_ids": [
+      "13814"
+    ],
+    "job_id": "e22d31bd628000128434e02db9374459abc42495d75c5d8f035ad1c6c15465de",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Taylor transferred to The Hague for war crimes trial; no existing event with same date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-799e9c2c29f8d26e"
+  },
+  {
+    "candidate_id": "6e57d5b7b5d3b9b681ba8373",
+    "time": "2006-03-29",
+    "date_precision": "day",
+    "summary": "Former Liberian leader Charles Taylor was captured at the Nigeria-Cameroon border and handed over to an international war crimes tribunal in Sierra Leone.",
+    "time_range": null,
+    "evidence_ids": [
+      "13822"
+    ],
+    "job_id": "44900960703f5b5ce13c9931868ae86f236873fdd7e946d72ca952e6aa3a4a04",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-6b0a47a3e6efe53e",
+    "reason": "Same date 2006-03-29 and same event: Taylor captured and handed to tribunal.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6b0a47a3e6efe53e"
+  },
+  {
+    "candidate_id": "ab891077dce81f6fc06429b4",
+    "time": "2006-01-16",
+    "date_precision": "day",
+    "summary": "The new Liberian government of President Ellen Johnson-Sirleaf formally requested the extradition of former president Charles Taylor from Nigeria back to Liberia.",
+    "time_range": null,
+    "evidence_ids": [
+      "13806"
+    ],
+    "job_id": "f86ce9af72c49c324f3affbdc014be04dd9026ffe04d4643b8d175710c2d5398",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Liberia formally requested Taylor's extradition; no existing event with same date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fdc22e2e0ea95aa4"
+  },
+  {
+    "candidate_id": "cbe7e6a5efcec5faeab20994",
+    "time": "2006-03-17",
+    "date_precision": "day",
+    "summary": "Nigeria confirmed it had received a request from the Liberian government to extradite former Liberian president Charles Taylor to face war crimes charges.",
+    "time_range": null,
+    "evidence_ids": [
+      "13837"
+    ],
+    "job_id": "282808e16485ad6c19d62a490fa79370070edec570585855d8d9bd6af2fea56b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Nigeria confirmed extradition request for Taylor; no existing event with same date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-14120b18f242a42a"
+  },
+  {
+    "candidate_id": "7521fa3671bcef3e85a90650",
+    "time": "2006-03-27",
+    "date_precision": "day",
+    "summary": "Former Liberian president Charles Taylor disappeared from his refuge in Calabar, Nigeria, prompting human rights groups to demand his handover to an international court on war crimes charges.",
+    "time_range": null,
+    "evidence_ids": [
+      "13832"
+    ],
+    "job_id": "1cec43a4bb7a52a36e6f993f1446a2e82a428c40f8dd9c0b813faf1ee647b41e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-f0502f6c683f7222",
+    "reason": "Same date 2006-03-27 and same event: Taylor disappeared from Calabar refuge.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f0502f6c683f7222"
+  },
+  {
+    "candidate_id": "55b9360e4378fd306be634a6",
+    "time": "2006-06-20",
+    "date_precision": "day",
+    "summary": "Former Liberian president Charles Taylor was transferred to The Hague to face war-crimes charges related to Sierra Leone's civil war.",
+    "time_range": null,
+    "evidence_ids": [
+      "13802"
+    ],
+    "job_id": "4abafc662b6dd1656bf750c1ffcaeae133397b7147d49e09c8766b39040b1fcc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Taylor transferred to The Hague; date 2006-06-20 differs from similar 2006-06-19 candidate, so separate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1de30388f416a731"
+  },
+  {
+    "candidate_id": "eee10e8c81629ebcb404faee",
+    "time": "2009-11-10",
+    "date_precision": "day",
+    "summary": "Former Liberian president Charles Taylor testified at his war crimes trial that he was indicted as part of a US \"regime change\" plan and claimed he was duped by Nigeria into being arrested there in 2006.",
+    "time_range": null,
+    "evidence_ids": [
+      "13763"
+    ],
+    "job_id": "b61426d4cd0fb75e216f7c066e8e55a4cdf28af6379481e9db29592af479a1fb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Taylor testified at his war crimes trial; no existing event with same date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a86c2939592f60a1"
+  },
+  {
+    "candidate_id": "d82bf3b4f07163abf4f50842",
+    "time": "2007-07-10",
+    "date_precision": "day",
+    "summary": "The prosecutor in the special Sierra Leone tribunal said he was optimistic that Charles Taylor's war crimes trial will proceed on schedule despite recent delays.",
+    "time_range": null,
+    "evidence_ids": [
+      "13805"
+    ],
+    "job_id": "4bc26a9ad3aa7c69b62f990c76835c980cb990e803ec004cb2f5be78582d43f6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Prosecutor optimism about Taylor trial schedule is a relevant milestone in the trial timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0c5aea730f5f85ce"
+  },
+  {
+    "candidate_id": "9038cc2615b53908fa992d9a",
+    "time": "2007-08-20",
+    "date_precision": "day",
+    "summary": "Judges agreed to delay until January the war crimes trial of former Liberian president Charles Taylor at The Hague.",
+    "time_range": null,
+    "evidence_ids": [
+      "13797"
+    ],
+    "job_id": "9d0d0e58f654a5b8fc795750721897ccc01c5864c53e9795991a80dc689129f9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Judges delaying Taylor's war crimes trial until January is a distinct procedural milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3fb7456d9daf253e"
+  },
+  {
+    "candidate_id": "648e894782d087ac14ceecb4",
+    "time": "2007-07-03",
+    "date_precision": "day",
+    "summary": "Former Liberian president Charles Taylor appeared in court for the first time since the start of his trial for alleged atrocities during Sierra Leone's civil war, ending his boycott and pleading not guilty to a slightly amended charge of sexual slavery.",
+    "time_range": null,
+    "evidence_ids": [
+      "13810"
+    ],
+    "job_id": "549b44ef637768eb33b26f8cc372eecc2ed87d32eae6a3584758147e2765366d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Taylor ending his boycott and pleading not guilty is a distinct trial event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d5f86c7bd877d0aa"
+  },
+  {
+    "candidate_id": "55f2a692878cd2222155ccaf",
+    "time": "2006-06-16",
+    "date_precision": "day",
+    "summary": "The UK foreign secretary announced that former Liberian president Charles Taylor could serve any sentence in the UK if convicted of war crimes by a UN-backed court.",
+    "time_range": null,
+    "evidence_ids": [
+      "13826"
+    ],
+    "job_id": "7e37a2ea65be5bbe25df5f742b22569f38604a6a86d479b130d18ac41f51af8b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "UK announcement on possible sentence service is a relevant development in Taylor's case.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5bf61e531dcc59e8"
+  },
+  {
+    "candidate_id": "b3c139d711b8a236537e6aee",
+    "time": "2003-08-05",
+    "date_precision": "day",
+    "summary": "Liberia asked the International Court of Justice to block Sierra Leone’s war crimes indictment and arrest warrant against President Charles Taylor, arguing he has head-of-state immunity.",
+    "time_range": null,
+    "evidence_ids": [
+      "13847"
+    ],
+    "job_id": "67e2fd19159fe36dfa651745fa085edf83e84a2e8a6f5c140211b02b24fb799c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Liberia's ICJ request over Taylor's indictment and immunity is a relevant legal milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-75eb04d0199bb651"
+  },
+  {
+    "candidate_id": "7ef32bd5655ced9a39b139d7",
+    "time": "2008-09-29",
+    "date_precision": "day",
+    "summary": "The torture trial of Charles Taylor Jr., son of former Liberian president Charles Taylor, began in Miami, marking the first US prosecution of torture committed in a foreign country.",
+    "time_range": null,
+    "evidence_ids": [
+      "13782"
+    ],
+    "job_id": "938cc33979922642c96e0dc233b6dfd1e9899a28b984db6e0f42fa538ccb1bdd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Trial of Charles Taylor Jr. is directly connected to Charles Taylor and contributes to his broader timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f7677a50352b20b8"
+  },
+  {
+    "candidate_id": "db550ab21b67c57ba009489f",
+    "time": "2009-02-25",
+    "date_precision": "day",
+    "summary": "The chief prosecutor of the Special Court for Sierra Leone warns that Charles Taylor could be set free if the court runs out of funding due to the global economic crisis.",
+    "time_range": null,
+    "evidence_ids": [
+      "13795"
+    ],
+    "job_id": "7de1d0aea5783e83e8a4d0c5f1fb74eeb779960fae72626ef053929f61d3daf4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant funding warning in Taylor's Special Court case; no matching existing event date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df7951dd146af540"
+  },
+  {
+    "candidate_id": "86d3aeed9d95b032d8ac991f",
+    "time": "2012-04-26",
+    "date_precision": "day",
+    "summary": "Charles Taylor, the former president of Liberia, is scheduled to hear the verdict of the Special Court for Sierra Leone in his five-year trial on charges of war crimes and crimes against humanity.",
+    "time_range": null,
+    "evidence_ids": [
+      "13725"
+    ],
+    "job_id": "37969b07b1d4d19e8591bf47fb0d472e390ed906e09b6c958877493080c4abb0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-89c0011396a371e4",
+    "reason": "Same 2012-04-26 verdict event; scheduled hearing matches existing guilty verdict record.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-89c0011396a371e4"
+  },
+  {
+    "candidate_id": "b387db73543617e977372f1d",
+    "time": "2003-07-04",
+    "date_precision": "day",
+    "summary": "Liberian President Charles Taylor renewed his promise to step aside and seek asylum in Nigeria, stating he would only relinquish power when an international force arrived.",
+    "time_range": null,
+    "evidence_ids": [
+      "13849"
+    ],
+    "job_id": "4dec4ea983a5472a0f296bdfa7b39af522d60a4fcf47795b10d8b99838b3365b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Taylor exit promise; no existing event on this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4d810fed5da990d2"
+  },
+  {
+    "candidate_id": "3c2b5189cb0ce5fe71e79269",
+    "time": "2003-07-06",
+    "date_precision": "day",
+    "summary": "Liberian President Charles Taylor accepted an offer of asylum in Nigeria but gave no indication of when he would leave, insisting on an orderly exit from power.",
+    "time_range": null,
+    "evidence_ids": [
+      "13855"
+    ],
+    "job_id": "f59b650b3c15f950ad1cf39727262e21db6cfa45054479b2c81d21c1a6087f81",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Taylor asylum acceptance; distinct 2003-07-06 date from other exit events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-de19fcfe2a0e331d"
+  },
+  {
+    "candidate_id": "9e834de6ef1802bfa871baac",
+    "time": "2003-08-11",
+    "date_precision": "day",
+    "summary": "Charles Taylor stepped down as president of Liberia and flew into exile in Nigeria.",
+    "time_range": null,
+    "evidence_ids": [
+      "13851"
+    ],
+    "job_id": "192f11c68f81dd089ec4b4472d269c579321eab1b7ca0ed5291e5acd20cc09dd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Taylor stepped down and went into exile on 2003-08-11.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e09e76bf13c19753"
+  },
+  {
+    "candidate_id": "28a703493c90d1e298d0d402",
+    "time": "2003-08-10",
+    "date_precision": "day",
+    "summary": "Liberian President Charles Taylor is due to resign and cede power, with his exile to Nigeria being arranged.",
+    "time_range": null,
+    "evidence_ids": [
+      "13846"
+    ],
+    "job_id": "a6255773eb2919481b6d7d6d99b6343f736c1e70886b7c420fbfb7717e60f5dd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant planned resignation/exile; 2003-08-10 differs from the 2003-08-11 events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-cf973cf27c6e1c08"
+  },
+  {
+    "candidate_id": "2e70bc653cc908aecf230a7c",
+    "time": "2003-08-11",
+    "date_precision": "day",
+    "summary": "Charles Taylor is due to step down as president of Liberia and go into exile, with the handover planned for 11.59am.",
+    "time_range": null,
+    "evidence_ids": [
+      "13852"
+    ],
+    "job_id": "f9301fa7fd15602741723b67cc25e78f93040d859c9841d103b2ab299d88d79a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "9e834de6ef1802bfa871baac",
+    "reason": "Same 2003-08-11 planned resignation/exile event as the stepped-down candidate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-e09e76bf13c19753"
+    },
+    "timeline_event_id": "event-e09e76bf13c19753"
+  },
+  {
+    "candidate_id": "0f543395a1cc5b0500a5b4ea",
+    "time": "2003-08-11",
+    "date_precision": "day",
+    "summary": "Liberian President Charles Taylor resigned and handed over power to Vice President Moses Blah.",
+    "time_range": null,
+    "evidence_ids": [
+      "13844"
+    ],
+    "job_id": "2aa190df6eeaf79b2af03d9e84a5f30e307833e7cc83da5b3ae2d2f2fa0e86c6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "9e834de6ef1802bfa871baac",
+    "reason": "Same 2003-08-11 resignation/handover event as Taylor stepping down and exile.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-e09e76bf13c19753"
+    },
+    "timeline_event_id": "event-e09e76bf13c19753"
+  },
+  {
+    "candidate_id": "a1a65f6965c8d58b908bc3e1",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "13889"
+    ],
+    "job_id": "34d1d6644d9e6b730c24735b70ed952e0cf7ed5fea2c7c7edafc379a0ac2e8bf",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Appointment of Bush and Clinton for tsunami relief does not involve Charles Taylor.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "af528845fc8097402e17d70c",
+    "time": "2003-08-11",
+    "date_precision": "day",
+    "summary": "Charles Taylor hands control to former vice-president Moses Blah.",
+    "time_range": null,
+    "evidence_ids": [
+      "13842"
+    ],
+    "job_id": "27225a2698ef3d270d2d0ab1f25a3bd2047326d4b752a348c5332487bbf4eb50",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-e09e76bf13c19753",
+    "reason": "Same date and event as Taylor handing over power and stepping down on 2003-08-11.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e09e76bf13c19753"
+  },
+  {
+    "candidate_id": "51d6eae3e3ef804f5c15a8aa",
+    "time": "2003-06-04",
+    "date_precision": "day",
+    "summary": "Charles Taylor was indicted by Sierra Leone's UN-backed war crimes court for his part in the Sierra Leone atrocities.",
+    "time_range": null,
+    "evidence_ids": [
+      "13853"
+    ],
+    "job_id": "d0e1fca9c83c3458be8e5c3263c2126375132ab77db4d3dad20f4b5c87734db2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Key milestone: Taylor indicted by the UN-backed Sierra Leone war crimes court.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ab025c20270f0a5f"
+  },
+  {
+    "candidate_id": "879276906de4b412489ef047",
+    "time": "2003-08-11",
+    "date_precision": "day",
+    "summary": "Charles Taylor agreed to resign under negotiated terms, with Vice-President Moses Blah to succeed him as president of the government-held areas of the capital until an interim government is established in October.",
+    "time_range": null,
+    "evidence_ids": [
+      "13840"
+    ],
+    "job_id": "f7733a4d4fbb48c4abe56269bc3367bae4abd81d39a8b3c95dad52e1106146a1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-e09e76bf13c19753",
+    "reason": "Same 2003-08-11 resignation/handover event as Taylor stepping down and going into exile.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e09e76bf13c19753"
+  },
+  {
+    "candidate_id": "f09879ac21164721313f7b6b",
+    "time": "2001-05-28",
+    "date_precision": "day",
+    "summary": "Liberian President Charles Taylor calls in Sierra Leonean Revolutionary United Front guerrillas to help fight an insurgency threatening his rule.",
+    "time_range": null,
+    "evidence_ids": [
+      "13892"
+    ],
+    "job_id": "33fc6c96c07da2dbcb1a38234ccff4c6430b2e14d917857a7e5b63768c8e2c0c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in Taylor's rule involving RUF guerrillas during Liberian insurgency.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2ae67ff197ab5c21"
+  },
+  {
+    "candidate_id": "1dc7643539fbef055a599890",
+    "time": "2006-06-15",
+    "date_precision": "day",
+    "summary": "The British government offers to imprison former Liberian president Charles Taylor if he is found guilty of war crimes, breaking an international deadlock over his trial.",
+    "time_range": null,
+    "evidence_ids": [
+      "13825"
+    ],
+    "job_id": "50df0caf99d8bb2d18b81834423595f9b968cb2d670338758f7e837fb81da767",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant development in Taylor's war crimes trial; date differs from existing UK sentence announcement.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0e3f5e0fce961f0d"
+  },
+  {
+    "candidate_id": "9297a1389874a2234095f3c3",
+    "time": "2013-10-10",
+    "date_precision": "day",
+    "summary": "The UK Ministry of Justice confirms that convicted former Liberian president Charles Taylor will serve his 50-year sentence for war crimes in a British prison.",
+    "time_range": null,
+    "evidence_ids": [
+      "13700"
+    ],
+    "job_id": "fbb2dee9256e6194d7c83069206ea4938d00f33e2aaa14001f047990af94165d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone confirming Taylor will serve his sentence in a British prison.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5988bdecdf0a0b03"
+  },
+  {
+    "candidate_id": "fb36665ce83174621bf68cc4",
+    "time": "2003-06-04",
+    "date_precision": "day",
+    "summary": "Liberian President Charles Taylor was indicted by a UN-backed court for crimes against humanity during the civil war in neighbouring Sierra Leone.",
+    "time_range": null,
+    "evidence_ids": [
+      "13860"
+    ],
+    "job_id": "548befd2d6d1d19c9c341c8d341993d07376897feb94e2438052e3c6f9b39492",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "51d6eae3e3ef804f5c15a8aa",
+    "reason": "Duplicate of the 2003-06-04 indictment of Taylor by the UN-backed court.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-ab025c20270f0a5f"
+    },
+    "timeline_event_id": "event-ab025c20270f0a5f"
+  },
+  {
+    "candidate_id": "df64e950a4d1afdb1b43af74",
+    "time": "2012-04-25",
+    "date_precision": "day",
+    "summary": "Former Liberian president Charles Taylor is due to appear at a war crimes court in The Hague to hear verdicts on 11 charges, with the UK having offered prison space if he is convicted.",
+    "time_range": null,
+    "evidence_ids": [
+      "13720"
+    ],
+    "job_id": "ef8f7d1a7a89e85e4aa0943a3b40634d8876f768ae8675dac9db0e412c63c4f8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct 2012-04-25 milestone: Taylor due in The Hague to hear verdicts on 11 charges; no existing event shares this date or occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ea78f135a4f58295"
+  },
+  {
+    "candidate_id": "5bbe2803b99025ed8e463405",
+    "time": "2012-05-30",
+    "date_precision": "day",
+    "summary": "Former Liberian president Charles Taylor is scheduled to be sentenced in The Hague by the Special Court for Sierra Leone for his part in Sierra Leone's bloody conflict.",
+    "time_range": null,
+    "evidence_ids": [
+      "13731"
+    ],
+    "job_id": "cd7988bfda9ea48572fb14d166cb4b1cefd66addcbdb0c9da2b82d8badf3074a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-07e5a87e379100b2",
+    "reason": "Same scheduled 2012-05-30 sentencing of Charles Taylor in The Hague; duplicate of existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-07e5a87e379100b2"
+  },
+  {
+    "candidate_id": "5f7620ba830baea7429bbd74",
+    "time": "2012-04-26",
+    "date_precision": "day",
+    "summary": "Charles Taylor, the former president of Liberia, was convicted by the Sierra Leone special court in The Hague of aiding and abetting war crimes, including murder, rape, sexual slavery, and using child soldiers, during the Sierra Leone conflict.",
+    "time_range": null,
+    "evidence_ids": [
+      "13712"
+    ],
+    "job_id": "97bc67078aa1b3a1d73b75d43af2f04c58e9c00c26dcea64faf410b49c9a271a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-89c0011396a371e4",
+    "reason": "Same 2012-04-26 conviction of Charles Taylor by the Sierra Leone special court; duplicate of existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-89c0011396a371e4"
+  },
+  {
+    "candidate_id": "d9a650cedecfa54bfd8285f6",
+    "time": "2006-04-03",
+    "date_precision": "day",
+    "summary": "The international community is working to move former Liberian president Charles Taylor's war crimes trial to The Hague, though Taylor has asked for the case to remain in Sierra Leone.",
+    "time_range": null,
+    "evidence_ids": [
+      "13833"
+    ],
+    "job_id": "c2f04c5462c4b5ec73116a8ffc2b9cd763c80f5f607422f8a9251e56fdb76b37",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in Taylor's prosecution: efforts to move his war crimes trial to The Hague; distinct from existing 2006-04-03 plea event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fc4025d0a8e36c20"
+  },
+  {
+    "candidate_id": "84ead3f7356ea6e5a5fc9b2c",
+    "time": "2003-08-11",
+    "date_precision": "day",
+    "summary": "Liberian President Charles Taylor has agreed to step down and accept asylum in Nigeria, though his promise was conditional and it remained uncertain whether he would cede power by that date.",
+    "time_range": null,
+    "evidence_ids": [
+      "13870"
+    ],
+    "job_id": "72c8e252d25ccff9e06f41c4e684e207a246df631704c6f1a7add3339404db52",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Taylor's conditional agreement to step down and accept Nigerian asylum; distinct from existing 2003-08-11 exile event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4b59445341e5d025"
+  },
+  {
+    "candidate_id": "1ccd78be75723c1c8d5d513e",
+    "time": "2007-06-04",
+    "date_precision": "day",
+    "summary": "Charles Taylor becomes the first African head of state to go on trial for serious crimes before an international criminal court.",
+    "time_range": null,
+    "evidence_ids": [
+      "13788"
+    ],
+    "job_id": "66be97b79b17c70095418501ff4b04640187bad4392dd832f0a5628c5543ff64",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Taylor becomes first African head of state tried before an international criminal court; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-183bb5571b2ada15"
+  },
+  {
+    "candidate_id": "976374f3daa87893ceeae1f9",
+    "time": "2010-07-29",
+    "date_precision": "day",
+    "summary": "Naomi Campbell is granted special protection by a UN war crimes tribunal for her testimony over claims she was given a blood diamond by Charles Taylor.",
+    "time_range": null,
+    "evidence_ids": [
+      "13765"
+    ],
+    "job_id": "803ed3243df280a07a93407ab98bf9d4b9449653fdb3b9fb85318f8a3fb695e4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Charles Taylor-related war crimes tribunal development; no matching existing event date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a79a84092a822a7d"
+  },
+  {
+    "candidate_id": "a0a28428711a741be39e1689",
+    "time": "2003-08-11",
+    "date_precision": "day",
+    "summary": "Liberian warlord president Charles Taylor flew into exile in Nigeria, ending his tenure.",
+    "time_range": null,
+    "evidence_ids": [
+      "13882"
+    ],
+    "job_id": "fe6a46a0bdada085f5d10d240b2b123c1de2c29cc589ce09c885d28e2d79b7fe",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-e09e76bf13c19753",
+    "reason": "Same date and event: Taylor stepped down and flew into exile in Nigeria.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e09e76bf13c19753"
+  },
+  {
+    "candidate_id": "2ce366d943bba06f9a62d618",
+    "time": "2012-04-26",
+    "date_precision": "day",
+    "summary": "Charles Taylor is on trial at the Special Court for Sierra Leone in The Hague for his contested role in Sierra Leone's civil war between 1996 and early 2002.",
+    "time_range": null,
+    "evidence_ids": [
+      "13722"
+    ],
+    "job_id": "3eea93769bde72ce0fa951011e84848462b7eb3dcc4d02962d232dfda3861107",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-89c0011396a371e4",
+    "reason": "Same date and trial event; existing event records the verdict in Taylor's Hague trial.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-89c0011396a371e4"
+  },
+  {
+    "candidate_id": "4b212989098d25ae5d26146a",
+    "time": "2017-06-01",
+    "date_precision": "day",
+    "summary": "Agnes Reeves Taylor, the ex-wife of former Liberian president Charles Taylor, was charged with four torture offences allegedly committed between 1989 and 1991.",
+    "time_range": null,
+    "evidence_ids": [
+      "13693"
+    ],
+    "job_id": "610713c4f80b0af6e714850a6962822e1285fae2cfc4d2bdd6194160b49a8364",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Charles Taylor-related legal development involving his ex-wife; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9856808c112931d7"
+  },
+  {
+    "candidate_id": "2fa9bbcd8b4367c9a599e711",
+    "time": "2006-06-16",
+    "date_precision": "day",
+    "summary": "The British government agrees to imprison former Liberian president Charles Taylor if he is found guilty by the international criminal court.",
+    "time_range": null,
+    "evidence_ids": [
+      "13839"
+    ],
+    "job_id": "5256d5d930fbbf9e984c858ebad20300e8a92f5d718f1e49015260108366ac34",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-5bf61e531dcc59e8",
+    "reason": "Same date and UK imprisonment agreement event for Charles Taylor if convicted.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5bf61e531dcc59e8"
+  },
+  {
+    "candidate_id": "5fed1ca83459ccbc91bc184d",
+    "time": "2008-01-07",
+    "date_precision": "day",
+    "summary": "The war crimes trial of former Liberian president Charles Taylor began at a special tribunal in The Hague, where he pleaded innocent to 11 counts of war crimes and crimes against humanity.",
+    "time_range": null,
+    "evidence_ids": [
+      "13801"
+    ],
+    "job_id": "8e0ff5e2adf2e9ed65110b53e08aa5fe85e42106537f2915cf349c94fee7765b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: start of Taylor's war crimes trial; same date as an existing event but describes the initial opening/plea rather than the later reopening, so it is a distinct occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-02c3b77c2d854e6d"
+  },
+  {
+    "candidate_id": "dd1bc70c324a687bdd9e81de",
+    "time": "2003-08-04",
+    "date_precision": "day",
+    "summary": "Liberian President Charles Taylor agreed to leave the country on Monday and accept asylum in Nigeria, though a Western diplomat said he was suggesting he might stay and rule behind the scenes after installing a crony as president.",
+    "time_range": null,
+    "evidence_ids": [
+      "13854"
+    ],
+    "job_id": "0da422b08ce427356db0abe69b7eb14cc27c4579627ccff4786ef99648804d26",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Taylor agreeing to leave Liberia and accept asylum in Nigeria; dated 2003-08-04, distinct from the existing 2003-08-11 event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a5667d79202b0619"
+  },
+  {
+    "candidate_id": "d206ddde1cf3595382694c73",
+    "time": "2009-01-09",
+    "date_precision": "day",
+    "summary": "Charles McArthur Emmanuel, son of former Liberian president Charles Taylor, was sentenced to 97 years in prison in the US for torture committed in Liberia.",
+    "time_range": null,
+    "evidence_ids": [
+      "13794"
+    ],
+    "job_id": "46efe8bcac392a6ae940e5411e8efed5338c8eebd06f5c4a0ce1c50c99119ba0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-887f152af66a6ae4",
+    "reason": "Same event: Charles Taylor's son sentenced to 97 years on 2009-01-09; duplicate of existing event with identical date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-887f152af66a6ae4"
+  },
+  {
+    "candidate_id": "a413f91fb164be40aaad5c0c",
+    "time": "1999-08-12",
+    "date_precision": "day",
+    "summary": "Liberian President Charles Taylor blamed rebels in neighbouring Guinea for a cross-border raid on Lofa county, declared a state of emergency, closed Liberia's borders, and ordered a general mobilisation.",
+    "time_range": null,
+    "evidence_ids": [
+      "13910"
+    ],
+    "job_id": "efb0c166543293e6ae49ba9298b762b6f4503bb2a86109621793ff67c6549b1a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in Taylor's presidency: cross-border raid response, state of emergency, border closure, and mobilization.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c82ebed8eca23b12"
+  },
+  {
+    "candidate_id": "e01490ed39431d1b9599a337",
+    "time": "2008-03-14",
+    "date_precision": "day",
+    "summary": "A commander in Charles Taylor's militia testified at Taylor's war crimes trial that Taylor ordered fighters to eat their enemies, including UN peacekeepers, as a means of terrorizing the population.",
+    "time_range": null,
+    "evidence_ids": [
+      "13780"
+    ],
+    "job_id": "754f08db3af931043f30c071a52c0965798718bfe19918ece1494a3bf92a65c9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant testimony at Taylor's war crimes trial about alleged orders to fighters.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ceb8f0d7d320011b"
+  },
+  {
+    "candidate_id": "9a2791b6fdeebf48e3fa4cf1",
+    "time": "2003-06-06",
+    "date_precision": "day",
+    "summary": "Charles Taylor declared his defiance as rebel fighters from the Liberians United for Reconciliation and Democracy closed in on the centre of Monrovia, Liberia.",
+    "time_range": null,
+    "evidence_ids": [
+      "13862"
+    ],
+    "job_id": "bc8644a77a6c6f2a0920f9ebc062822110b56c75cb1baa434750baaae6239767",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in Taylor's final period in power as rebels closed in on Monrovia.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-594700a73db2d221"
+  },
+  {
+    "candidate_id": "73cd59b385efcb5d9b155c98",
+    "time": "2003-08-19",
+    "date_precision": "day",
+    "summary": "Liberian rebel groups signed a peace accord with government officials to end their three-year insurgency, a week after forcing warlord Charles Taylor into exile.",
+    "time_range": null,
+    "evidence_ids": [
+      "13845"
+    ],
+    "job_id": "aa3018e5d1df1cec657e66175d7f0b36b40e5d548c5b98d9430553b8131606a2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant post-Taylor exile peace accord ending the rebel insurgency.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4792e7e74107dbe3"
+  },
+  {
+    "candidate_id": "34950783ce423114f0c4dc39",
+    "time": "2005-03-25",
+    "date_precision": "day",
+    "summary": "Nigeria’s president Olusegun Obasanjo and Liberia’s president Ellen Johnson-Sirleaf agree to send former Liberian dictator Charles Taylor to face trial before the UN special court in Sierra Leone.",
+    "time_range": null,
+    "evidence_ids": [
+      "13818"
+    ],
+    "job_id": "c5ab497060f7b9d7d05c83210330dba9e4280bee44a01c0565fbc972dfeb47f7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in Taylor's path to trial: agreement to send him before the UN special court.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-10e34fe912b8f983"
+  },
+  {
+    "candidate_id": "be10164598532afc4670a74c",
+    "time": "2003-07-23",
+    "date_precision": "day",
+    "summary": "Liberian President Charles Taylor said he would step down and take up Nigeria's offer of asylum as rebels pressed a third assault on Monrovia.",
+    "time_range": null,
+    "evidence_ids": [
+      "13881"
+    ],
+    "job_id": "988ac029cb3da5dc6e52db6a0680186b8c9b9291d98a8e4ae387a7f8bca2c9cd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Taylor said he would step down and accept Nigeria's asylum offer.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-27f2b30498785d9f"
+  },
+  {
+    "candidate_id": "34eda2ce6926d2b3c56e6ebc",
+    "time": "2003-07-04",
+    "date_precision": "day",
+    "summary": "Liberian President Charles Taylor renews a pledge to step down if an international peacekeeping force is sent to Liberia.",
+    "time_range": null,
+    "evidence_ids": [
+      "13886"
+    ],
+    "job_id": "94ac03c4597d6e1ef6d52ff0b3a5cca2fa26f5c043b558f0a193a6e0a7361f70",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-4d810fed5da990d2",
+    "reason": "Duplicate of existing 2003-07-04 event on Taylor renewing his pledge to step down if an international force arrived.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4d810fed5da990d2"
+  },
+  {
+    "candidate_id": "f3ae0384eeb0542d1a6f2c8f",
+    "time": "2003-06-25",
+    "date_precision": "day",
+    "summary": "Rebels advanced into Monrovia, threatening Charles Taylor’s rule as civilians fled and Taylor vowed to remain in power.",
+    "time_range": null,
+    "evidence_ids": [
+      "13859"
+    ],
+    "job_id": "60d09c87566a5723cbb7c2baf81a7c9f6942341451ec1024f638a5bb99e52250",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in Taylor's rule during the 2003 rebel advance on Monrovia; distinct date from other events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ec31f2a62d138180"
+  },
+  {
+    "candidate_id": "a5015c49267360818dd3bddf",
+    "time": "2003-06",
+    "date_precision": "month",
+    "summary": "Charles Taylor was charged with war crimes and crimes against humanity by a UN-backed tribunal investigating Sierra Leone's war.",
+    "time_range": null,
+    "evidence_ids": [
+      "13875"
+    ],
+    "job_id": "adbfd6f04a04fa008e1d8794e10851607b4da30616142c3b65aee9ef05e2fe16",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Taylor charged by UN-backed tribunal; month-only date and no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ece6c941bc44fea1"
+  },
+  {
+    "candidate_id": "dd0d84c3e4d0ba23af0afba2",
+    "time": "2003-07-28",
+    "date_precision": "day",
+    "summary": "West African leaders called for the deployment of a Nigerian vanguard peacekeeping force to Liberia by Monday at the latest and for the departure of President Charles Taylor within three days of that.",
+    "time_range": null,
+    "evidence_ids": [
+      "13865"
+    ],
+    "job_id": "b64a59f9a9ef12d0790660346f2ba1f6267c67c9a34e80bd6a425ddb242e1928",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant to Taylor's departure pressure; distinct date and no duplicate target.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-44737d49a5af46b6"
+  },
+  {
+    "candidate_id": "b7c4e98e68a55473fdf2bc42",
+    "time": "2003-03-27",
+    "date_precision": "day",
+    "summary": "Rebels fought their way to the outskirts of Monrovia in a renewed effort to oust President Charles Taylor.",
+    "time_range": null,
+    "evidence_ids": [
+      "13856"
+    ],
+    "job_id": "d26d4d1e97cfea18ca8a4fa8e3ddcb08df09c383d888b52cdef956de240ecf3a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant early 2003 rebel advance against Taylor; distinct date from other events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1dad198838616aea"
+  },
+  {
+    "candidate_id": "267f3e936d4736a81cbac6ee",
+    "time": "2003-08-11",
+    "date_precision": "day",
+    "summary": "Liberian President Charles Taylor resigns and goes into exile in Nigeria, handing power to his deputy Moses Blah.",
+    "time_range": null,
+    "evidence_ids": [
+      "13868"
+    ],
+    "job_id": "57f4122b5a94415f7a099a34b5edc91caafa33b07630c3f03a70cab2fe2dab79",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-e09e76bf13c19753",
+    "reason": "Same date and event as existing record of Taylor resigning and going into exile in Nigeria.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e09e76bf13c19753"
+  },
+  {
+    "candidate_id": "cd30349a25e020b01a6e0276",
+    "time": "2003-06-08",
+    "date_precision": "day",
+    "summary": "Rebel fighters encircled Monrovia and gave Liberian President Charles Taylor 72 hours to step down.",
+    "time_range": null,
+    "evidence_ids": [
+      "13861"
+    ],
+    "job_id": "486b48f061e540db3932b5412b58019e9af6bbbf8b9ddbbec4b8808c74a4ffd0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant rebel ultimatum to Taylor; distinct date and no duplicate target.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fdcadb4d44ff7bad"
+  },
+  {
+    "candidate_id": "8245f467f16ad65777e7ed80",
+    "time": "2003-07-17",
+    "date_precision": "day",
+    "summary": "The Archbishop of Monrovia warns that the ceasefire between rebel forces and militia backing President Charles Taylor is in imminent danger of breaking down.",
+    "time_range": null,
+    "evidence_ids": [
+      "13867"
+    ],
+    "job_id": "b954757eb46476d1beed1866556e2b8bb070d67ffddcd39c8b8d5c4cb026c17c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant warning about ceasefire threat to Taylor's position; distinct date and no duplicate target.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4e6db568c522ebf1"
+  },
+  {
+    "candidate_id": "63ea6b6eac7a785d1d239d1c",
+    "time": "2006-06-10",
+    "date_precision": "day",
+    "summary": "Britain and the US plan to move the war crimes trial of former Liberian President Charles Taylor from Freetown to The Hague, prompting growing anger in Sierra Leone.",
+    "time_range": null,
+    "evidence_ids": [
+      "13827"
+    ],
+    "job_id": "02a71f41b6d2891ccb6af4c708ef945bd789f9aa3f907a9f2ea0013542291222",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone on planning to move Taylor's trial to The Hague; distinct date from existing relocation-related event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-67504306b429cfed"
+  },
+  {
+    "candidate_id": "f00e9b7094ea58490ba088a2",
+    "time": "2008-01-07",
+    "date_precision": "day",
+    "summary": "Charles Taylor's war crimes trial resumed at a special tribunal in The Hague with the first witness testifying, after months of wrangling and boycotts.",
+    "time_range": null,
+    "evidence_ids": [
+      "13784"
+    ],
+    "job_id": "6d81e8c55bb00912e04de44e147ad06427d768dd97321fef2a47e4267f42e98c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-c8173916f266cc48",
+    "reason": "Same date and same trial-resumption event as existing event-c8173916f266cc48.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c8173916f266cc48"
+  },
+  {
+    "candidate_id": "a1f6eabef31937085b62598e",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Charles Taylor's war crimes trial is mentioned, with him reportedly saying he will prove his innocence.",
+    "time_range": null,
+    "evidence_ids": [
+      "13758"
+    ],
+    "job_id": "b2decb27843991a7c0fcffb20a679b21a97efd65cbef254365b458b52a7e2bfe",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant to Taylor's war crimes trial; no date given, so cannot merge with dated trial events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-60d22ed15cb27fdd"
+  },
+  {
+    "candidate_id": "8db5230b27f5711a06fdef7b",
+    "time": "2012-04-26",
+    "date_precision": "day",
+    "summary": "Naomi Campbell testified at Charles Taylor's war crimes trial that she received a pouch of uncut diamonds after a 1997 dinner also attended by Taylor, while Mia Farrow contradicted aspects of her testimony.",
+    "time_range": null,
+    "evidence_ids": [
+      "13723"
+    ],
+    "job_id": "0ca2095456ff812a2523c58ec10c9da92950c1bf07ba2fffe79f4ff4c399b0a6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant testimony at Taylor's trial; date differs from existing Campbell testimony events, so separate occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1831077734a1daaf"
+  },
+  {
+    "candidate_id": "a8ae23dcdd8c30bb2d074bf1",
+    "time": "2007-06-04",
+    "date_precision": "day",
+    "summary": "Charles Taylor failed to appear at the start of his war crimes trial in The Hague, and his British lawyer walked out after a row with the presiding judge.",
+    "time_range": null,
+    "evidence_ids": [
+      "13808"
+    ],
+    "job_id": "50911febb9dba0be786bf692846bcbacb97cc6bd89eaed7bf4be2c0bd26f875c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in Taylor's war crimes trial; same date as existing event-183bb5571b2ada15 but describes a distinct occurrence (non-appearance and lawyer walkout), so it should be kept separate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-61484ae5b04e76a0"
+  },
+  {
+    "candidate_id": "1b5d9d0ab34cb15dcb441aae",
+    "time": "2010-06-30",
+    "date_precision": "day",
+    "summary": "The Special Court for Sierra Leone granted prosecutors' request to summon Naomi Campbell to give evidence in the war crimes trial of former Liberian president Charles Taylor.",
+    "time_range": null,
+    "evidence_ids": [
+      "13771"
+    ],
+    "job_id": "823c97287c8a435c323af4efe3e3fa5a6ddd7ef1d6ca386defb491a06ad4da2a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant procedural milestone in Taylor's war crimes trial; distinct date and no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e8ff5f6aa525da01"
+  },
+  {
+    "candidate_id": "3d6415cbf482ca0202159a43",
+    "time": "2010-08-09",
+    "date_precision": "day",
+    "summary": "Naomi Campbell's former agent Carole White testified at Charles Taylor's war crimes tribunal, but during cross-examination she admitted parts of her evidence linking Taylor to a gift of diamonds were mistaken or based on her own assumptions, and the defense branded her account \"a complete pack of lies.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "13745"
+    ],
+    "job_id": "6205d8b025038e046cbf50ac644a365920102b9f8be81719f6908f12ce5681be",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant testimony development in Taylor's trial; distinct date and no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-41b02b8927f9cd9f"
+  },
+  {
+    "candidate_id": "6c44d5e2913e43c3bda522e5",
+    "time": "2007-06-04",
+    "date_precision": "day",
+    "summary": "The trial of former Liberian president Charles Taylor opens at The Hague, where he is accused of war crimes during the diamond-fuelled conflict in neighbouring Sierra Leone.",
+    "time_range": null,
+    "evidence_ids": [
+      "13807"
+    ],
+    "job_id": "f0f470fca4cecb35b3106bcd4ac985d85715e38a21938bdf753f210830426d49",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Opening of Taylor's Hague war crimes trial is a core milestone; existing 2007-06-04 events describe his non-appearance and first African head of state on trial, not the trial opening itself.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d84b24ff974a332c"
+  },
+  {
+    "candidate_id": "c174bfbe317c7d3103b7eb6f",
+    "time": "2007-07-03",
+    "date_precision": "day",
+    "summary": "Former Liberian president Charles Taylor appeared at a UN special court for the first time after previously boycotting his war crimes trial, re-entering a not guilty plea to a count of sexual slavery.",
+    "time_range": null,
+    "evidence_ids": [
+      "13799"
+    ],
+    "job_id": "14a8d2770a40fd1d9e125078f0f2bf8751b441397bd1122a42f65475a74c977f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-d5f86c7bd877d0aa",
+    "reason": "Same date and same event: Taylor's first court appearance after boycotting trial, re-entering not guilty plea.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d5f86c7bd877d0aa"
+  },
+  {
+    "candidate_id": "aa2433d0014d6ef7235ee944",
+    "time": "2010-05-20",
+    "date_precision": "day",
+    "summary": "UN war crimes prosecutors in The Hague called for Naomi Campbell to be compelled to testify over claims that she was given \"blood diamonds\" by Liberia's former president Charles Taylor.",
+    "time_range": null,
+    "evidence_ids": [
+      "13770"
+    ],
+    "job_id": "f01351b91552e94f06168ec3a04455fccc9edf8bfa6401e5f63b62c4d9a7acb3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Prosecutors seeking to compel Naomi Campbell's testimony is a distinct trial development not covered by existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e73cd764aed749b5"
+  },
+  {
+    "candidate_id": "2fae0385ebabccf4c6d4754a",
+    "time": "2010-08-09",
+    "date_precision": "day",
+    "summary": "Naomi Campbell's former agent Carole White is expected to contradict Campbell's testimony at Charles Taylor's war crimes trial by testifying that Taylor arranged to send Campbell uncut diamonds.",
+    "time_range": null,
+    "evidence_ids": [
+      "13751"
+    ],
+    "job_id": "3f99ebcb056d1282161e34cdae2238e030263c334a76bb5862528645977dd113",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-41b02b8927f9cd9f",
+    "reason": "Same date and same event: Carole White's expected testimony at Taylor's trial about diamonds sent to Campbell.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-41b02b8927f9cd9f"
+  },
+  {
+    "candidate_id": "9d5837f4bed6848a7bde7312",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "13743"
+    ],
+    "job_id": "5247a84d15f5b97f3f8d2ee7a789f34745e72785d7126a04339ea181a6ef816f",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush and Clinton tsunami donation appeal is unrelated to Charles Taylor.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "8fa0a8d22d6feb8ecf3b7f8b",
+    "time": "2010-08-09",
+    "date_precision": "day",
+    "summary": "Mia Farrow testifies at Charles Taylor's war crimes trial that Naomi Campbell told her Taylor had sent Campbell a large diamond.",
+    "time_range": null,
+    "evidence_ids": [
+      "13757"
+    ],
+    "job_id": "7108104abdd87f020a53187c53a1d3d259f0a95846a2c1e5e07adb5f64dd6c9d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Mia Farrow's testimony at Taylor's trial is a distinct witness event not covered by existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9acf49a3f8f1ce5b"
+  },
+  {
+    "candidate_id": "0417972618177594d742d6d1",
+    "time": "2010-08-05",
+    "date_precision": "day",
+    "summary": "Naomi Campbell testified at Charles Taylor's war crimes tribunal that she received a gift of several \"dirty looking stones,\" believed to be diamonds, after first meeting the former Liberian president, though she said she did not know if they were from him.",
+    "time_range": null,
+    "evidence_ids": [
+      "13753"
+    ],
+    "job_id": "0919f1d149566cfb2614f775fe662f345f632f891c9cd9c076e6f30ab2c4a139",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-2cc9426a1ff6521c",
+    "reason": "Same date and same event: Naomi Campbell's testimony about receiving 'dirty looking stones' at Taylor's trial.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2cc9426a1ff6521c"
+  },
+  {
+    "candidate_id": "5b548c06e76842ae0bed25c3",
+    "time": "2010-08-09",
+    "date_precision": "day",
+    "summary": "Two witnesses in the trial of ex-Liberian President Charles Taylor testified that the model Naomi Campbell received diamonds from Liberian warlord Charles Taylor, contradicting Campbell's earlier testimony.",
+    "time_range": null,
+    "evidence_ids": [
+      "13735"
+    ],
+    "job_id": "27f3cf92032f339a50c934a7857df557b1ac43909bd00cd46d5f85e73529b110",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Two witnesses contradicting Campbell's testimony is a distinct trial development; existing 2010-08-09 events cover Carole White's cross-examination and Mia Farrow's testimony separately.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ed126d822644dc6e"
+  }
+]
