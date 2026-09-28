@@ -1,0 +1,2126 @@
+[
+  {
+    "candidate_id": "88efd8758407d24cf13008a4",
+    "time": "2013-06-15",
+    "date_precision": "day",
+    "summary": "Hassan Rouhani wins Iran's presidential election, securing just over 50% of the vote to avoid a runoff and succeeding Mahmoud Ahmadinejad.",
+    "time_range": null,
+    "evidence_ids": [
+      "30662"
+    ],
+    "job_id": "fb7a77f3eccf1c1bc879986c92bf3d1f9aa47b102e4bdae4670c8ce898634ba7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's 2013 presidential election victory is a core milestone in his biography.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0343374cf94f7524"
+  },
+  {
+    "candidate_id": "4021b0bc222a05ba39cf0313",
+    "time": "2013-08-03",
+    "date_precision": "day",
+    "summary": "Iran's supreme leader Ayatollah Ali Khamenei formally endorses Hassan Rouhani as president, opening the way for him to take over from Mahmoud Ahmadinejad.",
+    "time_range": null,
+    "evidence_ids": [
+      "30668"
+    ],
+    "job_id": "85bf84904ab02bc846f0a571393c3ed588d9fede2ab5ac64b24d9d57edc2c27a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Formal endorsement by Khamenei is a distinct milestone in Rouhani's presidency.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d439b34b2c000fae"
+  },
+  {
+    "candidate_id": "d1b1072d86df04be9bca6e13",
+    "time": "2013-06-14",
+    "date_precision": "day",
+    "summary": "Hassan Rouhani pledges to follow the path of moderation and justice, not extremism, in his first comments after winning Iran's presidential election.",
+    "time_range": null,
+    "evidence_ids": [
+      "30692"
+    ],
+    "job_id": "6eef6d9552bd391f2793471590739448a2f483433c17745e6363b47a4111940b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's first post-election comments are a distinct dated event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2eff3e67465fd845"
+  },
+  {
+    "candidate_id": "f98d6674eedd151379b8dd1e",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "30548"
+    ],
+    "job_id": "5b14580b1007dd682c3dee0629bf392048660fc34be59e4170f5bde84433f5e3",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Unrelated to Hassan Rouhani; concerns U.S. tsunami donation appeal.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "2d2ca2e3fc611d0d934088a3",
+    "time": "2013-06-11",
+    "date_precision": "day",
+    "summary": "Former Iranian presidents Mohammad Khatami and Akbar Hashemi Rafsanjani publicly endorse moderate cleric Hassan Rouhani ahead of Friday's presidential election.",
+    "time_range": null,
+    "evidence_ids": [
+      "30673"
+    ],
+    "job_id": "fdfe64f56b0942021a80c4c37c7d289a71031996d9ed1e00aa19341ceb0646c0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Endorsements by Khatami and Rafsanjani are a distinct pre-election milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b765110b9374841b"
+  },
+  {
+    "candidate_id": "ea31cf955dc6053b57ddb0a5",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Iranian President Hassan Rouhani has become increasingly vocal and blunt in recent months, drawing lines on contentious domestic issues even when at odds with Supreme Leader Ayatollah Ali Khamenei, following parliamentary election gains and the nuclear deal.",
+    "time_range": null,
+    "evidence_ids": [
+      "30566"
+    ],
+    "job_id": "c1c4b91fdfb57dfea9c2b8bce30db9472086cd86f559068effc0810f8469a979",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's increasingly vocal posture is relevant but undated, so it cannot merge with dated events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9cce43117d6e80bb"
+  },
+  {
+    "candidate_id": "fcc1e1f2692ee784db836192",
+    "time": "2013-06-15",
+    "date_precision": "day",
+    "summary": "Hassan Rouhani was elected president of Iran, succeeding Mahmoud Ahmadinejad.",
+    "time_range": null,
+    "evidence_ids": [
+      "30644"
+    ],
+    "job_id": "795ab8afec649580ef76869e5344de2a5f10155440284798e480fafd3d97b6df",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "88efd8758407d24cf13008a4",
+    "reason": "Same date and same event as the election victory; duplicate summary.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-0343374cf94f7524"
+    },
+    "timeline_event_id": "event-0343374cf94f7524"
+  },
+  {
+    "candidate_id": "b25f081a7e707f2c2320530d",
+    "time": "2013-06-15",
+    "date_precision": "day",
+    "summary": "Initial results showed moderate cleric Hassan Rouhani leading Iran's presidential election with 51.2% of votes counted, threatening to win a simple majority and avoid a second-round runoff.",
+    "time_range": null,
+    "evidence_ids": [
+      "30810"
+    ],
+    "job_id": "a6aba24dbedccee7799bb0c18801551b7005f808b4de8f49e7bad2936579da2a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "88efd8758407d24cf13008a4",
+    "reason": "Same date and same election event, describing initial results of the same victory.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-0343374cf94f7524"
+    },
+    "timeline_event_id": "event-0343374cf94f7524"
+  },
+  {
+    "candidate_id": "c79d9761ff5be5aa48a61c00",
+    "time": "2015-04-02",
+    "date_precision": "day",
+    "summary": "A nuclear deal was reached in Switzerland in which Iran, under President Hassan Rouhani, promised drastic cuts to its nuclear programme in return for the gradual lifting of sanctions.",
+    "time_range": null,
+    "evidence_ids": [
+      "30584"
+    ],
+    "job_id": "8642b0e89d7889aa86e8879344efa8a95ef31a5cbb4c8712891d57600caeaab1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Major nuclear deal milestone under Rouhani's presidency; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-21de2f91bc0b2076"
+  },
+  {
+    "candidate_id": "93f2c07f59c267f677b7d768",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "30551"
+    ],
+    "job_id": "2b1f9c7bce55b77fe0730ee9ded8dedb707fd01d47a87005923e90aa1a7369a5",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "US tsunami donation appeal unrelated to Hassan Rouhani.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "a5b88769257f06c4ff25e8c5",
+    "time": "2017-04-14",
+    "date_precision": "day",
+    "summary": "Hassan Rouhani registered to run for a second term as Iran's president.",
+    "time_range": null,
+    "evidence_ids": [
+      "30550"
+    ],
+    "job_id": "8b11472867d36f7e565be859a06faba0da81832cf5be530098f8cf14544bf000",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's re-election registration is a distinct milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8ac4eb9c2b3d9a6b"
+  },
+  {
+    "candidate_id": "874f36227ef39a1519046741",
+    "time": "2014-07-13",
+    "date_precision": "day",
+    "summary": "Hassan Rouhani's first anniversary as Iranian president approaches, with his moderate mandate dependent on reaching a comprehensive nuclear deal in Vienna before the 20 July deadline.",
+    "time_range": null,
+    "evidence_ids": [
+      "30658"
+    ],
+    "job_id": "2e36e3d758dd66224637963616bc2a2c84db03b7ddf3ef40e5aac96e83a35211",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani presidency anniversary tied to nuclear deadline; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1febae4d1baa4c42"
+  },
+  {
+    "candidate_id": "7f64ee4ade93460d79784dca",
+    "time": "2015-07-23",
+    "date_precision": "day",
+    "summary": "Activists and lawyers urge Iranian President Hassan Rouhani to focus on human rights after the nuclear deal, amid concerns over executions and other violations.",
+    "time_range": null,
+    "evidence_ids": [
+      "30583"
+    ],
+    "job_id": "325da465a2b6ebebed2ed36440e1b564341030889a084f4e55abb193bcd90cee",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Human rights pressure on Rouhani after nuclear deal; distinct post-deal development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-af08028b87db4bde"
+  },
+  {
+    "candidate_id": "5950eaf8a847574b83a342de",
+    "time": "2015-03-31",
+    "date_precision": "day",
+    "summary": "Negotiators from the US and Iran race toward a deadline for a comprehensive nuclear deal, which could transform the presidencies of Barack Obama and Hassan Rouhani.",
+    "time_range": null,
+    "evidence_ids": [
+      "30647"
+    ],
+    "job_id": "dbaa9d7cac8374fa90c7a9f05cfd9c559e5ed3390bb49ce4bb46eca57f103a46",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Nuclear deadline race affecting Rouhani's presidency; distinct from final deal date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-eb8aef761416d4ba"
+  },
+  {
+    "candidate_id": "8223093c17784ca64dcc1a31",
+    "time": "2015-10-13",
+    "date_precision": "day",
+    "summary": "The Iranian parliament passed a bill approving the nuclear deal, a boost for Hassan Rouhani whose credibility was on the line had parliamentarians voted down the accord.",
+    "time_range": null,
+    "evidence_ids": [
+      "30621"
+    ],
+    "job_id": "ffd17c2d24c57c38364f4c067bfe7cd43c039976b986c0e3ea633b824b429054",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Iranian parliament approval of nuclear deal is a distinct Rouhani milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a4d336878583073b"
+  },
+  {
+    "candidate_id": "37b72eef13f159eef3f13d30",
+    "time": "2013-09-27",
+    "date_precision": "day",
+    "summary": "Iranian President Hassan Rouhani, at a press conference in New York, hails the US as \"a great nation\" and offers to prepare a concrete plan to resolve the nuclear stalemate at negotiations in Geneva on 15 October.",
+    "time_range": null,
+    "evidence_ids": [
+      "30680"
+    ],
+    "job_id": "10ebdd0246671fff4c4012de6348d4bbac3b70c1a77d6031a9ad54a0737cc4f6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's New York outreach on nuclear stalemate; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-804cbd1b65de14d4"
+  },
+  {
+    "candidate_id": "2e6422644f25ff0dc3db3d2c",
+    "time": "2013-06-16",
+    "date_precision": "day",
+    "summary": "Hassan Rouhani's victory in Iran's presidential election boosted cautious hopes for a change in the country's troubled relations with the West, though ultimate power remains with Supreme Leader Ayatollah Ali Khamenei.",
+    "time_range": null,
+    "evidence_ids": [
+      "30713"
+    ],
+    "job_id": "a777991c22089b3ee13e0fcd55222d092598d3ea1f8f89e8900b77210b84a492",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's 2013 election victory is a core milestone; date differs from existing election events (2013-06-15, 2013-06-14), so it remains a separate dated occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8dc1759fc76bb196"
+  },
+  {
+    "candidate_id": "08bc6433c2e1dc14e3dde969",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No single significant event related to Hassan Rouhani is reported; the article analyzes his political position after Iran's 2016 elections.",
+    "time_range": null,
+    "evidence_ids": [
+      "30598"
+    ],
+    "job_id": "7c01b157d2d66254bc8e22a0f694c20e25cce4be12dd625fc26ca7c56aaf8b03",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Explicitly reports no significant Rouhani event; only post-2016 analysis, so it does not contribute a timeline milestone.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "6934df9f52fb81b09017050d",
+    "time": "2013-08-03",
+    "date_precision": "day",
+    "summary": "Hassan Rouhani is inaugurated as Iran's seventh president.",
+    "time_range": null,
+    "evidence_ids": [
+      "30669"
+    ],
+    "job_id": "e232c26a9a5649ab4956c626fa016f73df96ce05ae0c4c6d00136789ecf0b908",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's inauguration is a key milestone; existing 2013-08-03 event covers Khamenei's endorsement, a distinct occurrence, so this stays separate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2651e21701a78fda"
+  },
+  {
+    "candidate_id": "1e6bac80ecf382db7288dd2a",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No event related to Hassan Rouhani is described in the article content.",
+    "time_range": null,
+    "evidence_ids": [
+      "30656"
+    ],
+    "job_id": "be95c88476296259afd54d92b02d66081cc485851b99ad419fa8f275172ae5aa",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "States no Rouhani-related event is described; no timeline contribution.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "82d10138d9919bf594fe3e4b",
+    "time": "2017-05-02",
+    "date_precision": "day",
+    "summary": "Former President Mohammad Khatami endorses Hassan Rouhani for Iran's presidential election, saying Rouhani's continuation is in the country's best interests.",
+    "time_range": null,
+    "evidence_ids": [
+      "30567"
+    ],
+    "job_id": "9a698ad0b71a711f715144a623b6fe31a7c1a0f7a3fc0799e036c690ddae2b55",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Khatami's endorsement of Rouhani in the 2017 election is a relevant political milestone with no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a4c229c4485f8dcd"
+  },
+  {
+    "candidate_id": "7dd73b8186f57ea451db0d25",
+    "time": "2013-09-28",
+    "date_precision": "day",
+    "summary": "Hassan Rouhani returned to Tehran from New York after his historic phone call with Barack Obama, greeted by cheers from supporters and protests from hardliners who threw eggs and shoes at his car.",
+    "time_range": null,
+    "evidence_ids": [
+      "30676"
+    ],
+    "job_id": "4ad0ad606d09daeebcd8041024a79d30d9fdadd14c802324c602dd666a96e755",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's return after the Obama phone call is a distinct milestone; existing 2013-09-27 event covers the New York press conference, a different date and occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8d9631dd9a77a72e"
+  },
+  {
+    "candidate_id": "27a9f508146c6e4c1d21d478",
+    "time": "2014-05-03",
+    "date_precision": "day",
+    "summary": "A newly formed group of Iranian MPs and rightwing activists called \"We're Worried\" criticizes Hassan Rouhani's government over the nuclear talks with the West.",
+    "time_range": null,
+    "evidence_ids": [
+      "30623"
+    ],
+    "job_id": "098b60069c54506904b528a62aef5746bcafda9c4a56920e5aee7527019f7613",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Domestic criticism of Rouhani's government over nuclear talks is a relevant development with no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5384af26791c2d45"
+  },
+  {
+    "candidate_id": "7a35b23168d277eda5cc9123",
+    "time": "2016-02-26",
+    "date_precision": "day",
+    "summary": "Hassan Rouhani’s allies win a significant boost in Iran’s parliamentary and clerical assembly elections, strengthening his position to pursue further opening to the West and gradual domestic change.",
+    "time_range": null,
+    "evidence_ids": [
+      "30569"
+    ],
+    "job_id": "bd0e3854d8f5270c60b63945b18ae9663d74bf5427e2709153f41ec72a7dc74f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani allies' 2016 election gains are a significant milestone; existing unknown-date event on his post-2016 position lacks a known date, so no merge.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5ed873ce37a2a4b9"
+  },
+  {
+    "candidate_id": "7b99ae3a1c4b53e4dacde0c5",
+    "time": "2016-02-28",
+    "date_precision": "day",
+    "summary": "Reformist-backed candidates allied with President Hassan Rouhani won all 30 Tehran parliamentary seats and most Tehran assembly of experts seats in Iran's elections, seen as a boost to Rouhani.",
+    "time_range": null,
+    "evidence_ids": [
+      "30594"
+    ],
+    "job_id": "20672efc052228bd991aac3ed90bfa19d620dfcb956f436522d388a812720380",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani-allied candidates winning Tehran seats is a distinct milestone; date differs from the existing 2016-02-26 election event, so it is not a duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-45be3fe6c6647b95"
+  },
+  {
+    "candidate_id": "02ebadfeaae7dfb0269d8110",
+    "time": "2013-06-29",
+    "date_precision": "day",
+    "summary": "Iran's president-elect Hassan Rouhani said his election victory was a mandate for change and vowed to remain committed to campaign promises of moderation and constructive engagement with the international community.",
+    "time_range": null,
+    "evidence_ids": [
+      "30730"
+    ],
+    "job_id": "8959d168dd95e68e92bd07e46d3d53d9e0320fdf4423ae4a1ad2dd015b1b326d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's post-election mandate-for-change statement is a relevant milestone distinct from existing election-day and endorsement events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2f1a1c123a092869"
+  },
+  {
+    "candidate_id": "c39553a4d46da798824f4c16",
+    "time": "2017-05-14",
+    "date_precision": "day",
+    "summary": "Iranian film director Asghar Farhadi endorsed Hassan Rouhani for president ahead of Friday's vote.",
+    "time_range": null,
+    "evidence_ids": [
+      "30562"
+    ],
+    "job_id": "b3cae5e31244246a6652316c018d95f24aac7d9276ae2ccfec1082b0806e111d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Farhadi's endorsement of Rouhani ahead of the 2017 vote is a relevant campaign milestone with no duplicate in existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d780e00bf0e52474"
+  },
+  {
+    "candidate_id": "b6a5a5c762ad236b74407875",
+    "time": "2013-08-04",
+    "date_precision": "day",
+    "summary": "Hassan Rouhani is officially sworn in as Iran's new president, pledging moderation and urging dialogue based on mutual respect rather than sanctions.",
+    "time_range": null,
+    "evidence_ids": [
+      "30687"
+    ],
+    "job_id": "0ddb41b6c93355204ee4a28717309848e3fc9427fbf5056f389143b691968d9c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's first-term swearing-in is a major milestone with no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3c62b0ea4264122d"
+  },
+  {
+    "candidate_id": "64d6f58696091b5e81d589f3",
+    "time": "2017-08-05",
+    "date_precision": "day",
+    "summary": "Hassan Rouhani is sworn in for a second term as Iran's president, using the ceremony to criticize US President Donald Trump and reaffirm Iran's commitment to the nuclear deal.",
+    "time_range": null,
+    "evidence_ids": [
+      "30549"
+    ],
+    "job_id": "2fb5c4337e32105306d8273872202c0ff71a1bdb6ec80617d29e0b1757ae9722",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's second-term swearing-in is a distinct major milestone with no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-84f67a6056a49710"
+  },
+  {
+    "candidate_id": "7ec7a1cd9f2311b79c94e518",
+    "time": "2015-07-14",
+    "date_precision": "day",
+    "summary": "Article discusses challenges Hassan Rouhani faces in sustaining popular support in Iran for a nuclear agreement with world powers, with no single completed or planned event attributed to him.",
+    "time_range": null,
+    "evidence_ids": [
+      "30629"
+    ],
+    "job_id": "ceb9f9953d8da6fc39e76d493f6f9ffcec22e4940b030294b189bd1346b5437b",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Summary explicitly attributes no completed or planned event to Rouhani, so it does not contribute a timeline milestone.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "2d3f0ebf3a2f4df784db51b2",
+    "time": "2016-01-18",
+    "date_precision": "day",
+    "summary": "Following the lifting of sanctions after Iran's implementation of the nuclear agreement, President Hassan Rouhani again called for Iran to rely less on oil sales and to reform the economy, though analysis indicates significant economic reform is unlikely during the rest of his first presidential term.",
+    "time_range": null,
+    "evidence_ids": [
+      "30596"
+    ],
+    "job_id": "a776cf7a9aea7d7533f76a4aa7ac42e4fb65dca360841317c31e36c083619275",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's post-sanctions call for economic reform is a relevant milestone with no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9ab72bcd6740e4ca"
+  },
+  {
+    "candidate_id": "19b85f84659c6c72c1456224",
+    "time": "2013-07-12",
+    "date_precision": "day",
+    "summary": "Hassan Rouhani's victory in Iran's presidential election was officially endorsed, prompting celebrations in Tehran.",
+    "time_range": null,
+    "evidence_ids": [
+      "30767"
+    ],
+    "job_id": "ea9a00ac7b0366c36b4ca90fb1ab3a3a6d354c13d803cf72acfea0b9c13ed625",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Official endorsement of Rouhani's election victory is a relevant milestone distinct from existing election-related events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d7f409615c7b5bb3"
+  },
+  {
+    "candidate_id": "b04b0872946e75e8324a6fcb",
+    "time": "2017-06-23",
+    "date_precision": "day",
+    "summary": "Iran's president Hassan Rouhani was heckled during an annual pro-Palestinian rally in Tehran, with protesters comparing him to Abolhassan Banisadr, amid an escalating power struggle with the supreme leader.",
+    "time_range": null,
+    "evidence_ids": [
+      "30560"
+    ],
+    "job_id": "0d984f6a773386995863d4310d42fb2f0d1e5d85e0ab09895f2f2efce887dbd5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani heckled at Tehran rally amid power struggle; distinct 2017 milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-97385c22b8c7d516"
+  },
+  {
+    "candidate_id": "ea5782f7f2c48ccb0403c2dc",
+    "time": "2015-05-04",
+    "date_precision": "day",
+    "summary": "President Hassan Rouhani said that \"Colt- and handcuff-toting agents of the regime\" should not be expected to \"act as religious scholars,\" returning to the issue of bad hijab and law enforcement in a speech before a group of teachers.",
+    "time_range": null,
+    "evidence_ids": [
+      "30697"
+    ],
+    "job_id": "34673cd5b11da72240ad03df324ea33173b297c2b68217bce378fae83b60dd68",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani speech on hijab enforcement; relevant domestic policy moment.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-89a14016292b68ee"
+  },
+  {
+    "candidate_id": "6140c01793fea7ca819e4098",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "30654"
+    ],
+    "job_id": "d68df66053446e295b7864b4978626fbe1cb33727eb6e9d8c133c163020be166",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Clinton tsunami appeal unrelated to Hassan Rouhani.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "a085a3d7337b4bb1c9db4be1",
+    "time": "2014-05-30",
+    "date_precision": "day",
+    "summary": "Prayer leaders in Tehran and Mashhad respond to President Hassan Rouhani's remarks about not forcing people to heaven, with hardline imams declaring they will stand against those who prevent people from going to heaven.",
+    "time_range": null,
+    "evidence_ids": [
+      "30654"
+    ],
+    "job_id": "d68df66053446e295b7864b4978626fbe1cb33727eb6e9d8c133c163020be166",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Hardline imams respond to Rouhani's heaven remarks; relevant political-religious clash.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c87f5f69d4fa2f62"
+  },
+  {
+    "candidate_id": "27303fb3fcdd7f40fb5e7329",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "30558"
+    ],
+    "job_id": "107abffb98d8675346b28c77a30a9e5f3b3a2cf3b2011f47dbc5d791fe3488eb",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Duplicate of unrelated Bush/Clinton tsunami appeal; not Rouhani-related.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "1f45b95e38209ef5a1889803",
+    "time": "2017-06-22",
+    "date_precision": "day",
+    "summary": "Tensions mount between Iran's supreme leader Ayatollah Ali Khamenei and President Hassan Rouhani after Rouhani's landslide re-election victory, with Khamenei sharpening his criticism and Rouhani asserting that a religious leader's political legitimacy derives from the people's will.",
+    "time_range": null,
+    "evidence_ids": [
+      "30553"
+    ],
+    "job_id": "bbf2af28c5dcb3f1d251eabd9089c6d685f40685bc6f1a697b76423e125a5207",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Khamenei-Rouhani tensions after re-election; distinct 2017 milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e09c377ecb801fcf"
+  },
+  {
+    "candidate_id": "c0de69f6dd3815949221adf6",
+    "time": "2013-09-27",
+    "date_precision": "day",
+    "summary": "Iranian President Hassan Rouhani held a telephone conversation with US President Barack Obama, the first such presidential contact between the two countries since 1979.",
+    "time_range": null,
+    "evidence_ids": [
+      "30788"
+    ],
+    "job_id": "9d1f466e7b5943e66ea84b03ef17df94971cdd32158de17c466de4fbe418bd81",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "First Iran-US presidential phone call since 1979; major Rouhani milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f81db7bd8fdfd0db"
+  },
+  {
+    "candidate_id": "58014f3e92112d7b9175e91e",
+    "time": "2013-10-05",
+    "date_precision": "day",
+    "summary": "Iran's supreme leader Ayatollah Ali Khamenei says some of President Hassan Rouhani's diplomatic moves toward the United States during his New York trip were \"not appropriate,\" while reiterating support for the new policy of outreach to the West.",
+    "time_range": null,
+    "evidence_ids": [
+      "30688"
+    ],
+    "job_id": "e7acf24f667674a641a808ed9f067d920f99b1fa354142f98fe5809f3e08f333",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Khamenei criticizes Rouhani's US outreach; relevant diplomatic development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1429447d14213882"
+  },
+  {
+    "candidate_id": "8f69937304cd3d851103369b",
+    "time": "2015-05-12",
+    "date_precision": "day",
+    "summary": "A public opinion poll conducted 12-28 May indicates that a majority of Iranians support a nuclear agreement but high expectations for speedy sanctions relief could affect support for Hassan Rouhani's government ahead of the 2016 parliamentary election.",
+    "time_range": null,
+    "evidence_ids": [
+      "30619"
+    ],
+    "job_id": "231f1271fe217b35997784b92295940b43be930daf20d46b7df5d2700f9f62b9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Poll on Iranian support for nuclear agreement and expectations affecting Rouhani's government ahead of 2016 election; relevant to Rouhani's political context.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8b6713b1b5e97eac"
+  },
+  {
+    "candidate_id": "9b70e35df42ac0f104e49dd1",
+    "time": "2014-05-11",
+    "date_precision": "day",
+    "summary": "Iranian officials say the Ukraine crisis has strengthened Iran's position in nuclear talks, while President Hassan Rouhani stresses closer ties with Russia to mitigate sanctions.",
+    "time_range": null,
+    "evidence_ids": [
+      "30765"
+    ],
+    "job_id": "156741001ef81b0d5d6ab2aaf393273fd014ec6889b9b3ce88168a2c38584f79",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani stresses closer ties with Russia to mitigate sanctions amid Ukraine crisis; relevant to his diplomacy.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7bd5d4485ccb8da1"
+  },
+  {
+    "candidate_id": "d8aacdc0bd81ab6df9b414b1",
+    "time": "2013-08-01",
+    "date_precision": "day",
+    "summary": "Iran dismisses a US House of Representatives sanctions bill that toughens measures over its nuclear programme, with critics saying the legislation could thwart diplomatic hopes following Hassan Rouhani's election victory.",
+    "time_range": null,
+    "evidence_ids": [
+      "30732"
+    ],
+    "job_id": "80bfbc378ecddf4637eb72019ddd1579e7814e79083129b8d2ea06fff9433ca6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Iran dismisses US sanctions bill that critics say could thwart diplomatic hopes after Rouhani's election victory; relevant to early Rouhani-era nuclear diplomacy.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-428f124602b46177"
+  },
+  {
+    "candidate_id": "266ead38c020d51f401da227",
+    "time": "2015-09-28",
+    "date_precision": "day",
+    "summary": "In his UN General Assembly speech, Hassan Rouhani criticized Saudi Arabia over the hajj crush, urged an independent investigation, and discussed the Iranian nuclear deal.",
+    "time_range": null,
+    "evidence_ids": [
+      "30610"
+    ],
+    "job_id": "6a714e22285763fb8cc4115b0b7cdd1f85392c179ae84c724959ae87e7614012",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's UN General Assembly speech criticizing Saudi Arabia over hajj crush and discussing nuclear deal; relevant milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-181daac14747cbe4"
+  },
+  {
+    "candidate_id": "76d31b9109e4b40b147cef83",
+    "time": "2016-01-25",
+    "date_precision": "day",
+    "summary": "Hassan Rouhani is to make the first state visit to Europe by an Iranian president in almost two decades, starting in Rome and later traveling to Paris.",
+    "time_range": null,
+    "evidence_ids": [
+      "30574"
+    ],
+    "job_id": "d97e9506b3376b414ea67cfe7d00a6f60a60ad9a451e4b60943a25b33105eca9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani to make first state visit to Europe by an Iranian president in almost two decades; relevant milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-da1aea9f951b633d"
+  },
+  {
+    "candidate_id": "b59a40813dd6b18499d24115",
+    "time": "2013-08-04",
+    "date_precision": "day",
+    "summary": "Hassan Rouhani is inaugurated as Iran's new president, and says his government would be open to direct talks with the US if Washington shows goodwill.",
+    "time_range": null,
+    "evidence_ids": [
+      "30750"
+    ],
+    "job_id": "cf94502f7d785d3baf648e69d8861f20bfaec25cea3e20ca60429fa2b7b61a56",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-3c62b0ea4264122d",
+    "reason": "Same date and event: Rouhani's inauguration as Iran's president on 2013-08-04.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3c62b0ea4264122d"
+  },
+  {
+    "candidate_id": "61bfc49d625fee642e6e1c88",
+    "time": "2014-02-28",
+    "date_precision": "day",
+    "summary": "Six months into his presidency, Hassan Rouhani faces domestic pressure over unfulfilled economic and social reform promises, despite progress in international negotiations and some achievements such as currency stabilization.",
+    "time_range": null,
+    "evidence_ids": [
+      "30778"
+    ],
+    "job_id": "2bf2d5ccc3a96c30fb4928a36554c1fa52b0727afc1f628807517c68aa631cb6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Six months into Rouhani's presidency, domestic pressure over unfulfilled economic and social reform promises; relevant assessment of his tenure.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-cbdc4c0762d383d8"
+  },
+  {
+    "candidate_id": "c7075ecb883feb56bc247a2b",
+    "time": "2014-08-30",
+    "date_precision": "day",
+    "summary": "Iranian President Hassan Rouhani said Iran should \"resist\" new US sanctions, calling them an \"invasion of the Iranian nation,\" as the foreign ministry warned the measures would hinder nuclear talks.",
+    "time_range": null,
+    "evidence_ids": [
+      "30660"
+    ],
+    "job_id": "4553e1b5fc990e443d4e3048d262a3fa9c60824a17cbc5390dffc599aa0127af",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani says Iran should resist new US sanctions, calling them an invasion; relevant to his presidency and nuclear talks.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-30116fe3a17a4f91"
+  },
+  {
+    "candidate_id": "95f24a8cf434f1da0181e3d8",
+    "time": "2014-11-12",
+    "date_precision": "day",
+    "summary": "Iranian President Hassan Rouhani urged the US to stop making “excessive demands” in nuclear negotiations, saying Iran had already made sufficient compromises ahead of talks in Vienna.",
+    "time_range": null,
+    "evidence_ids": [
+      "30689"
+    ],
+    "job_id": "bf73edd02e81a668705cd8908e2d4a4bd95477ca87159dffdf0852e2a3bb4581",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's direct statement on nuclear negotiations is a relevant milestone in his presidency.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-eb6b171be68f4ef3"
+  },
+  {
+    "candidate_id": "93c13fc40864f9c31cd2f518",
+    "time": "2014-11-14",
+    "date_precision": "day",
+    "summary": "Iranian President Hassan Rouhani's government is engaged in direct nuclear diplomacy with the US, with his negotiating team traveling to Vienna for a critical round of nuclear talks.",
+    "time_range": null,
+    "evidence_ids": [
+      "30706"
+    ],
+    "job_id": "6d4f22c4f2680c197b4ce0f2f1ce415188fa4741bbac03704474860ae276fc35",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's government engaging in direct nuclear diplomacy with the US is a relevant milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-69d4dd9071f6edad"
+  },
+  {
+    "candidate_id": "93d548e72db1a7613fb247e4",
+    "time": "2013-11-04",
+    "date_precision": "day",
+    "summary": "Iranian hardliners held nationwide protests at the former US embassy in Tehran, highlighting domestic challenges Rouhani faces in his bid to mend ties with the West; Rouhani and his cabinet did not attend.",
+    "time_range": null,
+    "evidence_ids": [
+      "30798"
+    ],
+    "job_id": "da21fe917474c1c5b2276bbb08589072c126624762666349563d48548f8a71e5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Domestic hardliner protests illustrate challenges to Rouhani's outreach and are relevant.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6f7ace5a826bb66f"
+  },
+  {
+    "candidate_id": "e3a6b7cc06ddbcf59957e727",
+    "time": "2017-04-12",
+    "date_precision": "day",
+    "summary": "Former Iranian president Mahmoud Ahmadinejad registers to run in the upcoming presidential election, a move that could challenge incumbent Hassan Rouhani, who is expected to seek re-election.",
+    "time_range": null,
+    "evidence_ids": [
+      "30581"
+    ],
+    "job_id": "558d6b1d17d53f5227a6d74630a00ce6bbdd4b8b730421347574d7289a4e7680",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Ahmadinejad's registration as a potential challenger to Rouhani's re-election is relevant.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fa364445c6ce2ba4"
+  },
+  {
+    "candidate_id": "7dd50eb5d65119b0a94a545c",
+    "time": "2013-06-22",
+    "date_precision": "day",
+    "summary": "Hassan Rouhani was elected president of Iran, winning 18 million votes, three times as many as his nearest rival.",
+    "time_range": null,
+    "evidence_ids": [
+      "30777"
+    ],
+    "job_id": "20e566c1a69ad31505f6edeff55d9b340724c6585d4592d2ee5cbda455a18d64",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's election as president is a foundational milestone in his timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5f30e218c6a9e6f9"
+  },
+  {
+    "candidate_id": "6828fd2c4a0d4d554d7ff575",
+    "time": "2017-04-20",
+    "date_precision": "day",
+    "summary": "Iran’s Guardian Council approved Hassan Rouhani as one of six candidates to run in the country’s presidential elections, while disqualifying Mahmoud Ahmadinejad and more than 1,600 other nominees.",
+    "time_range": null,
+    "evidence_ids": [
+      "30561"
+    ],
+    "job_id": "01e46aebd52e39e521b09554d235c76df8248a1ada4ebb057f9be90dc7c2458b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Guardian Council approval of Rouhani as a presidential candidate is a relevant re-election milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bf42ab7ec8768c6b"
+  },
+  {
+    "candidate_id": "a88f9e3fc1e0c4ef50cfcba6",
+    "time": "2015-03-18",
+    "date_precision": "day",
+    "summary": "Washington Post reporter Jason Rezaian is reported to be caught in an internal feud between Iranian President Hassan Rouhani’s administration and hardliners, who accuse Rezaian of gaining privileged access through Rouhani’s nephew; Rouhani has maintained silence on the case.",
+    "time_range": null,
+    "evidence_ids": [
+      "30663"
+    ],
+    "job_id": "f71052ee179bd65ac14ef22cfbd72d286486d08bee31e28ba4eecf52f6df96bd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone showing Rouhani's administration entangled in an internal feud over the detained Washington Post reporter; no existing event matches its 2015-03-18 date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-106c913e6fcfef11"
+  },
+  {
+    "candidate_id": "6570f2e632bd19fbe1ebafb1",
+    "time": "2013-09-17",
+    "date_precision": "day",
+    "summary": "Iran's supreme leader Ayatollah Ali Khamenei signaled that newly elected President Hassan Rouhani has the authority to conduct direct talks with the US and offer compromises in nuclear negotiations.",
+    "time_range": null,
+    "evidence_ids": [
+      "30712"
+    ],
+    "job_id": "1c52165176dde4e66584ba3bec8d29f1d1235254c44850a6fac6163d5225943c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Khamenei signals Rouhani has authority for direct US talks and nuclear compromises; no existing event has the same 2013-09-17 date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8cdba22ddfe7afbc"
+  },
+  {
+    "candidate_id": "4496ce9f319aa0d35c44e6e7",
+    "time": "2013-11-08",
+    "date_precision": "day",
+    "summary": "Iranian President Hassan Rouhani's diplomatic efforts in Geneva face opposition from hardliners in Tehran, though his approach appears to have the backing of Supreme Leader Ayatollah Ali Khamenei.",
+    "time_range": null,
+    "evidence_ids": [
+      "30797"
+    ],
+    "job_id": "bf26b9c2bca10209aac8684fb70beaf98d875708e712579c5567760f7ee45a0e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Rouhani's Geneva diplomacy faces hardliner opposition with Khamenei backing; no existing event has the same 2013-11-08 date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-08eed606eb5e0f6b"
+  },
+  {
+    "candidate_id": "4821f755494d41392e22afd2",
+    "time": "2013-08-04",
+    "date_precision": "day",
+    "summary": "Hassan Rouhani is inaugurated as president of Iran, succeeding Mahmoud Ahmadinejad, with the White House calling it an opportunity to resolve nuclear concerns.",
+    "time_range": null,
+    "evidence_ids": [
+      "30754"
+    ],
+    "job_id": "efb5d6387a1cec6af13cfc1d9e957c66703b60c276f028a42499b915b6bfe2b2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-3c62b0ea4264122d",
+    "reason": "Same date and event: Rouhani's 2013 inauguration/swearing-in; duplicate of existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3c62b0ea4264122d"
+  },
+  {
+    "candidate_id": "35b6b61e49e7d35550b6460a",
+    "time": "2013-08-04",
+    "date_precision": "day",
+    "summary": "Britain will not send a representative to Hassan Rouhani's inauguration despite an invitation from Tehran, with the EU agreeing that only Tehran-based diplomats would attend.",
+    "time_range": null,
+    "evidence_ids": [
+      "30734"
+    ],
+    "job_id": "b512f2f6d943ce506bf519e04c2d9956955bb9f5f42c16e36441126e67417b70",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct same-day diplomatic milestone about Britain/EU not attending Rouhani's inauguration; not identical to the inauguration event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-48e961c7d2b7c4bd"
+  },
+  {
+    "candidate_id": "22a7f6e3771f0d845a60716e",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "30728"
+    ],
+    "job_id": "c210b3963fc569bace9048799bbc96984274629126ab7f44ee778c4266205482",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "US presidential tsunami donation appeal does not involve Hassan Rouhani or contribute to his timeline.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "70972642ce22435fe2d8df71",
+    "time": "2016-12-06",
+    "date_precision": "day",
+    "summary": "Iranian President Hassan Rouhani said Iran will not allow Donald Trump to tear up the nuclear deal and warned that extending US sanctions could violate the agreement.",
+    "time_range": null,
+    "evidence_ids": [
+      "30571"
+    ],
+    "job_id": "26b1ba63184f33416b0f466c2e4ce7a61052eb4f80909446de4788cfc4866d09",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's direct warning about Trump and US sanctions is a relevant milestone in his nuclear-deal leadership.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1c730f6339f5490a"
+  },
+  {
+    "candidate_id": "da29d85dec9dba39ae1d5f8b",
+    "time": "2015-12-31",
+    "date_precision": "day",
+    "summary": "Iranian President Hassan Rouhani accused the US of \"illegal meddling\" and ordered his defense minister to step up Iran's ballistic missile program in response to the prospect of new White House sanctions.",
+    "time_range": null,
+    "evidence_ids": [
+      "30586"
+    ],
+    "job_id": "ab572f94995b86a23ed0a0c508f3f1f3459159db4fd3c7ac7c00dbbc254d75e3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's order to expand the ballistic missile program is a distinct relevant action.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-12a520b231d0ff2b"
+  },
+  {
+    "candidate_id": "f8652594be08224b13a9a144",
+    "time": "2014-02-11",
+    "date_precision": "day",
+    "summary": "Iranian President Hassan Rouhani faces increased domestic opposition to his interim nuclear agreement with six world powers, with critics distributing leaflets and displaying placards during Islamic revolution anniversary rallies questioning whether his government made too many concessions.",
+    "time_range": null,
+    "evidence_ids": [
+      "30770"
+    ],
+    "job_id": "678a3ef7e3e070f01faa2f3b04735714ef62f3f4d32c42702bcda9d0d4bf4fa6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Domestic opposition to Rouhani's interim nuclear agreement is a relevant development in his presidency.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-15135c632b4deb5e"
+  },
+  {
+    "candidate_id": "cfb751f7923d8d70f77fdca9",
+    "time": "2015-10-21",
+    "date_precision": "day",
+    "summary": "Iran's supreme leader Ayatollah Ali Khamenei gives qualified approval to the nuclear accord in a letter to President Hassan Rouhani, adding conditions that could complicate its implementation.",
+    "time_range": null,
+    "evidence_ids": [
+      "30631"
+    ],
+    "job_id": "5602af20c7e17df444afc2a649b4f4cf0a170655e8a35260c8eee91559cda9d4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Khamenei's conditional approval letter to Rouhani is a relevant nuclear-accord milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-733908fe7685cbaa"
+  },
+  {
+    "candidate_id": "b222ceace447a1270dcaccb3",
+    "time": "2016-01-16",
+    "date_precision": "day",
+    "summary": "Hassan Rouhani hailed a \"glorious victory\" after international sanctions against Iran were lifted following confirmation that Tehran had fulfilled its obligations under the nuclear accord.",
+    "time_range": null,
+    "evidence_ids": [
+      "30609"
+    ],
+    "job_id": "8c7ad98260bade240ac367df69ae73dc41e877670fe5e505664ecc915e628a98",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani hailing sanctions relief is a distinct relevant milestone; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8930d658fb2a51bd"
+  },
+  {
+    "candidate_id": "fa90b78540c08f3ad420e50c",
+    "time": "2015-10-01",
+    "date_precision": "day",
+    "summary": "A survey by IranPoll.com for the University of Maryland finds that 89% of Iranians express favorable attitudes toward President Hassan Rouhani and three in four support the nuclear agreement.",
+    "time_range": null,
+    "evidence_ids": [
+      "30616"
+    ],
+    "job_id": "d93999138507f3ea9ae291e160bdd83bce0f72385de25da26eb4f46b792e87df",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Poll showing Rouhani's popularity and nuclear-deal support is a relevant contextual milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1a77524cdecd8cba"
+  },
+  {
+    "candidate_id": "1c029dbfd26308f236c8c09d",
+    "time": "2015-05-26",
+    "date_precision": "day",
+    "summary": "President Hassan Rouhani unofficially kicked off next February's parliamentary elections before a gathering of provincial governors, calling for competitive elections and warning against improper interference by officials, the Revolutionary Guards, the military, media, or mosques.",
+    "time_range": null,
+    "evidence_ids": [
+      "30724"
+    ],
+    "job_id": "1c28be5e32e5a89825b369cb3517360cd438d49d061f6545d9afbcd9207a499e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani unofficially launching parliamentary election campaigning is a relevant political milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-101121ff63ff9880"
+  },
+  {
+    "candidate_id": "1283f4e9fbc61f3d7f03426b",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "30762"
+    ],
+    "job_id": "b705b49883555780aa518833acc77f5f206af38774e273938a499657e1730dd9",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush and Clinton tsunami donation appeal does not involve Hassan Rouhani.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "2ade7c1d85c6012a06c0c5fc",
+    "time": "2017-05-19",
+    "date_precision": "day",
+    "summary": "Hassan Rouhani wins re-election as Iran's president in a landslide victory.",
+    "time_range": null,
+    "evidence_ids": [
+      "30572"
+    ],
+    "job_id": "e5f8f09cabdcce1369c17baf2632e196ac09653a6f7eaf4390fd24d3548fbdaa",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's 2017 re-election is a major milestone in his political career; no existing event covers this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5b88821926e73602"
+  },
+  {
+    "candidate_id": "edcc1a241100603c90024ef6",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "30671"
+    ],
+    "job_id": "7b40427c9f6d76853de23d0ae71379a1e78a92a1fad49cf924673d676461d897",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Concerns George W. Bush, George H.W. Bush, and Bill Clinton; not related to Hassan Rouhani.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "a07618c7017696a9fe3aa723",
+    "time": "2013-06-14",
+    "date_precision": "day",
+    "summary": "Hassan Rouhani, a moderate cleric backed by reformists, appeared likely to advance to a runoff in Iran's presidential election amid high turnout and extended voting hours.",
+    "time_range": null,
+    "evidence_ids": [
+      "30818"
+    ],
+    "job_id": "7240fa81fe502b3cebb98d67ed506b0daf0778bbb54dabfc0e1eade7ae914e51",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's likely advancement to a runoff in the 2013 election is a distinct milestone; existing 2013-06-14 event covers post-victory comments, not this runoff prospect.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-410fc16a169f2d76"
+  },
+  {
+    "candidate_id": "13a46a71001e590323884f79",
+    "time": "2013-08-03",
+    "date_precision": "day",
+    "summary": "Hassan Rouhani is inaugurated as Iran's president, delivering a speech urging the US not to speak in the language of sanctions and promising a government of wisdom and hope.",
+    "time_range": null,
+    "evidence_ids": [
+      "30726"
+    ],
+    "job_id": "873cd6e1364c074462e043342f37be3515ac0351f74f500aa125d720e901bd67",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-2651e21701a78fda",
+    "reason": "Same date and event as existing inauguration record; duplicate of Rouhani's inauguration.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2651e21701a78fda"
+  },
+  {
+    "candidate_id": "86f40003e84a4ea1c4b2a6a1",
+    "time": "2014-02-05",
+    "date_precision": "day",
+    "summary": "Iranian President Hassan Rouhani promised healthcare for all Iranians within four years, with at least five million uninsured citizens to be covered first.",
+    "time_range": null,
+    "evidence_ids": [
+      "30710"
+    ],
+    "job_id": "9c3ac05b71e686d7dcf8fb7b6cda49395af94b70429035815f8c280b673af5e6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's healthcare-for-all promise is a relevant policy milestone; no existing event on this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fb47a521e682bafd"
+  },
+  {
+    "candidate_id": "b22442febc4672c9c744b025",
+    "time": "2013-09-18",
+    "date_precision": "day",
+    "summary": "Iranian President Hassan Rouhani stated in an NBC interview that Iran will never seek to build nuclear weapons and claimed his government has full authority to negotiate over its nuclear program.",
+    "time_range": null,
+    "evidence_ids": [
+      "30659"
+    ],
+    "job_id": "8101eb851cb48da38a1eddd0560f7f094748911d96951a68bfd0dd0ed3902ff6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's NBC interview statement on nuclear weapons and negotiations is a relevant milestone; no existing event on this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f9eb8004a9adedeb"
+  },
+  {
+    "candidate_id": "97b4f4125b5de161a9d41431",
+    "time": "2014-02-04",
+    "date_precision": "day",
+    "summary": "President Hassan Rouhani asked officials to study whether jamming satellite TV signals could pose a health risk, prompting Iran's health ministry to set up a committee to investigate.",
+    "time_range": null,
+    "evidence_ids": [
+      "30686"
+    ],
+    "job_id": "8dda356f6a1896916496f88705e6f4464b14c227c852e49d98c96c67042b5ba3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's request to study satellite-jamming health risks is a relevant action; no existing event on this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3687dee9e06e78a2"
+  },
+  {
+    "candidate_id": "1f7c032c0145742a8ac7d4e3",
+    "time": "2013-07-02",
+    "date_precision": "day",
+    "summary": "Iran's president-elect Hassan Rouhani expressed relatively progressive views on civil liberties, freedom of expression, and the internet in an interview with the youth magazine Chelcheragh, opposing sex segregation, pledging to minimize censorship, and calling internet filtering futile.",
+    "time_range": null,
+    "evidence_ids": [
+      "30731"
+    ],
+    "job_id": "020d70813720ad5bed4357f6c334d025a19fda641d999aa6d19b9f0460fb4544",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's early post-election civil-liberties positions are a distinct milestone not covered by existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-112953e0f838a939"
+  },
+  {
+    "candidate_id": "665c3c4ab2b5db5f21f31a5c",
+    "time": "2016-02-26",
+    "date_precision": "day",
+    "summary": "Millions of Iranians vote in parliamentary elections seen as a key test of support for President Hassan Rouhani and reform.",
+    "time_range": null,
+    "evidence_ids": [
+      "30628"
+    ],
+    "job_id": "3ed404102171ecfc37d433746fc6173740128797e945e787fb7cad5121256592",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-5ed873ce37a2a4b9",
+    "reason": "Same date and same 2016 parliamentary election event as the existing Rouhani-allies election outcome.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5ed873ce37a2a4b9"
+  },
+  {
+    "candidate_id": "be66915a053782441b6135fa",
+    "time": "2016-02-26",
+    "date_precision": "day",
+    "summary": "Iranians voted to elect new members of parliament and the assembly of experts, boosting moderates but not giving President Hassan Rouhani a free hand.",
+    "time_range": null,
+    "evidence_ids": [
+      "30593"
+    ],
+    "job_id": "c2aae2ef52aed37bbb89fafcaad85fe2a3dd796de3dd3b863e3456f4070d5cce",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-5ed873ce37a2a4b9",
+    "reason": "Same date and same 2016 parliamentary/Assembly of Experts election event already represented.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5ed873ce37a2a4b9"
+  },
+  {
+    "candidate_id": "ade6179b77fdcf824bdf70a6",
+    "time": "2016-02-26",
+    "date_precision": "day",
+    "summary": "Iranians voted in unexpectedly large numbers in the first parliamentary and Assembly of Experts elections since the nuclear agreement and lifting of sanctions, a key test for supporters of President Hassan Rouhani against conservatives and anti-western hardliners.",
+    "time_range": null,
+    "evidence_ids": [
+      "30597"
+    ],
+    "job_id": "a0b9760b18a828c12e7c6a95b6dc46e9177281c52e49092c04a46b8a4f610104",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-5ed873ce37a2a4b9",
+    "reason": "Same date and same 2016 parliamentary/Assembly of Experts election event already represented.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5ed873ce37a2a4b9"
+  },
+  {
+    "candidate_id": "cb4a165a88381643f120d5f4",
+    "time": "2016-02-26",
+    "date_precision": "day",
+    "summary": "Reformist-backed candidates appear on course for a sweeping victory in Iran's parliamentary elections, seen as a vote of confidence in President Hassan Rouhani's moderate agenda.",
+    "time_range": null,
+    "evidence_ids": [
+      "30582"
+    ],
+    "job_id": "2c54d5f525858448e9fca02010bc1a0ad97c2019de3edc3c5218c12ae729de9b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-5ed873ce37a2a4b9",
+    "reason": "Same date and same 2016 parliamentary election outcome already represented.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5ed873ce37a2a4b9"
+  },
+  {
+    "candidate_id": "bc1a2c772e2313a7f763b977",
+    "time": "2014-06-14",
+    "date_precision": "day",
+    "summary": "Iranian President Hassan Rouhani said Iran is seeking a nuclear deal with major world powers by the 20 July deadline and that the international sanctions regime had crumbled and would not be rebuilt even if no final deal is reached.",
+    "time_range": null,
+    "evidence_ids": [
+      "30666"
+    ],
+    "job_id": "f5a753cf2696bd9946902f6e50b4295dfdefd650881e42289fc9a361d37ce35d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani statement on seeking a nuclear deal by the 20 July deadline and sanctions resilience is a relevant milestone; no existing event shares this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-465d98884bf477b0"
+  },
+  {
+    "candidate_id": "cd6d7d4055e7266c1d5fdff4",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "30636"
+    ],
+    "job_id": "787f5aae4d686c2c0b3902bc0485eb589568bc4bab6eaf52e9c4e3e7373a998c",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No involvement of Hassan Rouhani; unrelated to the topic.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "a18802489d3057ff6c6db0da",
+    "time": "2015-02-03",
+    "date_precision": "day",
+    "summary": "Iranian President Hassan Rouhani says a nuclear deal with the West is getting closer, stating that gaps have narrowed though some differences remain.",
+    "time_range": null,
+    "evidence_ids": [
+      "30636"
+    ],
+    "job_id": "787f5aae4d686c2c0b3902bc0485eb589568bc4bab6eaf52e9c4e3e7373a998c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani statement on nuclear deal progress; relevant milestone with no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ea64f20053b1da42"
+  },
+  {
+    "candidate_id": "4ce0551c492c8e7cafcc0ea3",
+    "time": "2013-10-15",
+    "date_precision": "day",
+    "summary": "A new Iranian delegation under President Hassan Rouhani presented concrete proposals in Geneva on limiting Iran's nuclear programme in exchange for sanctions relief, in the first substantive nuclear negotiations since Rouhani's June election.",
+    "time_range": null,
+    "evidence_ids": [
+      "30743"
+    ],
+    "job_id": "4111826a16ce280ccecaab3f00fe9118eded1933aef530ced1b927ad93f81fa1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani-era Geneva nuclear proposals; relevant milestone, no duplicate existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-be4f2b1774176d1c"
+  },
+  {
+    "candidate_id": "30d156456e8d000eeb724546",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No topic-related event involving Hassan Rouhani himself occurred; the article describes his past call for academics to support his nuclear diplomacy and the imprisonment of a professor who supported the Geneva interim deal.",
+    "time_range": null,
+    "evidence_ids": [
+      "30624"
+    ],
+    "job_id": "eef18fba5621962abf51dbba127ddb5df816965b0d1d087d13a93fcb24689289",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Explicitly no topic-related event involving Rouhani himself; unknown date and non-contributing.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "9053d10a84891aa6e3a963e3",
+    "time": "2015-02-03",
+    "date_precision": "day",
+    "summary": "Iran's parliament voted overwhelmingly to fast-track a bill that would require Hassan Rouhani's government to halt implementation of the interim nuclear agreement with the west if the US imposes further sanctions.",
+    "time_range": null,
+    "evidence_ids": [
+      "30633"
+    ],
+    "job_id": "be2b05627054626c711637cfc6be0edd49d4da79f1d99d597df328142f2a33f2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Iranian parliament action targeting Rouhani's government on nuclear implementation; relevant milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1a8571b228a69635"
+  },
+  {
+    "candidate_id": "9d86e54523b32408a5ec2728",
+    "time": "2014-09-25",
+    "date_precision": "day",
+    "summary": "Iranian President Hassan Rouhani told the UN General Assembly that a nuclear agreement could clear the way for greater Iranian cooperation with the West on combating Islamist extremism, while saying regional powers should lead the fight against ISIS.",
+    "time_range": null,
+    "evidence_ids": [
+      "30620"
+    ],
+    "job_id": "c0be933d8826d1155c6e5cbadc335dc4a124b13801def7deaedee33898b501d0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani UN General Assembly remarks linking nuclear deal to cooperation; relevant milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b7b1e1ad5cf7c31f"
+  },
+  {
+    "candidate_id": "2fd35ea3c84c7580da2d6ab2",
+    "time": "2013-11-19",
+    "date_precision": "day",
+    "summary": "David Cameron spoke on the phone to Hassan Rouhani, becoming the first British prime minister to speak to an Iranian president in a decade.",
+    "time_range": null,
+    "evidence_ids": [
+      "30749"
+    ],
+    "job_id": "2c96c7689e0b134d12e25e9753ac98b4607b0d89f797136eedc30bd5f2a2a33c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "First UK PM call with an Iranian president in a decade; relevant Rouhani diplomatic milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b9ae45186d783d78"
+  },
+  {
+    "candidate_id": "7683bea09433b0449562dd58",
+    "time": "2015-03-26",
+    "date_precision": "day",
+    "summary": "Iranian President Hassan Rouhani held a phone call with UK Prime Minister David Cameron in which they agreed international negotiators had a \"historic opportunity\" to reach a framework deal on Iran's nuclear programme.",
+    "time_range": null,
+    "evidence_ids": [
+      "30618"
+    ],
+    "job_id": "34bde4a248e672fe6af121a2dc49cf9232999477a86b77bbce020eafc4a07c4c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani-Cameron call on nuclear framework; relevant milestone, distinct date from other Cameron call.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4568a76810f01fd3"
+  },
+  {
+    "candidate_id": "d36d192150ec5525dc5bb1df",
+    "time": "2013",
+    "date_precision": "year",
+    "summary": "Hassan Rouhani was elected president of Iran.",
+    "time_range": null,
+    "evidence_ids": [
+      "30672"
+    ],
+    "job_id": "0ffb9251ef546e2dcd384c26f7dc3b3a54523db1cb7d5f73e5141dfe682a6861",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's election is a core milestone; year-only date differs from the day-precision existing election event, so it cannot be merged.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e5643ef6aa091d10"
+  },
+  {
+    "candidate_id": "aaad3d163d2c29f2df14be8d",
+    "time": "2015-04-03",
+    "date_precision": "day",
+    "summary": "Iranian President Hassan Rouhani said Iran will fulfill all its obligations under the historic nuclear framework agreement and hailed it as the start of a \"new page\" of cooperation with the international community.",
+    "time_range": null,
+    "evidence_ids": [
+      "30627"
+    ],
+    "job_id": "21e29bdd0dfdc051ca77bdf30e02d28871f1d1c29fa4f4b25f85d848386b71a4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's statement on the nuclear framework agreement is a relevant milestone; no existing event shares this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-448127f79ff3e845"
+  },
+  {
+    "candidate_id": "d6b2dcb7fdbda3239d3c6ef3",
+    "time": "2013-06-15",
+    "date_precision": "day",
+    "summary": "Hassan Rouhani was elected as Iran's new president, securing more than 50% of the vote to avoid a run-off election.",
+    "time_range": null,
+    "evidence_ids": [
+      "30746"
+    ],
+    "job_id": "49643dc8f0c45c3074b695c224f1cc6883d9cf89f3dc494300311506a1efc0a8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-0343374cf94f7524",
+    "reason": "Same date and same event as the existing record of Rouhani's 2013-06-15 election win.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0343374cf94f7524"
+  },
+  {
+    "candidate_id": "f626b4ba46cd807423793001",
+    "time": "2017-05-19",
+    "date_precision": "day",
+    "summary": "Iran holds a presidential election in which incumbent Hassan Rouhani is seeking a second term against hardliner Ebrahim Raisi, with the outcome uncertain.",
+    "time_range": null,
+    "evidence_ids": [
+      "30573"
+    ],
+    "job_id": "af912fff71f0a9d564b2a9c17faaedad23c67f8aca778bacceec3f42bb8893bd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-5b88821926e73602",
+    "reason": "Same date and topic as the existing event on the 2017 presidential election; this is the pre-election framing of that same occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5b88821926e73602"
+  },
+  {
+    "candidate_id": "cd35ed015a5591d062e38a1a",
+    "time": "2013-08-06",
+    "date_precision": "day",
+    "summary": "Iran's new president Hassan Rouhani said his government is determined to engage in serious negotiations with the West to resolve the nuclear impasse and is open to direct talks with the US if Washington shows goodwill.",
+    "time_range": null,
+    "evidence_ids": [
+      "30721"
+    ],
+    "job_id": "bf74002d0e2c9c2cf0f95e519a0a3421d8a631056005f9a36f0349f8d4986930",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's early presidency statement on nuclear negotiations and possible US talks is a relevant milestone; no existing event matches its 2013-08-06 date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f416d0f122c4ab40"
+  },
+  {
+    "candidate_id": "fbb2c509f7d8995e08956ca5",
+    "time": "2013-09-19",
+    "date_precision": "day",
+    "summary": "Signs indicate Iran's newly elected president Hassan Rouhani wants to break the stalemate over its nuclear programme and ease sanctions on its economy.",
+    "time_range": null,
+    "evidence_ids": [
+      "30790"
+    ],
+    "job_id": "07c4db6d2e920b0793ebfa1b21e9181e787011a46ad4caf451f3bb95359e1334",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant indication of Rouhani's intent to break the nuclear stalemate; date differs from existing nuclear-diplomacy events, so it stands separately.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-49a5b27f675c7cdf"
+  },
+  {
+    "candidate_id": "a510707ea82af2c7bf9851ec",
+    "time": "2017-04-09",
+    "date_precision": "day",
+    "summary": "Conservative cleric Ebrahim Raisi announces his candidacy for Iran's presidential election, challenging moderate incumbent Hassan Rouhani.",
+    "time_range": null,
+    "evidence_ids": [
+      "30557"
+    ],
+    "job_id": "194122cb9d414c972ab4636b0a386f82a454068605cec3c787923f54662caa25",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Raisi's candidacy directly challenges Rouhani in the 2017 presidential election, a relevant milestone in Rouhani's political timeline; no existing event matches this date or content.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-de8050335695d073"
+  },
+  {
+    "candidate_id": "03eaa599254a1180ec5adc4b",
+    "time": "2017-07-15",
+    "date_precision": "day",
+    "summary": "Hossein Fereidoun, brother and top aide of Iranian President Hassan Rouhani, was arrested after failing to secure bail on charges connected to financial crimes.",
+    "time_range": null,
+    "evidence_ids": [
+      "30576"
+    ],
+    "job_id": "e5852fee37c29fe6d10b313d61d533668c49ff7ade1ded8f6468074b0eb2d732",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Arrest of Rouhani's brother and top aide is a relevant milestone in his presidency; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c163bd36da0922ba"
+  },
+  {
+    "candidate_id": "e98a55a2814c46657e61f628",
+    "time": "2013-06-14",
+    "date_precision": "day",
+    "summary": "Hassan Rouhani wins Iran's presidential election.",
+    "time_range": null,
+    "evidence_ids": [
+      "30796"
+    ],
+    "job_id": "5e2af7cfbf88d67075ae6a36dba57555ec98ae5ea82d1f76e2ce22147bf7d8c2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's 2013-06-14 election win is a relevant milestone; existing election-win event is dated 2013-06-15, so dates differ and MERGE is not valid.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-660605a79427b914"
+  },
+  {
+    "candidate_id": "57beac523f46805ca41c5ce9",
+    "time": "2013-08-15",
+    "date_precision": "day",
+    "summary": "Iran's conservative-dominated parliament approved 15 of Hassan Rouhani's 18 proposed cabinet ministers, including Mohammad Javad Zarif as foreign minister and Bijan Zanganeh as oil minister.",
+    "time_range": null,
+    "evidence_ids": [
+      "30693"
+    ],
+    "job_id": "3de4796b6aa9cfd7e11a27d17efea5c6713fca56ef07d1bc4b22e991de30684b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Parliament approval of Rouhani's cabinet is a relevant milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-40095928c30c8983"
+  },
+  {
+    "candidate_id": "915c41b4ea1aa16cd2652af1",
+    "time": "2017-05-17",
+    "date_precision": "day",
+    "summary": "Hassan Rouhani campaigns in the final days before Iran's presidential election, locked in a close race against conservative cleric Ebrahim Raisi.",
+    "time_range": null,
+    "evidence_ids": [
+      "30563"
+    ],
+    "job_id": "34513fcae9eca7195931f59698d1a0388faac204394ea7a338f43a412324f6b4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's 2017 re-election campaign is relevant to his political timeline; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-237830fa4ebf0bfc"
+  },
+  {
+    "candidate_id": "914800050ce38fb5ab1d784f",
+    "time": "2013-09-12",
+    "date_precision": "day",
+    "summary": "Iranian President Hassan Rouhani transferred responsibility for nuclear negotiations with foreign nations from the Supreme National Security Council to the Ministry of Foreign Affairs.",
+    "time_range": null,
+    "evidence_ids": [
+      "30808"
+    ],
+    "job_id": "fb30ad62f746500c7729f578abb363cbd4176f4fe5f4341ef4406e9d72a20337",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's transfer of nuclear negotiation authority is a distinct milestone in his diplomacy.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-70cb8e11a9a27717"
+  },
+  {
+    "candidate_id": "cb64fa0cc3e7c677943a9838",
+    "time": "2013-09-15",
+    "date_precision": "day",
+    "summary": "Barack Obama and Hassan Rouhani exchanged letters, setting the stage for a possible meeting at the UN, which would be the first face-to-face encounter between a US and Iranian leader since 1979.",
+    "time_range": null,
+    "evidence_ids": [
+      "30745"
+    ],
+    "job_id": "0e5579afbed1367db7cec817edc287ee9eff02536bb7c16d2dcf2d03a507434a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Obama-Rouhani letter exchange is a distinct step toward possible US-Iran leader contact.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fcddeb8a53c800d6"
+  },
+  {
+    "candidate_id": "6e24e3e323c4827c33a515e0",
+    "time": "2013-09-24",
+    "date_precision": "day",
+    "summary": "A much-anticipated meeting between US President Barack Obama and Iranian President Hassan Rouhani did not happen, as White House officials said the Iranian delegation turned down the offer, calling it \"too complicated.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "30758"
+    ],
+    "job_id": "44edc17f8e8142941e889de5463033b43bf9fa8df8ad0b2703a60b70f923073c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "The failed Obama-Rouhani meeting is a distinct 2013 diplomatic milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df2032e7bddbc54a"
+  },
+  {
+    "candidate_id": "41bba6e6396929b73b36eb08",
+    "time": "2016-03-20",
+    "date_precision": "day",
+    "summary": "In his Nowruz speech, Ayatollah Ali Khamenei called for a \"resistance economy\" to fight unemployment and recession, differing in tone from President Hassan Rouhani's emphasis on attracting foreign investment and boosting the private sector.",
+    "time_range": null,
+    "evidence_ids": [
+      "30642"
+    ],
+    "job_id": "fa05e128d785c82dd88681535a922ca9f2da1c76b8ae0c077c4c49b5b477c4aa",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Khamenei's resistance-economy stance contrasted with Rouhani's economic approach.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-32953ea06a251575"
+  },
+  {
+    "candidate_id": "d11634910334ffcb1e6569da",
+    "time": "2013-09-21",
+    "date_precision": "day",
+    "summary": "Iranian President Hassan Rouhani arrives in New York to address the UN General Assembly.",
+    "time_range": null,
+    "evidence_ids": [
+      "30725"
+    ],
+    "job_id": "99816a4da56378b91211dd56ffaacdd245987b9eaf815dc4ea65db1e98336bd7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's arrival in New York for the UN General Assembly is a distinct event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3376c5e937ce362f"
+  },
+  {
+    "candidate_id": "23c6447890ed5f61ddd79e41",
+    "time": "2015-09-29",
+    "date_precision": "day",
+    "summary": "Iranian President Hassan Rouhani did not meet face-to-face with US President Barack Obama in New York, though Iranian Foreign Minister Mohammad Javad Zarif shook hands with Obama at the UN General Assembly building.",
+    "time_range": null,
+    "evidence_ids": [
+      "30698"
+    ],
+    "job_id": "986932fcf5b61c49e938ebba86ca4dfa3af4915841602f5f75184e144d88045b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "2015 non-meeting with Obama is a distinct later diplomatic occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-42b0aed0ec1ee061"
+  },
+  {
+    "candidate_id": "8ec295d5bda20a54e377c1c9",
+    "time": "2013-09-20",
+    "date_precision": "day",
+    "summary": "Iranian President Hassan Rouhani called for \"constructive interaction with the world\" in an opinion article published by the Washington Post, signaling a softer stance ahead of a possible informal meeting with Barack Obama at the UN General Assembly.",
+    "time_range": null,
+    "evidence_ids": [
+      "30760"
+    ],
+    "job_id": "013d21a3874b319f82670451b150c2f5554bfbe8b5605879a55948f4d280bfb8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani's Washington Post op-ed is a distinct outreach milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7944f654131fb609"
+  },
+  {
+    "candidate_id": "6137d9c2e8259a5c681ce8a1",
+    "time": "2013-06-15",
+    "date_precision": "day",
+    "summary": "Hassan Rouhani emerged victorious in Iran's presidential election, leading to celebrations across the country.",
+    "time_range": null,
+    "evidence_ids": [
+      "30709"
+    ],
+    "job_id": "0661b84fa9911ada98440010d6e4c0caf3db836daead3126d0825baf9ef67a71",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-0343374cf94f7524",
+    "reason": "Same date and same core event: Rouhani winning the 2013 presidential election.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0343374cf94f7524"
+  },
+  {
+    "candidate_id": "7931aec7be98c76a9cb07d16",
+    "time": "2013-06-14",
+    "date_precision": "day",
+    "summary": "Hassan Rouhani wins Iran's presidential election, after which outgoing president Mahmoud Ahmadinejad is summoned to a criminal court in Tehran.",
+    "time_range": null,
+    "evidence_ids": [
+      "30789"
+    ],
+    "job_id": "11a889933d4853bc187901f1c5359ff229823c8a24be001b40829f56e0a59723",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-660605a79427b914",
+    "reason": "Same date and same core event: Rouhani winning Iran's presidential election.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-660605a79427b914"
+  },
+  {
+    "candidate_id": "09232668867a7a76ac44cdc1",
+    "time": "2015-09-25",
+    "date_precision": "day",
+    "summary": "President Hassan Rouhani said conditions were ripe for his administration to start implementing the July nuclear agreement by the end of the year.",
+    "time_range": null,
+    "evidence_ids": [
+      "30602"
+    ],
+    "job_id": "67e32d3e93378f4df1e7a827fe61e370f16ac89656288054bb9c9231a760478b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani statement on timing of implementing the July nuclear agreement; distinct date and no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-06c8b4db82488311"
+  },
+  {
+    "candidate_id": "05c4b3958275e7616d8a5449",
+    "time": "2015-07-14",
+    "date_precision": "day",
+    "summary": "Hassan Rouhani is ranked as the biggest winner of the international nuclear agreement between Iran and six world powers, which ends Iran's international isolation and recognizes its right to peaceful nuclear energy.",
+    "time_range": null,
+    "evidence_ids": [
+      "30622"
+    ],
+    "job_id": "fbd8bb12dcdb7bcd95f1dbd16011d84ad605eacca61d3c7b67d053ab3f6d8540",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani ranked as biggest winner of the July 2015 nuclear agreement; distinct milestone not duplicated by existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6fba162acaf6b69e"
+  },
+  {
+    "candidate_id": "2d81618c9e41f63f1d5c2cb6",
+    "time": "2016-01-17",
+    "date_precision": "day",
+    "summary": "Iranian President Hassan Rouhani said that 150 companies from 50 countries had recently visited Iran for investment following the lifting of sanctions.",
+    "time_range": null,
+    "evidence_ids": [
+      "30612"
+    ],
+    "job_id": "193a7772d4a759448763c79260ac5a82c4c2d04a3e4a466252fc5d22d12aa0d0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rouhani statement on foreign investment interest after sanctions lifting; distinct date and no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ccbc9e2b5d799645"
+  }
+]

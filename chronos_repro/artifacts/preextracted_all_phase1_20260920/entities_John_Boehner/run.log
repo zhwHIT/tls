@@ -1,0 +1,195 @@
+[llm] requesting 1
+[llm] received 1
+[step 1] SKELETON_EXPLORATION SEARCH
+[step 2] SKELETON_EXPLORATION BATCH_RETRIEVAL
+[llm] requesting 2
+[llm] received 2
+[step 3] SKELETON_EXPLORATION VERIFY
+[llm] requesting 3
+[llm] received 3
+[step 4] SKELETON_EXPLORATION VERIFY
+[llm] requesting 4
+[llm] received 4
+[step 5] SKELETON_EXPLORATION VERIFY
+[llm] requesting 5
+[llm] received 5
+[step 6] SKELETON_EXPLORATION MEMORY_UPDATE
+[llm] requesting 6
+[llm] received 6
+[step 7] SKELETON_EXPLORATION MEMORY_UPDATE
+[llm] requesting 7
+[llm] received 7
+[step 8] SKELETON_EXPLORATION SEARCH
+[step 9] SKELETON_EXPLORATION BATCH_RETRIEVAL
+[llm] requesting 8
+[llm] received 8
+[step 10] SKELETON_EXPLORATION VERIFY
+[llm] requesting 9
+[llm] received 9
+[step 11] SKELETON_EXPLORATION SEARCH
+[step 12] SKELETON_EXPLORATION BATCH_RETRIEVAL
+[llm] requesting 10
+[llm] received 10
+[step 13] SKELETON_EXPLORATION VERIFY
+[llm] requesting 11
+[llm] received 11
+[step 14] SKELETON_EXPLORATION MEMORY_UPDATE
+[llm] requesting 12
+[llm] received 12
+[step 15] SKELETON_EXPLORATION SEARCH
+[step 16] SKELETON_EXPLORATION BATCH_RETRIEVAL
+[llm] requesting 13
+[llm] received 13
+[step 17] SKELETON_EXPLORATION VERIFY
+[llm] requesting 14
+[llm] received 14
+[step 18] SKELETON_EXPLORATION SEARCH
+[step 19] SKELETON_EXPLORATION BATCH_RETRIEVAL
+[llm] requesting 15
+[llm] received 15
+[step 20] SKELETON_EXPLORATION VERIFY
+[llm] requesting 16
+[llm] received 16
+[step 21] SKELETON_EXPLORATION SEARCH
+[step 22] SKELETON_EXPLORATION BATCH_RETRIEVAL
+[llm] requesting 17
+[llm] received 17
+[step 23] SKELETON_EXPLORATION VERIFY
+[llm] requesting 18
+[llm] received 18
+[step 24] SKELETON_EXPLORATION MEMORY_UPDATE
+[llm] requesting 19
+[llm] received 19
+[step 25] SKELETON_EXPLORATION SEARCH
+[step 26] SKELETON_EXPLORATION BATCH_RETRIEVAL
+[llm] requesting 20
+[llm] received 20
+[step 27] SKELETON_EXPLORATION VERIFY
+[llm] requesting 21
+[llm] received 21
+[step 28] SKELETON_EXPLORATION SEARCH
+[step 29] SKELETON_EXPLORATION BATCH_RETRIEVAL
+[llm] requesting 22
+[llm] received 22
+[step 30] SKELETON_EXPLORATION SEARCH
+[step 31] SKELETON_EXPLORATION BATCH_RETRIEVAL
+[llm] requesting 23
+[llm] received 23
+[step 32] SKELETON_EXPLORATION VERIFY
+[llm] requesting 24
+[llm] received 24
+[step 33] SKELETON_EXPLORATION MEMORY_UPDATE
+[llm] requesting 25
+[llm] received 25
+[step 34] SKELETON_EXPLORATION SEARCH
+[step 35] SKELETON_EXPLORATION BATCH_RETRIEVAL
+[llm] requesting 26
+[llm] received 26
+[step 36] SKELETON_EXPLORATION VERIFY
+[llm] requesting 27
+[llm] received 27
+[step 37] SKELETON_EXPLORATION SEARCH
+[step 38] SKELETON_EXPLORATION BATCH_RETRIEVAL
+[llm] requesting 28
+[llm] received 28
+[step 39] SKELETON_EXPLORATION SEARCH
+[step 40] SKELETON_EXPLORATION BATCH_RETRIEVAL
+[llm] requesting 29
+[llm] received 29
+[step 41] SKELETON_EXPLORATION VERIFY
+[llm] requesting 30
+[llm] received 30
+[step 42] SKELETON_EXPLORATION MEMORY_UPDATE
+[llm] requesting 31
+[llm] received 31
+[step 43] SKELETON_EXPLORATION SEARCH
+[step 44] SKELETON_EXPLORATION BATCH_RETRIEVAL
+[llm] requesting 32
+[llm] received 32
+[step 45] SKELETON_EXPLORATION VERIFY
+[llm] requesting 33
+[llm] received 33
+[step 46] SKELETON_EXPLORATION VERIFY
+[llm] requesting 34
+[llm] received 34
+[step 47] SKELETON_EXPLORATION MEMORY_UPDATE
+[llm] requesting 35
+[llm] received 35
+[step 48] SKELETON_EXPLORATION SEARCH
+[step 49] SKELETON_EXPLORATION BATCH_RETRIEVAL
+[llm] requesting 36
+[llm] received 36
+[step 50] SKELETON_EXPLORATION VERIFY
+[llm] requesting 37
+[llm] received 37
+[step 51] SKELETON_EXPLORATION SEARCH
+[step 52] SKELETON_EXPLORATION BATCH_RETRIEVAL
+[llm] requesting 38
+[llm] received 38
+ValueError: time_filter requires mode/start/end
+{"runtime_status": "stopped_error", "gold_date_recall": 0.3076923076923077, "matched_gold_date_count": 4, "gold_date_count": 13, "accepted_event_count": 54, "query_count": 45}
+[llm] requesting 1
+[llm] received 1
+[step 53] SKELETON_EXPLORATION SEARCH
+[step 54] SKELETON_EXPLORATION BATCH_RETRIEVAL
+[llm] requesting 2
+[llm] received 2
+[step 55] SKELETON_EXPLORATION VERIFY
+[llm] requesting 3
+[llm] received 3
+[step 56] SKELETON_EXPLORATION MEMORY_UPDATE
+[llm] requesting 4
+[llm] received 4
+[step 57] SKELETON_EXPLORATION SEARCH
+[step 58] SKELETON_EXPLORATION BATCH_RETRIEVAL
+[llm] requesting 5
+[llm] received 5
+[step 59] SKELETON_EXPLORATION SEARCH
+[step 60] SKELETON_EXPLORATION BATCH_RETRIEVAL
+[llm] requesting 6
+[llm] received 6
+[step 61] SKELETON_EXPLORATION VERIFY
+[llm] requesting 7
+[llm] received 7
+[step 62] SKELETON_EXPLORATION SEARCH
+[step 63] SKELETON_EXPLORATION BATCH_RETRIEVAL
+[llm] requesting 8
+[llm] received 8
+[step 64] SKELETON_EXPLORATION VERIFY
+[llm] requesting 9
+[llm] received 9
+[step 65] SKELETON_EXPLORATION MEMORY_UPDATE
+[llm] requesting 10
+[llm] received 10
+[step 66] SKELETON_EXPLORATION SEARCH
+[step 67] SKELETON_EXPLORATION BATCH_RETRIEVAL
+[llm] requesting 11
+[llm] received 11
+[step 68] SKELETON_EXPLORATION VERIFY
+[llm] requesting 12
+[llm] received 12
+[step 69] SKELETON_EXPLORATION SEARCH
+[step 70] SKELETON_EXPLORATION BATCH_RETRIEVAL
+[llm] requesting 13
+[llm] received 13
+[step 71] SKELETON_EXPLORATION SEARCH
+[step 72] SKELETON_EXPLORATION BATCH_RETRIEVAL
+[llm] requesting 14
+[llm] received 14
+[step 73] SKELETON_EXPLORATION MEMORY_UPDATE
+[llm] requesting 15
+[llm] received 15
+[step 74] SKELETON_EXPLORATION SEARCH
+[step 75] SKELETON_EXPLORATION BATCH_RETRIEVAL
+[llm] requesting 16
+[llm] received 16
+[step 76] SKELETON_EXPLORATION SEARCH
+[step 77] SKELETON_EXPLORATION BATCH_RETRIEVAL
+[llm] requesting 17
+[llm] received 17
+[step 78] SKELETON_EXPLORATION VERIFY
+[step 79] SKELETON_EXPLORATION STOP
+[llm] requesting 18
+[llm] received 18
+[step 80] SKELETON_EXPLORATION MEMORY_UPDATE
+{"runtime_status": "ok", "gold_date_recall": 0.3076923076923077, "matched_gold_date_count": 4, "gold_date_count": 13, "accepted_event_count": 65, "query_count": 67}

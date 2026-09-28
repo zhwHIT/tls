@@ -1,0 +1,73 @@
+{
+  "metric": "exact_gold_date_coverage",
+  "gold_date_count": 10,
+  "matched_gold_date_count": 6,
+  "gold_date_recall": 0.6,
+  "matched_gold_dates": [
+    "2013-06-14",
+    "2013-08-04",
+    "2013-09-19",
+    "2013-09-27",
+    "2015-07-14",
+    "2015-09-28"
+  ],
+  "missed_gold_dates": [
+    "2013-09-25",
+    "2016-09-22",
+    "2017-05-20",
+    "2017-09-20"
+  ],
+  "predicted_date_count": 79,
+  "predicted_start": "2013-06-11",
+  "predicted_end": "2017-08-05",
+  "gold_start": "2013-06-14",
+  "gold_end": "2017-09-20",
+  "gold_start_exactly_matched": true,
+  "gold_end_exactly_matched": false,
+  "span_contains_gold_endpoints": false,
+  "retrieved_extracted_date_hits": 6,
+  "all_topic_extracted_date_hits": 7,
+  "not_available_in_extraction": [
+    "2013-09-25",
+    "2016-09-22",
+    "2017-05-20"
+  ],
+  "available_but_not_retrieved": [
+    "2017-09-20"
+  ],
+  "retrieved_but_not_selected": [],
+  "partial_or_unknown_selected_events": 2,
+  "gold_used_in_search_or_verify": false,
+  "gold_sha256": "4d012df12a4f88179947ab9532594abd5eba025e1cf85a1c0a099576097dda54",
+  "limitations": [
+    "Date matches do not establish event semantic correctness.",
+    "Diagnostic topics were selected by historical Gold performance.",
+    "Historical runs differ in budgets and versions; not a controlled equal-cost comparison."
+  ],
+  "runtime_status": "ok",
+  "phase1_termination": "runner_limit",
+  "accepted_event_count": 87,
+  "candidate_count": 112,
+  "deferred_verification_count": 0,
+  "query_count": 63,
+  "completed_batches": 24,
+  "retrieved_articles": 110,
+  "usage": {
+    "prompt_tokens": 131655,
+    "completion_tokens": 21139,
+    "total_tokens": 152794,
+    "logical_calls": 61,
+    "http_attempts": 61
+  },
+  "returned_response_usage_cumulative": {
+    "prompt_tokens": 131655,
+    "completion_tokens": 21139,
+    "total_tokens": 152794,
+    "prompt_cache_hit_tokens": 20736,
+    "prompt_cache_miss_tokens": 110919
+  },
+  "candidate_status_counts": {
+    "ACCEPTED": 100,
+    "IRRELEVANT": 12
+  }
+}

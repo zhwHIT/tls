@@ -1,0 +1,3556 @@
+[
+  {
+    "candidate_id": "ef64915b39c72da05560ac26",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No specific event related to Julian Assange is reported; the article is a profile describing his background and motivations.",
+    "time_range": null,
+    "evidence_ids": [
+      "39179"
+    ],
+    "job_id": "0369953946b233e8d655c116ae0c2b28b1c4f49d5ba65781c0f3a44e8b7410c3",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No specific event; profile background with unknown date, does not contribute a timeline milestone.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "18ed78483dd6c8127ea524a2",
+    "time": "2013-01-23",
+    "date_precision": "day",
+    "summary": "Principal photography began on The Fifth Estate, a film about WikiLeaks founder Julian Assange, with Benedict Cumberbatch starring as Assange.",
+    "time_range": null,
+    "evidence_ids": [
+      "38776"
+    ],
+    "job_id": "5a5d06b19c85a7e7ff736350f4e21069339ad18bb84a4eea66f9800e0b68d66b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Dated milestone: filming began on The Fifth Estate, a film about Assange.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fa1abb104809cbd8"
+  },
+  {
+    "candidate_id": "4d2db1afc09d89a9a3187bbf",
+    "time": "2010-08-21",
+    "date_precision": "day",
+    "summary": "Swedish prosecutors revoked an arrest warrant for WikiLeaks founder Julian Assange after an on-call prosecutor had issued it over a rape allegation, and a higher-ranked prosecutor found no grounds to suspect him of rape.",
+    "time_range": null,
+    "evidence_ids": [
+      "39206"
+    ],
+    "job_id": "3ed9ede4da1273f9467c3815c3d332845ee00b74b28b57b33aaf2863634f02bd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Dated legal development: Swedish arrest warrant for Assange revoked.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9b5813c2219d8242"
+  },
+  {
+    "candidate_id": "68e8a2f9dd67f2c82e2c94cf",
+    "time": "2011-02-10",
+    "date_precision": "day",
+    "summary": "Former WikiLeaks spokesman Daniel Domscheit-Berg claims Julian Assange threatened to sue him over his memoir portraying Assange as power-obsessed, and alleges he took the submission system when he left the organization.",
+    "time_range": null,
+    "evidence_ids": [
+      "39138"
+    ],
+    "job_id": "af414d7e68baff16e1d8c4e33eaf82afdf1e59003128b9124678362ae47812b1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Dated event involving Assange: former spokesman alleges lawsuit threat and system removal.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e7e22452f4248c7a"
+  },
+  {
+    "candidate_id": "11c6f5d13803cc0e8518a959",
+    "time": "2012-10-03",
+    "date_precision": "day",
+    "summary": "Benedict Cumberbatch is reported to be in line to play Julian Assange in a forthcoming DreamWorks biopic based on books about WikiLeaks.",
+    "time_range": null,
+    "evidence_ids": [
+      "38768"
+    ],
+    "job_id": "4e194aa3d14e5dbd8a356d75f90ef924fdb09da71dfecc0a671662c1c3185bcc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Dated casting report for a planned Assange biopic; distinct from later filming start.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e43a721c7e8b349f"
+  },
+  {
+    "candidate_id": "f4d875ba436e44256ff2c232",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "WikiLeaks founder Julian Assange launches attack on US politicians in a video.",
+    "time_range": null,
+    "evidence_ids": [
+      "38750"
+    ],
+    "job_id": "fba2988cfc1ddddd18df2cd32fe7725886e0592a77b811aa86c6fb59b6909988",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange-specific action, but unknown date; retained as undated milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-aa9a8ca9bec350ba"
+  },
+  {
+    "candidate_id": "4b2e019a227b475bbab82a1b",
+    "time": "2013-06-03",
+    "date_precision": "day",
+    "summary": "US prosecutors alleged during the Bradley Manning trial that Julian Assange built close ties with Manning, guided his document leaks, and advised him on avoiding detection.",
+    "time_range": null,
+    "evidence_ids": [
+      "38713"
+    ],
+    "job_id": "a458382b7dcdf666f6002fac09f589e4c05a4391986cff68063d0782566e9882",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Dated allegation in Manning trial about Assange's role in leaks.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b4eafc3f4681254f"
+  },
+  {
+    "candidate_id": "6e47e55c86fb832644d86b06",
+    "time": "2011-01-31",
+    "date_precision": "day",
+    "summary": "A Guardian book reveals that WikiLeaks founder Julian Assange disguised himself as an old woman in a wig for fear he was being followed by US intelligence.",
+    "time_range": null,
+    "evidence_ids": [
+      "39137"
+    ],
+    "job_id": "40a19c0ba55ea90ddc43348cf1f10e02efc4f6b484f279d9b2f4f22266fff664",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Dated anecdote about Assange disguising himself; contributes to his timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bf2db8eb3583d49c"
+  },
+  {
+    "candidate_id": "eed4e1d3a62cb46ee9fb63db",
+    "time": "2011-09-01",
+    "date_precision": "day",
+    "summary": "WikiLeaks founder Julian Assange revealed his intention to make public all 250,000 raw US State Department cables, regardless of possible reprisals to named individuals.",
+    "time_range": null,
+    "evidence_ids": [
+      "39243"
+    ],
+    "job_id": "4c1655828a553d22d4a11ededb5480382a3f647b37b7b2aa1b20c6dcc95ed8f2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange's stated intent to release all raw State Department cables is a relevant WikiLeaks milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f22e0f9dffc57f79"
+  },
+  {
+    "candidate_id": "3f5eb59d2a3af0fab5ed4863",
+    "time": "2017-05-19",
+    "date_precision": "day",
+    "summary": "Swedish prosecutors close their rape investigation into Julian Assange, while the US Department of Justice has not yet filed charges or an extradition request, though Attorney General Jeff Sessions says prosecuting WikiLeaks is a priority.",
+    "time_range": null,
+    "evidence_ids": [
+      "38577"
+    ],
+    "job_id": "6804da8fdbd059e25ec57e37ec17217534ac127710ae66a287ecb400e75385d3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Closure of Swedish rape investigation is a major legal development in Assange's timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-113e357f24f33ec4"
+  },
+  {
+    "candidate_id": "f0c42186a64adaa755a7b15b",
+    "time": "2010-12-03",
+    "date_precision": "day",
+    "summary": "WikiLeaks founder Julian Assange is scheduled to answer Guardian readers' questions in a live online Q&A, subject to his access to an internet connection.",
+    "time_range": null,
+    "evidence_ids": [
+      "39109"
+    ],
+    "job_id": "2d2138b9407a5949b4dec6ce53498b86ecb830a9ca6d8c792126520ea214a81c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Scheduled Guardian reader Q&A is a relevant public appearance by Assange.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6d9d0a4dea544ce7"
+  },
+  {
+    "candidate_id": "ab049c2ef123ccae657981a9",
+    "time": "2010-12-06",
+    "date_precision": "day",
+    "summary": "Julian Assange agreed to meet British police to discuss sexual assault allegations in Sweden, though he was not arrested and his legal team planned to fight extradition.",
+    "time_range": null,
+    "evidence_ids": [
+      "39167"
+    ],
+    "job_id": "b0ab878078f36c0f395cba27a65215f0fb25a3c8041175e1f6b6c05b5efd206c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange agreeing to meet British police over Swedish allegations is a distinct legal step.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ad31c63ea6f45de0"
+  },
+  {
+    "candidate_id": "ee475d20f3333e2937c1d4a3",
+    "time": "2011-11-15",
+    "date_precision": "day",
+    "summary": "Julian Assange seeks to apply for a supreme court hearing to appeal against extradition to Sweden to face sex crime allegations.",
+    "time_range": null,
+    "evidence_ids": [
+      "38946"
+    ],
+    "job_id": "ce37763dd6162f62381888d2a40a095238b4529ddbf25f4c6254e21a3493adea",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Supreme court appeal bid against extradition is a relevant legal milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ef0deff70f488eca"
+  },
+  {
+    "candidate_id": "e0b1887d141ae3af89659b79",
+    "time": "2012-02-01",
+    "date_precision": "day",
+    "summary": "Julian Assange enters the final stage of his legal battle to avoid extradition to Sweden, with his legal team appealing to the UK Supreme Court.",
+    "time_range": null,
+    "evidence_ids": [
+      "38917"
+    ],
+    "job_id": "8f97dc546cd35ebdacf1e5d1fcc697b85416a7c53645da850b0fcc00a160152f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Final-stage UK Supreme Court extradition appeal is a distinct legal development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e9899cad41346406"
+  },
+  {
+    "candidate_id": "9e24872cc4feb2ed79acb329",
+    "time": "2012-06-29",
+    "date_precision": "day",
+    "summary": "Julian Assange refuses to surrender to London police and remains in the Ecuadorean embassy while seeking political asylum.",
+    "time_range": null,
+    "evidence_ids": [
+      "38903"
+    ],
+    "job_id": "14bf805e77d87bfce8c0b713d6b46789da3835660e0168df88fd8d78b6c77d54",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Refusal to surrender and stay in Ecuadorian embassy while seeking asylum is a major milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1733a10852361cff"
+  },
+  {
+    "candidate_id": "e14312b1337bae37fe87c1f2",
+    "time": "2010-12-07",
+    "date_precision": "day",
+    "summary": "Julian Assange was arrested by UK police, initiating a fast-tracked extradition process under a European Arrest Warrant to return him to Sweden for questioning regarding a rape charge.",
+    "time_range": null,
+    "evidence_ids": [
+      "39115"
+    ],
+    "job_id": "918c4c44a5af5f2ef6258e49e6dda3ed60e211beee41f2e7f540db9d719c6bac",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Arrest by UK police and start of extradition process is a key legal event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1e01b927c89b4d0a"
+  },
+  {
+    "candidate_id": "2514ad774058646913ab3b0b",
+    "time": "2011-12-05",
+    "date_precision": "day",
+    "summary": "Two high court judges certified a question of general public importance, permitting Julian Assange to petition the supreme court directly within 14 days to ask it to hear his appeal against extradition to Sweden.",
+    "time_range": null,
+    "evidence_ids": [
+      "38935"
+    ],
+    "job_id": "3c15b27d33af64ff0903a76c11b92f7c2539cc0f1cb01dbef68120adc96e2c2f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct extradition-appeal milestone: high court certification allowing direct supreme court petition.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1621bfc09a90a39b"
+  },
+  {
+    "candidate_id": "717fca39bec132e5bf969c90",
+    "time": "2011-11-02",
+    "date_precision": "day",
+    "summary": "The high court dismissed Julian Assange's appeal against extradition to Sweden to face rape and sexual molestation claims.",
+    "time_range": null,
+    "evidence_ids": [
+      "39034"
+    ],
+    "job_id": "de9b591ae191fe67510bee2a43782ec027cb2c4bf261f3f81025d9f73fb13c84",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct extradition-appeal milestone: high court dismissed Assange's appeal.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0d0584e971be72c5"
+  },
+  {
+    "candidate_id": "632a3fe9a0076c77987b348d",
+    "time": "2011-02-24",
+    "date_precision": "day",
+    "summary": "WikiLeaks founder Julian Assange loses his extradition battle at Belmarsh Magistrates' Court and is to be extradited to Sweden to face allegations of rape and sexual assault, though his legal team confirms he will appeal.",
+    "time_range": null,
+    "evidence_ids": [
+      "39127"
+    ],
+    "job_id": "732c3a152f7e5791e7195821b51d5394879c56538a499dbbbbc455e25f3e56e4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct extradition milestone: Belmarsh magistrates' ruling ordering extradition.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a0dd6e80040c3003"
+  },
+  {
+    "candidate_id": "b3e37514526c3212dbc1b6f2",
+    "time": "2011-02-07",
+    "date_precision": "day",
+    "summary": "Julian Assange's legal team argues that human rights considerations and the threat of further extradition from Sweden to the US should prevent his extradition under a European arrest warrant.",
+    "time_range": null,
+    "evidence_ids": [
+      "39066"
+    ],
+    "job_id": "202305fc70f212ad18bed6175a352df9a6853d54d32130a4532f6ef53a24e255",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct extradition hearing milestone: legal arguments on human rights and further extradition risk.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-96e9b6143cca98b0"
+  },
+  {
+    "candidate_id": "30e7defb01e4e028729532ed",
+    "time": "2012-02-01",
+    "date_precision": "day",
+    "summary": "Julian Assange's lawyer argues at the UK Supreme Court that his arrest warrant should not stand and that treating the Swedish public prosecutor as a judicial authority breaches a fundamental legal principle, as part of his final appeal against extradition to Sweden.",
+    "time_range": null,
+    "evidence_ids": [
+      "38909"
+    ],
+    "job_id": "bc45ebf134c8c16c87a39048eaba7075450f3745110621c061a5e00ae96b1e04",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-e9899cad41346406",
+    "reason": "Same date and same supreme court final extradition appeal stage as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e9899cad41346406"
+  },
+  {
+    "candidate_id": "f98def69c0bcdeeb191c1e1d",
+    "time": "2010-12-14",
+    "date_precision": "day",
+    "summary": "Julian Assange remains in custody despite being granted bail by Westminster magistrates court, after the Swedish government appealed the decision.",
+    "time_range": null,
+    "evidence_ids": [
+      "39133"
+    ],
+    "job_id": "d7a735f3661162f869337e47c160094b75234e6ebf986369a44ef7bbf0dafa02",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct custody/bail milestone after Swedish government appeal.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4bdc4824d7e8ab6e"
+  },
+  {
+    "candidate_id": "2d8aa1bc79d138b33804ccef",
+    "time": "2011-07-12",
+    "date_precision": "day",
+    "summary": "Julian Assange appeared at the High Court in London at the start of his latest fight against extradition to Sweden over sex allegations, with his new legal team arguing that the European arrest warrant is invalid.",
+    "time_range": null,
+    "evidence_ids": [
+      "39048"
+    ],
+    "job_id": "2104d8e8d45c57819b99008f0c2635f879dc4468e2c25cb79df57562a63213bc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct High Court extradition challenge milestone with new legal team.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-27c8a85cfa207409"
+  },
+  {
+    "candidate_id": "d2e2a324d6aa1118c4005ec6",
+    "time": "2012-10-08",
+    "date_precision": "day",
+    "summary": "Julian Assange announced he will publish a new book, Cypherpunks: Freedom and the Future of the Internet, in paperback and electronically on 26 November.",
+    "time_range": null,
+    "evidence_ids": [
+      "38845"
+    ],
+    "job_id": "fd46c1b2e60823de6a34862fac7bc6ff4ddfa2669697c0f19bbcf09150c52521",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Book publication announcement is not a Julian Assange timeline milestone.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "ca7990b0a81888cd0ed15d9c",
+    "time": "2012-08-19",
+    "date_precision": "day",
+    "summary": "Julian Assange, speaking from the Ecuadorian embassy in London, urged the US to release Bradley Manning and end its \"witch-hunt\" against WikiLeaks.",
+    "time_range": null,
+    "evidence_ids": [
+      "38881"
+    ],
+    "job_id": "e39b9dd4df08bdb4bd9c142beb790f98fce525fb8e3507183583d428c48be828",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange statement from Ecuadorian embassy urging Manning release and criticizing WikiLeaks 'witch-hunt'.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-53915b1b32baa93b"
+  },
+  {
+    "candidate_id": "f3bd3a9ccaa581f1fbc5a07e",
+    "time": "2012-08-15",
+    "date_precision": "day",
+    "summary": "Ecuadorian officials say President Rafael Correa has agreed to grant Julian Assange asylum, though Correa denies a decision has been made.",
+    "time_range": null,
+    "evidence_ids": [
+      "38805"
+    ],
+    "job_id": "f655f20b837d68cd64cdb1aea94e91ff5678dcabd83d9a447f36cbc201a7e48f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Reports and denial regarding Ecuador granting Assange asylum.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-52df50a79ace2c44"
+  },
+  {
+    "candidate_id": "5057a9b47c7b18c1605c11c5",
+    "time": "2010-12-14",
+    "date_precision": "day",
+    "summary": "WikiLeaks founder Julian Assange is scheduled to appear in a London court to seek release from prison on bail after being remanded in custody over Swedish sexual assault allegations.",
+    "time_range": null,
+    "evidence_ids": [
+      "39088"
+    ],
+    "job_id": "b9c17c93e72cc7d7128c7ecf43d277dec3dcb327df363a1f1e8e2363dac345e1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Scheduled London bail hearing after Assange was remanded over Swedish allegations.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2d58f4eeff972c63"
+  },
+  {
+    "candidate_id": "8882463df0b4b112f34f9931",
+    "time": "2011-02-24",
+    "date_precision": "day",
+    "summary": "A British judge ruled that Julian Assange must be extradited to Sweden to face accusations of rape and sexual assault, and Assange said he would appeal.",
+    "time_range": null,
+    "evidence_ids": [
+      "39129"
+    ],
+    "job_id": "f01b937d922c7c391c498c944dcef2bec4c12c91c6825bfc5acf8ea437953726",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-a0dd6e80040c3003",
+    "reason": "Duplicate of the 2011-02-24 extradition ruling and planned appeal.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a0dd6e80040c3003"
+  },
+  {
+    "candidate_id": "141c534736c202c200092eae",
+    "time": "2012-06-26",
+    "date_precision": "day",
+    "summary": "A group of public figures, including Michael Moore, Oliver Stone, Daniel Ellsberg, and Noam Chomsky, signed an open letter urging Ecuador to grant Julian Assange political asylum.",
+    "time_range": null,
+    "evidence_ids": [
+      "38839"
+    ],
+    "job_id": "3873f12798b01d49ec40add0518ae1a5b0806b90c80621837aecdfdcd47781fb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Public figures' open letter urging Ecuador to grant Assange asylum.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7cb47af656c14bfe"
+  },
+  {
+    "candidate_id": "236e26ce0911812a386d6769",
+    "time": "2011-09-22",
+    "date_precision": "day",
+    "summary": "Julian Assange's publishers, Canongate, released his \"unauthorised autobiography\" despite his attempt to withdraw from the book deal, prompting Assange to accuse the publisher of \"profiteering from an unfinished and erroneous draft.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "38966"
+    ],
+    "job_id": "dc8df0f4f24273c51608f805cbd98bfca01bd542d17d4b941fbc8475bd54ada0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Canongate releases Assange's unauthorised autobiography despite his withdrawal.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c0f136ee0cf51de8"
+  },
+  {
+    "candidate_id": "79e12d3bbfbf0c5d60467126",
+    "time": "2010-12-16",
+    "date_precision": "day",
+    "summary": "Julian Assange was granted bail.",
+    "time_range": null,
+    "evidence_ids": [
+      "39010"
+    ],
+    "job_id": "5451d0cbf333613cf0fcc120c96ce18e88eda03b2fdb889e5de26919954ad442",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange granted bail, distinct from the 2010-12-14 custody/appeal event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-642ba4df8ee446a9"
+  },
+  {
+    "candidate_id": "edc54fe8cdee78bbe84ede8c",
+    "time": "2011-09-22",
+    "date_precision": "day",
+    "summary": "Canongate publishes the \"unauthorised first draft\" of Julian Assange's autobiography without his consent, after he withdrew from the contract on 2011-06-07.",
+    "time_range": null,
+    "evidence_ids": [
+      "38963"
+    ],
+    "job_id": "5a37f269fccabe9e1673824d81e4b9efa32738a012ebd0c35b5c6dc94ff9fddb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "236e26ce0911812a386d6769",
+    "reason": "Duplicate of the same 2011-09-22 Canongate unauthorised autobiography release.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-c0f136ee0cf51de8"
+    },
+    "timeline_event_id": "event-c0f136ee0cf51de8"
+  },
+  {
+    "candidate_id": "e505625965194dbeb2037303",
+    "time": "2010-12-26",
+    "date_precision": "day",
+    "summary": "Julian Assange said he expects to earn more than £1m from book deals, including an autobiography, to fund legal costs and keep WikiLeaks afloat while fighting extradition to Sweden.",
+    "time_range": null,
+    "evidence_ids": [
+      "39081"
+    ],
+    "job_id": "f60b71fda11714b8a70039f90b91d2060af33e765561eded88ce5b2a53d0e663",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange's book deals and funding plans are a relevant milestone in his legal and financial fight; no existing event covers this.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-592cef97652a585f"
+  },
+  {
+    "candidate_id": "b731c144338de36437e02f64",
+    "time": "2010-12-14",
+    "date_precision": "day",
+    "summary": "Michael Moore, Ken Loach, and John Pilger provided surety to help secure WikiLeaks founder Julian Assange's release on £200,000 bail, while Rush Limbaugh criticized their support and Assange remained in prison as Swedish authorities said they would fight the bail decision.",
+    "time_range": null,
+    "evidence_ids": [
+      "39168"
+    ],
+    "job_id": "8f978975efc253f88922a66d40b253b78f5fab66c702dc6a08d2ee42868d398e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-4bdc4824d7e8ab6e",
+    "reason": "Same 2010-12-14 bail and custody development as the existing event, adding surety details and Swedish appeal.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4bdc4824d7e8ab6e"
+  },
+  {
+    "candidate_id": "f0199cb8237a2be27948c9e0",
+    "time": "2010-12-10",
+    "date_precision": "day",
+    "summary": "Lawyers for Julian Assange said they are preparing for a possible US indictment, though no charges have yet been lodged.",
+    "time_range": null,
+    "evidence_ids": [
+      "39161"
+    ],
+    "job_id": "c974c959bed9e1d04042d6616bc8bab236cae5dbd775b911960fac33b5e34a06",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange legal team preparing for possible US indictment; relevant to his legal jeopardy timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c617e24b96855b2e"
+  },
+  {
+    "candidate_id": "309f7df563c6865b874ef20c",
+    "time": "2010-12-16",
+    "date_precision": "day",
+    "summary": "A US congressional committee hears testimony from lawyers about the possibility of prosecuting Julian Assange under the Espionage Act, with lawyers expressing consensus that an indictment is likely though extradition from Britain is doubtful.",
+    "time_range": null,
+    "evidence_ids": [
+      "39086"
+    ],
+    "job_id": "736546dfec4c91cfd5fe53b05e0903173f239a4e9edb398578b0f303a7d01891",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Congressional testimony on possible Espionage Act prosecution; relevant US legal threat milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a69438d521295fce"
+  },
+  {
+    "candidate_id": "0e1599439688a8b1f1da06ea",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "38568"
+    ],
+    "job_id": "6829182fd7ec837d8f921bd793ced433edcdeabfc3b5be80ad23049413fb5469",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Clinton tsunami fundraising appointment unrelated to Julian Assange.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "763d2c3d247472180f7c33b0",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "38563"
+    ],
+    "job_id": "ed0ab804924201a55a4dc0573a794229601614a7bd4fc4ab877597e133bf265d",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Clinton tsunami fundraising appointment unrelated to Julian Assange.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "d216331996b790145720fdfd",
+    "time": "2017-05-19",
+    "date_precision": "day",
+    "summary": "Swedish prosecutors discontinue their rape investigation into Julian Assange and recall the European arrest warrant, though a UK arrest warrant for breaching bail conditions remains open.",
+    "time_range": null,
+    "evidence_ids": [
+      "38563"
+    ],
+    "job_id": "ed0ab804924201a55a4dc0573a794229601614a7bd4fc4ab877597e133bf265d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-113e357f24f33ec4",
+    "reason": "Same date and event as existing Swedish prosecutors closing rape investigation into Assange.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-113e357f24f33ec4"
+  },
+  {
+    "candidate_id": "bf5e7fc5b9895daf8142ca29",
+    "time": "2010-11-30",
+    "date_precision": "day",
+    "summary": "Interpol added WikiLeaks founder Julian Assange to its worldwide wanted list on sex-crime allegations from Sweden, as the US announced an active criminal investigation into whether he violated espionage laws.",
+    "time_range": null,
+    "evidence_ids": [
+      "39112"
+    ],
+    "job_id": "aea3829238d7de701cdfc3a62163d2b0444af8e649329c13d6b5759e6375c294",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Interpol wanted-list addition and US criminal investigation; relevant escalation in Assange legal case.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a63cca5eb7947e51"
+  },
+  {
+    "candidate_id": "435ad0f15d0faca98e1df643",
+    "time": "2013-11-26",
+    "date_precision": "day",
+    "summary": "Julian Assange's lawyer calls on the US Department of Justice to make a formal statement that it will not prosecute Assange, following off-the-record reports that the department is unlikely to press charges.",
+    "time_range": null,
+    "evidence_ids": [
+      "38700"
+    ],
+    "job_id": "d57b7d3238d0583660c7ae01cd807a732965377bbeb40f0f9a10f3d51b067e43",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange lawyer seeking DOJ non-prosecution statement; relevant US legal status development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-883b0d512112e066"
+  },
+  {
+    "candidate_id": "f6d6199cc39f0efe3da37413",
+    "time": "2010-12-09",
+    "date_precision": "day",
+    "summary": "US politicians and pundits from both parties intensify calls for action against WikiLeaks founder Julian Assange, with Republicans labeling him a terrorist and leading Democrats calling for his prosecution.",
+    "time_range": null,
+    "evidence_ids": [
+      "39176"
+    ],
+    "job_id": "9d5e25761d1fef385d37c4da9abdb31340cabffd57eb83d598a5d6d77b64c583",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Intensified US political calls for action against Assange; relevant pressure milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fee34cdc24b84491"
+  },
+  {
+    "candidate_id": "0089bc1a88b8d9786e7422c1",
+    "time": "2010-12-23",
+    "date_precision": "day",
+    "summary": "Julian Assange says his fate would rest in David Cameron's hands if the US charges him with espionage, and that it would be politically impossible for Britain to extradite him.",
+    "time_range": null,
+    "evidence_ids": [
+      "39148"
+    ],
+    "job_id": "0e41af5750c6c25bd46ba4abcabca6443cd79f94c69e3494cb3aa8d0001d7b9d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange statement on espionage charges and extradition; relevant milestone with no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d827a357b25a8e8c"
+  },
+  {
+    "candidate_id": "4b813acbffb163c89aafd00d",
+    "time": "2013-06-16",
+    "date_precision": "day",
+    "summary": "Ecuador's foreign minister Ricardo Patino is to visit London to meet Julian Assange at the Ecuadorian embassy, on the eve of the first anniversary of Assange living there.",
+    "time_range": null,
+    "evidence_ids": [
+      "38715"
+    ],
+    "job_id": "9c1bcd81e0ace18cd650c939ec3d8cec0847d2439b0992118f3cdfe5595b648a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Ecuador foreign minister visit to Assange on embassy anniversary; relevant and distinct.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7f4847ff4a85fbe5"
+  },
+  {
+    "candidate_id": "2dafbdaba01b1a3a75fdd8c5",
+    "time": "2014-08-18",
+    "date_precision": "day",
+    "summary": "Julian Assange says he is leaving the Ecuadorian embassy.",
+    "time_range": null,
+    "evidence_ids": [
+      "38654"
+    ],
+    "job_id": "d677bdfeaccdc2d09636687c3d2333914822bdd7b1da733084bfae76a4c3ff48",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange says he is leaving Ecuadorian embassy; relevant milestone, no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0e890046f3606d05"
+  },
+  {
+    "candidate_id": "afb1e65c7b2332bc15f2a9a5",
+    "time": "2012-08-16",
+    "date_precision": "day",
+    "summary": "Ecuador's president Rafael Correa is expected to announce whether the country will grant Julian Assange asylum, as Ecuador's foreign minister rejects a British letter warning that the UK could arrest Assange at its embassy in London.",
+    "time_range": null,
+    "evidence_ids": [
+      "38801"
+    ],
+    "job_id": "7e37b94113e0c621528ce7595fa3b445f9425ed194975c48b409952ac9fb9932",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Expected asylum decision and UK warning; relevant, distinct date from existing asylum events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d7a61cafb5b5fed5"
+  },
+  {
+    "candidate_id": "02c0c216878996446ee45146",
+    "time": "2012-06-21",
+    "date_precision": "day",
+    "summary": "Julian Assange is in the Ecuadorian embassy and has asked for political asylum.",
+    "time_range": null,
+    "evidence_ids": [
+      "38782"
+    ],
+    "job_id": "f32ff6220b63de8a73098c7e2504ef4b71232693dde32a2fa4768be3ac30c74e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange in Ecuadorian embassy and asylum request; relevant, no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-325398410b48bff7"
+  },
+  {
+    "candidate_id": "3b2f30c256166fb6049632e7",
+    "time": "2012-06-20",
+    "date_precision": "day",
+    "summary": "Julian Assange takes refuge in the Ecuadorian embassy in London, where he remains outside the reach of UK authorities but can be arrested if he leaves.",
+    "time_range": null,
+    "evidence_ids": [
+      "38986"
+    ],
+    "job_id": "0c3a1aa398ad346934a2ead437aedd725e80c64a1c51d9ec0d8f59c59c80ce58",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange takes refuge in Ecuadorian embassy; relevant milestone, distinct date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f338794fc5b08ca3"
+  },
+  {
+    "candidate_id": "c0cbc342b24c43b47438fef1",
+    "time": "2016-02-04",
+    "date_precision": "day",
+    "summary": "Julian Assange says he will leave the Ecuadorian embassy in London if a United Nations panel rules against his claim that he is being illegally detained.",
+    "time_range": null,
+    "evidence_ids": [
+      "38627"
+    ],
+    "job_id": "6935c696ffac46d2c7619d2d5839a796fd779d1eebdb38ef01a50177b006fe1a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange conditional departure statement tied to UN panel; relevant and distinct.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-208fb8d84a2c11ac"
+  },
+  {
+    "candidate_id": "086a92caff7f73a9cdff3cc8",
+    "time": "2014-08-17",
+    "date_precision": "day",
+    "summary": "Ecuador reaffirms the political asylum granted to Julian Assange two years ago and reiterates its request for safe passage so he can travel to Ecuadorian territory.",
+    "time_range": null,
+    "evidence_ids": [
+      "38666"
+    ],
+    "job_id": "dc20b856ce8aa0acacda76545279958e41d48224287a5014b595bf34904dfa5f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Ecuador reaffirms Assange asylum and safe passage request; relevant, no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ff5957c4311ab731"
+  },
+  {
+    "candidate_id": "0848db7f1968cd62c7d86e20",
+    "time": "2015-10-15",
+    "date_precision": "day",
+    "summary": "The Metropolitan police confirmed that Julian Assange would be arrested if he left the Ecuadorian embassy in London to go to hospital for a medical examination.",
+    "time_range": null,
+    "evidence_ids": [
+      "38647"
+    ],
+    "job_id": "3ca548f85e0c1f47867afa3115713ee553770c52cdfb62b2fdeaf7360615ab7d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: police confirm Assange would be arrested if he left the embassy for hospital.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a33fce2bde0c164e"
+  },
+  {
+    "candidate_id": "5f328aa589248b3005c942a6",
+    "time": "2016-02-04",
+    "date_precision": "day",
+    "summary": "A United Nations panel concluded that Julian Assange's three-and-a-half years in the Ecuadorian embassy amount to arbitrary detention, though the finding is not legally binding and Sweden and the UK disputed it.",
+    "time_range": null,
+    "evidence_ids": [
+      "38589"
+    ],
+    "job_id": "baee781b101b3dafd57b79d90ca59edbe9bc9f19dd848367c266000c73482f72",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: UN panel concludes Assange's embassy stay amounts to arbitrary detention.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0ef6c2f76cf350e9"
+  },
+  {
+    "candidate_id": "98a4be988fdffdf789d67a43",
+    "time": "2015-10-12",
+    "date_precision": "day",
+    "summary": "Scotland Yard called off its 24-hour surveillance of the Ecuadorian embassy where Julian Assange has been living, though it said the operation to arrest him continues.",
+    "time_range": null,
+    "evidence_ids": [
+      "38604"
+    ],
+    "job_id": "66439f9d781090d88e9cc0fb486feedcf20e593d1610d5a1cadfd9de3e6b74bb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Scotland Yard ends 24-hour embassy surveillance while arrest operation continues.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0b4b888d1d49919c"
+  },
+  {
+    "candidate_id": "e92c9850763a4dde424bd201",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "39075"
+    ],
+    "job_id": "4032d76fb99cbc246a7d93ceeb4da8367289df01a4b21284c7a74b3d81e91935",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Not related to Julian Assange; concerns Bush and Clinton tsunami donation appeal.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "6d5831115a475adbc78c78cb",
+    "time": "2010-12-03",
+    "date_precision": "day",
+    "summary": "Swedish prosecutors issued a fresh request to British police to extradite WikiLeaks founder Julian Assange over sex offence allegations, after mistakes in the original European arrest warrant had prevented any move to apprehend him.",
+    "time_range": null,
+    "evidence_ids": [
+      "39111"
+    ],
+    "job_id": "256bac9da5529d70379c845c96d0b2ec4588fbfebf54d168dd2cb9d85f78a7be",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Sweden issues fresh extradition request for Assange after warrant errors.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f08b2ac53d372609"
+  },
+  {
+    "candidate_id": "41ca894d1f76fd769807573f",
+    "time": "2016-10-18",
+    "date_precision": "day",
+    "summary": "Ecuador temporarily restricted Julian Assange's internet access at its London embassy, citing WikiLeaks publications impacting the US election campaign, while the US and Ecuador denied conspiring to silence him.",
+    "time_range": null,
+    "evidence_ids": [
+      "38564"
+    ],
+    "job_id": "9062cbd94d370f04a6e3fac4501c7225d6b561de896703faa67273a791a4c884",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Ecuador restricts Assange's embassy internet access amid WikiLeaks election publications.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ed53c1b36eb9b430"
+  },
+  {
+    "candidate_id": "e5fa0777ca7776c1709ab7e1",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Julian Assange promised over a million WikiLeaks releases in 2013.",
+    "time_range": null,
+    "evidence_ids": [
+      "38795"
+    ],
+    "job_id": "4e2dd87f188a0b3e9efd401dd49cf9a84241c5e6999ce97e92f77ffeeee4ca8a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Assange/WikiLeaks item; unknown date prevents merge with any existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-26bde4d58bf48e97"
+  },
+  {
+    "candidate_id": "a5f51eba2f7397072c9fec56",
+    "time": "2017-06-19",
+    "date_precision": "day",
+    "summary": "Julian Assange cancelled a planned press conference at the Ecuadorian embassy in London where he was to make a \"special announcement,\" reportedly to allow negotiations with UK authorities to proceed.",
+    "time_range": null,
+    "evidence_ids": [
+      "38542"
+    ],
+    "job_id": "e8e7e7bdd514c106967fd5edbeccfcf3baeef76454ac19cae2c6706850bbfe30",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange cancelling a planned embassy press conference is a distinct milestone in his legal/extradition situation.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-730229032ade30ae"
+  },
+  {
+    "candidate_id": "7ea916c86fbf847cbe214cb1",
+    "time": "2014-04",
+    "date_precision": "month",
+    "summary": "Julian Assange is writing a major new book, When Google Met WikiLeaks, to be published in September, recounting his 2011 meeting with Google chairman Eric Schmidt and detailing his vision for the future of the internet.",
+    "time_range": null,
+    "evidence_ids": [
+      "38682"
+    ],
+    "job_id": "b9aacc146986d9b4791dd94e58498f078fbab0fa982faa74b304f9a845cf1498",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange writing a major book is a relevant personal/professional milestone not covered by existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-faf245d8463e8c47"
+  },
+  {
+    "candidate_id": "ef3fb1455e1cef6ee67ea177",
+    "time": "2010-12-18",
+    "date_precision": "day",
+    "summary": "Julian Assange said his life and the lives of his WikiLeaks colleagues are under threat, speaking outside Ellingham Hall after his release on bail.",
+    "time_range": null,
+    "evidence_ids": [
+      "39100"
+    ],
+    "job_id": "0523e81c14ee54b48866257b0bdf102bb3ea49d60c828079e6aafaed61f86277",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange speaking after release on bail is a distinct event; no existing event matches this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5800c0a583c54d6e"
+  },
+  {
+    "candidate_id": "ac1c93f07434052ed1252e9f",
+    "time": "2010-07-26",
+    "date_precision": "day",
+    "summary": "Wikileaks founder Julian Assange said the organisation is working through a backlog of further secret material and expects a substantial increase in whistleblower submissions after publishing more than 92,000 classified US military logs on the Afghanistan war.",
+    "time_range": null,
+    "evidence_ids": [
+      "39178"
+    ],
+    "job_id": "1c3d51285b354fd8bb8f8322832ab5038c79a3eee9269583bd1963820a0b3746",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange commenting on the Afghanistan war logs release is a relevant WikiLeaks milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-494370a0f6c26e10"
+  },
+  {
+    "candidate_id": "4a7302745920c0db59032cb7",
+    "time": "2010-12-07",
+    "date_precision": "day",
+    "summary": "Julian Assange faces mounting pressure as Swedish prosecutors pursue rape, sexual molestation, and unlawful coercion allegations against him, while WikiLeaks faces financial and infrastructure attacks.",
+    "time_range": null,
+    "evidence_ids": [
+      "39172"
+    ],
+    "job_id": "100f478046b9ec293f0db6256df7b07a7dc1463d7e2eb65db0928f322e2a40f6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Mounting Swedish allegations and pressure on WikiLeaks is a distinct relevant development; existing 2010-12-07 event concerns his arrest, not this pressure summary.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-cef2b4af21fa5163"
+  },
+  {
+    "candidate_id": "f89de208fc8b2c5928eb7cfa",
+    "time": "2013-01-23",
+    "date_precision": "day",
+    "summary": "Julian Assange described the forthcoming Hollywood film The Fifth Estate as a \"massive propaganda attack\" on WikiLeaks and an inflammatory attack on Iran during a video-linked talk to students at Oxford University.",
+    "time_range": null,
+    "evidence_ids": [
+      "38723"
+    ],
+    "job_id": "aea5eddca0c112d9cd66a5aef65568e1131ba5ff304b177935b9487702aa7981",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange's criticism of The Fifth Estate is a distinct relevant statement; existing 2013-01-23 event concerns filming, not his remarks.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5737ae26c9a03142"
+  },
+  {
+    "candidate_id": "cb17bdce14edab22f3eec6f7",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Julian Assange's lawyer says the WikiLeaks founder is in 'fighting spirit'.",
+    "time_range": null,
+    "evidence_ids": [
+      "38921"
+    ],
+    "job_id": "0c8f4ac382d8957449f5228c33e870cffe62b7ce2ab274d1214bba93cb4bb023",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Lawyer's comment on Assange's fighting spirit is a relevant but undated item; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3209b4e0093b145e"
+  },
+  {
+    "candidate_id": "1e6e3733e91ff25d106f5b7c",
+    "time": "2013-08-30",
+    "date_precision": "day",
+    "summary": "Ecuador's president Rafael Correa told Julian Assange to stop using the Ecuadorean embassy in London to make fun of Australian politicians during his Senate election campaign, saying he can campaign politically but not mock Australian politicians or people.",
+    "time_range": null,
+    "evidence_ids": [
+      "38721"
+    ],
+    "job_id": "da0c3f3eb4b42e413ad07feec5bfe9cda30d9b7568c777d0a8ebc473a4f8337d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Correa telling Assange not to mock Australian politicians is a distinct relevant development during his embassy stay.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-86803b1bbe0ca8b0"
+  },
+  {
+    "candidate_id": "ef8bc33a888f77f95e8316fc",
+    "time": "2010-06-11",
+    "date_precision": "day",
+    "summary": "US officials are searching for WikiLeaks founder Julian Assange in an attempt to pressure him not to publish thousands of confidential diplomatic cables.",
+    "time_range": null,
+    "evidence_ids": [
+      "39234"
+    ],
+    "job_id": "ae9b42a9bc1630f6ad4befa47505ba99d0e7879078f94a9024c4f91a09bc8e18",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant early milestone: US officials search for Assange over planned cable publication.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a1959bba4fa6dca9"
+  },
+  {
+    "candidate_id": "f55f520e6fa0e91f3b030a6f",
+    "time": "2013-04-11",
+    "date_precision": "day",
+    "summary": "Oliver Stone reveals he met Julian Assange at the Ecuadorian embassy in London and criticises two forthcoming films about the WikiLeaks founder.",
+    "time_range": null,
+    "evidence_ids": [
+      "38726"
+    ],
+    "job_id": "368111ade6f27be5bd913f550327f336f71ae7f83129286d0ee5e9e8247bbf43",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant: Oliver Stone meets Assange at Ecuadorian embassy and comments on films about him.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-dea9b12178a82b4c"
+  },
+  {
+    "candidate_id": "7c164b5cdd4df2eb152f3350",
+    "time": "2010-06-21",
+    "date_precision": "day",
+    "summary": "WikiLeaks founder Julian Assange surfaces in Brussels after nearly a month in hiding, saying he does not fear for his safety but is on permanent alert and has been advised by his lawyers not to travel to the US.",
+    "time_range": null,
+    "evidence_ids": [
+      "39189"
+    ],
+    "job_id": "6c0f16e75e999e10d2f33fc80f36ebdd576074af5842dbe56885fc8feb721ac9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant: Assange surfaces in Brussels after hiding, a distinct timeline development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f3c7f06f29602077"
+  },
+  {
+    "candidate_id": "08533a0d49baf864a3e90aff",
+    "time": "2017-04-20",
+    "date_precision": "day",
+    "summary": "US Attorney General Jeff Sessions says arresting WikiLeaks founder Julian Assange is a priority, and CNN reports authorities have prepared charges against him.",
+    "time_range": null,
+    "evidence_ids": [
+      "38557"
+    ],
+    "job_id": "0d3d672f96b528d3dfee84dcacdd8a98f8068e097042c146c22b86dcc1464ae8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant: US priority on arresting Assange and prepared charges, distinct from later Swedish case closure.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-22327ed7b5398e33"
+  },
+  {
+    "candidate_id": "7b55c1d775d5067ae3b2ff56",
+    "time": "2012-08-24",
+    "date_precision": "day",
+    "summary": "A police officer accidentally revealed a restricted document indicating plans to arrest Julian Assange \"under all circumstances\" if he leaves the Ecuadorean embassy in London.",
+    "time_range": null,
+    "evidence_ids": [
+      "38755"
+    ],
+    "job_id": "6d46517acff8efb2ca82ae77df052be196abc04824369c0652cc03e4ba1a1e39",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant: leaked document reveals plans to arrest Assange if he leaves the embassy.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-689ff8173766fbf4"
+  },
+  {
+    "candidate_id": "a08de87066ee1337f85870a7",
+    "time": "2012-06-19",
+    "date_precision": "day",
+    "summary": "Julian Assange requests political asylum at Ecuador's embassy in London to avoid extradition to Sweden.",
+    "time_range": null,
+    "evidence_ids": [
+      "39082"
+    ],
+    "job_id": "d37a5fe37eaea18f8a3c8b03f2210b2555a799c49f4d31d4626863884e55f1c0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant: Assange requests asylum at Ecuador's London embassy.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-992cbac9a60bbba3"
+  },
+  {
+    "candidate_id": "d363298c778f78040908d742",
+    "time": "2012-08-15",
+    "date_precision": "day",
+    "summary": "Ecuador's foreign minister says Britain has told Ecuador it believes officials can enter its London embassy and arrest Julian Assange, who has been inside the embassy for two months seeking to avoid extradition to Sweden.",
+    "time_range": null,
+    "evidence_ids": [
+      "39008"
+    ],
+    "job_id": "c35ce282816179a08829fe74d29e2f74eca80e9c44f7c2c87a92a6438be26cc8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant: UK belief it can enter embassy to arrest Assange; same date as existing event but distinct development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ecd6321f24c634cc"
+  },
+  {
+    "candidate_id": "a7453786f26c507e12ea48c9",
+    "time": "2010-12-16",
+    "date_precision": "day",
+    "summary": "Julian Assange's barrister Geoffrey Robertson QC described Sweden's three categories of rape in court during Assange's bail hearing, as Assange had not been formally charged and his lawyers disputed whether the European Arrest Warrant was for questioning or prosecution.",
+    "time_range": null,
+    "evidence_ids": [
+      "39021"
+    ],
+    "job_id": "534db0baa7a3b6bcfd780c3e167298d3b59ba3e49607894975755427d3d505f5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant: bail hearing details on Swedish allegations and European Arrest Warrant; distinct from other same-date events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a8cb5367cede6324"
+  },
+  {
+    "candidate_id": "66ecf8f3ca55c5687aa0a5ab",
+    "time": "2012-06-29",
+    "date_precision": "day",
+    "summary": "Julian Assange remained at the Ecuadorean embassy in London after failing to report to police, breaching his bail conditions and becoming liable for arrest.",
+    "time_range": null,
+    "evidence_ids": [
+      "38896"
+    ],
+    "job_id": "4dd0ba9f319663b856539f1e92aaad76378b500541c11c857758aee17d8a2c70",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-1733a10852361cff",
+    "reason": "Same date and same Assange embassy/bail-breach event as existing event-1733a10852361cff.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1733a10852361cff"
+  },
+  {
+    "candidate_id": "4f41c3b3b44f60eb474a1eb5",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "38555"
+    ],
+    "job_id": "158cdc50f1e0a79312b7745278a2840de9f7d1741430a45bc954fd5662c20ac1",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Not related to Julian Assange; concerns Bush/Clinton tsunami donation appeal.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "100cc9e52e6f2e0693563319",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "38673"
+    ],
+    "job_id": "b1fb15cd01963feb080c1343c0e57f814f64e3c34c85986b80e72c674e4124ff",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Not related to Julian Assange; duplicate of unrelated tsunami donation appeal item.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "533e3358375f2dc72db4d991",
+    "time": "2016-02-05",
+    "date_precision": "day",
+    "summary": "A UN working group opinion concludes that Julian Assange has been arbitrarily detained in the Ecuadorian embassy, a finding disputed by one member who argues Assange is a fugitive evading arrest rather than being detained.",
+    "time_range": null,
+    "evidence_ids": [
+      "38609"
+    ],
+    "job_id": "40843f39713658d9740e157ea3df7b91a8d594fad38e32edbb9082b3a52b38b5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant UN arbitrary-detention finding dated 2016-02-05; date differs from existing 2016-02-04 event, so append separately.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d22aa93bce6f0384"
+  },
+  {
+    "candidate_id": "0bcff1858aa6c032b216d26b",
+    "time": "2016-03-24",
+    "date_precision": "day",
+    "summary": "The British government formally asks a United Nations panel to review its finding that Julian Assange is arbitrarily detained in the Ecuadorian embassy in London.",
+    "time_range": null,
+    "evidence_ids": [
+      "38585"
+    ],
+    "job_id": "ec7fcc499dba47e5d06c4835adc1caeeb91c315526ed55e1dc8001098c5d83ad",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct later milestone: UK formally requests UN review of the finding.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-73bda15a03a8fe4f"
+  },
+  {
+    "candidate_id": "ca57181b2e766060a782b56d",
+    "time": "2016-02-05",
+    "date_precision": "day",
+    "summary": "The UN Working Group on Arbitrary Detention is expected to formally publish an opinion that WikiLeaks founder Julian Assange is being arbitrarily detained, a finding the article disputes.",
+    "time_range": null,
+    "evidence_ids": [
+      "38613"
+    ],
+    "job_id": "b43f6df5472dce5dda45590f88311ed6354b01865d50139e67ce701eb9532fff",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant UN opinion on arbitrary detention dated 2016-02-05; date differs from existing 2016-02-04 event, so append separately.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a125888ed84a1ca5"
+  },
+  {
+    "candidate_id": "d33442f30119dcc402bcfbce",
+    "time": "2016-02-05",
+    "date_precision": "day",
+    "summary": "A UN working group declares WikiLeaks founder Julian Assange to be arbitrarily detained, a finding rejected by British newspapers.",
+    "time_range": null,
+    "evidence_ids": [
+      "38610"
+    ],
+    "job_id": "52d8493b5abb09ce6d13888f5da90cf6bdd73db96dbd6686eee98d8eab4d9197",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant UN arbitrary-detention declaration dated 2016-02-05; date differs from existing 2016-02-04 event, so append separately.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fbff488268e7f688"
+  },
+  {
+    "candidate_id": "49b3ba6e1a5d6a70bbdd19cd",
+    "time": "2014-07-16",
+    "date_precision": "day",
+    "summary": "Stockholm city court decides to keep the detention order against WikiLeaks founder Julian Assange.",
+    "time_range": null,
+    "evidence_ids": [
+      "38668"
+    ],
+    "job_id": "c3c2fca4f0b0934a46708a750bb541ed70b63c1c66c1bf36d8485a6f18518b22",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct 2014 Swedish court decision to keep Assange detention order.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-83ed9758bc4b3e7a"
+  },
+  {
+    "candidate_id": "524bea5e49b5caa980609e24",
+    "time": "2016-02-05",
+    "date_precision": "day",
+    "summary": "A UN panel found Julian Assange to be arbitrarily detained and called for his release, but Britain and Sweden rejected the findings and he remained in Ecuador's London embassy.",
+    "time_range": null,
+    "evidence_ids": [
+      "38588"
+    ],
+    "job_id": "bb80cb16bf67f0df58cbda5821057385d51bd8b5813f432265ee30fae2a1d464",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant UN panel finding and rejection by UK/Sweden dated 2016-02-05; date differs from existing 2016-02-04 event, so append separately.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d10efee15f58c977"
+  },
+  {
+    "candidate_id": "b893a1f4edbd1887c587f2a9",
+    "time": "2016-02-04",
+    "date_precision": "day",
+    "summary": "A UN working group on arbitrary detention published a report finding that Julian Assange is effectively being arbitrarily detained in the Ecuadorian embassy, a finding the UK and Swedish governments said they would not comply with.",
+    "time_range": null,
+    "evidence_ids": [
+      "38591"
+    ],
+    "job_id": "2e6a4c30b0b1e4526cef2c80399bd598ed6ec1857255e0b1c634693543f5a590",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-0ef6c2f76cf350e9",
+    "reason": "Same UN arbitrary-detention report dated 2016-02-04; duplicate of existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0ef6c2f76cf350e9"
+  },
+  {
+    "candidate_id": "aec3ff78875eaf407dd9fd16",
+    "time": "2016-02-04",
+    "date_precision": "day",
+    "summary": "A UN panel found that Julian Assange has been arbitrarily detained by the UK and Sweden and should be released immediately with compensation, a finding rejected by both governments.",
+    "time_range": null,
+    "evidence_ids": [
+      "38605"
+    ],
+    "job_id": "c842799346522dc923d157303b31eb1e4fe36f7539775ced7134287d8ef28f99",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-0ef6c2f76cf350e9",
+    "reason": "Same UN panel finding dated 2016-02-04; duplicate of existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0ef6c2f76cf350e9"
+  },
+  {
+    "candidate_id": "07455cb43c8ac97fc3526774",
+    "time": "2016-02-05",
+    "date_precision": "day",
+    "summary": "Julian Assange accused UK Foreign Secretary Philip Hammond of insulting the United Nations after Hammond rejected a UN panel finding that Assange’s circumstances amount to arbitrary detention.",
+    "time_range": null,
+    "evidence_ids": [
+      "38615"
+    ],
+    "job_id": "19db938d322d4a0005716271231402d3dede6ca32b666c880bfc15dd614375ac",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange's reaction to Hammond rejecting the UN arbitrary detention finding; distinct from the UN panel finding events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-13fc749de2d5c252"
+  },
+  {
+    "candidate_id": "c4d78104e06508f6851598ab",
+    "time": "2016-02-07",
+    "date_precision": "day",
+    "summary": "A UN working group issued an arbitrary detention decision concerning Julian Assange, prompting debate over freedom and the rule of law.",
+    "time_range": null,
+    "evidence_ids": [
+      "38582"
+    ],
+    "job_id": "94ee6911e5be36a9125e6c6075653de3a92555dc9e82dc600f2c848363d16e0a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "UN arbitrary detention decision dated 2016-02-07; date differs from existing 2016-02-05 events, so no merge.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f87b4bcdeea57708"
+  },
+  {
+    "candidate_id": "592dfedbadc4728323912701",
+    "time": "2016-09-09",
+    "date_precision": "day",
+    "summary": "Sweden's court of appeal will debate whether to grant Julian Assange an open court hearing in his renewed campaign to rescind the arrest warrant against him.",
+    "time_range": null,
+    "evidence_ids": [
+      "38570"
+    ],
+    "job_id": "bdf9cde85ad20fa6f2d7c3d617de55dcae866352e376aac63c32e6685e8b750f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Swedish appeal court hearing on Assange's arrest warrant; distinct legal milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f10ce0cd18605f2b"
+  },
+  {
+    "candidate_id": "47e4f518697bf3bc388979c6",
+    "time": "2011-02-07",
+    "date_precision": "day",
+    "summary": "Julian Assange appears in court for a two-day hearing to resist extradition to Sweden, where he is wanted for questioning over allegations of rape, molestation and unlawful coercion, which he denies.",
+    "time_range": null,
+    "evidence_ids": [
+      "39022"
+    ],
+    "job_id": "1d24465dbd8fac291c22cd64dbc3378d3fd66c74ba23fd2451f94bbc32824026",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-96e9b6143cca98b0",
+    "reason": "Same 2011-02-07 extradition hearing as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-96e9b6143cca98b0"
+  },
+  {
+    "candidate_id": "27ff598297271171cde7aef8",
+    "time": "2011-03-03",
+    "date_precision": "day",
+    "summary": "Lawyers for WikiLeaks founder Julian Assange lodged papers to appeal against his extradition from Britain to Sweden to face allegations of rape and sexual assault.",
+    "time_range": null,
+    "evidence_ids": [
+      "38985"
+    ],
+    "job_id": "f44106f37e4e04f289779f49d15931aec04620e32348e3512f3ff3121f027aa3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Appeal filing against extradition; distinct dated legal step.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d5f606464e74dabf"
+  },
+  {
+    "candidate_id": "9ad42d203ab4bf15db93dfff",
+    "time": "2011-02-23",
+    "date_precision": "day",
+    "summary": "A Matrix Chambers barrister predicted it is \"very likely\" that a senior district judge will order Julian Assange's extradition to Sweden to face sexual assault charges, dismissing his defence team's preliminary arguments.",
+    "time_range": null,
+    "evidence_ids": [
+      "39128"
+    ],
+    "job_id": "e11107688f6121469e1a26dc904534d21c8fd2f572b729b16f8ebd038b6365f4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Prediction about extradition ruling; distinct 2011-02-23 development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b3e83dcd0f54513a"
+  },
+  {
+    "candidate_id": "550af3e42b8c7366a92bb8b9",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Julian Assange is fighting extradition to Sweden, a case described as the tip of the iceberg amid broader concerns about Europe's fast-track extradition system.",
+    "time_range": null,
+    "evidence_ids": [
+      "39223"
+    ],
+    "job_id": "e8abf81242d020672fc4244a55676a73b83efb0d52b4629a14cf6dfb98c5399a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange extradition fight framed within broader European extradition concerns; no date match for merge.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e1f660f1f68462a2"
+  },
+  {
+    "candidate_id": "724b0bfbf55471e8f9e07f9c",
+    "time": "2010-12-06",
+    "date_precision": "day",
+    "summary": "Julian Assange was denied bail by a London judge over Swedish sexual assault allegations and was remanded in Wandsworth prison until 14 December.",
+    "time_range": null,
+    "evidence_ids": [
+      "39114"
+    ],
+    "job_id": "88ca2096de830a7de946da6323824ac9e4949a263f52da2ebc805ca7615a0816",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Bail denial and remand; distinct 2010-12-06 event from existing police-meeting event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fc1263b14cff7826"
+  },
+  {
+    "candidate_id": "d4bc3f7fb38372cb23e99a99",
+    "time": "2010-12-08",
+    "date_precision": "day",
+    "summary": "A disaffected former colleague of Julian Assange, Daniel Domscheit-Berg, prepares to publish a tell-all book about WikiLeaks, as Assange faces denied bail over sexual assault allegations and financial and server setbacks.",
+    "time_range": null,
+    "evidence_ids": [
+      "39298"
+    ],
+    "job_id": "2a416e0af11f2a265ce65b2936dd4dba0ad8abc2d5b1cfec0fcdfa1d727910b6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Assange/WikiLeaks milestone: former colleague's tell-all book and Assange's bail/financial setbacks.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4b08a3bf7ceb5ee4"
+  },
+  {
+    "candidate_id": "15b1aa06cd9948b8563bdc8a",
+    "time": "2011-02-04",
+    "date_precision": "day",
+    "summary": "A book titled \"Wikileaks: Inside Julian Assange's War on Secrecy\" by Guardian journalists David Leigh and Luke Harding is published.",
+    "time_range": null,
+    "evidence_ids": [
+      "39219"
+    ],
+    "job_id": "efd8437818aa6929a5c9c2282260aa8d4df88eb121fc96c11d94f6820f9c3847",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant publication milestone: Guardian journalists' WikiLeaks/Assange book.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-716176309c2c32c5"
+  },
+  {
+    "candidate_id": "5fefe2c160d02851f2ab40c3",
+    "time": "2010-12-21",
+    "date_precision": "day",
+    "summary": "Julian Assange is reported to have sold his memoirs to publishers Canongate in the UK and Knopf in the US, though Canongate refused to confirm or deny the story.",
+    "time_range": null,
+    "evidence_ids": [
+      "39042"
+    ],
+    "job_id": "d3bffa6bb9a74f3b2414ee206ef8883440dbb748bc26283597e500941e30128a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Assange memoir deal milestone; no matching existing event date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2168ad22ed714cf5"
+  },
+  {
+    "candidate_id": "02b96c0436ee7bfb8e4d91b3",
+    "time": "2012-11-26",
+    "date_precision": "day",
+    "summary": "Julian Assange's book \"Cypherpunks: Freedom and the Future of the Internet\" is published.",
+    "time_range": null,
+    "evidence_ids": [
+      "38823"
+    ],
+    "job_id": "4d537669c490ed73a7bb9f7ed5a47fc89bc07a8783099420c29f103551d143a2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Assange-authored book publication milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fe4ffd847e308e57"
+  },
+  {
+    "candidate_id": "049a9ab92c94713905141cdc",
+    "time": "2016-05-19",
+    "date_precision": "day",
+    "summary": "WikiLeaks representative Jacob Appelbaum said at a Cannes Q&A that Julian Assange would find life no easier under a President Hillary Clinton, citing Clinton's displeasure over the Cablegate leak.",
+    "time_range": null,
+    "evidence_ids": [
+      "38592"
+    ],
+    "job_id": "47197524c6d99c99a48af8d8cc0434f9df6516903266b18b93092696919a55b5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Assange/WikiLeaks political outlook statement; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f2278693b51c2fbb"
+  },
+  {
+    "candidate_id": "00da47ba33627ff0f304fac7",
+    "time": "2011-09-22",
+    "date_precision": "day",
+    "summary": "Canongate publishes Julian Assange's unauthorised autobiography against his will after he cancelled his contract and could not repay his advance.",
+    "time_range": null,
+    "evidence_ids": [
+      "39061"
+    ],
+    "job_id": "d876f8e2939def55f98ef7aa9102f3e9cd8e81100240cf141366ebd791538beb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-c0f136ee0cf51de8",
+    "reason": "Same 2011-09-22 Canongate unauthorised autobiography event as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c0f136ee0cf51de8"
+  },
+  {
+    "candidate_id": "b10c9a10013515a50b89738a",
+    "time": "2017-07-02",
+    "date_precision": "day",
+    "summary": "A recut of Laura Poitras's documentary portrait of Julian Assange, updated to reflect WikiLeaks's involvement in leaking Democratic National Committee emails, is reviewed.",
+    "time_range": null,
+    "evidence_ids": [
+      "38541"
+    ],
+    "job_id": "3bc7654b762b85c7388c9ca6173d713326441ae92bb86f15968f4fcf50dbdcb0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Assange documentary milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-31018992d1fcf8f4"
+  },
+  {
+    "candidate_id": "326fe6de4eab9007f6c58055",
+    "time": "2012-08-16",
+    "date_precision": "day",
+    "summary": "Ecuador grants political asylum to Julian Assange, prompting a diplomatic row with the UK and Sweden.",
+    "time_range": null,
+    "evidence_ids": [
+      "38882"
+    ],
+    "job_id": "8f9a35bfd96cd96dbf9597b823e12789a99cee0839510f75c1f6d7d82133c93e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Ecuador granting Assange asylum is a major milestone; distinct from the prior expected-announcement event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2c07bf2bdd5bdb15"
+  },
+  {
+    "candidate_id": "4a50b48960f8f68ac192add4",
+    "time": "2014-08-18",
+    "date_precision": "day",
+    "summary": "Ecuador's foreign minister accuses the British government of violating Julian Assange's human rights and having no real interest in finding a diplomatic solution to his confinement in Ecuador's London embassy.",
+    "time_range": null,
+    "evidence_ids": [
+      "38667"
+    ],
+    "job_id": "2036bc18aba573db5de5b1f5a95035674f80bdc1d4b8195a6bf9bbd21b4d46a2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Ecuador's accusation against the UK over Assange's confinement is a relevant diplomatic development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a623794ac968389c"
+  },
+  {
+    "candidate_id": "506f3f9b4698d33045d9aba2",
+    "time": "2012-06-20",
+    "date_precision": "day",
+    "summary": "Julian Assange sought political asylum at the Ecuadorean embassy in London after the UK Supreme Court rejected his appeal against extradition to Sweden.",
+    "time_range": null,
+    "evidence_ids": [
+      "38844"
+    ],
+    "job_id": "7305ca4da61903935dd02e7a4f4f65fbe4517691d0fa16fa88531ef4dc48a47b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-f338794fc5b08ca3",
+    "reason": "Same 2012-06-20 event of Assange seeking refuge at the Ecuadorian embassy.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f338794fc5b08ca3"
+  },
+  {
+    "candidate_id": "f6953f99361cdce9ae61938d",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "38732"
+    ],
+    "job_id": "86f8268a39a24990260690fe8dbf46c51016ae521d0bd8b45104b6a4210efb5e",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Unrelated to Julian Assange; concerns tsunami donation appeal.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "4a0e269fe2957e96c0147d96",
+    "time": "2015-08-13",
+    "date_precision": "day",
+    "summary": "Swedish prosecutors dropped investigations into some sexual assault allegations against Julian Assange after the statute of limitations expired, but said they would continue to pursue an interview over an outstanding rape allegation.",
+    "time_range": null,
+    "evidence_ids": [
+      "38637"
+    ],
+    "job_id": "9d8f7d5ff359b6a2181285cea09c5203ef2b889be4f1604b41e244563858565f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Swedish prosecutors dropping some Assange allegations is a relevant legal milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ba4a0c31f6081db5"
+  },
+  {
+    "candidate_id": "03f65c604c78b76edc3c8c97",
+    "time": "2010-12-16",
+    "date_precision": "day",
+    "summary": "Britain's high court granted bail to WikiLeaks founder Julian Assange, who is wanted in Sweden for questioning over allegations of rape.",
+    "time_range": null,
+    "evidence_ids": [
+      "39040"
+    ],
+    "job_id": "d4db862c3971bdaf16cbe202368a0f1ac5d1e71c82fe49f552417da9bc1549c7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-642ba4df8ee446a9",
+    "reason": "Same 2010-12-16 event of Assange being granted bail.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-642ba4df8ee446a9"
+  },
+  {
+    "candidate_id": "1ed096cbc4edffd267cdaa62",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "39033"
+    ],
+    "job_id": "82a75b3db3e21eb2f6eb8e685d43204ba6a8e4c8ac231b6494a2d93211ab3ef7",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Duplicate irrelevant tsunami donation item; unrelated to Assange.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "811fbefcdb8b4034b05da237",
+    "time": "2010-12-15",
+    "date_precision": "day",
+    "summary": "UK authorities, not Swedish prosecutors, made the decision to keep Julian Assange in a London jail and oppose his bail, as confirmed by the Swedish prosecutor's office.",
+    "time_range": null,
+    "evidence_ids": [
+      "39106"
+    ],
+    "job_id": "ce913e1e8177fa2a0ea54cb1937a378ba4e9835e565cd03e4a2056a5afd509df",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant detail on UK authorities' role in Assange's detention and bail opposition; distinct date from bail grant.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-09773b926bc4595d"
+  },
+  {
+    "candidate_id": "8b922fcd25cec7969bb46d3b",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "39051"
+    ],
+    "job_id": "d58f11da0e88704e7e818a4d8dd2a13f1d27804e3ef8b4f0a0bcc96bd1991b37",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Relates to tsunami fundraising by former US presidents, not Julian Assange.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "2f99e450522855201e8c6268",
+    "time": "2010-12-07",
+    "date_precision": "day",
+    "summary": "WikiLeaks founder Julian Assange was refused bail and remanded in custody until 14 December over claims he committed sex offences in Sweden.",
+    "time_range": null,
+    "evidence_ids": [
+      "39051"
+    ],
+    "job_id": "d58f11da0e88704e7e818a4d8dd2a13f1d27804e3ef8b4f0a0bcc96bd1991b37",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-1e01b927c89b4d0a",
+    "reason": "Same date and subject: Assange remanded in custody over Swedish sex offence claims, matching the existing 2010-12-07 arrest/remand event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1e01b927c89b4d0a"
+  },
+  {
+    "candidate_id": "14dbcacb0ead912e36de47d1",
+    "time": "2012-06-14",
+    "date_precision": "day",
+    "summary": "The UK Supreme Court reaffirmed its rejection of Julian Assange's appeal against extradition to Sweden and dismissed a last-minute application to reopen the case.",
+    "time_range": null,
+    "evidence_ids": [
+      "38950"
+    ],
+    "job_id": "f6c888ce1889d28b9227a225e86d35063bff654b103513c41499ed54096016fe",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Assange extradition milestone: UK Supreme Court reaffirmed rejection of his appeal on 2012-06-14, a distinct later event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-cc5c9ec6d0c6da6e"
+  },
+  {
+    "candidate_id": "e9858279d03e0eac472402c9",
+    "time": "2017-02-09",
+    "date_precision": "day",
+    "summary": "Ecuadorian presidential candidate Guillermo Lasso said he would give Julian Assange 30 days' notice to leave the Ecuadorian embassy if he wins the presidency.",
+    "time_range": null,
+    "evidence_ids": [
+      "38551"
+    ],
+    "job_id": "def58923538d370ccfd93f72d00f870888529f007e578e8e78fd86d6dbb4055d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Ecuadorian presidential candidate's pledge to give Assange 30 days' notice to leave the embassy.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f0c41f9d7b142d76"
+  },
+  {
+    "candidate_id": "604bb79bff49afed03730157",
+    "time": "2014-08-18",
+    "date_precision": "day",
+    "summary": "Julian Assange confirms he is to leave the Ecuadorian embassy \"soon,\" though not for the reasons reported by Sky News, and remains ready to leave if the police siege ends and he is offered safe passage.",
+    "time_range": null,
+    "evidence_ids": [
+      "38655"
+    ],
+    "job_id": "32c7c24786c4dce836b0647d4386973def0b25b398390595a3d0c5e7f1e47dfa",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-0e890046f3606d05",
+    "reason": "Same date and duplicate identity: Assange says he is leaving the Ecuadorian embassy.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0e890046f3606d05"
+  },
+  {
+    "candidate_id": "f13ae6a491840515529f1d7d",
+    "time": "2015-07-03",
+    "date_precision": "day",
+    "summary": "The French government rejected Julian Assange's asylum request, stating he was not in immediate danger.",
+    "time_range": null,
+    "evidence_ids": [
+      "38640"
+    ],
+    "job_id": "2718f9bd9add7e13cdfd44b98148ffeeff6f7efde5d61273128cc0ff115571f9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: France rejected Assange's asylum request.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fac1b586d62e4727"
+  },
+  {
+    "candidate_id": "bbf136ed06c30eb7b85a0158",
+    "time": "2011-02-24",
+    "date_precision": "day",
+    "summary": "Julian Assange spoke on the steps of Belmarsh court after a district judge ruled against him in his extradition case to Sweden, where he faces sexual misconduct accusations.",
+    "time_range": null,
+    "evidence_ids": [
+      "39126"
+    ],
+    "job_id": "6859c281ad4d20fa7f0538189352ec7371ab48926fd3c466da5b9050f670d4b3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-a0dd6e80040c3003",
+    "reason": "Same date and duplicate identity: Assange loses extradition ruling at Belmarsh court.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a0dd6e80040c3003"
+  },
+  {
+    "candidate_id": "0ab19678efad3687514f2436",
+    "time": "2010-12-16",
+    "date_precision": "day",
+    "summary": "Julian Assange was freed on bail from custody after a court hearing in London, following his arrest on sex assault charges he denies.",
+    "time_range": null,
+    "evidence_ids": [
+      "39020"
+    ],
+    "job_id": "5288c35c67cd1ca5362fcb9053059fad5c090714654a4a562938909fa14c655b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-642ba4df8ee446a9",
+    "reason": "Same date and duplicate identity: Assange granted bail.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-642ba4df8ee446a9"
+  },
+  {
+    "candidate_id": "8351545dd86476c7aec72e8d",
+    "time": "2017-05-19",
+    "date_precision": "day",
+    "summary": "Swedish prosecutors dropped their rape investigation into Julian Assange, but he still faces arrest in the UK for breaching bail conditions and possible extradition to the US.",
+    "time_range": null,
+    "evidence_ids": [
+      "38554"
+    ],
+    "job_id": "ed95da630de6c73f2c65854e2106df8dbf5fe2a94f13f105dd2939c3d87f5bab",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-113e357f24f33ec4",
+    "reason": "Same date and duplicate identity: Swedish prosecutors drop rape investigation into Assange.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-113e357f24f33ec4"
+  },
+  {
+    "candidate_id": "4165953c87336ecfa70e094c",
+    "time": "2011-09-02",
+    "date_precision": "day",
+    "summary": "Australia's attorney general confirmed WikiLeaks' unredacted cable release identified at least one Australian intelligence officer, and Julian Assange could face prosecution in Australia as a result.",
+    "time_range": null,
+    "evidence_ids": [
+      "38972"
+    ],
+    "job_id": "442b914e50eef5e080569c374b7b75fdbc016db426125b92190d65478233b9ba",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Australia's attorney general said Assange could face prosecution over unredacted cable release.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3327b467eb73817a"
+  },
+  {
+    "candidate_id": "6de8d6b545eb2292f41b375d",
+    "time": "2012-05-30",
+    "date_precision": "day",
+    "summary": "Julian Assange loses extradition appeal.",
+    "time_range": null,
+    "evidence_ids": [
+      "38807"
+    ],
+    "job_id": "400a4c7ba51747bf6174c62b3dd5c1e3f90f7c536eb33731e3d3dd6cca24c268",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Assange loses extradition appeal; distinct date from other extradition events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-081d613ae7c563b6"
+  },
+  {
+    "candidate_id": "8cf5e3b3f67d816e7f66139d",
+    "time": "2012-12-13",
+    "date_precision": "day",
+    "summary": "Julian Assange revealed his intention to run for a Senate seat in the 2013 Australian federal election.",
+    "time_range": null,
+    "evidence_ids": [
+      "38747"
+    ],
+    "job_id": "35fc86326e1592edba318714e72541a5a827e3f7814cec5a50494bd5b7aa260a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange's stated intention to run for an Australian Senate seat is a distinct milestone in his political involvement; no existing event shares this date or content.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e9af3a26968ac373"
+  },
+  {
+    "candidate_id": "2a8b36a986ee81a3824b45f0",
+    "time": "2012-06-19",
+    "date_precision": "day",
+    "summary": "WikiLeaks founder Julian Assange sought political asylum at the Ecuadorean embassy in London, sparking a legal crisis over his extradition case.",
+    "time_range": null,
+    "evidence_ids": [
+      "38906"
+    ],
+    "job_id": "1bee85246d684e8224aefd5a5d1232c597c0ecbb681ff2a201c70277ad067127",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-992cbac9a60bbba3",
+    "reason": "Same date and event: Assange seeking asylum at Ecuador's London embassy.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-992cbac9a60bbba3"
+  },
+  {
+    "candidate_id": "e7b22623b7770d861f897ac0",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "39124"
+    ],
+    "job_id": "e658b216f3aa548874442942be805d6c9a35547a00e9ccbdaf75d3fd48911af4",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Not related to Julian Assange; concerns tsunami fundraising by former presidents.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "7e076da6da8f853ae0cccb92",
+    "time": "2010-08-22",
+    "date_precision": "day",
+    "summary": "WikiLeaks founder Julian Assange denies allegations of rape and sexual molestation after a Swedish arrest warrant was issued and then withdrawn.",
+    "time_range": null,
+    "evidence_ids": [
+      "39124"
+    ],
+    "job_id": "e658b216f3aa548874442942be805d6c9a35547a00e9ccbdaf75d3fd48911af4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange denying rape and molestation allegations is a relevant milestone; date differs from existing warrant-revocation event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8b2ea4a56d58ba27"
+  },
+  {
+    "candidate_id": "4c92fbf8ac84b85a82166c38",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "38910"
+    ],
+    "job_id": "c2167383bae18fa01433b3d238254bb82a6f8908e93fed882420cf1b04a45119",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Clinton tsunami fundraising appeal is unrelated to Julian Assange.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "87758c95934c0a4868b38f20",
+    "time": "2012-06-19",
+    "date_precision": "day",
+    "summary": "Julian Assange enters the Ecuadorian embassy in London, requesting political asylum.",
+    "time_range": null,
+    "evidence_ids": [
+      "38910"
+    ],
+    "job_id": "c2167383bae18fa01433b3d238254bb82a6f8908e93fed882420cf1b04a45119",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-992cbac9a60bbba3",
+    "reason": "Same 2012-06-19 event: Assange requests asylum at Ecuadorian embassy.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-992cbac9a60bbba3"
+  },
+  {
+    "candidate_id": "14308035c3533aabbb119167",
+    "time": "2010-12-14",
+    "date_precision": "day",
+    "summary": "Julian Assange's bail application and the threat of extradition to Sweden are discussed, with critics arguing Sweden has not laid charges and should instead use mutual legal assistance to question him.",
+    "time_range": null,
+    "evidence_ids": [
+      "39238"
+    ],
+    "job_id": "d44b75e3728a4027f15533fd2d4b9141f5077182ec0e162442f3b24898adb769",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-2d58f4eeff972c63",
+    "reason": "Same 2010-12-14 event: Assange bail/extradition discussion.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2d58f4eeff972c63"
+  },
+  {
+    "candidate_id": "e1773ebfca9e91c79872aa2b",
+    "time": "2012-05-30",
+    "date_precision": "day",
+    "summary": "The UK Supreme Court is expected to deliver its verdict on Julian Assange's appeal against extradition to Sweden, where he faces allegations of rape and sexual assault.",
+    "time_range": null,
+    "evidence_ids": [
+      "38855"
+    ],
+    "job_id": "f0ebef73782ef5dc5d88374838ea492cd50ac1585307f35d79f9d6b4cb5ce590",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-081d613ae7c563b6",
+    "reason": "Same 2012-05-30 event: UK Supreme Court extradition appeal verdict.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-081d613ae7c563b6"
+  },
+  {
+    "candidate_id": "510979079335b8134707862d",
+    "time": "2011-02-24",
+    "date_precision": "day",
+    "summary": "Julian Assange is preparing to learn whether Sweden has been successful in its attempt to extradite him over rape and sexual assault allegations, with a ruling due on Thursday.",
+    "time_range": null,
+    "evidence_ids": [
+      "39017"
+    ],
+    "job_id": "98f9c6ffdaed132514c81b1557e3722509b235142d483d209053f35ef0755bbc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-a0dd6e80040c3003",
+    "reason": "Same 2011-02-24 event: ruling on Swedish extradition attempt.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a0dd6e80040c3003"
+  },
+  {
+    "candidate_id": "760c2f11f732eb328009a508",
+    "time": "2015-10-12",
+    "date_precision": "day",
+    "summary": "The Metropolitan police announce that permanent patrols outside the Ecuadorian embassy, in place since Julian Assange arrived, will be ended as they are \"no longer proportionate.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "38543"
+    ],
+    "job_id": "fb8faa3ecfbf5869b6c5f2a6e96408f6fdd1d249e0c6c75f09cdfb4cbd7e4206",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-0b4b888d1d49919c",
+    "reason": "Same 2015-10-12 event: Metropolitan police end embassy patrols.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0b4b888d1d49919c"
+  },
+  {
+    "candidate_id": "ef8a46784efafb309fe07c6e",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "39079"
+    ],
+    "job_id": "e4602569e55d3fbbcd82fbb64c410bf075e2fe3d101c70fdbd939441b144e845",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Duplicate of unrelated Bush/Clinton tsunami fundraising item; not Assange-related.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "3ef2b3ca7875fee4bac7f638",
+    "time": "2010-12",
+    "date_precision": "month",
+    "summary": "WikiLeaks, led by Julian Assange, released hundreds of classified US embassy cables, after which Assange was forced into hiding and faced an extradition case over an alleged rape in Sweden.",
+    "time_range": null,
+    "evidence_ids": [
+      "38923"
+    ],
+    "job_id": "1c4a797ac6adf1a6091560cee26005301a6bae0be4b60d6fdec8eb39b6098706",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Month-precision 2010-12 WikiLeaks cable release and Assange hiding/extradition context; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-145c65377999e465"
+  },
+  {
+    "candidate_id": "0e0809b74a5743750d765eef",
+    "time": "2011-02-14",
+    "date_precision": "day",
+    "summary": "WikiLeaks founder Julian Assange applied to trademark his name for use in public speaking, journalism, and entertainment services.",
+    "time_range": null,
+    "evidence_ids": [
+      "39050"
+    ],
+    "job_id": "64ca77ff4bf29229e84fbb7c40a12e944dd37f5555e8da3052e5025e0b2b071a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange trademarking his name is a distinct personal/business milestone not covered by existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d06c6bcd056d2b29"
+  },
+  {
+    "candidate_id": "76bcda77e1d09432d04a47b9",
+    "time": "2010-07-09",
+    "date_precision": "day",
+    "summary": "WikiLeaks founder Julian Assange is scheduled to speak at the Centre for Investigative Journalism summer school at City University London.",
+    "time_range": null,
+    "evidence_ids": [
+      "39319"
+    ],
+    "job_id": "9227287f845ac140997c9b64c6da5998ac191a6bc04ee67809a1b5d34003c968",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Scheduled speaking appearance is a relevant early public milestone with no duplicate in existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1eea01a80e2af479"
+  },
+  {
+    "candidate_id": "79a1f964cc8e110aafea64a3",
+    "time": "2010-11-18",
+    "date_precision": "day",
+    "summary": "A Swedish court approves a request by prosecutors to detain Julian Assange for questioning on suspicion of rape, sexual molestation and unlawful coercion, and prosecutors say they will seek his arrest through Interpol.",
+    "time_range": null,
+    "evidence_ids": [
+      "39119"
+    ],
+    "job_id": "e3fd82a224a964b3c3470e4c1afe910daf0a08eb214357c12ad32b5db5870686",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Swedish court detention approval is a key legal milestone distinct from existing extradition events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1e1cbccc9f555161"
+  },
+  {
+    "candidate_id": "6645b45ce5d23de9e609c819",
+    "time": "2014-07-16",
+    "date_precision": "day",
+    "summary": "A Swedish court held a public hearing to decide whether to lift the arrest warrant on Julian Assange, with the judge obliged to issue a ruling the same day.",
+    "time_range": null,
+    "evidence_ids": [
+      "38657"
+    ],
+    "job_id": "05510175f9420b7e0a20aac71d2a07f9336c7caea0a610f305a0b0ce7adb3d40",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-83ed9758bc4b3e7a",
+    "reason": "Same date and same Stockholm court proceeding on the detention order as the existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-83ed9758bc4b3e7a"
+  },
+  {
+    "candidate_id": "995a82ed1f4aa42cb25179a8",
+    "time": "2015-02-25",
+    "date_precision": "day",
+    "summary": "Julian Assange's lawyers ask Sweden's supreme court to lift the arrest warrant against him, arguing that his confinement in the Ecuadorian embassy is unreasonable and disproportionate.",
+    "time_range": null,
+    "evidence_ids": [
+      "38642"
+    ],
+    "job_id": "6c226116336cea2df35c1b3d8c690f7777f3239a4a43e9af4bb5b036e4d8863f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Supreme court appeal to lift the arrest warrant is a distinct legal milestone not duplicated.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-adec05f09c5d44e0"
+  },
+  {
+    "candidate_id": "191d1642e6f1297fbd0bfd13",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "38650"
+    ],
+    "job_id": "578adb46cde1d1f4cdf1bd5103fbee457f84206ffa37dfa0268961818d2eb6a7",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Clinton tsunami donation appeal is unrelated to Julian Assange.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "920ccdb3a49c85740ac87221",
+    "time": "2014-11-20",
+    "date_precision": "day",
+    "summary": "Stockholm's appeal court rejects Julian Assange's lawyers' demand to lift the arrest warrant against him.",
+    "time_range": null,
+    "evidence_ids": [
+      "38650"
+    ],
+    "job_id": "578adb46cde1d1f4cdf1bd5103fbee457f84206ffa37dfa0268961818d2eb6a7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Appeal court rejection of lifting the arrest warrant is a distinct legal development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c8fd9e241565e777"
+  },
+  {
+    "candidate_id": "eef52b38c8eb4bff7f261a84",
+    "time": "2012-02-02",
+    "date_precision": "day",
+    "summary": "The UK Supreme Court heard arguments on the second day of Julian Assange's appeal against extradition to Sweden, with Sweden's legal representative defending the European arrest warrant as validly issued by a public prosecutor.",
+    "time_range": null,
+    "evidence_ids": [
+      "38916"
+    ],
+    "job_id": "306c88ccc30a46e5ff248ffb103e372dd9aacfd2947c2f1f0fa45e1db4b88c3b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "UK Supreme Court extradition appeal hearing is a distinct legal milestone not covered by existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4eff9f3862a7c3ce"
+  },
+  {
+    "candidate_id": "ac74b51862caee768c046a1a",
+    "time": "2010-12-01",
+    "date_precision": "day",
+    "summary": "Julian Assange's lawyer disputed the validity of a Swedish arrest warrant for rape allegations, saying it was improperly certified and that Assange denies the accusations.",
+    "time_range": null,
+    "evidence_ids": [
+      "39174"
+    ],
+    "job_id": "644b4694dbeae0013b636a1205ce66a78a59242ce69f15b74b3826b253f1b14b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in Assange's Swedish legal proceedings; distinct date from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-799dbff87f314e14"
+  },
+  {
+    "candidate_id": "83019c78fbedc9842bead62d",
+    "time": "2010-12-02",
+    "date_precision": "day",
+    "summary": "Swedish authorities issue a new arrest warrant for Julian Assange over sexual crime allegations, which he denies.",
+    "time_range": null,
+    "evidence_ids": [
+      "39110"
+    ],
+    "job_id": "e3727e1ea553fd456d5f4e6f8cfa4d3d6b67706c42f923004a2ab07a73451528",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant development in the Swedish arrest warrant case; no same-date existing event to merge with.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-28b2c34d975802dd"
+  },
+  {
+    "candidate_id": "feead919fd044f6bc5b1802f",
+    "time": "2016-02-10",
+    "date_precision": "day",
+    "summary": "David Cameron says Julian Assange should leave the Ecuadorian embassy and submit to a Swedish arrest warrant over rape allegations, dismissing a UN panel finding of arbitrary detention as ridiculous.",
+    "time_range": null,
+    "evidence_ids": [
+      "38590"
+    ],
+    "job_id": "0381e27fd7dfb9369680ac1e8fb54624fd8543a94d2ea24f1aa7b1623f40e839",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant political reaction to the UN arbitrary detention finding; distinct date from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9bc574d1bebfe23f"
+  },
+  {
+    "candidate_id": "249899694652ca484cd90623",
+    "time": "2010-12-06",
+    "date_precision": "day",
+    "summary": "Julian Assange agreed to meet UK police regarding a European extradition warrant from Sweden over alleged sexual assault allegations, which he denies.",
+    "time_range": null,
+    "evidence_ids": [
+      "39012"
+    ],
+    "job_id": "074c31d521c6376585ec864b82735bfc986253cbbd12e1982e08cd903f9ff64f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ad31c63ea6f45de0",
+    "reason": "Same date and event as existing record of Assange agreeing to meet UK police over Swedish extradition warrant.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ad31c63ea6f45de0"
+  },
+  {
+    "candidate_id": "cad361fafab4d762e3ed0860",
+    "time": "2010-12-07",
+    "date_precision": "day",
+    "summary": "WikiLeaks founder Julian Assange is arrested in London on a European arrest warrant over Swedish allegations of sexual offences, while WikiLeaks says it will continue releasing leaked US embassy cables.",
+    "time_range": null,
+    "evidence_ids": [
+      "39229"
+    ],
+    "job_id": "b3f923b2ebc2da796606b5e86659c1201f3c3533fd353a9e22557253d9e15e22",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-1e01b927c89b4d0a",
+    "reason": "Same date and event as existing record of Assange's arrest in London on European arrest warrant.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1e01b927c89b4d0a"
+  },
+  {
+    "candidate_id": "c98e106b7781ba8afc2c354b",
+    "time": "2016-10-12",
+    "date_precision": "day",
+    "summary": "The questioning of Julian Assange by Swedish prosecutors at the Ecuadorean embassy in London was postponed until mid-November.",
+    "time_range": null,
+    "evidence_ids": [
+      "38562"
+    ],
+    "job_id": "3c3a9916ccababdcca4a01346c4f8e7820d1289a20e9ca4e253d6268ce740721",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct later milestone in Assange's Swedish legal proceedings: postponed embassy questioning.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8e2794dc4302c034"
+  },
+  {
+    "candidate_id": "9f461f8fffefef988f63ae99",
+    "time": "2010-12-07",
+    "date_precision": "day",
+    "summary": "Julian Assange was arrested in London on a European arrest warrant issued by Swedish authorities on suspicion of rape and other sexual offenses.",
+    "time_range": null,
+    "evidence_ids": [
+      "39103"
+    ],
+    "job_id": "fe6158b80dd2c7fdcfe14481ad70e8926b21263600eeb9d5f6e259854f0c94a5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-1e01b927c89b4d0a",
+    "reason": "Duplicate of existing 2010-12-07 record of Assange's arrest in London on Swedish warrant.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1e01b927c89b4d0a"
+  },
+  {
+    "candidate_id": "b929005141e6af035e54224d",
+    "time": "2010-10-18",
+    "date_precision": "day",
+    "summary": "WikiLeaks founder Julian Assange accused Wired magazine of having an agenda, not checking facts, and spreading misinformation about WikiLeaks, including a claim that the site was preparing to release hundreds of thousands of classified US documents from the Iraq war.",
+    "time_range": null,
+    "evidence_ids": [
+      "39131"
+    ],
+    "job_id": "863a56a3393c8fadbd5ebb39b4656bee1e685f64750cfdb8c3f9d2a4afaf6bf7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange-related WikiLeaks dispute with Wired; contributes to his public conflict timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4d02cbdeb463988d"
+  },
+  {
+    "candidate_id": "c7a2d782e0fcd6ffeba630ae",
+    "time": "2011-09-22",
+    "date_precision": "day",
+    "summary": "Julian Assange disowns his autobiography on its publication day, claiming he was \"screwed over\" by the publisher and that the manuscript was written by ghostwriter Andrew O'Hagan.",
+    "time_range": null,
+    "evidence_ids": [
+      "38967"
+    ],
+    "job_id": "8284ee8ce23b872909c1f32b58efc6479d5bd13a58ed71c7ec54c0f885453bc9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-c0f136ee0cf51de8",
+    "reason": "Same date and event as existing record of Assange disowning his autobiography on publication day.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c0f136ee0cf51de8"
+  },
+  {
+    "candidate_id": "2e28c7aabf8b5d52901ba6f4",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "38862"
+    ],
+    "job_id": "c4d568784b645faae3af1f6db24b2ad9b2dff96eb725c5f4debec5f69ce6b94f",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Not related to Julian Assange; concerns Bush/Clinton tsunami donation appeal.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "f600e40b6e307065069c850b",
+    "time": "2016-11-14",
+    "date_precision": "day",
+    "summary": "Julian Assange was questioned at the Ecuadorean embassy in London by an Ecuadorean state attorney and a Swedish prosecutor over 2010 rape allegations.",
+    "time_range": null,
+    "evidence_ids": [
+      "38576"
+    ],
+    "job_id": "e50093c4544a803877ead8361da98f1c178d35062ea9182a8e51c24a75953160",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange's questioning at the Ecuadorean embassy is a distinct milestone in his legal case.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-976e4da921d545ff"
+  },
+  {
+    "candidate_id": "07895638dfb24ac335c96dfd",
+    "time": "2010-11-01",
+    "date_precision": "day",
+    "summary": "Julian Assange and his lawyer threatened to sue The Guardian over its planned publication of US embassy cables, leading to a negotiated delay.",
+    "time_range": null,
+    "evidence_ids": [
+      "39145"
+    ],
+    "job_id": "7c319448c385a22d9660af252599550a99eacb4c5f3a2af259e3a81ff418b6a3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange's threat to sue The Guardian over cable publication is a relevant WikiLeaks-related milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-06a70a90d22eb8c9"
+  },
+  {
+    "candidate_id": "846cf0b9dc11a21ef65a32d8",
+    "time": "2010-12-03",
+    "date_precision": "day",
+    "summary": "WikiLeaks founder Julian Assange, during a live Q&A, called the alleged leaker of US diplomatic cables an \"unparalleled hero\" and said his organization deliberately used servers in certain jurisdictions, including Amazon's in the US, to test their commitment to free speech.",
+    "time_range": null,
+    "evidence_ids": [
+      "39108"
+    ],
+    "job_id": "c8647b3607175e59c87603d17648f303b5f636782acf238721d610f92d5fff7c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-6d9d0a4dea544ce7",
+    "reason": "Same 2010-12-03 Assange live Q&A event; duplicate of the existing scheduled Q&A record.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6d9d0a4dea544ce7"
+  },
+  {
+    "candidate_id": "f840dd3e04cff5d5fcd90e68",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "39007"
+    ],
+    "job_id": "b56df877d435b59a772709561371c9850f8188215d5caae63d6e697aac231706",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Clinton tsunami donation appeal is unrelated to Julian Assange.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "d73dceea2c5c62e8499c9e98",
+    "time": "2011-12-16",
+    "date_precision": "day",
+    "summary": "A panel of seven UK supreme court justices is to hear Julian Assange's appeal against extradition to Sweden, with a two-day hearing scheduled to begin on 1 February.",
+    "time_range": null,
+    "evidence_ids": [
+      "38933"
+    ],
+    "job_id": "c37ab52a76e0314f229b187fe5d083ba5ca2fec8ca707c5568606d6249e73369",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "UK Supreme Court scheduling of Assange's extradition appeal is a relevant legal milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-04a7ccd39cc0711e"
+  },
+  {
+    "candidate_id": "cd647f88c866fa832a12c876",
+    "time": "2015-10-19",
+    "date_precision": "day",
+    "summary": "Lawyers for Julian Assange say they are considering launching a fresh appeal against his Swedish arrest warrant following the publication of correspondence between British and Swedish prosecutors.",
+    "time_range": null,
+    "evidence_ids": [
+      "38629"
+    ],
+    "job_id": "5f85eeb13f2f6f51d2db143fd0037f90b4ff44e8a9fd79340bc8c145d0ba0730",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Consideration of a fresh appeal against Assange's Swedish arrest warrant is a relevant legal development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-717be90fce422564"
+  },
+  {
+    "candidate_id": "a0184976d14044f70785164d",
+    "time": "2011-07-12",
+    "date_precision": "day",
+    "summary": "Julian Assange is to launch a fresh appeal at the high court in London against his extradition to Sweden over sexual assault accusations.",
+    "time_range": null,
+    "evidence_ids": [
+      "38990"
+    ],
+    "job_id": "97fc7089777bd00ac9a993bbd5454bb3dfce3ab261cd6292dd8f2686aa4a22ed",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-27c8a85cfa207409",
+    "reason": "Same 2011-07-12 High Court extradition appeal event; duplicate of existing record.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-27c8a85cfa207409"
+  },
+  {
+    "candidate_id": "30a4d341211868ef7dc9966f",
+    "time": "2011-11-02",
+    "date_precision": "day",
+    "summary": "The high court dismissed Julian Assange's appeal against extradition to Sweden, though it opened a possible extradition loophole.",
+    "time_range": null,
+    "evidence_ids": [
+      "39188"
+    ],
+    "job_id": "5b0f130cf736b9a43d33fa02f951f087103b8a33f6b5d854faf5d92af8f96f74",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-0d0584e971be72c5",
+    "reason": "Same 2011-11-02 High Court dismissal of Assange's extradition appeal; duplicate of existing record.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0d0584e971be72c5"
+  },
+  {
+    "candidate_id": "a758810b9f9bddbdb2ebba53",
+    "time": "2011-11-02",
+    "date_precision": "day",
+    "summary": "Julian Assange is due to find out whether he will be extradited to Sweden to face rape allegations, as the high court hands down its judgment on his appeal against a European arrest warrant.",
+    "time_range": null,
+    "evidence_ids": [
+      "38922"
+    ],
+    "job_id": "26bfb6ea1f84b599f58f27a6a27984353fba6a5d835a26039791af53bc036027",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-0d0584e971be72c5",
+    "reason": "Same date and same High Court extradition appeal judgment as existing event; duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0d0584e971be72c5"
+  },
+  {
+    "candidate_id": "1c180b60c060fea1d9b77d08",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "39032"
+    ],
+    "job_id": "340330f0c7dba2c5ffa8cdc7cffa4fd934d37d1badfebe465cae7a28270bc30d",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Clinton tsunami donation appeal is unrelated to Julian Assange.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "67e82df5ff870f7ab176201f",
+    "time": "2012-06-19",
+    "date_precision": "day",
+    "summary": "Julian Assange requests asylum at Ecuador's embassy in London, citing the UN declaration on human rights.",
+    "time_range": null,
+    "evidence_ids": [
+      "38841"
+    ],
+    "job_id": "57759fc24b0633fe7e1eb90ee5cd84afd1c628f949a8fa7884d2553d51580cce",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-992cbac9a60bbba3",
+    "reason": "Same date and event: Assange's asylum request at Ecuador's London embassy, already represented.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-992cbac9a60bbba3"
+  },
+  {
+    "candidate_id": "d86eee2bcd5d1d621f2eed3b",
+    "time": "2012-06-12",
+    "date_precision": "day",
+    "summary": "Lawyers for Julian Assange formally ask the UK supreme court to reopen his appeal against extradition to Sweden over alleged sex crimes.",
+    "time_range": null,
+    "evidence_ids": [
+      "38847"
+    ],
+    "job_id": "c89544ba52feffa74de8fc9d90f33e344d75bbe86ac170b5677844451b105e06",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct legal milestone in Assange's extradition appeal; no existing event matches this date or action.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fa4e5e76a3cc7935"
+  },
+  {
+    "candidate_id": "538d6de3e15b81808af5fc8f",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "39023"
+    ],
+    "job_id": "ddabc3f7cd0de93599819cebbfc69c3d4757d32321159d16fe8aeb0ba6536ea3",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Clinton tsunami donation appeal is unrelated to Julian Assange.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "139855be5cae78c7270c2c14",
+    "time": "2012-06-19",
+    "date_precision": "day",
+    "summary": "Julian Assange directs a plea for political asylum personally to Ecuadorian President Rafael Correa.",
+    "time_range": null,
+    "evidence_ids": [
+      "39023"
+    ],
+    "job_id": "ddabc3f7cd0de93599819cebbfc69c3d4757d32321159d16fe8aeb0ba6536ea3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-992cbac9a60bbba3",
+    "reason": "Same date and same Assange asylum request to Ecuador as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-992cbac9a60bbba3"
+  },
+  {
+    "candidate_id": "4c3dd829f6c2833a6e5d1f96",
+    "time": "2013-04-08",
+    "date_precision": "day",
+    "summary": "WikiLeaks, with Julian Assange stating it had worked for the past year to analyze the data, publishes more than 1.7m US diplomatic and intelligence records from 1973 to 1976 in a searchable collection called the Public Library of US Diplomacy.",
+    "time_range": null,
+    "evidence_ids": [
+      "38831"
+    ],
+    "job_id": "12e6576fdea77360f989cba2de92bc2f4430feba15fb8280e911243ceb5ca989",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "WikiLeaks publication with Assange statement is a relevant Assange milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-96767e3d02ef0227"
+  },
+  {
+    "candidate_id": "f43d653bcc8c4caf0d2ea6ab",
+    "time": "2016-06-12",
+    "date_precision": "day",
+    "summary": "Julian Assange said WikiLeaks is preparing to publish more emails Hillary Clinton sent and received while US secretary of state.",
+    "time_range": null,
+    "evidence_ids": [
+      "38578"
+    ],
+    "job_id": "811810cd209fed6e3c26d36667175da7fb233b54e220948851610a03e5df02ec",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange statement on planned WikiLeaks Clinton email publication is relevant.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a91c0d9db2889194"
+  },
+  {
+    "candidate_id": "a0c569d9d8489a70ab3565b6",
+    "time": "2012-05-30",
+    "date_precision": "day",
+    "summary": "The UK Supreme Court is due to deliver its verdict on whether WikiLeaks founder Julian Assange should be extradited to Sweden to face allegations of rape and sexual assault.",
+    "time_range": null,
+    "evidence_ids": [
+      "38804"
+    ],
+    "job_id": "2e52d693bd3b55e44a4c8607b59dd2d342fe12264194c699d92369ef786731b4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-081d613ae7c563b6",
+    "reason": "Same date and same UK Supreme Court extradition verdict as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-081d613ae7c563b6"
+  },
+  {
+    "candidate_id": "4e7b3e62f7f6d8d8ef44cab0",
+    "time": "2017-01-10",
+    "date_precision": "day",
+    "summary": "Julian Assange participated in a Reddit Ask Me Anything session, facing questions about his links to Russia and addressing rumors that he was no longer alive.",
+    "time_range": null,
+    "evidence_ids": [
+      "38569"
+    ],
+    "job_id": "ef46db29edd29f0eb5059e87481f2539581152e0ec3c5d418bd1101e7749edef",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange's 2017 Reddit AMA is a distinct public event addressing Russia links and death rumors; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f561a060f8fa972c"
+  },
+  {
+    "candidate_id": "848766d05891502522cc8628",
+    "time": "2010-12-19",
+    "date_precision": "day",
+    "summary": "A Belarusian state newspaper said WikiLeaks had allowed the dictatorship to identify organizers, instigators and rioters, including foreign ones, who had protested against rigged elections.",
+    "time_range": null,
+    "evidence_ids": [
+      "38905"
+    ],
+    "job_id": "bb30ee616c4593a97b7a0da1f6998f48cc6df39ab451e923b5b4e6d86376bbaa",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Belarusian state newspaper claim about WikiLeaks and protest identification is a distinct WikiLeaks-related development; no duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-831dc79348048fd8"
+  },
+  {
+    "candidate_id": "d2308b55069574b73793a0ab",
+    "time": "2010-11",
+    "date_precision": "month",
+    "summary": "Julian Assange helped orchestrate the biggest leak in the history of the world, publishing a flood of classified documents that went to the heart of America's military and foreign policy operations.",
+    "time_range": null,
+    "evidence_ids": [
+      "39231"
+    ],
+    "job_id": "b1c579ad5a76a69eed953e19553d8f736b0574e9d5877081dd0f89e17ff273cd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange's role in the major 2010 classified document release is a core milestone; no existing event matches this month-level date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-13426c72b2dacf20"
+  },
+  {
+    "candidate_id": "d57adff1a61b0079419409c5",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "39184"
+    ],
+    "job_id": "1dfe3d976e09144c42c2c1d5bc7c1a80007ddcdbdf2b410a1a0dd860ac211d70",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Clinton tsunami donation appeal is unrelated to Julian Assange.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "9434c25dccd57d38b7cf2eba",
+    "time": "2016-12-07",
+    "date_precision": "day",
+    "summary": "Julian Assange released a statement detailing his answers to Swedish investigators regarding rape allegations, prompting his accuser's lawyer to accuse him of violating her client in the media.",
+    "time_range": null,
+    "evidence_ids": [
+      "38556"
+    ],
+    "job_id": "19fb750f89a3f266b53ebecfbf0ee5851fe770540e906483b8bd115aeae6377c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Assange's 2016 statement on Swedish investigators' questions is a distinct legal development; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-667c11e3f0a0d060"
+  },
+  {
+    "candidate_id": "476387f32ea8131cd4848a91",
+    "time": "2014-07-16",
+    "date_precision": "day",
+    "summary": "A Stockholm court rejected Julian Assange's challenge to the arrest warrant against him, and his lawyers said they would appeal.",
+    "time_range": null,
+    "evidence_ids": [
+      "38680"
+    ],
+    "job_id": "741199c1b238842fcca3974892385c85f03eba3d2528dac19cae5a0266319d96",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-83ed9758bc4b3e7a",
+    "reason": "Same 2014-07-16 Stockholm court decision rejecting Assange's challenge and keeping the detention order.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-83ed9758bc4b3e7a"
+  },
+  {
+    "candidate_id": "409b0902486670b090b95716",
+    "time": "2011-02-11",
+    "date_precision": "day",
+    "summary": "Julian Assange's lawyer made a graphic defence during an extradition hearing at Belmarsh magistrate's court, arguing that the sexual assault allegations against the WikiLeaks founder would not amount to rape under English law.",
+    "time_range": null,
+    "evidence_ids": [
+      "39185"
+    ],
+    "job_id": "15ac249de25709f562960d36fef2eac9bcdc5d5063b5aafc7cd0ff6f6f56d52f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "2011-02-11 Belmarsh extradition hearing defence is distinct from the later 2011-02-24 ruling; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d7c2c8c31a229971"
+  },
+  {
+    "candidate_id": "c4a245ae4ad13255ee065a7a",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "38638"
+    ],
+    "job_id": "2eef7057a45f057aabde96490b6f035f8d90855fbed01bf5203cfdc50ddf4f69",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Duplicate unrelated Bush/Clinton tsunami donation appeal; not relevant to Julian Assange.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "5c0d79568fcd7016143691c5",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Julian Assange's supporters and lawyer react to extradition verdict.",
+    "time_range": null,
+    "evidence_ids": [
+      "38952"
+    ],
+    "job_id": "be30caf1aab3ad42eba2702c98429b52981839d6ce2cec0b3f4b13c546947eca",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Reaction to Assange extradition verdict is a relevant milestone; no same-date existing event to merge with.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-674e9b1cc2893dcc"
+  },
+  {
+    "candidate_id": "0fb0efdd147aa482858fb54f",
+    "time": "2011-07-06",
+    "date_precision": "day",
+    "summary": "Julian Assange's million-pound memoir deal has collapsed after he became unhappy with the process and no longer wished to write the initially envisaged book.",
+    "time_range": null,
+    "evidence_ids": [
+      "38994"
+    ],
+    "job_id": "9402f377b4a96848e4a42aff0591ef79e60ea45a83b80b114992512271b41212",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Collapse of Assange's memoir deal is a distinct relevant event; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-98b7af5335a0c374"
+  },
+  {
+    "candidate_id": "046bdc67293052e184e93ca5",
+    "time": "2011-01-19",
+    "date_precision": "day",
+    "summary": "Senior US State Department officials privately concluded in briefings to Congress that the WikiLeaks controversy had caused little real and lasting damage to American diplomacy, despite public claims to the contrary.",
+    "time_range": null,
+    "evidence_ids": [
+      "39136"
+    ],
+    "job_id": "092d17b79f30f02442e7780b2d18a538084dbcc20ad4b955fca1318844a095ee",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Concerns US State Department damage assessment of WikiLeaks controversy, not a Julian Assange timeline milestone.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "e8162c97b778fd2a217bc7c6",
+    "time": "2011-11-02",
+    "date_precision": "day",
+    "summary": "Julian Assange lost his high court appeal against extradition to Sweden to face rape allegations.",
+    "time_range": null,
+    "evidence_ids": [
+      "38912"
+    ],
+    "job_id": "7c92d126440aa1a4207b2ade00d1139951cfde0064a5e1d8a317546564ddfa40",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-0d0584e971be72c5",
+    "reason": "Same date and same event: Assange's high court appeal against extradition to Sweden was dismissed/lost.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0d0584e971be72c5"
+  },
+  {
+    "candidate_id": "a416513a5857094cd04bbe8e",
+    "time": "2010-12-07",
+    "date_precision": "day",
+    "summary": "Julian Assange is expected to appear in a UK court after his lawyers said he would meet British police to discuss a European arrest warrant from Sweden relating to alleged sexual assaults.",
+    "time_range": null,
+    "evidence_ids": [
+      "39104"
+    ],
+    "job_id": "9da9855491d284251571a19112881cf15fe0777e45175ecb9aa8e3b2e7068f84",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Assange legal milestone; expected court appearance differs from existing arrest and extradition events, so it adds a distinct planned step.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bf57fc7d1132a01a"
+  },
+  {
+    "candidate_id": "9bbda938588ed40abc565c51",
+    "time": "2016-10-17",
+    "date_precision": "day",
+    "summary": "WikiLeaks says Ecuador intentionally cut off Julian Assange's internet access at the Ecuadorian embassy in London.",
+    "time_range": null,
+    "evidence_ids": [
+      "38587"
+    ],
+    "job_id": "c3d1448edb82884468a71bce2114ac002177812144dbd7d71a85dd414c4c1057",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Assange timeline event about WikiLeaks saying Ecuador cut his embassy internet access; no existing event covers this date or development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ca3c942210766de1"
+  },
+  {
+    "candidate_id": "2325326cd43dfe7f1ee7e87b",
+    "time": "2010-12-13",
+    "date_precision": "day",
+    "summary": "Julian Assange, speaking from his Wandsworth prison cell, urges supporters to protect WikiLeaks from \"instruments of US foreign policy.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "39049"
+    ],
+    "job_id": "e00d1a673077265f59835ae1c17e267a96c8e2da28182e21610453b001880a46",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Assange milestone: his statement from Wandsworth prison urging supporters to protect WikiLeaks; no existing event has the same date and identity.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e426fce34800aa93"
+  },
+  {
+    "candidate_id": "ee59dc37f4a6bbe39150a9c6",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No topic-related event found.",
+    "time_range": null,
+    "evidence_ids": [
+      "38731"
+    ],
+    "job_id": "4423a7f2b66113f779896c996576c7e5d0b2a15d366a2dd0b2ad0e6afd33bc6e",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No topic-related event found; contributes nothing to the Assange timeline.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "b389b671b72ae93499321142",
+    "time": "2013-06-16",
+    "date_precision": "day",
+    "summary": "Ecuador's foreign minister Ricardo Patino arrived in the UK to discuss Julian Assange's future and met Assange at the Ecuadorean embassy in London, ahead of talks with William Hague.",
+    "time_range": null,
+    "evidence_ids": [
+      "38733"
+    ],
+    "job_id": "4262bebc2a68d2c17829aef6696086995a90f63ae0286cbef513af8825877b55",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-7f4847ff4a85fbe5",
+    "reason": "Same date and event: Patino's London visit to meet Assange at the Ecuadorian embassy.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7f4847ff4a85fbe5"
+  },
+  {
+    "candidate_id": "eb69772b4b45de3a2ed01b2b",
+    "time": "2012-08-16",
+    "date_precision": "day",
+    "summary": "Ecuador remains willing to negotiate with Britain over Julian Assange's fate and proposes that the UK and Sweden undertake not to extradite him to a third country, specifically the US, after the Swedish investigation.",
+    "time_range": null,
+    "evidence_ids": [
+      "38796"
+    ],
+    "job_id": "80fc7d98e59e9fc35dc088399c6b1f64a5cde325a368dba6a88a5ea34b4c1c9a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Assange diplomatic development; distinct from existing 2012-08-16 events about asylum decision and UK letter.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e4df27fa264d964d"
+  },
+  {
+    "candidate_id": "44d2d23ccb232a578b7d5344",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Julian Assange bail hearing",
+    "time_range": null,
+    "evidence_ids": [
+      "39011"
+    ],
+    "job_id": "e97782381efc07e79fcdc61ffdd1bcbd17fc0ec077da36d59f4e3db527e7cfb5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Assange bail hearing; unknown date and no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4007461515a04d8d"
+  },
+  {
+    "candidate_id": "4700501223d9686839b28f09",
+    "time": "2010-12-16",
+    "date_precision": "day",
+    "summary": "The high court will hold a hearing on a Swedish appeal against bail for Julian Assange, the founder of WikiLeaks.",
+    "time_range": null,
+    "evidence_ids": [
+      "39153"
+    ],
+    "job_id": "a7738a6f6d389c36306b0eeba5343267992de685df06ec72d9f3c65aa2db014a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Assange bail appeal hearing; distinct from existing 2010-12-16 events, which cover the bail hearing, bail grant, and US congressional testimony.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-179cbce5637a1c80"
+  },
+  {
+    "candidate_id": "73c12a6da16d46c80f3665cd",
+    "time": "2014-07-03",
+    "date_precision": "day",
+    "summary": "A Swedish court schedules a hearing for 16 July in the Julian Assange rape case, the first formal legal discussion since 2012, after prosecutors reject his lawyers' request to hand over new evidence and withdraw his arrest warrant.",
+    "time_range": null,
+    "evidence_ids": [
+      "38660"
+    ],
+    "job_id": "fc31ea60a51a3cbe4469ec81fac52b08d01a2391305127434f19a6b4ad17eb5b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant 2014 Swedish legal development in Assange case; no existing event on this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d4084964a9c6b7f5"
+  },
+  {
+    "candidate_id": "626e37db195c706a154c1313",
+    "time": "2010-12-14",
+    "date_precision": "day",
+    "summary": "Julian Assange's supporters arrive at a bail hearing.",
+    "time_range": null,
+    "evidence_ids": [
+      "39157"
+    ],
+    "job_id": "dce30032c7a7a2174b7873ee3fec70b33eff8af7826fd076d7ce5eef537ea0c3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-2d58f4eeff972c63",
+    "reason": "Same 2010-12-14 bail hearing as existing event; supporters arriving is part of that hearing.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2d58f4eeff972c63"
+  },
+  {
+    "candidate_id": "8ddbc669dbac242f7b89d162",
+    "time": "2010-12-16",
+    "date_precision": "day",
+    "summary": "A high court grants bail to Julian Assange.",
+    "time_range": null,
+    "evidence_ids": [
+      "39041"
+    ],
+    "job_id": "ae2d12a6f0944cfd6c37d0374b4e08c63cc326fc07ceac49bfd61fd9c9628c4e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-642ba4df8ee446a9",
+    "reason": "Duplicate of existing 2010-12-16 event recording that Assange was granted bail.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-642ba4df8ee446a9"
+  }
+]
