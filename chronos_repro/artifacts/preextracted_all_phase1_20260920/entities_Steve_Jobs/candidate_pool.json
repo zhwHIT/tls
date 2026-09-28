@@ -1,0 +1,3300 @@
+[
+  {
+    "candidate_id": "16b9876563e0d892e05b8cb5",
+    "time": "2012-10-05",
+    "date_precision": "day",
+    "summary": "A Guardian article marks the one-year anniversary of Steve Jobs's death by soliciting stories about the Apple co-founder's life.",
+    "time_range": null,
+    "evidence_ids": [
+      "85053"
+    ],
+    "job_id": "345590652bc23cdfb116396f78a0fac1ba1801aa14894f9343a9ff5fe14629e6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Commemorative milestone marking the one-year anniversary of Jobs's death; contributes to his legacy timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-540a23a81cae42c8"
+  },
+  {
+    "candidate_id": "64ae1a55aabaa9df44ef8de0",
+    "time": "2000-01-05",
+    "date_precision": "day",
+    "summary": "Steve Jobs announced he was dropping the \"interim\" title to become Apple's permanent chief executive.",
+    "time_range": null,
+    "evidence_ids": [
+      "85991"
+    ],
+    "job_id": "0a12c79ee20f5c0b3c0217f99d063c471f24f3fecf341041f92e445efff600df",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jobs becoming Apple's permanent CEO is a key career milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-63bd9c1c531dc1b5"
+  },
+  {
+    "candidate_id": "16de667bedb01f3c448c9a30",
+    "time": "2012-04-02",
+    "date_precision": "day",
+    "summary": "Ashton Kutcher is cast as Steve Jobs in one of two competing biopics about the late Apple founder.",
+    "time_range": null,
+    "evidence_ids": [
+      "85066"
+    ],
+    "job_id": "e22076756f5d8a47233926c03c40e688fbc5553fe9bd57e8448b17c928b6a1db",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Casting of a Jobs biopic reflects his posthumous cultural impact; contributes to legacy timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-73578649490eae73"
+  },
+  {
+    "candidate_id": "cf3838b898d5fabd025772ab",
+    "time": "2007-06",
+    "date_precision": "month",
+    "summary": "Steve Jobs launched the iPhone in the US.",
+    "time_range": null,
+    "evidence_ids": [
+      "85529"
+    ],
+    "job_id": "635b09d57edbf5e4517462eeb1a9084ac316ce2ad96fbcdbea0032b9b9684644",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "iPhone launch under Jobs is a major product milestone in his career.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5cbebdcef6e46442"
+  },
+  {
+    "candidate_id": "1be789db18c12b914e3491d0",
+    "time": "2011-08-24",
+    "date_precision": "day",
+    "summary": "Steve Jobs resigned as chief executive of Apple, to be replaced by Tim Cook, and was elected chairman of the board.",
+    "time_range": null,
+    "evidence_ids": [
+      "85098"
+    ],
+    "job_id": "3b72b8ae8e56706513b97a981f6ab10ad51346bb3e8b720e9ecf01a47cdc2aa1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jobs resigning as Apple CEO is a pivotal career event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0141648a946a85f3"
+  },
+  {
+    "candidate_id": "ded3708587359e9a81806746",
+    "time": "2011-10-05",
+    "date_precision": "day",
+    "summary": "Steve Jobs, co-founder and CEO of Apple, died after a long struggle with pancreatic cancer.",
+    "time_range": null,
+    "evidence_ids": [
+      "84877"
+    ],
+    "job_id": "334ebe62c433e6b24059d856b38f592d558164c180d6ed82f5f61ad2c64c9f2b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Death of Steve Jobs is a central milestone in his timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ac14bfe0fd3b5db3"
+  },
+  {
+    "candidate_id": "78dfc6c31fa5768ef989adc3",
+    "time": "2011-08-24",
+    "date_precision": "day",
+    "summary": "Steve Jobs steps down as Apple CEO.",
+    "time_range": null,
+    "evidence_ids": [
+      "85141"
+    ],
+    "job_id": "02cdd28fa4e844d90d0c6d8f832085c7f9d66c24e8d192baf020803b771e3401",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "1be789db18c12b914e3491d0",
+    "reason": "Same date (2011-08-24) and same event as the resignation record; duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-0141648a946a85f3"
+    },
+    "timeline_event_id": "event-0141648a946a85f3"
+  },
+  {
+    "candidate_id": "015c2c93af159bd735f9d8d8",
+    "time": "2011-10-05",
+    "date_precision": "day",
+    "summary": "Apple Inc. announced that co-founder Steve Jobs died at age 56.",
+    "time_range": null,
+    "evidence_ids": [
+      "85131"
+    ],
+    "job_id": "a3b2c82336c78ace75f71c3025c5f653b1823c2dd2cd8a6f8ce16385f756c652",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "ded3708587359e9a81806746",
+    "reason": "Same date (2011-10-05) and same death event; duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-ac14bfe0fd3b5db3"
+    },
+    "timeline_event_id": "event-ac14bfe0fd3b5db3"
+  },
+  {
+    "candidate_id": "b561359c2ba6fccbcc148a6d",
+    "time": "2015-10-09",
+    "date_precision": "day",
+    "summary": "Former Apple CEO John Sculley says Steve Jobs would have mostly liked the new biopic \"Steve Jobs\" but would have been hurt that viewers might think they know the complete Steve Jobs.",
+    "time_range": null,
+    "evidence_ids": [
+      "84939"
+    ],
+    "job_id": "0071d170109e1534863c5a36f285d14de54ac4e821e5e332a7d24704b818b527",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant commentary on the Steve Jobs biopic and how Jobs might have reacted; contributes a distinct 2015 milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3f52aeb28c3ea137"
+  },
+  {
+    "candidate_id": "fb02bcf20c88745c5bc9748a",
+    "time": "2005-07-18",
+    "date_precision": "day",
+    "summary": "Steve Jobs is described as co-founder and chief executive of Apple Computer and Pixar, with the iPod transforming Apple's fortunes and changing how music is consumed.",
+    "time_range": null,
+    "evidence_ids": [
+      "85700"
+    ],
+    "job_id": "12ffca7037694ca93cfe9e572d95d010ee18dc7b5f5ec7161ec7a617e10f90b8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant description of Jobs as Apple and Pixar chief and the iPod's impact; contributes a distinct 2005 milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4a5631cba5c751b9"
+  },
+  {
+    "candidate_id": "17736b128e0f43fcc3026376",
+    "time": "2014-10-15",
+    "date_precision": "day",
+    "summary": "Christian Bale is reported to be in line to play Steve Jobs in a forthcoming biopic after Leonardo DiCaprio backed out.",
+    "time_range": null,
+    "evidence_ids": [
+      "84947"
+    ],
+    "job_id": "bb1400a66bea23f8f2fd7549f9612ef1eab0930e4412288cf3b79fdc20294a3e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant casting development for a Steve Jobs biopic; distinct 2014 milestone not matching existing biopic events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9d88232f1d7d33c1"
+  },
+  {
+    "candidate_id": "72de007838be8a7de4d7361b",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "The film Steve Jobs, starring Michael Fassbender and written by Aaron Sorkin, was reviewed.",
+    "time_range": null,
+    "evidence_ids": [
+      "84895"
+    ],
+    "job_id": "a9d96ce2a40db83a39a7642cf615905911e42a797a1ca093823ed6e55402e26f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant review of the Steve Jobs film; unknown date prevents merging with dated biopic events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-75ae13774cf2943a"
+  },
+  {
+    "candidate_id": "01762475fcff579fd478f9e7",
+    "time": "2004-02-06",
+    "date_precision": "day",
+    "summary": "Pixar chief Steve Jobs attacked the Walt Disney Company over a lack of creative ambition, a week after announcing the companies would end their partnership by 2006.",
+    "time_range": null,
+    "evidence_ids": [
+      "85900"
+    ],
+    "job_id": "9484d5d6ed7e5d55f640ea5f4d6c8007580371373d62a8554e0c040d18693c05",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Pixar-Disney dispute involving Steve Jobs; distinct 2004 milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ebc627e837b78305"
+  },
+  {
+    "candidate_id": "0a33ed850affb249709cd788",
+    "time": "2015-11-23",
+    "date_precision": "day",
+    "summary": "Pixar president Ed Catmull says Steve Jobs would have been \"appalled\" by Danny Boyle's biopic, claiming it fails to accurately represent him.",
+    "time_range": null,
+    "evidence_ids": [
+      "84883"
+    ],
+    "job_id": "aae0fb6310197a627b867f0a19efd555b91a1e23a7b919a0ca93266fbd6b85de",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant reaction to the Steve Jobs biopic from Pixar president Ed Catmull; distinct 2015 milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-887a026625444045"
+  },
+  {
+    "candidate_id": "81bf8df1647eb59bec0285a3",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "85130"
+    ],
+    "job_id": "481b7333cffcd1799162674746281f038f5dc53c52379f297f30a98256f5d877",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Not related to Steve Jobs; concerns Bush and Clinton tsunami donation appeal.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "96ad55c30c1787b7edb2be8f",
+    "time": "2005-02-10",
+    "date_precision": "day",
+    "summary": "Pixar chief Steve Jobs said his animation company would not renew its deal with Disney next year.",
+    "time_range": null,
+    "evidence_ids": [
+      "85880"
+    ],
+    "job_id": "fcb0a3b043e6b58fae7daf164632bf1cb21cfd53a74a89eed8966444305bf879",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Pixar-Disney deal decision by Steve Jobs; distinct 2005 milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1c8815bd5725f520"
+  },
+  {
+    "candidate_id": "fc9cd257e86188a028b289d2",
+    "time": "2004-01-29",
+    "date_precision": "day",
+    "summary": "Pixar chief executive Steve Jobs said Pixar is ending talks to continue its relationship with The Walt Disney Co and will seek a deal with another studio.",
+    "time_range": null,
+    "evidence_ids": [
+      "85928"
+    ],
+    "job_id": "d33d874154a54b22a288ddb2c15cff2d9c04407f16e3104816c60780ec2967ba",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jobs-led Pixar ending Disney talks is a relevant milestone in his career; no existing event matches this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1f7c9ab249005ee4"
+  },
+  {
+    "candidate_id": "9113e1a67cc1f241b7407bd5",
+    "time": "2004-07",
+    "date_precision": "month",
+    "summary": "Steve Jobs, as Pixar chief executive, walked away from Pixar's long-standing partnership with Disney amid a dispute over money and a reported clash of egos with Disney chairman Michael Eisner.",
+    "time_range": null,
+    "evidence_ids": [
+      "85802"
+    ],
+    "job_id": "b6492027de5b420073fd78212ef479fea00492939c7ad12c71afc28ba2eeaa56",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Pixar-Disney partnership breakdown under Jobs; month-level date differs from existing events, so separate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-04bc95b216e9e81f"
+  },
+  {
+    "candidate_id": "978f0623be59779c342fa5ce",
+    "time": "2003-07-06",
+    "date_precision": "day",
+    "summary": "Steve Jobs is profiled as Apple Computer and Pixar Animations chief executive, with the past year's most dramatic development being the iPod personal music player and the launch of the iTunes music download service in the US.",
+    "time_range": null,
+    "evidence_ids": [
+      "85863"
+    ],
+    "job_id": "167253d0ab647807a8c76e0ba24fd31f3b25225770a2ba3b2d6b83393cb60f81",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Profile of Jobs as Apple and Pixar chief executive contributes to his timeline; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6016278ebaa67984"
+  },
+  {
+    "candidate_id": "e687e44db940fc46a64c199e",
+    "time": "2006-01-24",
+    "date_precision": "day",
+    "summary": "Disney announces a $7.4bn all-share acquisition of Pixar, making Steve Jobs the largest single shareholder in Disney with an estimated 7% stake and a seat on the Disney board.",
+    "time_range": null,
+    "evidence_ids": [
+      "85780"
+    ],
+    "job_id": "e244fde0474bdabb2f07d12e2f5df5b5c19b25634bee6e10c8731f3fc8b4d7d6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Disney's Pixar acquisition making Jobs largest Disney shareholder is a major milestone; no existing event matches.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a474eb60626d2dbf"
+  },
+  {
+    "candidate_id": "c7d0568dd22f28a4634f8545",
+    "time": "2004-08-04",
+    "date_precision": "day",
+    "summary": "Steve Jobs announced he expects a full recovery from cancer surgery and plans to return to work next month, raising succession questions at Apple and Pixar.",
+    "time_range": null,
+    "evidence_ids": [
+      "85827"
+    ],
+    "job_id": "ae6cdfc48c3886c1d0d084bd9d066827f2f5920587af08d061a9de1bbb3c2206",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jobs's cancer surgery recovery announcement is a relevant personal/career event; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7f8e20b05da8afb1"
+  },
+  {
+    "candidate_id": "a46bc211d86a0be458b3a45f",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "85076"
+    ],
+    "job_id": "024baef1e50eb772d484a4b6e5458d677d26668ab14d179e3e89fc2e0043ee1a",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush and Clinton tsunami donation appeal is unrelated to Steve Jobs.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "92be036587fd1f29f25f2b2d",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No single significant event related to Steve Jobs is reported; the article discusses his career, health, and speculation about an expected Apple tablet launch.",
+    "time_range": null,
+    "evidence_ids": [
+      "85303"
+    ],
+    "job_id": "1058b90c0990a6bba7d066d0dc7bc2b7dc00c8dc1c3280ebbdf6b13f87e1ec49",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No single significant Jobs event reported; career/health/tablet speculation does not contribute a timeline milestone.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "6725ceb9616b1525b690f858",
+    "time": "2011-10-06",
+    "date_precision": "day",
+    "summary": "Steve Jobs, the co-founder and former CEO of Apple, died, prompting an outpouring of sentiment and reflections on his legacy.",
+    "time_range": null,
+    "evidence_ids": [
+      "85122"
+    ],
+    "job_id": "c19219a35eecd5f4ede9d888454864ea51ebd20888c240ecca5ce3b61e924e45",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Steve Jobs's death is a major milestone; date differs from existing death record, so append separately with supplied date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-26e1ccf73f181334"
+  },
+  {
+    "candidate_id": "684b6f37ac1a156b0da1c1c9",
+    "time": "2008-12",
+    "date_precision": "month",
+    "summary": "Steve Jobs withdraws from giving the keynote address at the January Macworld show, fuelling further speculation about his health.",
+    "time_range": null,
+    "evidence_ids": [
+      "85417"
+    ],
+    "job_id": "2589bf6bf0acde221ff47bb2efbf6f5109cf55d452852db02058062bc1396f9c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in Jobs's health-related public absence from Macworld; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f1ee92d824da1348"
+  },
+  {
+    "candidate_id": "feb11608e684fc16e093f868",
+    "time": "2011-08-25",
+    "date_precision": "day",
+    "summary": "Steve Jobs is described as having departed as Apple CEO, with Tim Cook identified as his successor.",
+    "time_range": null,
+    "evidence_ids": [
+      "85097"
+    ],
+    "job_id": "14d4dccc5f2c5d5b8e8a569db0300fcf65a7f69b9c9cfbad0523da0bdced66b4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant CEO departure report dated 2011-08-25; differs in date from the 2011-08-24 resignation event, so kept separate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3bf316185fbc0060"
+  },
+  {
+    "candidate_id": "2e1586a974fe526991ce5470",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No topic-related event involving Steve Jobs is reported; the article discusses Apple's advertising campaign and design direction after Steve Jobs.",
+    "time_range": null,
+    "evidence_ids": [
+      "84992"
+    ],
+    "job_id": "9a4435e745915583ff5318dfdd6106965ce27953c081b16391d496e3e56141fd",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No topic-related Steve Jobs event; article concerns Apple advertising/design after Jobs.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "776f9a66ee77bea434855f02",
+    "time": "2011-08-24",
+    "date_precision": "day",
+    "summary": "Steve Jobs resigned as Apple CEO and was elected chairman, with Tim Cook elected CEO.",
+    "time_range": null,
+    "evidence_ids": [
+      "85099"
+    ],
+    "job_id": "23b6ba1b777f0810079de5b621d7ae5b9d9c53c9f3154b82cc044a9a75f11713",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-0141648a946a85f3",
+    "reason": "Same 2011-08-24 resignation and chairman election as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0141648a946a85f3"
+  },
+  {
+    "candidate_id": "e1e36ec1bfa97d64962d5553",
+    "time": "2011-08-24",
+    "date_precision": "day",
+    "summary": "Steve Jobs resigns as Apple CEO.",
+    "time_range": null,
+    "evidence_ids": [
+      "85143"
+    ],
+    "job_id": "a4b7042936ce8b12dd80e9f9e29eb82f91400b4ceaa5927ee33062c0796ad34f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-0141648a946a85f3",
+    "reason": "Duplicate of the 2011-08-24 resignation event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0141648a946a85f3"
+  },
+  {
+    "candidate_id": "838ebed79c88436b6b9d18eb",
+    "time": "2009-01-14",
+    "date_precision": "day",
+    "summary": "Apple CEO Steve Jobs announced he is taking a medical leave of absence until the end of June, with Tim Cook responsible for day-to-day operations.",
+    "time_range": null,
+    "evidence_ids": [
+      "85447"
+    ],
+    "job_id": "1e74548c82d3d79397835d9ed34188af70f6f03d587795424521813ac79600e5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant medical leave and Tim Cook operational role; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6a62a8311af60bd0"
+  },
+  {
+    "candidate_id": "a5931986e588f063ad39a515",
+    "time": "2007-01-09",
+    "date_precision": "day",
+    "summary": "Apple chief executive Steve Jobs confirmed the company is to launch the iPhone, a touchscreen handset combining mobile phone, internet access, and iPod music and video playback features.",
+    "time_range": null,
+    "evidence_ids": [
+      "85711"
+    ],
+    "job_id": "249cc1770c60770473d62378ea975593f551b7ff83882b2f9ae473cf20d665e3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Jobs confirms iPhone launch; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7223055cc504f720"
+  },
+  {
+    "candidate_id": "c1984234512c6e093c9304d1",
+    "time": "2011-08-25",
+    "date_precision": "day",
+    "summary": "Steve Jobs resigns as Apple chief executive, causing Apple shares to fall nearly 3% at the start of trading on Wall Street.",
+    "time_range": null,
+    "evidence_ids": [
+      "85140"
+    ],
+    "job_id": "163805cc52b78e5847842c9e73ea96c920bbfb414540f14cdc5bbac94968dec1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant resignation report dated 2011-08-25 with market reaction; date differs from existing 2011-08-24 event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ff932ef1e29b83ae"
+  },
+  {
+    "candidate_id": "390daecee498394daa4f37a4",
+    "time": "2011-10-05",
+    "date_precision": "day",
+    "summary": "Steve Jobs died on Wednesday.",
+    "time_range": null,
+    "evidence_ids": [
+      "85125"
+    ],
+    "job_id": "b21d06d67ccd42edfcac6305f9e95c485103f709d2b427b83c1a4266c563030d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ac14bfe0fd3b5db3",
+    "reason": "Same date (2011-10-05) and same event as existing Steve Jobs death record; duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ac14bfe0fd3b5db3"
+  },
+  {
+    "candidate_id": "5701554d7315e93c2d3a4cfe",
+    "time": "2008-12-17",
+    "date_precision": "day",
+    "summary": "Apple announced that Steve Jobs will not give the keynote address at the January Macworld show, the first time in 12 years, with Phil Schiller replacing him, raising questions about Jobs's health.",
+    "time_range": null,
+    "evidence_ids": [
+      "85518"
+    ],
+    "job_id": "35186edd77cfba09ab83cbdba5ef28072c45c7da0aa72c8807bd591f7d5e827b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "December 17, 2008 Macworld keynote withdrawal announcement; date differs from the month-precision existing event, so append separately.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a9a60cccdc20fb5f"
+  },
+  {
+    "candidate_id": "287db2ad24441fbcdefe4e7a",
+    "time": "2008-12-30",
+    "date_precision": "day",
+    "summary": "Gizmodo reports a rumor that Steve Jobs's health is declining rapidly, which CNBC's Jim Goldman disputes, saying Apple reiterated that Jobs's decision to skip the Macworld keynote was unrelated to his health.",
+    "time_range": null,
+    "evidence_ids": [
+      "85441"
+    ],
+    "job_id": "eb592f52dc775e852f17943181fce6a7522c2c73ef3b40d6e0f70105034681fd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct late-December 2008 health rumor and Apple denial, contributing to Jobs health timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e0bfccad8c601a97"
+  },
+  {
+    "candidate_id": "686cfdc3b670a760da00cd0b",
+    "time": "2008-12-18",
+    "date_precision": "day",
+    "summary": "Apple announces that CEO Steve Jobs will no longer give the keynote address at Macworld Expo, fueling concerns about his health.",
+    "time_range": null,
+    "evidence_ids": [
+      "85526"
+    ],
+    "job_id": "23be1e2fd5206f4690972aacc51c5ed8f68a7cf2c91286652ea1b39bde5ed09c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Same December 18, 2008 Macworld keynote withdrawal announcement as candidate 5701554d7315e93c2d3a4cfe.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1c63d72e15f46ef1"
+  },
+  {
+    "candidate_id": "a9b0c0e35dc2f14cdc3b2033",
+    "time": "2009-01-05",
+    "date_precision": "day",
+    "summary": "Steve Jobs revealed in an open letter that he has a hormone imbalance causing weight loss and will continue as Apple CEO while recovering.",
+    "time_range": null,
+    "evidence_ids": [
+      "85496"
+    ],
+    "job_id": "b3e905092a3fff5cdba90e1a460990ddfe4928ef77de683e85c06846225f34bc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jobs's January 2009 hormone-imbalance disclosure is a key health milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f23c85e6795a9ae3"
+  },
+  {
+    "candidate_id": "1391a83dc0ff5019cc0b8f9c",
+    "time": "2008-07-24",
+    "date_precision": "day",
+    "summary": "Steve Jobs called journalist Joe Nocera to dispute his reporting on Jobs's health, offering off-the-record details but refusing to share them with shareholders.",
+    "time_range": null,
+    "evidence_ids": [
+      "85538"
+    ],
+    "job_id": "8561efd7c9babd2a10f9ebe0c135171f8e00fd0e3e868aed19951b3da7c54384",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "July 2008 Jobs health dispute with journalist Joe Nocera is a distinct health-related milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fd3accdb79f3287c"
+  },
+  {
+    "candidate_id": "d7e84805579cf47c28ba4e6c",
+    "time": "2009-01-08",
+    "date_precision": "day",
+    "summary": "Steve Jobs did not appear at Apple's final Macworld keynote, where Phil Schiller delivered the presentation instead.",
+    "time_range": null,
+    "evidence_ids": [
+      "85550"
+    ],
+    "job_id": "1675b2f6dae01e0ddf1d1ac72c4fa2e586a62a3af484599dd7d30ca1f458260a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "January 2009 Macworld keynote absence is a distinct later occurrence from the December 2008 withdrawal announcement.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9e947078469e3360"
+  },
+  {
+    "candidate_id": "cef6eccbf12c8abe1a633718",
+    "time": "2009-01-05",
+    "date_precision": "day",
+    "summary": "Steve Jobs announced he has a hormone imbalance causing weight loss and will continue as Apple CEO during his recovery.",
+    "time_range": null,
+    "evidence_ids": [
+      "85497"
+    ],
+    "job_id": "6f73cde1b58a0c5bafe304b9dfb12869ceef5d17d973bae1233b5ad2470a9ca2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "a9b0c0e35dc2f14cdc3b2033",
+    "reason": "Same date and same hormone-imbalance announcement as candidate a9b0c0e35dc2f14cdc3b2033.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-f23c85e6795a9ae3"
+    },
+    "timeline_event_id": "event-f23c85e6795a9ae3"
+  },
+  {
+    "candidate_id": "053b1853862aae5cd7f1123e",
+    "time": "2008-12-17",
+    "date_precision": "day",
+    "summary": "Steve Jobs decided to skip the Macworld Expo keynote, with Phil Schiller scheduled to deliver it on January 6, and Apple announced it would no longer exhibit at Macworld Expo after that year.",
+    "time_range": null,
+    "evidence_ids": [
+      "85418"
+    ],
+    "job_id": "e33c43658916774d74ab5716fdc139c928b6df946448b97a8598dbe771c41667",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "5701554d7315e93c2d3a4cfe",
+    "reason": "Same December 17, 2008 Macworld keynote withdrawal event, with additional detail about Apple ending Macworld participation.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-a9a60cccdc20fb5f"
+    },
+    "timeline_event_id": "event-a9a60cccdc20fb5f"
+  },
+  {
+    "candidate_id": "558b79583d125a020936e2fc",
+    "time": "2011-01-17",
+    "date_precision": "day",
+    "summary": "Apple CEO Steve Jobs announced he is taking a medical leave of absence to focus on his health, while continuing as CEO and remaining involved in major strategic decisions, with Tim Cook responsible for day-to-day operations.",
+    "time_range": null,
+    "evidence_ids": [
+      "85212"
+    ],
+    "job_id": "1d389cffa8fdbe896e97bffe7ba9864b62ab0f3c5f4033661778d56d8172785b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Steve Jobs's 2011 medical leave is a major milestone in his health/leadership timeline; no existing event has the same date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9880a2b4d5734303"
+  },
+  {
+    "candidate_id": "9febecd5ebc4b19059d32c66",
+    "time": "2008-12-17",
+    "date_precision": "day",
+    "summary": "Apple announces that Steve Jobs will not give the keynote at Macworld for the first time in 12 years and that Apple will not exhibit there after 2009.",
+    "time_range": null,
+    "evidence_ids": [
+      "85456"
+    ],
+    "job_id": "8b2725e793f88a623172cd0e2be20a6b9b99fb211421f735c66617345a910ee1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-a9a60cccdc20fb5f",
+    "reason": "Same 2008-12-17 date and same Macworld keynote/Apple exhibit announcement as the existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a9a60cccdc20fb5f"
+  },
+  {
+    "candidate_id": "1378ce0ad58dddab982dc9f4",
+    "time": "2009-01-05",
+    "date_precision": "day",
+    "summary": "Steve Jobs and Apple disclosed that his weight loss was caused by a hormone imbalance and that he had begun treatment while continuing as Apple CEO.",
+    "time_range": null,
+    "evidence_ids": [
+      "85409"
+    ],
+    "job_id": "9f593535f39c4ffe03f3634626ff7c88d14b948e0d47ec6369c444d60bcba354",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-f23c85e6795a9ae3",
+    "reason": "Same 2009-01-05 date and same hormone-imbalance disclosure while continuing as CEO.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f23c85e6795a9ae3"
+  },
+  {
+    "candidate_id": "0c946779191cc6dd9c463224",
+    "time": "2009-01-15",
+    "date_precision": "day",
+    "summary": "Steve Jobs takes time away from Apple to deal with health problems, with Tim Cook serving as temporary replacement.",
+    "time_range": null,
+    "evidence_ids": [
+      "85491"
+    ],
+    "job_id": "d8e86669acb15aa07810f2f0cb08e7757abaa9cf1f2ef264e1fd3e843a60e48f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jobs's January 2009 medical leave with Tim Cook as temporary replacement is a distinct health/leadership milestone; date differs from existing leave event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-baba2398b3b3c601"
+  },
+  {
+    "candidate_id": "8c3ee7fbcbfe94da76348f38",
+    "time": "2006-01-20",
+    "date_precision": "day",
+    "summary": "Disney is reportedly in talks to acquire Pixar in an all-share deal that would make Steve Jobs Disney's biggest individual shareholder.",
+    "time_range": null,
+    "evidence_ids": [
+      "85870"
+    ],
+    "job_id": "8b72697776da708bc58a9ce39f1455284bb83f094da38988cf0ea90a625103ed",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Reported Disney-Pixar talks affecting Jobs's Disney stake are relevant to his business timeline; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-19f0af9224f61470"
+  },
+  {
+    "candidate_id": "12f704e2bc4310b3d3f52295",
+    "time": "2006-01-27",
+    "date_precision": "day",
+    "summary": "Rumors suggest Disney may acquire Pixar, potentially making Steve Jobs Disney's largest shareholder and raising concerns at Microsoft about Apple gaining preference in digital distribution.",
+    "time_range": null,
+    "evidence_ids": [
+      "85840"
+    ],
+    "job_id": "d2aa884eb27b4d14ed0215390272df44ada064dce707b71186da15107f2271eb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rumors about Disney acquiring Pixar and Jobs's shareholder role are relevant; date differs from the confirmed acquisition event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f43053f6dd7362ac"
+  },
+  {
+    "candidate_id": "07df58f363dfa4506d68b32c",
+    "time": "2006-01-24",
+    "date_precision": "day",
+    "summary": "The Walt Disney Co agrees to buy Pixar Animation Studios for $7.4 billion, making Pixar CEO Steve Jobs one of Disney's largest shareholders.",
+    "time_range": null,
+    "evidence_ids": [
+      "85835"
+    ],
+    "job_id": "31592952186c11277b358221fd72f550da609a8f8e895751cfac680724e183eb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-a474eb60626d2dbf",
+    "reason": "Same 2006-01-24 date and same Disney-Pixar acquisition making Jobs a major Disney shareholder.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a474eb60626d2dbf"
+  },
+  {
+    "candidate_id": "fad2aa111f6076123e0b6d59",
+    "time": "2004-11",
+    "date_precision": "month",
+    "summary": "Disney plans to produce Toy Story 3 without Pixar after ending its collaboration with the studio, having previously deferred to Pixar CEO Steve Jobs and director John Lasseter, who did not want to lose control of the characters.",
+    "time_range": null,
+    "evidence_ids": [
+      "85910"
+    ],
+    "job_id": "80a1ae67fb55ab123a7486e6b7412b9b48fae48037a700929035c76d1f15c8c4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Disney planning Toy Story 3 without Pixar is relevant context to Jobs's Pixar/Disney relationship; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-41c5380ec7f70922"
+  },
+  {
+    "candidate_id": "f83ee5c58c5dd78de5a8bad8",
+    "time": "2007-01",
+    "date_precision": "month",
+    "summary": "Apple’s internal investigation expressed complete confidence in Steve Jobs and the management team, but a separate inquiry into options backdating at Pixar, where he was chief executive until Disney bought it last May, could at worst lead to him being barred from acting as a director of any public company.",
+    "time_range": null,
+    "evidence_ids": [
+      "85650"
+    ],
+    "job_id": "0b4836497ee697d00115a389ff3e5b20d5e8b3284be3ef11e774ca0e5c926990",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Steve Jobs milestone about options backdating inquiries and potential director ban; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ad17dcc44dab7c97"
+  },
+  {
+    "candidate_id": "7a3d69001be514ee699d138e",
+    "time": "2003-08-08",
+    "date_precision": "day",
+    "summary": "Pixar chief Steve Jobs threatens to take future films from Disney to another distributor unless new contracts are drawn up.",
+    "time_range": null,
+    "evidence_ids": [
+      "85947"
+    ],
+    "job_id": "31b83e47963765011b5bcc9e82aebe5fcefa2133a14d777fa03bf04f26f99e7f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Pixar/Disney contract threat by Steve Jobs; no existing event with the same date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c71a1c80b72ec892"
+  },
+  {
+    "candidate_id": "6f67a015087fb751805c5e94",
+    "time": "2009-01-15",
+    "date_precision": "day",
+    "summary": "Steve Jobs, the Apple chief executive, takes at least six months' medical leave from the company he co-founded.",
+    "time_range": null,
+    "evidence_ids": [
+      "85454"
+    ],
+    "job_id": "52091e838c60bc03b2f429dddd436cdd47565037944a6346a438f4f40fce9e6b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-baba2398b3b3c601",
+    "reason": "Duplicate of existing 2009-01-15 medical leave event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-baba2398b3b3c601"
+  },
+  {
+    "candidate_id": "2e958f0788aa4bc9b8c7c42c",
+    "time": "2005-01-16",
+    "date_precision": "day",
+    "summary": "A timeline notes that in 1976 Steve Jobs insisted he and Steve Wozniak try to sell the Apple I, leading to Apple Computer's founding in April 1976.",
+    "time_range": null,
+    "evidence_ids": [
+      "85914"
+    ],
+    "job_id": "5cd8d396addb35268e2c09f1ab642f865dc394db9a94c84145b13dc6ab7b8a23",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant early Apple founding milestone involving Steve Jobs; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3d17baea2d826dff"
+  },
+  {
+    "candidate_id": "143b9275692f828bd3ecd1d4",
+    "time": "2011-08-24",
+    "date_precision": "day",
+    "summary": "Steve Jobs steps down as Apple chief executive and is succeeded by Tim Cook, while remaining as chairman.",
+    "time_range": null,
+    "evidence_ids": [
+      "85334"
+    ],
+    "job_id": "d713a0519f787b434537b592099771d1fe010d9770b139958d66cee48d217b4c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-0141648a946a85f3",
+    "reason": "Duplicate of existing 2011-08-24 resignation event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0141648a946a85f3"
+  },
+  {
+    "candidate_id": "6627374b18ffa3b53a455944",
+    "time": "2011-08-24",
+    "date_precision": "day",
+    "summary": "Steve Jobs resigned as chief executive of Apple and recommended Tim Cook as his successor.",
+    "time_range": null,
+    "evidence_ids": [
+      "85178"
+    ],
+    "job_id": "4997fc1f63e8ffa43f6beaf52a6298e2ef51ad34ffb6a24c37bd9f34c56ba86a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-0141648a946a85f3",
+    "reason": "Duplicate of existing 2011-08-24 resignation event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0141648a946a85f3"
+  },
+  {
+    "candidate_id": "6739a546404b6e29603abee4",
+    "time": "2009-01-14",
+    "date_precision": "day",
+    "summary": "Steve Jobs takes a six-month medical leave of absence from Apple, with Tim Cook taking day-to-day charge until the end of June.",
+    "time_range": null,
+    "evidence_ids": [
+      "85446"
+    ],
+    "job_id": "6d311a478d92e4e6ffe2225def034ebf4d61eebf297d8e5a5e308cfec6d3bdee",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-6a62a8311af60bd0",
+    "reason": "Duplicate of existing 2009-01-14 medical leave event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6a62a8311af60bd0"
+  },
+  {
+    "candidate_id": "5dd152080646d49c5dd40954",
+    "time": "2010-06-07",
+    "date_precision": "day",
+    "summary": "Steve Jobs is due to unveil the fourth version of Apple's iPhone at the company's Worldwide Developer Conference in San Francisco.",
+    "time_range": null,
+    "evidence_ids": [
+      "85295"
+    ],
+    "job_id": "32df5ba3e0dde6d2df0b648134e1b33ae5bcffefa5d43b2a11e8b6e43af7c7dd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Steve Jobs due to unveil iPhone 4 at WWDC; relevant Apple milestone with distinct date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3b11bd7b096919f7"
+  },
+  {
+    "candidate_id": "512e1305a52d9b9f2b87d54a",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Steve Jobs is mentioned only as having been on medical leave and having resigned as Apple CEO, with no new event involving him occurring in the article.",
+    "time_range": null,
+    "evidence_ids": [
+      "85290"
+    ],
+    "job_id": "ab81581280685b38fa4e63b29bf5f06165780bbe468df8a4fb09b3bbd61f12e3",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No new Steve Jobs event; only background mention of medical leave and resignation.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "e46689d12c6fedaa3aec7379",
+    "time": "2005-02",
+    "date_precision": "month",
+    "summary": "Steve Jobs gave the original iPhone engineers just two weeks to provide a \"software vision\" for the company, threatening to hand the work over to another group inside Apple.",
+    "time_range": null,
+    "evidence_ids": [
+      "84955"
+    ],
+    "job_id": "fc66eec1fae1523960da4d2fba64073bb4839aef5feaa5aafb2b2c606918cc3b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Steve Jobs set two-week software vision deadline for original iPhone engineers; relevant milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7d00524a60687c19"
+  },
+  {
+    "candidate_id": "c0711c527946a5ce185d519b",
+    "time": "2008-07-14",
+    "date_precision": "day",
+    "summary": "Apple CEO Steve Jobs announced that the new iPhone 3G sold more than 1 million units in the three days since its launch, calling it \"a stunning opening weekend.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "85667"
+    ],
+    "job_id": "e2450c9dd3a81a87d2c2a3fdcd9d77d8e2093442f8813886834af8baf6f40974",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Steve Jobs announced iPhone 3G opening weekend sales; relevant Apple milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d10320045a2cd74e"
+  },
+  {
+    "candidate_id": "fc11697ce905de44176f71ce",
+    "time": "2007-01",
+    "date_precision": "month",
+    "summary": "Steve Jobs unveils the iPhone, describing it as a revolutionary product five years ahead of any other mobile phone.",
+    "time_range": null,
+    "evidence_ids": [
+      "85186"
+    ],
+    "job_id": "0d2c119f7298897171f559a2c85f2a81e57a4eaef36bbb655e80e21839ee39a6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Steve Jobs unveiled the iPhone; major milestone, distinct from the January 11 presentation candidate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8b2119052d3bbca1"
+  },
+  {
+    "candidate_id": "a7d0fb15ed2cebba9a4c63e3",
+    "time": "2011-01-17",
+    "date_precision": "day",
+    "summary": "Apple CEO Steve Jobs takes another open-ended period of medical leave, his third since being diagnosed with a rare form of pancreatic cancer in 2004.",
+    "time_range": null,
+    "evidence_ids": [
+      "85243"
+    ],
+    "job_id": "e74260475fccf56228ebab227cc1a2f977d4d20d9ac08d84be782d5435aca7c9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-9880a2b4d5734303",
+    "reason": "Same date and same Steve Jobs medical leave event as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9880a2b4d5734303"
+  },
+  {
+    "candidate_id": "e8528ae170ca65bd1448d180",
+    "time": "2009-06-22",
+    "date_precision": "day",
+    "summary": "Apple CEO Steve Jobs is quoted in a press release announcing that over one million iPhone 3GS models were sold in the first three days after its worldwide launch.",
+    "time_range": null,
+    "evidence_ids": [
+      "85552"
+    ],
+    "job_id": "5431a808b65244537fb124ae97340d395efbfd8f64da34b8203a5c03b7c5f198",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Steve Jobs quoted on iPhone 3GS first-weekend sales; relevant Apple milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7615390c000e78e1"
+  },
+  {
+    "candidate_id": "631d0fb1d2372feeb294c9ac",
+    "time": "2007-01-11",
+    "date_precision": "day",
+    "summary": "Apple CEO Steve Jobs presents the new iPhone.",
+    "time_range": null,
+    "evidence_ids": [
+      "85757"
+    ],
+    "job_id": "f93cafbc2c525ab85b3ffbe28937b7cc5ab3df1cca96164790a895455c97fee3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Steve Jobs presented the new iPhone; relevant milestone with distinct day date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e15af632330e508c"
+  },
+  {
+    "candidate_id": "2e0172b00a0a1e76e7099870",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No topic-related event involving Steve Jobs is reported; the article only mentions that Tim Cook took over from him in August and that he has been on medical leave.",
+    "time_range": null,
+    "evidence_ids": [
+      "85321"
+    ],
+    "job_id": "004c4f983edce5d182fe36a98ecfe80bfa25e3c6a3f437cfc144640d3ec1daf5",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No topic-related event involving Steve Jobs is reported; only incidental mentions of Tim Cook and medical leave.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "5125d888c14fe8b45acbdbf6",
+    "time": "2011-10-04",
+    "date_precision": "day",
+    "summary": "Apple launched the iPhone 4S, its first iPhone launch after Steve Jobs retired and Tim Cook took over as CEO.",
+    "time_range": null,
+    "evidence_ids": [
+      "85362"
+    ],
+    "job_id": "e30d2c4e3c55e3886d480c17e60fb48f32efcee1ad30149e56ce62fcd786c244",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "iPhone 4S launch is a relevant post-retirement milestone for Steve Jobs's timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-cbbb49a2870903a7"
+  },
+  {
+    "candidate_id": "a501822148fcac176950e71d",
+    "time": "2008-08-28",
+    "date_precision": "day",
+    "summary": "Bloomberg briefly published a pre-written obituary for Steve Jobs before retracting it about 30 seconds later.",
+    "time_range": null,
+    "evidence_ids": [
+      "85450"
+    ],
+    "job_id": "4000558eca1efda1723e10ccfe19f98c60d70f71ca136436b50013959c92936c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Bloomberg's premature Jobs obituary is a notable media milestone in his timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8b2c6aab8264f206"
+  },
+  {
+    "candidate_id": "c6cf4dd51cd1f5ee01cbbb51",
+    "time": "2009-01-21",
+    "date_precision": "day",
+    "summary": "Apple chief executive Steve Jobs is taking a six-month leave from the company due to \"complex\" health issues.",
+    "time_range": null,
+    "evidence_ids": [
+      "85370"
+    ],
+    "job_id": "c8836542524db2daf02db0eb3b069806c3c2f3c53ad732242d57b7e8423ed97c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jobs's six-month medical leave is a distinct health-related milestone; date differs from existing leave events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ae4cf457a8361605"
+  },
+  {
+    "candidate_id": "15caf5aa6b99dbbb4d295f20",
+    "time": "2014-07-08",
+    "date_precision": "day",
+    "summary": "Steve Wozniak says that most of the most creative people who worked on the Macintosh at Apple told him they would never, ever work for Steve Jobs again.",
+    "time_range": null,
+    "evidence_ids": [
+      "84958"
+    ],
+    "job_id": "e368deb8ffe3444f5f5f6d734f87d8e47f9de8f91c47910b087ae7281f06106f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Wozniak's retrospective on Macintosh team members' views of Jobs is a relevant posthumous reflection.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5cdffe1979b30029"
+  },
+  {
+    "candidate_id": "cbe424edce2041fb60172081",
+    "time": "2004-08-04",
+    "date_precision": "day",
+    "summary": "A USA Today column criticizes Steve Jobs for Apple's control-freak tendencies in the iPod era, comparing Apple to Singapore and saying he is repeating mistakes made with the Mac, while noting Jobs was not at Apple when the Mac OS licensing decision was made in 1985.",
+    "time_range": null,
+    "evidence_ids": [
+      "85923"
+    ],
+    "job_id": "fcc11ff0328ef44f0656a52dbe9f21212219e785d6eeece381c1399cde99795a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "USA Today column criticizing Jobs's control-freak tendencies is a relevant commentary milestone; same date as existing event but different occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-887ae735ddf9172a"
+  },
+  {
+    "candidate_id": "9e63b697db8523b19e873f34",
+    "time": "2007-09-18",
+    "date_precision": "day",
+    "summary": "Apple CEO Steve Jobs confirmed that the iPhone will go on sale to British customers in November, with O2 as the sole UK operator.",
+    "time_range": null,
+    "evidence_ids": [
+      "85661"
+    ],
+    "job_id": "70ed1e2a53259d1301cbabb6b065dcb2c601b785bea586d41371d7fcabed72b8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Steve Jobs milestone: confirms UK iPhone launch with O2.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3ca6a0c90f23be16"
+  },
+  {
+    "candidate_id": "5c88c7dd4b0450e94426f707",
+    "time": "2011-10-14",
+    "date_precision": "day",
+    "summary": "The iPhone 4S, unveiled a day before Steve Jobs died, went on sale with thousands queuing outside Apple stores worldwide.",
+    "time_range": null,
+    "evidence_ids": [
+      "85304"
+    ],
+    "job_id": "ab5e3073c496ef2ca4974240938779276f0795b980412785cc73a2e0fa28c6d2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "iPhone 4S launch tied to Jobs's death; relevant milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ea903f63b9340af8"
+  },
+  {
+    "candidate_id": "d9a39120e1d4501f020f4505",
+    "time": "2007-01-10",
+    "date_precision": "day",
+    "summary": "Cisco Systems sues Apple over the iPhone name, a dispute that marred the launch despite Steve Jobs having hoped to secure an agreement before the high-profile launch.",
+    "time_range": null,
+    "evidence_ids": [
+      "85787"
+    ],
+    "job_id": "50701f149fb63ec067a99d37dac9a28d02c96672d1945bdf93db7f90d3014869",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cisco iPhone name lawsuit involving Jobs's launch plans.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-efdbe50527504a39"
+  },
+  {
+    "candidate_id": "9c528aecc268d93eb6f7e8db",
+    "time": "2005-09",
+    "date_precision": "month",
+    "summary": "Steve Jobs discontinued the iPod mini at the height of its popularity, replacing it with the iPod nano.",
+    "time_range": null,
+    "evidence_ids": [
+      "85238"
+    ],
+    "job_id": "e8e57ebeafd504dc0d7b09c5d08581d6b3c6111e9a8cb56358a1293e78d95423",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jobs product decision: iPod mini discontinued for iPod nano.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e10ef0055416e2ac"
+  },
+  {
+    "candidate_id": "1056d4242660ec51a228a68b",
+    "time": "2008-01-15",
+    "date_precision": "day",
+    "summary": "Steve Jobs is scheduled to deliver the keynote speech at MacWorld in San Francisco.",
+    "time_range": null,
+    "evidence_ids": [
+      "85528"
+    ],
+    "job_id": "d75fcb2bb300c9d41ef00889f154520732fa02ef5b7663c9a68429252fac04c0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Scheduled Jobs MacWorld keynote; relevant planned event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-30f50320237a431d"
+  },
+  {
+    "candidate_id": "13ae1c05b1fbd2d13df55d45",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "A fake Apple keynote outline attributed to Steve Jobs circulated on Wikipedia ahead of Macworld, which was not leaked by Fake Steve Jobs.",
+    "time_range": null,
+    "evidence_ids": [
+      "85606"
+    ],
+    "job_id": "db36bf529d2e3059b1d2a6b4a20003bb7ab45dafe39e3f2f5a163bff48725f31",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Fake Jobs keynote outline ahead of Macworld; relevant Jobs-related item.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-cf5b5932d6b3c7c7"
+  },
+  {
+    "candidate_id": "7d8003e9f476d9a9f0002872",
+    "time": "2002-07-17",
+    "date_precision": "day",
+    "summary": "Apple CEO Steve Jobs is expected to give a keynote at MacWorld in New York.",
+    "time_range": null,
+    "evidence_ids": [
+      "85958"
+    ],
+    "job_id": "4906dcbb6004f5297c139fddef180f543443bfb432dde7ff50e2df21bc1329f7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Expected Jobs MacWorld keynote; relevant planned event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9fbf92424ebf09bd"
+  },
+  {
+    "candidate_id": "c75440918884aed8b9a302ea",
+    "time": "2009-01-06",
+    "date_precision": "day",
+    "summary": "Steve Jobs did not appear at Apple's final Macworld keynote, where Phil Schiller instead gave the presentation.",
+    "time_range": null,
+    "evidence_ids": [
+      "85509"
+    ],
+    "job_id": "1ad2b9bf3e8db901fd1722bbeb2b0f3d065627974bd0486bce543328c0e9dc20",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jobs absent from final Macworld keynote; date differs from existing similar event, so append separately.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6976c1b54f6074ca"
+  },
+  {
+    "candidate_id": "55eb8bd9c1edb4a0197612a4",
+    "time": "2007-01-09",
+    "date_precision": "day",
+    "summary": "Steve Jobs is scheduled to deliver a keynote speech at Macworld Expo.",
+    "time_range": null,
+    "evidence_ids": [
+      "85744"
+    ],
+    "job_id": "85996c50412e10cb2b9dfd03cb25295057e92db5f60d2deece537c61e8c7419f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-7223055cc504f720",
+    "reason": "Same date and same Macworld keynote occurrence as the existing iPhone launch event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7223055cc504f720"
+  },
+  {
+    "candidate_id": "88c563428dea4c67dd5a0d17",
+    "time": "2002-09-10",
+    "date_precision": "day",
+    "summary": "Steve Jobs gives the keynote at MacWorld in Paris, where Apple announces that iCal is available for download and that all new Macs will boot into Mac OS X by default from the start of next year.",
+    "time_range": null,
+    "evidence_ids": [
+      "85963"
+    ],
+    "job_id": "8ee22b1de079feccbd8a32e629284b3c70aa3d21cbae0b6ec931b931c0175c87",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct 2002 Paris Macworld keynote milestone in Jobs's timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9f1e53932b6fae43"
+  },
+  {
+    "candidate_id": "4ddcc35cc45acf9136608bec",
+    "time": "2007-01-09",
+    "date_precision": "day",
+    "summary": "People attending Steve Jobs's Macworld keynote speech can play Keynote Bingo using a card printed from Ars Technica.",
+    "time_range": null,
+    "evidence_ids": [
+      "85577"
+    ],
+    "job_id": "9ce4598f878b0986d397904ca179b1f7c996adfcb49d47242ad27d7c96db1fdf",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-7223055cc504f720",
+    "reason": "Same date and same Macworld keynote occurrence as the existing iPhone launch event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7223055cc504f720"
+  },
+  {
+    "candidate_id": "0bb655c3f85dc4a3d64777b8",
+    "time": "2008-07",
+    "date_precision": "month",
+    "summary": "Apple launched a cheaper, beefed-up 3G version of the iPhone intended to boost sales, as the iPhone struggled to live up to the hype and compete with Nokia and BlackBerry in the smartphone market.",
+    "time_range": null,
+    "evidence_ids": [
+      "85403"
+    ],
+    "job_id": "a0bb218106cd4dbbda9da34952a4d7bd3ac11d8a02653006de97e88e301b80e2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct July 2008 iPhone 3G launch milestone relevant to Jobs's Apple timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8e969f6d2468e5c5"
+  },
+  {
+    "candidate_id": "e25c234eea1760f45c829552",
+    "time": "2008-06-09",
+    "date_precision": "day",
+    "summary": "Apple CEO Steve Jobs unveiled the new iPhone 3G, featuring GPS, faster 3G internet, and a lower price, at the Worldwide Developers Conference.",
+    "time_range": null,
+    "evidence_ids": [
+      "85579"
+    ],
+    "job_id": "ddfda77f2c2ff6a45ef4be9978548b2a5bbefaab52520e9cacf414cbde3edcdd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Steve Jobs unveiling iPhone 3G is a relevant Apple product milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-450cb3873139a4aa"
+  },
+  {
+    "candidate_id": "d365d757c65b12961dab2635",
+    "time": "2011-05-31",
+    "date_precision": "day",
+    "summary": "Steve Jobs is to take to the stage at Apple's Worldwide Developer Conference in San Francisco next week to launch iOS 5, Mac OS X Lion, and iCloud.",
+    "time_range": null,
+    "evidence_ids": [
+      "85210"
+    ],
+    "job_id": "2506ae4fe1967c99395de59ff84fc040f6ef6cc35d010ddbe7d98c8b233da443",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Planned Steve Jobs appearance to launch iOS 5, Mac OS X Lion, and iCloud is a relevant milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-30a0a217ea58eb0b"
+  },
+  {
+    "candidate_id": "f8d0027d24914d979b466dd8",
+    "time": "2007-02-16",
+    "date_precision": "day",
+    "summary": "Cisco gives Steve Jobs' Apple until February 21 to respond to its lawsuit over the use of the name iPhone.",
+    "time_range": null,
+    "evidence_ids": [
+      "85742"
+    ],
+    "job_id": "aca35a13e6a915990bea6816040a5da14c61310a2022df7636c5c373e9a8deb4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cisco lawsuit deadline involving Steve Jobs' Apple over the iPhone name is relevant to his timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-60e4b5709294d30e"
+  },
+  {
+    "candidate_id": "bc96884c01af1a084d465ba9",
+    "time": "2011-03-02",
+    "date_precision": "day",
+    "summary": "Steve Jobs made a surprise appearance at an Apple event to launch the updated iPad 2, despite being on indefinite medical leave.",
+    "time_range": null,
+    "evidence_ids": [
+      "85196"
+    ],
+    "job_id": "c58ee51d422898a95a86810ffc5e01acf0bb41f4b00a9ec521db7be845cb1d1e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Steve Jobs' surprise iPad 2 launch appearance during medical leave is a relevant milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f874b5a6965de45e"
+  },
+  {
+    "candidate_id": "d928426ae4530800dce332b9",
+    "time": "2005-09-07",
+    "date_precision": "day",
+    "summary": "Apple chief Steve Jobs unveiled the iPod nano, a flash-based music player replacing the iPod mini.",
+    "time_range": null,
+    "evidence_ids": [
+      "85884"
+    ],
+    "job_id": "2c27142ac4b38cd643f79a569a41ca94b4ec949be7c802b5112cf9bc015ff593",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Steve Jobs unveiling the iPod nano is a relevant Apple product milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b1f3641c5b22bffa"
+  },
+  {
+    "candidate_id": "9571e2c46a68ff85e185df82",
+    "time": "2007-09-05",
+    "date_precision": "day",
+    "summary": "Steve Jobs introduced new iPods, including the iPod Touch, at an Apple event and announced a price cut for the 8 GB iPhone from $599 to $399.",
+    "time_range": null,
+    "evidence_ids": [
+      "85646"
+    ],
+    "job_id": "ff6a0c4a2304e4948da6c5555526f7a1b7fc7ab2472a124ce6ba335e0956c8c5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Steve Jobs introducing iPod Touch and iPhone price cut is a relevant Apple event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-20b378de0b5f0317"
+  },
+  {
+    "candidate_id": "3bcbbf74483335ef63506437",
+    "time": "2008-09-09",
+    "date_precision": "day",
+    "summary": "Steve Jobs introduced Apple's iPod lineup updates and iTunes 8 at a launch event, his first major public appearance since June, and referenced rumors about his health by quoting Mark Twain.",
+    "time_range": null,
+    "evidence_ids": [
+      "85572"
+    ],
+    "job_id": "4ff2ffdd4623ba6f6fedf481fbaeb16db29d5d76a8951727b1c0d888047ca23b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Steve Jobs' iPod lineup event and first major appearance since June is a relevant milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-84b43cfd0ca61ee6"
+  },
+  {
+    "candidate_id": "58370340085b3ba2f3144830",
+    "time": "2005-09-08",
+    "date_precision": "day",
+    "summary": "Apple chief Steve Jobs unveiled the iPod nano, a flash-based music player replacing the iPod mini.",
+    "time_range": null,
+    "evidence_ids": [
+      "85885"
+    ],
+    "job_id": "bf8d68bc6ddfa77c6c49f8f082b25b47fbe462e94837495dd0a01b58123c18ea",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Duplicate iPod nano unveiling but dated 2005-09-08, differing from the 2005-09-07 occurrence; append separately.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-51722e8b57bf778f"
+  },
+  {
+    "candidate_id": "5e61e6d35e2bbd8b8bbcb23d",
+    "time": "2006-01-10",
+    "date_precision": "day",
+    "summary": "Steve Jobs is expected to deliver the keynote at the annual Macworld conference in San Francisco, where he is anticipated to unveil new Apple products.",
+    "time_range": null,
+    "evidence_ids": [
+      "85832"
+    ],
+    "job_id": "eca225a72317c5089fab8508fab291ebe95880e4b96ed8f9461b73a7936d6b90",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jobs's anticipated Macworld keynote is a relevant milestone; no existing event matches this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-646156b0beadf9ee"
+  },
+  {
+    "candidate_id": "0c69d445b1b3cff670a564ba",
+    "time": "2006-02-28",
+    "date_precision": "day",
+    "summary": "Steve Jobs claimed that the new Intel-based Mac minis are respectively between 2.5-3x and 5.5x faster than their PowerPC ancestors and said Apple is on track to convert its entire line of Macs to Intel-based processors by the end of the year.",
+    "time_range": null,
+    "evidence_ids": [
+      "85849"
+    ],
+    "job_id": "6651ec4402b3e52136dc815f8d4c6b30005d9f555c54bf4b203662d22c126ba6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jobs's claim about Intel-based Mac mini performance and Intel transition progress is a relevant milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-474c4b7a912f87d7"
+  },
+  {
+    "candidate_id": "079412dcc977bfc8533b2de7",
+    "time": "2006-09-12",
+    "date_precision": "day",
+    "summary": "Steve Jobs announced new iPods, iPod nanos, iTunes 7, movie downloads, and a planned “iTV” wireless streaming device at an Apple event.",
+    "time_range": null,
+    "evidence_ids": [
+      "85821"
+    ],
+    "job_id": "5c9e2c4b56cb7f688c84666310a301313bb53750962fa2eb3578d096b11172b0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jobs's announcement of new iPods, iTunes 7, movie downloads, and iTV is a relevant product milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-cc88947b07ebb38f"
+  },
+  {
+    "candidate_id": "af6c412a9ff40107b63f816e",
+    "time": "2007-09-05",
+    "date_precision": "day",
+    "summary": "Steve Jobs unveiled the new touch-sensitive, wireless-enabled iPod touch and discontinued the iPod's classic white plastic design.",
+    "time_range": null,
+    "evidence_ids": [
+      "85708"
+    ],
+    "job_id": "bccce4b0e3c827f346478f0f8d4497c30cff421cdf04c4606d771b39c0efc214",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-20b378de0b5f0317",
+    "reason": "Same date and same iPod-unveiling event as the existing 2007-09-05 event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-20b378de0b5f0317"
+  },
+  {
+    "candidate_id": "0a01d5177952de000c33e35d",
+    "time": "2004-01-08",
+    "date_precision": "day",
+    "summary": "Apple CEO Steve Jobs unveiled the iPod Mini at the MacExpo show, positioning it between the high-end iPods and cheaper flash-based music players.",
+    "time_range": null,
+    "evidence_ids": [
+      "85937"
+    ],
+    "job_id": "195be6f8b1a079b1d271489a861c92cb9928bc8ab384873ca9a666d3763681cc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jobs unveiling the iPod Mini is a relevant milestone; date differs from the other iPod Mini candidate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a8531c1a1c694cfc"
+  },
+  {
+    "candidate_id": "1bfb17f9f5e6fdd4f3621d03",
+    "time": "2009-09-09",
+    "date_precision": "day",
+    "summary": "Steve Jobs said Apple does not see e-books as a big market and suggested general-purpose devices will win over dedicated e-book readers.",
+    "time_range": null,
+    "evidence_ids": [
+      "85443"
+    ],
+    "job_id": "6b52d44e6e0703fa63cd52b51bea741e66e58ceb0efe113a1b6496b1b85f54a1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jobs's comments on e-books and dedicated readers are a relevant public statement.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-18a2edafdcfcd81c"
+  },
+  {
+    "candidate_id": "d7c6c533288bf787ff3ea477",
+    "time": "2008-09-09",
+    "date_precision": "day",
+    "summary": "Apple CEO Steve Jobs unveiled updates to the iPod line and attempted to quell speculation about his health at a San Francisco event.",
+    "time_range": null,
+    "evidence_ids": [
+      "85493"
+    ],
+    "job_id": "c13b588050f2b9d089ba1b390d941fa9a22a7c4ae4c6823bb66881fad707c4cc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-84b43cfd0ca61ee6",
+    "reason": "Same date and same iPod-lineup event as the existing 2008-09-09 event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-84b43cfd0ca61ee6"
+  },
+  {
+    "candidate_id": "fdbf85b8e2a0be4fe6a717c6",
+    "time": "2004-01-06",
+    "date_precision": "day",
+    "summary": "Apple CEO Steve Jobs launched the iPod Mini, a cheaper and smaller version of the iPod music player, at the MacWorld show in San Francisco.",
+    "time_range": null,
+    "evidence_ids": [
+      "85944"
+    ],
+    "job_id": "bdf0f1ef6c4e6a820c3d6c3ed24cc863c18b8762e1956b828df6359248a3f8e3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jobs launching the iPod Mini is a relevant milestone; date differs from the other iPod Mini candidate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-34ef6674edce9ba9"
+  },
+  {
+    "candidate_id": "772ac52b1ac6f6801c6c09c6",
+    "time": "2011-10-05",
+    "date_precision": "day",
+    "summary": "Steve Jobs, co-founder and former chief executive of Apple, died of a rare form of pancreatic cancer in California at the age of 56.",
+    "time_range": null,
+    "evidence_ids": [
+      "85205"
+    ],
+    "job_id": "48a30786ecc899a4b9af88a9376eaa9ea375c05e29d3d6908c4203c835a7d0bd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ac14bfe0fd3b5db3",
+    "reason": "Same date and event as existing Steve Jobs death record; duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ac14bfe0fd3b5db3"
+  },
+  {
+    "candidate_id": "0756b3a2af2d69781f3b57d1",
+    "time": "2010-11-23",
+    "date_precision": "day",
+    "summary": "Apple's first computer, the Apple I, sold at auction in London for £133,250, together with its original packaging and a signed letter from Steve Jobs.",
+    "time_range": null,
+    "evidence_ids": [
+      "85424"
+    ],
+    "job_id": "c0820e9cb9d65f4ecec567f9bbe724b3abaf1c2f084f1d76bbe7433974b5344a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Steve Jobs-related Apple I auction milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-80382f92368f4319"
+  },
+  {
+    "candidate_id": "7e0efcc88a6ca52c4d570c49",
+    "time": "2007-09-05",
+    "date_precision": "day",
+    "summary": "Steve Jobs appeared at an Apple press conference to announce a new version of iTunes with ringtones, an overhauled iPod lineup including the iPod Nano, iPod Classic, and iPod Touch.",
+    "time_range": null,
+    "evidence_ids": [
+      "85720"
+    ],
+    "job_id": "47c8144c774bb9661f0d0d3f1815c64feed095477ddc395d98d07a48287925d6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-20b378de0b5f0317",
+    "reason": "Same 2007-09-05 Apple event as existing event; duplicate milestone covering Jobs's iPod/iTunes announcements.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-20b378de0b5f0317"
+  },
+  {
+    "candidate_id": "75494f8b993ff34582d4656b",
+    "time": "2011-08-25",
+    "date_precision": "day",
+    "summary": "Steve Jobs resigns as chief executive of Apple.",
+    "time_range": null,
+    "evidence_ids": [
+      "85142"
+    ],
+    "job_id": "cef0c3f2029ca4d7210ecef588905e746a6dcc2b3e81fe475c62a59a51e94aaf",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ff932ef1e29b83ae",
+    "reason": "Same 2011-08-25 event: Jobs resigning as Apple CEO; duplicate of existing resignation milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ff932ef1e29b83ae"
+  },
+  {
+    "candidate_id": "9de67e5ce6496af835b24f5e",
+    "time": "2011-02-23",
+    "date_precision": "day",
+    "summary": "Apple shareholders seeking to force the company to disclose a succession plan for ailing founder Steve Jobs, who is on medical leave with cancer, lost a vote on the issue at Apple's annual meeting in San Francisco.",
+    "time_range": null,
+    "evidence_ids": [
+      "85198"
+    ],
+    "job_id": "808498bd2af5cab9eb00f8a7fac7018e0b70e1b86a67dead15ea54896c1386dd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Steve Jobs succession-planning milestone at Apple's 2011 annual meeting; distinct date from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d5312324185d3031"
+  },
+  {
+    "candidate_id": "e1d11ed05a4a6b3445fddb70",
+    "time": "1999-09-23",
+    "date_precision": "day",
+    "summary": "Steve Jobs, co-founder and interim CEO of Apple Computer, appeared tired and jetlagged at a Paris product launch where he introduced the new Apple Studio Display and G4 computer, after which he discussed Apple's market position and strategy.",
+    "time_range": null,
+    "evidence_ids": [
+      "85986"
+    ],
+    "job_id": "84f98e8dd5a0a26114b64ca119fafd46316bea82a870467daa9e80f77560d837",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Steve Jobs product launch and strategy remarks; relevant milestone with no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b34a4a979b83a5e7"
+  },
+  {
+    "candidate_id": "a071ba66fcb8288be0e92a52",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "85019"
+    ],
+    "job_id": "22d9b3cf80ffa05185e7ef1de4cd3fd96e3c81ba7ed1da71823f58bbae9f87d0",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Clinton tsunami appeal does not involve Steve Jobs.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "89e9af4ada6437dfbdb01257",
+    "time": "2002-01-24",
+    "date_precision": "day",
+    "summary": "Pixar Studios is selected by the Producers' Guild of America to receive its inaugural Vanguard Award, which may be given to Pixar executives possibly including Apple CEO Steve Jobs at a ceremony in Los Angeles on March 3.",
+    "time_range": null,
+    "evidence_ids": [
+      "85976"
+    ],
+    "job_id": "4cb2fd2a3a72efc303229b693917fc9df96d1e5c98b5c5bcc6629c5e384270e3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Pixar Vanguard Award with possible Steve Jobs involvement; relevant and no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9d4d75421bba0f7f"
+  },
+  {
+    "candidate_id": "fecba2b3d17edcd0c104895d",
+    "time": "2009-01-23",
+    "date_precision": "day",
+    "summary": "Apple co-founder and CEO Steve Jobs was forced to take a leave of absence for health reasons.",
+    "time_range": null,
+    "evidence_ids": [
+      "85567"
+    ],
+    "job_id": "bd595ea22c07d1153ff2c0553b3117f5ff89554452d3c0f3dd446023ddfef804",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Steve Jobs health-related leave of absence; relevant milestone, distinct from existing 2011 leave.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7b04b6da9168938e"
+  },
+  {
+    "candidate_id": "ac2b6b6e2a4009b3b93e4fa3",
+    "time": "2009-01-24",
+    "date_precision": "day",
+    "summary": "A Tech Weekly special reflects on the 25th anniversary of Apple unveiling the Macintosh, noting that Steve Jobs called some people \"idiots.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "85588"
+    ],
+    "job_id": "a450fa9df5319a77b39f7a9fed27fe658a1894dac00dbdea20dcdba986184c34",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Macintosh 25th anniversary reflection involving Steve Jobs; relevant and no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5aa54a70208ce46c"
+  },
+  {
+    "candidate_id": "9202e825cfa9e92f8e377157",
+    "time": "2007-01",
+    "date_precision": "month",
+    "summary": "Steve Jobs announced Apple would reinvent the phone with the iPhone at Macworld.",
+    "time_range": null,
+    "evidence_ids": [
+      "85640"
+    ],
+    "job_id": "4cc0d29ce59617a544b9acbec3938048b2dc0901c27bc91fee8cb3fd36c5f409",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-8b2119052d3bbca1",
+    "reason": "Same 2007-01 iPhone announcement as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8b2119052d3bbca1"
+  },
+  {
+    "candidate_id": "7adfdf42ae617adc36ac3f35",
+    "time": "2011-08-24",
+    "date_precision": "day",
+    "summary": "Steve Jobs resigned as CEO of Apple.",
+    "time_range": null,
+    "evidence_ids": [
+      "85079"
+    ],
+    "job_id": "20d6708385d1485f3ec0ac789d2eec842f662774555616bdfc127e90252b5a07",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-0141648a946a85f3",
+    "reason": "Same 2011-08-24 Steve Jobs CEO resignation as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0141648a946a85f3"
+  },
+  {
+    "candidate_id": "db3335a0999512c75c58f50a",
+    "time": "1999-01-07",
+    "date_precision": "day",
+    "summary": "Steve Jobs gave a keynote at MacWorld Expo, unveiling a family of see-through iMac-like G3 computers and a new line of multi-coloured iMacs.",
+    "time_range": null,
+    "evidence_ids": [
+      "85998"
+    ],
+    "job_id": "09b65f2456c2ac89fd83d3d6bd86b03d665abac1c86770bcb1f1745dbb419bfe",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Steve Jobs MacWorld keynote unveiling iMac/G3 products; relevant and no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a57e8f156603a834"
+  },
+  {
+    "candidate_id": "24a3d792da44b72ee8f25c1d",
+    "time": "2007-01-09",
+    "date_precision": "day",
+    "summary": "Former Apple employee David Sobotta comments on Apple's announcements, including the iPhone, and says history may look more favorably on Bill Gates than Steve Jobs.",
+    "time_range": null,
+    "evidence_ids": [
+      "85735"
+    ],
+    "job_id": "419bfae2047e84c0b23e09aa140b8ebca89a94f9846a3cc8997fbecf4b4a551f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Commentary on Jobs's legacy tied to Apple's iPhone announcement; contributes a contemporaneous assessment of Jobs.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b44fe7b0fa8c1134"
+  },
+  {
+    "candidate_id": "2aa97c085d8adb00138629c9",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No specific event related to Steve Jobs is reported; the article only discusses expectations for an upcoming Macworld keynote and general commentary.",
+    "time_range": null,
+    "evidence_ids": [
+      "85639"
+    ],
+    "job_id": "372faa23b3cd1ccdf2356aec7a5bb5cfbbf462f62cb76a69a6afacd80f629bae",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No specific Steve Jobs event; only general Macworld expectations and commentary.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "6539286331a58e7204b60fd7",
+    "time": "2007",
+    "date_precision": "year",
+    "summary": "Steve Jobs announced the iPhone at the Macworld Expo keynote, receiving a rapturous response.",
+    "time_range": null,
+    "evidence_ids": [
+      "85533"
+    ],
+    "job_id": "d93686a48570ca0cfb544eec9c4466416779083a9bd7bf610cd9144adf78ddc8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jobs's iPhone Macworld announcement; year-only date differs from the existing 2007-01-09 event, so it cannot merge.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6e01b4437c425740"
+  },
+  {
+    "candidate_id": "f1142bdef9b46f749a91cc68",
+    "time": "2007-01-04",
+    "date_precision": "day",
+    "summary": "Steve Jobs is expected to give a keynote speech at the Macworld show in San Francisco next week to unveil new rumored products.",
+    "time_range": null,
+    "evidence_ids": [
+      "85818"
+    ],
+    "job_id": "88c85c202b548d59901f9d5423c0177b384ff716f75b3cee88e0170c650781a0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Expected Jobs Macworld keynote and rumored product unveilings; distinct anticipatory milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7282aa0bdb45b5d3"
+  },
+  {
+    "candidate_id": "da03a1c11efde342564e9231",
+    "time": "2009-09-09",
+    "date_precision": "day",
+    "summary": "Steve Jobs appears on stage at an Apple event, receiving a standing ovation, and says he is back at Apple after a liver transplant.",
+    "time_range": null,
+    "evidence_ids": [
+      "85553"
+    ],
+    "job_id": "c797223d48c8678755bdc8fdcbf8d593fcd3743984b27691d92a80e1859c6ebe",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jobs's return to the stage after liver transplant; distinct milestone in his health/Apple timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-cdc7c4b7d430c323"
+  },
+  {
+    "candidate_id": "85ef5a529288193f4fbfa91d",
+    "time": "2009-06-20",
+    "date_precision": "day",
+    "summary": "Steve Jobs underwent a liver transplant earlier in 2009, according to a Wall Street Journal report, though Apple refused to confirm or deny the claim.",
+    "time_range": null,
+    "evidence_ids": [
+      "85349"
+    ],
+    "job_id": "37953be06e69716d71aa0747028f3b825bfe432f3bb182cb92b733cda49a57dd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Report of Jobs's 2009 liver transplant with Apple's non-confirmation; dated 2009-06-20, distinct from the 2009-06-19 reports.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e94338f244fc4abc"
+  },
+  {
+    "candidate_id": "9cded4260c41198fe73a2b76",
+    "time": "2009-06-19",
+    "date_precision": "day",
+    "summary": "It was reported that Steve Jobs had a liver transplant two months earlier, which was disclosed late on Friday night.",
+    "time_range": null,
+    "evidence_ids": [
+      "85308"
+    ],
+    "job_id": "f834c24fbefe1d3d231166db06cdbef5ec61f7c18273102222c4f1a843d63c1a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Report that Jobs had a liver transplant two months earlier, disclosed late Friday; distinct health milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4cc2c3c811b86ade"
+  },
+  {
+    "candidate_id": "ec44533f8acad1585b9d3fa2",
+    "time": "2009-06-19",
+    "date_precision": "day",
+    "summary": "Steve Jobs underwent a liver transplant two months prior, as reported by The Wall Street Journal.",
+    "time_range": null,
+    "evidence_ids": [
+      "85393"
+    ],
+    "job_id": "b19503b57ca5b256e43130058946f9c1b01e87196ec5082b6326af15d32812fd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "9cded4260c41198fe73a2b76",
+    "reason": "Same 2009-06-19 report of Jobs's liver transplant two months earlier; duplicate of candidate 9cded4260c41198fe73a2b76.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-4cc2c3c811b86ade"
+    },
+    "timeline_event_id": "event-4cc2c3c811b86ade"
+  },
+  {
+    "candidate_id": "777cf636c60137cda9d9ff53",
+    "time": "2007-01-09",
+    "date_precision": "day",
+    "summary": "Steve Jobs is expected to take the stage at his annual showcase in San Francisco, where he may unveil an Apple mobile phone and other products.",
+    "time_range": null,
+    "evidence_ids": [
+      "85649"
+    ],
+    "job_id": "e025b0745efd4d92139e930b3b342d96565a4272aaa0cafc9497e9584a082c7e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-7223055cc504f720",
+    "reason": "Same date and same Macworld iPhone announcement as the existing event; duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7223055cc504f720"
+  },
+  {
+    "candidate_id": "5841e730af2c4bbfd7480913",
+    "time": "2005-06-06",
+    "date_precision": "day",
+    "summary": "Steve Jobs announced at the Worldwide Developer Conference that Apple will transition its Macs from PowerPC to Intel processors, with Intel-based Macs shipping in 2006 and the transition completed by the end of 2007.",
+    "time_range": null,
+    "evidence_ids": [
+      "85903"
+    ],
+    "job_id": "32e23310001c8b1912bc0b50a6944eab30c7f5d817d77fcfa167d84d93638a10",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Steve Jobs's WWDC announcement of the Mac transition to Intel is a distinct milestone not covered by existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-eeb4b64dbc13848b"
+  },
+  {
+    "candidate_id": "f91628e141b255ccd0bc6562",
+    "time": "2013-08-21",
+    "date_precision": "day",
+    "summary": "Ashton Kutcher and Steve Wozniak publicly disagree over Kutcher's portrayal of Steve Jobs in the biopic Jobs, with Wozniak criticizing the film and Kutcher questioning Wozniak's motives.",
+    "time_range": null,
+    "evidence_ids": [
+      "85037"
+    ],
+    "job_id": "72c1bea8d6dedc1d65525e2f03d322e35208f85e5d6daaf276f5a4af9e3ab965",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Public dispute between Kutcher and Wozniak over Jobs biopic portrayal; relevant to Jobs's cultural legacy.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c81837b4b69b4732"
+  },
+  {
+    "candidate_id": "006fcf8506460b1dda52fe09",
+    "time": "2013-01-26",
+    "date_precision": "day",
+    "summary": "Steve Wozniak criticized the Steve Jobs biopic \"jOBS\" after a clip was released online, saying the portrayal of his relationship with Jobs was \"not close\" and the personalities were \"very wrong.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "85003"
+    ],
+    "job_id": "8aca81170904e91ac73f2241cf5161d6ed5c2d4e16370a0196cfd84cd6e9b958",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Wozniak's criticism of the jOBS biopic; distinct dated milestone in Jobs film portrayals.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fc9dda0a3079f861"
+  },
+  {
+    "candidate_id": "cbad3bc68072a89fc8826f1d",
+    "time": "2013-01-25",
+    "date_precision": "day",
+    "summary": "The biopic \"jOBS,\" starring Ashton Kutcher as Steve Jobs, is due to receive its world premiere at the Sundance film festival.",
+    "time_range": null,
+    "evidence_ids": [
+      "85103"
+    ],
+    "job_id": "4ccd1ff272e956669df71c0cb92c1c7e76d4e93c3c8e69fd31120e8f1c240be9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "World premiere of jOBS biopic at Sundance; relevant Jobs-related cultural event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6c881b22c1be886f"
+  },
+  {
+    "candidate_id": "63573851ac86d52a449cfafe",
+    "time": "2011-08-27",
+    "date_precision": "day",
+    "summary": "Steve Jobs's resignation as Apple CEO was the most discussed in corporate history, prompting widespread speculation about Apple's future without him.",
+    "time_range": null,
+    "evidence_ids": [
+      "85176"
+    ],
+    "job_id": "b82b878c74fcc55ce5ea9a1918d4657a5cb94c760cad011e49f3a77552600533",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jobs's resignation as Apple CEO and ensuing speculation; major milestone in his career.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-394a6ae8868a5eaf"
+  },
+  {
+    "candidate_id": "b6c0e2286069ebd90bef34f5",
+    "time": "2015-10-03",
+    "date_precision": "day",
+    "summary": "Michael Fassbender, who plays Steve Jobs in Danny Boyle's biopic, joked at the New York Film Festival that he studied Ashton Kutcher to prepare for the role.",
+    "time_range": null,
+    "evidence_ids": [
+      "84902"
+    ],
+    "job_id": "18f2232f11a044473bd1baca4b3efa1bb1d4f48b7b532bf8ba423ad921e80e3d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Fassbender's joke about studying Kutcher for the Jobs role; relevant to Jobs biopic legacy.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-646ce89e2ee2044c"
+  },
+  {
+    "candidate_id": "7bb3c937d828d02b28609ffd",
+    "time": "2015-09-04",
+    "date_precision": "day",
+    "summary": "The documentary \"Steve Jobs: The Man in the Machine,\" a critique of the late Apple co-founder, is released in the US.",
+    "time_range": null,
+    "evidence_ids": [
+      "84908"
+    ],
+    "job_id": "c83b72a2d7f1fa646a96d9e7ed469069ddabfc9bfeb47015b851802ff408c403",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "US release of Jobs documentary; relevant cultural milestone about Jobs.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d09e784d88b18b85"
+  },
+  {
+    "candidate_id": "08b86b51b2c43429753c9d76",
+    "time": "2009-10-13",
+    "date_precision": "day",
+    "summary": "Steve Jobs is reportedly helping Walt Disney overhaul its retail stores into miniature theme parks by sharing Apple's retail techniques.",
+    "time_range": null,
+    "evidence_ids": [
+      "85354"
+    ],
+    "job_id": "003fd0b3fb5fee5ca6f8a7aafea42e9e34272d61b9805980f37e4d9b5eadb037",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jobs reportedly helping Disney retail overhaul; relevant to his post-Apple business influence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e6be977cf06952d8"
+  },
+  {
+    "candidate_id": "587a6ffa22f94a2002471382",
+    "time": "2008-12-16",
+    "date_precision": "day",
+    "summary": "Apple announced that Steve Jobs would not give the keynote speech at Macworld and would no longer attend Macworld Expo events.",
+    "time_range": null,
+    "evidence_ids": [
+      "85599"
+    ],
+    "job_id": "97c4857a4f04b191ea0e182f8d09768ea6b6cd2a867c811fc22b766f20cbd8f4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Jobs's withdrawal from Macworld keynote; date differs from similar existing event (2008-12-18), so separate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-37bea7b98e191424"
+  },
+  {
+    "candidate_id": "98b73c99555a610c7446e502",
+    "time": "2004-08-02",
+    "date_precision": "day",
+    "summary": "Apple CEO Steve Jobs was recovering from weekend surgery to remove a cancerous tumour from his pancreas, saying he would take August off to recuperate and expected to return in September.",
+    "time_range": null,
+    "evidence_ids": [
+      "85820"
+    ],
+    "job_id": "4f55f58f20e5f6cd1356df492b681e83b1ee8b5f0cc057cef15df1f2ac661ba4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Jobs's 2004 pancreatic cancer surgery and recovery; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-681e5530c3707f4e"
+  },
+  {
+    "candidate_id": "8fc55a332a7f1edb02039343",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Steve Jobs's ferocious perfectionism and intimidating management style are described, including his transformation of Apple after rejoining in 1996 and his micromanagement of products.",
+    "time_range": null,
+    "evidence_ids": [
+      "85179"
+    ],
+    "job_id": "89f5ee62394d9d2374ab483780a2e5278f72555b2039909c9258aba2e768b459",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant characterization of Jobs's perfectionism and management style; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d09e62c9dbd503fb"
+  },
+  {
+    "candidate_id": "be905109048ca21a8e907e28",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "85237"
+    ],
+    "job_id": "fff5e99c22edcef479e916f29d0881aecedb4328010b57a46004fbf08dbdea3d",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Not relevant to Steve Jobs; concerns Bush and Clinton tsunami donation appeal.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "cd4722756d0c8e1845f9d876",
+    "time": "2007-04-25",
+    "date_precision": "day",
+    "summary": "Apple's board publicly declares \"complete confidence\" in Steve Jobs' integrity and leadership amid a stock options scandal, as former CFO Fred Anderson accuses Jobs of lying about his involvement.",
+    "time_range": null,
+    "evidence_ids": [
+      "85707"
+    ],
+    "job_id": "29ff7f29b2224f1cf6f6ccfeb289c725d2f1ecb574341fbf477961e95f799e87",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Board's public confidence declaration amid options scandal is a distinct Steve Jobs milestone; no existing event shares its 2007-04-25 date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-66835ff0bcd642db"
+  },
+  {
+    "candidate_id": "8d74e68ec90ade58a2ee98f1",
+    "time": "2007-01-23",
+    "date_precision": "day",
+    "summary": "Steve Jobs was questioned by SEC investigators regarding backdated stock options.",
+    "time_range": null,
+    "evidence_ids": [
+      "85643"
+    ],
+    "job_id": "dfbf7d53f74e1162f20191751d14930672c1ad6c3671d72f8b6d872fea9baa0c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Steve Jobs milestone in the Apple backdated stock options scandal; distinct date from the 2007-04-25 board confidence event, so no merge.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-06cf812237728a42"
+  },
+  {
+    "candidate_id": "683c43620283a241b7e58eb1",
+    "time": "2014-10-31",
+    "date_precision": "day",
+    "summary": "Seth Rogen is in early talks to play Steve Wozniak in Danny Boyle's Steve Jobs biopic, with Christian Bale in line to play Steve Jobs.",
+    "time_range": null,
+    "evidence_ids": [
+      "84945"
+    ],
+    "job_id": "ce5c40ff7c83bca68ec34618bb928d526265507e500992732a7ac78881f6567a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Casting development for the Steve Jobs biopic; relevant to Jobs's cultural portrayal, and no existing event shares this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-60ef3cbc3bcf61ce"
+  },
+  {
+    "candidate_id": "95d3048c51280609e46db79b",
+    "time": "2015-07-03",
+    "date_precision": "day",
+    "summary": "Steve Wozniak commented on the trailer for Danny Boyle's Steve Jobs film, saying accuracy is second to entertainment and that he felt the real Jobs was present though exaggerated.",
+    "time_range": null,
+    "evidence_ids": [
+      "84918"
+    ],
+    "job_id": "d4e02cea4fbfc2d34db60c77e4227e7242fef0a9ff40c156ed7c8bb0354fa7fd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Wozniak's reaction to the Steve Jobs film trailer; relevant to Jobs's depiction, and no existing event shares this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-02a7e764887d4204"
+  },
+  {
+    "candidate_id": "94cb17bb1823d1489c28de7e",
+    "time": "2005-04-28",
+    "date_precision": "day",
+    "summary": "Apple attempted to veto an unofficial biography of Steve Jobs and removed other books by the author from its stores.",
+    "time_range": null,
+    "evidence_ids": [
+      "85879"
+    ],
+    "job_id": "61659beb1b96ddb51d47c111f81d8f1692ebcf555b53a94e3013ee5a65650e5c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Steve Jobs milestone about Apple's response to an unauthorized biography; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ef30ef8ed325b265"
+  },
+  {
+    "candidate_id": "fe066f3f561d69b880ed155a",
+    "time": "2007-01-23",
+    "date_precision": "day",
+    "summary": "Steve Jobs was questioned by US government investigators about Apple's alleged misuse of stock options.",
+    "time_range": null,
+    "evidence_ids": [
+      "85608"
+    ],
+    "job_id": "d9fa06ae0924218c688e7e8a3f722e018fdec8d5d186b79d2cb3c7113ea1659e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-06cf812237728a42",
+    "reason": "Same date and same event: Jobs questioned by investigators over Apple stock options.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-06cf812237728a42"
+  },
+  {
+    "candidate_id": "8b2b7654ea0e68ccb75a5492",
+    "time": "2010-06-07",
+    "date_precision": "day",
+    "summary": "Steve Jobs unveiled the iPhone 4 and announced that Apple would bring its iBooks ebook application from the iPad to the iPhone.",
+    "time_range": null,
+    "evidence_ids": [
+      "85464"
+    ],
+    "job_id": "bd4b830adf87f16fd16d258240a3d9e0bd5b8cc745fe270365941b20159add39",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-3b11bd7b096919f7",
+    "reason": "Same date and event as the existing WWDC iPhone 4 unveiling; adds iBooks announcement detail.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3b11bd7b096919f7"
+  },
+  {
+    "candidate_id": "4c339fb6797b5acb5352787e",
+    "time": "2007-09-06",
+    "date_precision": "day",
+    "summary": "Steve Jobs issued an open letter apologizing to early iPhone buyers and announced a $100 store credit after Apple cut the iPhone price by $200.",
+    "time_range": null,
+    "evidence_ids": [
+      "85710"
+    ],
+    "job_id": "1b7b7a71b16b96ad1fe05dceeb0caa9b9c6015ce1a9f39d76238eb62fb7dfbca",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jobs's open apology and $100 credit is a distinct milestone; date differs from the existing 2007-09-05 price-cut event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-909fc9451d4afeb6"
+  },
+  {
+    "candidate_id": "d8c86922e6e22223fdf6ce67",
+    "time": "2011-10",
+    "date_precision": "month",
+    "summary": "Apple had already designed its next two iPhones, including the iPhone 5, before Steve Jobs died in October 2011.",
+    "time_range": null,
+    "evidence_ids": [
+      "85007"
+    ],
+    "job_id": "77f0ff4032e899a4a14da07956a1fc9f5efde5fc160bd151f7a2913fd9fb8edd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relates to Jobs's death and Apple's iPhone pipeline; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c64b9e9f8446679f"
+  },
+  {
+    "candidate_id": "7adf0c9f1365bf570bb67fcd",
+    "time": "2001-10-23",
+    "date_precision": "day",
+    "summary": "Steve Jobs unveiled the iPod to the world.",
+    "time_range": null,
+    "evidence_ids": [
+      "84927"
+    ],
+    "job_id": "5eb311d37380c1cf482d16d3a918ecdd48d703f0e27b16cda8502686fccd20d9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jobs unveiling the iPod is a major milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f5e12b7f1028b6a2"
+  },
+  {
+    "candidate_id": "5e96ef9db6c2e419b0d7d993",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "85068"
+    ],
+    "job_id": "f2510d42df0649cbd0bc4f6f5bdacf2743a57855ca7ec88628c95c6ce78ecda1",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Appointment of Bush and Clinton for tsunami relief is unrelated to Steve Jobs.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "1e97e6b908a06422237ed302",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No topic-related event found.",
+    "time_range": null,
+    "evidence_ids": [
+      "84971"
+    ],
+    "job_id": "84084761de74f5eed8bf531fcfaf01bf783801e273fb1a51b953f18825a77be7",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No topic-related event found.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "e3a8eab2e0494db89da7b5b4",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "85157"
+    ],
+    "job_id": "4664cf37fc40854c1a8990fa25e1380f3a177feedf60e52d86e11ea67a6cd325",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Duplicate of unrelated Bush/Clinton tsunami relief appointment; no Steve Jobs relevance.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "1d469acaf6e40007e37079ce",
+    "time": "2015-09-17",
+    "date_precision": "day",
+    "summary": "Apple CEO Tim Cook criticizes recent Steve Jobs films as \"opportunistic\" during an interview on the Late Show with Stephen Colbert.",
+    "time_range": null,
+    "evidence_ids": [
+      "84891"
+    ],
+    "job_id": "d1352253dda4334b6e1be02f8d334eee67c55504929981ea549bda278d6d523a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Tim Cook's criticism of Steve Jobs films is a relevant milestone in Jobs-related media coverage.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f7fffcfae1706624"
+  },
+  {
+    "candidate_id": "5dbc9495571b9e953fe9662e",
+    "time": "2014-11-04",
+    "date_precision": "day",
+    "summary": "Christian Bale leaves the Steve Jobs biopic, becoming the second high-profile actor to pass on the role after Leonardo DiCaprio.",
+    "time_range": null,
+    "evidence_ids": [
+      "84933"
+    ],
+    "job_id": "344f781a2457657fad4de396a9350c5806d721b61d550fd186743f8a4f62decc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Christian Bale leaving the Steve Jobs biopic is a relevant development in the film's production.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-36313ee26110ac02"
+  },
+  {
+    "candidate_id": "ecd9252f6331b73f6900c165",
+    "time": "2011-10-16",
+    "date_precision": "day",
+    "summary": "Steve Jobs' biographer Walter Isaacson reveals that Jobs regretted delaying surgery for pancreatic cancer in 2004 and instead pursuing alternative therapies.",
+    "time_range": null,
+    "evidence_ids": [
+      "85110"
+    ],
+    "job_id": "1c2a868a0096089c94498d93f4deb8d9709da1457a1da785d02986875f712c23",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant biographical milestone about Jobs's cancer treatment regret; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-90ee52c5e89f6373"
+  },
+  {
+    "candidate_id": "dc8252a57b4a7d2526036dfc",
+    "time": "2008-08-29",
+    "date_precision": "day",
+    "summary": "Bloomberg accidentally published Steve Jobs's obituary prematurely and issued a retraction.",
+    "time_range": null,
+    "evidence_ids": [
+      "85609"
+    ],
+    "job_id": "781a410f5fbb58cf3a56f868222543516bb35349bd302543a88caa6c9d1f9448",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant media incident in Jobs coverage; no duplicate existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e9a2aea47c1d2cc5"
+  },
+  {
+    "candidate_id": "fa4ce6782627d599ac5cd23a",
+    "time": "2011-10-10",
+    "date_precision": "day",
+    "summary": "Sony Pictures is set to acquire rights to Walter Isaacson's authorized biography of Steve Jobs for a planned biopic.",
+    "time_range": null,
+    "evidence_ids": [
+      "85083"
+    ],
+    "job_id": "fbf42fd43e53d5cbe2af4f793a380b7053796a872e5b93f27fe5f7f571100876",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant posthumous biopic rights development tied to Jobs biography; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5cf81397f4a87a7a"
+  },
+  {
+    "candidate_id": "08a2445dd1ef2cc6b7fe79c5",
+    "time": "2009",
+    "date_precision": "year",
+    "summary": "Steve Jobs rejected an offer of a liver transplant from Tim Cook.",
+    "time_range": null,
+    "evidence_ids": [
+      "84917"
+    ],
+    "job_id": "daa798106c148e77495f3f7f8a753505d1cc56dfa260fc5f82ada997ae2f79d5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant personal/medical milestone involving Jobs and Tim Cook; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d8836e6339dfc2d1"
+  },
+  {
+    "candidate_id": "e84b066c9f8a9eb355414a90",
+    "time": "2011-01-17",
+    "date_precision": "day",
+    "summary": "Steve Jobs, Apple's chief executive, takes a medical leave of absence, with Tim Cook taking over day-to-day operations.",
+    "time_range": null,
+    "evidence_ids": [
+      "85184"
+    ],
+    "job_id": "9e752a9907ad1de1bd82cb12382203a5a91f8d650b0da98b0065294b1f17aee0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-9880a2b4d5734303",
+    "reason": "Same 2011-01-17 medical leave event with Tim Cook taking day-to-day operations.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9880a2b4d5734303"
+  },
+  {
+    "candidate_id": "69bc5c2e452d1f1bb4535793",
+    "time": "2006-12-29",
+    "date_precision": "day",
+    "summary": "Apple's internal probe found that CEO Steve Jobs was aware of favorably backdated stock option grants but did not financially benefit from them, as the options were cancelled before being exercised.",
+    "time_range": null,
+    "evidence_ids": [
+      "85773"
+    ],
+    "job_id": "4dd5e2da1c3c805c0bd3028b94965a2b7598790e035408c1dc5a1f6f2805d88d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant stock options backdating finding involving Jobs; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7333cfb05d40fdef"
+  },
+  {
+    "candidate_id": "64fcb9f76a62e93637f6ecc4",
+    "time": "2009-09-09",
+    "date_precision": "day",
+    "summary": "Steve Jobs publicly acknowledged for the first time that he had a liver transplant from a donor in his mid-20s who died in a car crash, speaking at an Apple event in Cupertino.",
+    "time_range": null,
+    "evidence_ids": [
+      "85326"
+    ],
+    "job_id": "279ad9d809b55375148d6c8a9f3ca31608413ec12076c1fa31ff658d71071ec4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-cdc7c4b7d430c323",
+    "reason": "Same date and event as existing record of Jobs publicly discussing his liver transplant at the September 2009 Apple event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-cdc7c4b7d430c323"
+  },
+  {
+    "candidate_id": "3e6b554646a760194de62fe9",
+    "time": "2009-01-16",
+    "date_precision": "day",
+    "summary": "Steve Jobs is reportedly considering a liver transplant to treat a consequence of the neuroendocrine cancer he was treated for in 2004, according to an unconfirmed Bloomberg report.",
+    "time_range": null,
+    "evidence_ids": [
+      "85372"
+    ],
+    "job_id": "03385d06440c6366001456b0173091556dff26c71ac61fd8d461b32119bf7804",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct January 2009 report that Jobs was considering a liver transplant; contributes to his health timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8db227d004656626"
+  },
+  {
+    "candidate_id": "a80da759f45a6c467449dcb1",
+    "time": "2009-06-23",
+    "date_precision": "day",
+    "summary": "Methodist University Hospital in Memphis confirmed that Steve Jobs had received a liver transplant at its Transplant Institute.",
+    "time_range": null,
+    "evidence_ids": [
+      "85397"
+    ],
+    "job_id": "0557f926b7e3d474c0f0f5d04b6f03fc619675d7821d68805b7072168d012997",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Hospital confirmation of Jobs's liver transplant; relevant milestone not matching any existing event date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c79f0350b1b2b19b"
+  },
+  {
+    "candidate_id": "6a164f1e9bf05fb25dbb45c6",
+    "time": "2016-07-05",
+    "date_precision": "day",
+    "summary": "Apple announces that its upcoming iOS 10 update will let US iPhone users sign up as organ donors, a move CEO Tim Cook linked to Steve Jobs' 2009 wait for a liver transplant.",
+    "time_range": null,
+    "evidence_ids": [
+      "84901"
+    ],
+    "job_id": "bde5c99d0501c34157a2cc64fe4700f4e2a56d021f73158761b0ac043b0090aa",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "2016 Apple organ-donor signup announcement explicitly linked to Jobs's 2009 transplant; relevant later milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-797ca4a439fa50e0"
+  },
+  {
+    "candidate_id": "e2c71fd8aa12c3bc6a4b9c04",
+    "time": "2009-06",
+    "date_precision": "month",
+    "summary": "Steve Jobs had a liver transplant, first reported by the Wall Street Journal and later confirmed by CNBC.",
+    "time_range": null,
+    "evidence_ids": [
+      "85350"
+    ],
+    "job_id": "40d01cbb30ffdb3972bfa6591b061d79571067023f09ee55ec6571fa1860518b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Month-precision report of Jobs's liver transplant; distinct date precision from day-level transplant events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fc68cda04eb11e1e"
+  },
+  {
+    "candidate_id": "9753957e2dd41f1cf64b207f",
+    "time": "2011-01-17",
+    "date_precision": "day",
+    "summary": "Steve Jobs takes a second open-ended medical leave of absence from Apple.",
+    "time_range": null,
+    "evidence_ids": [
+      "85181"
+    ],
+    "job_id": "be51bb6ac827a373cae900e148749712a69a066c76245f4c879c8b5189b6c586",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-9880a2b4d5734303",
+    "reason": "Same date and event as existing record of Jobs taking a second medical leave of absence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9880a2b4d5734303"
+  },
+  {
+    "candidate_id": "23052d9247aa2ee1b9c16456",
+    "time": "1999-07-21",
+    "date_precision": "day",
+    "summary": "Steve Jobs launches Apple's new iBook laptop at MacWorld, with shares rising more than 2% to $55.",
+    "time_range": null,
+    "evidence_ids": [
+      "85984"
+    ],
+    "job_id": "3e7b007bfe1aaf0b76669dbc0e1686d9d54d7fc39544c3a0a8c838125677d4d5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jobs launching the iBook at MacWorld is a relevant Apple milestone in his timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d0f8575a670b12fc"
+  },
+  {
+    "candidate_id": "6a9beaad237fd0b5caa10b4d",
+    "time": "2009-06-23",
+    "date_precision": "day",
+    "summary": "A hospital confirmed that Steve Jobs had a liver transplant and is recovering well with an excellent prognosis.",
+    "time_range": null,
+    "evidence_ids": [
+      "85348"
+    ],
+    "job_id": "ccf28f81f9cd9339fe5d341353314cf97d0d0d2c9d71ab62427a485949374c77",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "a80da759f45a6c467449dcb1",
+    "reason": "Same date and same hospital confirmation of Jobs's liver transplant as candidate a80da759f45a6c467449dcb1.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-c79f0350b1b2b19b"
+    },
+    "timeline_event_id": "event-c79f0350b1b2b19b"
+  },
+  {
+    "candidate_id": "86c911f316d5ccd456b4269d",
+    "time": "2011-10-16",
+    "date_precision": "day",
+    "summary": "Tim Berners-Lee praised Steve Jobs for insisting computers could be usable rather than infuriating, crediting the NeXT computer he used to write the World Wide Web software.",
+    "time_range": null,
+    "evidence_ids": [
+      "85277"
+    ],
+    "job_id": "5189a824d184fc3a2c6fb10f2f26006d536c7ae80c4c263390f5a168671b0a34",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant tribute to Jobs's usability legacy; same date as an existing event but distinct occurrence, so no merge.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7696317f5c41c6a5"
+  },
+  {
+    "candidate_id": "ac46291a5e56428725d82c8c",
+    "time": "1999-08-31",
+    "date_precision": "day",
+    "summary": "Apple interim CEO Steve Jobs unveiled the G4 Power Macs at the Seybold publishing conference in San Francisco, claiming they would bring supercomputer power to the desktop.",
+    "time_range": null,
+    "evidence_ids": [
+      "85999"
+    ],
+    "job_id": "ffd9832f369a1ba57deb121b76bc28958fd1237e83232b8490e821ccb1c2c8a3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Jobs unveiling G4 Power Macs as interim CEO.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b5f537076cf18385"
+  },
+  {
+    "candidate_id": "d1bd96a630643d2030485753",
+    "time": "2009-08",
+    "date_precision": "month",
+    "summary": "Reports suggest Apple CEO Steve Jobs could launch a tablet computer as early as next month, with the device potentially in shops by Christmas.",
+    "time_range": null,
+    "evidence_ids": [
+      "85379"
+    ],
+    "job_id": "99d4276089185e5b3a5290c0b3e089d728a523db48599908b8a847a872d7e8c5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant to Jobs's product legacy as reported speculation about the Apple tablet.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-50a653c2bb0b0e6c"
+  },
+  {
+    "candidate_id": "81499ceda2ee9619b4071585",
+    "time": "2012-05-03",
+    "date_precision": "day",
+    "summary": "Magnolia Pictures acquires a previously lost 1995 Steve Jobs interview for US distribution, with a cinema release planned for the following week.",
+    "time_range": null,
+    "evidence_ids": [
+      "85043"
+    ],
+    "job_id": "a8edd2cbef9249fc0fb16eaa90b7e713dfec492201be3f43efb56bd74d6977d3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant posthumous Jobs-related media milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b9232a21ae498abe"
+  },
+  {
+    "candidate_id": "1ac644a6afa7b6a2500fd5c2",
+    "time": "2009-01-14",
+    "date_precision": "day",
+    "summary": "News reports state that Steve Jobs will be out until at least June due to health issues, prompting a dispute between journalist Dan Lyons and CNBC's Jim Goldman.",
+    "time_range": null,
+    "evidence_ids": [
+      "85546"
+    ],
+    "job_id": "54977535630a9d51b9b39f21adcf3aa2c3c8151c8d1c5b29bb90097ee2af36c7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant to Jobs's 2009 health leave; adds media dispute angle not covered by existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6b959ac88a13213a"
+  },
+  {
+    "candidate_id": "291d0a5274eb3a772f5a9b79",
+    "time": "2011-10-05",
+    "date_precision": "day",
+    "summary": "Steve Jobs died, one day after Tim Cook led his first Apple presentation as full-time chief executive.",
+    "time_range": null,
+    "evidence_ids": [
+      "85236"
+    ],
+    "job_id": "f367312b96a8f1de279e1d1d0a71cc229699e92f9d589f8c28e6be8ba4647709",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ac14bfe0fd3b5db3",
+    "reason": "Same date and event as existing Steve Jobs death record; adds Tim Cook context.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ac14bfe0fd3b5db3"
+  },
+  {
+    "candidate_id": "e5492c8ba6dbd4833b669a91",
+    "time": "2011-10-05",
+    "date_precision": "day",
+    "summary": "Steve Jobs, co-founder of Apple Inc., died at age 56 after a years-long battle with cancer.",
+    "time_range": null,
+    "evidence_ids": [
+      "85088"
+    ],
+    "job_id": "10c9efe9f855e14fc81280090446df52595e08fff9a8a358b0b3216c37bf201f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ac14bfe0fd3b5db3",
+    "reason": "Duplicate of existing Steve Jobs death event on 2011-10-05.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ac14bfe0fd3b5db3"
+  },
+  {
+    "candidate_id": "8ae349201cafa367b9426be0",
+    "time": "2009-01-14",
+    "date_precision": "day",
+    "summary": "Apple CEO Steve Jobs disclosed that his health issues are \"more complex\" than originally thought and took a medical leave of absence until the end of June, with COO Tim Cook taking control of day-to-day operations.",
+    "time_range": null,
+    "evidence_ids": [
+      "85404"
+    ],
+    "job_id": "d75d67f286f133996e52edf04b0149c6903235aa3ec18154db30a0d2bec3b5d1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-6a62a8311af60bd0",
+    "reason": "Same date and event as existing 2009 medical leave announcement; adds health-complexity detail.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6a62a8311af60bd0"
+  },
+  {
+    "candidate_id": "53ae1e34e72fef83de573496",
+    "time": "2011-10-05",
+    "date_precision": "day",
+    "summary": "Steve Jobs died, prompting widespread tributes and renewed attention to his past speeches and announcements.",
+    "time_range": null,
+    "evidence_ids": [
+      "85165"
+    ],
+    "job_id": "b4899d4c2ea1f9204bc1ae03ccc7c373bb0b3357c715e0e56c26b6cafae1ad9a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ac14bfe0fd3b5db3",
+    "reason": "Duplicate of existing Steve Jobs death event on 2011-10-05; adds tribute reaction.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ac14bfe0fd3b5db3"
+  },
+  {
+    "candidate_id": "93b1613d4ae66c586edb45f6",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No topic-related event.",
+    "time_range": null,
+    "evidence_ids": [
+      "84940"
+    ],
+    "job_id": "e00c49177f808375effef7e3dce6d1f777c7713906780e31391cb4830aa95d9d",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No topic-related event.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "b70677f1a025c358d5018ed1",
+    "time": "2006-01-10",
+    "date_precision": "day",
+    "summary": "Steve Jobs is scheduled to give another keynote presentation.",
+    "time_range": null,
+    "evidence_ids": [
+      "85738"
+    ],
+    "job_id": "5e0a7b00c2ff2a0658c1f33b9f3cf35abf6168dac1ddb7a4a6f25b396edd49ad",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-646156b0beadf9ee",
+    "reason": "Same date and same scheduled Steve Jobs keynote event as existing Macworld keynote record.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-646156b0beadf9ee"
+  },
+  {
+    "candidate_id": "3b3c4490afd304091a3a490f",
+    "time": "2011-10-05",
+    "date_precision": "day",
+    "summary": "Steve Jobs died of cancer at the age of 56.",
+    "time_range": null,
+    "evidence_ids": [
+      "85240"
+    ],
+    "job_id": "5490849b40ada2525fc473dadf04d3559f8ba24ffb165848fa686cf4b8f976ee",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ac14bfe0fd3b5db3",
+    "reason": "Same event and date as existing Steve Jobs death record; duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ac14bfe0fd3b5db3"
+  }
+]

@@ -1,0 +1,3717 @@
+[
+  {
+    "candidate_id": "82b35ed2efc8a16c2f5e3daa",
+    "time": "2009-01-27",
+    "date_precision": "day",
+    "summary": "Alaska governor Sarah Palin opens a political action committee, SarahPac, to support candidates sharing her goals and fund her political activities.",
+    "time_range": null,
+    "evidence_ids": [
+      "80729"
+    ],
+    "job_id": "6c3de3121a16c73de539a0a54b73c816bf1296f09004a2a821bba95207255baa",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin's launch of SarahPac is a relevant milestone in her political activities.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-47049f3f8b46a247"
+  },
+  {
+    "candidate_id": "318f3d2749747dc1789d9637",
+    "time": "2009-07-03",
+    "date_precision": "day",
+    "summary": "Sarah Palin announces she will step down as governor of Alaska at the end of the month.",
+    "time_range": null,
+    "evidence_ids": [
+      "80646"
+    ],
+    "job_id": "0ec7da97dedd06ff02d63a32d1c3027b6331d9ca3424bd7eeebb1df9f49514f2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin's announcement that she will step down as Alaska governor is a key milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-14a7f936d256f595"
+  },
+  {
+    "candidate_id": "55faaaa9dd71e063dc6b9996",
+    "time": "2008-08-28",
+    "date_precision": "day",
+    "summary": "Alaska governor Sarah Palin went to bed knowing she would be tapped by John McCain to be his vice-presidential running mate.",
+    "time_range": null,
+    "evidence_ids": [
+      "81124"
+    ],
+    "job_id": "62e960d03560c80a8002626bb7704aa57e366f527db158053355f4511543c8f8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin's anticipation of being tapped as McCain's running mate is relevant to her political rise.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-723aec5110e64df4"
+  },
+  {
+    "candidate_id": "c5dee755f6a219e8d19a5daa",
+    "time": "2011-06",
+    "date_precision": "month",
+    "summary": "Alaska's state government prepares to release 24,000 pages of emails sent and received by Sarah Palin during her time as governor, following freedom of information requests from multiple US media organizations.",
+    "time_range": null,
+    "evidence_ids": [
+      "80520"
+    ],
+    "job_id": "5f6f1809d576decdcc033a72a14b5056efc349e9ee1c4644f066d947b14b08af",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Release of Palin's governor emails is a relevant development in her public records scrutiny.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0292540bfceffa8b"
+  },
+  {
+    "candidate_id": "7021d882a7a6a52c50b9e282",
+    "time": "2009-07-26",
+    "date_precision": "day",
+    "summary": "Sarah Palin resigns as governor of Alaska 16 months before the end of her term, without revealing her long-term political plans.",
+    "time_range": null,
+    "evidence_ids": [
+      "80786"
+    ],
+    "job_id": "c8ffe38b0a6b47091296525be5567831975829623c93d9df8cb15f4263ba218e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin's actual resignation as governor on 2009-07-26 is a distinct milestone from the announcement.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c918bd02d81b5072"
+  },
+  {
+    "candidate_id": "c60e112daffbe5ac62b48e4e",
+    "time": "2011-10-05",
+    "date_precision": "day",
+    "summary": "Sarah Palin announces she will not seek the 2012 Republican presidential nomination.",
+    "time_range": null,
+    "evidence_ids": [
+      "80421"
+    ],
+    "job_id": "d825c1ee4bf7fe949160efda4e9a2bf7aea43b0a4d4b40d70e9f0dbc902efb16",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin's decision not to seek the 2012 Republican nomination is a relevant political milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2cef6614b8b3a969"
+  },
+  {
+    "candidate_id": "edacf7ed79bf9d0ec3229189",
+    "time": "2009-07-03",
+    "date_precision": "day",
+    "summary": "Sarah Palin resigns as Alaska governor, fueling speculation about a 2012 presidential bid.",
+    "time_range": null,
+    "evidence_ids": [
+      "80704"
+    ],
+    "job_id": "5c4bcb542974be42dc07bfee86503158dcd3fdaf7ffb51e31493bedcc3270091",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "318f3d2749747dc1789d9637",
+    "reason": "Same 2009-07-03 resignation announcement as candidate 318f3d2749747dc1789d9637.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-14a7f936d256f595"
+    },
+    "timeline_event_id": "event-14a7f936d256f595"
+  },
+  {
+    "candidate_id": "d5041616e85e5e361ee146cc",
+    "time": "2009-07-03",
+    "date_precision": "day",
+    "summary": "Sarah Palin resigns as Alaska's governor, fueling speculation about a 2012 presidential run.",
+    "time_range": null,
+    "evidence_ids": [
+      "80705"
+    ],
+    "job_id": "17eff59cc14e200b65fadd759bb17ac50f2face7abbfa4c0485de1d828022e7e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "318f3d2749747dc1789d9637",
+    "reason": "Same 2009-07-03 resignation announcement as candidate 318f3d2749747dc1789d9637.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-14a7f936d256f595"
+    },
+    "timeline_event_id": "event-14a7f936d256f595"
+  },
+  {
+    "candidate_id": "c4c0697ac35ef112e7b10745",
+    "time": "2008-08-29",
+    "date_precision": "day",
+    "summary": "John McCain announces Sarah Palin as his vice-presidential running mate in the 2008 White House race.",
+    "time_range": null,
+    "evidence_ids": [
+      "80475"
+    ],
+    "job_id": "b655db73475d6592e6c64e6359c70a362c1be724013aed7a9ed5418a9045d3a4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "McCain announcing Palin as VP running mate is a foundational milestone in her political career; date differs from existing Aug 28 event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0b6c3a0149c98920"
+  },
+  {
+    "candidate_id": "d5064f837af82d1d97dd5cba",
+    "time": "2009-07-03",
+    "date_precision": "day",
+    "summary": "Sarah Palin resigns as Alaska governor, saying \"politically speaking, if I die, I die.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "80777"
+    ],
+    "job_id": "f6c3f3761be0953eb57ccc4f5e853c9d1c3a553d10eccdbae820804b828f379c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-14a7f936d256f595",
+    "reason": "Same date and same resignation announcement as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-14a7f936d256f595"
+  },
+  {
+    "candidate_id": "6fc88a48abff80cd98ae0aae",
+    "time": "2009-07-03",
+    "date_precision": "day",
+    "summary": "Sarah Palin announces she will resign as governor of Alaska 18 months before the end of her first term.",
+    "time_range": null,
+    "evidence_ids": [
+      "80702"
+    ],
+    "job_id": "2dd1364321320fbd59c4124a4d4587afe9260403a67fbb0a8cf631c348023327",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-14a7f936d256f595",
+    "reason": "Same date and same resignation announcement as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-14a7f936d256f595"
+  },
+  {
+    "candidate_id": "347a0cbe1e892bb25085d58f",
+    "time": "2010-11-26",
+    "date_precision": "day",
+    "summary": "Sarah Palin begins a book tour for her new book \"America By Heart\" in Des Moines, Iowa, amid speculation about a potential 2012 presidential bid.",
+    "time_range": null,
+    "evidence_ids": [
+      "80553"
+    ],
+    "job_id": "80977ba0c8f044498a08fa8ed31a8fa10712c3edfc0d939343194f1a7c954b61",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Book tour and 2012 speculation is a distinct post-resignation political milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ab8d67fa72d467ff"
+  },
+  {
+    "candidate_id": "699bdde5bc92aca34bab3f15",
+    "time": "2015-01-24",
+    "date_precision": "day",
+    "summary": "Sarah Palin said she was interested in running for president in 2016 and gave a disjointed speech at the Freedom Summit in Des Moines, Iowa.",
+    "time_range": null,
+    "evidence_ids": [
+      "80317"
+    ],
+    "job_id": "037f149faa69bba24ed8020065171f06bd6355ffca398da89cadd87c81eb9ec3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Expressing interest in a 2016 presidential run is a distinct later political milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9422ca6763872454"
+  },
+  {
+    "candidate_id": "7434fb4d8e07f6b44ffed081",
+    "time": "2008-09-03",
+    "date_precision": "day",
+    "summary": "Sarah Palin delivered her prime-time national TV debut speech at the Republican convention, portraying herself as a champion of government reform and mocking Barack Obama.",
+    "time_range": null,
+    "evidence_ids": [
+      "81157"
+    ],
+    "job_id": "52c2f2395c48814dae4f5491682b16424fcf599a3090ff230f607d37a4e81fcc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Republican convention speech is a distinct national-debut milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2e0759cf9598bc0b"
+  },
+  {
+    "candidate_id": "a59ec17a33b57e634a42ecff",
+    "time": "2008-11-13",
+    "date_precision": "day",
+    "summary": "Sarah Palin held her first press conference since the election at the Republican governors' conference in Miami, calling for a return to traditional Republican values and promoting her potential 2012 presidential bid.",
+    "time_range": null,
+    "evidence_ids": [
+      "80815"
+    ],
+    "job_id": "ea0e136dcb47e30b97ebfd2f2f759f080802b44355a77715442afae2fe529099",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "First post-election press conference and 2012 speculation is a distinct milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f1225fc962a94b21"
+  },
+  {
+    "candidate_id": "6250a328c78923557248f3c7",
+    "time": "2008-08-29",
+    "date_precision": "day",
+    "summary": "John McCain picks Alaska Governor Sarah Palin as his vice-presidential running mate.",
+    "time_range": null,
+    "evidence_ids": [
+      "81005"
+    ],
+    "job_id": "61b0c058f0e3b3d5db74aec9faa491ea16a437e70e1e83d15151013c278af8a8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "c4c0697ac35ef112e7b10745",
+    "reason": "Duplicate of the same Aug 29, 2008 VP selection announcement.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-0b6c3a0149c98920"
+    },
+    "timeline_event_id": "event-0b6c3a0149c98920"
+  },
+  {
+    "candidate_id": "9b17dbf2db961333caf97ffc",
+    "time": "2008-09-25",
+    "date_precision": "day",
+    "summary": "Sarah Palin has avoided the media for a month, holding no press conferences since her nomination and granting only three television interviews, ahead of her vice-presidential debate with Joe Biden.",
+    "time_range": null,
+    "evidence_ids": [
+      "80732"
+    ],
+    "job_id": "167f151bac9ef8ed42642e9bfcb107267392431c117924cf67d216374cdf1ddb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone on Palin's media avoidance ahead of the VP debate; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a10da32c10ebcbac"
+  },
+  {
+    "candidate_id": "b6c8a5c552f67db87217edfa",
+    "time": "2008-10-02",
+    "date_precision": "day",
+    "summary": "Sarah Palin and Joe Biden participate in the vice-presidential debate.",
+    "time_range": null,
+    "evidence_ids": [
+      "80839"
+    ],
+    "job_id": "93c0c514b3cd04c3a561d8f4cef77d6391685a31eded7159956833027fbef252",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Key VP debate milestone in Palin's political timeline; no duplicate existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-04204d263d98faec"
+  },
+  {
+    "candidate_id": "d3e6c384a241c2e8289e0dab",
+    "time": "2010-04-23",
+    "date_precision": "day",
+    "summary": "Sarah Palin testified in federal court at the trial of David Kernell, the man accused of hacking into her email account during the 2008 presidential campaign, telling the jury the intrusion caused a huge disruption to her campaign and personal life.",
+    "time_range": null,
+    "evidence_ids": [
+      "80649"
+    ],
+    "job_id": "cc1af30ae960368273a0b77a9d6e840d89fb2b3625f3f04e3d78ad955caa3732",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant legal/political milestone involving Palin's email hacking case; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6b94d7306e34bceb"
+  },
+  {
+    "candidate_id": "275698769420d4dc680b60e7",
+    "time": "2008-09-18",
+    "date_precision": "day",
+    "summary": "At a panel discussion, American Enterprise Institute scholar Norman Ornstein says Sarah Palin is the prettiest vice-presidential candidate since John Edwards.",
+    "time_range": null,
+    "evidence_ids": [
+      "81108"
+    ],
+    "job_id": "a70855806976e80edc437c2eaea013c1f5ccf3ac6c6cfb9804aa57858564514e",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Third-party remark about Palin's appearance; not a substantive milestone in her timeline.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "dc96de73905ef0637ecab524",
+    "time": "2015-12-22",
+    "date_precision": "day",
+    "summary": "Sarah Palin released a parody video of Tina Fey's sitcom 30 Rock, titled \"31 Rock,\" in which she plays \"Lyn Melon,\" seemingly to promote her new book.",
+    "time_range": null,
+    "evidence_ids": [
+      "80298"
+    ],
+    "job_id": "3d1bffaa4248124e35740525c6cee0ac065c19f1d6d3a61d18c7e51899209409",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Palin media/book promotion event; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-41e013eea0682b99"
+  },
+  {
+    "candidate_id": "b328e85cb9e87e890d5828cd",
+    "time": "2011-10-05",
+    "date_precision": "day",
+    "summary": "Sarah Palin announced that she was not running for the presidency in 2012.",
+    "time_range": null,
+    "evidence_ids": [
+      "80384"
+    ],
+    "job_id": "f64f94d80aaa93e5e43f7d3bf4bd9d2732b65871b89d1a37d793f9659432b977",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-2cef6614b8b3a969",
+    "reason": "Same date and same event as existing 2011-10-05 announcement that Palin would not run in 2012.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2cef6614b8b3a969"
+  },
+  {
+    "candidate_id": "e7863cd2088b03795cbf961c",
+    "time": "2011-10-05",
+    "date_precision": "day",
+    "summary": "Sarah Palin announces she will not run in the 2012 US presidential election race.",
+    "time_range": null,
+    "evidence_ids": [
+      "80398"
+    ],
+    "job_id": "45659da2bf7f82ee233f1b8aa658bff53a0450f380dd16f910af6ee412b742df",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-2cef6614b8b3a969",
+    "reason": "Duplicate of existing 2011-10-05 announcement that Palin would not run in 2012.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2cef6614b8b3a969"
+  },
+  {
+    "candidate_id": "a490603a6b509d974eb6a58d",
+    "time": "2008-10-11",
+    "date_precision": "day",
+    "summary": "An independent investigation found that Alaska Governor Sarah Palin abused her power by allowing impermissible pressure to be placed on subordinates to get her brother-in-law, Trooper Michael Wooten, fired.",
+    "time_range": null,
+    "evidence_ids": [
+      "80831"
+    ],
+    "job_id": "bce93605033796af8c71248ff7bb49d393fb21be92706d3664c94e7d5c58c2eb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant abuse-of-power finding against Palin; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b6d52b5aa4ed2a0a"
+  },
+  {
+    "candidate_id": "846e2dbad62bceb3b47fc89e",
+    "time": "2009-07-03",
+    "date_precision": "day",
+    "summary": "Sarah Palin announces she is standing down as governor of Alaska.",
+    "time_range": null,
+    "evidence_ids": [
+      "80746"
+    ],
+    "job_id": "8787672b54edc2c6b8e579633512a14de474c399a1ef61c285eb8994f26f50a9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-14a7f936d256f595",
+    "reason": "Same date and same event: Palin announcing she is standing down as Alaska governor, matching the existing 2009-07-03 announcement.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-14a7f936d256f595"
+  },
+  {
+    "candidate_id": "3c3a2787791cdc009ec95773",
+    "time": "2011-06-10",
+    "date_precision": "day",
+    "summary": "Tens of thousands of pages of Sarah Palin's emails from her time as Alaska governor were released under freedom of information laws, offering an intimate portrait of her handling of issues including Troopergate and oil exploration.",
+    "time_range": null,
+    "evidence_ids": [
+      "80474"
+    ],
+    "job_id": "6060b1b25165bc3e2c33acffcde16383efa5be5f192749a8c6184d149049f9f6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: release of Palin's governor emails under FOIA, with substantive detail on Troopergate and oil exploration.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4a8f6b484768c5b2"
+  },
+  {
+    "candidate_id": "ea934722ba9493a0a56789c8",
+    "time": "2011-06-01",
+    "date_precision": "day",
+    "summary": "Tens of thousands of emails to and from Sarah Palin during her time as Alaska governor are to be released within the next week after more than two years of obstruction and delay.",
+    "time_range": null,
+    "evidence_ids": [
+      "80479"
+    ],
+    "job_id": "b41813cd4b4b6544d0eb62a35dceeab808967a59b2c2c2e8d7793bf9a808a189",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant precursor: planned imminent release of Palin's governor emails after delay; distinct date from the actual release.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6d7e249d41d95094"
+  },
+  {
+    "candidate_id": "d902bd9b117de9c168b5d43e",
+    "time": "2011-06-17",
+    "date_precision": "day",
+    "summary": "More than 24,000 pages of emails from Sarah Palin's time as Alaska governor were released, with readers helping review the documents.",
+    "time_range": null,
+    "evidence_ids": [
+      "80437"
+    ],
+    "job_id": "b044f50e00afc96daf1a774a34c28c57744137f49fad24f7a267b5622dad27bc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant follow-up dated June 17, 2011 on the released emails and reader-assisted review; different date from the June 10 release.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-55166abee41f3433"
+  },
+  {
+    "candidate_id": "0232ac65a41fae63a3d06f3d",
+    "time": "2011-06-11",
+    "date_precision": "day",
+    "summary": "24,000 pages of Sarah Palin's emails are released to the media in Alaska, revealing her behind-the-scenes communication style.",
+    "time_range": null,
+    "evidence_ids": [
+      "80488"
+    ],
+    "job_id": "c3ab04e7c6c58fe1b1a802ec52fe616a5b89b0167675593f8f376f8ea3189943",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant email-release event dated June 11, 2011; date differs from the June 10 release, so kept separate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8de4ba6c77d72046"
+  },
+  {
+    "candidate_id": "0bbf3b09c9251b0e88b77046",
+    "time": "2011-06-10",
+    "date_precision": "day",
+    "summary": "Thousands of Sarah Palin's emails from her time as Alaska governor were released to the Guardian and other media organizations.",
+    "time_range": null,
+    "evidence_ids": [
+      "80386"
+    ],
+    "job_id": "b9301246b21fda000516258a87ca481a34c8981135c347d8cacad17ce3a57edf",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "3c3a2787791cdc009ec95773",
+    "reason": "Duplicate of the June 10, 2011 email release; same date and event, differing only in recipient detail.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-4a8f6b484768c5b2"
+    },
+    "timeline_event_id": "event-4a8f6b484768c5b2"
+  },
+  {
+    "candidate_id": "8cbeb90b81df47d26c8769d4",
+    "time": "2011-06-10",
+    "date_precision": "day",
+    "summary": "Sarah Palin's emails from her time as Alaska's governor were released, prompting a media frenzy and the Guardian's live blog and crowdsourcing coverage.",
+    "time_range": null,
+    "evidence_ids": [
+      "80429"
+    ],
+    "job_id": "ddd35bd782942c23b5a3aa49dad67ca9bf6c92a453e09ad9c1fa21464a69c823",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "3c3a2787791cdc009ec95773",
+    "reason": "Duplicate of the June 10, 2011 email release; same date and event, adding media-frenzy coverage detail.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-4a8f6b484768c5b2"
+    },
+    "timeline_event_id": "event-4a8f6b484768c5b2"
+  },
+  {
+    "candidate_id": "6809b56fcfdf6e037d0aae61",
+    "time": "2011-06-10",
+    "date_precision": "day",
+    "summary": "More than 24,000 pages of emails from Sarah Palin's time as governor of Alaska were released to media including the Guardian.",
+    "time_range": null,
+    "evidence_ids": [
+      "80439"
+    ],
+    "job_id": "1d23dcdf6cf8135d119dec9335f9025bfa0e75006551c4bd1d9163e7d8aae78b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "3c3a2787791cdc009ec95773",
+    "reason": "Duplicate of the June 10, 2011 email release; same date and event, specifying page count and media recipients.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-4a8f6b484768c5b2"
+    },
+    "timeline_event_id": "event-4a8f6b484768c5b2"
+  },
+  {
+    "candidate_id": "a444346f9d76fae4802c40b2",
+    "time": "2011-06-10",
+    "date_precision": "day",
+    "summary": "More than 24,000 emails from Sarah Palin's time as Alaska governor were released under freedom of information, prompting a backlash from US conservatives.",
+    "time_range": null,
+    "evidence_ids": [
+      "80444"
+    ],
+    "job_id": "f0a499936e0e9a7b967fb90a96836642d32a350483969d368a6f14a5b008ae93",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "3c3a2787791cdc009ec95773",
+    "reason": "Duplicate of the June 10, 2011 email release; same date and event, adding conservative backlash detail.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-4a8f6b484768c5b2"
+    },
+    "timeline_event_id": "event-4a8f6b484768c5b2"
+  },
+  {
+    "candidate_id": "3b413a9ebe8f5fbeb404bdf6",
+    "time": "2011-06-10",
+    "date_precision": "day",
+    "summary": "Alaska prepares to release thousands of pages of Sarah Palin's emails, more than two years after a request was filed, with 2,353 pages withheld and redactions included.",
+    "time_range": null,
+    "evidence_ids": [
+      "80478"
+    ],
+    "job_id": "c0d737268f3500d5f202731fa7e7fb233d45be13f472f1928fd1fa795e090c5e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in the Palin email-release saga; date differs from existing email-release events, so it remains a separate dated occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f54fb4289726c6ca"
+  },
+  {
+    "candidate_id": "e85dc6e0da4eb19d8508e75c",
+    "time": "2010-01-12",
+    "date_precision": "day",
+    "summary": "Sarah Palin announces she will join Fox News as an analyst and occasional contributor.",
+    "time_range": null,
+    "evidence_ids": [
+      "80608"
+    ],
+    "job_id": "ab297ac5ee675cc56ba9836bdbfc111bc91bae74edd153323296a018f2a195b6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Palin joining Fox News as analyst/contributor.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-86d37cd089732631"
+  },
+  {
+    "candidate_id": "8981c79c3020025135efe65a",
+    "time": "2015-06-24",
+    "date_precision": "day",
+    "summary": "Fox News terminated its contract with Sarah Palin at the start of June 2015.",
+    "time_range": null,
+    "evidence_ids": [
+      "80308"
+    ],
+    "job_id": "965f943c64ecf55d2452cf6cae00edf0c2068e990466465030afd9d39f9de639",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Fox News terminating Palin's contract; distinct from the 2013 contract-expiration event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8ac3e58ea92e0d9e"
+  },
+  {
+    "candidate_id": "6f3d956e470e5e3da58630f8",
+    "time": "2013-01",
+    "date_precision": "month",
+    "summary": "Sarah Palin and Fox News parted ways as her contract expired, with Fox confirming the end of the association and reports saying she declined a contract renewal.",
+    "time_range": null,
+    "evidence_ids": [
+      "80365"
+    ],
+    "job_id": "27a7b53a7dfd305253f173ff1f98de08b82c1dbed2b490e8409c66699f5dfddb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Palin and Fox News parting ways in 2013; no same-date existing event to merge with.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1cba52ff02ea4dc0"
+  },
+  {
+    "candidate_id": "53af0fc011f5f42396f3bc09",
+    "time": "2008-11-10",
+    "date_precision": "day",
+    "summary": "Sarah Palin gave an interview with Greta Van Susteren on Fox News, in which she blamed the media for spreading rumors about her rather than criticizing McCain campaign staffers.",
+    "time_range": null,
+    "evidence_ids": [
+      "80936"
+    ],
+    "job_id": "5284dddbf5b20c0a35f74d3268d926a11dbe6986d3f6aeceaf6832b3b1ddf31c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant post-campaign Palin media appearance and remarks.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-08d83c61d99aa485"
+  },
+  {
+    "candidate_id": "c5fe7b19e9d0f8f29be73b61",
+    "time": "2010-01-11",
+    "date_precision": "day",
+    "summary": "Fox News confirms it has hired Sarah Palin as a political commentator.",
+    "time_range": null,
+    "evidence_ids": [
+      "80645"
+    ],
+    "job_id": "96bae2dbd47e2398739c5d968ca04f2dcac265b7a145a1b8621b8b40a910260c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Fox News confirming Palin's hiring; date differs from the announcement event, so kept separate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-90d5a0c1f62b1384"
+  },
+  {
+    "candidate_id": "48a7a75e6ab84fa9b32f699e",
+    "time": "2011-01-20",
+    "date_precision": "day",
+    "summary": "Fox News cancels a scheduled interview with comedian Joan Rivers after she called Sarah Palin \"stupid and a threat\" and blamed her for the Tucson shooting, though Fox disputes Rivers' account of the cancellation.",
+    "time_range": null,
+    "evidence_ids": [
+      "80544"
+    ],
+    "job_id": "216acad4c740571c794cd2fe64433cfb552f0e9df30098ffc65002335e7ae807",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Palin-related media controversy involving Fox News.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fce6499298c1159e"
+  },
+  {
+    "candidate_id": "711f910d9649d01c5a9a84d0",
+    "time": "2008-11-05",
+    "date_precision": "day",
+    "summary": "Sarah Palin returned to Alaska after her vice-presidential campaign, facing fresh allegations from McCain aides over her foreign-affairs ignorance and wardrobe spending.",
+    "time_range": null,
+    "evidence_ids": [
+      "81184"
+    ],
+    "job_id": "90e295f0109a13adbd9495475f24b5972c44bcae81ea318e5dda760fb6c85e91",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant post-election milestone: Palin returning to Alaska amid campaign-related allegations.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d9d633dd2907fec4"
+  },
+  {
+    "candidate_id": "6d656ded0c73bca279045672",
+    "time": "2009-02-17",
+    "date_precision": "day",
+    "summary": "Sarah Palin appeared in a Fox News interview conducted by Greta van Susteren in Alaska, which largely focused on her daughter Bristol Palin's experiences as a teenage mother.",
+    "time_range": null,
+    "evidence_ids": [
+      "80816"
+    ],
+    "job_id": "cf9adefcb991cb6c136013928d200d6b84ce5fbe510d8d51c89193c45766dcfc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Fox News interview milestone; date differs from existing Greta Van Susteren interview event, so separate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a6728cb963c7a471"
+  },
+  {
+    "candidate_id": "419d4416dc21ac12a1883641",
+    "time": "2012-01-18",
+    "date_precision": "day",
+    "summary": "Sarah Palin endorses Newt Gingrich ahead of the South Carolina primary.",
+    "time_range": null,
+    "evidence_ids": [
+      "80369"
+    ],
+    "job_id": "9b34fe544366140062b87668733e39b6c558bd6439b1fdf48e39a776a67755f1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant political milestone: Palin's endorsement of Gingrich ahead of South Carolina primary.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6364d91fcfdb8c07"
+  },
+  {
+    "candidate_id": "dd3421756bdb1ce242a24c6f",
+    "time": "2010-07-12",
+    "date_precision": "day",
+    "summary": "Sarah Palin's political action committee, SarahPAC, raised $866,000 in the second quarter of 2010, its highest quarterly total since the group was formed in January 2009.",
+    "time_range": null,
+    "evidence_ids": [
+      "80623"
+    ],
+    "job_id": "39070397eff01d00589f0dc43a7801564f7c779179ce5724e56d5af3aad19726",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant SarahPAC fundraising milestone; no duplicate in existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-20d7201f3f7b10eb"
+  },
+  {
+    "candidate_id": "bb963cc67f87565e5f8d2a4e",
+    "time": "2011-06-10",
+    "date_precision": "day",
+    "summary": "24,199 pages of emails from Sarah Palin's governorship of Alaska were released in response to open records requests.",
+    "time_range": null,
+    "evidence_ids": [
+      "80412"
+    ],
+    "job_id": "1ee8f26a383f867c0c409e1cea338a2ab4bb797b4f0ca391407e96042706e14a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-4a8f6b484768c5b2",
+    "reason": "Same date and event as existing release of Palin governorship emails.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4a8f6b484768c5b2"
+  },
+  {
+    "candidate_id": "75a2b7020888a660e93fbc20",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No specific topic-related event involving Sarah Palin occurred; the article is commentary on her media presence and potential 2012 presidential run.",
+    "time_range": null,
+    "evidence_ids": [
+      "80513"
+    ],
+    "job_id": "8fe9a03d0713c2de6295db26781e790337684b207df08a59466a2370d510a7c1",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No specific topic-related event; commentary only.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "7ee85b476d1f8c0861af8d1f",
+    "time": "2008-09-02",
+    "date_precision": "day",
+    "summary": "Sarah Palin used her primetime national TV debut to defend her qualifications and experience as Republican vice-presidential candidate.",
+    "time_range": null,
+    "evidence_ids": [
+      "81089"
+    ],
+    "job_id": "99d99086d69f77b83e2e1af45813d4baa38865eb43e5ae832e9f9a549c41681d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant national TV debut defending qualifications; date differs from existing convention speech event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a06f97140b1f9436"
+  },
+  {
+    "candidate_id": "567f9dfceabd4441ae55cbc1",
+    "time": "2011-06-11",
+    "date_precision": "day",
+    "summary": "The Guardian responds to criticism of its coverage of Sarah Palin's emails, defending its reporting and crowdsourcing effort as scrutiny of a high-profile political figure.",
+    "time_range": null,
+    "evidence_ids": [
+      "80443"
+    ],
+    "job_id": "60514f9becfd57be6cf6b5aef6cadef1345f5aa3366a28295a404d2651940971",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Guardian response to email coverage criticism; distinct from email release events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c239036a74a39934"
+  },
+  {
+    "candidate_id": "a5381bf052107a60e45733dd",
+    "time": "2008-11-13",
+    "date_precision": "day",
+    "summary": "Sarah Palin held her first press conference at the Republican governors' conference in Miami, promoting her potential 2012 presidential bid.",
+    "time_range": null,
+    "evidence_ids": [
+      "81242"
+    ],
+    "job_id": "aff9587f7b75262bad1f55f31f4bf02debf6ac12525b0ed73643c49893886ec9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-f1225fc962a94b21",
+    "reason": "Same date and event as existing first press conference at Republican governors' conference.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f1225fc962a94b21"
+  },
+  {
+    "candidate_id": "e900bf7359b709e7c181a649",
+    "time": "2010-10-13",
+    "date_precision": "day",
+    "summary": "An opinion article argues that Sarah Palin will not run for president in 2012, predicting she will instead remain a political celebrity and media figure.",
+    "time_range": null,
+    "evidence_ids": [
+      "80508"
+    ],
+    "job_id": "a819100100cba8ee91c84f00ee621ee877d5cb41029990fd9de27b71c4352fb5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant opinion on Palin's 2012 presidential prospects; distinct date from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4150339f83831f0e"
+  },
+  {
+    "candidate_id": "e8c1260730600bcc2277315f",
+    "time": "2010-08-17",
+    "date_precision": "day",
+    "summary": "Sarah Palin's endorsed candidates suffered a string of primary election losses in Kansas, Wyoming, and Washington state, and Karen Handel lost her runoff contest for Georgia governor a day after sharing an Atlanta stage with Palin.",
+    "time_range": null,
+    "evidence_ids": [
+      "80611"
+    ],
+    "job_id": "0c3da4a1161cf35ebad837ebe52aa4e0ea41002c5405a7e21da261a67309d88c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone on Palin's endorsement influence; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c2526b03c831dd46"
+  },
+  {
+    "candidate_id": "9706a175983f34abe038cd43",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Sarah Palin placed second behind Chris Christie in a poll of Tea Party Patriots convention delegates for their choice for president in 2012.",
+    "time_range": null,
+    "evidence_ids": [
+      "80585"
+    ],
+    "job_id": "81587ed9f6bcc2d6123c70669e4c2270ba0132f98d3079714f799cabb3db5e77",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant poll showing Palin's standing among Tea Party activists; unknown date, no merge target.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f26de3b21b57027e"
+  },
+  {
+    "candidate_id": "0c8dfb99707ed09f7ee4eb8b",
+    "time": "2009-03-12",
+    "date_precision": "day",
+    "summary": "The engagement of Bristol Palin, daughter of Sarah Palin, and Levi Johnston ended just over two months after the birth of their son.",
+    "time_range": null,
+    "evidence_ids": [
+      "80879"
+    ],
+    "job_id": "3c6b74c53f8bb3788da4f719fe27017c06fce8a04016d5fab4ab730aac7d05ff",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Family milestone involving Sarah Palin's daughter; contributes to her public timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d5de81e1b4f00b74"
+  },
+  {
+    "candidate_id": "3189c1e79a2f3454b760f9d3",
+    "time": "2010-04-01",
+    "date_precision": "day",
+    "summary": "Sarah Palin hosts the premiere of her new Fox News TV series Real American Stories, which faces criticism after LL Cool J and Toby Keith say old interviews were used without their involvement to promote the show.",
+    "time_range": null,
+    "evidence_ids": [
+      "80638"
+    ],
+    "job_id": "3c163803b49c96ea1c46c2b200782b4f34f9e5c39c37d80177b63a50c9e3c2d8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sarah Palin's Fox News series premiere and related controversy; relevant media milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5ecf39495e5639b2"
+  },
+  {
+    "candidate_id": "2abc9246ffc26aaa29fad25d",
+    "time": "2011-10-05",
+    "date_precision": "day",
+    "summary": "Sarah Palin announced she will not seek the 2012 Republican presidential nomination.",
+    "time_range": null,
+    "evidence_ids": [
+      "80400"
+    ],
+    "job_id": "b51198eb6aac4078654075f1ce7f67a412227e005fa2a0c1c6c175a8c4f95c03",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-2cef6614b8b3a969",
+    "reason": "Same date and identical event: Palin announcing she will not seek the 2012 nomination.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2cef6614b8b3a969"
+  },
+  {
+    "candidate_id": "ffd0dcab3636f989ce426498",
+    "time": "2010-11-02",
+    "date_precision": "day",
+    "summary": "Sarah Palin says she is interested in running for president in 2012 if the country needs her.",
+    "time_range": null,
+    "evidence_ids": [
+      "80529"
+    ],
+    "job_id": "70df0124788ccf67ad034d05dc2314a60102ea940e2f4806eef21a7d4c7b084b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin expressing interest in a 2012 presidential run; relevant to her political timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7930f4b027e946a0"
+  },
+  {
+    "candidate_id": "79a9c3b65719ae78b56d4eb1",
+    "time": "2010-02-06",
+    "date_precision": "day",
+    "summary": "Sarah Palin gave a speech to the first national Tea Party convention in Nashville, attacking the Obama administration and hinting at a possible 2012 presidential run.",
+    "time_range": null,
+    "evidence_ids": [
+      "80674"
+    ],
+    "job_id": "e1e58947f64a8ab3974da2ecd35eed1c44776fcfc45b8d222bd43afc6cfc8172",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin's speech to the first national Tea Party convention; significant political milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-381cf506a23028df"
+  },
+  {
+    "candidate_id": "9f85dbad14961bb232e38008",
+    "time": "2010-10-07",
+    "date_precision": "day",
+    "summary": "A CBS News poll shows Sarah Palin's favourability rating at 22%, with an unfavourability rating of 48%.",
+    "time_range": null,
+    "evidence_ids": [
+      "80561"
+    ],
+    "job_id": "23a1f486809efd542715c19bae7717ccf6187326c49c6e10017981959c65b319",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Poll showing Palin's favourability ratings; relevant public-opinion data point.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-eb76d7f395aa21b3"
+  },
+  {
+    "candidate_id": "3559e5749d44ee496fb1c144",
+    "time": "2010-09-13",
+    "date_precision": "day",
+    "summary": "Sarah Palin's endorsement gives a last-minute boost to Christine O'Donnell's Republican primary campaign against incumbent Mike Castle in Delaware.",
+    "time_range": null,
+    "evidence_ids": [
+      "80547"
+    ],
+    "job_id": "d50974e24376fce81bde44830bbda15e2d13caf8c86cdb3e5c99fdc8b87fda97",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin's endorsement boosting O'Donnell's primary campaign; relevant political influence milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-aa6b3b50f62c68ef"
+  },
+  {
+    "candidate_id": "a654282dbc335d4bd1379335",
+    "time": "2010-10-27",
+    "date_precision": "day",
+    "summary": "Sarah Palin is to attend a rally with Tea Party-backed Senate candidate Joe Miller after newly released documents revealed he lied about a computer tampering scandal.",
+    "time_range": null,
+    "evidence_ids": [
+      "80647"
+    ],
+    "job_id": "15eb71f05c378745f3eadcff67875d0ec0b0ff06d93eeb8e3972188ac7235901",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin attending a rally with Joe Miller; relevant to her political activity.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5bf561cd90f618ab"
+  },
+  {
+    "candidate_id": "842e43c2ba23e2a487aeff27",
+    "time": "2011-10-05",
+    "date_precision": "day",
+    "summary": "Sarah Palin announces she will not join the 2012 presidential election race and says she will instead promote candidates for Congress, governorships and the White House.",
+    "time_range": null,
+    "evidence_ids": [
+      "80399"
+    ],
+    "job_id": "f75df5ad16c5a5d919ebde132c74bbe75374a473f644c7349b8918d5591461bf",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-2cef6614b8b3a969",
+    "reason": "Same date and same event: Palin's announcement that she would not run in 2012.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2cef6614b8b3a969"
+  },
+  {
+    "candidate_id": "832d4a36444723bd79d6da19",
+    "time": "2011-05-31",
+    "date_precision": "day",
+    "summary": "Sarah Palin is back in the news with a nationwide bus tour and the planned release of a flattering documentary, leading to renewed speculation about a 2012 presidential run, though there is little real sign she plans to bid.",
+    "time_range": null,
+    "evidence_ids": [
+      "80390"
+    ],
+    "job_id": "141d4d068fcc54731a797234d061b2e2e3d782b3bb47f7d4073a885a25dbdcda",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: renewed 2012 speculation amid Palin's bus tour and documentary.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9f52c9e0562f7554"
+  },
+  {
+    "candidate_id": "ea64e8292e4b20c45ab3e62a",
+    "time": "2011-06-11",
+    "date_precision": "day",
+    "summary": "Thousands of Sarah Palin's emails from her time as Alaska governor were released, but they shed little light on the substance of political matters.",
+    "time_range": null,
+    "evidence_ids": [
+      "80490"
+    ],
+    "job_id": "992996214457252e248c3bad121537936d7fbb4c73f29911595733b65e2e3fc4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-8de4ba6c77d72046",
+    "reason": "Same date and same event: release of Palin's Alaska governor emails.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8de4ba6c77d72046"
+  },
+  {
+    "candidate_id": "a4150e202a1c57b69b84bcea",
+    "time": "2008-09-02",
+    "date_precision": "day",
+    "summary": "The National Institute on Money in State Politics published an analysis of Sarah Palin's campaign finance reports from her 2002 lieutenant governor and 2006 gubernatorial runs.",
+    "time_range": null,
+    "evidence_ids": [
+      "80909"
+    ],
+    "job_id": "caeef20b9463009dbaf791dae24d925d9af0c39515eaf6c5ec2c782c414795f8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant to Palin's political career: analysis of her earlier campaign finance reports.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-af184978580157eb"
+  },
+  {
+    "candidate_id": "88a207d7ca13b1261d1632cb",
+    "time": "2011-09-14",
+    "date_precision": "day",
+    "summary": "Republican figures and conservative activists increasingly dismiss or speak out against the idea of Sarah Palin running for the Republican presidential nomination, though Palin has not announced a decision.",
+    "time_range": null,
+    "evidence_ids": [
+      "80436"
+    ],
+    "job_id": "e7c0d70fa05afb50bd3f8bdff0c1ff373f8aebfbc2ecf8a6cf7e638dcbed835b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: growing Republican/conservative opposition to a Palin 2012 run.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-05d1315f43eb6bf2"
+  },
+  {
+    "candidate_id": "64fd742e3a646d103fa37ea9",
+    "time": "2008-09-04",
+    "date_precision": "day",
+    "summary": "Sarah Palin was hailed as a unifying force for Republicans after her prime-time convention speech, energizing the party base behind John McCain.",
+    "time_range": null,
+    "evidence_ids": [
+      "80864"
+    ],
+    "job_id": "ed430191a2c75ca23beadeeb38139eac97b06e8b012b367d4e79c6c777db157d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Palin's 2008 convention speech energizing the Republican base.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-77cc35329cf7a339"
+  },
+  {
+    "candidate_id": "9f454996e80b7cd994f2c592",
+    "time": "2009-07-03",
+    "date_precision": "day",
+    "summary": "Sarah Palin announces she will resign as governor of Alaska, effective July 26, and will not seek re-election.",
+    "time_range": null,
+    "evidence_ids": [
+      "80749"
+    ],
+    "job_id": "2838360c2d1f2bbd56665d23f9f0b0cba41b7ccd918b3463462a7dedb5a3c15b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-14a7f936d256f595",
+    "reason": "Same date and event as existing resignation announcement.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-14a7f936d256f595"
+  },
+  {
+    "candidate_id": "f99f1154e90dcffa8698e012",
+    "time": "2011-06-10",
+    "date_precision": "day",
+    "summary": "Officials in Juneau release thousands of Sarah Palin's emails from her time as governor to the media.",
+    "time_range": null,
+    "evidence_ids": [
+      "80409"
+    ],
+    "job_id": "2470386e3e66c409a2a5be6a587a520dcfadb1313299fc5524c6fc6718dfa749",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-4a8f6b484768c5b2",
+    "reason": "Same date and event as existing email release.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4a8f6b484768c5b2"
+  },
+  {
+    "candidate_id": "13501e5833dedded8f3f6d24",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "80431"
+    ],
+    "job_id": "d85d3ba02191da86123635a9471218fc8818ad56e8ee8aff3254805c754c3e75",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Not related to Sarah Palin.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "e74f970e5b4910aeb9d1a032",
+    "time": "2008-09-18",
+    "date_precision": "day",
+    "summary": "Gawker published details from leaked Sarah Palin emails, prompting hostile messages to Gawker.",
+    "time_range": null,
+    "evidence_ids": [
+      "80855"
+    ],
+    "job_id": "e29ca5454d5429ed98e862915fb8e05757162e49f31ce31aca5508543aa3e3c2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct 2008 leaked-email episode in Palin timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1cbefacf6de5cd7d"
+  },
+  {
+    "candidate_id": "aaba442cbaf35af3e4c57020",
+    "time": "2008-11-03",
+    "date_precision": "day",
+    "summary": "An Alaska Personnel Board report released on the eve of the US election cleared Sarah Palin of wrongdoing in the \"troopergate\" controversy, finding no probable cause that she violated state ethics laws, contradicting an earlier legislative panel report that concluded she abused her office.",
+    "time_range": null,
+    "evidence_ids": [
+      "80819"
+    ],
+    "job_id": "0286c3524406866949b2775cf31620e1940fac6ecaee0fad27dfeb16cd5160eb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Troopergate report clearing Palin is a key milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f5ba6131c6589f52"
+  },
+  {
+    "candidate_id": "55a382ca075a93a04f5b03ed",
+    "time": "2011-08-11",
+    "date_precision": "day",
+    "summary": "Sarah Palin announced she is resuming her \"One Nation\" bus tour with an appearance at the Iowa State Fair, coinciding with a Republican straw poll and debate, reigniting speculation about her presidential ambitions.",
+    "time_range": null,
+    "evidence_ids": [
+      "80417"
+    ],
+    "job_id": "2d5a002535969d498792a557512f81362fa14a63045edc16ee8fe99927c44ae5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Bus tour resumption and 2012 speculation milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6d2f32fb772628a3"
+  },
+  {
+    "candidate_id": "309abc9ec78ba45e736d63a4",
+    "time": "2010-09-10",
+    "date_precision": "day",
+    "summary": "Sarah Palin is scheduled to be the main speaker at a $100-a-seat Republican dinner in Des Moines, Iowa, on Friday, in what is seen as the biggest sign yet that she may run for president in 2012.",
+    "time_range": null,
+    "evidence_ids": [
+      "80587"
+    ],
+    "job_id": "b96dc504ad0f6c008c149c189b17c9db696d941e0882a9324e19bfe418780c38",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Iowa speech seen as 2012 presidential signal.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c120f12c91eba684"
+  },
+  {
+    "candidate_id": "d074ef776a342331ffcbef7b",
+    "time": "2010-09-17",
+    "date_precision": "day",
+    "summary": "Sarah Palin spoke at the Iowa Republican Party's annual Ronald Reagan dinner, calling for Republican unity while backing the Tea Party over party elites and teasing a possible 2012 presidential run.",
+    "time_range": null,
+    "evidence_ids": [
+      "80575"
+    ],
+    "job_id": "87fabc9137408c00bf5eb90b8f4e5b73da174f787d72179947ee845da8cb7455",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Iowa Reagan dinner speech and 2012 tease.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-76f26881a099b164"
+  },
+  {
+    "candidate_id": "54ab3b0afe32fc5600b42128",
+    "time": "2009-11-19",
+    "date_precision": "day",
+    "summary": "Sarah Palin begins her book-signing tour.",
+    "time_range": null,
+    "evidence_ids": [
+      "80628"
+    ],
+    "job_id": "f28f06f5b20070c9df0f82bcb9511b389735d5f5590afafa8b661db1486b3a68",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Marks the start of Palin's book-signing tour, a distinct milestone in her public activities.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d01a81473d2e7e85"
+  },
+  {
+    "candidate_id": "b20dc5c28d7e44c4216ea692",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "80562"
+    ],
+    "job_id": "f091905121bb08542ce02f0c29445af6eb6376a2bf44ab09c10cc1548ed70f11",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Concerns Bush and Clinton tsunami appeal; no connection to Sarah Palin.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "d71dc31dbf26aa926cfcd395",
+    "time": "2010-11-21",
+    "date_precision": "day",
+    "summary": "Sarah Palin dispatched aides to scope out office space in Iowa, hinting at a possible 2012 presidential run.",
+    "time_range": null,
+    "evidence_ids": [
+      "80562"
+    ],
+    "job_id": "f091905121bb08542ce02f0c29445af6eb6376a2bf44ab09c10cc1548ed70f11",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin aides scouting Iowa office space signals possible 2012 run; distinct from other Iowa-related events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a387617895ca7c78"
+  },
+  {
+    "candidate_id": "95f7ff1355fde76d73b0aa4b",
+    "time": "2015-01-29",
+    "date_precision": "day",
+    "summary": "Sarah Palin's speech at a Republican conference in Iowa inadvertently helped the Ready For Hillary PAC raise over $50,000 for Hillary Clinton.",
+    "time_range": null,
+    "evidence_ids": [
+      "80312"
+    ],
+    "job_id": "524b579382669555a7b6443932e9a8d3b28220adc9bb5789b536e4260b95f12b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin's Iowa speech indirectly benefiting Ready For Hillary PAC is a notable political event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5aea21a765681173"
+  },
+  {
+    "candidate_id": "0db70963b8f81fecf656b7b6",
+    "time": "2010-05-11",
+    "date_precision": "day",
+    "summary": "Sarah Palin's publisher HarperCollins announces her new book, America By Heart: Reflections on Family, Faith and Flag, will be published on 23 November in the US.",
+    "time_range": null,
+    "evidence_ids": [
+      "80595"
+    ],
+    "job_id": "4ed1cffc96b109d4d5c8c31825dcd6901c04a80b6990fc269f29bff6789f8b08",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Announcement of Palin's book America By Heart is a distinct publication milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c9ecb0c1fabe9f78"
+  },
+  {
+    "candidate_id": "57039c000b724534f41c830f",
+    "time": "2009-11-12",
+    "date_precision": "day",
+    "summary": "The Associated Press obtains an early copy of Sarah Palin's memoir Going Rogue, which reveals her fraught relations with John McCain's campaign aides during the 2008 presidential race.",
+    "time_range": null,
+    "evidence_ids": [
+      "80700"
+    ],
+    "job_id": "8154400b78a204cb54a6c6a4ec1e377a728f84888245f8e8cb8527a7aff2b7aa",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "AP obtaining early copy of Going Rogue and its revelations is a distinct memoir-related event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1d10e5a66090e61a"
+  },
+  {
+    "candidate_id": "aaae0d3fac4edc93410f53a6",
+    "time": "2013-03-27",
+    "date_precision": "day",
+    "summary": "Sarah Palin released a two-minute web fundraising ad for her SarahPAC organization titled \"Loaded for Bear.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "80362"
+    ],
+    "job_id": "ab9aa25b01967660ede3a1ac951ce677b14e34572bbfc11c7e05e4d71539621c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Release of SarahPAC fundraising ad is a distinct political activity milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6e87f2fdfa6fc1ae"
+  },
+  {
+    "candidate_id": "c48dc54fb383da1422c8a8b6",
+    "time": "2008-09-03",
+    "date_precision": "day",
+    "summary": "Sarah Palin delivered a prime-time speech at the Republican National Convention, energizing the party and attacking Barack Obama.",
+    "time_range": null,
+    "evidence_ids": [
+      "80876"
+    ],
+    "job_id": "2cded6127db80f05202aadbc256a855ddc047d319bcb2a46c57eca8911e6fbb0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-2e0759cf9598bc0b",
+    "reason": "Same date and event as existing RNC speech milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2e0759cf9598bc0b"
+  },
+  {
+    "candidate_id": "0842b6eb68187cb04fabd705",
+    "time": "2009-12-09",
+    "date_precision": "day",
+    "summary": "Sarah Palin wrote a comment piece dismissing the Copenhagen climate conference as a political stunt.",
+    "time_range": null,
+    "evidence_ids": [
+      "80691"
+    ],
+    "job_id": "ccdd184d3c01b77b105c11b75342551ff0b81aedd845c4e67a900d5b7d8723dc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin's Copenhagen climate commentary is a distinct relevant milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-156fcd121576311d"
+  },
+  {
+    "candidate_id": "aa1a2d321bf7ca3ea7265956",
+    "time": "2009-12-05",
+    "date_precision": "day",
+    "summary": "Sarah Palin delivered a string of self-deprecating quips at a dinner for journalists in Washington, likening the event to appearing before a \"death panel.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "80681"
+    ],
+    "job_id": "2c453afa72ba1f9812c4bb8e611a2bf6f1bc78b32afdc282e471d3d05fba9322",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct 2009 Washington journalists' dinner appearance.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-afc74d373e3a3c39"
+  },
+  {
+    "candidate_id": "54cdcfcb95504ecfaba2109a",
+    "time": "2010-02-06",
+    "date_precision": "day",
+    "summary": "Sarah Palin spoke at a tea party movement event in Nashville, giving a speech that was covered on all news channels and was seen as a standard Republican presidential primary campaign speech.",
+    "time_range": null,
+    "evidence_ids": [
+      "80577"
+    ],
+    "job_id": "ed49c31d9a08f27c020d2208511b6f70bba1dee7f7cecad62b7f90166cd57580",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-381cf506a23028df",
+    "reason": "Same date and event as existing Nashville Tea Party convention speech.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-381cf506a23028df"
+  },
+  {
+    "candidate_id": "755ebade1a4596b7541e4e10",
+    "time": "2015-01-24",
+    "date_precision": "day",
+    "summary": "Sarah Palin told reporters she might run for president after delivering a speech at the Iowa Freedom Summit.",
+    "time_range": null,
+    "evidence_ids": [
+      "80316"
+    ],
+    "job_id": "a749f6cf8bb4139f681f38b2902cf80cf2c1735319c9ba69d805ab3b93176058",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-9422ca6763872454",
+    "reason": "Same date and event as existing Iowa Freedom Summit speech.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9422ca6763872454"
+  },
+  {
+    "candidate_id": "f199beb93adc6ba0a80a4899",
+    "time": "2009-11-17",
+    "date_precision": "day",
+    "summary": "Spoof biographies \"Going Rouge\" and \"Going Rouge – The Sarah Palin Rogue Coloring and Activity Book\" are scheduled for publication on the same day as Sarah Palin's memoir \"Going Rogue.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "80685"
+    ],
+    "job_id": "1ffe4ee3abfab86e03d2611ce4651f24b3506fa9ec90265ccf5a97223eee6e2d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct publication milestone for spoof Palin biographies.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-dbced6229e65faf1"
+  },
+  {
+    "candidate_id": "b6b725cbe6b7f58b6d8448dd",
+    "time": "2008-09-03",
+    "date_precision": "day",
+    "summary": "Sarah Palin delivered her vice-presidential nomination speech at the Republican national convention, watched by an estimated average of 37.2 million viewers.",
+    "time_range": null,
+    "evidence_ids": [
+      "81034"
+    ],
+    "job_id": "b6177e1e612952fe2db1f645925e29a07b3a4fb0ce226e4097eab9b1ad1f22e4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-2e0759cf9598bc0b",
+    "reason": "Same 2008-09-03 Republican convention nomination speech as existing event; viewer-count detail is duplicate coverage.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2e0759cf9598bc0b"
+  },
+  {
+    "candidate_id": "6e21f14b58e8747ff77ed059",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No single main topic-related event is reported; the article discusses the release of Sarah Palin's emails and critiques her record and rhetoric.",
+    "time_range": null,
+    "evidence_ids": [
+      "80476"
+    ],
+    "job_id": "c5aa26a758253f44d62090fb88273e299d99e3ad7bef4eabcd68b786f60c8c14",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No dated main event; only general discussion of email release and critiques.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "5b21215b9169a745ddfaa8c2",
+    "time": "2016-01-19",
+    "date_precision": "day",
+    "summary": "Sarah Palin endorsed Donald Trump for president, becoming the first current or former statewide elected official in the US to back him for the White House.",
+    "time_range": null,
+    "evidence_ids": [
+      "80282"
+    ],
+    "job_id": "3ce726145df4e95dbccdddf8fda488bbfe55a53582f85682c0c393e67032029f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin's 2016-01-19 Trump endorsement is a distinct milestone; no existing event covers it.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6679bc0c91563dce"
+  },
+  {
+    "candidate_id": "a069cb2be096939052b29552",
+    "time": "2011-08-22",
+    "date_precision": "day",
+    "summary": "Sarah Palin released an election campaign-style video suggesting she may enter the 2016 presidential race, with a possible announcement on September 3 at a Tea Party rally in Iowa.",
+    "time_range": null,
+    "evidence_ids": [
+      "80393"
+    ],
+    "job_id": "c134d0beac23130fec8edd89026a57d41cfdfc624aa8afe56b4c1f908ec3ffd9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "2011-08-22 campaign-style video hinting at a possible run is a distinct event; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2059dd970c4bf5fd"
+  },
+  {
+    "candidate_id": "7e7c26ac1c3983b590e36872",
+    "time": "2008-09-03",
+    "date_precision": "day",
+    "summary": "Sarah Palin delivers a well-received speech at the Republican National Convention, drawing praise from conservative commentators and criticism over shaky facts.",
+    "time_range": null,
+    "evidence_ids": [
+      "81224"
+    ],
+    "job_id": "5d49531aac70223187245e5ec0741792d84dc3967856610d53ec8f227cbb3abb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-2e0759cf9598bc0b",
+    "reason": "Same 2008-09-03 Republican convention speech as existing event; reception detail is duplicate coverage.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2e0759cf9598bc0b"
+  },
+  {
+    "candidate_id": "be264bf9a62c238a4f9a6b9b",
+    "time": "2016-01-19",
+    "date_precision": "day",
+    "summary": "Sarah Palin endorses Donald Trump for president of the United States.",
+    "time_range": null,
+    "evidence_ids": [
+      "80297"
+    ],
+    "job_id": "b23b12a5ccaeaaead62a8428a64cd6a9e064bd36e58de429bf00b90948e383b8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "5b21215b9169a745ddfaa8c2",
+    "reason": "Same 2016-01-19 Trump endorsement as candidate 5b21215b9169a745ddfaa8c2.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-6679bc0c91563dce"
+    },
+    "timeline_event_id": "event-6679bc0c91563dce"
+  },
+  {
+    "candidate_id": "74be263b31d570b1f30ac78c",
+    "time": "2016-01-19",
+    "date_precision": "day",
+    "summary": "Sarah Palin endorses Donald Trump for president in a speech in Iowa.",
+    "time_range": null,
+    "evidence_ids": [
+      "80281"
+    ],
+    "job_id": "9e062ca3e9639b869216b5a0d4dfde57c01dcb217ea3baf6694cf120872f8809",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "5b21215b9169a745ddfaa8c2",
+    "reason": "Same 2016-01-19 Trump endorsement in Iowa as candidate 5b21215b9169a745ddfaa8c2.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-6679bc0c91563dce"
+    },
+    "timeline_event_id": "event-6679bc0c91563dce"
+  },
+  {
+    "candidate_id": "3e5b7bb9ebc5557a5ce5a25d",
+    "time": "2010-07-12",
+    "date_precision": "day",
+    "summary": "Newly published election spending figures show Sarah Palin ended the last quarter with a war chest of more than $1m, suggesting gathering momentum for a run at the White House in 2012.",
+    "time_range": null,
+    "evidence_ids": [
+      "80636"
+    ],
+    "job_id": "28d84db9ccd60593f209fa7ab1ba0b782befcb43c43c791a627a5db1da9ef712",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-20d7201f3f7b10eb",
+    "reason": "Same date and same SarahPAC quarterly fundraising milestone as existing event; duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-20d7201f3f7b10eb"
+  },
+  {
+    "candidate_id": "af28a17ac3b237cdb3f03855",
+    "time": "2008-09",
+    "date_precision": "month",
+    "summary": "Republican campaign argues that Sarah Palin's executive experience as Wasilla mayor and Alaska governor exceeds that of Barack Obama and Joe Biden combined.",
+    "time_range": null,
+    "evidence_ids": [
+      "80899"
+    ],
+    "job_id": "95ab0c3ba3f634877fdac14b58c39cbc837ffae49154ed2ba4e8e6ea9f8063ee",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant 2008 campaign argument about Palin's executive experience; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-be57d1120ba3ff17"
+  },
+  {
+    "candidate_id": "21753b0a9e88b8ee04a56ab4",
+    "time": "2008-11-05",
+    "date_precision": "day",
+    "summary": "Sarah Palin returned to Alaska after her vice-presidential campaign amid criticism from disgruntled McCain aides.",
+    "time_range": null,
+    "evidence_ids": [
+      "81192"
+    ],
+    "job_id": "ceccca7070b00a8773004290d3e2246de25d66cc4e0538370c9d15f4912ca237",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-d9d633dd2907fec4",
+    "reason": "Same date and same event: Palin's return to Alaska after the VP campaign amid McCain aide criticism.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d9d633dd2907fec4"
+  },
+  {
+    "candidate_id": "ddbccb07f10a88f0f2b74340",
+    "time": "2008-09-11",
+    "date_precision": "day",
+    "summary": "Sarah Palin is set to break her media silence with a series of television interviews, including daytime ABC news programs and a primetime special, to counter critics of her record and experience.",
+    "time_range": null,
+    "evidence_ids": [
+      "80981"
+    ],
+    "job_id": "a95fec35cbbe51e04081e36e31ecffa3e3dbdf967e93e17a389327187fcb6b97",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin's planned media interviews to counter critics mark a distinct campaign milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-56cb7d8bddf52829"
+  },
+  {
+    "candidate_id": "2f0c312674f2c10f9f535e22",
+    "time": "2008-09-02",
+    "date_precision": "day",
+    "summary": "Revelations emerge that Republican vice-presidential candidate Sarah Palin was reportedly a member of the Alaskan Independence Party, which seeks a vote on Alaska's secession, raising questions about John McCain's vetting process, though the McCain campaign denies she was ever a member.",
+    "time_range": null,
+    "evidence_ids": [
+      "81092"
+    ],
+    "job_id": "0aa206e4294e18b09c5eabddaf064c63367a618e05dbbb7bea467c2ec148d482",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Alaskan Independence Party membership controversy is a distinct Palin vetting milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ee88f03bb9e6c232"
+  },
+  {
+    "candidate_id": "36d6fcd2fc88582f63d19ae1",
+    "time": "2008-11-10",
+    "date_precision": "day",
+    "summary": "Sarah Palin said she may pursue the presidency in 2012 or beyond if she sees an \"open door.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "80974"
+    ],
+    "job_id": "262e8fb4c91be06091699280831fa5ad4eb2ceddb39c1a121ac546694f75eb02",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin floating a future presidential run is a distinct post-campaign milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-cd00267874e6387e"
+  },
+  {
+    "candidate_id": "7c83a601af07283fd145b10d",
+    "time": "2010-08-25",
+    "date_precision": "day",
+    "summary": "Sarah Palin's endorsed candidate Joe Miller appears to be defeating incumbent Senator Lisa Murkowski in the Alaska Republican primary, though final votes are still being counted.",
+    "time_range": null,
+    "evidence_ids": [
+      "80606"
+    ],
+    "job_id": "c47d11f41b8f40b1dc9f32da44c58563410cb50af18adca447bb9032a239819b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin's endorsement influence in the Alaska GOP primary is a distinct political milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-30400dbad01eed6f"
+  },
+  {
+    "candidate_id": "94cb906674c924902336a899",
+    "time": "2008-09-03",
+    "date_precision": "day",
+    "summary": "Sarah Palin accepts the Republican vice-presidential nomination in a speech that is cheered by a crowd at a bar in her hometown of Wasilla, Alaska.",
+    "time_range": null,
+    "evidence_ids": [
+      "80865"
+    ],
+    "job_id": "abea19ffad2738ca05d1b9b22736f896ff48b6afd84bf4ded13df684285d28b8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-2e0759cf9598bc0b",
+    "reason": "Same date and same event: Palin's Republican vice-presidential nomination acceptance speech.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2e0759cf9598bc0b"
+  },
+  {
+    "candidate_id": "71c10544d7cb2aa57a8d74ff",
+    "time": "2008-08-29",
+    "date_precision": "day",
+    "summary": "Republican presidential nominee John McCain selected Alaska governor Sarah Palin as his vice-presidential running mate.",
+    "time_range": null,
+    "evidence_ids": [
+      "81023"
+    ],
+    "job_id": "895075e782ac6264b4494c163ade16dd6a5302abfb65b4c6d2936df9588bd0b0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-0b6c3a0149c98920",
+    "reason": "Same date and same event: McCain selecting Palin as his vice-presidential running mate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0b6c3a0149c98920"
+  },
+  {
+    "candidate_id": "1442dd5713e319f0444dec35",
+    "time": "2011-07",
+    "date_precision": "month",
+    "summary": "A trailer was released for The Undefeated, a documentary seen as a key staging post in Sarah Palin's potential presidential run.",
+    "time_range": null,
+    "evidence_ids": [
+      "80427"
+    ],
+    "job_id": "33ea0bc866a4cabccb1fb7be8f7c7fa40f8187a783a21e37c81cdba24e4ab26b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "The Undefeated trailer tied to Palin's potential presidential run is a distinct milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f56caf25ee967054"
+  },
+  {
+    "candidate_id": "7357733c9db1237cfc7e9e9d",
+    "time": "2010-03-04",
+    "date_precision": "day",
+    "summary": "Sarah Palin's publisher HarperCollins announces an as-yet-untitled second book celebrating American virtues and strengths.",
+    "time_range": null,
+    "evidence_ids": [
+      "80618"
+    ],
+    "job_id": "1e0f02fbffae5047129d9bdedb8dbcd1c3fb61a59c66cd59c7e99838be04c67c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Announcement of Palin's second book is a relevant milestone in her publishing career; no existing event matches this date or content.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4ad0df9da65f4d25"
+  },
+  {
+    "candidate_id": "3475c3bce5ed67c08c33a213",
+    "time": "2009-03-11",
+    "date_precision": "day",
+    "summary": "A graphic biography of Sarah Palin was released in the US and sold out at bookshops, prompting the publisher to rush a second printing.",
+    "time_range": null,
+    "evidence_ids": [
+      "80753"
+    ],
+    "job_id": "d7b06ba5d887fc7c12d7a7f30eacd8826b24f8b5cb638c630ea3b4a82460cfb4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Release and sellout of a Palin graphic biography is a relevant publishing milestone; no existing event matches.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b838c0b0fec79db0"
+  },
+  {
+    "candidate_id": "2e7a4f9905dfcee5ce59f60e",
+    "time": "2009-05-13",
+    "date_precision": "day",
+    "summary": "Sarah Palin signs a deal with HarperCollins to publish her as-yet-untitled memoirs in spring 2010.",
+    "time_range": null,
+    "evidence_ids": [
+      "80675"
+    ],
+    "job_id": "94ee368d9e3b41d1c1e7596e7034ff653fc298f91b846be6ec7e951f9a8ae561",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin signing a memoir deal with HarperCollins is a relevant milestone; no existing event matches this date or content.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f8552b630a75ed9c"
+  },
+  {
+    "candidate_id": "524bcd8a02f0ffee19a28622",
+    "time": "2008-04-18",
+    "date_precision": "day",
+    "summary": "Sarah Palin officially gave birth to her son Trig at Mat-Su Regional Medical Centre in Palmer, Alaska.",
+    "time_range": null,
+    "evidence_ids": [
+      "80397"
+    ],
+    "job_id": "f6007eaf7fe9dd5b4f1c57d3233d30dc9dee49a1cf656c7ad0712d3908f59498",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Birth of Palin's son Trig is a significant personal milestone; no existing event matches.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8f6fc86478ac6cd7"
+  },
+  {
+    "candidate_id": "6f1a503c006a55349afe2ff5",
+    "time": "2010-11-23",
+    "date_precision": "day",
+    "summary": "Sarah Palin's book \"America by Heart: Reflections on Family, Faith and Flag\" is published, containing pointed criticism of Barack Obama's policies and personal life.",
+    "time_range": null,
+    "evidence_ids": [
+      "80599"
+    ],
+    "job_id": "f098b65517084bd7c4f16a98fbe0de94c27bf4d6bb3115ff9435f7bc6bf71bf0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Publication of America by Heart is a relevant milestone; existing event-c9ecb0c1fabe9f78 covers the earlier announcement, not the publication date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ddb6db8575faa27d"
+  },
+  {
+    "candidate_id": "a13119a3180202344c62c3bd",
+    "time": "2008-09-02",
+    "date_precision": "day",
+    "summary": "Sarah Palin is reported to be involved in a complicated ethics investigation in Alaska over allegations that her office pressured a senior bureaucrat to fire her sister's ex-husband and then fired the bureaucrat for refusing, and she has hired a lawyer to represent her.",
+    "time_range": null,
+    "evidence_ids": [
+      "80809"
+    ],
+    "job_id": "f0571f44cae7fb53b5c2e48f213561aebf0fd7f12608649959407e896aa04ba2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Troopergate ethics investigation is a relevant milestone; existing 2008-09-02 events cover different topics, so this remains separate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0987c42cce7a884a"
+  },
+  {
+    "candidate_id": "8f0f2306b351e53065457fe4",
+    "time": "2009-11-16",
+    "date_precision": "day",
+    "summary": "Sarah Palin appeared on Oprah Winfrey's show to discuss her new book and her life, and said a 2012 presidential run was not on her radar screen.",
+    "time_range": null,
+    "evidence_ids": [
+      "80593"
+    ],
+    "job_id": "47e8977f88d874be207f9049c2f67485c4ab06a97defcc3bf96ffce580e8f2fc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin's Oprah appearance discussing her book and 2012 prospects is a relevant milestone; no existing event matches.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b7a8e9f1d7e4c23d"
+  },
+  {
+    "candidate_id": "fde1f150fe2b8fb3177ad23f",
+    "time": "2011-07-22",
+    "date_precision": "day",
+    "summary": "Sarah Palin's bio-documentary The Undefeated saw box office takings slump 60% to $24,664 in its second weekend despite expanding to 14 cinemas.",
+    "time_range": null,
+    "evidence_ids": [
+      "80463"
+    ],
+    "job_id": "c9cad0b99eab110529ace475d103be027dee549c824cae182276f9cda9f42fed",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Box office performance of Palin bio-documentary The Undefeated; relevant milestone in her media/political profile.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-005d60ab01aad8a5"
+  },
+  {
+    "candidate_id": "b3cc43d897c7afc7660e9c97",
+    "time": "2011-06-28",
+    "date_precision": "day",
+    "summary": "The documentary film \"The Undefeated,\" about Sarah Palin's life and political career, premiered in Pella, Iowa, amid speculation about whether she would run for the 2012 Republican presidential nomination.",
+    "time_range": null,
+    "evidence_ids": [
+      "80432"
+    ],
+    "job_id": "7d5e77fb4f539adcc6f0bfd6cf744a09bad9174d58ee8ee846cbd2b2be86c63c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Premiere of The Undefeated, a Palin bio-documentary, tied to 2012 speculation; distinct dated event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9daa724ea871ded6"
+  },
+  {
+    "candidate_id": "a61d72bdb3180b6f70d6dfdd",
+    "time": "2011-09",
+    "date_precision": "month",
+    "summary": "Nick Broomfield's critical Sarah Palin documentary \"Sarah Palin – You Betcha\" is set to premiere at the Toronto International Film Festival.",
+    "time_range": null,
+    "evidence_ids": [
+      "80419"
+    ],
+    "job_id": "29812e086e01b7ec71878e39f41da1fa72cda236a76f9716f6140ecc07a34d91",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Critical Palin documentary set to premiere at TIFF; relevant to Palin media coverage.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df42c21ba13e7218"
+  },
+  {
+    "candidate_id": "6586415c811f5500ef7f9da7",
+    "time": "2011-06-27",
+    "date_precision": "day",
+    "summary": "An as-yet-untitled Nick Broomfield documentary offering a critical examination of Sarah Palin is reported to be screened in Los Angeles for potential buyers.",
+    "time_range": null,
+    "evidence_ids": [
+      "80433"
+    ],
+    "job_id": "0e94ffbd45d1214970790e20fb65885095b8468861013731531b607bb5f2d67a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Early screening report for Broomfield's critical Palin documentary; distinct date from TIFF premiere.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-76bcf881a70d6d27"
+  },
+  {
+    "candidate_id": "2792db9be19c4f33f5b06df8",
+    "time": "2010-07-26",
+    "date_precision": "day",
+    "summary": "Levi Johnston, the fiancé of Bristol Palin, is set to star in a music video about an interfering mother, a role reportedly riffing on his real-life situation with Sarah Palin.",
+    "time_range": null,
+    "evidence_ids": [
+      "80620"
+    ],
+    "job_id": "a0644179ea5c3efafbacd8a86aa16b21876581d2a20cd00cad5145d04e0c8902",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Levi Johnston music video riffing on Sarah Palin; relevant to Palin-related public narrative.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c7aa2b11ad9aba10"
+  },
+  {
+    "candidate_id": "dc396d7e5abd20f6e7e31c32",
+    "time": "2008-09-02",
+    "date_precision": "day",
+    "summary": "Sarah Palin remains secluded in her Minneapolis hotel suite for a third day, receiving coaching from senior campaign aides on John McCain's policy positions and preparing her upcoming convention address.",
+    "time_range": null,
+    "evidence_ids": [
+      "81333"
+    ],
+    "job_id": "7fdaf2b3217b24625bacb46f99e0d0e3a40ce4fe434e1d13063d240ec0122eac",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin preparing for convention address during 2008 campaign; relevant milestone, no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-01ad0f3af221673c"
+  },
+  {
+    "candidate_id": "12e4f4bc48abbb2c1d494b72",
+    "time": "2008-08-29",
+    "date_precision": "day",
+    "summary": "Sarah Palin, now governor of Alaska, was mayor of Wasilla, Alaska less than two years ago, with conflicting population figures cited by various news outlets.",
+    "time_range": null,
+    "evidence_ids": [
+      "81047"
+    ],
+    "job_id": "8c5dd52b49ff618b10c6a3f867b56127bd12957b2ad0551233956feaa50197cf",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin's mayoral background and Wasilla population scrutiny after VP announcement; relevant biographical context.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a196f90ec25dfe8d"
+  },
+  {
+    "candidate_id": "6cb5bbdedb38bba7d06d087e",
+    "time": "2008-09-06",
+    "date_precision": "day",
+    "summary": "US presidential candidates Barack Obama and John McCain clashed over Sarah Palin's politics and experience, with Obama criticizing her alignment with Bush and Cheney and McCain defending her record.",
+    "time_range": null,
+    "evidence_ids": [
+      "81083"
+    ],
+    "job_id": "85ca9604ddd5ccddf345e2efa068376d040442fd0a5d7ded1f55db40164c98a8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Obama and McCain clash over Palin's politics and experience; relevant campaign milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-697f535f1e39613c"
+  },
+  {
+    "candidate_id": "0d6c9ff8ef3a9e6bb8197f47",
+    "time": "2008-09-03",
+    "date_precision": "day",
+    "summary": "Sarah Palin delivers a speech at the Republican National Convention.",
+    "time_range": null,
+    "evidence_ids": [
+      "81096"
+    ],
+    "job_id": "a761dea8d428c539e656a353610bec4ed41aae8e7fc77b3718e35141d5c7e3cd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-2e0759cf9598bc0b",
+    "reason": "Same Sarah Palin Republican National Convention speech on 2008-09-03; duplicate of existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2e0759cf9598bc0b"
+  },
+  {
+    "candidate_id": "6964de9b4c53dea33e8d59ac",
+    "time": "2011-09-09",
+    "date_precision": "day",
+    "summary": "A review is published of Nick Broomfield's documentary \"Sarah Palin: You Betcha!\", which portrays Sarah Palin critically through interviews with people from Wasilla, Alaska.",
+    "time_range": null,
+    "evidence_ids": [
+      "80376"
+    ],
+    "job_id": "36743dc475f9cb3f7fd33b0801700163fa589d75265f774cdec7f406613c9da3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Publication of a critical documentary about Palin is a relevant milestone in her media portrayal; no existing event matches this date or content.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5e338a8fda25a856"
+  },
+  {
+    "candidate_id": "dba3bed34d3af1bf82edb585",
+    "time": "2011-12-06",
+    "date_precision": "day",
+    "summary": "Nick Broomfield answers readers' questions about his film Sarah Palin: You Betcha!, an account of his attempt to portray Sarah Palin without an interview.",
+    "time_range": null,
+    "evidence_ids": [
+      "80401"
+    ],
+    "job_id": "51401ea6d03523b86c0de57916a3ea26eb806e5b03c7b5ba8815cc8e17120750",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Broomfield's Q&A about the Palin documentary is a distinct later media event; no existing event shares this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b4140e0e5c3dfb56"
+  },
+  {
+    "candidate_id": "571cf7a65b2d8279a6a986b9",
+    "time": "2012-02",
+    "date_precision": "month",
+    "summary": "HBO released a trailer for its upcoming TV movie Game Change, in which Julianne Moore portrays Sarah Palin.",
+    "time_range": null,
+    "evidence_ids": [
+      "80375"
+    ],
+    "job_id": "ecc16d39b6399db2a3943f8b6f4d13b4803107a68441572d9b392f563a17e39a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Trailer release for Game Change, featuring Julianne Moore as Palin, is a relevant milestone in Palin-related media; no existing event matches.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0b69dd927fdbd29f"
+  },
+  {
+    "candidate_id": "c5de4d8b1a34472974c76ece",
+    "time": "2008-10-18",
+    "date_precision": "day",
+    "summary": "Sarah Palin appeared on Saturday Night Live, drawing the show's highest ratings in 14 years.",
+    "time_range": null,
+    "evidence_ids": [
+      "80951"
+    ],
+    "job_id": "bdb7b32d73f7ac0f258b9b1bd5f8f68294652b0991d820d122889b8575fd79e6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin's SNL appearance and record ratings is a notable event in her public profile; no existing event matches this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d940fd9e314e8f66"
+  },
+  {
+    "candidate_id": "3221ffe0ca89e698e6ea74e6",
+    "time": "2009-07-03",
+    "date_precision": "day",
+    "summary": "Alaska governor Sarah Palin announced she was resigning her first-term office and transferring the governorship to her lieutenant governor.",
+    "time_range": null,
+    "evidence_ids": [
+      "80758"
+    ],
+    "job_id": "56c53e59656fb2fd8a9a6e28e30687a7c4ad87f459a0d37a38afaa90be333030",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-14a7f936d256f595",
+    "reason": "Same date and same event: Palin's announcement of resigning as Alaska governor, already represented by event-14a7f936d256f595.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-14a7f936d256f595"
+  },
+  {
+    "candidate_id": "793602f1de0579674c8b6007",
+    "time": "2008-09-02",
+    "date_precision": "day",
+    "summary": "A source who had claimed Sarah Palin was an enrolled member of the Alaskan Independence Party said she was not an enrolled member.",
+    "time_range": null,
+    "evidence_ids": [
+      "80898"
+    ],
+    "job_id": "71b9e00f882c6a412f74e877e006da66f6778f1205d7d5d479e0c46e8f2fcf1a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ee88f03bb9e6c232",
+    "reason": "Same date and same Alaskan Independence Party membership controversy; duplicate of existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ee88f03bb9e6c232"
+  },
+  {
+    "candidate_id": "93712540ad1449b943c4368a",
+    "time": "2014-08-19",
+    "date_precision": "day",
+    "summary": "Dan Sullivan won the Republican Senate primary in Alaska despite an endorsement of Joe Miller by Sarah Palin.",
+    "time_range": null,
+    "evidence_ids": [
+      "80339"
+    ],
+    "job_id": "b1ba74f4ab13381d621a72696ba2e258b601195abf1345b1e56e947b1cc511c3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin's endorsement in the 2014 Alaska Republican Senate primary is a distinct later political milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-672ee90dc997fcad"
+  },
+  {
+    "candidate_id": "403c398b0f3a8792790bca0a",
+    "time": "2008-09-12",
+    "date_precision": "day",
+    "summary": "Alaska legislators vote to subpoena Todd Palin, husband of Republican vice-presidential candidate Sarah Palin, as part of a state senate investigation into whether she dismissed the state's public safety commissioner to settle a personal score.",
+    "time_range": null,
+    "evidence_ids": [
+      "81038"
+    ],
+    "job_id": "fabeeec736269e7d4410a122a95dd32fd7da66e6bf00978079b84c8bea272ebf",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Alaska legislators subpoena Todd Palin in the Troopergate investigation, a key milestone in Sarah Palin's political story.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-75647dcde646c280"
+  },
+  {
+    "candidate_id": "ba93dae5d63ebc5aeca2de07",
+    "time": "2009-09-23",
+    "date_precision": "day",
+    "summary": "Sarah Palin made her first major public appearance since resigning as Alaska governor, delivering a speech in Hong Kong.",
+    "time_range": null,
+    "evidence_ids": [
+      "80677"
+    ],
+    "job_id": "3004097f9403fcfdabbd5173415959e1ec94ce62d207c727db6adb6a2fa4459a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin's first major public appearance after resigning as governor marks a notable post-resignation milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2882f51327bb4aff"
+  },
+  {
+    "candidate_id": "deec31701df26e7a25c16f14",
+    "time": "2011-06-10",
+    "date_precision": "day",
+    "summary": "Thousands of Sarah Palin's emails from her time as Alaska governor are released, prompting a who's-who guide to figures including Mike Wooten, Walt Monegan, Todd Palin, Frank Bailey, and Stephen Branchflower involved in the Troopergate controversy.",
+    "time_range": null,
+    "evidence_ids": [
+      "80447"
+    ],
+    "job_id": "743265b808dc1289152fa694a516a2f74ec670e8763ab6bcf2c7705ebf9e46c7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-4a8f6b484768c5b2",
+    "reason": "Same date and event as the existing release of Palin's governor emails; duplicate of event-4a8f6b484768c5b2.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4a8f6b484768c5b2"
+  },
+  {
+    "candidate_id": "bcf7f8b021f02812d856e805",
+    "time": "2009-11-17",
+    "date_precision": "day",
+    "summary": "Sarah Palin's memoir Going Rogue sold about 300,000 copies on its first day of publication.",
+    "time_range": null,
+    "evidence_ids": [
+      "80719"
+    ],
+    "job_id": "015d312717a4e4b6314b997143dabb00b8ef6372323673cd17c403f4a14a78e9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "First-day sales figure for Palin's memoir Going Rogue is a distinct publication milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-616b20f87bd6a7c9"
+  },
+  {
+    "candidate_id": "7c4b0c7aa01a3f19829e2278",
+    "time": "2009-10-02",
+    "date_precision": "day",
+    "summary": "Sarah Palin's upcoming memoir Going Rogue tops Amazon's bestseller list, outselling Dan Brown's latest novel weeks before its 17 November release.",
+    "time_range": null,
+    "evidence_ids": [
+      "80710"
+    ],
+    "job_id": "9db091bc77bad282052656eec57e8808334d111cd40217fc1cfc692e84ba7ff4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Going Rogue topping Amazon's bestseller list before release is a separate pre-publication milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5682ccdce7fd6ed8"
+  },
+  {
+    "candidate_id": "5275493ac81781d06ad0eefb",
+    "time": "2009-10-30",
+    "date_precision": "day",
+    "summary": "Levi Johnston says he will take Sarah Palin to court over access to his infant son Tripp, claiming Palin is preventing him from seeing the child.",
+    "time_range": null,
+    "evidence_ids": [
+      "80699"
+    ],
+    "job_id": "05dc13361ca1225ca1e01cbaea04e19b4e1ddbf3a7f40f7a329c0c4c05634acc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Levi Johnston's custody dispute with Palin over grandson Tripp is a notable personal/legal event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-edf2581a46ba1e2b"
+  },
+  {
+    "candidate_id": "702f850b404fd0e3dbe6039c",
+    "time": "2010-12-06",
+    "date_precision": "day",
+    "summary": "A tea party leader asked Sarah Palin to run for Republican National Committee chair, and she declined.",
+    "time_range": null,
+    "evidence_ids": [
+      "80524"
+    ],
+    "job_id": "924946d809322a78339f9534c19dbd2b7103a2fdec0f91a5185ecc6ed2367bda",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin declining a request to run for RNC chair is a distinct political milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-48e8f6cd52f3a559"
+  },
+  {
+    "candidate_id": "347bd0e526783c41200efe48",
+    "time": "2010-10-18",
+    "date_precision": "day",
+    "summary": "Sarah Palin was the headline speaker at a Tea Party \"super rally\" in Reno, Nevada, launching a 19-state bus tour ahead of the midterm elections.",
+    "time_range": null,
+    "evidence_ids": [
+      "80581"
+    ],
+    "job_id": "3e93dab4ac133aad354425df2035c9ef3cc5ff2fa73179e5d92705e78e5658cb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin headlining a Tea Party super rally and launching a bus tour is a distinct midterm-election political event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-dbfb3b44d75ac17f"
+  },
+  {
+    "candidate_id": "34b2678ddc982092c78ebd80",
+    "time": "2010-09-01",
+    "date_precision": "day",
+    "summary": "Sarah Palin-backed Tea Party candidate Joe Miller defeated incumbent Senator Lisa Murkowski in the Alaska Republican primary, with Murkowski conceding defeat.",
+    "time_range": null,
+    "evidence_ids": [
+      "80632"
+    ],
+    "job_id": "b055b9769800a819d684ecf9360309dd0e2aecb584b2c32878d53ab45e5abcf0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Palin-backed Alaska primary win; distinct date from the earlier vote-counting event, so it remains a separate milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-79877835ec1bebe2"
+  },
+  {
+    "candidate_id": "d05ad348868ad6bd25995d96",
+    "time": "2010-10-18",
+    "date_precision": "day",
+    "summary": "Sarah Palin headlines a Tea Party rally in Reno, Nevada, to kick off the Tea Party Express's 3,000-mile \"Liberty at the ballot box tour.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "80533"
+    ],
+    "job_id": "5e4acf342ea71d34bff670106b59ad18106ab73150633199009a805e84b813d9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-dbfb3b44d75ac17f",
+    "reason": "Same date and same Reno Tea Party rally event as the existing headline-speaker record.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-dbfb3b44d75ac17f"
+  },
+  {
+    "candidate_id": "4d35c1ea861cc1f34ba118a6",
+    "time": "2011-10-05",
+    "date_precision": "day",
+    "summary": "Sarah Palin decides not to seek the GOP presidential nomination.",
+    "time_range": null,
+    "evidence_ids": [
+      "80382"
+    ],
+    "job_id": "d0362599ba63c86549b8b9384b7e96b9626e8af16a44edd8fcab3d7a52c140c1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-2cef6614b8b3a969",
+    "reason": "Same date and same event: Palin deciding not to seek the GOP nomination, matching the existing 2011-10-05 event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2cef6614b8b3a969"
+  },
+  {
+    "candidate_id": "c1a65f4377cc0871da29703b",
+    "time": "2008-10-08",
+    "date_precision": "day",
+    "summary": "Sarah Palin will not hold a press conference, but has granted two more interviews to Fox News.",
+    "time_range": null,
+    "evidence_ids": [
+      "81067"
+    ],
+    "job_id": "27859ec2caf91407ede84cd7ce89b0ad5f2ef8b701589e25a088d64e432f11c5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant to Palin's 2008 media strategy and campaign-era press access; no existing event on this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e0bd735b007e6fd2"
+  },
+  {
+    "candidate_id": "3654961f214e378c019b85ea",
+    "time": "2008-11-06",
+    "date_precision": "day",
+    "summary": "Sarah Palin returns to Alaska after the 2008 presidential election amid public criticism and reports of internal campaign disputes.",
+    "time_range": null,
+    "evidence_ids": [
+      "80741"
+    ],
+    "job_id": "c7f1031aa6be5dc0a0a721c2a8ffc4c17b106dc4bbd3add6627d54fd72d75767",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant post-2008 election milestone in Palin's timeline; no existing event on this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0d7e1a727e164231"
+  },
+  {
+    "candidate_id": "0fec8230d4fa199472609e03",
+    "time": "2008-10-29",
+    "date_precision": "day",
+    "summary": "Sarah Palin hints at a 2012 presidential bid, saying \"I'm not doing this for naught\" when asked about her political future.",
+    "time_range": null,
+    "evidence_ids": [
+      "80913"
+    ],
+    "job_id": "041288d6dd1cfdbd3dac5c6ea845071bec3b3a7b89864700acde59f4b070422e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin hinting at a 2012 presidential bid is a relevant milestone in her political trajectory; no existing event matches this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ae0658953196c5c2"
+  },
+  {
+    "candidate_id": "120fd95a851819216c821ebe",
+    "time": "2008-09-18",
+    "date_precision": "day",
+    "summary": "Alaskan senators promise their report on Sarah Palin's alleged abuse of power will be completed before the November 4 election, despite attempts by John McCain's campaign to delay it.",
+    "time_range": null,
+    "evidence_ids": [
+      "81061"
+    ],
+    "job_id": "4687d77ee9a83a41d8d19472dc7ae768e8d53957f4dbb336e77f634bed0669a1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Troopergate report timing is a relevant Palin-related development; no existing event shares this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0eb6316240ea9e19"
+  },
+  {
+    "candidate_id": "b9d6871a3b5e3e28b811775d",
+    "time": "2008-09-11",
+    "date_precision": "day",
+    "summary": "Sarah Palin is set to give her first media interviews since becoming the Republican vice presidential nominee, with ABC's Charles Gibson.",
+    "time_range": null,
+    "evidence_ids": [
+      "81079"
+    ],
+    "job_id": "ea4c3fa47ef24dec20b4744c7951779fb7e6dcc8f86c1536e6f787aff3487b1c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-56cb7d8bddf52829",
+    "reason": "Same date and same event: Palin's first media interviews since becoming VP nominee.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-56cb7d8bddf52829"
+  },
+  {
+    "candidate_id": "b36b88fb97a126de389fe3a3",
+    "time": "2008-09-03",
+    "date_precision": "day",
+    "summary": "Sarah Palin is scheduled to deliver a prime-time speech at the Republican National Convention in St. Paul, Minnesota, amid controversy over past disclosures.",
+    "time_range": null,
+    "evidence_ids": [
+      "80878"
+    ],
+    "job_id": "536f28a371d423ae5cf8ad5d53b5443afbf4499a497057117407a0db0387226f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-2e0759cf9598bc0b",
+    "reason": "Same date and same event: Palin's prime-time Republican National Convention speech.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2e0759cf9598bc0b"
+  },
+  {
+    "candidate_id": "f11be957e3a03f880be20b20",
+    "time": "2010-05-21",
+    "date_precision": "day",
+    "summary": "Sarah Palin endorsed Republican congressional candidate Vaughn Ward in Idaho.",
+    "time_range": null,
+    "evidence_ids": [
+      "80694"
+    ],
+    "job_id": "5396034662a11cd9c261812f5445453c99bed916f8ef19df145349f0eda75037",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin endorsing a congressional candidate is a relevant post-2008 political activity; no existing event matches this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fa0db1214c6a6937"
+  },
+  {
+    "candidate_id": "36265c0742caa1c0fbfb98c4",
+    "time": "2009-02-08",
+    "date_precision": "day",
+    "summary": "The Alaska Senate found Governor Sarah Palin's husband and nine state employees in contempt for ignoring subpoenas in the legislature's Troopergate investigation, though no punishment was sought.",
+    "time_range": null,
+    "evidence_ids": [
+      "80795"
+    ],
+    "job_id": "132d473352daf10d73220a5852298545c8f4363c95f61a02fa3c4822a5a8a049",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Contempt finding in the Troopergate investigation is a relevant Palin-related milestone; no existing event matches this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-90fdeca5915ad330"
+  },
+  {
+    "candidate_id": "50422a56544f85235ce401d6",
+    "time": "2008-09-16",
+    "date_precision": "day",
+    "summary": "Lawyers and Republican aides acting for Sarah Palin are engaged in a legal battle to block the Alaska state legislature's troopergate inquiry, as the state attorney general rules that 13 witness subpoenas need not be honored.",
+    "time_range": null,
+    "evidence_ids": [
+      "81143"
+    ],
+    "job_id": "a37dc09eb781dd946466c789f882fa27b5818d638cdd3a3a3da16b612be52723",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Legal effort to block the Troopergate inquiry is a relevant Palin-related development; no existing event matches this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ea018cfb4e7b6b44"
+  },
+  {
+    "candidate_id": "b49103dbef4d7f0935234656",
+    "time": "2008-08-28",
+    "date_precision": "day",
+    "summary": "A Wikipedia user named YoungTrigg made about 30 mostly flattering edits to Sarah Palin's profile before she was announced as John McCain's vice-presidential running mate.",
+    "time_range": null,
+    "evidence_ids": [
+      "81006"
+    ],
+    "job_id": "41d77a5934d3e8002dd3215a4584e5eaabfc58b143ddd4c2cb13f194314858bb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Wikipedia edits to Palin's profile before her VP announcement are a relevant early Palin-related item; no existing event matches this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-81953ba17bbaf14a"
+  },
+  {
+    "candidate_id": "a40396e71c671ca08201b7b9",
+    "time": "2008-09-16",
+    "date_precision": "day",
+    "summary": "Lawyers and Republican aides acting for Sarah Palin escalate a legal battle to block the Alaska legislature's \"Troopergate\" inquiry, as five Republican state assembly members sue to halt the investigation and Alaska's attorney general rules that subpoenaed witnesses need not appear.",
+    "time_range": null,
+    "evidence_ids": [
+      "81212"
+    ],
+    "job_id": "c64d7be6e3bdb53db7035b4194355a706a9a0d507a9fe47a543d3fbcba60c4f5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ea018cfb4e7b6b44",
+    "reason": "Same date and same Troopergate legal battle to block the Alaska legislature's inquiry; duplicate of existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ea018cfb4e7b6b44"
+  },
+  {
+    "candidate_id": "495e8c97446b6403ecaa90da",
+    "time": "2011-01-12",
+    "date_precision": "day",
+    "summary": "Sarah Palin released a video statement accusing her critics of \"blood libel\" and defending her political rhetoric after the Tucson shootings.",
+    "time_range": null,
+    "evidence_ids": [
+      "80550"
+    ],
+    "job_id": "10e7655e96801dd3adfb4253f7ace15f917765f91bbf076b511f2b892d66b213",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin's 'blood libel' video statement after the Tucson shootings is a distinct, significant milestone in her public profile.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1fdc204bc4917f97"
+  },
+  {
+    "candidate_id": "7764e8721bf722bae26342ec",
+    "time": "2008-10-18",
+    "date_precision": "day",
+    "summary": "Sarah Palin made a much-anticipated appearance on the US comedy show Saturday Night Live, appearing alongside her chief mimic Tina Fey.",
+    "time_range": null,
+    "evidence_ids": [
+      "80828"
+    ],
+    "job_id": "d8ac73544ff500daa8ef7a8978b4540a920fda5455b3fdf3e1dc974f177ed17f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-d940fd9e314e8f66",
+    "reason": "Same date and same SNL appearance with Tina Fey; duplicate of existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d940fd9e314e8f66"
+  },
+  {
+    "candidate_id": "5626e05be98c852509976363",
+    "time": "2011-06",
+    "date_precision": "month",
+    "summary": "Sarah Palin was reported to be denied a meeting with Lady Thatcher during a planned visit to London, prompting a furious reaction from the US conservative right.",
+    "time_range": null,
+    "evidence_ids": [
+      "80448"
+    ],
+    "job_id": "ae4a80e3768c71cfaed9135c623a854b0e70c17c5c7c779228a3a7bf7139d109",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Reported denial of a Thatcher meeting during a planned London visit is a distinct Palin-related episode; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-384c396f5113a257"
+  },
+  {
+    "candidate_id": "153fef1a1b2fdc1144958b38",
+    "time": "2008-10-10",
+    "date_precision": "day",
+    "summary": "An Alaska legislative investigation found Sarah Palin abused her powers in pursuing a personal feud against her former brother-in-law, though it concluded she did not unlawfully dismiss the state police chief.",
+    "time_range": null,
+    "evidence_ids": [
+      "80946"
+    ],
+    "job_id": "0fe6c3d4481b545a60a882dc6f55ee9930b82d5650f341cff9dae04ae6d6f584",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "The Alaska legislative 'troopergate' finding that Palin abused her powers is a key milestone; distinct from the later Personnel Board report.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e9318a291dd0c457"
+  },
+  {
+    "candidate_id": "902b9232fb8374cba61dbda2",
+    "time": "2008-09-11",
+    "date_precision": "day",
+    "summary": "Sarah Palin has done a photo shoot for Vogue, pictured in a fur-collared green coat on the front page of the Telegraph.",
+    "time_range": null,
+    "evidence_ids": [
+      "80772"
+    ],
+    "job_id": "fa84f9f7151cebe061246f2d074973ae563486404b5b74f3022efb21ca7e8ae7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Vogue photo shoot is a distinct Palin media-profile item; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4cb5012aae8b5924"
+  },
+  {
+    "candidate_id": "93cc7dff1e73fdbf34a483e5",
+    "time": "2008-11-27",
+    "date_precision": "day",
+    "summary": "Sarah Palin's interview at a Wasilla poultry farm, where holiday turkeys are bred and slaughtered, drew criticism from Huffington Post bloggers, MSNBC cable pundits, and New York Times editors.",
+    "time_range": null,
+    "evidence_ids": [
+      "80716"
+    ],
+    "job_id": "72a6537f0d367dab4d3d19009f52d9fb6aee3d49b5e151436c4b0ab176041b40",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "The turkey-farm interview and resulting criticism is a distinct, widely noted Palin episode; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-decd847f5b73d689"
+  },
+  {
+    "candidate_id": "d9a75227d4dcf736ba6d10e7",
+    "time": "2009-07-28",
+    "date_precision": "day",
+    "summary": "William Shatner recited part of Sarah Palin's resignation speech as a poem on The Tonight Show with Conan O'Brien.",
+    "time_range": null,
+    "evidence_ids": [
+      "80756"
+    ],
+    "job_id": "1a4efdf2201c6705b8102c55ab1a6598012ea61de9ffadeaf130ae336ef2ab7b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant cultural milestone: Shatner's Tonight Show recitation of Palin's resignation speech; no existing event matches its 2009-07-28 date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9155c38116b04c68"
+  },
+  {
+    "candidate_id": "74de92150226ee97af8f92f0",
+    "time": "2010-06-14",
+    "date_precision": "day",
+    "summary": "Sarah Palin said she was in discussions about visiting Britain to meet Margaret Thatcher, whom she called one of her political heroines.",
+    "time_range": null,
+    "evidence_ids": [
+      "80630"
+    ],
+    "job_id": "48ddb2fa347cf3174790814e53033adc17435a0892e84f610e0a3b6efe31a92c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin's stated interest in meeting Thatcher is a relevant milestone in her public/political activity.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5e70adb29e53da2a"
+  },
+  {
+    "candidate_id": "54e94cec9339788ee7ede747",
+    "time": "2011-06-07",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher is reportedly unwilling to meet Sarah Palin during Palin's planned stop in England, with Thatcher allies saying Thatcher will not see Palin.",
+    "time_range": null,
+    "evidence_ids": [
+      "80450"
+    ],
+    "job_id": "ef7e310623f515b59a96d40cadb76f88a423f585a26ab3cbf297a206e6b7016b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Thatcher reportedly unwilling to meet Palin is a relevant dated development; date differs from the month-level existing event, so append separately.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-faaafed570bf0933"
+  },
+  {
+    "candidate_id": "26147180b0af22b4f3adbf5e",
+    "time": "2010-06-15",
+    "date_precision": "day",
+    "summary": "Sarah Palin announced on her Facebook site that she hopes to secure a meeting with Margaret Thatcher, whom she called one of her political heroines.",
+    "time_range": null,
+    "evidence_ids": [
+      "80583"
+    ],
+    "job_id": "a6f39b0bfa74dd01bb81d1dbe78ec569c8123da09e2c9ddc8cf8907754fdbc3d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin's Facebook announcement of her Thatcher meeting hope is a distinct dated milestone from the prior day's reported discussions.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6bd0d292536ecb02"
+  },
+  {
+    "candidate_id": "56c8098b6f53ba49713fdaae",
+    "time": "2011-06-08",
+    "date_precision": "day",
+    "summary": "An ally of Margaret Thatcher says Thatcher will not meet Sarah Palin during Palin's planned July trip to London, and that Thatcher's circle will ensure Thatcher has an \"off day\" if necessary.",
+    "time_range": null,
+    "evidence_ids": [
+      "80449"
+    ],
+    "job_id": "cb88954dbf3f36224f1677b5923f29b92285164cdd9e20a8fcd971abc0d3d851",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Thatcher ally saying she will not meet Palin is a relevant dated development; date differs from the month-level existing event, so append separately.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3de8a07e69d943cd"
+  },
+  {
+    "candidate_id": "0e29755c8670138a541f2822",
+    "time": "2011-06-15",
+    "date_precision": "day",
+    "summary": "Rush Limbaugh denounced a Guardian blog reporting that Margaret Thatcher would not meet Sarah Palin as a hoax, citing a Daily Telegraph blog in which a Thatcher aide said the attack on Palin did not come from Thatcher's office.",
+    "time_range": null,
+    "evidence_ids": [
+      "80441"
+    ],
+    "job_id": "b5138ad97e51d6a58d7a3795d5af48e042165391ec214b7f2211d132e3b02ca9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Limbaugh's denunciation of the Thatcher-Palin meeting report is a distinct dated development in the controversy.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-edc14139fb68e37a"
+  },
+  {
+    "candidate_id": "8b00a39813fe54dddbc406db",
+    "time": "2009-10-21",
+    "date_precision": "day",
+    "summary": "Sarah Palin is scheduled to appear on Oprah Winfrey's television chatshow on 16 November, the day before publication of her memoir Going Rogue: An American Life.",
+    "time_range": null,
+    "evidence_ids": [
+      "80644"
+    ],
+    "job_id": "9fcf396937ceeaee981d4317601fa97cff1e904aaa92c185092d8f31eca374db",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Scheduled Oprah appearance tied to Palin's memoir is a relevant milestone in her public profile.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-570f611324f017c7"
+  },
+  {
+    "candidate_id": "8ed7614c0f750c33a66c1f69",
+    "time": "2008-09-15",
+    "date_precision": "day",
+    "summary": "Hillary Clinton cancels her planned appearance at a New York rally against the Iranian government after learning that Sarah Palin was also invited.",
+    "time_range": null,
+    "evidence_ids": [
+      "81236"
+    ],
+    "job_id": "91955bcd6a56044f10c7614eda6d62791f3e87ef387c7174d21b7da16c5a8be1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Clinton canceling over Palin's invitation is a relevant dated event involving Palin.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-22c020c734ca551b"
+  },
+  {
+    "candidate_id": "a6a5c84a29286d6f1e817cda",
+    "time": "2011-03-19",
+    "date_precision": "day",
+    "summary": "Sarah Palin declined to rule out a 2012 presidential candidacy during a high-profile appearance in Delhi, where she delivered a speech titled \"My Vision for America.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "80519"
+    ],
+    "job_id": "92702441d1ab77ef1dd3b1e6746b96af81fec32040aeeeed7f5eeb81805ba0c2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin declining to rule out a 2012 run is a relevant milestone in her presidential speculation timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b51bbe6389dfd10f"
+  },
+  {
+    "candidate_id": "7475e110dd7ad92ba575ebd4",
+    "time": "2008-10-29",
+    "date_precision": "day",
+    "summary": "Article speculates that Sarah Palin's political career may continue after the 2008 election, with her future depending on whether she can reinvent herself and how Obama governs.",
+    "time_range": null,
+    "evidence_ids": [
+      "80744"
+    ],
+    "job_id": "932cb6497ff131d53fa1a7107eddf9820e8c9a61ee64057c737e87154c6416bf",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ae0658953196c5c2",
+    "reason": "Same date and topic as existing event on Palin's post-2008 political future; duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ae0658953196c5c2"
+  },
+  {
+    "candidate_id": "98267cf11e35f024b0768aa5",
+    "time": "2008-09-24",
+    "date_precision": "day",
+    "summary": "Sarah Palin meets foreign dignitaries in New York during a whirlwind tour of world affairs.",
+    "time_range": null,
+    "evidence_ids": [
+      "81009"
+    ],
+    "job_id": "b7d0d62e791a82cc92a0f34f5bc8453e2d13ac126f4a0087c942292da8cc0a97",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin meeting foreign dignitaries is a relevant milestone in her 2008 campaign.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4cfaf904e0a38ad9"
+  },
+  {
+    "candidate_id": "f9546db88f622bb486de5165",
+    "time": "2012-03-03",
+    "date_precision": "day",
+    "summary": "HBO announces that its film Game Change, about Sarah Palin's 2008 vice-presidential campaign, will debut on March 10 in the US and on April 26 in the UK.",
+    "time_range": null,
+    "evidence_ids": [
+      "80371"
+    ],
+    "job_id": "806e077c7265b4118d886590ae5a49130e5de515a2490a81e2e06d8b4be02ab6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "HBO announcement about Game Change is a relevant Palin-related media milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fa79a6ab32a9333a"
+  },
+  {
+    "candidate_id": "8a651d63a14617bf1ffc312d",
+    "time": "2012-03-10",
+    "date_precision": "day",
+    "summary": "The movie adaptation of \"Game Change\" was released, focusing on Sarah Palin's selection as John McCain's running mate during the 2008 presidential campaign.",
+    "time_range": null,
+    "evidence_ids": [
+      "80372"
+    ],
+    "job_id": "bcfc289c2ee045408fac9d36b322526478447a0c90338f0addd8478290e08ef2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Release of Game Change is a distinct relevant event about Palin's campaign portrayal.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ab34d79583817b41"
+  },
+  {
+    "candidate_id": "c92bd4eb4df95cf2747d6d02",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "80591"
+    ],
+    "job_id": "d486cdd1410baf1ed5db0efe61aad87c5ab1f4189fb46f10deba266d2308f999",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Clinton tsunami appeal does not involve Sarah Palin.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "969545fa61eb000e22b27e27",
+    "time": "2009-01-08",
+    "date_precision": "day",
+    "summary": "Sarah Palin appears in a web video on a conservative website, criticizing Tina Fey, Katie Couric, and Caroline Kennedy.",
+    "time_range": null,
+    "evidence_ids": [
+      "80869"
+    ],
+    "job_id": "9303661c151385756fd3365429d0d1fa872bf2fb45bd9efb8ad5676a39c90931",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin web video criticizing Fey, Couric, and Kennedy is a relevant post-election event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c446bc59066ace60"
+  },
+  {
+    "candidate_id": "8aa1bed64c27ce1e4edbcdef",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "80596"
+    ],
+    "job_id": "95b558e4b4d1e18dcaf39fae7ff570b5e05ee61849f41c194806d6065a1b9bc7",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Duplicate irrelevant tsunami appeal item with no Sarah Palin involvement.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "35e329c6d0aa9415e728ad91",
+    "time": "2008-10-23",
+    "date_precision": "day",
+    "summary": "Article discusses Sarah Palin's possible political future after the 2008 election, including speculation about a 2012 Republican presidential run, but reports no completed or planned event.",
+    "time_range": null,
+    "evidence_ids": [
+      "81087"
+    ],
+    "job_id": "64a2f9caeb58b41904b97014be1475e1c3e5586d1d7d48ff0a021ce59d3da889",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Speculation on Palin's post-2008 political future is relevant; date differs from existing similar event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-da86e1cba79d9adc"
+  },
+  {
+    "candidate_id": "78b86c9d692c74c55ee09f48",
+    "time": "2014-09-06",
+    "date_precision": "day",
+    "summary": "Alaska authorities are considering filing criminal charges related to a large fistfight said to involve multiple members of Sarah Palin's family in Anchorage.",
+    "time_range": null,
+    "evidence_ids": [
+      "80326"
+    ],
+    "job_id": "e9838aef0a87010cfc8fa517745497e8da36f43f96b27d108f4d965d927402a9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Criminal charges considered over a fight involving Palin family members; relevant milestone in Palin-related legal news.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6340c863b277f92a"
+  },
+  {
+    "candidate_id": "03273d59339e945f4a0e8a4f",
+    "time": "2014-10-09",
+    "date_precision": "day",
+    "summary": "Anchorage authorities announced they do not plan to press charges over a drunken street brawl involving the family of former Alaska governor Sarah Palin.",
+    "time_range": null,
+    "evidence_ids": [
+      "80327"
+    ],
+    "job_id": "ca2bcda69971469b5342b049d2209dc910d1e7c28a996fb73cca5f155937257d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Authorities decline charges in the same family brawl; distinct later development, different date from the consideration event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5721f1337b4ef157"
+  },
+  {
+    "candidate_id": "71d386d2bd64d05f424721e7",
+    "time": "2008-10-13",
+    "date_precision": "day",
+    "summary": "Sarah Palin's former public safety commissioner Walter Monegan asks the state personnel board for a hearing to clear his name after she accused him of being a \"rogue\" and insubordinate commissioner.",
+    "time_range": null,
+    "evidence_ids": [
+      "80812"
+    ],
+    "job_id": "5944df8e9882dcd71a437660027b006aa137637872771d6194a9345922b2d7f6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Monegan hearing request is a troopergate-related milestone; no existing event matches this date or action.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0e240a0b057278c3"
+  },
+  {
+    "candidate_id": "7b5458cd84e2f20708fdc7a6",
+    "time": "2016-01-20",
+    "date_precision": "day",
+    "summary": "Sarah Palin tied her son Track Palin's arrest on domestic violence charges to his military service and criticized President Barack Obama for not supporting veterans during a speech supporting Donald Trump in Tulsa, Oklahoma.",
+    "time_range": null,
+    "evidence_ids": [
+      "80293"
+    ],
+    "job_id": "70c8585b2343f6b82236ad1e62848c28cc23ad5dae42701f750df757bf926697",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin speech linking son's arrest to military service and criticizing Obama; relevant political milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-74a622bd2b3476b2"
+  },
+  {
+    "candidate_id": "1d267bdecd36b9b2e65a0e5d",
+    "time": "2016-01-24",
+    "date_precision": "day",
+    "summary": "Sarah Palin endorsed Donald Trump, according to an article reflecting on her political rise and fall.",
+    "time_range": null,
+    "evidence_ids": [
+      "80295"
+    ],
+    "job_id": "9faba4f313db6ddfbf3610c2509bf8cd7dfbe9f9fadb2adc1263149ccfd9797c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin's Trump endorsement is a significant political milestone; no existing event matches this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-838200bf29b5487c"
+  },
+  {
+    "candidate_id": "89ac30231c2e337c5bee6089",
+    "time": "2011-01-08",
+    "date_precision": "day",
+    "summary": "Sarah Palin faces backlash over a map with target symbols against Democrats, including Gabrielle Giffords, who was shot in the head and remains in critical condition.",
+    "time_range": null,
+    "evidence_ids": [
+      "80506"
+    ],
+    "job_id": "97f573ff9a9f296993165e46c784aff9c50c69c3a5f4c6e3b82a52c19b17ac21",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Backlash over target-symbol map tied to Giffords shooting; relevant controversy in Palin timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b40b4a1b87fd11b6"
+  },
+  {
+    "candidate_id": "aa2a0107f215627cd9dfbec1",
+    "time": "2015-01-05",
+    "date_precision": "day",
+    "summary": "Sarah Palin fired another shot in her war of words with PETA, accusing the group of hypocrisy and asserting that liberals feel no compunction about attacking even special-needs children and puppy trainers.",
+    "time_range": null,
+    "evidence_ids": [
+      "80318"
+    ],
+    "job_id": "6eaa7cca8c49a842115f075a72ae7b13abd1ffd93213d6be78abb4f4d1fbc22c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palin's public dispute with PETA; relevant to her public/political profile.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9c5799bc56736d6d"
+  },
+  {
+    "candidate_id": "4af4c3e8ca081de4d4997a15",
+    "time": "2010-05-18",
+    "date_precision": "day",
+    "summary": "Bristol Palin, daughter of Sarah Palin, is to join the speakers' circuit, charging between $15,000 and $30,000 per appearance.",
+    "time_range": null,
+    "evidence_ids": [
+      "80635"
+    ],
+    "job_id": "afdf650e2b995dd3ba756bc4ee870ca4b30e12e8abdbfbd05c418e50f4d7509a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Bristol Palin joining speakers' circuit; relevant Palin-family public milestone, no duplicate existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-dfbc2d527ea30558"
+  },
+  {
+    "candidate_id": "e21af5aa4dfe643cbe15d404",
+    "time": "2009-03-12",
+    "date_precision": "day",
+    "summary": "Bristol Palin, daughter of Sarah Palin, ended her engagement with Levi Johnston, the father of her infant son.",
+    "time_range": null,
+    "evidence_ids": [
+      "80787"
+    ],
+    "job_id": "29ae18ec68db63cbe8ce948d8d6a6d01250dbe378f8337041e84fa53be0ad511",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-d5de81e1b4f00b74",
+    "reason": "Same event: Bristol Palin's engagement to Levi Johnston ending on 2009-03-12, matching the existing event's date and content.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d5de81e1b4f00b74"
+  },
+  {
+    "candidate_id": "4dfee40b0109a7bbf83aa07f",
+    "time": "2009-11-10",
+    "date_precision": "day",
+    "summary": "Sarah Palin is scheduled to appear on the Oprah Winfrey Show, followed by the launch of her book Going Rogue and a three-week bus tour.",
+    "time_range": null,
+    "evidence_ids": [
+      "80659"
+    ],
+    "job_id": "e1d14ccb9df09498c98766a85196b5297d01b30b8630880af59b0af68276af61",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Palin media/book-tour milestone; date differs from existing Oprah/book events, so no merge.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-375aa0ec660be32b"
+  },
+  {
+    "candidate_id": "ee31ed3cc93833295f385eed",
+    "time": "2011-10-05",
+    "date_precision": "day",
+    "summary": "Sarah Palin announced that she will not run for president.",
+    "time_range": null,
+    "evidence_ids": [
+      "80414"
+    ],
+    "job_id": "b4d11bdfdedee8d77b328b8e53f5374821a75c8532864893c9377287e198f9aa",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-2cef6614b8b3a969",
+    "reason": "Same date and same event: Palin's announcement that she will not run for president.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2cef6614b8b3a969"
+  },
+  {
+    "candidate_id": "f105a45a9d36d7e1110c5aae",
+    "time": "2012-04-03",
+    "date_precision": "day",
+    "summary": "Sarah Palin co-hosted NBC's Today show, giving a one-on-one interview with Matt Lauer and participating in panel discussions.",
+    "time_range": null,
+    "evidence_ids": [
+      "80380"
+    ],
+    "job_id": "e3f52712312cb0f76529925679fe244aa770e7da1c83f62a401b9c5872e5a81a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Sarah Palin media appearance milestone; no existing event matches its 2012-04-03 date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-512557b1bac915d4"
+  },
+  {
+    "candidate_id": "5d5650c08c071228da85363b",
+    "time": "2008-09-11",
+    "date_precision": "day",
+    "summary": "In her first interview as vice-presidential candidate, Sarah Palin discusses her readiness for office and says it would \"perhaps\" be necessary for the US to go to war with Russia if Georgia joined NATO and Russia invaded Georgia.",
+    "time_range": null,
+    "evidence_ids": [
+      "81115"
+    ],
+    "job_id": "00a1d8b25aa0d0d82ea9fb2c500fd9db3ac798ff7504a464b05c25f9371a5413",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant first VP-candidate interview; same date as existing media-silence events but distinct occurrence, so no merge.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8f1caa0655a0f890"
+  },
+  {
+    "candidate_id": "b485b5a0b18de47cf8b5d665",
+    "time": "2009-06-30",
+    "date_precision": "day",
+    "summary": "Sarah Palin claims she could beat Barack Obama in a foot race, citing her endurance and sub-four marathon time.",
+    "time_range": null,
+    "evidence_ids": [
+      "80760"
+    ],
+    "job_id": "14b8b9bffd6912524b48d18fa068fcc8bd43919d8ed0326fdcc73aaab3d92a04",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Palin public remark; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8e5ef393b5ba74a4"
+  },
+  {
+    "candidate_id": "2fcfc6873f283d410f9e5ee7",
+    "time": "2008-08-29",
+    "date_precision": "day",
+    "summary": "John McCain announces Sarah Palin as his running mate.",
+    "time_range": null,
+    "evidence_ids": [
+      "80897"
+    ],
+    "job_id": "33ec9b1014c2ab726d4b125787da644adf5c704466adeeb90df8a07b9f3c8484",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-0b6c3a0149c98920",
+    "reason": "Duplicate of existing event with same date and announcement.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0b6c3a0149c98920"
+  },
+  {
+    "candidate_id": "800947ec232143013f92934d",
+    "time": "2008-10-02",
+    "date_precision": "day",
+    "summary": "Sarah Palin participated in the vice-presidential debate against Joe Biden in St. Louis, delivering a performance that was seen as more confident than her recent television interviews.",
+    "time_range": null,
+    "evidence_ids": [
+      "81234"
+    ],
+    "job_id": "ed7257c04de15ec3a976f8bf32a51a7b23d0f5885b94fd399ca54f7bf88a4ce9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant VP debate milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f58d46d2ebcff46c"
+  },
+  {
+    "candidate_id": "c77117329c568c244d49f1be",
+    "time": "2008-09-02",
+    "date_precision": "day",
+    "summary": "Sarah Palin made her first appearance at the Republican convention and before a national TV audience, after being embraced by the party's social conservative wing.",
+    "time_range": null,
+    "evidence_ids": [
+      "81283"
+    ],
+    "job_id": "a34852f2e3d7d70a33f85a20dd828428edc5c054d90852e806c52873f783f2f3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant convention appearance; distinct from existing same-date events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a71cca8c5e2f35c3"
+  },
+  {
+    "candidate_id": "a27b8a9d6fbd168c57ecdaef",
+    "time": "2009-07",
+    "date_precision": "month",
+    "summary": "Vanity Fair published an article by Todd Purdum questioning Sarah Palin's readiness for the vice presidency, which reportedly dented her 2012 presidential ambitions.",
+    "time_range": null,
+    "evidence_ids": [
+      "80797"
+    ],
+    "job_id": "bd92c26a8a4d3db3f51a1663cf8a4147ee152327b8a3ed4d6726fda6947f52a1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant article affecting Palin's ambitions; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0ba6fed6e8280405"
+  },
+  {
+    "candidate_id": "40c305be37bd4f080d4f5586",
+    "time": "2011-01-22",
+    "date_precision": "day",
+    "summary": "Sarah Palin finished well behind Mitt Romney in a poll of New Hampshire Republican delegates on who should be the party's 2012 presidential nominee, receiving 7% to Romney's 35%.",
+    "time_range": null,
+    "evidence_ids": [
+      "80571"
+    ],
+    "job_id": "7d81f347abf769c4e831e86a9012802fecc4af23058f54da06de2abdd07db053",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant 2012 poll result; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4b68bae1ca3f34da"
+  },
+  {
+    "candidate_id": "f7f0ffb47e487e031525ea11",
+    "time": "2008-09-04",
+    "date_precision": "day",
+    "summary": "Sarah Palin delivered her first major address as Republican vice-presidential nominee at the party convention, receiving an overwhelmingly enthusiastic response from delegates.",
+    "time_range": null,
+    "evidence_ids": [
+      "81257"
+    ],
+    "job_id": "20416bcadaee9c2438f86832edbc16deb1fb4f11a145e94d0c932a4394973d8e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-77cc35329cf7a339",
+    "reason": "Duplicate of existing event with same date and convention speech.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-77cc35329cf7a339"
+  },
+  {
+    "candidate_id": "cd9f1e6f51a7af32ddcf618e",
+    "time": "2011-10-05",
+    "date_precision": "day",
+    "summary": "Sarah Palin announced she would not run for president in the 2012 election.",
+    "time_range": null,
+    "evidence_ids": [
+      "80383"
+    ],
+    "job_id": "f54512e9c0a3dc3eff87f5af6f60066343b9d700498889c034020341e5680011",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-2cef6614b8b3a969",
+    "reason": "Duplicate of existing event with same date and 2012 decision.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2cef6614b8b3a969"
+  },
+  {
+    "candidate_id": "15dfc282b9e789a724096cdb",
+    "time": "2009-07-03",
+    "date_precision": "day",
+    "summary": "Sarah Palin announces she is resigning the Alaska governorship.",
+    "time_range": null,
+    "evidence_ids": [
+      "80747"
+    ],
+    "job_id": "232b04253b97ffae47f98ca17497b32607e83a64871cc304917883ed24bdbbe2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-14a7f936d256f595",
+    "reason": "Same event and date as existing resignation announcement; duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-14a7f936d256f595"
+  }
+]

@@ -1,0 +1,3989 @@
+[
+  {
+    "candidate_id": "feb3609efdf6e49231bb5c8f",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "82930"
+    ],
+    "job_id": "dd310801915534d97f84915f1db138458a202dc35d1e56cdd345e45b7abbe820",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "US tsunami donation appeal; no connection to Silvio Berlusconi.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "e2f02fef4c6052a7ef34cf76",
+    "time": "2001-06-25",
+    "date_precision": "day",
+    "summary": "A Milan appeal court rules that Silvio Berlusconi should not stand trial for allegedly bribing a Rome judge because the charges are covered by a statute of limitations, while in a separate case police raid the headquarters of his Mediaset broadcasting company.",
+    "time_range": null,
+    "evidence_ids": [
+      "84436"
+    ],
+    "job_id": "4a7db3564d163ab0ea5a52ca38da003ec68d6e085351923600fc87e6656327fb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi legal ruling and Mediaset raid; directly relevant milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e72715df83db3a1e"
+  },
+  {
+    "candidate_id": "3d3abac676f849b1cbcb038a",
+    "time": "2014-04-11",
+    "date_precision": "day",
+    "summary": "Marcello Dell'Utri, a close ally of former Italian Premier Silvio Berlusconi, was apprehended in Beirut after fleeing Italy as a fugitive.",
+    "time_range": null,
+    "evidence_ids": [
+      "82923"
+    ],
+    "job_id": "57551386043aeaf1d294e8d3e1e2a7c3c965860377fca3db7e1fbebc8945b81e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Arrest of Berlusconi ally Dell'Utri; relevant to Berlusconi timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2d1c1d6843c8750d"
+  },
+  {
+    "candidate_id": "8d92431d4ea8d037f0139a58",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "82837"
+    ],
+    "job_id": "861cf25a1538837b9a3b2877a3d5f907e5e86b8b885cc284abd9263522c49d0f",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Duplicate content of unrelated US tsunami appeal; no Berlusconi relevance.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "6416f12d5e2d410f184c7285",
+    "time": "2010-11-19",
+    "date_precision": "day",
+    "summary": "Judges in Palermo ruled that Marcello Dell'Utri, who spearheaded Silvio Berlusconi's entry into politics, was also an intermediary between Berlusconi and the Sicilian mafia, and that Berlusconi paid enormous sums to Cosa Nostra for protection and to safeguard his TV network's relay stations on Sicily.",
+    "time_range": null,
+    "evidence_ids": [
+      "83114"
+    ],
+    "job_id": "ec8ea40fed54bac4b47c3f11083900470243ffbc997f9283f883d0c5182db883",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palermo ruling linking Berlusconi to Cosa Nostra; directly relevant.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d24349332875b6f9"
+  },
+  {
+    "candidate_id": "f8bd0c3286da5cc4355b7626",
+    "time": "2009-04-03",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi selects former Milan and Fiorentina goalkeeper Giovanni Galli as his candidate for mayor of Florence in the June elections.",
+    "time_range": null,
+    "evidence_ids": [
+      "83367"
+    ],
+    "job_id": "221245e5e00d6e5e5ebc117bba53cbaf7a86e9275ab13da9cfc24e81fde0a1b2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi selecting Florence mayoral candidate; relevant political event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-080ddd21043a5799"
+  },
+  {
+    "candidate_id": "0299e367d35cf6cedb72a649",
+    "time": "2001-03",
+    "date_precision": "month",
+    "summary": "Silvio Berlusconi returned to active involvement with AC Milan, firing manager Alberto Zaccheroni and announcing major transfer investments ahead of Italian elections.",
+    "time_range": null,
+    "evidence_ids": [
+      "84411"
+    ],
+    "job_id": "d802068a13cb40cd54a79ed57ef5090411796baa85bfd0ce1120a3b15713b632",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's return to AC Milan involvement; relevant to his timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-51616defb738a207"
+  },
+  {
+    "candidate_id": "fc5ec8757b48a2d947cd6f78",
+    "time": "2011-05-30",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi suffered a humiliating political defeat in his home city of Milan when his party's candidate for mayor, Letizia Moratti, was ousted in a runoff by leftwing lawyer Giuliano Pisapia.",
+    "time_range": null,
+    "evidence_ids": [
+      "83019"
+    ],
+    "job_id": "ca3647c9b566a5814ad91cf70bf4b97bf0bb5d4f25222aa07c92c66ce9e2aec7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's party defeated in Milan mayoral runoff; relevant political setback.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b27b666e5b944649"
+  },
+  {
+    "candidate_id": "985adf0e4e81f73e5dadeefd",
+    "time": "2009-12-13",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi was injured after a man threw a model of Milan cathedral at him during a rally in Milan, and he was kept in hospital overnight.",
+    "time_range": null,
+    "evidence_ids": [
+      "83267"
+    ],
+    "job_id": "1cb489b552c7de26f4ac2bb20ecb96b3ec46d734e7a6b22a59cfbdb4b74aa573",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Direct attack on Berlusconi causing injury and hospitalization; a notable personal milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-eb68615f57b9c8d0"
+  },
+  {
+    "candidate_id": "552a7d27cf7042797b1c01e2",
+    "time": "2001-05-14",
+    "date_precision": "day",
+    "summary": "France's foreign minister Hubert Védrine says Europe will keep a \"vigilant\" eye on Silvio Berlusconi's actions in office.",
+    "time_range": null,
+    "evidence_ids": [
+      "84466"
+    ],
+    "job_id": "5066be9b53d4b95a7da7d785210a752f7afcc25994630a4649633f03ca2bde61",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "International reaction to Berlusconi taking office; contributes to his political timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bc1bf308db9bc5b7"
+  },
+  {
+    "candidate_id": "b5c5388f3de4169dc98225a7",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "84494"
+    ],
+    "job_id": "f1e6fb9d53b4b5f7e395aa9468d507fcfffdb35bd99678b352c7b297851d2414",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Concerns Bush and Clinton tsunami appeal; no Berlusconi relevance.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "e0e443c432370d571f119eed",
+    "time": "2013-10-03",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi announced he would instruct his party to vote against a motion of no confidence in Enrico Letta's coalition government, a tacit admission that he had lost the backing of a sizable number of his own politicians and no longer had power of veto over government policy.",
+    "time_range": null,
+    "evidence_ids": [
+      "82852"
+    ],
+    "job_id": "8fbd9c081cf10d894da05d0655da0702628e971fd37a98e8bcc613286f77594a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's decision on the Letta confidence vote; significant political milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d083b3e92ad4811f"
+  },
+  {
+    "candidate_id": "da9e9a5bfcd698b9811685ff",
+    "time": "2014-01-21",
+    "date_precision": "day",
+    "summary": "Pier Silvio Berlusconi reportedly threatened to close two Mediaset programmes, including Domenica Live, unless they cut or toned down sexual content, following an internal investigation and a parents' movement complaint.",
+    "time_range": null,
+    "evidence_ids": [
+      "82859"
+    ],
+    "job_id": "5b95f6d7e0aba19e59597479dd2fc63eeba4e36877c5b30da88dd083d12a971c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Involves Pier Silvio Berlusconi and Mediaset, part of the Berlusconi family media timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3370dd9a681e65e7"
+  },
+  {
+    "candidate_id": "678625431fb78580dc8a7f30",
+    "time": "2003-02-27",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Silvio Berlusconi faced political protest for attempting to directly nominate the heads of state television service Rai, reportedly tipping McDonald's Italy head Mario Resca to be its new president.",
+    "time_range": null,
+    "evidence_ids": [
+      "84214"
+    ],
+    "job_id": "393f9540c1936f9383dd3df0d0e9b9d4f15a27e189e918466b4eeac9d00d2646",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's attempt to influence Rai appointments; relevant to his media-political role.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-70c0ce813c8a6c90"
+  },
+  {
+    "candidate_id": "947e1820f2836badd2632ac5",
+    "time": "2007-11-23",
+    "date_precision": "day",
+    "summary": "Leaked phone taps published by La Repubblica suggest Italian state television RAI and Berlusconi-owned Mediaset colluded to favor Silvio Berlusconi during his time as prime minister.",
+    "time_range": null,
+    "evidence_ids": [
+      "83675"
+    ],
+    "job_id": "68b9eee720afac1c688ae94b9d427f688331ba642fcd56436f3af1d06449ca73",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Alleged Rai-Mediaseet collusion favoring Berlusconi; relevant media-political event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bada67971ba23c1a"
+  },
+  {
+    "candidate_id": "cf630c0dba920ed90a138ed2",
+    "time": "2006-10-13",
+    "date_precision": "day",
+    "summary": "The Italian cabinet approves a law forcing Silvio Berlusconi's Mediaset and state broadcaster RAI to each give up one of their three terrestrial analogue channels by 2009, a decision Berlusconi calls a \"political vendetta\" and vows to fight in parliament.",
+    "time_range": null,
+    "evidence_ids": [
+      "83741"
+    ],
+    "job_id": "eb1a9d5c5398f6f67552dc2a98e94dc5b8fd954dd7ffbab3a3ad39a85aaa36c7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cabinet law affecting Berlusconi's Mediaset; relevant to his media business timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-20ef0726b368531e"
+  },
+  {
+    "candidate_id": "e2e51069502c8b7549347f65",
+    "time": "2002-02-22",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi's government secured control of state broadcaster Rai by appointing sympathizers to its board, giving him direct and indirect control of about 90% of the Italian television market.",
+    "time_range": null,
+    "evidence_ids": [
+      "84412"
+    ],
+    "job_id": "eaef4b478f22dd565a2c93c611de9894038ce63a109f350fc4a84e642324f4d8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi government's control of Rai and TV market is a relevant media-power milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1aa30ddb69c3e20b"
+  },
+  {
+    "candidate_id": "17b2ef755d44cf39895e24fb",
+    "time": "2005-04-13",
+    "date_precision": "day",
+    "summary": "Fininvest, the company at the apex of Silvio Berlusconi's business empire, announced it was reducing its holding in the Mediaset TV network to just over 34%.",
+    "time_range": null,
+    "evidence_ids": [
+      "83917"
+    ],
+    "job_id": "c6ade1dbca9c10c07d283e2f6e0db3a10b2dcd3e22302060e8992a6ae2bf1059",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Fininvest reducing Mediaset stake is a relevant development in Berlusconi's media empire.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f4b2c88072ab6a17"
+  },
+  {
+    "candidate_id": "dc94274d8737fd7ee82688ff",
+    "time": "2003-07-08",
+    "date_precision": "day",
+    "summary": "The Italian senate began debating a controversially amended communications bill that critics say would enable Prime Minister Silvio Berlusconi to extend his influence over the country's media.",
+    "time_range": null,
+    "evidence_ids": [
+      "84160"
+    ],
+    "job_id": "7838b58d13c73425e24ec28cae39a93cd4c9564d857ab0a198b0c2fb220466b5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Senate debate on communications bill affecting Berlusconi's media influence is relevant.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c8e19027d87bb7c8"
+  },
+  {
+    "candidate_id": "d1223505146f32a08783a844",
+    "time": "2003-12-16",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Silvio Berlusconi pledged to bypass an attempt to curb his media power by having his government impose an emergency decree to protect his television empire from being dismantled.",
+    "time_range": null,
+    "evidence_ids": [
+      "84191"
+    ],
+    "job_id": "eaf2454058122003c067269cb874ff2b6143fbb5b13d26929a64abf53d87b97e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi pledge to use emergency decree to protect TV empire is a relevant media-power event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0bf2c2284b670e7b"
+  },
+  {
+    "candidate_id": "d2b012479d7522dab3357f49",
+    "time": "2003-12-23",
+    "date_precision": "day",
+    "summary": "The Italian cabinet passed an emergency decree to save one of Prime Minister Silvio Berlusconi's private TV channels, Retequattro, overruling a court decision that it should move to satellite by year-end.",
+    "time_range": null,
+    "evidence_ids": [
+      "84099"
+    ],
+    "job_id": "adc12cccc3ee938eaff91123cdaff9d55d6f5d043a73dfb645102fb53d199456",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cabinet decree saving Retequattro is a distinct relevant media-power milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-20864cdbe9eb395e"
+  },
+  {
+    "candidate_id": "df953ea5991dcf382113df72",
+    "time": "2010-03-15",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi was placed under investigation by Italian magistrates on suspicion of pressuring Italy's media watchdog to block a state television talk show he considered hostile.",
+    "time_range": null,
+    "evidence_ids": [
+      "83282"
+    ],
+    "job_id": "dc6f1472d859f240d6f4a32cf0b426ba6b0620affe4a95e0f6a3e0eff1d50fda",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Investigation into pressuring media watchdog is a relevant Berlusconi media-power event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3031626b879801eb"
+  },
+  {
+    "candidate_id": "53db8adfb174aaeaea1024a2",
+    "time": "2004-06-30",
+    "date_precision": "day",
+    "summary": "Mediaset, the media empire of Silvio Berlusconi, acquired non-exclusive rights to broadcast home games of Juventus, Inter, and AC Milan on its digital channels for the next three seasons in a €86m deal.",
+    "time_range": null,
+    "evidence_ids": [
+      "84077"
+    ],
+    "job_id": "7503cc00da1b370e960a1a66a54f24266e2eca726e5613c96297865458622aac",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Mediaset acquiring football broadcast rights is a relevant expansion of Berlusconi's media empire.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-550a4a0a94f79c36"
+  },
+  {
+    "candidate_id": "6e5817e991333844563a7cbe",
+    "time": "2003-12-19",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Silvio Berlusconi announces that reviewing the legislation guaranteeing parties equal access to TV air time will be a top priority in the new year, with discussion on the working agenda from January 7.",
+    "time_range": null,
+    "evidence_ids": [
+      "84152"
+    ],
+    "job_id": "223f4aa0dc08d6be31b8873e549f2c62a4636875b166a4430954076349504a81",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi prioritizing review of equal TV air time legislation is relevant to his media influence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1559fafa6e9ad7bf"
+  },
+  {
+    "candidate_id": "a21eb440e6bf0c6fee1fcc53",
+    "time": "2001-05-14",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi is set to become Italy's new prime minister after his conservative coalition appeared to win a majority in the Senate in the Italian general election.",
+    "time_range": null,
+    "evidence_ids": [
+      "84376"
+    ],
+    "job_id": "a7cb7fb6e5cd4c145205de7638ae508737d3fd8fd0eb25d5a637cd63b0d9374a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's 2001 election victory is a major milestone in his political career.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8e9bfee947fac9cd"
+  },
+  {
+    "candidate_id": "504fb873a41170d22268b710",
+    "time": "2004-01-24",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi holds a rally to celebrate the 10th anniversary of his entry into politics.",
+    "time_range": null,
+    "evidence_ids": [
+      "84108"
+    ],
+    "job_id": "a3845918af6be58bd640c2cf28865681b5793467472debb03516704e7e41b386",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rally marking 10th anniversary of Berlusconi's entry into politics is a relevant career milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9e86a85486400978"
+  },
+  {
+    "candidate_id": "b54a9250c794ae5f937e35fd",
+    "time": "2007-08-21",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi reportedly arranged with a notary public to register the name and logos of a new \"Freedom party\" as he plans to found a new political movement to regain power in Italy.",
+    "time_range": null,
+    "evidence_ids": [
+      "83652"
+    ],
+    "job_id": "cc6aa0136612209a79773a77c1afb4d31deba797c8ec8378dad28f6c1046446d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Registration of the Freedom party name/logos is a relevant political milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-be6efb34d173a0f3"
+  },
+  {
+    "candidate_id": "ad3e5c8d2262dc100e9fa95c",
+    "time": "2001-06-07",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi threatens to launch parliamentary investigations into his left-leaning political opponents and to stage mass rallies if they try to stop him.",
+    "time_range": null,
+    "evidence_ids": [
+      "84382"
+    ],
+    "job_id": "987be1e0896714bfac4d08faa18b077f520cba47ccd84557054e94ad96861736",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's threat of investigations and rallies is a relevant political action.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d60b4f9698da7648"
+  },
+  {
+    "candidate_id": "232a75842f55d82f54827204",
+    "time": "2000-09-11",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi returns to the Italian parliament as leader of the centre-right opposition, planning to topple the government and trigger a snap general election.",
+    "time_range": null,
+    "evidence_ids": [
+      "84469"
+    ],
+    "job_id": "8efada4d2fedbe931fa9a6cf8ca7235d46f21540fa7e7f3f7671060cc0fc11d5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Return to parliament as opposition leader is a relevant political milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-18ce631a3ea964cd"
+  },
+  {
+    "candidate_id": "bda789e680e7edafdee2b75c",
+    "time": "2015-05-29",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi mistakenly arrived at a leftist party rally in Segrate, Italy, instead of his own Forza Italia event.",
+    "time_range": null,
+    "evidence_ids": [
+      "82809"
+    ],
+    "job_id": "730638e8c06d18f771df07e4bb7f75130e765d43370593dd7a79091cf6ce11cf",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi mistakenly attending a rival rally is a notable, relevant anecdote.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3190b947ecd7a717"
+  },
+  {
+    "candidate_id": "029c3fa521c594ed4dc43250",
+    "time": "2001-08",
+    "date_precision": "month",
+    "summary": "Silvio Berlusconi faced ongoing fallout from the Genoa summit, including police excessive force admissions, calls for resignations, and personal legal and conflict-of-interest problems.",
+    "time_range": null,
+    "evidence_ids": [
+      "84356"
+    ],
+    "job_id": "811c30559334d1387835daa9c0f470ac0ecb287f46c301c725eb653b95115571",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Fallout from the Genoa summit and legal/conflict issues is relevant to Berlusconi's political context.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3d9a87a2b74acacf"
+  },
+  {
+    "candidate_id": "6522e74ec3647d703256b89f",
+    "time": "2007-08-21",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi reportedly arranged with a notary public to register the name and logos of a new Freedom party.",
+    "time_range": null,
+    "evidence_ids": [
+      "83649"
+    ],
+    "job_id": "8c4935e4728c9a9aaf7a4b3458c19ff409d42471d5bfb9ec19f5fbc33278df56",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "b54a9250c794ae5f937e35fd",
+    "reason": "Same 2007-08-21 event as the Freedom party registration candidate; duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-be6efb34d173a0f3"
+    },
+    "timeline_event_id": "event-be6efb34d173a0f3"
+  },
+  {
+    "candidate_id": "fbd73970aad9cec8e2d321cb",
+    "time": "2007-11-18",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi announces he is dissolving Forza Italia to replace it with a new broader movement he intends to call the Italian People of Freedoms party.",
+    "time_range": null,
+    "evidence_ids": [
+      "83680"
+    ],
+    "job_id": "78cbd71e781aed7ec0a9389119f537ae62b192c481a689849027a38c91985489",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Berlusconi announces dissolving Forza Italia to form a new broader movement; distinct date from existing related events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4525b4a2d2a4d0ad"
+  },
+  {
+    "candidate_id": "9db7f9de8f9dec6818d15373",
+    "time": "2011-11-08",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi informs Italy's president that he will resign as prime minister after passing EU-demanded economic reforms, though he says it will be sometime in November.",
+    "time_range": null,
+    "evidence_ids": [
+      "82952"
+    ],
+    "job_id": "5cd54ea2504500bd96425391fe21e2d1221c1bcaab4adaf87dc06cd248858593",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Berlusconi informs the president he will resign as prime minister after reforms; no existing event matches this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3d19f96d132f32b0"
+  },
+  {
+    "candidate_id": "a21acf8a85ed380a3ab65f80",
+    "time": "2001-05-14",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi wins Italy's general election but falls short of the overwhelming mandate he expected, as he prepares to form Italy's 59th government since 1945.",
+    "time_range": null,
+    "evidence_ids": [
+      "84456"
+    ],
+    "job_id": "425948b389bcccbde6472392aa1c8b28fb392fc6224c1070fb8be67f47f28984",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-8e9bfee947fac9cd",
+    "reason": "Duplicate of existing 2001-05-14 event on Berlusconi's general election win and becoming prime minister.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8e9bfee947fac9cd"
+  },
+  {
+    "candidate_id": "8eea9cae3c6022233058aed0",
+    "time": "2001-03-14",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi, Milan's owner, abruptly sacks coach Alberto Zaccheroni hours after the club was eliminated from the Champions League.",
+    "time_range": null,
+    "evidence_ids": [
+      "84440"
+    ],
+    "job_id": "21fe600664fa6cc0b3494b0d07c9ff6114b24643f7f2757b06a5626c96107fae",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's sacking of Milan coach Zaccheroni is a relevant milestone in his ownership tenure; date differs from the existing March 2001 event, so it stays separate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-61e0f77a1ccc426e"
+  },
+  {
+    "candidate_id": "bd6fe8a65685ea8d4233b5da",
+    "time": "2001-03-13",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi, as honorary chairman of AC Milan, sacks coach Alberto Zaccheroni after the club's poor performances and Champions League exit.",
+    "time_range": null,
+    "evidence_ids": [
+      "84439"
+    ],
+    "job_id": "98599cf0ae88700b30249334a1be0c2f3c7960cecad7fc726a571cd894b28e21",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Same Zaccheroni sacking as the existing March 2001 event, but the day-level date does not identically match the month-level target time, so it is appended separately with its original date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-408cfab8cf398c01"
+  },
+  {
+    "candidate_id": "e7cca436e4ae2f9dd94d6f6f",
+    "time": "2016-04-12",
+    "date_precision": "day",
+    "summary": "AC Milan president Silvio Berlusconi met with youth coach Cristian Brocchi over a three-hour dinner before deciding to sack Sinisa Mihajlovic and appoint Brocchi as first-team coach until the end of the season.",
+    "time_range": null,
+    "evidence_ids": [
+      "82799"
+    ],
+    "job_id": "ca12a4eb2c69a782594e5e7d2547bcb5f5d15881a5cb0e933e5c48c5aeaa7105",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's decision to replace Mihajlovic with Brocchi is a relevant Milan coaching milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1a4f0ebb5f23c214"
+  },
+  {
+    "candidate_id": "458949981653806531cfe6b0",
+    "time": "2014-06-06",
+    "date_precision": "day",
+    "summary": "Milan president Silvio Berlusconi said the club would decide on a solution for coach Clarence Seedorf at the next board meeting, describing him as part of the club's past.",
+    "time_range": null,
+    "evidence_ids": [
+      "82834"
+    ],
+    "job_id": "f6862697027686fee6d5c5da12541afd35bb4b7d9bbe88fdf01250cb4bf43a8b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's public statement on Seedorf's future is a relevant Milan coaching development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-473481556f73feb6"
+  },
+  {
+    "candidate_id": "4293e1f18c41fd215aebf368",
+    "time": "2008-04-23",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi announces he will resign as president of Milan next month when he begins his third term as prime minister of Italy.",
+    "time_range": null,
+    "evidence_ids": [
+      "83596"
+    ],
+    "job_id": "8a0f2ada0c8b2a9a07f700d745258ee84c46da38b9e290cd46095e8fadb6ded5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's planned resignation as Milan president upon becoming prime minister is a relevant milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-423b10e120766563"
+  },
+  {
+    "candidate_id": "448e36dcd570ada6c4f70711",
+    "time": "2013-01-29",
+    "date_precision": "day",
+    "summary": "AC Milan, owned by Silvio Berlusconi, agreed a deal for Mario Balotelli to leave Manchester City, with the timing during the January transfer window prompting political rivals to question whether it was intended to win votes ahead of parliamentary elections.",
+    "time_range": null,
+    "evidence_ids": [
+      "82931"
+    ],
+    "job_id": "b344192e7fb9a6fb1edd3dda3828c753d9b45dfba4f8a23222b92a5912d49c0e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Milan's Balotelli deal under Berlusconi's ownership, with political implications, is a relevant event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-269256125ae44fee"
+  },
+  {
+    "candidate_id": "d5329f19e9f386946b13d248",
+    "time": "2002-10-06",
+    "date_precision": "day",
+    "summary": "AC Milan president Silvio Berlusconi celebrated his team's 6-0 thrashing of Torino at the San Siro.",
+    "time_range": null,
+    "evidence_ids": [
+      "84300"
+    ],
+    "job_id": "22bae1429d408c5a4e7e02a8d338f699d9e8138070b91c7dbe9f71da0900f969",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi celebrating Milan's 6-0 win is a relevant, if minor, Milan ownership event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-69c28d79ea413f96"
+  },
+  {
+    "candidate_id": "4a37337e2cb41c197eb45baf",
+    "time": "2008-01-25",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi campaigns in Naples for snap April elections following Prime Minister Romano Prodi's resignation.",
+    "time_range": null,
+    "evidence_ids": [
+      "83500"
+    ],
+    "job_id": "b6362952522e95c056ceea9c3d7241c057d5411ee239bbce448941931de28aaf",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi campaigning in Naples for the 2008 snap elections is a relevant political milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-05b4d2f5e392c1c6"
+  },
+  {
+    "candidate_id": "c98e20125f04cd759e88cb4a",
+    "time": "2006-05-13",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi calls for Milan to be awarded the Serie A titles from the past two seasons amid the Juventus scandal.",
+    "time_range": null,
+    "evidence_ids": [
+      "83800"
+    ],
+    "job_id": "78512bccc7be0d94f2727cd39bd00803d665f6582eeb3681af264c8ed934051e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's call for Milan to be awarded Serie A titles amid the Juventus scandal is a relevant milestone in his public role as Milan owner.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-547f3c5535125b2c"
+  },
+  {
+    "candidate_id": "14cd6cd28397bf6d4c9e9b4e",
+    "time": "2001-07-27",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Silvio Berlusconi acknowledged international outrage over police brutality at the G8 summit and hinted he would purge the commanders responsible, while resisting opposition demands for a parliamentary commission of inquiry.",
+    "time_range": null,
+    "evidence_ids": [
+      "84361"
+    ],
+    "job_id": "c13280bbc31dd590dcf5cbbccef32d1ad956e0216f4bfe2e7f6b69a4e0d720d5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's response to G8 police brutality outrage is a relevant political milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2596a63a225568f1"
+  },
+  {
+    "candidate_id": "a2bcaecfe27892fcf01f46fe",
+    "time": "2001-07-30",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Silvio Berlusconi's government signals it will accept a parliamentary inquiry into police violence at the G8 summit in Genoa, after cabinet ministers persuaded him that blocking it would be seen as a cover-up.",
+    "time_range": null,
+    "evidence_ids": [
+      "84443"
+    ],
+    "job_id": "df96f7edb0520655f036f323dd2621355c7169eb515c6cbbf8611515470f458d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Government acceptance of a parliamentary inquiry into G8 police violence is a distinct relevant development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-55e79e629438c8d9"
+  },
+  {
+    "candidate_id": "ab47f6ec587d189974ccaed0",
+    "time": "2001-07-28",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi faces international embarrassment over complaints about the brutality of Italian police at the Genoa summit.",
+    "time_range": null,
+    "evidence_ids": [
+      "84404"
+    ],
+    "job_id": "10eaf7976a9bd4042aad5bd1acfd192b3ecd35a606879231964b1ae90af533b9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi facing international embarrassment over Genoa police brutality is a relevant milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-35b77d71d9137b46"
+  },
+  {
+    "candidate_id": "c54d123313a271d44087bd6f",
+    "time": "2011-11",
+    "date_precision": "month",
+    "summary": "Silvio Berlusconi faces a series of court hearings in December on charges including fraud, bribery, and paying an underage girl for sex, after losing the immunity from prosecution he had as prime minister.",
+    "time_range": null,
+    "evidence_ids": [
+      "83032"
+    ],
+    "job_id": "48fe6a71ada517b140ecf1022b37271ce0cce1ee3276b798409ce44f9863dcbe",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi facing multiple court hearings after losing immunity is a relevant legal milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-15b08f394f78d3bc"
+  },
+  {
+    "candidate_id": "3ab8197e82fbacc5a8c688a3",
+    "time": "2001-07-20",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Silvio Berlusconi and President Carlo Azeglio Ciampi appeared together to express sadness and plead for calm after a demonstrator was shot dead during protests at the Genoa G8 summit.",
+    "time_range": null,
+    "evidence_ids": [
+      "84462"
+    ],
+    "job_id": "7fb959646daf507fa81b63e20f69f5b750b09290d7b1dccfa3d425a49dd56476",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi and Ciampi pleading for calm after a Genoa protester's death is a relevant milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-099b95962412ed62"
+  },
+  {
+    "candidate_id": "cf43d8cd5ec4068dadea96a7",
+    "time": "2001-07-20",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi hosts the G8 summit in Genoa, preparing extensively for the event and aiming to improve his international image.",
+    "time_range": null,
+    "evidence_ids": [
+      "84461"
+    ],
+    "job_id": "ab760e503540e16129dbcf1199d89e10c27f0c0f6e9e7c624b5e775203a6c1c8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi hosting the Genoa G8 summit is a relevant milestone; same date as another candidate but distinct event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7630f3ecb6506283"
+  },
+  {
+    "candidate_id": "b0aad82a5217c771fe19e92a",
+    "time": "2010-11-04",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi dismissed sex and drug allegations against him as \"made-up stories\" and hinted the mafia may have framed him in reprisal for recent police successes.",
+    "time_range": null,
+    "evidence_ids": [
+      "83125"
+    ],
+    "job_id": "2ea5b0c4bc52f07dd652cde676f4a4a190a9a92786f82ebad158a4fe4bbad188",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi dismissing sex and drug allegations and suggesting mafia framing is a relevant milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-aef599b248c5196b"
+  },
+  {
+    "candidate_id": "1c8fd62e028d832809bf6d28",
+    "time": "2001-08-04",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Silvio Berlusconi reportedly decided to move the UN Food and Agricultural Organisation's November world food summit from Rome to Africa due to concerns about anti-globalisation protests, though no formal announcement was made and a spokesman declined to confirm or deny the reports.",
+    "time_range": null,
+    "evidence_ids": [
+      "84441"
+    ],
+    "job_id": "9a929920deb050f35eb44188d0b804fa58b9158627c77a3971a3b2b4b4348bc9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Berlusconi government decision on relocating the FAO summit; distinct date from the similar August 3 report.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-28979d5096954195"
+  },
+  {
+    "candidate_id": "416f5dc305c43a34f2b9d89f",
+    "time": "2011-01-19",
+    "date_precision": "day",
+    "summary": "A police trade union criticized the reported use of policewomen's outfits in striptease shows at Silvio Berlusconi's villa, as a parliamentary committee began considering whether to allow part of the investigation to proceed.",
+    "time_range": null,
+    "evidence_ids": [
+      "83283"
+    ],
+    "job_id": "86d2193a0a645688985914aad32a6e5e6c0745bc4485d63ba4c20d3f2413dac3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant development in the investigation involving Berlusconi's villa and parliamentary review.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-21e329505c6c50e3"
+  },
+  {
+    "candidate_id": "86345384eb46929e3583fbc6",
+    "time": "2001-08-03",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Silvio Berlusconi reportedly decides to move the UN Food and Agricultural Organisation's November world food summit from Rome to Africa, citing risks from anti-globalisation protests, though no formal announcement has been made.",
+    "time_range": null,
+    "evidence_ids": [
+      "84442"
+    ],
+    "job_id": "180935b6e6a9c904221744994ba66384a36f121207f3a64962533812e9c2071f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Berlusconi government decision on relocating the FAO summit; dated August 3, distinct from the August 4 report.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3324f0400cdd78e9"
+  },
+  {
+    "candidate_id": "9eefb9ae774fbd6d7e3b5a68",
+    "time": "2013-11-27",
+    "date_precision": "day",
+    "summary": "Italy's upper house of parliament voted to oust Silvio Berlusconi following his conviction for tax fraud.",
+    "time_range": null,
+    "evidence_ids": [
+      "82825"
+    ],
+    "job_id": "424ba5d1c356ba41da9b860aad616b3fb2090cdd57f321c6fcf955eb5fb3340b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Major milestone: Senate vote expelling Berlusconi after tax fraud conviction.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f77d47cfc8c18d5e"
+  },
+  {
+    "candidate_id": "42e7915043f5ed0d165e52be",
+    "time": "2014-04-15",
+    "date_precision": "day",
+    "summary": "A Milan court rules that former Italian prime minister Silvio Berlusconi will serve his year-long tax fraud sentence through part-time community service at a home for the elderly.",
+    "time_range": null,
+    "evidence_ids": [
+      "82818"
+    ],
+    "job_id": "31b7da422f3b33ee764bcd6380430127ae2d588e76563139765d56bcb394ef9f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in Berlusconi's tax fraud sentence being served via community service.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0035e0c7d8dbae24"
+  },
+  {
+    "candidate_id": "890d469a4c70ad4134625eab",
+    "time": "2013-08-01",
+    "date_precision": "day",
+    "summary": "Italy's supreme court upheld Silvio Berlusconi's fraud conviction, his first definitive conviction, triggering a political crisis over whether the senate will expel him.",
+    "time_range": null,
+    "evidence_ids": [
+      "82828"
+    ],
+    "job_id": "14108f0c3fa365fc9fed375a2c6f034d36e51387ed5c428aa35ba1c4274a334a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Major milestone: supreme court upheld Berlusconi's first definitive fraud conviction.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-07b3a74322321abb"
+  },
+  {
+    "candidate_id": "a84640a6bb197284bc75e29a",
+    "time": "2012-10-27",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi says a tax fraud verdict against him is politically motivated.",
+    "time_range": null,
+    "evidence_ids": [
+      "82896"
+    ],
+    "job_id": "87a34a4d24f0dffdc25fd9ece6c7f7140e6eb43aab923e797e969f1f8d60f02e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Berlusconi reaction to tax fraud verdict, contributing to the legal/political timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f4b8818d4977e98f"
+  },
+  {
+    "candidate_id": "34cc6c5ce65be1e534a24168",
+    "time": "2013-11-27",
+    "date_precision": "day",
+    "summary": "The Italian Senate is expected to vote to expel Silvio Berlusconi from parliament following his conviction for tax fraud.",
+    "time_range": null,
+    "evidence_ids": [
+      "82824"
+    ],
+    "job_id": "faf23f662893e3ee5079833e40bf1cb7e7b133984577d23a2babd0bd2723de7f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "9eefb9ae774fbd6d7e3b5a68",
+    "reason": "Same date and event as the Senate expulsion vote; duplicate of the completed vote record.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-f77d47cfc8c18d5e"
+    },
+    "timeline_event_id": "event-f77d47cfc8c18d5e"
+  },
+  {
+    "candidate_id": "3c8b24df1c456313828b61a2",
+    "time": "2003-06-14",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Silvio Berlusconi was placed under investigation for alleged tax fraud and false book-keeping related to Mediaset's alleged tax avoidance, according to Italian media reports.",
+    "time_range": null,
+    "evidence_ids": [
+      "84177"
+    ],
+    "job_id": "d677cd4625c314b03607cb34a769da4f39e88a206905d0be841debd98af1387c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi placed under investigation for Mediaset tax fraud; relevant legal milestone with no matching existing event date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-394624f856686870"
+  },
+  {
+    "candidate_id": "b8976c2bda67c726d8ce1138",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "83044"
+    ],
+    "job_id": "9d89bd3994bc7a6052ce7e29a219ab68734040477e41c2401fe00b9389d9ad5a",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Concerns Bush and Clinton tsunami appeal; no connection to Berlusconi.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "4b6f5837da16a456d332c70f",
+    "time": "2013-08-13",
+    "date_precision": "day",
+    "summary": "Italian President Giorgio Napolitano says Silvio Berlusconi's definitive tax fraud conviction must be respected and warns that a government crisis over the issue would be fatal.",
+    "time_range": null,
+    "evidence_ids": [
+      "82907"
+    ],
+    "job_id": "912db89efaa946ff7f62320e5027e1cce0df0e7a721dee1ed6443563d61c7c89",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Napolitano statement on Berlusconi's tax fraud conviction; relevant political milestone, no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f7c220a84790f900"
+  },
+  {
+    "candidate_id": "1705f8db7ad07e202f8a2d30",
+    "time": "2012-10-26",
+    "date_precision": "day",
+    "summary": "Milan owner Silvio Berlusconi was found guilty of tax fraud and sentenced to four years in prison, with a three-year ban from public office, in a case involving Mediaset film and television rights; he denied wrongdoing and is expected to appeal.",
+    "time_range": null,
+    "evidence_ids": [
+      "82893"
+    ],
+    "job_id": "5e6889cba12f3da3dffa3d9808d7fc1b622352107a9c0195f614c9e393917c7f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi convicted and sentenced in Mediaset tax fraud case; distinct 2012 event, no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9e283bc57528fdc2"
+  },
+  {
+    "candidate_id": "aa2837805cbb1ad28aab2527",
+    "time": "2001-04-30",
+    "date_precision": "day",
+    "summary": "The Madrid newspaper El Mundo claimed that Italian opposition leader Silvio Berlusconi misled a Spanish court investigating £4m tax fraud allegations at the television station Tele 5.",
+    "time_range": null,
+    "evidence_ids": [
+      "84428"
+    ],
+    "job_id": "23a798f4cafe4ac26d7f80ec66bb910e48ee8f8eb6cc55ecbf53e2e5aa6f7f7f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "El Mundo claim about Berlusconi misleading Spanish court on Tele 5 tax fraud; relevant early legal allegation, no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-483cf57c58099d68"
+  },
+  {
+    "candidate_id": "51e4ac493648db4d85db451b",
+    "time": "2012-02-25",
+    "date_precision": "day",
+    "summary": "A bribery trial against former Italian prime minister Silvio Berlusconi over payments to British lawyer David Mills failed to reach a verdict after judges ruled the statute of limitations had expired.",
+    "time_range": null,
+    "evidence_ids": [
+      "82946"
+    ],
+    "job_id": "01b8d3e6e6512bfe816ed8e0c6da4882ecf0d2393996d3f2d859a85d11fffd88",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi bribery trial outcome; relevant legal milestone, no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0dedc37224c7efca"
+  },
+  {
+    "candidate_id": "45ada50ad1c8caf46563bebb",
+    "time": "2011-02-09",
+    "date_precision": "day",
+    "summary": "Prosecutors announce they will ask for Italian Prime Minister Silvio Berlusconi to be put on trial over his relationship with a teenager alleged to have been an underage prostitute.",
+    "time_range": null,
+    "evidence_ids": [
+      "83075"
+    ],
+    "job_id": "261bdfffe46bdac794938cc11b8cfb8687e68e95971df23c5e3072de7b02bdf0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Prosecutors seek trial over underage prostitution allegations; relevant legal milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-aad407c287421546"
+  },
+  {
+    "candidate_id": "83a4e296c614cf8c3314f99e",
+    "time": "2006-03-10",
+    "date_precision": "day",
+    "summary": "Italian prosecutors seek indictment of Prime Minister Silvio Berlusconi and David Mills on corruption charges.",
+    "time_range": null,
+    "evidence_ids": [
+      "83783"
+    ],
+    "job_id": "89383759e856995d331c947f4d9c2b79eba9d8d6214f1031b8330c81a059216c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Prosecutors seek indictment of Berlusconi and Mills; relevant corruption case milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-421640fda81289f7"
+  },
+  {
+    "candidate_id": "5ab8aaf379c0ac1693dddf4f",
+    "time": "2011-04-11",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi denied accusations that he paid a teenage runaway for sex, saying he gave €45,000 to Karima el Mahroug to help her launch a beauty business.",
+    "time_range": null,
+    "evidence_ids": [
+      "83041"
+    ],
+    "job_id": "01e7486a0854ed24738ed81f8967cda377c3dda70982122d64efec36bd14041a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi denies paying teenager for sex; relevant to underage sex scandal.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5817b8f33c805c95"
+  },
+  {
+    "candidate_id": "fb36ee1f5b9300ae46390724",
+    "time": "2004-04-16",
+    "date_precision": "day",
+    "summary": "The bribery trial of Italian Prime Minister Silvio Berlusconi resumed after a 10-month adjournment, with prosecutors unsuccessfully requesting the presiding judge's removal for alleged bias.",
+    "time_range": null,
+    "evidence_ids": [
+      "84024"
+    ],
+    "job_id": "e2cd57df10c14b752ca9a727ff4031bb23c4ef37197e468ae19592181f8ce92e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Bribery trial resumed; relevant legal proceeding milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a263a9a01c4c78af"
+  },
+  {
+    "candidate_id": "b8bd61a19f44a5af892c29b2",
+    "time": "2011-05-06",
+    "date_precision": "day",
+    "summary": "Milan prosecutors ask for an Anglo-Italian former showgirl and two others to be put on trial for allegedly procuring 33 young women for so-called bunga bunga sex sessions at Silvio Berlusconi's home.",
+    "time_range": null,
+    "evidence_ids": [
+      "83029"
+    ],
+    "job_id": "82fbf8d9a1aa62121de01469c8d39e5e92a57174fb0da9d54916e13ead9f29d0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Prosecutors seek trial for procuring women for bunga bunga sessions; relevant scandal milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d5117435db139da9"
+  },
+  {
+    "candidate_id": "fe28880e93d2e2815d2ba42f",
+    "time": "2012-12-10",
+    "date_precision": "day",
+    "summary": "Judges in Milan ordered a nationwide hunt for Karima el-Mahroug after she failed to appear in court to testify in Silvio Berlusconi's trial on charges of paying for underage sex.",
+    "time_range": null,
+    "evidence_ids": [
+      "82985"
+    ],
+    "job_id": "fbf9eb98aa2826ef3572f4beae556c93dd045f6c9f32959f50f3771346969a6c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Court orders hunt for el-Mahroug in Berlusconi underage sex trial; relevant legal development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ff76f3374a9f63f7"
+  },
+  {
+    "candidate_id": "b803e0b8d825ca3d60e50e5f",
+    "time": "2006-10-30",
+    "date_precision": "day",
+    "summary": "David Mills, the estranged husband of UK culture secretary Tessa Jowell, is ordered to stand trial in Italy alongside former Italian prime minister Silvio Berlusconi on bribery charges.",
+    "time_range": null,
+    "evidence_ids": [
+      "83762"
+    ],
+    "job_id": "c1f1aa1757664ea50f0afb1f211ef420408e295feb4c889733e86f61099212da",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Mills ordered to stand trial alongside Berlusconi on bribery charges; relevant legal milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1a6baedc1ebaa2a8"
+  },
+  {
+    "candidate_id": "2bef27d986a15d30b64f2483",
+    "time": "2012-12-12",
+    "date_precision": "day",
+    "summary": "Berlusconi said he would withdraw from the election race if Mario Monti agreed to stand for office at the head of a coalition that included his Freedom People party.",
+    "time_range": null,
+    "evidence_ids": [
+      "82926"
+    ],
+    "job_id": "2ec4ed2fc8ec3cba17f28e045d63a717998807398fb30bc93688bed6d2f46c6f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's conditional withdrawal from the 2013 election race is a distinct political milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6b0cc54ff1c09d84"
+  },
+  {
+    "candidate_id": "d9099f21e59bd125c8f95029",
+    "time": "2013-05-13",
+    "date_precision": "day",
+    "summary": "Prosecutors in the Rubygate trial demand that Silvio Berlusconi serve six years in prison and be banned from public office for life for allegedly paying for sex with an underage prostitute and abusing his office to cover it up.",
+    "time_range": null,
+    "evidence_ids": [
+      "82878"
+    ],
+    "job_id": "fd4c2fd6dda2e9707e053d3df05e70109fe2478637f9f252342641967298319a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rubygate prosecutors' sentencing demand is a major legal development in Berlusconi's timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-81f63072ca5a15bc"
+  },
+  {
+    "candidate_id": "dce173745acc76a8f87e0aba",
+    "time": "2003-06-17",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Silvio Berlusconi appeared in a Milan court on bribery charges, denying the allegations, in what was expected to be his final trial appearance before parliament approves an immunity bill protecting him from prosecution.",
+    "time_range": null,
+    "evidence_ids": [
+      "84171"
+    ],
+    "job_id": "d6c933e98d7e5de67adb221afb6199e930cd8363ac7cc2bbc9ee2be9beadd5fb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's 2003 Milan bribery trial appearance is a distinct legal milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7c3de5c8c44aa8f3"
+  },
+  {
+    "candidate_id": "5bdd9f2cc8e73ead924400c0",
+    "time": "2013-01-15",
+    "date_precision": "day",
+    "summary": "Milan owner Silvio Berlusconi apologizes for calling Mario Balotelli \"a rotten apple\" but claims neither he nor vice-president Adriano Galliani have discussed buying the Manchester City striker.",
+    "time_range": null,
+    "evidence_ids": [
+      "82905"
+    ],
+    "job_id": "28faf006bd8f746e7d56552600028dbe0b2af4cb7e2b903911cd12d861e59043",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's apology over calling Balotelli a 'rotten apple' is a distinct 2013 remark.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-38fcde45e6aa0b51"
+  },
+  {
+    "candidate_id": "1dcd51d38164199e44c38cfc",
+    "time": "2000-07-04",
+    "date_precision": "day",
+    "summary": "Dino Zoff resigns as manager of Italy after Silvio Berlusconi criticised his tactics following Italy's Euro 2000 final defeat by France.",
+    "time_range": null,
+    "evidence_ids": [
+      "84477"
+    ],
+    "job_id": "8eaff84bf9bd897da5a1fff652ea960aa92a9df878ebd5f3dc68629f849c9b12",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's criticism linked to Dino Zoff's resignation is a distinct 2000 political intervention.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-23a5662cb36ce861"
+  },
+  {
+    "candidate_id": "a86572a6008252db354ff61d",
+    "time": "2013-02-03",
+    "date_precision": "day",
+    "summary": "Paolo Berlusconi, brother of former prime minister Silvio Berlusconi, used a racial slur to describe Mario Balotelli before the footballer's first match for AC Milan.",
+    "time_range": null,
+    "evidence_ids": [
+      "82964"
+    ],
+    "job_id": "dfa4d1b5794ab0f47836644bbb1d4ba3f969d54de099857e7543638d95e6e2b3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Paolo Berlusconi's racial slur about Balotelli is a relevant 2013 controversy.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5788f4efa1a09b0b"
+  },
+  {
+    "candidate_id": "a9df481a642069d6162f9ff9",
+    "time": "2011-11-12",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi resigns as Italian prime minister.",
+    "time_range": null,
+    "evidence_ids": [
+      "82971"
+    ],
+    "job_id": "1706dd10f898cfade5c30879194140a4dfae6eea992d974e320d060b8fc64bbb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's resignation as prime minister is a central milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-87f9d861ef3cfa74"
+  },
+  {
+    "candidate_id": "94912e98cbfdc89267e2597a",
+    "time": "2013-02-03",
+    "date_precision": "day",
+    "summary": "Paolo Berlusconi, brother of Silvio Berlusconi, made a pejorative remark about Mario Balotelli at an event held by Silvio Berlusconi's centre-right Freedom People party (PDL), sparking accusations of gross racial insensitivity.",
+    "time_range": null,
+    "evidence_ids": [
+      "82954"
+    ],
+    "job_id": "b342ae12b351e17244cab229e6b7561ce9be1b230c62b389209e5ca5d519f15d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "a86572a6008252db354ff61d",
+    "reason": "Same 2013-02-03 event: Paolo Berlusconi's racial slur about Balotelli at a PDL event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-5788f4efa1a09b0b"
+    },
+    "timeline_event_id": "event-5788f4efa1a09b0b"
+  },
+  {
+    "candidate_id": "def59968aea813a01426872d",
+    "time": "2011-11-08",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi pledged to resign as Italy's prime minister following approval of austerity measures, a move that appeared to foreshadow the end of his 17-year political career.",
+    "time_range": null,
+    "evidence_ids": [
+      "82975"
+    ],
+    "job_id": "913d4f4701e7d022968f46b99b879e21a6ab7b7468e69b31661bf10d95cdcf0e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-3d19f96d132f32b0",
+    "reason": "Same date and event as existing resignation pledge; duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3d19f96d132f32b0"
+  },
+  {
+    "candidate_id": "87535fd9fff183a43ca42963",
+    "time": "2005-04-18",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Silvio Berlusconi agreed to resign and form a new government to strengthen his struggling conservative coalition, averting fresh elections.",
+    "time_range": null,
+    "evidence_ids": [
+      "83915"
+    ],
+    "job_id": "3c47c4f9157ba537b714bbf7d8d2332f4227a04d5eaffbc49368934eca2d2415",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi resignation and new government formation; distinct 2005 milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a13a420f53114ca1"
+  },
+  {
+    "candidate_id": "641dc6377fc5a71c1554a91f",
+    "time": "2006-05-02",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi resigned as Italian prime minister after losing the general election to a centre-left coalition.",
+    "time_range": null,
+    "evidence_ids": [
+      "83833"
+    ],
+    "job_id": "809b36f2c97d9f2bacf5378e7fdf298096211d92da3ed11e5f27b5b66aac1591",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi resignation after 2006 election loss; distinct milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7b252d7ae41a613e"
+  },
+  {
+    "candidate_id": "8c12cfdb307e7ca985b2d527",
+    "time": "2008-01-24",
+    "date_precision": "day",
+    "summary": "Romano Prodi resigns as Italian prime minister, clearing the way for Silvio Berlusconi to bid once more to govern Italy.",
+    "time_range": null,
+    "evidence_ids": [
+      "83619"
+    ],
+    "job_id": "96c6b3bb27dce97ff37822a5304df03cdfd48d1889ae7e071253471c789182c6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Prodi resignation clearing path for Berlusconi; relevant political context.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-523fbb59a7e737fc"
+  },
+  {
+    "candidate_id": "b3bfdf743affd6ec552fe55b",
+    "time": "2011-10-26",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi's coalition government edged closer to breaking up as he struggled to draw up economic reforms to satisfy EU leaders, with Northern League leader Umberto Bossi expressing pessimism about the government's survival.",
+    "time_range": null,
+    "evidence_ids": [
+      "83083"
+    ],
+    "job_id": "9d5ad16f2cceb216aaee96695579b39b4fcba875f5b00d7bd818869aabd4a6f1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Coalition strain before resignation; distinct 2011 milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a29d6db9cae3fde8"
+  },
+  {
+    "candidate_id": "7532c11fdc218fedd058d30b",
+    "time": "2011-11-08",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi resigns, as announced on his own TV channel.",
+    "time_range": null,
+    "evidence_ids": [
+      "82974"
+    ],
+    "job_id": "579b5cb90a9dedf64ad9e8ab30fb046e0dc28f4c08f14ed6c7b9ce9066501f1c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-3d19f96d132f32b0",
+    "reason": "Same date and resignation event; duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3d19f96d132f32b0"
+  },
+  {
+    "candidate_id": "f584e6bbf410458e8dfd4c63",
+    "time": "2011-10-26",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Silvio Berlusconi's government released a letter to European Union authorities outlining reforms, including public asset sales and employment law changes, to address Italy's debt crisis.",
+    "time_range": null,
+    "evidence_ids": [
+      "83121"
+    ],
+    "job_id": "dc921c784b815e5b19cde57ed057b4eccc648c1a7e0e7d6212be8b0156eb0f02",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Reform letter to EU amid debt crisis; distinct 2011 event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-088976c1ca93bf2a"
+  },
+  {
+    "candidate_id": "bc13d77a8b556f34b5da6241",
+    "time": "2012-12-08",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi confirms he will run again for prime minister of Italy.",
+    "time_range": null,
+    "evidence_ids": [
+      "82911"
+    ],
+    "job_id": "db342e4861095e8a74b6d842cb84e0da42b7380586c819272c964ae18eb96596",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi confirms 2013 run; distinct later political milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a0e69509143a7151"
+  },
+  {
+    "candidate_id": "212dae1c48392083dc2ec10e",
+    "time": "2011-11-03",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi's resignation became a question of when, not if, as his majority in parliament was thrown into doubt by deserting MPs.",
+    "time_range": null,
+    "evidence_ids": [
+      "82980"
+    ],
+    "job_id": "539333f364801b8ef9c697ef701edd6dca32cbd5cbdfb0a3747289948c01b829",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Berlusconi's resignation becoming imminent amid parliamentary majority doubts; no existing event matches this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1502179547bc7b29"
+  },
+  {
+    "candidate_id": "bc691edbc3392917befd5347",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Article discusses possible scenarios if Silvio Berlusconi resigns, but no actual resignation or other concrete event is reported.",
+    "time_range": null,
+    "evidence_ids": [
+      "83037"
+    ],
+    "job_id": "bd730ad8d1c2f946d0a8169e205d986e7d7fe1fa3ab38636a4696d5baaf12f63",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Speculative scenarios with no concrete event and unknown date; adds no timeline milestone.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "83962ab0c601aa97dc7f82d3",
+    "time": "2011-02-09",
+    "date_precision": "day",
+    "summary": "Prosecutors are expected to ask for Silvio Berlusconi to stand trial for sex-related offences carrying a combined sentence of up to 15 years.",
+    "time_range": null,
+    "evidence_ids": [
+      "83232"
+    ],
+    "job_id": "14ff1ab1afc482389895203fb3bd4a39f88ca44990c0e6d24631b0d5f57294e6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-aad407c287421546",
+    "reason": "Same date and same event: prosecutors seeking trial for Berlusconi's sex-related offences.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-aad407c287421546"
+  },
+  {
+    "candidate_id": "a44595367b193adb85c71492",
+    "time": "2006-05-30",
+    "date_precision": "day",
+    "summary": "Anti-corruption prosecutors in Spain are considering whether to reopen a suspended investigation into alleged tax fraud involving Silvio Berlusconi's holdings in Spain's Telecinco TV channel, just two weeks after he lost immunity from prosecution.",
+    "time_range": null,
+    "evidence_ids": [
+      "83757"
+    ],
+    "job_id": "4300b6facb87c2c6cd32085077127e388cd7289afb8cf67a0f2f4034fbfdc3ca",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant legal development: Spanish prosecutors considering reopening tax fraud investigation into Berlusconi's Telecinco holdings.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-172ad57858237280"
+  },
+  {
+    "candidate_id": "724201c2d96b1708b6ffb60c",
+    "time": "2010-06-29",
+    "date_precision": "day",
+    "summary": "A Sicilian appeals court ruled there was no evidence that Marcello Dell'Utri, a long-term ally of Silvio Berlusconi, had links with the Mafia after 1992, effectively clearing Berlusconi of accusations that his entry into politics was sponsored by the Mafia.",
+    "time_range": null,
+    "evidence_ids": [
+      "83233"
+    ],
+    "job_id": "ffa911be62a1e532ad79d7772c4982f7ca2d0e96769a72efbd53e1800ad17241",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant legal development: Sicilian appeals court ruling on Dell'Utri effectively clearing Berlusconi of Mafia sponsorship accusations.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f13ceab764f14143"
+  },
+  {
+    "candidate_id": "3a5fa79843628661f52b5d77",
+    "time": "2010-05-14",
+    "date_precision": "day",
+    "summary": "Leonardo leaves his post as Milan manager by mutual consent after his relationship with owner Silvio Berlusconi deteriorated following public criticism of team selection.",
+    "time_range": null,
+    "evidence_ids": [
+      "83415"
+    ],
+    "job_id": "6cf76f7a37809b19d24c06645f0f5bc8f0d89d3e14c58f0c0be8631bf3edb6c0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in Berlusconi's ownership/management of AC Milan; no existing event covers Leonardo's departure.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f2c5449be00c99e5"
+  },
+  {
+    "candidate_id": "46284c03208fd4b25aa183fa",
+    "time": "2011-02-02",
+    "date_precision": "day",
+    "summary": "Prosecutors investigating Silvio Berlusconi said they expected to recommend that the Italian prime minister be charged with abusing his position to cover up allegations that he had paid an underage prostitute.",
+    "time_range": null,
+    "evidence_ids": [
+      "83141"
+    ],
+    "job_id": "5f90ee592c475ab0439b2875fd220c0172ec995b015b6ae0c438b911119f9240",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Rubygate-related prosecutorial step; date differs from the existing 2011-02-09 announcement, so it is a separate occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-675140e8f8717731"
+  },
+  {
+    "candidate_id": "f6b796677a2cbf56ec3da33a",
+    "time": "2005-07-28",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Silvio Berlusconi is suing British author David Lane and Italian publisher Editori Laterza for defamation over the book \"Berlusconi's Shadow: Crime, Justice and the Pursuit of Power,\" seeking more than €1m in moral damages, with no court date yet set.",
+    "time_range": null,
+    "evidence_ids": [
+      "83867"
+    ],
+    "job_id": "3d7bd2e3974fdcb6a35160603bab0e58727a938fe85c6e8a85f7380920f56458",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant defamation lawsuit involving Berlusconi; no existing event covers this legal action.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-67ac95b275bf332e"
+  },
+  {
+    "candidate_id": "077e77150e31577978ca1140",
+    "time": "2002-05-03",
+    "date_precision": "day",
+    "summary": "A Sicilian judge dismissed allegations that Italian Prime Minister Silvio Berlusconi and an associate were implicated in the 1992 murders of mafia prosecutors Giovanni Falcone and Paolo Borsellino, while asking prosecutors to reopen the investigation focusing on links between Berlusconi's Fininvest Group and Cosa Nostra.",
+    "time_range": null,
+    "evidence_ids": [
+      "84351"
+    ],
+    "job_id": "6d3d11253901640b5606ad8f07a6cfc8da42a77af6a7900df9d56e237345e5c0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant legal development concerning alleged mafia links; no existing event matches this 2002 dismissal/reopening request.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c84a460067fafddd"
+  },
+  {
+    "candidate_id": "84ac1ebbba2ac579d3a3988d",
+    "time": "2013-06-24",
+    "date_precision": "day",
+    "summary": "A verdict is expected in Silvio Berlusconi's trial in Milan on charges of paying for sex with an underage girl and abusing his office to cover it up.",
+    "time_range": null,
+    "evidence_ids": [
+      "82871"
+    ],
+    "job_id": "d074d9dc354cf62ede303caf30e7a6796c01e8cbe528c45b2d092a8ec5dd529c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: expected verdict in Berlusconi's Rubygate trial; distinct date from existing related events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-61e908cf872652f6"
+  },
+  {
+    "candidate_id": "130290830a50047a901238c4",
+    "time": "2013-01-09",
+    "date_precision": "day",
+    "summary": "Senior judges in Milan rebuke Silvio Berlusconi after he blamed his large alimony payments on \"feminist, communist\" magistrates.",
+    "time_range": null,
+    "evidence_ids": [
+      "82942"
+    ],
+    "job_id": "259157bf51645f55e1e35446565dfb4e6342661e6ada4a9525e4b9be6a56b878",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Berlusconi legal/political episode: Milan judges rebuke him over alimony remarks; no duplicate in existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8113fd42c8723614"
+  },
+  {
+    "candidate_id": "ca46af7494158f88d02d6c3d",
+    "time": "2001-08-09",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Silvio Berlusconi visited Venice hours after a bomb blast damaged the courthouse, calling the attack a worrying escalation of violence.",
+    "time_range": null,
+    "evidence_ids": [
+      "84396"
+    ],
+    "job_id": "86049ed187186e9825ed1fb1cb07ed7a1e7c24f6aad59bddf487910b18d997ab",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Berlusconi milestone: as PM he visited Venice after courthouse bombing; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fa28c006366fdb8e"
+  },
+  {
+    "candidate_id": "550b5d4b2b3ac30ed8342d8e",
+    "time": "2000-04-17",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi's opposition bloc won landslide victories in Italy's regional elections, leading Prime Minister Massimo D'Alema to offer his resignation.",
+    "time_range": null,
+    "evidence_ids": [
+      "84488"
+    ],
+    "job_id": "c8f227ec8fc47f5655365c34dfb913ac2759e08ab60d681b511182731f211781",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's opposition bloc winning regional elections and prompting the PM's resignation is a major political milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d88d2f5f3452f247"
+  },
+  {
+    "candidate_id": "00a8df485569fb3012e8a2ba",
+    "time": "2015-01-29",
+    "date_precision": "day",
+    "summary": "Italy begins the process of electing a new president, a vote expected to measure the political relevance of Silvio Berlusconi, who remains at the helm of the centre-right opposition party Forza Italia.",
+    "time_range": null,
+    "evidence_ids": [
+      "82869"
+    ],
+    "job_id": "316215f5808d4fcb147de6848d85dc7439c61c2056596ac102538b1ca3bf2bc4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Presidential election seen as measuring Berlusconi's political relevance, with him leading Forza Italia.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-11b8cada31ea2159"
+  },
+  {
+    "candidate_id": "194eed3593328fa6a6ff206d",
+    "time": "2001-05-13",
+    "date_precision": "day",
+    "summary": "Polling stations closed in Italy's general election, with counting underway to decide whether Silvio Berlusconi will be elected prime minister.",
+    "time_range": null,
+    "evidence_ids": [
+      "84393"
+    ],
+    "job_id": "6cccaef0b6b11cbeed70e9bcc2aa2a47773506a619114b402849f21b03967069",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "General election vote count to decide whether Berlusconi becomes prime minister is a key milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3b4515d163501ebf"
+  },
+  {
+    "candidate_id": "ce7d54878bf0a05260b603a4",
+    "time": "2000-03-31",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi set sail from Genoa on a rented luxury liner, renamed Azzurra, to launch a two-week electoral comeback tour ahead of regional elections on April 16.",
+    "time_range": null,
+    "evidence_ids": [
+      "84464"
+    ],
+    "job_id": "2f89f518375ee9a8f539e1b3ea29d69191da55a8ec6da9901110b52fcf46acf1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Launch of Berlusconi's electoral comeback tour ahead of regional elections is a distinct campaign milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9ce455e6ae877c68"
+  },
+  {
+    "candidate_id": "4d084ecf8ea2547e206204d3",
+    "time": "2001-05-13",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi's centre-right coalition, dominated by his Forza Italia party, won enough seats in Italy's elections to secure majorities in both houses of parliament even without ally Umberto Bossi's Northern League.",
+    "time_range": null,
+    "evidence_ids": [
+      "84453"
+    ],
+    "job_id": "28a4440e36f0ca7d9103a4d846af89942241576ce7daad1d77a177adccc9dea8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's coalition winning parliamentary majorities is a distinct election outcome milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-43436c79e614bf49"
+  },
+  {
+    "candidate_id": "19d07ae3c170415a04a5e56e",
+    "time": "2008-01-25",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi and his allies moved to push for early elections after Prime Minister Romano Prodi's resignation and the collapse of his centre-left government.",
+    "time_range": null,
+    "evidence_ids": [
+      "83654"
+    ],
+    "job_id": "6c70f0067dd9213a85b8b2d3b4a90a8e25481ad3745d7ccc205d585d474e06ee",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-05b4d2f5e392c1c6",
+    "reason": "Same date and same event: Berlusconi pushing for early elections after Prodi's resignation.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-05b4d2f5e392c1c6"
+  },
+  {
+    "candidate_id": "04720c57c0a317839c09fefd",
+    "time": "2006-12-18",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi arrived in the US for scheduled medical checks, amid reports he may undergo surgery or have a pacemaker fitted.",
+    "time_range": null,
+    "evidence_ids": [
+      "83720"
+    ],
+    "job_id": "e6749ac57131180f01d0ec68e2f4502317f8b29876272e205e151df15d602237",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's US medical checks and possible surgery are a notable personal health event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d77a52109426b39b"
+  },
+  {
+    "candidate_id": "b336675bb813c37126d5537d",
+    "time": "2016-06-14",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi underwent heart surgery to replace a faulty aortic valve and was placed in intensive care.",
+    "time_range": null,
+    "evidence_ids": [
+      "82787"
+    ],
+    "job_id": "eae01b7656d804232ac0ac038a2821b3a26e2f5c0b6f76c4ad20447484cf2710",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi undergoing heart surgery and intensive care is a significant personal health milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-af404d6baea4c389"
+  },
+  {
+    "candidate_id": "31bf0074bdef451b699d8cff",
+    "time": "2009-12-17",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi left hospital after spending four nights under medical supervision following an attack with a souvenir model of Milan cathedral.",
+    "time_range": null,
+    "evidence_ids": [
+      "83255"
+    ],
+    "job_id": "fb1376de1dbf63e585d2252a8d403fd4ae92063d5db8aa726b2c15065c0b3ca8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's discharge after the 2009 attack is a distinct milestone in the recovery timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f56c64501cf95de3"
+  },
+  {
+    "candidate_id": "fb68b12531470b40c2a30b05",
+    "time": "2011-03-07",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi underwent a four-hour jaw and dental operation under general anaesthetic to repair damage from a 2009 attack, was discharged from hospital in Milan, and returned to his villa.",
+    "time_range": null,
+    "evidence_ids": [
+      "83127"
+    ],
+    "job_id": "2b37a38a85c6959cf60aa5db4403a7884987af7398d3323fbec18241f79cab8f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "2011 surgery to repair 2009 attack damage is a distinct later medical milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-40d40e05540104fc"
+  },
+  {
+    "candidate_id": "fede1f037a9ab554218256b2",
+    "time": "2009-12-13",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Silvio Berlusconi was hit in the face with a statuette of Milan cathedral during a political rally, sustaining a broken nose and two broken teeth, and was hospitalized.",
+    "time_range": null,
+    "evidence_ids": [
+      "83231"
+    ],
+    "job_id": "eddc68bae3b43ff5d98290980a023bdf8867acf4cee1a7fffa1d7e94ed2d5102",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-eb68615f57b9c8d0",
+    "reason": "Same date and same rally attack/hospitalization event as existing event-eb68615f57b9c8d0.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-eb68615f57b9c8d0"
+  },
+  {
+    "candidate_id": "ee2f82dac9e2b238493935de",
+    "time": "2004-01-28",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi said his wife, Veronica Lario, had talked him into having cosmetic surgery during his absence.",
+    "time_range": null,
+    "evidence_ids": [
+      "84084"
+    ],
+    "job_id": "512a62dd2312e40eea74839cb3e2feae8b1ecdb4e066b915ec62a77d45fe3dfa",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's cosmetic surgery and his wife's role is a distinct personal milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1a0affac9290868e"
+  },
+  {
+    "candidate_id": "14e70f3fafe9a102a13f00db",
+    "time": "2009-12-16",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi spends a fourth night in hospital after being attacked at a political rally, as doctors again postpone a decision on his discharge.",
+    "time_range": null,
+    "evidence_ids": [
+      "83262"
+    ],
+    "job_id": "69512e5d5953fa5a8da74a6e733724a5ff85cf73d925a724a2217fa2aeb06c4f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Fourth night in hospital after the attack is a distinct recovery milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6999bf8eb625bfec"
+  },
+  {
+    "candidate_id": "17045c7d5b53e4b2ab2420f6",
+    "time": "2004-01-21",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi returned to his Roman palazzo after a month-long absence from public view, during which he made only two trips to the capital to chair cabinet meetings.",
+    "time_range": null,
+    "evidence_ids": [
+      "84042"
+    ],
+    "job_id": "2615a64d22803a033bf009172aac55885c93f15f5be1ca77d16866bfd4cbb8ee",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Return after a month-long public absence is a distinct biographical milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-414b45ee3c265b1c"
+  },
+  {
+    "candidate_id": "a819fe22cb5723f2b7c0fb46",
+    "time": "2009-12-15",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Silvio Berlusconi remains hospitalized for another night after being struck by a model of Milan's cathedral at a political rally, suffering a broken nose and two broken teeth.",
+    "time_range": null,
+    "evidence_ids": [
+      "83264"
+    ],
+    "job_id": "6e2f2ef461040909910858cbf7ed56a7e00f0818c8cb17350132fe05a0ccf73f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Continued hospitalization on 2009-12-15 is a distinct recovery milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4ec07e2c45ba0239"
+  },
+  {
+    "candidate_id": "c51f5104a78c1c8db0a49559",
+    "time": "2009-12-16",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Silvio Berlusconi remains hospitalized for a fourth night after being attacked with a model of Milan Cathedral, which left him with a broken nose and two chipped teeth.",
+    "time_range": null,
+    "evidence_ids": [
+      "83263"
+    ],
+    "job_id": "5b03806d6cff3d54ed8d852111b183f7a39b965400c5d09c5377a80c05b01f0b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "14e70f3fafe9a102a13f00db",
+    "reason": "Same date and same fourth-night hospitalization update as candidate 14e70f3fafe9a102a13f00db.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-6999bf8eb625bfec"
+    },
+    "timeline_event_id": "event-6999bf8eb625bfec"
+  },
+  {
+    "candidate_id": "5d1d5f46d1ba3172a2da8a28",
+    "time": "2009-12-13",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi was attacked at a rally in Milan, suffering a fractured nose, two broken teeth, and other facial injuries after being hit with a plaster souvenir replica of Milan's cathedral.",
+    "time_range": null,
+    "evidence_ids": [
+      "83229"
+    ],
+    "job_id": "8e3bcbce9827e6b960587ff7f42207a055189c2f7a45dddc175478f2782b7258",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-eb68615f57b9c8d0",
+    "reason": "Same 2009-12-13 Milan rally attack already represented by existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-eb68615f57b9c8d0"
+  },
+  {
+    "candidate_id": "702952733a75db80b36ae99b",
+    "time": "2006-12-20",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi underwent heart surgery in Cleveland, Ohio, to correct an irregular heartbeat, which his party Forza Italia said was fully successful.",
+    "time_range": null,
+    "evidence_ids": [
+      "83745"
+    ],
+    "job_id": "4cda6e8e35c3f2e22009db97b9bff7f452444102bf305aef5701cf575844fd1c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's 2006 heart surgery is a distinct personal milestone not in timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3bb9c4447af3ff6f"
+  },
+  {
+    "candidate_id": "d9719a0358bd6381667a0c6d",
+    "time": "2013-07-30",
+    "date_precision": "day",
+    "summary": "Italy's supreme court is due to decide on Silvio Berlusconi's final appeal against a tax fraud conviction, which if upheld could bar him from public office for five years.",
+    "time_range": null,
+    "evidence_ids": [
+      "82868"
+    ],
+    "job_id": "83b59bb71f666968ad43800094644578fb077f5eda1f3ed3a7d209403002bf5e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "2013-07-30 pending supreme court appeal decision is a distinct pre-ruling milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-766994a2090e43fe"
+  },
+  {
+    "candidate_id": "f37f197835d7b6c67685c7a3",
+    "time": "2013-08-01",
+    "date_precision": "day",
+    "summary": "Italy's supreme court upheld Silvio Berlusconi's four-year jail sentence for tax fraud, his first definitive criminal conviction, while ordering a separate court to determine the length of his public office ban.",
+    "time_range": null,
+    "evidence_ids": [
+      "82890"
+    ],
+    "job_id": "5255b1cc6f3f460c32f508fe56bb6368136acd5e4678f19cbfe779411d37827f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-07b3a74322321abb",
+    "reason": "Same 2013-08-01 supreme court tax fraud conviction already represented.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-07b3a74322321abb"
+  },
+  {
+    "candidate_id": "a4351a56d9175d547d36e28c",
+    "time": "2013-10-06",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi's lawyer says he intends to request that Berlusconi serve his one-year tax fraud sentence through a community service placement.",
+    "time_range": null,
+    "evidence_ids": [
+      "82829"
+    ],
+    "job_id": "58f1f901c1dfe5dc9c0abff744fa5ac5b56e134054b9ba76e0d55b4dea3d6688",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "2013-10-06 lawyer's community service request is a distinct sentencing development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c90a84989b62d964"
+  },
+  {
+    "candidate_id": "2aafbc9d8082aa4ce2b2a93b",
+    "time": "2013-08-01",
+    "date_precision": "day",
+    "summary": "Italy's supreme court definitively convicted former prime minister Silvio Berlusconi of tax fraud.",
+    "time_range": null,
+    "evidence_ids": [
+      "82842"
+    ],
+    "job_id": "71eddbca5095f09b095eb871baaaaccd17f0fb9a67375c221398c540bbe99e16",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-07b3a74322321abb",
+    "reason": "Same 2013-08-01 supreme court tax fraud conviction already represented.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-07b3a74322321abb"
+  },
+  {
+    "candidate_id": "ee84a0cf2e7ebef5d6817a7f",
+    "time": "2014-04-15",
+    "date_precision": "day",
+    "summary": "Former Italian prime minister Silvio Berlusconi was sentenced to a year's part-time community service in an old people's home after his conviction for tax dodging.",
+    "time_range": null,
+    "evidence_ids": [
+      "82860"
+    ],
+    "job_id": "b79a2269a8a182725a74fc95b3cf2323cc1ec97292538141a9f749d699dfc19c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-0035e0c7d8dbae24",
+    "reason": "Same 2014-04-15 community service sentence already represented.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0035e0c7d8dbae24"
+  },
+  {
+    "candidate_id": "a5c82a6f7408c63fe689a3bf",
+    "time": "2013-08-01",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi was definitively convicted of tax fraud by Italy's supreme court, receiving a four-year sentence commuted to one year, and told his MPs to prepare for fresh elections if the coalition government does not pursue judicial reform.",
+    "time_range": null,
+    "evidence_ids": [
+      "82865"
+    ],
+    "job_id": "b87ea7b60d3088187025ddf239adb28ea365636336a840ded6bf27a2745fd0a9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-07b3a74322321abb",
+    "reason": "Same 2013-08-01 supreme court tax fraud conviction already represented.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-07b3a74322321abb"
+  },
+  {
+    "candidate_id": "2c848d8cf1dd60bb252187af",
+    "time": "2011-01-14",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi is formally placed under investigation by Milan prosecutors on suspicion of paying for sex with a 17-year-old girl and abusing his position as prime minister to cover up the alleged relationship.",
+    "time_range": null,
+    "evidence_ids": [
+      "83045"
+    ],
+    "job_id": "1edb44c1f90bef4415a979e86d0ae00c3fe601b96d48a64cf98a32d79bf3a61b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Milestone: Berlusconi formally placed under investigation by Milan prosecutors in the Rubygate case.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ff8e2b45db3be054"
+  },
+  {
+    "candidate_id": "887fee8c1b2c175d1d2d9bd4",
+    "time": "2013-04-04",
+    "date_precision": "day",
+    "summary": "Karima \"Ruby\" el-Mahroug, the woman at the center of Silvio Berlusconi's sex trial, accused prosecutors of psychological warfare and denied having sex with Berlusconi, while admitting she had lied about her origins.",
+    "time_range": null,
+    "evidence_ids": [
+      "82863"
+    ],
+    "job_id": "e89b247aea7775aca34fe5f14dd866c944087752217c9337886f9fb36467b040",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant development in Berlusconi's sex trial: el-Mahroug denies sex with Berlusconi and accuses prosecutors.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c40b1b519c04633f"
+  },
+  {
+    "candidate_id": "211f38d24ca7decdd93951d3",
+    "time": "2011-01-21",
+    "date_precision": "day",
+    "summary": "Prosecutors investigating Silvio Berlusconi were told he would not answer their questions, as a witness, Nadia Macri, came forward with new evidence against him.",
+    "time_range": null,
+    "evidence_ids": [
+      "83089"
+    ],
+    "job_id": "f0e2fa2ac3061b354960df0ab3aefa3c157fdf301c591307083d7f0ca56cbffe",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in the investigation: Berlusconi declines prosecutors' questions and new evidence emerges.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3f76e785ad06f03f"
+  },
+  {
+    "candidate_id": "2cf776e246fb690bf7389a4b",
+    "time": "2011-04-02",
+    "date_precision": "day",
+    "summary": "The trial of Silvio Berlusconi on charges of paying for sex with a 17-year-old and abuse of office is set to begin in Italy.",
+    "time_range": null,
+    "evidence_ids": [
+      "83296"
+    ],
+    "job_id": "70b85e4910af0e00d36e04916286568ae28d049e78313b17af47df9eafd95879",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Milestone: trial of Berlusconi on underage sex and abuse-of-office charges set to begin.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-61e5fa56e511b73f"
+  },
+  {
+    "candidate_id": "78d6055b52f795bb2305f7a6",
+    "time": "2011-05-29",
+    "date_precision": "day",
+    "summary": "Voters in Milan go to the polls in a mayoral runoff widely seen as a crucial test of Silvio Berlusconi's diminished political standing, after a minister resigned over his remarks about Italy's judges.",
+    "time_range": null,
+    "evidence_ids": [
+      "83085"
+    ],
+    "job_id": "e1f31039a59ade04ac9a2d57dacb575cb831f2e1dd1ae0264afc687434acd310",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant to Berlusconi's political standing: Milan mayoral runoff seen as test of his diminished influence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df7db3f3b6fccfab"
+  },
+  {
+    "candidate_id": "71525d281a89ecb88e771d41",
+    "time": "2008-04-14",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi was set to return to power as Italy's prime minister after his Freedom Folk movement won the general election, with Walter Veltroni conceding defeat.",
+    "time_range": null,
+    "evidence_ids": [
+      "83557"
+    ],
+    "job_id": "c2684eaad2e528f6a079b7dd5b4355dda08283ba58e09bf155ec808a8c2e22a3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Milestone in Berlusconi's career: set to return to power as prime minister after 2008 election.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-77909d7100cfc462"
+  },
+  {
+    "candidate_id": "01ab561c56f71ae2b02449ac",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No specific main event about Silvio Berlusconi is reported; the article is a retrospective commentary on his political influence ahead of the 2013 election.",
+    "time_range": null,
+    "evidence_ids": [
+      "82913"
+    ],
+    "job_id": "ec99727bf1325ece2699a767201e63df10034e540a5060c13c6e40f45d1c54ba",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No specific event; retrospective commentary with unknown date does not contribute a timeline milestone.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "e2d75c26509abc29a8ceabf0",
+    "time": "2011-01-14",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi is to be formally investigated over allegations he abused his office to cover up his relationship with Karima el-Mahroug and that he paid her for sex.",
+    "time_range": null,
+    "evidence_ids": [
+      "83090"
+    ],
+    "job_id": "11af8e3f1ba172cf1b0dfd2d13a69659154e42db22fe24f7d2aaf4fa1d5abe82",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "2c848d8cf1dd60bb252187af",
+    "reason": "Same date and same event: Berlusconi formally placed under investigation over alleged abuse of office and paying Karima el-Mahroug for sex.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-ff8e2b45db3be054"
+    },
+    "timeline_event_id": "event-ff8e2b45db3be054"
+  },
+  {
+    "candidate_id": "f4a66d35d8d952c96360e2ea",
+    "time": "2008-02-05",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi was poised to launch his fifth challenge for the leadership of Italy, with opinion polls predicting a landslide victory in April's general election.",
+    "time_range": null,
+    "evidence_ids": [
+      "83641"
+    ],
+    "job_id": "df420f6b125bc88f9144551075bba904ff1758331eea8c775422911d3cad72e9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi launching his fifth leadership bid is a relevant milestone in his political career.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7c56bd0a9bb3e79b"
+  },
+  {
+    "candidate_id": "fe191f8834eee48a2cdffdf0",
+    "time": "2012-07-14",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi gave the clearest indication yet that he will seek re-election as Italian prime minister in 2013.",
+    "time_range": null,
+    "evidence_ids": [
+      "82945"
+    ],
+    "job_id": "80b8f864f6222f5d02aa9c919e3f0439a618af42a62b33019ca9963482a488c3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi signaling a 2013 re-election bid is a relevant political milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-392f19b0ec6dd42e"
+  },
+  {
+    "candidate_id": "b945b300714cd8c08d8b8327",
+    "time": "2006-04-03",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi called opponents \"coglioni\" during the final TV debate before Italy's general election.",
+    "time_range": null,
+    "evidence_ids": [
+      "83845"
+    ],
+    "job_id": "465fef921e2827a0198d5a8a263c75840eff8bd35958fd675915777a79f33393",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's insult during the final pre-election TV debate is a notable campaign moment.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-78d8310d1c6ea76b"
+  },
+  {
+    "candidate_id": "eaf487532e61c7c923470b68",
+    "time": "2005-04-09",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi committed himself to sexual abstinence until the Italian general election.",
+    "time_range": null,
+    "evidence_ids": [
+      "83931"
+    ],
+    "job_id": "d6054cfc665c8335a8982605bea18bbe2d2f9a0e701985e3369d64b403f1c1aa",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's abstinence pledge before the general election is a distinctive campaign-related event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-85556fdbbda0d02c"
+  },
+  {
+    "candidate_id": "daf6b21caf0715e079c10713",
+    "time": "2001-05-13",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi's centre-right coalition appeared on course to win Italy's general election, according to early exit polls.",
+    "time_range": null,
+    "evidence_ids": [
+      "84419"
+    ],
+    "job_id": "be56319715846643dd586a92e41b8ed2d9d1673b19c7a6fad1a36cf5055c715f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Exit polls indicating Berlusconi's coalition victory is a relevant election milestone; existing 2001-05-13 events concern polling close and seat results, not exit polls.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ada204090e383615"
+  },
+  {
+    "candidate_id": "efa0ea36a367140fd8356298",
+    "time": "2008-04-14",
+    "date_precision": "day",
+    "summary": "Walter Veltroni conceded defeat to Silvio Berlusconi in Italy's general election, acknowledging Berlusconi's victory though final results were not yet in.",
+    "time_range": null,
+    "evidence_ids": [
+      "83558"
+    ],
+    "job_id": "51432908d1007d9d6de01d5123094135a14b5ef2f9d18dec86090ee840358e4a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-77909d7100cfc462",
+    "reason": "Same date and same event: Veltroni conceding defeat to Berlusconi in the 2008 general election.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-77909d7100cfc462"
+  },
+  {
+    "candidate_id": "89dfb671ac4dd1dce630a5df",
+    "time": "2006-02-13",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi reportedly compared himself to Jesus Christ as a \"patient victim\" at a dinner with supporters, drawing criticism from leftist parliamentarians ahead of Italy's general election campaign.",
+    "time_range": null,
+    "evidence_ids": [
+      "83795"
+    ],
+    "job_id": "03d769d48a4c3cd0098a23620b9ee4520ee5e0a3270ef3253c76380a59fa63fb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's Jesus Christ comparison before the election campaign is a notable public remark.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1f54ed7c33213bfd"
+  },
+  {
+    "candidate_id": "c219f2d1e23fd546954ce2f5",
+    "time": "2010-12-14",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi wins two confidence votes, avoiding resignation and blunting a rebellion by followers of former deputy Gianfranco Fini, though political uncertainty remains.",
+    "time_range": null,
+    "evidence_ids": [
+      "83241"
+    ],
+    "job_id": "ccc098f9b221beb05fa82d120a8773c1a91bc11a9b310df0b00c96b3132b7382",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi winning confidence votes and avoiding resignation is a relevant political milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f70298e0c3a75ed0"
+  },
+  {
+    "candidate_id": "e9fe18c554b389c2d761dea2",
+    "time": "2005-10-24",
+    "date_precision": "day",
+    "summary": "Romano Prodi accused Italian Prime Minister Silvio Berlusconi of trying to buy election victory ahead of the next general election.",
+    "time_range": null,
+    "evidence_ids": [
+      "83826"
+    ],
+    "job_id": "6de4c37e6adcdcbdece8c7742c81bfeb5b14300ff41760bda6eb057f32c4f4a3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant political milestone: Prodi's accusation against Berlusconi ahead of the general election; no existing event matches its 2005-10-24 date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-73faa1584cd5cff0"
+  },
+  {
+    "candidate_id": "9cefa644914ee236e3969283",
+    "time": "2006-02-10",
+    "date_precision": "day",
+    "summary": "Metropolitan Police officers raided the London offices of David Mills, husband of Culture Secretary Tessa Jowell, as part of an investigation into claims he was paid a bribe to lie in court for Italian Prime Minister Silvio Berlusconi.",
+    "time_range": null,
+    "evidence_ids": [
+      "83834"
+    ],
+    "job_id": "225b9fc8d428b1ae5189cd8caf6579847b3ff10f2972ab35ccd94ce9d5af43e0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Berlusconi bribery investigation milestone; date differs from existing Mills trial event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0927eb190787f79f"
+  },
+  {
+    "candidate_id": "88a469cb67af286973ba129e",
+    "time": "2004-02-26",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Silvio Berlusconi comments on police raids of all 42 Serie A and Serie B clubs in a probe into financial irregularity, saying he hopes the situations that emerge will be in order.",
+    "time_range": null,
+    "evidence_ids": [
+      "84127"
+    ],
+    "job_id": "d2fa6c64227046b613e91608ab46e737818237be9c354f662f5bcbac971e1db1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi comment on Serie A/B financial probe; relevant public statement.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-62faaaebaf20ed68"
+  },
+  {
+    "candidate_id": "9e37d292b579730561297ccf",
+    "time": "2011-09-01",
+    "date_precision": "day",
+    "summary": "Two people alleged to have blackmailed Silvio Berlusconi were arrested in Rome.",
+    "time_range": null,
+    "evidence_ids": [
+      "83109"
+    ],
+    "job_id": "1f99b42125ee43270a262537aeeac59d3f58a3bd242fd4267ee01e3d18479567",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Arrests in alleged Berlusconi blackmail case; relevant legal/scandal milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-77aecd15add11844"
+  },
+  {
+    "candidate_id": "064072146cd00c060a7d3765",
+    "time": "2004-08-17",
+    "date_precision": "day",
+    "summary": "Italian police defused a bomb near Silvio Berlusconi's Sardinian holiday villa after a warning from a leftwing group, hours after Tony Blair's visit.",
+    "time_range": null,
+    "evidence_ids": [
+      "84018"
+    ],
+    "job_id": "14089a003561b5af12ef13915514769874a8f98c0c024f7556aed5f97c402733",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Bomb defused near Berlusconi villa; relevant security incident.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-dca19ca0ad4615f9"
+  },
+  {
+    "candidate_id": "247881c95e697c85e3643236",
+    "time": "2011-07-09",
+    "date_precision": "day",
+    "summary": "A Milan appeals court ordered Silvio Berlusconi's company Fininvest to pay over €560m in compensation to rival Carlo De Benedetti for bribery of a judge in the battle for control of publisher Mondadori, with the judges stating Berlusconi was \"jointly responsible\" for the corruption.",
+    "time_range": null,
+    "evidence_ids": [
+      "83099"
+    ],
+    "job_id": "85d6cd7476ea7b765d7f579abd84f8d79e3d7227d93fb0005146c35b3b5c0b48",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Fininvest compensation ruling naming Berlusconi jointly responsible; relevant legal milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-784163f96e6cfa14"
+  },
+  {
+    "candidate_id": "f43c50325e829e9775acd756",
+    "time": "2003-05-23",
+    "date_precision": "day",
+    "summary": "A Milan prosecutor claimed Swiss bank account evidence proved alleged accomplices of Silvio Berlusconi bribed magistrates in the 1980s to win a corporate takeover battle.",
+    "time_range": null,
+    "evidence_ids": [
+      "84180"
+    ],
+    "job_id": "15edcca81e6d8239ce5b40166a0b16936d5d5d3bd847f0407eaa7c6d08434bd7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Prosecutor claim on alleged Berlusconi accomplices bribing magistrates; relevant corruption case development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8b6d20e046cc1651"
+  },
+  {
+    "candidate_id": "2fd221ef823544d932a6302e",
+    "time": "2007-09-24",
+    "date_precision": "day",
+    "summary": "Lawyers for Silvio Berlusconi and David Mills prevented pivotal evidence in their Italian tax fraud trial from being heard in open court at a London mutual legal assistance hearing.",
+    "time_range": null,
+    "evidence_ids": [
+      "83683"
+    ],
+    "job_id": "ab438598ab6951e5949ce430bf533a8a947d35725501e73ea4611b4d6653a5b7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi/Mills tax fraud trial evidence hearing; relevant legal proceeding.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1eac8159451479ea"
+  },
+  {
+    "candidate_id": "9a53617fcb15d5e7edc9b93a",
+    "time": "2002-06-20",
+    "date_precision": "day",
+    "summary": "Italian magistrates stage a one-day strike against a government bill to change the judicial system, which critics say is intended to curb their independence amid Prime Minister Silvio Berlusconi's corruption trial.",
+    "time_range": null,
+    "evidence_ids": [
+      "84360"
+    ],
+    "job_id": "0995147b8861317477d93da25f7561774df725ca09f9b81ee7e8b4a767d00a46",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Magistrates' strike amid Berlusconi corruption trial; relevant political-judicial context.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-de309c2a5ac012b2"
+  },
+  {
+    "candidate_id": "fe2e53b9a61a804137abfb0e",
+    "time": "2004-06-28",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi's centre-right coalition was defeated in weekend local elections, losing Milan, his home town and traditional stronghold, to the centre-left.",
+    "time_range": null,
+    "evidence_ids": [
+      "84005"
+    ],
+    "job_id": "b2c9cf1bef69998ee9559993433176b14c2e6b1f5e348d411df082fd15de6e6c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's coalition losing Milan in 2004 local elections is a relevant electoral milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-abf141c672c83d20"
+  },
+  {
+    "candidate_id": "6567c7af33b0ef548638b185",
+    "time": "2001-05-14",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi's centre-right opposition coalition decisively wins Italy's general election, gaining majorities in both houses of parliament.",
+    "time_range": null,
+    "evidence_ids": [
+      "84392"
+    ],
+    "job_id": "107a38f66f873452f93333d584ba31c1a170646c488a552d658a5dbd0f00f9f2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "2001 general election win with both-house majorities is a relevant milestone; date differs from existing 2001-05-13 event, so append separately.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-698e3d6b89452e09"
+  },
+  {
+    "candidate_id": "eb5e641dd9995185b398531a",
+    "time": "2004-06-14",
+    "date_precision": "day",
+    "summary": "In the European elections, Lilli Gruber won twice as many votes as Silvio Berlusconi in Rome, while Berlusconi's Forza Italia party trailed the Olive Tree Alliance nationally.",
+    "time_range": null,
+    "evidence_ids": [
+      "83979"
+    ],
+    "job_id": "348360f79d1af986e5dba996f8b567c1d53f94bb18c1549a458e14e3e4e18be0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "2004 European election result showing Berlusconi/Forza Italia trailing is a relevant electoral setback; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5c922b0a12e53010"
+  },
+  {
+    "candidate_id": "9f06871bb8425b134ad53adc",
+    "time": "2006-04-10",
+    "date_precision": "day",
+    "summary": "Italy's general election result remained too close to call, with projections showing Prime Minister Silvio Berlusconi could yet retain control of both houses of parliament.",
+    "time_range": null,
+    "evidence_ids": [
+      "83808"
+    ],
+    "job_id": "47ae25b58f73ca677f3186226a8fa09e15f0167bd6bed7c38fe08d70269e2ca6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "2006 general election too close to call is a relevant electoral milestone for Berlusconi; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4652f824c6aef4ea"
+  },
+  {
+    "candidate_id": "7ff85a736bf58e0242ab59a4",
+    "time": "2001-03-28",
+    "date_precision": "day",
+    "summary": "Over 1,000 Italian intellectuals signed an appeal urging voters to oppose Silvio Berlusconi's centre-right coalition in the May 13 general election to preserve Italian democracy.",
+    "time_range": null,
+    "evidence_ids": [
+      "84472"
+    ],
+    "job_id": "f83dc1d7e644ba885d178b922e3b1672dd82bf56f5d52f9b0eeca3ff444cf7c0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Intellectuals' appeal against Berlusconi's coalition ahead of the 2001 election is a relevant political milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-74bfd166d99dc059"
+  },
+  {
+    "candidate_id": "812fef994e2f1b85470335d2",
+    "time": "2013-09-29",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi called for fresh Italian elections as soon as possible after pulling his ministers out of Enrico Letta's grand coalition government.",
+    "time_range": null,
+    "evidence_ids": [
+      "82854"
+    ],
+    "job_id": "2a5c3f572b1a63f48ed60669fd4d94143161a0d7b60ffed26f1f2a5697dabdd7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi pulling ministers from Letta's coalition and calling for elections is a relevant 2013 political milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f91e6c225267606b"
+  },
+  {
+    "candidate_id": "db2ef010f437a66931ae549b",
+    "time": "2005-04-13",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi's coalition government teeters on the brink of collapse after deep divisions emerged among his allies over Italy's economic performance and the government's vulnerability to claims of discriminating against the south.",
+    "time_range": null,
+    "evidence_ids": [
+      "84016"
+    ],
+    "job_id": "43399d338f876af06fe6765521c18448c0cbd0d77765b019be4930801f69009b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Coalition government near collapse in 2005 is a relevant Berlusconi political milestone; existing 2005-04-13 event concerns Fininvest/Mediaset, not this.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7ff2510624291826"
+  },
+  {
+    "candidate_id": "1d516eb6ee7b397a3097a912",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No significant event related to Silvio Berlusconi is reported; he is only mentioned in passing regarding Milan's transfer market activity.",
+    "time_range": null,
+    "evidence_ids": [
+      "82801"
+    ],
+    "job_id": "7d41578913fbbee8606ccad206d41b4ec8b30c6d9649e8d1267ef740f3e7d36d",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No significant Berlusconi event; only a passing mention with unknown date, so it adds no timeline milestone.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "0f07ba861b15e5fb39639b86",
+    "time": "2013-01-14",
+    "date_precision": "day",
+    "summary": "A Milan court rejected Silvio Berlusconi's request to suspend his trial over charges of paying for sex with an underage prostitute and abuse of office, ordering proceedings to continue despite his election campaign.",
+    "time_range": null,
+    "evidence_ids": [
+      "82877"
+    ],
+    "job_id": "2ad278df0711e7bf7ef61826c41a05099f778312b7f2ecccc0f9f3dbf6eaf5a6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Rubygate trial development: Milan court rejects suspension request during election campaign; distinct date from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0af7d33d7d8702a4"
+  },
+  {
+    "candidate_id": "559a50ce5effbd344ccfd02c",
+    "time": "2011-01-14",
+    "date_precision": "day",
+    "summary": "Milan's chief prosecutor formally places Italian Prime Minister Silvio Berlusconi under investigation on suspicion of having sex with an underage prostitute and abusing his position to pressure police.",
+    "time_range": null,
+    "evidence_ids": [
+      "83200"
+    ],
+    "job_id": "d3b4718875d014c1e6f3e2e25e89ca6cc4a17e7638f029dbd804c62e448aea1b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ff8e2b45db3be054",
+    "reason": "Same date (2011-01-14) and same event: Berlusconi formally placed under investigation by Milan prosecutors over underage prostitute and abuse of office.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ff8e2b45db3be054"
+  },
+  {
+    "candidate_id": "807bbdeff803e84a4084a819",
+    "time": "2011-02-15",
+    "date_precision": "day",
+    "summary": "A Milan judge ruled that Silvio Berlusconi should stand trial on 6 April on charges of paying an underage prostitute and abusing his position as prime minister to cover it up.",
+    "time_range": null,
+    "evidence_ids": [
+      "83068"
+    ],
+    "job_id": "89ec3cc6a1e4c3735356802216ac7e87030407e221d5ae91fabbc913ce1c9249",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Milan judge orders Berlusconi to stand trial on 6 April; distinct date from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c80f0023feea6260"
+  },
+  {
+    "candidate_id": "e271bd7d9298c5b37bd05f7a",
+    "time": "2011-02-16",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi publicly stated he was not worried about standing trial on charges of paying an underage prostitute and abusing his official position.",
+    "time_range": null,
+    "evidence_ids": [
+      "83066"
+    ],
+    "job_id": "e3b354bae8bcfd8629e80de55d20c4771ec4c259e45766f5586a75b1ec88bc83",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant: Berlusconi publicly dismisses concerns about standing trial; distinct date and no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6a22284df8e7efcd"
+  },
+  {
+    "candidate_id": "8932eef5c98b5f7bbe2175b8",
+    "time": "2011-02-09",
+    "date_precision": "day",
+    "summary": "Milan prosecutors ask for Silvio Berlusconi to be put on trial immediately on charges of paying an underage prostitute and abusing his official position, prompting Berlusconi to accuse the judiciary of subversion and threaten to sue the state.",
+    "time_range": null,
+    "evidence_ids": [
+      "83077"
+    ],
+    "job_id": "131a7e79019d7f99aaacd34c201736a70bb09e08bf6447f165ce36fd3e2b2769",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-aad407c287421546",
+    "reason": "Same date (2011-02-09) and same event: prosecutors ask for Berlusconi to be put on trial immediately over underage prostitute and abuse of office.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-aad407c287421546"
+  },
+  {
+    "candidate_id": "785c72cc55aa17d24a1c13ed",
+    "time": "2005-04-12",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Silvio Berlusconi, after a Champions League derby between AC Milan and Internazionale was abandoned due to missiles and a flare striking goalkeeper Dida, met Interior Minister Giuseppe Pisanu and said drastic measures should not be ruled out to crack down on violence in Italian football stadia.",
+    "time_range": null,
+    "evidence_ids": [
+      "83919"
+    ],
+    "job_id": "482088126efb450d33f47f66d708ba09c6e75fa2e7af677150d6eecb56c18d79",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Football stadium violence response; not a milestone in Berlusconi's legal or political timeline.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "5892955e371bbb9fded251ff",
+    "time": "2004-02-21",
+    "date_precision": "day",
+    "summary": "After AC Milan's 3-2 derby win over Internazionale, Italian Prime Minister Silvio Berlusconi said he would send manager Carlo Ancelotti a letter ordering him to field two strikers or resign.",
+    "time_range": null,
+    "evidence_ids": [
+      "84073"
+    ],
+    "job_id": "ab5f30cfed7d04947fc668a4d028e29c3df354c801c46dfe12336780029ef892",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "AC Milan derby comment about Ancelotti; not a significant Berlusconi timeline event.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "7bdb3e57c002655ab8a90bac",
+    "time": "2011-02-15",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi is sent for trial on charges of paying for sex with an underage prostitute and abusing his office.",
+    "time_range": null,
+    "evidence_ids": [
+      "83139"
+    ],
+    "job_id": "443ea354a8e0ae5584c055f2d949d4dc26f23289e355ebcd5cf413f62f4b32a7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "807bbdeff803e84a4084a819",
+    "reason": "Same date (2011-02-15) and same event as candidate 807bbdeff803e84a4084a819: Berlusconi sent for trial on underage prostitution and abuse of office charges.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-c80f0023feea6260"
+    },
+    "timeline_event_id": "event-c80f0023feea6260"
+  },
+  {
+    "candidate_id": "c2b4fb2f43dbf8be0bfd5f27",
+    "time": "2004-12-10",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Silvio Berlusconi was cleared of the most serious corruption charge against him when a Milan court ruled the accusation of bribing a judge was \"out of time,\" and he was found not guilty of all other charges.",
+    "time_range": null,
+    "evidence_ids": [
+      "84053"
+    ],
+    "job_id": "2e1e7553cb155211b792d93321748cc329fd138507d1123913ff41838a330f70",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi corruption acquittal is a major legal milestone; no existing event shares this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-055695bec31e8186"
+  },
+  {
+    "candidate_id": "b0dbbb2fbbd87b572721b4fd",
+    "time": "2004-04-14",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Silvio Berlusconi's government faces criticism over its Iraq policy after the execution of Italian hostage Fabrizio Quattrocchi and threats to kill three other Italian captives.",
+    "time_range": null,
+    "evidence_ids": [
+      "84141"
+    ],
+    "job_id": "38eb379d803fdb5a4d71ce5d7d4b0df23b613cbc7d77f4d2bae5bfe2b5df725b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Criticism of Berlusconi's Iraq policy after hostage execution is a distinct political milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8873af60b85c3497"
+  },
+  {
+    "candidate_id": "191225a72e93fc28174e53d5",
+    "time": "2009-06-29",
+    "date_precision": "day",
+    "summary": "Italy's President Giorgio Napolitano urges politicians and journalists to suspend controversial discussions before the G8 summit that Silvio Berlusconi will chair, amid allegations about Berlusconi's sex life.",
+    "time_range": null,
+    "evidence_ids": [
+      "83546"
+    ],
+    "job_id": "124857614d1dda75ffe51dbfd7107aa47a67c2c1f680ada027327db25386d647",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Napolitano's intervention amid allegations about Berlusconi's sex life is a relevant political development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6cabfe8562a27b74"
+  },
+  {
+    "candidate_id": "e94d002626c48dc3b494271d",
+    "time": "2009-02-20",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi's cabinet issued an emergency decree allowing mayors to enroll citizen patrols to combat crime following an outcry over rapes blamed on immigrants.",
+    "time_range": null,
+    "evidence_ids": [
+      "83512"
+    ],
+    "job_id": "dfc3dfd9b7b3033dd3b012274816a1db15b6b16a6f057cb49f970ce7848bc643",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi cabinet's citizen patrol decree is a distinct policy action; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-be059e1d0279177c"
+  },
+  {
+    "candidate_id": "989419d548f8ea0afc9c6dde",
+    "time": "2011-04-05",
+    "date_precision": "day",
+    "summary": "Italian MPs vote to challenge the legitimacy of Silvio Berlusconi's underage prostitution trial, setting up a constitutional face-off that could derail the case.",
+    "time_range": null,
+    "evidence_ids": [
+      "83314"
+    ],
+    "job_id": "3864018b1b943dfaf4a499ade2741e6fd945aabdf0ccfb2ef658663fb3cd174b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in Berlusconi's underage prostitution case; parliamentary challenge to trial legitimacy is distinct from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8373c623d8509cf5"
+  },
+  {
+    "candidate_id": "199da1961ce9ff5cb13ad41d",
+    "time": "2011-02-09",
+    "date_precision": "day",
+    "summary": "Milan prosecutors ask for Silvio Berlusconi to be sent straight to trial over allegations of paying an underage prostitute and abusing his official position to cover it up.",
+    "time_range": null,
+    "evidence_ids": [
+      "83137"
+    ],
+    "job_id": "e1de9b4193bf9058d120c65c60a4ee4524b798ed226425535b432d72a6b9d6b8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-aad407c287421546",
+    "reason": "Same date and same Milan prosecutors' request to send Berlusconi to trial as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-aad407c287421546"
+  },
+  {
+    "candidate_id": "8f5a16718a145cc0c760dcbc",
+    "time": "2011-04-18",
+    "date_precision": "day",
+    "summary": "Three associates under investigation in a related prostitution case against Silvio Berlusconi fell out, with Nicole Minetti's defense document reportedly blaming Emilio Fede and Lele Mora for introducing the prime minister to Karima El Mahroug, while Fede denied the memorandum and accused Mora.",
+    "time_range": null,
+    "evidence_ids": [
+      "83036"
+    ],
+    "job_id": "cc6ec4ffcb8c1f04395a176bff619faf5b47d0963ca884d42914be589a93e0e9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant development in related prostitution case; distinct date and subject from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8e732d3ab3e087c1"
+  },
+  {
+    "candidate_id": "14ec9a8ebd5fc2ef3dd556f4",
+    "time": "2011-04-06",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi's trial on charges of paying an underage prostitute and abusing his office formally opened in Milan, with the alleged escort declining to attach herself to the case.",
+    "time_range": null,
+    "evidence_ids": [
+      "83011"
+    ],
+    "job_id": "6a186e4e527fdae515926d07fc1c373c5cf0ecfb54abd0789c8ef0ca68185e69",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: formal opening of Berlusconi's underage prostitution trial in Milan.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c4c8c4e381981c05"
+  },
+  {
+    "candidate_id": "92a7d02d71a5c1a9e03b6a42",
+    "time": "2007-06-15",
+    "date_precision": "day",
+    "summary": "AC Milan owner Silvio Berlusconi claims Chelsea striker Andriy Shevchenko wants to return to the San Siro and says he is determined to re-sign him.",
+    "time_range": null,
+    "evidence_ids": [
+      "83643"
+    ],
+    "job_id": "2d5e40967709379d0d599b4f20687fb75ef223e0c690b6455cd864d2192fa4d6",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Football transfer comment unrelated to Berlusconi's legal or political timeline.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "825756de8145ea8540241237",
+    "time": "2003-07-24",
+    "date_precision": "day",
+    "summary": "Two prosecutors who put Italian Prime Minister Silvio Berlusconi on trial for bribery are themselves placed under investigation for suspected abuse of office.",
+    "time_range": null,
+    "evidence_ids": [
+      "84161"
+    ],
+    "job_id": "0ee80a1194dd0eb9843ed9939b7721ec396863ca60a70895f1fdef5f996e103b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Berlusconi legal/political event; distinct 2003 prosecutors investigation not represented in existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-71b98a1ab5accced"
+  },
+  {
+    "candidate_id": "471c1947d9ac842044023c4a",
+    "time": "2011-04-06",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi is due to stand trial on charges of underage prostitution, with his lawyers submitting a list of 78 witnesses including George Clooney and Cristiano Ronaldo.",
+    "time_range": null,
+    "evidence_ids": [
+      "83293"
+    ],
+    "job_id": "44aa9ccb399a3b655a36a8a6524b7beeb8ea252878a7a6e2babe9e9ec2dd83e1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "14ec9a8ebd5fc2ef3dd556f4",
+    "reason": "Same date and topic as the trial-opening event; witness-list detail is part of the same 6 April 2011 trial opening.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-c4c8c4e381981c05"
+    },
+    "timeline_event_id": "event-c4c8c4e381981c05"
+  },
+  {
+    "candidate_id": "1288c25336e9f1c802df43db",
+    "time": "2010-04-21",
+    "date_precision": "day",
+    "summary": "Italy's highest appeals court stated that it quashed David Mills's conviction for taking a bribe from Silvio Berlusconi due to a statute of limitations technicality, not because it believed him innocent.",
+    "time_range": null,
+    "evidence_ids": [
+      "83306"
+    ],
+    "job_id": "31e782ff1ffd3cad1f2529fc8aea21c2891af64999405669d27fb39eeb3b2473",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Berlusconi-linked Mills bribery case milestone; distinct date from existing Mills-related events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b4fe6e7c7af72d58"
+  },
+  {
+    "candidate_id": "e29bf545b5393818f4dc962f",
+    "time": "2001-04-13",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi is to send every Italian family a 128-page biography featuring 250 photographs of himself as a vote-winning ploy for the election campaign that opens today.",
+    "time_range": null,
+    "evidence_ids": [
+      "84433"
+    ],
+    "job_id": "5ca0c349ccbf5f2865780af9af4e99e0a9a112261b3095f8020e519d4f2e9951",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant 2001 election campaign item involving Berlusconi; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b8227b5a026eaafe"
+  },
+  {
+    "candidate_id": "b5fb7d4435c328702ca5bf53",
+    "time": "2002-09-28",
+    "date_precision": "day",
+    "summary": "The Guardian incorrectly described Silvio Berlusconi as a European head of state in its profile, later clarifying that Italy's head of state is President Carlo Azeglio Ciampi.",
+    "time_range": null,
+    "evidence_ids": [
+      "84270"
+    ],
+    "job_id": "34a8e1671358297fce59fa48295bcb93193a24c9781f11cc448df7e39e90a5ac",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Media correction about Berlusconi's title, not a substantive Berlusconi timeline milestone.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "f367466ed048f4f5529529bc",
+    "time": "2010-11-15",
+    "date_precision": "day",
+    "summary": "Four ministers loyal to Gianfranco Fini resigned from Silvio Berlusconi's government, bringing the administration closer to a confidence vote in parliament.",
+    "time_range": null,
+    "evidence_ids": [
+      "83175"
+    ],
+    "job_id": "e74c5b7712dc303226f7794e14c8cc2e53e8ef95f1fc61f79a598805838f6cdc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant government crisis milestone for Berlusconi's administration; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-46d34d6e5928e6d7"
+  },
+  {
+    "candidate_id": "bac9474ac6e010588666845d",
+    "time": "2002-01-06",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Silvio Berlusconi assumes interim responsibility for foreign affairs following the resignation of Foreign Minister Renato Ruggiero.",
+    "time_range": null,
+    "evidence_ids": [
+      "84343"
+    ],
+    "job_id": "de0a1190620f9222cb238be3bb0e1f39c8aa72905616e46014df91500cb94238",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Berlusconi government action assuming interim foreign affairs responsibility; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9943a4319f20f2e1"
+  },
+  {
+    "candidate_id": "25ddd135e85b18f0322ed01c",
+    "time": "2006-04-28",
+    "date_precision": "day",
+    "summary": "It was reported that Silvio Berlusconi would resign as Italy's Prime Minister on Tuesday.",
+    "time_range": null,
+    "evidence_ids": [
+      "83818"
+    ],
+    "job_id": "4b24eb5dd3d97fa096dba3af5ee23561dcb1e42af758729cb94740df8806b45b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant report of Berlusconi's planned resignation as prime minister; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2ec22696f5bbc0b1"
+  },
+  {
+    "candidate_id": "68f870f4b44ce0f018a5041a",
+    "time": "2010-02-25",
+    "date_precision": "day",
+    "summary": "Italy's highest court is expected to rule on David Mills's bribery conviction appeal, a decision that will affect Silvio Berlusconi's pending Milan corruption trial.",
+    "time_range": null,
+    "evidence_ids": [
+      "83435"
+    ],
+    "job_id": "61cc565d9b15461e0b84acd30d8d478d6dd5458c08869c5b746b2335283e44ba",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Berlusconi-related legal milestone: high court ruling on Mills appeal affecting his pending Milan corruption trial; distinct date from existing Mills events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2d3e15cd4dd27405"
+  },
+  {
+    "candidate_id": "ea56e66d567769e4f8724ce8",
+    "time": "2009-07-07",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi dismisses a Guardian report that the US took the lead in managing the G8 summit agenda, calling it \"a colossal blunder by a small newspaper.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "83331"
+    ],
+    "job_id": "e0c851c7996f8d527cdfcbb083330ec4b6bcb2555869141026a6ad6390dd1f93",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Berlusconi political moment: his dismissal of a Guardian report on G8 summit agenda management; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-80be4e671704df2e"
+  },
+  {
+    "candidate_id": "53ce0328c167bd43320d6d02",
+    "time": "2005-07-07",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Silvio Berlusconi confirmed that Italy would begin withdrawing 300 troops from Iraq in September, dependent on the security situation.",
+    "time_range": null,
+    "evidence_ids": [
+      "83994"
+    ],
+    "job_id": "07350d6b2f34507094a6f3795410ec944df5176b806451538bf6ca13f80c7dc9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Berlusconi government decision: confirmation of planned Iraq troop withdrawal; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5af74f0d41386907"
+  },
+  {
+    "candidate_id": "472477829446cbd1217917b3",
+    "time": "2006-07-07",
+    "date_precision": "day",
+    "summary": "Former Italian prime minister Silvio Berlusconi is ordered to stand trial on charges of false accounting, embezzlement and tax fraud related to the purchase of movie and television rights at his media empire Mediaset.",
+    "time_range": null,
+    "evidence_ids": [
+      "83774"
+    ],
+    "job_id": "61bd5600412a2cdc6b232084ea59a8959a7e19805b0b522f226f028596b3355c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi ordered to stand trial in Mediaset rights case; distinct 2006 legal milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5b6cb246b727f7b9"
+  },
+  {
+    "candidate_id": "17c4e5e8d5e917727b702ce8",
+    "time": "2011-11-25",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi fails in a legal bid to stop David Mills from giving evidence in his corruption trial.",
+    "time_range": null,
+    "evidence_ids": [
+      "82996"
+    ],
+    "job_id": "ffde4ef7a0c8a4f69d1767f4374ca43555e485ced725d2f46bd607108198d7d1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi fails to block David Mills testimony in corruption trial; distinct 2011 legal development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6cb5a916abdf5b84"
+  },
+  {
+    "candidate_id": "3f9b89fcdf204e3e215da15c",
+    "time": "2011-11-28",
+    "date_precision": "day",
+    "summary": "Testimony of David Mills in Silvio Berlusconi's bribery trial was delayed as lawyers and judges debated how he should give evidence via video link to the Milan court.",
+    "time_range": null,
+    "evidence_ids": [
+      "82965"
+    ],
+    "job_id": "57020d1a1a5b4c7e1c609759abd16679c32f9885be3f28c7e5871c443f00cec6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Mills testimony delayed in Berlusconi bribery trial; separate dated court development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-285fe634e2b12210"
+  },
+  {
+    "candidate_id": "b5ab9c0cc3e8d9bf92a9e361",
+    "time": "2010-01-30",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi met his wife Veronica Lario in a Milan court for the first time since she announced she was leaving him, beginning divorce proceedings.",
+    "time_range": null,
+    "evidence_ids": [
+      "83237"
+    ],
+    "job_id": "35beb770827cbeadcd5a4a9768b5f13b3c5f52cfa41552f060bff0f73bdcde4f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi meets Veronica Lario in Milan court as divorce proceedings begin; personal milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fc7bde42fd318a60"
+  },
+  {
+    "candidate_id": "9d3710e6aee5b49f46a7f24f",
+    "time": "2003-02-16",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi commented that a team like Milan must always play with two strikers, saying he had explained this to the manager.",
+    "time_range": null,
+    "evidence_ids": [
+      "84287"
+    ],
+    "job_id": "19ecd26662f4cb01513f9d5845413e2cf04105b29ca7dd7ca9eb01989e17bcc2",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Berlusconi's comment on AC Milan tactics is not a significant milestone in his biography.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "808ac68d00c8e7b9b7ce9b2a",
+    "time": "2002-02-24",
+    "date_precision": "day",
+    "summary": "British arts celebrities campaign against Italian Prime Minister Silvio Berlusconi to prevent the non-renewal of Mario Fortunato's contract as director of the Italian Cultural Institute in London.",
+    "time_range": null,
+    "evidence_ids": [
+      "84294"
+    ],
+    "job_id": "99f2b43c58177aa8481ab04238a670e985474afaf9daff8f1f4566b12e0bf247",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "British arts campaign against Berlusconi over Italian Cultural Institute director; distinct political-cultural episode.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-31d526f1a6148d70"
+  },
+  {
+    "candidate_id": "8eefed55c31ef59da9952cb7",
+    "time": "2008-07-07",
+    "date_precision": "day",
+    "summary": "The Bush administration apologizes to Italian Prime Minister Silvio Berlusconi after White House officials briefed the press corps with a biography describing him as a political amateur.",
+    "time_range": null,
+    "evidence_ids": [
+      "83612"
+    ],
+    "job_id": "d9e4cc13eda73d70352e98c74056027d56caf058ee3f46f1ce83e28ad2927a50",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Bush administration apology to Berlusconi over White House biography gaffe; distinct diplomatic incident.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e60e4687c3f9a77c"
+  },
+  {
+    "candidate_id": "7c5c11bcd90708b5207ee503",
+    "time": "2003-07-03",
+    "date_precision": "day",
+    "summary": "Italian Premier Silvio Berlusconi apologizes to Chancellor Gerhard Schröder for his Nazi concentration camp guard remark to a German MEP, ending the diplomatic crisis with Italy.",
+    "time_range": null,
+    "evidence_ids": [
+      "84164"
+    ],
+    "job_id": "6086662fa1418c5f8c2e82d9f38f92bf6abe1fd9695b8ee6111e6fc28c1151a9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi apologizes to Schröder for Nazi remark, ending diplomatic crisis; distinct 2003 episode.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a0928bd32324ef35"
+  },
+  {
+    "candidate_id": "ec0e51bb5bd2795f22d109cf",
+    "time": "2002-07-12",
+    "date_precision": "day",
+    "summary": "Paolo Berlusconi, brother of Italian Prime Minister Silvio Berlusconi, was given a suspended 21-month prison sentence for bribery after plea bargaining and agreeing to pay €49m compensation to the local authority in Milan.",
+    "time_range": null,
+    "evidence_ids": [
+      "84275"
+    ],
+    "job_id": "6bf7eca9a6de6b8abf9ed7b71588a73a66ac33e93878a665e38cfae61d9d580b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Berlusconi-family bribery conviction milestone; no existing event shares its 2002-07-12 date, so it is a distinct occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1fdec5daa9d84bf0"
+  },
+  {
+    "candidate_id": "6efd78ec9e7a830e52ed1d79",
+    "time": "2009-12-13",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi was assaulted in Milan.",
+    "time_range": null,
+    "evidence_ids": [
+      "83213"
+    ],
+    "job_id": "46a028fdd31385b9c6b03e2dd3eb770de931587b72e3907468b77cf6217362f4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-eb68615f57b9c8d0",
+    "reason": "Same date and same Milan assault on Berlusconi as the existing event; duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-eb68615f57b9c8d0"
+  },
+  {
+    "candidate_id": "cbb5a3ac40bf92f04f690b07",
+    "time": "2004-12-30",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Silvio Berlusconi called for an extraordinary G8 meeting to discuss aid organization and possible debt reduction for countries affected by the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "83978"
+    ],
+    "job_id": "492034c729c35ccc32d9030c9986a024721f9f63a524bf8e9f2050af031556ae",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's call for a G8 tsunami aid meeting is a relevant milestone in his political activity.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9990d0fd6913d20d"
+  },
+  {
+    "candidate_id": "1c2e1a5649fdc03b73b53c7f",
+    "time": "2004-06-23",
+    "date_precision": "day",
+    "summary": "Opposition MPs tabled a parliamentary question claiming that work on Silvio Berlusconi's Sardinian villa began before planning permission was obtained.",
+    "time_range": null,
+    "evidence_ids": [
+      "84081"
+    ],
+    "job_id": "4972b2df4b7fb6cbd8d7cfb753f059550156806734c76385f54e6c7edd0250ab",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Parliamentary question over planning permission for Berlusconi's Sardinian villa is a relevant controversy.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bb5f5999d8ba4667"
+  },
+  {
+    "candidate_id": "2f8513a25f9a7a3cf234f997",
+    "time": "2012-10-19",
+    "date_precision": "day",
+    "summary": "George Clooney is called as a witness in Silvio Berlusconi's trial in Milan, where Berlusconi is accused of paying an underage prostitute for sex.",
+    "time_range": null,
+    "evidence_ids": [
+      "82899"
+    ],
+    "job_id": "f610dadc335c5da1e6b907e239b87397d26aec10b3fb6ea4f5b26e317a6e5ba7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Berlusconi trial milestone; no existing event matches this 2012-10-19 witness development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f36b8b184a42d376"
+  },
+  {
+    "candidate_id": "6b4f75126edd7612abf2772f",
+    "time": "2003-06-13",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Silvio Berlusconi is being investigated by magistrates over suspected tax fraud and false accounting related to Mediaset's acquisition of US film rights.",
+    "time_range": null,
+    "evidence_ids": [
+      "84132"
+    ],
+    "job_id": "e9040e3ef24181526beb0290af8705ee909262f1ce7bcc6b7ca62846ec456836",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant investigation milestone in Berlusconi's Mediaset legal saga; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-57b6406783b5bc42"
+  },
+  {
+    "candidate_id": "2061ad65ebb5c230cbb907dc",
+    "time": "2013-07-10",
+    "date_precision": "day",
+    "summary": "Italy's parliament was suspended after the Democratic Party joined Silvio Berlusconi's followers in voting for a stoppage in protest at a supreme court decision to fast-track his final appeal against a tax fraud conviction.",
+    "time_range": null,
+    "evidence_ids": [
+      "82844"
+    ],
+    "job_id": "ef8441dad32f723c5a29d6556acc10b64a6f763584b8ae186e0cd3fcf8088e27",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant parliamentary reaction to Berlusconi tax-fraud appeal; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-771bacb226c047c4"
+  },
+  {
+    "candidate_id": "2d7efa68c3e0a85e3f07bd5c",
+    "time": "2005-02-23",
+    "date_precision": "day",
+    "summary": "David Mills, husband of UK Culture Secretary Tessa Jowell, says he has been informed that Milan magistrates are seeking to make him a defendant in the tax evasion and money laundering trial of Italian Prime Minister Silvio Berlusconi.",
+    "time_range": null,
+    "evidence_ids": [
+      "83942"
+    ],
+    "job_id": "08214a392c7affb682c5d5d6fc3bc4c390d9cb192f3193433e7cd28f90812e01",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant David Mills/Berlusconi trial development; no existing event on this 2005-02-23 date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9aa1cc5d29715eb6"
+  },
+  {
+    "candidate_id": "d04713a3d1f8541babb4d974",
+    "time": "2006-11-21",
+    "date_precision": "day",
+    "summary": "Former Italian Prime Minister Silvio Berlusconi went on trial with David Mills on charges of embezzlement, tax dodging, and false accounting; the proceedings were swiftly adjourned until Monday.",
+    "time_range": null,
+    "evidence_ids": [
+      "83780"
+    ],
+    "job_id": "04d4e5914e6f987ab1734fad6974b7662a372129999327d2a43c88b5cda4cdec",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Berlusconi-Mills trial start; existing related events are on different dates, so separate APPEND.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1f864b5fe14d4b3a"
+  },
+  {
+    "candidate_id": "7eab9bc21d2603cb4721d6ed",
+    "time": "2014-07-18",
+    "date_precision": "day",
+    "summary": "A Milan appeals court acquitted former Italian prime minister Silvio Berlusconi of charges of paying for sex with an underage prostitute and abusing his office to cover it up, overturning a prior conviction.",
+    "time_range": null,
+    "evidence_ids": [
+      "82872"
+    ],
+    "job_id": "edb22568a5aaca0b257316f519706855d88b6ffb967eecdf11dbf41df9fa28cf",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Acquittal on appeal is a distinct, significant milestone in Berlusconi's Rubygate case; no existing event shares this 2014-07-18 date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7400501a325018f7"
+  },
+  {
+    "candidate_id": "e76d50deb314c9ebbd420751",
+    "time": "2009-05-18",
+    "date_precision": "day",
+    "summary": "Milan president Silvio Berlusconi says there are good chances Arsenal striker Emmanuel Adebayor will arrive at the club this summer.",
+    "time_range": null,
+    "evidence_ids": [
+      "83351"
+    ],
+    "job_id": "1d405bca6522620e38d853b52fb9654bd992a0a97f861333e661f12a00c6e93c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi as Milan president commenting on a transfer target is a relevant milestone in his football-club role; no existing event matches this date or content.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d697151be7ded4ab"
+  },
+  {
+    "candidate_id": "fbb4f9a296cfd0485ab855df",
+    "time": "2010-12-02",
+    "date_precision": "day",
+    "summary": "Silvio Berlusconi was flying to Sochi for an unscheduled meeting with Vladimir Putin, shortly after WikiLeaks published US diplomatic cables alleging a secret business association between them.",
+    "time_range": null,
+    "evidence_ids": [
+      "83265"
+    ],
+    "job_id": "a458a6c25c1c5fb1e97bf12b42f17776b7ce832b48921c26d740db169ad35b67",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi's unscheduled meeting with Putin amid WikiLeaks cables is a relevant political milestone; no existing event shares this date or subject.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c5aca882de3b7f4b"
+  },
+  {
+    "candidate_id": "170e9430835c282a82e79bcf",
+    "time": "2009-07-10",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Silvio Berlusconi hosts the G8 summit amid controversy over a Guardian report speculating Italy might be expelled from the G8.",
+    "time_range": null,
+    "evidence_ids": [
+      "83493"
+    ],
+    "job_id": "8ae26f859f3464f27106d03037a1926d9141630e861953bdc29b4ded60fbbd58",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi hosting the 2009 G8 summit is a relevant milestone; no existing event shares this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-14a0a592e00ae76c"
+  },
+  {
+    "candidate_id": "1cedcdf027e29f07c6ff3d3c",
+    "time": "2004-11-04",
+    "date_precision": "day",
+    "summary": "The Italian government led by Silvio Berlusconi moved to strengthen the powers of the Turin Olympic Committee's supervisor, prompting committee president Valentino Castellani to announce his intention to resign.",
+    "time_range": null,
+    "evidence_ids": [
+      "83981"
+    ],
+    "job_id": "b30a2441582376638810f0f6e9251400f2113be3bd970cc53d3768c3b125cea2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Berlusconi government action on the Turin Olympic Committee is a relevant event; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e5fa72891fabeaf3"
+  },
+  {
+    "candidate_id": "ef215cf5ef4ac93c455e2535",
+    "time": "2000-09-25",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Giuliano Amato announced he would resign before the next general election and hand leadership of the centre-left to Francesco Rutelli, saying only the telegenic mayor could stop Silvio Berlusconi's resurgent centre-right opposition.",
+    "time_range": null,
+    "evidence_ids": [
+      "84471"
+    ],
+    "job_id": "188c5841c16ede04c4e5e2bb2bf584d70257d268d7153c099fcf7079819ed717",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Amato's resignation and Rutelli's rise framed as stopping Berlusconi is relevant to his political trajectory; no duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-16794b15f287f522"
+  },
+  {
+    "candidate_id": "256875e18cfc118d241c9ae3",
+    "time": "2000-04-19",
+    "date_precision": "day",
+    "summary": "Italian Prime Minister Massimo D'Alema is expected to resign to give his centre-left government a chance to rally around a new leader and avert an early general election that Silvio Berlusconi's centre-right alliance is demanding.",
+    "time_range": null,
+    "evidence_ids": [
+      "84485"
+    ],
+    "job_id": "4af76ab7c5964337cdaf8b0fff1b6a6c965f84019d9d69d53cad8fce0535a197",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "D'Alema's expected resignation amid Berlusconi's election demands is relevant context; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f8b78d041529db89"
+  }
+]
