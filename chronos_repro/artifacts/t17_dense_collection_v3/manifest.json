@@ -1,0 +1,66 @@
+{
+  "schema": "chronos-repro.dense-collection.v1",
+  "complete": true,
+  "bm25_index": "D:\\paper\\chronos_repro\\artifacts\\t17_2704b6b058774e15.sqlite3",
+  "model": {
+    "repo_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "local_path": "D:/paper/chronos_repro/models/paraphrase-multilingual-MiniLM-L12-v2",
+    "dimension": 384,
+    "max_sequence_tokens": 128,
+    "download_filter": {
+      "excluded": [
+        "*.bin",
+        "*.h5",
+        "*.msgpack",
+        "onnx/*",
+        "openvino/*"
+      ]
+    }
+  },
+  "dimension": 384,
+  "dtype": "float16",
+  "encoder_backend": "onnx",
+  "onnx_file": "onnx/model_avx2.onnx",
+  "chunking": {
+    "max_chars": 600,
+    "overlap_chars": 100,
+    "max_chunks_per_document": 1,
+    "selection": "stratified",
+    "stratified_segments": 3
+  },
+  "requested_topics": [
+    "bpoil",
+    "egypt",
+    "finan",
+    "h1n1",
+    "haiti",
+    "iraq",
+    "libya",
+    "mj",
+    "syria"
+  ],
+  "shards": {
+    "bpoil": "shards\\bpoil",
+    "egypt": "shards\\egypt",
+    "finan": "shards\\finan",
+    "h1n1": "shards\\h1n1",
+    "haiti": "shards\\haiti",
+    "iraq": "shards\\iraq",
+    "libya": "shards\\libya",
+    "mj": "shards\\mj",
+    "syria": "shards\\syria"
+  },
+  "topic_chunk_counts": {
+    "bpoil": 1307,
+    "egypt": 216,
+    "finan": 256,
+    "h1n1": 370,
+    "haiti": 278,
+    "iraq": 315,
+    "libya": 716,
+    "mj": 121,
+    "syria": 624
+  },
+  "chunk_count": 4203
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "chronos-repro.dense-index.v1",
+  "bm25_index": "D:\\paper\\chronos_repro\\artifacts\\entities_25ac73e52bc93b3b.sqlite3",
+  "model": {
+    "repo_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "local_path": "D:/paper/chronos_repro/models/paraphrase-multilingual-MiniLM-L12-v2",
+    "dimension": 384,
+    "max_sequence_tokens": 128,
+    "download_filter": {
+      "excluded": [
+        "*.bin",
+        "*.h5",
+        "*.msgpack",
+        "onnx/*",
+        "openvino/*"
+      ]
+    }
+  },
+  "dimension": 384,
+  "dtype": "float16",
+  "chunk_count": 353,
+  "topic_chunk_counts": {
+    "Jacob_Zuma": 353
+  },
+  "topic_filter": [
+    "Jacob_Zuma"
+  ],
+  "chunking": {
+    "max_chars": 600,
+    "overlap_chars": 100,
+    "max_chunks_per_document": 1,
+    "selection": "stratified",
+    "stratified_segments": 3
+  },
+  "encoder_backend": "onnx",
+  "onnx_file": "onnx/model_avx2.onnx"
+}

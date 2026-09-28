@@ -1,0 +1,13 @@
+{
+  "schema": "chronos-repro.hybrid-index.v1",
+  "bm25_index": "crisis_ece08f344cc94933.sqlite3",
+  "dense_index": "crisis_dense_collection_v3",
+  "fusion": {
+    "method": "weighted_rrf",
+    "bm25_weight": 1.0,
+    "dense_weight": 1.0,
+    "rrf_k": 60,
+    "candidate_multiplier": 5,
+    "temporal_diversity": 0.05
+  }
+}
