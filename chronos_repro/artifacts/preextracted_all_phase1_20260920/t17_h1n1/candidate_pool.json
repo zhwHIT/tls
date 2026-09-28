@@ -1,0 +1,2642 @@
+[
+  {
+    "candidate_id": "5c97e7eb41bdbbc39e309c5d",
+    "time": "2009-04-26",
+    "date_precision": "day",
+    "summary": "The current swine flu outbreak is of the same strain, H1N1, as the great flu pandemic of 1918.",
+    "time_range": null,
+    "evidence_ids": [
+      "991"
+    ],
+    "job_id": "6e67e0ffdedaf90f74d8ed1acd8c63d2e3c41c8bf697c09cae96c09e76325f96",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 context linking outbreak strain to 1918 pandemic; distinct milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-11779206818cf18d"
+  },
+  {
+    "candidate_id": "e66a8e5f4be56888b73d96e8",
+    "time": "2009-05-12",
+    "date_precision": "day",
+    "summary": "The WHO warns that the new H1N1 flu virus could still mutate into a more virulent form and spark an influenza pandemic that could circle the globe up to three times.",
+    "time_range": null,
+    "evidence_ids": [
+      "913"
+    ],
+    "job_id": "696dd5dbc15b0fea47ba0bcdbf80db975675373f5ec3d7d10a117c2ec8983c9d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "WHO warning on H1N1 mutation and pandemic potential; contributes to timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-59ff07b17c6d97bc"
+  },
+  {
+    "candidate_id": "bba6c2f5334a3c9e26eb6d45",
+    "time": "2009-05-01",
+    "date_precision": "day",
+    "summary": "US health experts report that the H1N1 swine flu outbreak in Mexico may not be as severe as it first appeared, with many mild cases not immediately noticed, though the WHO fears it could tip into a pandemic.",
+    "time_range": null,
+    "evidence_ids": [
+      "917"
+    ],
+    "job_id": "cefa62a7bf8baad63172492ef014d7490dd97398e7f0a09d22043f34bcf8ae1f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "US experts' assessment of H1N1 severity in Mexico; relevant outbreak development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f8b6a4aad7cf502a"
+  },
+  {
+    "candidate_id": "83c4d63b98a575a1ec093e4d",
+    "time": "2009-05-18",
+    "date_precision": "day",
+    "summary": "The head of the World Health Organization says the H1N1 flu virus is likely to keep spreading rapidly between people, within countries and across the globe.",
+    "time_range": null,
+    "evidence_ids": [
+      "1041"
+    ],
+    "job_id": "15e7c06bf4f6f4868d106b67398d001d8ab9846092f4a626888b9db4a86c82e1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "WHO head statement on H1N1 rapid spread; relevant pandemic progression.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3d4a3150f02cf5d2"
+  },
+  {
+    "candidate_id": "ce3195169b1c6dd904a7e024",
+    "time": "2009-04-27",
+    "date_precision": "day",
+    "summary": "An outbreak of a new H1N1 influenza strain, apparently related to the 1918-19 pandemic and containing swine, avian and human genetic material, has infected more than 1,000 people in Mexico with over 80 deaths and spread to several areas within the United States and to New Zealand.",
+    "time_range": null,
+    "evidence_ids": [
+      "557"
+    ],
+    "job_id": "ad5b4f97010015f2f27585b06c15013a46e7ba2850834b27da88aeb2a9eb04f1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Detailed H1N1 outbreak spread and impact; distinct dated milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-96d90f832d0f5378"
+  },
+  {
+    "candidate_id": "2b5468d237de12669ad5c6c8",
+    "time": "2009-06-11",
+    "date_precision": "day",
+    "summary": "The World Health Organization declared the new H1N1 swine flu a full pandemic, as researchers reported the virus had circulated undetected in pigs for years.",
+    "time_range": null,
+    "evidence_ids": [
+      "442"
+    ],
+    "job_id": "6cd10b9a2a5b244b35d0b44b5aa0dc67ed180920789e58ab6cfba77ad49f2b46",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "WHO declaration of full H1N1 pandemic; key milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ca8ac8b744e6ac81"
+  },
+  {
+    "candidate_id": "ba547bb08cab7afac81abb5d",
+    "time": "2009-04-26",
+    "date_precision": "day",
+    "summary": "The World Health Organisation warns that the H1N1 swine flu outbreak has \"pandemic potential\" as more than 80 people have died in Mexico and cases are reported in the US and New Zealand.",
+    "time_range": null,
+    "evidence_ids": [
+      "209"
+    ],
+    "job_id": "d72fd3fabdbee8e9f7a9ae83d2fea4d668c25d42ff1fb5c42a1272c37b81dc28",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "WHO pandemic-potential warning; same date as another candidate but distinct content, no duplicate target.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d404061f39f93f52"
+  },
+  {
+    "candidate_id": "8788027910d753d970aea387",
+    "time": "2009-06-29",
+    "date_precision": "day",
+    "summary": "Scientists establish the first case of the new H1N1 influenza strain showing resistance to Tamiflu, though Danish officials say it poses no threat to public health.",
+    "time_range": null,
+    "evidence_ids": [
+      "611"
+    ],
+    "job_id": "df94a79c51fb28fde8983db5ed4fdc99c07806b041916e860129252f24b592d5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "First Tamiflu-resistant H1N1 case; relevant scientific milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b703fbd8f287a742"
+  },
+  {
+    "candidate_id": "11d6483779d38e70f62bb4cc",
+    "time": "2009-05-09",
+    "date_precision": "day",
+    "summary": "A Washington state man with underlying heart conditions died from H1N1 influenza, becoming the third U.S. death from the virus.",
+    "time_range": null,
+    "evidence_ids": [
+      "1092"
+    ],
+    "job_id": "198243cbded323da49223546efb8a0afab6dc18c557984fae8f4ba7d6fcd4114",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 milestone: third U.S. death, a distinct dated occurrence not matching any existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ec5ab420b0818bbf"
+  },
+  {
+    "candidate_id": "cb277ec645896910267a7b8c",
+    "time": "2009-06-29",
+    "date_precision": "day",
+    "summary": "A patient with H1N1 influenza in Denmark showed resistance to Roche's Tamiflu, the first reported case of such resistance in H1N1.",
+    "time_range": null,
+    "evidence_ids": [
+      "1102"
+    ],
+    "job_id": "38bb775ef74420d4b0a67c4ca8f0d819a5bce34c285e4d71f62f95d4463b34e3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-b703fbd8f287a742",
+    "reason": "Same date and same first Tamiflu-resistant H1N1 case as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b703fbd8f287a742"
+  },
+  {
+    "candidate_id": "b8809c305a64a3dd531f9a48",
+    "time": "2009-05-18",
+    "date_precision": "day",
+    "summary": "Japan confirmed 125 people had been infected with the new H1N1 flu strain, as the WHO said humanity may be witnessing an influenza pandemic unfold.",
+    "time_range": null,
+    "evidence_ids": [
+      "789"
+    ],
+    "job_id": "5a0350817d121aac291b7b99d9fa480d0536a94646411abcc29881896afdbd8e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 spread milestone in Japan; existing 2009-05-18 event covers WHO warning, not Japan's confirmed case count.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1dc884cdffcf0780"
+  },
+  {
+    "candidate_id": "38a4ec8cda01a2e693fade6f",
+    "time": "2009-06-26",
+    "date_precision": "day",
+    "summary": "U.S. health officials estimate that more than 1 million people in the United States may have been infected with the new H1N1 swine flu, with infections continuing to rise.",
+    "time_range": null,
+    "evidence_ids": [
+      "21"
+    ],
+    "job_id": "cf96a2da40288cef8607280d401a0547f21954de9e13e3a482b4421e42fa28cc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant U.S. H1N1 infection estimate milestone; no existing event matches this date or content.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5c39375d0792ab45"
+  },
+  {
+    "candidate_id": "3406b0ad76bba35b03040036",
+    "time": "2009-06-11",
+    "date_precision": "day",
+    "summary": "The World Health Organization is expected to declare the first global flu pandemic in 40 years after holding emergency talks on the swine flu crisis, as H1N1 cases rise steeply in Australia.",
+    "time_range": null,
+    "evidence_ids": [
+      "895"
+    ],
+    "job_id": "5bb73aa2a76c9d523498d81fb7494e66f299519809ddf2aaa522a52b02289960",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ca8ac8b744e6ac81",
+    "reason": "Same date and same WHO pandemic declaration event, though phrased as expected rather than formal.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ca8ac8b744e6ac81"
+  },
+  {
+    "candidate_id": "1ccb2049109b6a9cd2e9c4e6",
+    "time": "2009-06-11",
+    "date_precision": "day",
+    "summary": "The World Health Organization formally declared the swine flu outbreak a global pandemic, raising the pandemic alert level from phase five to six.",
+    "time_range": null,
+    "evidence_ids": [
+      "324"
+    ],
+    "job_id": "19799368060ed86c8e0304e5132077bd86e85dcd8e87f2d2d104f5844e9ba642",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ca8ac8b744e6ac81",
+    "reason": "Same date and same WHO phase 6 pandemic declaration as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ca8ac8b744e6ac81"
+  },
+  {
+    "candidate_id": "caaa55a5beb46ee39d71ddb7",
+    "time": "2009-04-26",
+    "date_precision": "day",
+    "summary": "The U.N. World Health Organization and U.S. Centers for Disease Control and Prevention are collecting samples of the new H1N1 swine flu virus to make a vaccine in case it is needed.",
+    "time_range": null,
+    "evidence_ids": [
+      "678"
+    ],
+    "job_id": "80a14374913778a5cf5c7d8dbabfbfce3900eb02c2c6b2b5f1480e55b127e676",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant early H1N1 vaccine-development milestone; existing 2009-04-26 events cover pandemic potential and 1918 strain comparison, not vaccine sample collection.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a02c27de1a2f1d5d"
+  },
+  {
+    "candidate_id": "e6bae80de4555440f2e03025",
+    "time": "2009-06-11",
+    "date_precision": "day",
+    "summary": "The World Health Organization raised the H1N1 swine flu alert to phase 6, declaring the first influenza pandemic in 41 years.",
+    "time_range": null,
+    "evidence_ids": [
+      "796"
+    ],
+    "job_id": "e83adba58c3eb4d757a872b3fe4b10845f49998296a1f0b29a047551490c397d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ca8ac8b744e6ac81",
+    "reason": "Same date and same WHO phase 6 pandemic declaration as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ca8ac8b744e6ac81"
+  },
+  {
+    "candidate_id": "28598b89b83cef79b7410581",
+    "time": "2009-06-23",
+    "date_precision": "day",
+    "summary": "Germany's federal agency for infectious diseases says there are signs the H1N1 swine flu virus has started to mutate and warns it could spread in a more aggressive form in the coming months.",
+    "time_range": null,
+    "evidence_ids": [
+      "1103"
+    ],
+    "job_id": "c287ff3929ad3be9ee3ea9261c62c7b33e59523db6bfc5c7ce7423aa1c1be5de",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "New mutation warning from Germany's federal infectious disease agency; distinct from prior WHO mutation warnings and adds a later national-agency milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-71343b0c52336810"
+  },
+  {
+    "candidate_id": "e83b21b164a11ed656c230c8",
+    "time": "2009-06-11",
+    "date_precision": "day",
+    "summary": "The World Health Organization formally declares a global H1N1 swine flu pandemic, moving the alert status from level 5 to level 6, as UK health officials play down the implications, noting the declaration is about geography rather than the virus's severity.",
+    "time_range": null,
+    "evidence_ids": [
+      "1135"
+    ],
+    "job_id": "2a020d1f3b3a1ea5e3bcb324ad3eb7100c3f15111ac4b5ed0005facf6b080881",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ca8ac8b744e6ac81",
+    "reason": "Same date and same WHO pandemic declaration event as existing event-ca8ac8b744e6ac81.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ca8ac8b744e6ac81"
+  },
+  {
+    "candidate_id": "76aad11c4c8c8147bd40a275",
+    "time": "2009-06-11",
+    "date_precision": "day",
+    "summary": "The World Health Organization declared a global flu pandemic after holding an emergency meeting, meaning the swine flu virus is spreading in at least two regions of the world.",
+    "time_range": null,
+    "evidence_ids": [
+      "357"
+    ],
+    "job_id": "be251fcfdc958f78963a50c98daa4f928de3d4b61ca234b712fc3843d4ddc57e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ca8ac8b744e6ac81",
+    "reason": "Same date and same WHO pandemic declaration event as existing event-ca8ac8b744e6ac81.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ca8ac8b744e6ac81"
+  },
+  {
+    "candidate_id": "54f910acf40b8942ae3c43df",
+    "time": "2009-04-27",
+    "date_precision": "day",
+    "summary": "The World Health Organization confirms that at least some of the swine flu cases in Mexico and the US are a never-before-seen version of the H1N1 strain of influenza type A, and warns the outbreak could potentially trigger a global pandemic.",
+    "time_range": null,
+    "evidence_ids": [
+      "244"
+    ],
+    "job_id": "198d181092911bea8e38b8c31afa1d19e6b6c760ade91a423d72c2f8fd46fc81",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-96d90f832d0f5378",
+    "reason": "Same date and same initial WHO confirmation of the novel H1N1 strain as existing event-96d90f832d0f5378.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-96d90f832d0f5378"
+  },
+  {
+    "candidate_id": "37acdce4b9777f63e9a6829a",
+    "time": "2009-06-19",
+    "date_precision": "day",
+    "summary": "Drug makers are gearing up to make vaccines against the new H1N1 virus, starting test batches and pledging free doses for poor countries, while governments pledge billions for the vaccine as the World Health Organization declared a pandemic.",
+    "time_range": null,
+    "evidence_ids": [
+      "926"
+    ],
+    "job_id": "4dbe39bff70d2b430cbfae9addcdd3ee7aa5054cb354e732ba202ac0a8a4a24c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Vaccine production scale-up and government funding milestone; distinct from earlier seed-virus and testing-batch events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f0ed313f81ae311b"
+  },
+  {
+    "candidate_id": "042e25632f623f4c2567902c",
+    "time": "2009-06-12",
+    "date_precision": "day",
+    "summary": "Novartis AG expects an H1N1 vaccine to be available by autumn after producing the first batch for testing ahead of schedule, while Baxter International said its A/H1N1 vaccine could be ready for commercial use as early as next month.",
+    "time_range": null,
+    "evidence_ids": [
+      "819"
+    ],
+    "job_id": "525a0e1900cf4c7a8bab9890a0534239177d29cde1d04dbf01be1408f4eb3251",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Company-specific vaccine availability timeline from Novartis and Baxter; distinct date and content from other vaccine events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-25b3adf9c924f647"
+  },
+  {
+    "candidate_id": "2ecd4a135d82d556d532471c",
+    "time": "2009-06-10",
+    "date_precision": "day",
+    "summary": "Drugmakers said they had obtained the new H1N1 flu seed virus and were on track to have a vaccine ready for the northern hemisphere autumn.",
+    "time_range": null,
+    "evidence_ids": [
+      "781"
+    ],
+    "job_id": "d59bc9c8c9f7b80c817f3f96da84caa5c68cfadc3e0959b7d0abd5edd1cb39d9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Drugmakers obtaining H1N1 seed virus and targeting autumn vaccine; distinct milestone from later vaccine production and availability events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-47ae7847667d6a1b"
+  },
+  {
+    "candidate_id": "bd9f8fecd60f0f35a29e3e88",
+    "time": "2009-06-01",
+    "date_precision": "day",
+    "summary": "AstraZeneca's MedImmune unit wins an initial $90 million order from the U.S. government to make a live attenuated vaccine against the new H1N1 flu strain.",
+    "time_range": null,
+    "evidence_ids": [
+      "315"
+    ],
+    "job_id": "660cc87e942e753451fb056ba9bb8eea886fd8178389b15053b833822e533a16",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "First U.S. government vaccine order to MedImmune; distinct procurement milestone not covered by existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-75cfee8fa03ebb0f"
+  },
+  {
+    "candidate_id": "132dedaaaf63764dbce7544d",
+    "time": "2009-05-18",
+    "date_precision": "day",
+    "summary": "Asian health experts and officials express concern that Asia is less prepared for H1N1 vaccine production because more than 90 percent of flu vaccine production capacity is located in the West.",
+    "time_range": null,
+    "evidence_ids": [
+      "684"
+    ],
+    "job_id": "3a32516d5b565ae27e850e96149edfd6d42352a27aa755d562e4c13f4f17108c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 vaccine-production preparedness concern in Asia; no matching existing event on this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8af446dc42ca64ca"
+  },
+  {
+    "candidate_id": "27c8e876cc3453815a2d9bc3",
+    "time": "2009-04-27",
+    "date_precision": "day",
+    "summary": "British scientists at the National Institute for Biological Standards and Control began work on a vaccine against the H1N1 swine flu virus.",
+    "time_range": null,
+    "evidence_ids": [
+      "341"
+    ],
+    "job_id": "fcbfae49012fe0d5127bdff63aa06d986f6bde3db3cef1712dfaa9af1dea92a3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: British scientists began H1N1 vaccine work; distinct from existing 2009-04-27 outbreak event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1cfa4bd3a70f7738"
+  },
+  {
+    "candidate_id": "82caf57f608802678ad71137",
+    "time": "2009-05-11",
+    "date_precision": "day",
+    "summary": "A top WHO official says the H1N1 virus has not shown signs of sustained person-to-person spread outside North America and has not yet tipped over into a pandemic, as WHO laboratories confirm 4,379 infections with the new strain.",
+    "time_range": null,
+    "evidence_ids": [
+      "237"
+    ],
+    "job_id": "0643c844623b42bd7c0414d0e635e84189edbbb57d7ded658af685de057f8979",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant WHO assessment and case tally; no existing event on 2009-05-11.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-421c65a909335ff7"
+  },
+  {
+    "candidate_id": "1db558c4fee0f7e5bee4a8c4",
+    "time": "2009-05-28",
+    "date_precision": "day",
+    "summary": "Scientists used bird flu virus samples from Egypt to develop a new basis for a vaccine against the H5N1 strain, while the H1N1 swine flu strain continued to spread with over 13,000 infections and 95 deaths, and British scientists produced a strain of H1N1 virus that could be used for large-scale vaccine production.",
+    "time_range": null,
+    "evidence_ids": [
+      "143"
+    ],
+    "job_id": "60f6bd4a516fb9408929ec55b54e274161986f16252ec774c2bf3acf891c5ed6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 spread and vaccine-production development; no matching existing event on 2009-05-28.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0526fae6968379d3"
+  },
+  {
+    "candidate_id": "818ec2f088a5962c479ae0de",
+    "time": "2009-05-14",
+    "date_precision": "day",
+    "summary": "A World Health Organization official says the H1N1 flu strain has not yet taken hold outside the Americas but the outbreak is serious and requires close monitoring, with the pandemic alert maintained at Phase 5.",
+    "time_range": null,
+    "evidence_ids": [
+      "712"
+    ],
+    "job_id": "abf37664cc9f9e9d91bc4570163127a65b3e80ab97fc7b6217b06c74152105af",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant WHO Phase 5 monitoring statement; no existing event on 2009-05-14.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-534e6088fc66dbe1"
+  },
+  {
+    "candidate_id": "9b5e7da0a81c3cf00f536e0e",
+    "time": "2009-05-08",
+    "date_precision": "day",
+    "summary": "British scientists announced they had worked out the full genetic code for the swine flu virus, a step expected to aid vaccine development, as the WHO raised its global tally of confirmed H1N1 cases to more than 2,300 and the UK confirmed five new cases.",
+    "time_range": null,
+    "evidence_ids": [
+      "636"
+    ],
+    "job_id": "7d0ffe427831591fc5bdf6fa302e890e734a44cb8f25a3360f2a758023c8dfc7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant genetic-code and vaccine-development milestone; no matching existing event on 2009-05-08.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4606c8cf66da1c65"
+  },
+  {
+    "candidate_id": "5aad29614f07f8c200ba51a8",
+    "time": "2009-06-11",
+    "date_precision": "day",
+    "summary": "The World Health Organization announced that swine flu (H1N1) had achieved pandemic status, the first influenza strain to reach that mark in 41 years.",
+    "time_range": null,
+    "evidence_ids": [
+      "524"
+    ],
+    "job_id": "ba48e2541279a187a3fae1388660bedda94b05b892930b15c35094d8df696504",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ca8ac8b744e6ac81",
+    "reason": "Same date and same WHO pandemic declaration milestone as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ca8ac8b744e6ac81"
+  },
+  {
+    "candidate_id": "4bc7ffbb43559e673cfacb9d",
+    "time": "2009-06-30",
+    "date_precision": "day",
+    "summary": "A case of Tamiflu resistance in an H1N1 swine flu patient in Denmark appears to be drug-induced, with no sign yet of a resistant strain circulating.",
+    "time_range": null,
+    "evidence_ids": [
+      "348"
+    ],
+    "job_id": "1f752dbbc2abfa0bf210989fbd8c928722849bdb4fb82981f3a24fb50b05e4a9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Adds distinct milestone on Tamiflu resistance in an H1N1 patient.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-dd924a84abc52054"
+  },
+  {
+    "candidate_id": "5bb3a7c89296cbc36fe04dd7",
+    "time": "2009-04-29",
+    "date_precision": "day",
+    "summary": "Vials containing samples of the swine flu virus are being sent from the US to a government laboratory north of London as the race for a vaccine begins, with tests underway to determine whether the current seasonal flu vaccine could provide cross protection against the new H1N1 swine flu.",
+    "time_range": null,
+    "evidence_ids": [
+      "687"
+    ],
+    "job_id": "b0408b14a90d7034ec2c3128bfbae491fcd61a40822c26b50dc87f2ef1cfda74",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct vaccine-development milestone; no same-date duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3df6a173a8321eb8"
+  },
+  {
+    "candidate_id": "ee12df64b6155117d586f808",
+    "time": "2009-04-27",
+    "date_precision": "day",
+    "summary": "Live samples of swine flu are to arrive imminently in UK labs, where scientists at the National Institute for Medical Research plan to analyze them to combat the disease.",
+    "time_range": null,
+    "evidence_ids": [
+      "571"
+    ],
+    "job_id": "4160a2d85ebeb70ea27da8758a09f96f832db90e4de83d3e7728a1fa6b9f1a73",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct UK lab sample arrival milestone; no same-date duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-69c331df8f8828f0"
+  },
+  {
+    "candidate_id": "559cf508d51cc82421fae51a",
+    "time": "2009-05-11",
+    "date_precision": "day",
+    "summary": "Researchers report that the new H1N1 flu strain acts more like a pandemic strain than regular seasonal flu, having killed 56 people in Mexico and likely infected as many as 23,000 Mexicans by late April.",
+    "time_range": null,
+    "evidence_ids": [
+      "764"
+    ],
+    "job_id": "4db42c1075a38b5992af1fd691b987e0c4ac14a73fc6cac9bbc157f5bbc260bb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct research finding on pandemic-like behavior and Mexican impact.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f4b7412214596543"
+  },
+  {
+    "candidate_id": "72c123125812f1b45a515aa3",
+    "time": "2009-06-15",
+    "date_precision": "day",
+    "summary": "The WHO reported laboratory-confirmed cases of H1N1 with a mortality rate of 0.45%, contradicting earlier estimates of 5-6%.",
+    "time_range": null,
+    "evidence_ids": [
+      "1097"
+    ],
+    "job_id": "d37c073eb60058fe372e0e742a6306364b22040e8688d72cc630b7ab748333da",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct WHO mortality-rate estimate milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-384a6c69e826744b"
+  },
+  {
+    "candidate_id": "323c9fbf726af879406167fc",
+    "time": "2009-04-29",
+    "date_precision": "day",
+    "summary": "The new H1N1 swine flu has spread to nine countries, may have infected more than 2,500 people and killed dozens in Mexico, including a toddler from Mexico visiting Texas who became the first U.S. death.",
+    "time_range": null,
+    "evidence_ids": [
+      "748"
+    ],
+    "job_id": "2ebc45d511e6d0a0d2a4e332f530d652f6d70fe24e174f1bd9e14e84e41f27a9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct spread and first U.S. death milestone; no same-date duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9c3f97f25532005f"
+  },
+  {
+    "candidate_id": "cb000f3bb948e6562d0eea22",
+    "time": "2009-06-09",
+    "date_precision": "day",
+    "summary": "The WHO says it is on the verge of declaring the first influenza pandemic in more than 40 years due to the sustained spread of the H1N1 strain, but wants to ensure countries are prepared to prevent panic.",
+    "time_range": null,
+    "evidence_ids": [
+      "520"
+    ],
+    "job_id": "854b8305dd2af9b2e7995ee5c9dc5c84a2d30af7da455e52999b1db32ad5aded",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct pre-declaration WHO warning milestone; no same-date duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ba5dbb84bad3ec87"
+  },
+  {
+    "candidate_id": "5dbc13c1a3c6c6a75b353b7a",
+    "time": "2009-05-02",
+    "date_precision": "day",
+    "summary": "The World Health Organisation confirms 787 H1N1 infections in 17 countries.",
+    "time_range": null,
+    "evidence_ids": [
+      "393"
+    ],
+    "job_id": "5dfc9fe0870657c153caea938a75ad14b7b1ea10bc188889b4945aef84b74916",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "WHO confirmation of 787 infections in 17 countries is a relevant H1N1 global spread milestone; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bf04c213745dc996"
+  },
+  {
+    "candidate_id": "ff6ca77240905ed0b3702d29",
+    "time": "2009-05-03",
+    "date_precision": "day",
+    "summary": "Mexico announced that its H1N1 swine flu epidemic had passed the worst, while experts said the new virus might be no more severe than normal flu.",
+    "time_range": null,
+    "evidence_ids": [
+      "1043"
+    ],
+    "job_id": "78c8c4981e75c8c35e2ddb3950f28b127ba48c3c2139a2978776e99caec1a514",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Mexico saying epidemic passed worst and experts noting possible normal severity is a relevant H1N1 development; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-77a2ae46897a0651"
+  },
+  {
+    "candidate_id": "110cebc8c4675824fb8cf046",
+    "time": "2009-05-05",
+    "date_precision": "day",
+    "summary": "A Texas woman in her 30s with underlying health problems dies from the new H1N1 swine flu, marking the second death outside Mexico.",
+    "time_range": null,
+    "evidence_ids": [
+      "886"
+    ],
+    "job_id": "e242729411b081b6ceb9307628ff33d459fafca53c587d9215b002443f204b98",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Second H1N1 death outside Mexico is a relevant outbreak milestone; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4a78f214374824db"
+  },
+  {
+    "candidate_id": "0153e5cadabd624ba2d26b03",
+    "time": "2009-05-16",
+    "date_precision": "day",
+    "summary": "The World Health Organization is closely monitoring an outbreak of H1N1 swine flu in Japan after three students from the same high school who had not traveled abroad were confirmed infected, while Turkey and India confirmed their first cases.",
+    "time_range": null,
+    "evidence_ids": [
+      "786"
+    ],
+    "job_id": "652476d1f044f43072a72f2b1b48d5427c30a69fbde7a9175df9b6eac7c3f861",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "WHO monitoring Japan outbreak plus Turkey and India first cases is a relevant H1N1 spread milestone; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7ccb10a0e80e6d57"
+  },
+  {
+    "candidate_id": "57173860470a30a0c4416b96",
+    "time": "2009-05-03",
+    "date_precision": "day",
+    "summary": "The head of the World Health Organisation, Margaret Chan, suggested the swine flu pandemic alert would eventually move to its highest level, while officials insisted there were no imminent plans to raise the alert level.",
+    "time_range": null,
+    "evidence_ids": [
+      "213"
+    ],
+    "job_id": "287afa93171d564ade396a66b80138192dac1ddc6edd82994f129b773d75463f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "WHO head suggesting eventual highest pandemic alert is a relevant H1N1 response development; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8e97d7f738bc5ab7"
+  },
+  {
+    "candidate_id": "5f12e0a777cbb7ea1f27b5ff",
+    "time": "2009-04-27",
+    "date_precision": "day",
+    "summary": "Replikins Ltd. states that its Replikin Count genomics technology provided advance warning of the Mexican H1N1 swine flu outbreak and that a synthetic H1N1 Replikins vaccine is available for testing.",
+    "time_range": null,
+    "evidence_ids": [
+      "906"
+    ],
+    "job_id": "14e39a9959e3eb396e455e585eaab1cc5c2e0d91ffcb75517542f8deedaf4fc6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Replikins claim of advance warning and available synthetic H1N1 vaccine is a relevant H1N1 vaccine/response item; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-178b742bed21575b"
+  },
+  {
+    "candidate_id": "556325478177ca48e9cb5e7e",
+    "time": "2009-05-22",
+    "date_precision": "day",
+    "summary": "WHO chief Margaret Chan warns countries to prepare for more severe H1N1 flu infections and deaths, saying the virus must be closely monitored in Asia, Africa and South America.",
+    "time_range": null,
+    "evidence_ids": [
+      "415"
+    ],
+    "job_id": "2611727db7fbbf074907d41dc1145ae799840570fef2999dcf8bd2214931a190",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "WHO warning countries to prepare for more severe H1N1 infections is a relevant pandemic preparedness milestone; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6009069fd6af1444"
+  },
+  {
+    "candidate_id": "28f692bf9263d635aabf9bb3",
+    "time": "2009-06-30",
+    "date_precision": "day",
+    "summary": "The World Health Organization says the first H1N1 infection found to be resistant to the antiviral drug Tamiflu represents an isolated case with no current implications for public health.",
+    "time_range": null,
+    "evidence_ids": [
+      "489"
+    ],
+    "job_id": "0af210bd110777f6d36fd62af793bb85ca5654c02418a0def7df7a3af70bfc45",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-dd924a84abc52054",
+    "reason": "Same date and same Tamiflu-resistance H1N1 development as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-dd924a84abc52054"
+  },
+  {
+    "candidate_id": "2718cda7ea0e079c8029280f",
+    "time": "2009-05-10",
+    "date_precision": "day",
+    "summary": "The WHO reports that H1N1 flu has infected 4,379 people in 29 countries, with Mexico reporting 1,626 confirmed cases and 45 deaths, and Costa Rica reporting its first death.",
+    "time_range": null,
+    "evidence_ids": [
+      "28"
+    ],
+    "job_id": "530c5a1a0382a0f73526ff1f434625f9fbe98e075a7796417d1bcfcac6f20ab6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Adds WHO global case/death count and Costa Rica's first death milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1fec42d12f0ff401"
+  },
+  {
+    "candidate_id": "f8ff336f61a9a5e0ad3a719a",
+    "time": "2009-06-19",
+    "date_precision": "day",
+    "summary": "The new H1N1 flu strain is causing an extended year-round flu season in the United States that disproportionately hits young people, with ongoing transmission possibly continuing into the fall and winter, according to CDC officials.",
+    "time_range": null,
+    "evidence_ids": [
+      "339"
+    ],
+    "job_id": "3e7727c44a1ea93f6de109d66d84d2e27ec6197b6de8dae082af997bce9a1768",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Adds CDC assessment of extended U.S. H1N1 transmission and young-person impact.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f3ed0883e5ca4e67"
+  },
+  {
+    "candidate_id": "f94e9569ca19bf538d62c882",
+    "time": "2009-04-25",
+    "date_precision": "day",
+    "summary": "The World Health Organization warned that a new swine flu strain that killed up to 68 people in Mexico could start a global epidemic, as tests showed the virus might be spreading in the United States.",
+    "time_range": null,
+    "evidence_ids": [
+      "936"
+    ],
+    "job_id": "02316b974d68367cd71de663d51b62ea7134dcbc456424faad54f2b838e1731e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Early WHO warning that the new swine flu strain could start a global epidemic.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3c011d9e9dc38e94"
+  },
+  {
+    "candidate_id": "268fd73e5cabda5227a06b1a",
+    "time": "2009-05-05",
+    "date_precision": "day",
+    "summary": "With Mexico saying the worst may be over and the new H1N1 virus starting to look more like a seasonal flu strain in the United States and elsewhere, critics are going to start asking if public health officials overreacted to the outbreak.",
+    "time_range": null,
+    "evidence_ids": [
+      "925"
+    ],
+    "job_id": "651ba6c0782a90ac5a25c013bd98892aa753c28a6df66abaab5a4ff324b26b53",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Captures shift in outbreak narrative and criticism over possible overreaction.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-af8e586affbc5418"
+  },
+  {
+    "candidate_id": "fb37bb91ed311903ed0ae95d",
+    "time": "2009-02-19",
+    "date_precision": "day",
+    "summary": "CDC researchers report that 98.5 percent of tested U.S. influenza A (H1N1) viruses were resistant to oseltamivir (Tamiflu), with four resistant-strain patients having died.",
+    "time_range": null,
+    "evidence_ids": [
+      "291"
+    ],
+    "job_id": "41dc0f78803e4590a5a0b7bcced416b3613d76c2fb349b85193aa13d0a568140",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 antiviral resistance milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-eab7728166ffe6a5"
+  },
+  {
+    "candidate_id": "428d56f654b6641ce1e26308",
+    "time": "2009-05-16",
+    "date_precision": "day",
+    "summary": "India confirms its first case of H1N1 flu in the southern city of Hyderabad.",
+    "time_range": null,
+    "evidence_ids": [
+      "1010"
+    ],
+    "job_id": "2ef962b97745ac3cc404cc43e4ac4111a289dd282d15bc65e565289ee18a94f1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-7ccb10a0e80e6d57",
+    "reason": "Same date and same India first-case milestone already covered by existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7ccb10a0e80e6d57"
+  },
+  {
+    "candidate_id": "34856c071d20b95e66a2d597",
+    "time": "2009-05-18",
+    "date_precision": "day",
+    "summary": "U.S. health officials report that the H1N1 swine flu virus has spread to 48 states, is causing a disproportionate number of hospitalizations among children, teenagers, and young adults, and has killed a New York City school vice principal.",
+    "time_range": null,
+    "evidence_ids": [
+      "1142"
+    ],
+    "job_id": "6a96d9bbedc435afca5efb16e2b94745ba97114efeca7beb09d79bbe450a792f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant U.S. spread and mortality update; no same-date duplicate existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e08585403d1d3fc4"
+  },
+  {
+    "candidate_id": "ca350031ad5fa80367f0fc6d",
+    "time": "2009-05-01",
+    "date_precision": "day",
+    "summary": "Samples of the H1N1 virus arrived at the National Institute for Medical Research in north London, where scientists will grow the virus structure and study how it might evolve to help develop a vaccine.",
+    "time_range": null,
+    "evidence_ids": [
+      "563"
+    ],
+    "job_id": "12cd44f26b6ae8f901a65746de30bf22b08561b298fa3ce7ae5f50c2cd1aecf4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant vaccine research milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7f6d9310556c5c71"
+  },
+  {
+    "candidate_id": "8ba513def4c6555b1178737c",
+    "time": "2009-06-11",
+    "date_precision": "day",
+    "summary": "German authorities confirmed 30 cases of H1N1 flu at a Japanese school in Dusseldorf, the most concentrated outbreak in Germany at that time.",
+    "time_range": null,
+    "evidence_ids": [
+      "300"
+    ],
+    "job_id": "832e7e4ef1b3e057dca088ef4a2b966cd04c39afdc99287b8faf52cade30add3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant localized H1N1 outbreak; distinct from pandemic declaration event on same date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8b4ab66b14cbbc8b"
+  },
+  {
+    "candidate_id": "7e979513f33236e541c43725",
+    "time": "2009-05-12",
+    "date_precision": "day",
+    "summary": "A leading virologist describes the new H1N1 influenza virus as \"very unstable,\" warning it could exchange genetic material with H5N1, as the virus has infected 5,251 people in 30 countries and killed 61.",
+    "time_range": null,
+    "evidence_ids": [
+      "978"
+    ],
+    "job_id": "adfe34315d896362e9c4a03aced1ff603fa6db30852e64bf068d6e8fa3e7efec",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-59ff07b17c6d97bc",
+    "reason": "Same date and same virologist/WHO mutation-warning milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-59ff07b17c6d97bc"
+  },
+  {
+    "candidate_id": "aa8a1cf2c24d88f1fb6250e5",
+    "time": "2009-06-10",
+    "date_precision": "day",
+    "summary": "The World Health Organization says a sharp increase in swine flu cases in Australia may mean the H1N1 infection has become a pandemic, but no decision has been taken on moving to phase six.",
+    "time_range": null,
+    "evidence_ids": [
+      "459"
+    ],
+    "job_id": "ba00bfeca816c2910e73eaf16c305af819fa19c765e83d8f88147519e147ac0a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant WHO pandemic-phase signal; distinct from vaccine seed-virus event on same date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-da97ecc345513e57"
+  },
+  {
+    "candidate_id": "e4bcd63959a52f155829f41c",
+    "time": "2009-04-30",
+    "date_precision": "day",
+    "summary": "Novartis AG said it will use data from a study on its pre-pandemic bird flu vaccine Aflunov and adjuvant MF59 to help develop a vaccine against the H1N1 swine flu virus.",
+    "time_range": null,
+    "evidence_ids": [
+      "1058"
+    ],
+    "job_id": "36f12904d8790bf9ae05559b29d9bf7c605e0340c52e96403fae49fd2165f477",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 vaccine development milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0583a67e88ae21f4"
+  },
+  {
+    "candidate_id": "9af7c6501aa8541bc8dae295",
+    "time": "2009-05-25",
+    "date_precision": "day",
+    "summary": "The WHO reports the H1N1 flu strain has spread to Taiwan, Kuwait, Iceland, Switzerland and Honduras, with 12,515 confirmed infections and 91 deaths globally.",
+    "time_range": null,
+    "evidence_ids": [
+      "852"
+    ],
+    "job_id": "b14fe113a2dadd88fca75b04a58005369192bb4d4c92637ee2e3d160679db4dc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant global H1N1 spread update; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5ef25c1ccb56dab9"
+  },
+  {
+    "candidate_id": "50fafa189bba421a2bd27ac3",
+    "time": "2009-06-01",
+    "date_precision": "day",
+    "summary": "Cases of the new H1N1 flu virus have been found in all 50 U.S. states and tests have confirmed the virus in more than 10,000 people across the country, with California reporting its first two deaths.",
+    "time_range": null,
+    "evidence_ids": [
+      "314"
+    ],
+    "job_id": "bc1901e700cf5802c410792dbc4ef574622e29e8f84ce1e1636180a0cf51124d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant U.S. H1N1 spread milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a5f924a832a90325"
+  },
+  {
+    "candidate_id": "c8c2232995d1d2639845ae8f",
+    "time": "2009-06-15",
+    "date_precision": "day",
+    "summary": "A female patient in Scotland becomes the first person in the UK to die after being confirmed with the H1N1 swine flu virus.",
+    "time_range": null,
+    "evidence_ids": [
+      "1095"
+    ],
+    "job_id": "5b0c5d922c3e5b2aaf13e800e87371159ff790fee8d1fe655f3d4847afd1e279",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant first UK H1N1 death; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ffcb03694baf8216"
+  },
+  {
+    "candidate_id": "9fc8a566d92ee0e914636087",
+    "time": "2009-06-30",
+    "date_precision": "day",
+    "summary": "A single patient in Denmark is reported to have developed Tamiflu resistance while taking the drug, which Roche says appears drug-induced and does not indicate a resistant H1N1 swine flu strain is circulating.",
+    "time_range": null,
+    "evidence_ids": [
+      "1100"
+    ],
+    "job_id": "7498abaf2eacac469d1f598933fed8b5dba4e12a3bc8e747eea3749a06fc43c0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-dd924a84abc52054",
+    "reason": "Duplicate of existing June 30 Tamiflu resistance event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-dd924a84abc52054"
+  },
+  {
+    "candidate_id": "3f90a643354716e776fba003",
+    "time": "2009-06-26",
+    "date_precision": "day",
+    "summary": "Experts report the first case of swine flu resistant to Tamiflu, in a patient in Denmark, while the UK announces a jump in confirmed swine flu cases and a third death.",
+    "time_range": null,
+    "evidence_ids": [
+      "782"
+    ],
+    "job_id": "b67c1f48dada7e4582be017c806181c9cb4f1f27f4cd689f2ffcdb2a9659b669",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant first Tamiflu-resistant H1N1 case and UK update; date differs from existing June 30 event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-77bdfcf2d1844c72"
+  },
+  {
+    "candidate_id": "a90c8ddb5690cf54c67be787",
+    "time": "2009-04-26",
+    "date_precision": "day",
+    "summary": "The UK health secretary says Tamiflu has proved effective on swine flu patients in Mexico, and testing shows the H1N1 virus can be treated with antivirals Tamiflu and Relenza.",
+    "time_range": null,
+    "evidence_ids": [
+      "727"
+    ],
+    "job_id": "81177d104d95e827b09300391adb032f1be53878319e41877545254cbba54753",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 antiviral treatment milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0874444115e25465"
+  },
+  {
+    "candidate_id": "0b86e0ad9d46e70b415861f2",
+    "time": "2009-04-30",
+    "date_precision": "day",
+    "summary": "No cases of H1N1 swine flu had been reported in Africa, though cases had been confirmed almost everywhere else.",
+    "time_range": null,
+    "evidence_ids": [
+      "461"
+    ],
+    "job_id": "db03f462f2160551bf7069637e0bcbfbb37de04b2f871bf1d458244b39606d21",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 geographic spread status; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2c7104ca3488b9cb"
+  },
+  {
+    "candidate_id": "7f39081747a7e80b36072c11",
+    "time": "2009-05-12",
+    "date_precision": "day",
+    "summary": "A World Health Organization expert says most H1N1 flu patients do not require antiviral therapy to recover, but stresses the importance of developing a pandemic vaccine due to the risk of future drug resistance.",
+    "time_range": null,
+    "evidence_ids": [
+      "76"
+    ],
+    "job_id": "f95b681972aa6dd808df48409d18ab3d286445eafdcf686d324efa97f09609a5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant WHO expert statement on antiviral therapy and pandemic vaccine need; distinct from same-day WHO mutation warning.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5702a1074d9f3eee"
+  },
+  {
+    "candidate_id": "42597413f89b630d97d3adfe",
+    "time": "2009-05-07",
+    "date_precision": "day",
+    "summary": "Four children and one adult linked to Alleyn's School in Dulwich, south-east London, are diagnosed with swine flu, taking the total number of UK cases to 39.",
+    "time_range": null,
+    "evidence_ids": [
+      "980"
+    ],
+    "job_id": "035e09f8eae0f88de52002912b276eccedbfd0ebfc95c85b3700af4668dc71a9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant UK H1N1 case milestone; no matching existing event on 2009-05-07.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7e1c9512d6074dc3"
+  },
+  {
+    "candidate_id": "25d5c0e6aa134fb983802d2d",
+    "time": "2009-05-21",
+    "date_precision": "day",
+    "summary": "The Philippines records its first H1N1 case and new infections are confirmed in Japan, China, and Taiwan as the virus spreads in Asia.",
+    "time_range": null,
+    "evidence_ids": [
+      "630"
+    ],
+    "job_id": "b526cd7dfd3a670dc283752ff4f7afaba273adb62706c7a60311a0e404ea537b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "First Philippine H1N1 case and new Asian infections mark geographic spread milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b752ea5aca3aaaf9"
+  },
+  {
+    "candidate_id": "f765323897bd3dbab186dda2",
+    "time": "2009-05-01",
+    "date_precision": "day",
+    "summary": "Mexico City begins a five-day nationwide shutdown to halt the spread of the H1N1 flu virus, as authorities say the epidemic appears to be easing.",
+    "time_range": null,
+    "evidence_ids": [
+      "477"
+    ],
+    "job_id": "3f9eb9eaa236a09ed937276f7cbf7d71622cb0b48cd0086311260cbb2b4de235",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Mexico City's five-day shutdown is a distinct containment milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6b1e69f3e0786787"
+  },
+  {
+    "candidate_id": "8eacf8593e40bff0adfc8082",
+    "time": "2009-04-30",
+    "date_precision": "day",
+    "summary": "Mexico began shutting down parts of its economy to slow the spread of a new H1N1 flu strain, as the WHO maintained its alert level one step below full pandemic and stopped referring to the virus as \"swine flu.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "234"
+    ],
+    "job_id": "1d695eb3a5fdcb20eb081ea7f71d7afcec9ff2572d1829762604369fe5abc726",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Mexico economic shutdown and WHO alert-level status are distinct from other dated events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f033c013fdaf0005"
+  },
+  {
+    "candidate_id": "dd9f334067f5b7b7a5828d06",
+    "time": "2009-06-29",
+    "date_precision": "day",
+    "summary": "A report shows the new H1N1 swine flu strain spread along airline routes, with the WHO confirming 70,893 cases and 311 deaths, and Iraq, Lithuania, Monaco and Nepal confirming their first cases.",
+    "time_range": null,
+    "evidence_ids": [
+      "1116"
+    ],
+    "job_id": "c538d137599432c0b7323aecfa9f07f9a1e7f75e97786be5dd8485638ba51511",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Airline-route spread report and new country confirmations are a distinct global spread milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8b08e7a874f8f963"
+  },
+  {
+    "candidate_id": "c5e3465fc146278a11537787",
+    "time": "2009-04-27",
+    "date_precision": "day",
+    "summary": "Fears of a global flu pandemic grew as a dangerous new strain of swine flu (H1N1) killed up to 81 people in Mexico and spread to the United States, Canada, and other countries.",
+    "time_range": null,
+    "evidence_ids": [
+      "753"
+    ],
+    "job_id": "3d3cff8cdeb26e23498dcf6c47a706258205bddb21c0bdfa3c74a6023ba1dedb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Early global pandemic fears and Mexico death toll are a distinct outbreak milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-39ecc4fffb001d8c"
+  },
+  {
+    "candidate_id": "6bd42e1f903b7fb6efba24ba",
+    "time": "2009-06-17",
+    "date_precision": "day",
+    "summary": "Venezuela quarantines a Spanish cruise ship after three crew members were diagnosed with the H1N1 flu virus, while Barbados and Grenada refuse to allow its passengers to disembark.",
+    "time_range": null,
+    "evidence_ids": [
+      "402"
+    ],
+    "job_id": "1c071b845ce35dfa903f0b64558159395a8ef57db605883a4408c17cb37e5b96",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruise ship quarantine and port refusals are a distinct H1N1 containment event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-26557fed698acfe3"
+  },
+  {
+    "candidate_id": "5a8ac9bac0346cce730ad505",
+    "time": "2009-04-27",
+    "date_precision": "day",
+    "summary": "The WHO raised its pandemic alert level for the swine flu virus to phase 4, indicating a significantly increased risk of a pandemic.",
+    "time_range": null,
+    "evidence_ids": [
+      "987"
+    ],
+    "job_id": "21f3a5c2aab974b6da8d78ddb3d084ecac12bc103451ac012faf40d2cdc61932",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "WHO raising pandemic alert to phase 4 is a distinct response milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a2a5d1611b75d637"
+  },
+  {
+    "candidate_id": "d1d5d4d578572de111a40af8",
+    "time": "2009-05-17",
+    "date_precision": "day",
+    "summary": "The World Health Organization reports that confirmed H1N1 swine flu cases have risen to 8,480 with 72 deaths, as the virus spreads to 39 countries.",
+    "time_range": null,
+    "evidence_ids": [
+      "867"
+    ],
+    "job_id": "3b73ba5cf3b48738fb55ac280fdf1c50311153fadf537ba5c456c22c2761445f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "WHO case and death totals with 39-country spread are a distinct global status update.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3fdb180c0e21d9a5"
+  },
+  {
+    "candidate_id": "a381846a786cd15d7454be61",
+    "time": "2009-05-02",
+    "date_precision": "day",
+    "summary": "Mexico's H1N1 swine flu outbreak appeared to be stabilizing, though officials warned the virus still threatened a global pandemic and the WHO said a pandemic was imminent.",
+    "time_range": null,
+    "evidence_ids": [
+      "142"
+    ],
+    "job_id": "8e1869c3604c3fb73ef147526a8c69c8d47d7e35901af5a45808139b819ba8e7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 milestone on Mexico stabilization and pandemic warnings; same date as WHO case-count event but distinct content, so separate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c116c0af9a70cab6"
+  },
+  {
+    "candidate_id": "e02b3fd17823018aa140baf3",
+    "time": "2009-05-12",
+    "date_precision": "day",
+    "summary": "Researchers say the H1N1 swine flu virus has \"full pandemic potential\" and could infect a third of the world's population within six to nine months, though they declined to estimate the death toll.",
+    "time_range": null,
+    "evidence_ids": [
+      "132"
+    ],
+    "job_id": "4442320421be83ee9831060e97f6a19a18681c76771fa4b7f2124339f8f90a43",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 pandemic-potential projection; distinct from existing 2009-05-12 events, which cover mutation warning and antiviral guidance.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7bd9fc5744a9c24a"
+  },
+  {
+    "candidate_id": "1bd4ea456b928b3376c85f5f",
+    "time": "2009-04-26",
+    "date_precision": "day",
+    "summary": "The death toll from an outbreak of a human swine flu virus rises to more than 80 in Mexico, with suspected cases reported in New Zealand and the United States, as the WHO says the virus has pandemic potential but stops short of issuing a worldwide alert.",
+    "time_range": null,
+    "evidence_ids": [
+      "970"
+    ],
+    "job_id": "eb5e272bf6d5afc9b1b2242eb1d0bd60395f450e152266e0a6f5005da86f0321",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-d404061f39f93f52",
+    "reason": "Same date and same WHO pandemic-potential warning with Mexico deaths and US/New Zealand cases.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d404061f39f93f52"
+  },
+  {
+    "candidate_id": "c23dc7ad9eed66204cb357e1",
+    "time": "2009-06-23",
+    "date_precision": "day",
+    "summary": "Argentine health officials report seven more swine flu deaths, bringing the country's total to 17.",
+    "time_range": null,
+    "evidence_ids": [
+      "975"
+    ],
+    "job_id": "dddc68610bc321bcc47ad2596e25b52c93fe3c0c852958d0ce964d44aee6d39e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 mortality milestone in Argentina; no existing event on this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a6196abc2236054b"
+  },
+  {
+    "candidate_id": "dc7aea73b61e41adb72364f2",
+    "time": "2009-04-29",
+    "date_precision": "day",
+    "summary": "The World Health Organization raised its swine flu alert level to phase 5, the last step before a pandemic, as the H1N1 virus spread and killed a toddler in Texas, the first death outside Mexico.",
+    "time_range": null,
+    "evidence_ids": [
+      "899"
+    ],
+    "job_id": "2dcabe56256da9197a5cd663a0e6bd6a033719624a29f8e99368a788dfdd1384",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant WHO phase 5 escalation and first death outside Mexico; distinct from existing 2009-04-29 events on spread/vaccine.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e423d2a5328d2466"
+  },
+  {
+    "candidate_id": "6826751203dc72bbecf2619d",
+    "time": "2009-05-26",
+    "date_precision": "day",
+    "summary": "The number of swine flu cases in Australia doubled in the last day to 59, with the virus confirmed in most Australian states and territories.",
+    "time_range": null,
+    "evidence_ids": [
+      "1109"
+    ],
+    "job_id": "971bb6f3a6778d95e7124a985a1ec9458f5fdeb26a7953c0a33ec8bf036c27af",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "New milestone: Australian H1N1 case count doubles to 59, showing spread across states and territories.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c1a8d02c3651940a"
+  },
+  {
+    "candidate_id": "35fa8157f79860d6da21905f",
+    "time": "2009-06-18",
+    "date_precision": "day",
+    "summary": "South Africa confirms its first swine flu case, a 12-year-old boy who flew in from the US, marking the first known case of the H1N1 virus in sub-Saharan Africa.",
+    "time_range": null,
+    "evidence_ids": [
+      "282"
+    ],
+    "job_id": "41a10f48a20de27c06643eb59948c1985a9756b03a62da7e0e74d1be34622f46",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "New milestone: first confirmed H1N1 case in South Africa and sub-Saharan Africa.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-25ebd89c80e08116"
+  },
+  {
+    "candidate_id": "55693eb6d14b9d8c18a68266",
+    "time": "2009-04-27",
+    "date_precision": "day",
+    "summary": "The World Health Organization revised its six-point pandemic alert scale, specifying that phase 5 would signal a pandemic is imminent, as an emergency committee assessed a swine flu outbreak that had killed up to 149 people in Mexico and spread worldwide.",
+    "time_range": null,
+    "evidence_ids": [
+      "295"
+    ],
+    "job_id": "cd02272556189ffc6045e3a2dc9694f57defba06618823299f2bbe76ac2a2280",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant WHO pandemic alert scale revision and emergency committee assessment; distinct from existing April 27 events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4b45859439214667"
+  },
+  {
+    "candidate_id": "90dbe6114d30d1e80d72c534",
+    "time": "2009-06-11",
+    "date_precision": "day",
+    "summary": "The World Health Organization declared an influenza pandemic and raised its pandemic flu alert to phase 6, indicating the first influenza pandemic since 1968 is under way.",
+    "time_range": null,
+    "evidence_ids": [
+      "860"
+    ],
+    "job_id": "33cf03b253ad6b16fbceddbcf62a0e37355f66a2bd8ac6e0a8376c7e3a3eee08",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ca8ac8b744e6ac81",
+    "reason": "Duplicate of existing June 11 WHO pandemic declaration event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ca8ac8b744e6ac81"
+  },
+  {
+    "candidate_id": "ce95462e3a041ae1fc03c98f",
+    "time": "2009-06-11",
+    "date_precision": "day",
+    "summary": "The World Health Organization declared an influenza pandemic, raising its pandemic flu alert to phase 6, indicating the first influenza pandemic since 1968 is under way.",
+    "time_range": null,
+    "evidence_ids": [
+      "379"
+    ],
+    "job_id": "e7a3d38afa82352f3b8d754f4d63b480110e92c5e239d9f17522e649f9781698",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ca8ac8b744e6ac81",
+    "reason": "Duplicate of existing June 11 WHO pandemic declaration event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ca8ac8b744e6ac81"
+  },
+  {
+    "candidate_id": "d6baee5410d4e2b387463531",
+    "time": "2009-05-20",
+    "date_precision": "day",
+    "summary": "The World Health Organization reports that confirmed cases of the new Influenza A (H1N1) flu have risen to 10,243 and the death toll has edged up to 80.",
+    "time_range": null,
+    "evidence_ids": [
+      "1046"
+    ],
+    "job_id": "e4430b92fba348a375d08e99e5a0bf0c90552d709a9469739fea2a8e913645fe",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "New milestone: WHO reports 10,243 confirmed H1N1 cases and 80 deaths.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-20a87d441e0c9ced"
+  },
+  {
+    "candidate_id": "7f324a3cc7fa0dc8c6b2393f",
+    "time": "2009-04-29",
+    "date_precision": "day",
+    "summary": "A 23-month-old child dies in Texas from the new H1N1 swine flu, becoming the first death in the United States and the first outside Mexico from the virus.",
+    "time_range": null,
+    "evidence_ids": [
+      "353"
+    ],
+    "job_id": "6eed1542c3e8f55ffb2250e6a703056a6f716bb2749fc670943d1f247051c5b9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-9c3f97f25532005f",
+    "reason": "Same 2009-04-29 event: first U.S. H1N1 death, a toddler in Texas; duplicate of existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9c3f97f25532005f"
+  },
+  {
+    "candidate_id": "3e279731e1c0c98e29b3b902",
+    "time": "2009-06-17",
+    "date_precision": "day",
+    "summary": "Israeli President Shimon Peres and staff at his official home were cleared of H1N1 virus infection after he was tested for swine flu following a meeting with a group later found to be infected.",
+    "time_range": null,
+    "evidence_ids": [
+      "1212"
+    ],
+    "job_id": "6ef0572636d94eb035030faa566d557f5577322fa6c2a24ef79929372e3ce1e3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 milestone: Israeli president and staff cleared after possible exposure; no same-date duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-32295d3058376069"
+  },
+  {
+    "candidate_id": "6b8705bf9fb96bb4a7b02e39",
+    "time": "2009-05-19",
+    "date_precision": "day",
+    "summary": "WHO Director-General Margaret Chan said vaccine makers could produce 4.9 billion pandemic flu shots per year in the best-case scenario, while UN Secretary-General Ban Ki-moon warned that the world may be in a grace period with H1N1 but is still in the danger zone.",
+    "time_range": null,
+    "evidence_ids": [
+      "1205"
+    ],
+    "job_id": "977feedc3be375016c3285d9149a907eea14939190a847fca4b057afd5384b62",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 milestone on vaccine production capacity and pandemic risk; no existing event with the same date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4df8dc40e57b58ca"
+  },
+  {
+    "candidate_id": "a077251f0ec2f7879896dd7f",
+    "time": "2009-05-08",
+    "date_precision": "day",
+    "summary": "The UK chief medical officer warns that swine flu may be more infectious than currently appears and that guidance on catching it may have to be changed, while the WHO says unchecked H1N1 could affect almost a third of the population.",
+    "time_range": null,
+    "evidence_ids": [
+      "1150"
+    ],
+    "job_id": "12f6a8f774e17b7c6f18ec0699d703bd4eeca54962a37559c81dce18a62717d5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 transmission and WHO impact warning; same date as an existing event but distinct content, so not a duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-efdc72ae9e1048de"
+  },
+  {
+    "candidate_id": "ca8a4f52e11120163c4a46d7",
+    "time": "2009-04-28",
+    "date_precision": "day",
+    "summary": "Manufacturers take first preparatory steps to develop a vaccine against a new H1N1 swine flu strain that has killed up to 149 people in Mexico and threatens to become a pandemic.",
+    "time_range": null,
+    "evidence_ids": [
+      "806"
+    ],
+    "job_id": "35db18b1956a561fd66355a541a8ef19ef765eab41f941bb11ace12ffc0e8c08",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant early H1N1 vaccine development milestone; no existing event with the same date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a8a8b74d387dcf56"
+  },
+  {
+    "candidate_id": "7be64319ab37d9fceccce732",
+    "time": "2009-05-16",
+    "date_precision": "day",
+    "summary": "Health negotiators from rich and poor countries failed to reach a full deal on virus sharing for vaccine production, though they forwarded a framework agreement with gaps to the World Health Assembly, amid the H1N1 outbreak.",
+    "time_range": null,
+    "evidence_ids": [
+      "1023"
+    ],
+    "job_id": "947f93857df31802817551e0bd0cce1551f831e2308a9f9db7b60315c38cab08",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 milestone on virus-sharing negotiations for vaccine production; distinct from existing 2009-05-16 event about Japan/Turkey/India cases.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7edd42a88ad76eab"
+  },
+  {
+    "candidate_id": "a7929eb75b19236ab5b9b41c",
+    "time": "2009-06-02",
+    "date_precision": "day",
+    "summary": "The number of swine flu (H1N1) cases in the UK climbed to more than 330, with over 60 new cases recorded on Tuesday, while scientists at GSK began analyzing a sample of the virus to develop a vaccine.",
+    "time_range": null,
+    "evidence_ids": [
+      "955"
+    ],
+    "job_id": "0d2ebca58e008e251fbb08702b4fdf3e57ea65df9e13ab28afb39cf673f91b4f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 update on UK case count and GSK vaccine sample analysis; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1d9aa54eb461f839"
+  },
+  {
+    "candidate_id": "bb91b5ebdfb216f7a66ec435",
+    "time": "2009-04-27",
+    "date_precision": "day",
+    "summary": "A Chinese virologist warns that a possible swine flu pandemic could not be contained within a short time and that China and India would be ill-prepared to handle it.",
+    "time_range": null,
+    "evidence_ids": [
+      "1003"
+    ],
+    "job_id": "965dad340e94ec7e023f778e5608eb98685a29a50065a4d68262a684e01d6542",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant expert warning about H1N1 pandemic containment and preparedness; distinct from existing 2009-04-27 outbreak/vaccine/WHO events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-67a2733fec13a32b"
+  },
+  {
+    "candidate_id": "d7371ae51348dc8b9e97347a",
+    "time": "2009-05-10",
+    "date_precision": "day",
+    "summary": "The U.S. CDC reports 2,532 confirmed H1N1 swine flu cases in 44 states and three deaths.",
+    "time_range": null,
+    "evidence_ids": [
+      "622"
+    ],
+    "job_id": "4ae83b549582e1ff8235f1ce7b9e651b18691120d0a3735461c63b093ca1bd6a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant U.S. CDC H1N1 case and death milestone; same date as a WHO global report but distinct U.S. national data, so not a duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0ed9ac9418e29587"
+  },
+  {
+    "candidate_id": "11a19c530f108126d8559b48",
+    "time": "2009-04-27",
+    "date_precision": "day",
+    "summary": "Countries worldwide move to contain the spread of a possible pandemic after a new swine flu outbreak killed 103 people in Mexico, with 20 cases identified in the United States and six in Canada and possible cases being checked as far afield as New Zealand.",
+    "time_range": null,
+    "evidence_ids": [
+      "561"
+    ],
+    "job_id": "cff1eababe3f1d9c8acf05d0309d53ab976a9d1a9d0d5904a565e02c036b9e60",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-39ecc4fffb001d8c",
+    "reason": "Same date and same global H1N1 containment/mortality milestone as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-39ecc4fffb001d8c"
+  },
+  {
+    "candidate_id": "d170a987a63944ddd7034151",
+    "time": "2009-06-17",
+    "date_precision": "day",
+    "summary": "China plans to restrict movement in residential areas and shut down entertainment centres under worst-case contingency plans to prevent the H1N1 flu strain from spreading.",
+    "time_range": null,
+    "evidence_ids": [
+      "787"
+    ],
+    "job_id": "4c8ad2fc5f870b7c52e640499d9fd08ddd626ba5a5d951fdd039bb8b8910ff97",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct H1N1 containment contingency planning milestone in China.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-408d5fe964899a58"
+  },
+  {
+    "candidate_id": "e5be3f7b11f4c78008bf7620",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush concedes that much of the pre-war intelligence on Iraq 'turned out to be wrong' but insists the conflict was justified anyway due to the threat posed by Saddam Hussein.",
+    "time_range": null,
+    "evidence_ids": [
+      "67"
+    ],
+    "job_id": "eca678efcb177b2ebd2cc15c4db067ca7e50fc63c206a1b219ca3885f0a40ba6",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Iraq war intelligence statement unrelated to H1N1.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "2ca96cdfb3cf1f7793b885c1",
+    "time": "2009-05-19",
+    "date_precision": "day",
+    "summary": "Health officials in Japan confirmed the first cases of swine flu in Tokyo, with two schoolgirls testing positive for the H1N1 virus after returning from a trip to New York.",
+    "time_range": null,
+    "evidence_ids": [
+      "400"
+    ],
+    "job_id": "fbce586f0d2e50cdc0605f4ee071565b8e10522b25331d72fd7eb6bc45fce77f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "First confirmed H1N1 cases in Tokyo; distinct geographic milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d2364175488af2da"
+  },
+  {
+    "candidate_id": "66f9a847ec9f3df43e677efb",
+    "time": "2009-05-09",
+    "date_precision": "day",
+    "summary": "Japan and Australia announce their first cases of the new H1N1 flu.",
+    "time_range": null,
+    "evidence_ids": [
+      "721"
+    ],
+    "job_id": "572bc846647bc790b04d2b45642fcc10f51c2eacbdfbf62e0a19a185360b7315",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "First H1N1 cases in Japan and Australia; distinct national spread milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c2ad4b8980ef1676"
+  },
+  {
+    "candidate_id": "47a34bdc1e73c8946c8b5257",
+    "time": "2009-05-08",
+    "date_precision": "day",
+    "summary": "U.S. health officials warn that outbreaks of the new H1N1 flu are worsening, while a top WHO official predicts up to a third of the world's population could eventually become infected.",
+    "time_range": null,
+    "evidence_ids": [
+      "10"
+    ],
+    "job_id": "bd1939ae070dc5c0ccc0b4efd750f588ea1ec031f7d035532cc1d52ff0eed5e9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-efdc72ae9e1048de",
+    "reason": "Same date and same WHO warning about H1N1 potentially affecting a third of the population.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-efdc72ae9e1048de"
+  },
+  {
+    "candidate_id": "83fe83ad2b184d9bebe0aa06",
+    "time": "2009-06-22",
+    "date_precision": "day",
+    "summary": "The World Health Organization reports a sharp increase in global H1N1 swine flu cases, with 52,160 laboratory-confirmed cases and 231 deaths across around 100 countries and territories.",
+    "time_range": null,
+    "evidence_ids": [
+      "1022"
+    ],
+    "job_id": "352bf90e34fd2992983296359429a7c290e8dfdcc5c5a46f37216d3a0cc40f30",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Global WHO H1N1 case and death tally milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-250d6567c82ec9ea"
+  },
+  {
+    "candidate_id": "83ee36bf7cd30e6bb63c7d0d",
+    "time": "2009-06-15",
+    "date_precision": "day",
+    "summary": "A 38-year-old Scottish woman became the first person outside America to die from swine flu, as the UK's confirmed H1N1 cases reached 1,461, the highest in Europe.",
+    "time_range": null,
+    "evidence_ids": [
+      "1176"
+    ],
+    "job_id": "16d69fb1a91dc5b007bd0c35fdc836d2bf2f00a224c55565dc4e615e0d2f9129",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ffcb03694baf8216",
+    "reason": "Same date and duplicate of the existing first UK H1N1 death event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ffcb03694baf8216"
+  },
+  {
+    "candidate_id": "cc17ccdc4201a99fbce52812",
+    "time": "2009-05-04",
+    "date_precision": "day",
+    "summary": "Another nine UK cases of swine flu are confirmed, bringing the total to 27, with five being year seven pupils from Alleyn's School in Dulwich, south London, marking the fourth school to close.",
+    "time_range": null,
+    "evidence_ids": [
+      "123"
+    ],
+    "job_id": "2a58d979ae7cd492d08d37d3c04e768f49e26ef3353258522c82f9522fc01ab4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "UK H1N1 case total and school closure milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-da2f5e5423d571b0"
+  },
+  {
+    "candidate_id": "09d6fe2f635c985d4ca8a4e0",
+    "time": "2009-05-07",
+    "date_precision": "day",
+    "summary": "Two new cases of swine flu are diagnosed in the UK, one in a child at a school already closed due to the outbreak, bringing the UK total to 34.",
+    "time_range": null,
+    "evidence_ids": [
+      "1070"
+    ],
+    "job_id": "a006835bc192d3436455619a9a95d2b2271ae8fc27732c3d78af0ddd45482534",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "UK H1N1 case total update; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-840bb5973faa1696"
+  },
+  {
+    "candidate_id": "d6ebbf29e820e7a5e1c5ba9f",
+    "time": "2009-05-05",
+    "date_precision": "day",
+    "summary": "Five schools in England are closed after pupils fell ill with the H1N1 swine flu virus, with GCSE and A-level exams rescheduled.",
+    "time_range": null,
+    "evidence_ids": [
+      "330"
+    ],
+    "job_id": "e8bd42c8c8e98085925e721a4ab08417b571000a0c33030582eff618eedea503",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "School closures and exam rescheduling due to H1N1; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7a577a885d63f91e"
+  },
+  {
+    "candidate_id": "ff71419cab221b7c6f5eed06",
+    "time": "2009-04-28",
+    "date_precision": "day",
+    "summary": "The first cases of swine flu are confirmed in Europe, with two people in Scotland and one man in Spain testing positive, as the WHO raises its alert level from three to four.",
+    "time_range": null,
+    "evidence_ids": [
+      "133"
+    ],
+    "job_id": "22737e7303b3fa67ba4d3b164b1396adb64d362d6182a1f84d7b3deadbf7debb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "First confirmed H1N1 cases in Europe and WHO alert level increase; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3af5f15c38199bc8"
+  },
+  {
+    "candidate_id": "ab55c82d6590d456d7909815",
+    "time": "2009-05-05",
+    "date_precision": "day",
+    "summary": "The US government says the swine flu virus may be less severe than feared, as the UK confirms one more case and the WHO begins distributing 2.4 million antiviral treatments to 72 countries.",
+    "time_range": null,
+    "evidence_ids": [
+      "411"
+    ],
+    "job_id": "eb8be26eac9b313ec019b9465b7deb4efd54b97dfb0d5711c27838a648db1d86",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "US severity assessment and WHO antiviral distribution milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-98eb4e484bbec964"
+  },
+  {
+    "candidate_id": "11ec70e1164a3e8c8573e8e1",
+    "time": "2009-05-17",
+    "date_precision": "day",
+    "summary": "A New York City school principal died from the H1N1 swine flu virus, becoming the city's first death from the illness.",
+    "time_range": null,
+    "evidence_ids": [
+      "1196"
+    ],
+    "job_id": "5f6eccf878121db9b64a75bde0ab9ee6e6579245673b99510d8c3e433e3bc7bc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "First H1N1 death in New York City; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3f1cb4097ae76d3e"
+  },
+  {
+    "candidate_id": "c13cc3a72a93ccec3601c54e",
+    "time": "2009-04-28",
+    "date_precision": "day",
+    "summary": "Stricter swine flu tests cut Mexico's confirmed H1N1 death toll from 20 to seven, while officials warn the number of deaths likely caused by swine flu has risen to 159 with more than 1,300 patients under observation.",
+    "time_range": null,
+    "evidence_ids": [
+      "23"
+    ],
+    "job_id": "f7db050efb311a185b287a74eb7969269bee909b2fc91185b81e70d6559d9166",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 milestone: revised Mexican death toll and case surveillance on 2009-04-28; no same-date existing event covers this, so append separately.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7cf41d7a311f6fb3"
+  },
+  {
+    "candidate_id": "c0eeea0542a5ec1285d4496c",
+    "time": "2009-04-27",
+    "date_precision": "day",
+    "summary": "Governments worldwide move to contain a new swine flu virus after outbreaks in Mexico, the US and Canada, with at least 100 suspected deaths in Mexico and the WHO warning the virus has pandemic potential.",
+    "time_range": null,
+    "evidence_ids": [
+      "488"
+    ],
+    "job_id": "dd9203556a5476e581ade2e77f45844a138900302127a7a89ab633d6b304729e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-39ecc4fffb001d8c",
+    "reason": "Same date (2009-04-27) and same event: global containment response to swine flu outbreak with Mexican deaths and pandemic-potential warning, duplicating existing event-39ecc4fffb001d8c.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-39ecc4fffb001d8c"
+  },
+  {
+    "candidate_id": "0919e5677f73012d1a99d785",
+    "time": "2009-05-22",
+    "date_precision": "day",
+    "summary": "The WHO rethinks its criteria for declaring a global flu pandemic, saying it will look for events signifying a substantial increase in risk of harm to people rather than relying solely on the geographic spread of the H1N1 virus.",
+    "time_range": null,
+    "evidence_ids": [
+      "1206"
+    ],
+    "job_id": "8f06f05de33de538e100f7e505d3f6466564f7d6327d139eec22f560ea5ff1f6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant WHO policy milestone on pandemic declaration criteria; same date as an existing event but distinct content, so no merge.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-23c198e979812608"
+  },
+  {
+    "candidate_id": "babc95e5157c32e5f5ec10f7",
+    "time": "2009-05-04",
+    "date_precision": "day",
+    "summary": "Pharmacists in the United Arab Emirates ignored regulations on Tamiflu sales to meet \"panic\" demand following the H1N1 flu outbreak.",
+    "time_range": null,
+    "evidence_ids": [
+      "602"
+    ],
+    "job_id": "0a26c1f45ddee0d30832310c8d8870a86e8b010588880b006d979b12d6776d45",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 response: UAE Tamiflu sales regulation violations amid panic demand; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-86881d1f6d3e9adf"
+  },
+  {
+    "candidate_id": "d2a701d6bd36f1d6efad831d",
+    "time": "2009-04-30",
+    "date_precision": "day",
+    "summary": "The World Health Organization officially declared it would stop calling the new strain of flu \"swine flu\" because no pigs in any country have been determined to have the illness and the origination of the strain has not been determined.",
+    "time_range": null,
+    "evidence_ids": [
+      "846"
+    ],
+    "job_id": "32114d911f32e55dbdc1d4dde578a5983d72b1d07f6f01a64528e7cbdfd79444",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-f033c013fdaf0005",
+    "reason": "Same 2009-04-30 WHO naming shift from 'swine flu' to H1N1 already captured in existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f033c013fdaf0005"
+  },
+  {
+    "candidate_id": "74dc87b1a40574f47f230131",
+    "time": "2009-04-30",
+    "date_precision": "day",
+    "summary": "The World Health Organisation said it would refer to the deadly new virus strain as influenza A (H1N1), not swine flu, bowing to pressure from meat industry producers and concerned governments.",
+    "time_range": null,
+    "evidence_ids": [
+      "36"
+    ],
+    "job_id": "6fb56ad2335e2a80054a7a84ad63477eeb4772856dc7b3b70a8ba945b8af5a80",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-f033c013fdaf0005",
+    "reason": "Duplicate of same 2009-04-30 WHO decision to use influenza A (H1N1) instead of swine flu.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f033c013fdaf0005"
+  },
+  {
+    "candidate_id": "6b306f30f86ffcd7cd769e6e",
+    "time": "2009-06-11",
+    "date_precision": "day",
+    "summary": "The World Health Organization declared the H1N1 swine flu outbreak a pandemic, meaning it would spread worldwide and could not be contained.",
+    "time_range": null,
+    "evidence_ids": [
+      "137"
+    ],
+    "job_id": "d577b53a2a1f10ba2bbca2f8569c34fa17179b92351342cdaadccae5fb572e5d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ca8ac8b744e6ac81",
+    "reason": "Same 2009-06-11 WHO pandemic declaration already represented by existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ca8ac8b744e6ac81"
+  },
+  {
+    "candidate_id": "312c888c3259c134d18bcaef",
+    "time": "2009-05",
+    "date_precision": "month",
+    "summary": "The swine flu outbreak in Mexico is linked to intensive pig farming, with a giant industrial pig complex owned by Smithfield Foods near the apparent epicentre, though the company denies any connection to the virus.",
+    "time_range": null,
+    "evidence_ids": [
+      "702"
+    ],
+    "job_id": "d4cb220777e1830e10bac9a6d59cccf0040b2fb437b5b1d403871f2294c5bf3f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 origin/industrial farming link; month precision and no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-276da2a8485514c8"
+  },
+  {
+    "candidate_id": "5b2dfdc3685492ba8aca58e8",
+    "time": "2009-04-28",
+    "date_precision": "day",
+    "summary": "China's cabinet, led by Premier Wen Jiabao, formulated an 8-point flu prevention strategy including strengthened inspection for swine flu outbreaks among pigs and supervision of live pig trade, while China banned pork imports from Mexico and three US states.",
+    "time_range": null,
+    "evidence_ids": [
+      "385"
+    ],
+    "job_id": "eef7347e469bf86319d14b113195c813893a4231344c07833d4b0d0ab2191db6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant China H1N1 prevention and pork import ban; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ffdf78eeb54baf1a"
+  },
+  {
+    "candidate_id": "a177f8484396584e98f42b53",
+    "time": "2009-04-28",
+    "date_precision": "day",
+    "summary": "U.S. officials argue for changing the name from swine flu to H1N1 virus because the name is hurting U.S. pork producers' business.",
+    "time_range": null,
+    "evidence_ids": [
+      "653"
+    ],
+    "job_id": "f4d7d8a4a198874cac740d46666d87038e8e1408bcfac7f74a6f236cb1f59c64",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant U.S. push to rename swine flu as H1N1; distinct from WHO naming decision and no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-cbb77bf8259ed3ff"
+  },
+  {
+    "candidate_id": "384edb001634c78cfa0bab59",
+    "time": "2009-05-07",
+    "date_precision": "day",
+    "summary": "The new H1N1 strain of flu, commonly called swine flu, has not reached the pandemic proportions originally feared, though it has sparked global jokes, disinformation, and various responses such as quarantining a pig in Afghanistan and culling pigs in Egypt.",
+    "time_range": null,
+    "evidence_ids": [
+      "948"
+    ],
+    "job_id": "63b1130c19917e1d8ed73c627b9b395f760628634495879757b551f9d02a7346",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 status update on pandemic fears and global responses; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-382922a78dceba61"
+  },
+  {
+    "candidate_id": "813192fe11f6cf24855384ee",
+    "time": "2009-06-09",
+    "date_precision": "day",
+    "summary": "Concerns are raised that industrial pig farms act as \"perfect incubating systems\" for novel flu viruses amid the global spread of H1N1 swine flu, which has caused over 120 deaths.",
+    "time_range": null,
+    "evidence_ids": [
+      "614"
+    ],
+    "job_id": "2befb19beeae4826e4a0ad33caaf496adf57374241090d31068349a0a5db466a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 concern about industrial pig farms as incubating systems; distinct from existing events and no same-date duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f479ed2d335747ff"
+  },
+  {
+    "candidate_id": "a1013f022dfa17e8cffe36b3",
+    "time": "2009-05-27",
+    "date_precision": "day",
+    "summary": "The World Organization for Animal Health says more cases of humans transmitting the H1N1 flu strain to pigs are likely but would not be a major concern because swine are not severely affected by the virus.",
+    "time_range": null,
+    "evidence_ids": [
+      "1192"
+    ],
+    "job_id": "412a6f4f03972fd27b2def58d73a141fbdfe0ac0e98f0317636487f09ad18ee1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 animal-health milestone on likely human-to-pig transmission; no same-date existing event to merge with.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8e3be627456f59c5"
+  },
+  {
+    "candidate_id": "177b803e0d0264a9c6dfd358",
+    "time": "2009-04-27",
+    "date_precision": "day",
+    "summary": "The swine flu crisis lays bare the meat industry's monstrous power, with the Mexico swine flu outbreak alerting the world to a highly globalised industry with global political clout.",
+    "time_range": null,
+    "evidence_ids": [
+      "1002"
+    ],
+    "job_id": "a1cd159a00698be5e232a6448aedd1f45a86c12038824e2a79a2d1ed6122ea45",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1-linked critique of meat industry power; same date as existing outbreak events but distinct focus, so not a duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-51d138033ef90f94"
+  },
+  {
+    "candidate_id": "a77f9bb92b817585aedc6032",
+    "time": "2009-04",
+    "date_precision": "month",
+    "summary": "CDC.gov saw a 142 percent increase in traffic, or 5.7 million visitors, in April amid concerns over the H1N1 swine flu.",
+    "time_range": null,
+    "evidence_ids": [
+      "1183"
+    ],
+    "job_id": "af07457508e884658e6f3f58ec804c889a2abb778170dcf99589dd62476dfbf3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 milestone showing April 2009 surge in CDC traffic amid swine flu concerns; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-22a2bc65f0ac0abc"
+  },
+  {
+    "candidate_id": "3ae8faea22346488316d4d82",
+    "time": "2009-04-30",
+    "date_precision": "day",
+    "summary": "Twelve countries have confirmed cases of the H1N1 strain, a new infection that has brought the world to the brink of a pandemic.",
+    "time_range": null,
+    "evidence_ids": [
+      "919"
+    ],
+    "job_id": "76ed465b0151e5550454f37a14b6b0eac05dbb8be8cceef95a4bff0ad19bf2f2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 global spread milestone on 2009-04-30; distinct from existing events on that date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-77ea8feeb40281d6"
+  },
+  {
+    "candidate_id": "1873db50a6de01718284460a",
+    "time": "2009-05-06",
+    "date_precision": "day",
+    "summary": "A pig at Kabul Zoo, believed to be Afghanistan's only pig, is placed in quarantine over fears it could spread the H1N1 swine flu virus.",
+    "time_range": null,
+    "evidence_ids": [
+      "717"
+    ],
+    "job_id": "2fc600b413eecdb37f5390650d53df7d4a0c69d014305fb6957c839aa9c3a848",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 response event on 2009-05-06; no existing event with same date and identity.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f5323726f43e8b74"
+  },
+  {
+    "candidate_id": "d7eee316bac43ba6fb589536",
+    "time": "2009-04-30",
+    "date_precision": "day",
+    "summary": "Egypt began seizing and slaughtering herds of pigs as a precaution against H1N1 swine flu, despite farmer resistance and UN criticism that the mass cull was a mistake because the virus has not been found in pigs.",
+    "time_range": null,
+    "evidence_ids": [
+      "508"
+    ],
+    "job_id": "790b86d0f86889ee512b6d28dfca82ec30b355b2e658397b06f363303dcc05de",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 precautionary pig cull in Egypt on 2009-04-30; distinct from existing events on that date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9ad00ea012db9c5e"
+  },
+  {
+    "candidate_id": "8cf83e7d42fcba90775024ff",
+    "time": "2009-06-01",
+    "date_precision": "day",
+    "summary": "A leading UK flu expert predicts that an H1N1 swine flu pandemic is likely to strike Britain in the autumn as schools and workplaces reopen.",
+    "time_range": null,
+    "evidence_ids": [
+      "75"
+    ],
+    "job_id": "ad7ef007f8610b219a03d94ff033178746382358c4b98f03a58f131f947fd2fd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 pandemic prediction on 2009-06-01; distinct from existing events on that date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d17f95afa4365171"
+  },
+  {
+    "candidate_id": "161f3774d887a168a7f631fc",
+    "time": "2009-05-10",
+    "date_precision": "day",
+    "summary": "The US has more confirmed swine flu cases than any other country, with 2,254 confirmed cases and a third death reported.",
+    "time_range": null,
+    "evidence_ids": [
+      "342"
+    ],
+    "job_id": "b5a9d26562325e58262d3927fd8a78150d98f9f005c4971436da5ab4cfc0de9c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 milestone on US confirmed case count and deaths; distinct from existing 2009-05-10 WHO global report.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ad3505d199563830"
+  },
+  {
+    "candidate_id": "4f3f32010e7ba9c00e2b60d5",
+    "time": "2009-04-30",
+    "date_precision": "day",
+    "summary": "U.S. officials said the national total of confirmed H1N1 swine flu cases had risen to 109, with only one fatality recorded in the country.",
+    "time_range": null,
+    "evidence_ids": [
+      "876"
+    ],
+    "job_id": "50ecfee2fbbeac033ec85556962ceaa8da5d076bdc0e1d956dee6c2cbedb238b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 milestone on US confirmed cases and fatality count; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a1ad7c0234a1c09e"
+  },
+  {
+    "candidate_id": "a1ad80af1ac18873bf8ffa98",
+    "time": "2009-05-29",
+    "date_precision": "day",
+    "summary": "Swine flu is spreading more rapidly in Britain than anywhere else in the European Union, with Britain the only member state where more people caught the disease at home than abroad.",
+    "time_range": null,
+    "evidence_ids": [
+      "654"
+    ],
+    "job_id": "2b833e704ce77c4d28c1d061e010d03d1e9cc481961060635039a786c6c76225",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 spread milestone in Britain/EU; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1ac64f45b723b6e7"
+  },
+  {
+    "candidate_id": "9a8c1b510df5c0b6f109d01c",
+    "time": "2009-04-29",
+    "date_precision": "day",
+    "summary": "The European Union's executive Commission avoids using \"swine flu\" to refer to the H1N1 virus, preferring \"novel flu,\" in order to calm consumers and protect the pork industry.",
+    "time_range": null,
+    "evidence_ids": [
+      "610"
+    ],
+    "job_id": "45649cf86222186ddb5431378bbebf9f8852327d9bd385875c2f7e0b7469c505",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 naming/communication milestone; distinct from existing 2009-04-29 events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4e38683672e42aa3"
+  },
+  {
+    "candidate_id": "83503eb2be954217ab617f20",
+    "time": "2009-06-17",
+    "date_precision": "day",
+    "summary": "Government officials warned that anyone with flu symptoms should stay away from pigs after preliminary experiments showed the H1N1 virus could potentially infect and transmit among pigs.",
+    "time_range": null,
+    "evidence_ids": [
+      "634"
+    ],
+    "job_id": "d0b1376cf79d7b8a40367408b4c607eead66280bb1b442a0f1c27f399b63ee41",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant H1N1 animal-transmission warning; distinct from existing 2009-06-17 event about Peres.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7e92136b7cb4bb00"
+  },
+  {
+    "candidate_id": "ae1002b41cc17fbae170122e",
+    "time": "2009-04-30",
+    "date_precision": "day",
+    "summary": "The CDC states that no vaccine exists to protect humans from swine flu, although it is formulating one, and that people cannot catch swine flu from eating pork.",
+    "time_range": null,
+    "evidence_ids": [
+      "335"
+    ],
+    "job_id": "c61d1482bebc4d6f79124b52c4dcc5761bd71511f38c51ed8aa176acc90153b4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "CDC statement on absence of a swine flu vaccine and pork safety is a relevant H1N1 milestone; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6847e8a0d732dc38"
+  },
+  {
+    "candidate_id": "9a58f6d23e17b1b31b59ff79",
+    "time": "2009-04-25",
+    "date_precision": "day",
+    "summary": "A dangerous new H1N1 flu strain has killed up to 60 people in Mexico and spread into the United States, with eight people infected in California and Texas.",
+    "time_range": null,
+    "evidence_ids": [
+      "208"
+    ],
+    "job_id": "cc92012ec0241671009f612e646f052a3028f2a749e22087ef7bf142cb31dcf9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-3c011d9e9dc38e94",
+    "reason": "Same 2009-04-25 date and same H1N1 outbreak spread/death milestone as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3c011d9e9dc38e94"
+  },
+  {
+    "candidate_id": "3c9e1ad477f406eacd35aaee",
+    "time": "2009-04-21",
+    "date_precision": "day",
+    "summary": "U.S. health officials report that a new type of swine flu has infected at least two children in California, both of whom recovered, and say they are looking for more cases.",
+    "time_range": null,
+    "evidence_ids": [
+      "1186"
+    ],
+    "job_id": "cdcdeb2ba9d637d70e24bc2ef79f239324c8121a9b3f5c6db6ad0c0a4aef272a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Early U.S. detection of new swine flu in California children is a relevant H1N1 milestone; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-93d74e254f368fba"
+  },
+  {
+    "candidate_id": "cf6d8f205cdde4414e4165b1",
+    "time": "2009-04-28",
+    "date_precision": "day",
+    "summary": "The World Health Organisation calls the H1N1 swine flu virus, which has infected an estimated 1,000 people and killed around 150 in Mexico, an \"international public health emergency\" that could reach global pandemic levels.",
+    "time_range": null,
+    "evidence_ids": [
+      "551"
+    ],
+    "job_id": "d5042abea840ef58eeb646b2ff397b0f8e5f5df1c967811f960f712e3e55b21b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "WHO declaration of international public health emergency is a relevant H1N1 milestone; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e2f3af7cbe9f858b"
+  },
+  {
+    "candidate_id": "ffd432b10cc2a843ecfd1b50",
+    "time": "2009-05-06",
+    "date_precision": "day",
+    "summary": "The World Health Organization cautions that meat from pigs infected with the new H1N1 virus should not be used for human consumption and says it is drawing up guidelines to protect workers handling pigs.",
+    "time_range": null,
+    "evidence_ids": [
+      "1026"
+    ],
+    "job_id": "0850e54ec8befe1df2b39226d13845d2a3a233ea7171cbebea382006eef79e25",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "WHO caution on infected pork and worker guidelines is a relevant H1N1 development; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-669a32f8fda0c147"
+  },
+  {
+    "candidate_id": "41e2edb5be79432a744d4590",
+    "time": "2009-04-29",
+    "date_precision": "day",
+    "summary": "Egypt begins a mass slaughter of thousands of pigs in an effort to prevent swine flu spreading, despite there being no cases of swine flu in Egypt.",
+    "time_range": null,
+    "evidence_ids": [
+      "69"
+    ],
+    "job_id": "d05d0abef2f9623fcdf7879815daf6e068b7e55168ae12560f0cc4ce340f7086",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Egypt's mass pig slaughter as a swine flu precaution is a relevant H1N1 response; date differs from the similar existing event, so append separately.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5ccaf55932c8002f"
+  }
+]

@@ -1,0 +1,2051 @@
+[
+  {
+    "candidate_id": "869888ba63613936369663cd",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush conceded that much of the pre-war intelligence on Iraq turned out to be wrong but took sole responsibility for ordering the invasion, which he said was justified by the potential threat posed by Saddam Hussein.",
+    "time_range": null,
+    "evidence_ids": [
+      "56"
+    ],
+    "job_id": "aa8ad5e8ac11e1a55e989804b7f8b4ce55297c4278e89e4fd752e81e08c9e960",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Iraq intelligence statement is not related to Egypt.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "0ae974dad844afdc3ad1d902",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush concedes that much of the pre-war intelligence on Iraq 'turned out to be wrong' but insists the conflict was justified anyway due to the threat posed by Saddam Hussein .",
+    "time_range": null,
+    "evidence_ids": [
+      "186"
+    ],
+    "job_id": "182a41aa68e75af009aba2cb1fb0b8f240b20d10e89991e5a380ae084ac21127",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Iraq intelligence statement is not related to Egypt.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "89dde09d9fda932ff72d4be1",
+    "time": "2011-01-27",
+    "date_precision": "day",
+    "summary": "Egyptian demonstrators protest against President Hosni Mubarak's rule, including tearing a portrait of him in Alexandria.",
+    "time_range": null,
+    "evidence_ids": [
+      "186"
+    ],
+    "job_id": "182a41aa68e75af009aba2cb1fb0b8f240b20d10e89991e5a380ae084ac21127",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Egyptian protest against Mubarak is a relevant milestone in the Egypt timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-136c483cb9062c8c"
+  },
+  {
+    "candidate_id": "ce86bf315edb424805de787b",
+    "time": "2011-02-04",
+    "date_precision": "day",
+    "summary": "Egyptian troops move onto the streets to enforce a curfew as protesters battle police in Cairo, Suez and Alexandria demanding an end to President Hosni Mubarak's rule, and Mubarak announces he has fired his Cabinet and named Omar Suleiman as vice president.",
+    "time_range": null,
+    "evidence_ids": [
+      "83"
+    ],
+    "job_id": "7f8d2ef5b7a9888159c305c8fa322b22875c5756957798d48e6fba832d492c73",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Curfew, protests, and Mubarak's Cabinet/vice-presidential moves are relevant Egypt developments.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-61e9d0afe4952fe1"
+  },
+  {
+    "candidate_id": "061063ce5c431a23d7185921",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "President Bush conceded that much of the pre-war intelligence on Iraq turned out to be wrong but took sole responsibility for ordering the invasion, which he said was justified by the potential threat posed by Saddam Hussein.",
+    "time_range": null,
+    "evidence_ids": [
+      "101"
+    ],
+    "job_id": "b105a29f8d5e6f73421a4420cb904acaaad027a48d93ccf51f167b70972c2be3",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Iraq intelligence statement is not related to Egypt.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "405e5909c9fd4f22c0d19670",
+    "time": "2011-01-28",
+    "date_precision": "day",
+    "summary": "Egyptians demonstrate in Cairo demanding the resignation of President Hosni Mubarak, with the army deployed to enforce a curfew amid a nationwide uprising.",
+    "time_range": null,
+    "evidence_ids": [
+      "145"
+    ],
+    "job_id": "3a10ce8eb5c0abf81cbed4afb27aefe1496cdad7afcb4a0dc55a7463543d9eb9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cairo demonstrations and army curfew enforcement are relevant to the Egypt uprising.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-834de3e9090cdc9a"
+  },
+  {
+    "candidate_id": "f283bdef745c4d83b0bdd12e",
+    "time": "2011-02-11",
+    "date_precision": "day",
+    "summary": "Egyptian President Hosni Mubarak stepped down and handed over power to the military after nearly three decades of rule, following popular protests that began January 25.",
+    "time_range": null,
+    "evidence_ids": [
+      "150"
+    ],
+    "job_id": "e35f0ba6eb71d211cbfbb0b3fd03c98bd467a934f580b767150a150e523aad42",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Mubarak's resignation is a major milestone in the Egypt timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ca0a499290cb05ea"
+  },
+  {
+    "candidate_id": "fe7633c77a6d2ee8ece0fc61",
+    "time": "2011-02-01",
+    "date_precision": "day",
+    "summary": "President Hosni Mubarak announced he will not run for re-election in September, following eight days of growing demonstrations in Egypt.",
+    "time_range": null,
+    "evidence_ids": [
+      "44"
+    ],
+    "job_id": "cb2ae51bdae99bde61138d91ff8ce32a604b0d782fef57a9cf391621aebcd5e4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Mubarak's announcement not to run is a relevant Egypt development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9f3ff6dae766ef92"
+  },
+  {
+    "candidate_id": "071271e91909b609c4c21c4f",
+    "time": "2011-01-29",
+    "date_precision": "day",
+    "summary": "Protests continue in Egypt as demonstrators defy a curfew, with the military deployed in full force in Cairo and President Mubarak appointing new cabinet members.",
+    "time_range": null,
+    "evidence_ids": [
+      "204"
+    ],
+    "job_id": "5bed0e2dcb62a097cb7d67ea4f1812f2359e3cd1c42e25537a9ed393f0c1e6ed",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Egypt uprising milestone on Jan 29; no existing event with same date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e7244221d5774206"
+  },
+  {
+    "candidate_id": "8c970fb7fedb52748174ff91",
+    "time": "2011-01-30",
+    "date_precision": "day",
+    "summary": "Mohamed ElBaradei appeared in Cairo's Liberation Square during the sixth day of protests, telling the crowd that what they started can never be pushed back.",
+    "time_range": null,
+    "evidence_ids": [
+      "1"
+    ],
+    "job_id": "e0eb0cc454e45d2b5654659d4e9b209a5f68cd848c20f9822e3107a3cf3fedb3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Jan 30 ElBaradei protest appearance; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d3754fa4278beedc"
+  },
+  {
+    "candidate_id": "d2f5e35c85cf568943f61317",
+    "time": "2011-01-28",
+    "date_precision": "day",
+    "summary": "Tens of thousands of protesters in Cairo, Alexandria, and other major Egyptian cities demand cheaper food, better services, and substantial changes to the regime, facing down anti-riot police, with five dead and more than 100 injured.",
+    "time_range": null,
+    "evidence_ids": [
+      "254"
+    ],
+    "job_id": "65aaaedf3d196fd9eefc2eb2e4957e296c04d98754000871cae3496575160235",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-834de3e9090cdc9a",
+    "reason": "Duplicate of existing Jan 28 Cairo protest/curfew event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-834de3e9090cdc9a"
+  },
+  {
+    "candidate_id": "bb6e3b0cd7462972414b4f1a",
+    "time": "2011-01-25",
+    "date_precision": "day",
+    "summary": "Thousands of protesters in Egypt staged unprecedented anti-government demonstrations demanding President Hosni Mubarak's resignation, resulting in three deaths and at least 49 injuries.",
+    "time_range": null,
+    "evidence_ids": [
+      "174"
+    ],
+    "job_id": "575262ad183a84cfcd8fa1b992ee097a344af5cd29d011e1407f932bb69996a5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Jan 25 uprising start; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-601eb3fe50b89e04"
+  },
+  {
+    "candidate_id": "e4b73b87e8c6c9677e86fcb4",
+    "time": "2011-01-30",
+    "date_precision": "day",
+    "summary": "Egyptian authorities shut down the offices of Al Jazeera amid the uprising in Egypt.",
+    "time_range": null,
+    "evidence_ids": [
+      "113"
+    ],
+    "job_id": "619af7cc2a454f6938bffefecd7341e66719df69cb5f32ae240e6e78c035075f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Jan 30 Al Jazeera office closure amid Egypt uprising; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9f6b52e18d425d60"
+  },
+  {
+    "candidate_id": "cb40a3cb611f6a5c69ee4e43",
+    "time": "2011-02-03",
+    "date_precision": "day",
+    "summary": "U.S. officials discuss ways to move Egypt's political transition forward and call for embattled Egyptian President Hosni Mubarak to leave office and for inclusive negotiations to begin immediately with his political opponents.",
+    "time_range": null,
+    "evidence_ids": [
+      "95"
+    ],
+    "job_id": "1cf7c915ae568eb2103c224f3bc9267efc1d65e6ae9ce2da0b7b29cbe2403752",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Feb 3 U.S. pressure on Egypt transition; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9d365f5206aa4532"
+  },
+  {
+    "candidate_id": "d00713921dd7d0c5f05c26e8",
+    "time": "2011-02-11",
+    "date_precision": "day",
+    "summary": "Egyptian President Hosni Mubarak resigns and the Supreme Council of Armed Forces is appointed to run the affairs of the country.",
+    "time_range": null,
+    "evidence_ids": [
+      "237"
+    ],
+    "job_id": "bd4407dcf6375e4cb5b0d433140a11a9861873171b42c8d0e447a01924dde373",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ca0a499290cb05ea",
+    "reason": "Duplicate of existing Feb 11 Mubarak resignation event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ca0a499290cb05ea"
+  },
+  {
+    "candidate_id": "00db8f83fe0698f72a25c446",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush concedes that much of the pre-war intelligence on Iraq 'turned out to be wrong' but insists the conflict was justified anyway due to the threat posed by Saddam Hussein .",
+    "time_range": null,
+    "evidence_ids": [
+      "99"
+    ],
+    "job_id": "84c3992197627ca7ae2a49aaa0ee95f87325d5c9a2feed45c23c91ffd31ccad8",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Iraq war intelligence statement unrelated to Egypt topic.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "edbe037a600179bc6ac2428e",
+    "time": "2011-02-01",
+    "date_precision": "day",
+    "summary": "Egyptian President Hosni Mubarak announces he will not seek re-election in September but vows to stay in the country and finish his term, amid eight days of protests demanding his immediate resignation.",
+    "time_range": null,
+    "evidence_ids": [
+      "196"
+    ],
+    "job_id": "b73c11bb26e4a422bb6fc2910df53fe533ba2912e8987c4765c0c51d6c6f9f3f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-9f3ff6dae766ef92",
+    "reason": "Same date and same Mubarak no-re-election announcement as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9f3ff6dae766ef92"
+  },
+  {
+    "candidate_id": "65a5847d5006a12d7a980566",
+    "time": "2011-01-30",
+    "date_precision": "day",
+    "summary": "Massive protests in Egypt demanding the end of President Hosni Mubarak's 30-year rule have resulted in at least 38 deaths, with the Obama administration urging restraint and a process of national dialogue for political and economic reform.",
+    "time_range": null,
+    "evidence_ids": [
+      "208"
+    ],
+    "job_id": "8a1a9a94bcdea04cda203e16414a01d2e5c7491dead6f33922ed52ab435748a3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Egypt protest milestone with death toll and U.S. response; no same-date duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c3696f9e5afe3bd1"
+  },
+  {
+    "candidate_id": "9b68fcbc4df38faf68e7376d",
+    "time": "2011-02-03",
+    "date_precision": "day",
+    "summary": "Top Obama administration officials stated their desire for Egyptian President Hosni Mubarak to leave office and for inclusive negotiations to begin immediately with his political opponents.",
+    "time_range": null,
+    "evidence_ids": [
+      "282"
+    ],
+    "job_id": "cf21f2e9d2d3a095ef1bfb5351cbcb1ededcb1f6f012aa1ba586bbf6d877392e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-9d365f5206aa4532",
+    "reason": "Same date and same U.S. officials' call for Mubarak to leave and negotiations.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9d365f5206aa4532"
+  },
+  {
+    "candidate_id": "074d0c647c2ec23489aa895a",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush concedes that much of the pre-war intelligence on Iraq 'turned out to be wrong' but insists the conflict was justified anyway due to the threat posed by Saddam Hussein.",
+    "time_range": null,
+    "evidence_ids": [
+      "43"
+    ],
+    "job_id": "7e48da5de745ee91000068e1a56612484e13b20b30a3688c836c539aa83c39bb",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Iraq war intelligence statement unrelated to Egypt topic.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "268ed43cf6382bae6342bd9c",
+    "time": "2011-02-04",
+    "date_precision": "day",
+    "summary": "Tens of thousands of protesters gather in Cairo's Tahrir Square for a \"Day of Departure\" rally demanding President Hosni Mubarak relinquish power, but Mubarak does not step down.",
+    "time_range": null,
+    "evidence_ids": [
+      "9"
+    ],
+    "job_id": "52fced57d6edc868dd34aee7bfae0a1a22ad990446ec37ef528a9d966413a501",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Tahrir Square Day of Departure protest; no same-date duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2588c0c8d4e23588"
+  },
+  {
+    "candidate_id": "e1b18474ea2a4f9f58442555",
+    "time": "2011-02-10",
+    "date_precision": "day",
+    "summary": "Egyptian President Hosni Mubarak delegates powers to Vice President Omar Suleiman but remains titular head of the country, while Suleiman is described as the de facto president.",
+    "time_range": null,
+    "evidence_ids": [
+      "50"
+    ],
+    "job_id": "d83fb484cdf57ee016d61e6c1646a4967a8f33f3ce6189d44dfa7f09cd935624",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Mubarak power delegation milestone; no same-date duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f2a0224704f87a96"
+  },
+  {
+    "candidate_id": "b673457d02b5c780e3aff0a1",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush concedes that much of the pre-war intelligence on Iraq 'turned out to be wrong' but insists the conflict was justified anyway due to the threat posed by Saddam Hussein.",
+    "time_range": null,
+    "evidence_ids": [
+      "79"
+    ],
+    "job_id": "86298957238017c72bf02477905a0dfceed9e6e11c4901f10be390635e79f27f",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Duplicate Iraq war intelligence statement unrelated to Egypt topic.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "9cf9a38d7daba69d5cf4482a",
+    "time": "2011-01-27",
+    "date_precision": "day",
+    "summary": "Protesters in Egypt demonstrate against growing inequality, nepotism, and police brutality, driven largely by young people and the educated middle class.",
+    "time_range": null,
+    "evidence_ids": [
+      "194"
+    ],
+    "job_id": "4777f5c3ce4e67bb56ea40141908f892f03edc87ac72928d9860c09a3a7c7572",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant early Egypt protest causes; no same-date duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-24691b01985f6fa3"
+  },
+  {
+    "candidate_id": "879b3cc069ea332613a6683d",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush concedes that much of the pre-war intelligence on Iraq 'turned out to be wrong' but insists the conflict was justified anyway due to the threat posed by Saddam Hussein .",
+    "time_range": null,
+    "evidence_ids": [
+      "58"
+    ],
+    "job_id": "1c12cba2ae98ec2bb0a397e68966bc7da47f55bf444288ccdbc63b641938c048",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush's Iraq war intelligence concession is not related to Egypt.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "7b42f5631237204d8f6a7d45",
+    "time": "2011-01-27",
+    "date_precision": "day",
+    "summary": "The banned Muslim Brotherhood calls for its followers to demonstrate after Friday 's weekly prayers in Egypt , the first time in the current round of unrest that the largest opposition bloc has told supporters to take to the streets .",
+    "time_range": null,
+    "evidence_ids": [
+      "58"
+    ],
+    "job_id": "1c12cba2ae98ec2bb0a397e68966bc7da47f55bf444288ccdbc63b641938c048",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Muslim Brotherhood's call to demonstrate is a distinct Egypt uprising milestone on Jan 27.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2b1efd99ec240a9a"
+  },
+  {
+    "candidate_id": "bb05fb0bf7d9297baa5d90d7",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "President Bush accepted full responsibility for the decision to invade Iraq while conceding that much of the pre-war intelligence on Iraq turned out to be wrong.",
+    "time_range": null,
+    "evidence_ids": [
+      "225"
+    ],
+    "job_id": "a40ca2c4a4a9c7906e6096d6404895e7e1d778097d01d578c6b005af8c2986d5",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush accepting responsibility for the Iraq invasion is not related to Egypt.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "5a6aaed9434f6d8f40a5ee8e",
+    "time": "2011-01-26",
+    "date_precision": "day",
+    "summary": "Egyptian security forces crack down on anti-government protesters demanding the ouster of President Hosni Mubarak, using water cannons and tear gas and arresting at least 90 people in Cairo.",
+    "time_range": null,
+    "evidence_ids": [
+      "210"
+    ],
+    "job_id": "4d8523593d7fbc4ebaaac9b7e240a5771e330716a31be0732a240614712b4770",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Egyptian security crackdown on protesters is a distinct Egypt uprising event on Jan 26.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f44cf6345220ca7e"
+  },
+  {
+    "candidate_id": "1de020bbab357c05c8b83621",
+    "time": "2011-01-25",
+    "date_precision": "day",
+    "summary": "Thousands of protesters filled the streets of Cairo, Egypt, calling for reforms and the ouster of President Hosni Mubarak.",
+    "time_range": null,
+    "evidence_ids": [
+      "159"
+    ],
+    "job_id": "2acf5d02a96457a74ef607304770584cbcf27afad856fd9290604d3d0de2a4fb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-601eb3fe50b89e04",
+    "reason": "Same Jan 25 Cairo anti-Mubarak protest as existing event-601eb3fe50b89e04.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-601eb3fe50b89e04"
+  },
+  {
+    "candidate_id": "f840015ef4dc49b8d1cb51a6",
+    "time": "2011-02-11",
+    "date_precision": "day",
+    "summary": "Egyptian President Hosni Mubarak stepped down and handed over power to the military after nearly three decades of rule, following popular protests that began January 25.",
+    "time_range": null,
+    "evidence_ids": [
+      "241"
+    ],
+    "job_id": "3e7ed66ac3e45acd6f4bd61a9810aae837d1d88120c5a5c974636cea9091bd55",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ca0a499290cb05ea",
+    "reason": "Same date and same Mubarak resignation event as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ca0a499290cb05ea"
+  },
+  {
+    "candidate_id": "2ce1084ceced0a6f8a0f3ec0",
+    "time": "2011-02-10",
+    "date_precision": "day",
+    "summary": "Egyptian Ambassador to the U.S. Sameh Shoukry states that President Hosni Mubarak has transferred all presidential authority to Vice President Omar Suleiman, making Suleiman the de facto president while Mubarak remains de jure head of state.",
+    "time_range": null,
+    "evidence_ids": [
+      "70"
+    ],
+    "job_id": "26d2547c2da4e0f2dba6207d2cef7cc90eab262ee144fd4c6cdb1a635103abc8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-f2a0224704f87a96",
+    "reason": "Same date and same Mubarak power-transfer event as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f2a0224704f87a96"
+  },
+  {
+    "candidate_id": "baa8ff7b140c3e245794c62b",
+    "time": "2011-01-30",
+    "date_precision": "day",
+    "summary": "Egyptian demonstrators demanding the resignation of President Mubarak carry the body of a dead protestor past army tanks.",
+    "time_range": null,
+    "evidence_ids": [
+      "19"
+    ],
+    "job_id": "1bed485d11135fb4e87c9445f77f5b8b75df0c277f7ae39fec38778f60b9a4ed",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant protest milestone on 2011-01-30; distinct from existing 2011-01-30 events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9764cd424571471c"
+  },
+  {
+    "candidate_id": "038bfcc20b8a648c4c9a6288",
+    "time": "2011-02-03",
+    "date_precision": "day",
+    "summary": "Egyptian President Hosni Mubarak refuses to step down immediately, saying he will remain until September despite ongoing anti-government protests demanding his departure.",
+    "time_range": null,
+    "evidence_ids": [
+      "72"
+    ],
+    "job_id": "0c4e17b4ab43046ec2496997d4afcbe6a2393b51c49691a83f28e01a681a0691",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Mubarak refusal to step down on 2011-02-03; distinct from existing 2011-02-03 event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e37e021e308967e1"
+  },
+  {
+    "candidate_id": "d8e7b02b747f8c5435111e16",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No topic-related event found.",
+    "time_range": null,
+    "evidence_ids": [
+      "167"
+    ],
+    "job_id": "8bb5489d2ec8344c5716508e7b8ac38ba8efc12c155f8fd4884805ab29d5489e",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No topic-related event found.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "65324ec5b60bcf2fc30f24a8",
+    "time": "2011-02-11",
+    "date_precision": "day",
+    "summary": "Hosni Mubarak steps down as president of Egypt amid a popular uprising.",
+    "time_range": null,
+    "evidence_ids": [
+      "94"
+    ],
+    "job_id": "08e7a3035959ba07b8cb8232c9307af14476ae71e0f3054f0f03b54036be5ab4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ca0a499290cb05ea",
+    "reason": "Same date and same Mubarak resignation event as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ca0a499290cb05ea"
+  },
+  {
+    "candidate_id": "15e0a89a205c8097ed423440",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "President Bush conceded that much of the pre-war intelligence on Iraq turned out to be wrong but took sole responsibility for ordering the invasion, which he said was justified by the potential threat posed by Saddam Hussein.",
+    "time_range": null,
+    "evidence_ids": [
+      "129"
+    ],
+    "job_id": "d3c880f127e967bcafa1bd3006c5386d728d1b0520876abf3de81aba4d09653a",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Iraq war intelligence controversy, not Egypt-related.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "922606cbddd5beacb581c4da",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush concedes that much of the pre-war intelligence on Iraq 'turned out to be wrong' but insists the conflict was justified anyway due to the threat posed by Saddam Hussein.",
+    "time_range": null,
+    "evidence_ids": [
+      "76"
+    ],
+    "job_id": "6f385cdc8e6b9428ec6946d4f75936a5de36f24e8c7a398bc86c051b2f4f0cab",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Iraq war intelligence controversy, not Egypt-related.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "befa7c6e2a511eb58f382750",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush concedes that much of the pre-war intelligence on Iraq 'turned out to be wrong' but insists the conflict was justified anyway due to the threat posed by Saddam Hussein .",
+    "time_range": null,
+    "evidence_ids": [
+      "197"
+    ],
+    "job_id": "0b69d0026ae35ffd4cebeb9a311d292f1ec3a80e956e3a0c042fe55a9aa3f42b",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush statement on Iraq pre-war intelligence is not an Egypt-related milestone.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "e5ff6c6ecafc057e1b48db0e",
+    "time": "2011-02-11",
+    "date_precision": "day",
+    "summary": "Hosni Mubarak steps down as president of Egypt, handing power to the High Council of the Armed Forces after 18 days of protests.",
+    "time_range": null,
+    "evidence_ids": [
+      "78"
+    ],
+    "job_id": "5cc2cb44a1dc3baa4260897834a1c1737c448200fce5d620398bff5e0edf33c4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ca0a499290cb05ea",
+    "reason": "Same date and event as existing Mubarak resignation record.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ca0a499290cb05ea"
+  },
+  {
+    "candidate_id": "7c8df0c0b75eab77a15387da",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "President Bush accepted full responsibility for the decision to invade Iraq, acknowledging that much of the pre-war intelligence on Iraq turned out to be wrong but maintaining the invasion was justified by the potential threat posed by Saddam Hussein.",
+    "time_range": null,
+    "evidence_ids": [
+      "107"
+    ],
+    "job_id": "10bf79000e2619a424463ba2f6d2a2d9736a8cdc52d2a4137c98b6974c43a910",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush statement on Iraq invasion is not relevant to Egypt timeline.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "b19cf71eb706794eb0688944",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush concedes that much of the pre-war intelligence on Iraq 'turned out to be wrong' but insists the conflict was justified anyway due to the threat posed by Saddam Hussein .",
+    "time_range": null,
+    "evidence_ids": [
+      "271"
+    ],
+    "job_id": "0932ba80b17a590701542328997b3310bf31327a853a8aceb9034bad63b9c969",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush statement on Iraq pre-war intelligence is not an Egypt-related milestone.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "140aa5aa037ec010bc070897",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush concedes that much of the pre-war intelligence on Iraq 'turned out to be wrong' but insists the conflict was justified anyway due to the threat posed by Saddam Hussein.",
+    "time_range": null,
+    "evidence_ids": [
+      "219"
+    ],
+    "job_id": "aedf486c3a402f1e59a305e3f5c192414df21542b3a4c0a7ee34a3034956d8e5",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush statement on Iraq pre-war intelligence is not an Egypt-related milestone.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "6e7934a48b8786ffb63207e9",
+    "time": "2011-02-01",
+    "date_precision": "day",
+    "summary": "Egypt's President Hosni Mubarak said he will step down in September after 30 years in power, bowing to massive pressure from demonstrators.",
+    "time_range": null,
+    "evidence_ids": [
+      "89"
+    ],
+    "job_id": "b5915b39546403cbe1ccefde7ad77fa3eb95d82673c38e45a68a3fd69c4d6147",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-9f3ff6dae766ef92",
+    "reason": "Same date and event as existing Mubarak re-election announcement record.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9f3ff6dae766ef92"
+  },
+  {
+    "candidate_id": "3548acd1bacf90312106efc6",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush concedes that much of the pre-war intelligence on Iraq 'turned out to be wrong' but insists the conflict was justified anyway due to the threat posed by Saddam Hussein.",
+    "time_range": null,
+    "evidence_ids": [
+      "234"
+    ],
+    "job_id": "33f24678aaf7cd73107fe659b4bd72f5d028f6419fc643d8fc42cb5ed9adadc0",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush statement on Iraq pre-war intelligence is not an Egypt-related milestone.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "1b982038f1efdaca9a72cc83",
+    "time": "2011-01-25",
+    "date_precision": "day",
+    "summary": "People across Egypt take to the streets in demonstrations against corruption and failing economic policies, with thousands protesting in Cairo and clashes with police occurring.",
+    "time_range": null,
+    "evidence_ids": [
+      "256"
+    ],
+    "job_id": "ee56c9e155340bf4a9c4ec17f31f1ba819a6cc6db768498f285cafa2b6e72ddf",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-601eb3fe50b89e04",
+    "reason": "Same date and event as existing January 25 Egypt protests record.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-601eb3fe50b89e04"
+  },
+  {
+    "candidate_id": "19387e072c35936d29d0398e",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "President Bush conceded that much of the pre-war intelligence on Iraq turned out to be wrong but took sole responsibility for ordering the invasion, which he said was justified by the potential threat posed by Saddam Hussein.",
+    "time_range": null,
+    "evidence_ids": [
+      "33"
+    ],
+    "job_id": "970462ca0ba8bb4ccfc0f11eeec195ea891e38c0ca1e475f765f2997743ebeca",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush statement on Iraq pre-war intelligence and invasion; not an Egypt-related milestone.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "bb54b30f6a04fcd798fb01cb",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush concedes that much of the pre-war intelligence on Iraq 'turned out to be wrong' but insists the conflict was justified anyway due to the threat posed by Saddam Hussein.",
+    "time_range": null,
+    "evidence_ids": [
+      "161"
+    ],
+    "job_id": "9eb209fefa320c2c4a0dc61818761fc745142ca32f1792dec2428352071bbbb0",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush statement on Iraq pre-war intelligence is not an Egypt-related milestone.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "f7ff553b64ea34e90ea4ea48",
+    "time": "2011-02-10",
+    "date_precision": "day",
+    "summary": "Mohamed ElBaradei warns that Egypt will explode and the army must save the country now after President Hosni Mubarak announces he will not step down before September elections.",
+    "time_range": null,
+    "evidence_ids": [
+      "161"
+    ],
+    "job_id": "9eb209fefa320c2c4a0dc61818761fc745142ca32f1792dec2428352071bbbb0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "ElBaradei warning during Egypt's 2011 uprising adds a distinct milestone; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4815972b89f40944"
+  },
+  {
+    "candidate_id": "0f1de65cdfb08ef15f6996eb",
+    "time": "2011-02-07",
+    "date_precision": "day",
+    "summary": "Egyptian television networks report that Google executive Wael Ghonim, missing since January 28 after a purported arrest in Cairo, is to be released Monday.",
+    "time_range": null,
+    "evidence_ids": [
+      "42"
+    ],
+    "job_id": "64e697231607e364181db07ef7ed56ae6f4a9faa2f945042287547fed61735ce",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Wael Ghonim release report is a distinct Egypt uprising development; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ce6dbdd4c33d5111"
+  },
+  {
+    "candidate_id": "030f5c3943772f4939cdebc4",
+    "time": "2011-01-28",
+    "date_precision": "day",
+    "summary": "Thousands demonstrated in Amman and six other Jordanian cities, urging political and economic reforms and expressing solidarity with protesters in Egypt.",
+    "time_range": null,
+    "evidence_ids": [
+      "158"
+    ],
+    "job_id": "0baf62f511a95529b9a7ef8b3f76ada97e47e10d178f48d7f32517e982ca4091",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Jordanian protests expressing solidarity with Egypt are not an Egypt milestone.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "4743320b9b296cf958174b81",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush concedes that much of the pre-war intelligence on Iraq 'turned out to be wrong' but insists the conflict was justified anyway due to the threat posed by Saddam Hussein .",
+    "time_range": null,
+    "evidence_ids": [
+      "203"
+    ],
+    "job_id": "39d422c82779448b3f2c4db7cc3fc60dc4f89f8a8419bf3a49c49cf1c3f7367c",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush statement on Iraq pre-war intelligence is not an Egypt-related milestone.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "b7af0f2068e30d4de161ee97",
+    "time": "2011-02-11",
+    "date_precision": "day",
+    "summary": "Hosni Mubarak decided to step down as president of Egypt after nearly 30 years in power, following widespread demonstrations.",
+    "time_range": null,
+    "evidence_ids": [
+      "8"
+    ],
+    "job_id": "48551187de2b804878cd30aa69fcae2705633a95df25c2bf0b960cb9f389b8d6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ca0a499290cb05ea",
+    "reason": "Same date and event as existing Mubarak resignation record.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ca0a499290cb05ea"
+  },
+  {
+    "candidate_id": "b33534812f6954be5d135f05",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush concedes that much of the pre-war intelligence on Iraq 'turned out to be wrong' but insists the conflict was justified anyway due to the threat posed by Saddam Hussein.",
+    "time_range": null,
+    "evidence_ids": [
+      "7"
+    ],
+    "job_id": "573a4c901e0d70d7cdcbd08c8e82210e33fce3d4da6bcd7a1634b5dae385ea31",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush statement on Iraq pre-war intelligence is not an Egypt-related milestone.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "4b881a073785cdf2f8a10f7a",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush conceded that much of the pre-war intelligence on Iraq turned out to be wrong but took sole responsibility for ordering the invasion, which he said was justified by the potential threat posed by Saddam Hussein.",
+    "time_range": null,
+    "evidence_ids": [
+      "109"
+    ],
+    "job_id": "e3b4320b7397afbb6628889f241695cdae221d3a53995dd6e28a28c5f4ebc5f3",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush statement on Iraq pre-war intelligence is not an Egypt-related milestone.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "d5201ac5810257ad97ab53ad",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "President Bush conceded that much of the pre-war intelligence on Iraq turned out to be wrong but took sole responsibility for ordering the invasion, which he said was justified by the potential threat posed by Saddam Hussein.",
+    "time_range": null,
+    "evidence_ids": [
+      "98"
+    ],
+    "job_id": "a4d80f1386143ebd7d58c4b7d6f2cf0c7e4ca6edd699351f99dd7d1fc2a666a6",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Concerns Iraq war intelligence and Bush's justification for invasion, not Egypt.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "6c4b362ac90c771cbdbc5487",
+    "time": "2011-02-10",
+    "date_precision": "day",
+    "summary": "Thousands of Egyptian workers go on strike demanding better compensation and transparency in executive salaries as protests demanding President Hosni Mubarak's resignation enter their 17th day.",
+    "time_range": null,
+    "evidence_ids": [
+      "66"
+    ],
+    "job_id": "764b77ea97e31bb7dc6f03ff9c8629f715ac44f7e74ac5588543285152ea3ff8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Egyptian labor strikes during the 2011 uprising add a distinct protest milestone; no same-date duplicate among existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-010a82f45da159c1"
+  },
+  {
+    "candidate_id": "8dd5e0d63ea0262a33147c55",
+    "time": "2011-01-31",
+    "date_precision": "day",
+    "summary": "Egypt braces for a \"march of millions\" in anti-government protests as President Hosni Mubarak's government shuts down rail, mobile phone and internet services ahead of planned demonstrations calling for his ouster.",
+    "time_range": null,
+    "evidence_ids": [
+      "206"
+    ],
+    "job_id": "2de09eb2976208f6fa5cd48ea530a8c61300caa1abbbdc6c9696a71326b01801",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Egypt protest milestone: planned 'march of millions' with government service shutdowns; no existing event matches this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8b8c88be594fc762"
+  },
+  {
+    "candidate_id": "311d2df1f5c061d2e8ae8011",
+    "time": "2011-02-10",
+    "date_precision": "day",
+    "summary": "Egyptian President Hosni Mubarak delivered a speech in which he made no mention of leaving office before his term ends in September, saying he was delegating power to Vice President Omar Suleiman, which turned protesters' expectations to fury.",
+    "time_range": null,
+    "evidence_ids": [
+      "199"
+    ],
+    "job_id": "66a4bc265fd8947a52a5cb8d35cae1e31e9fb5e0094ac66c8f9f30c97846df73",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-f2a0224704f87a96",
+    "reason": "Same date and same Mubarak speech delegating power to Suleiman without leaving office; duplicate of existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f2a0224704f87a96"
+  },
+  {
+    "candidate_id": "f3f6962a105976c5884e84fa",
+    "time": "2011-02-08",
+    "date_precision": "day",
+    "summary": "Wael Ghonim, a 30-year-old Egyptian internet activist, was released after 12 days in detention and gave an emotional television interview that energized popular Egyptian protests against President Hosni Mubarak.",
+    "time_range": null,
+    "evidence_ids": [
+      "142"
+    ],
+    "job_id": "7ff63a5577e50ffc57afe1de373ead5eddc6e28ab95664bea76ae815dfecbf32",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Egypt protest milestone: Wael Ghonim's release and interview energizing protests; no existing event matches this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ab2fc2596eeed53d"
+  },
+  {
+    "candidate_id": "19ed1adbc959dd6edc51a88a",
+    "time": "2011-01-31",
+    "date_precision": "day",
+    "summary": "Untold thousands of Egyptians have ignored government curfews and clashed with police over demands that President Hosni Mubarak resign.",
+    "time_range": null,
+    "evidence_ids": [
+      "112"
+    ],
+    "job_id": "635837da3f2eda8e1312042a8f7570bd2aa97d0110003add1f06b66dee2cc937",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Egypt protest milestone; same date as existing event-8b8c88be594fc762 but distinct event (curfew defiance and clashes) rather than duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8ced3e886263e026"
+  },
+  {
+    "candidate_id": "baa65ec7d60bdd0f647b0c2e",
+    "time": "2011-02-01",
+    "date_precision": "day",
+    "summary": "Egyptian President Hosni Mubarak says he will not run for re-election this year amid unprecedented protests across North Africa and the Middle East.",
+    "time_range": null,
+    "evidence_ids": [
+      "245"
+    ],
+    "job_id": "10a4174eb1acb077017a3a10dc02a668ef4c0c91a96863b66811d0f7654c35cc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-9f3ff6dae766ef92",
+    "reason": "Duplicate of existing 2011-02-01 event on Mubarak not seeking re-election.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9f3ff6dae766ef92"
+  },
+  {
+    "candidate_id": "9f172e9021c22e033448f4a1",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush concedes that much of the pre-war intelligence on Iraq 'turned out to be wrong' but insists the conflict was justified anyway due to the threat posed by Saddam Hussein.",
+    "time_range": null,
+    "evidence_ids": [
+      "281"
+    ],
+    "job_id": "ea984892d2c9f1b4e103bc7deb0baf3a6250bb2d79fec2a01fac02e4f487d4b0",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Iraq war intelligence controversy; not relevant to Egypt topic.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "80f512694b5582c251bf5972",
+    "time": "2011-02-01",
+    "date_precision": "day",
+    "summary": "A record crowd of Egyptians gathered in Cairo's Tahrir Square for a \"march of millions\" demonstration demanding President Hosni Mubarak's departure.",
+    "time_range": null,
+    "evidence_ids": [
+      "265"
+    ],
+    "job_id": "b8a903ffe5077edef2bd007bee1d9d7b43b5ff3f9af01d83d1d8a41ff397e577",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Egypt protest milestone; same date as existing 2011-02-01 event but distinct Tahrir Square march of millions.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7dbb33f70899b5b3"
+  },
+  {
+    "candidate_id": "aa3280d4eec441a5dfdb290f",
+    "time": "2011-02-11",
+    "date_precision": "day",
+    "summary": "Egyptian President Hosni Mubarak resigned after 18 days of protests, leading to joyous celebrations in Cairo's Tahrir Square.",
+    "time_range": null,
+    "evidence_ids": [
+      "119"
+    ],
+    "job_id": "09025e5437c8e4811e4887e2076f10e24b07a5ca3db2a7b09056941525f1edc5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ca0a499290cb05ea",
+    "reason": "Duplicate of existing 2011-02-11 event on Mubarak's resignation.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ca0a499290cb05ea"
+  },
+  {
+    "candidate_id": "d6ee5dddd76f8c98f7bafaac",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush conceded that much of the pre-war intelligence on Iraq 'turned out to be wrong' but took sole responsibility for ordering the invasion, which he said was justified by the potential threat posed by Saddam Hussein.",
+    "time_range": null,
+    "evidence_ids": [
+      "31"
+    ],
+    "job_id": "da8cec8b809c9943d5d8849e0b80ae2d89b75f8d51936ec1289724fad0d82787",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Iraq war intelligence controversy; not relevant to Egypt topic.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "30db026edbc1e52f944434a4",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush concedes that much of the pre-war intelligence on Iraq 'turned out to be wrong' but insists the conflict was justified anyway due to the threat posed by Saddam Hussein.",
+    "time_range": null,
+    "evidence_ids": [
+      "171"
+    ],
+    "job_id": "3fc0807c577cd045bc53b03804c9a0026fdb97296545a10b7fc406e1672e07f1",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Iraq war intelligence controversy; not relevant to Egypt topic.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "5f152f5f76f889c27000fe24",
+    "time": "2011-02-12",
+    "date_precision": "day",
+    "summary": "Egyptians celebrate in Tahrir Square the day after the revolution that brought down President Hosni Mubarak, while the military council maintains the existing government as a caretaker.",
+    "time_range": null,
+    "evidence_ids": [
+      "211"
+    ],
+    "job_id": "6c167ddbdb156d230396824de5bf5385661566d30c41f11f0c7a72162d6983b6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant post-Mubarak Egypt milestone; distinct 2011-02-12 event not matching existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-53300d15c6b54bfd"
+  },
+  {
+    "candidate_id": "a56dc71be1b98d3c79c5d1cf",
+    "time": "2011-02-03",
+    "date_precision": "day",
+    "summary": "A Muslim Brotherhood spokesman says the organization will not participate in Egypt's general election planned for September and that talks on Egypt's future should occur only after President Hosni Mubarak steps down.",
+    "time_range": null,
+    "evidence_ids": [
+      "222"
+    ],
+    "job_id": "e91cd2034b0c95fff9d083950ed73c59157b9eca4d6fccb375ed455c2a268016",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Egypt political transition milestone: Muslim Brotherhood declines September election participation and conditions talks on Mubarak's departure; distinct from same-day U.S. and Mubarak events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bf1c57d06e1a813e"
+  },
+  {
+    "candidate_id": "5b86f14191f36b55a73ffba2",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush concedes that much of the pre-war intelligence on Iraq 'turned out to be wrong' but insists the conflict was justified anyway due to the threat posed by Saddam Hussein.",
+    "time_range": null,
+    "evidence_ids": [
+      "148"
+    ],
+    "job_id": "69b22f557685459c168530039d4a5258fc4312ce68f59cc7ef74e7b9ffaeab73",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush's Iraq war intelligence remarks are not related to Egypt.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "3b7858b3aa103ac0d4d345ef",
+    "time": "2011-02-13",
+    "date_precision": "day",
+    "summary": "Egypt's military suspends the constitution and announces a transition government will run the country for six months or until parliamentary elections, following the ouster of President Hosni Mubarak.",
+    "time_range": null,
+    "evidence_ids": [
+      "32"
+    ],
+    "job_id": "f24dcc9271037a6129e2e7e177c05fd5901940aa23058b2e9c428413ef86f160",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Post-Mubarak military transition milestone; distinct date from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-50e98872e485c960"
+  },
+  {
+    "candidate_id": "8344f7889a352711809f1f5c",
+    "time": "2011-02-08",
+    "date_precision": "day",
+    "summary": "Freed Google executive Wael Ghonim emerged as a face of Egypt's uprising after speaking to protesters in Cairo's Tahrir Square, galvanizing thousands on the 15th day of demonstrations.",
+    "time_range": null,
+    "evidence_ids": [
+      "228"
+    ],
+    "job_id": "35f4d0373c36bb822819ce8ef3f509afedbfcb18435984a296dc2ef5f38c346f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ab2fc2596eeed53d",
+    "reason": "Same date and same Wael Ghonim release/energizing-protests event as existing record.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ab2fc2596eeed53d"
+  },
+  {
+    "candidate_id": "2f5044da029f5d3030d7afc3",
+    "time": "2011-01-29",
+    "date_precision": "day",
+    "summary": "Egyptian President Hosni Mubarak visits an armed services operations center to follow up on the security situation amid unrest, as Egypt's military arrests 450 people in Cairo and the government shuts down Al Jazeera's Cairo bureau.",
+    "time_range": null,
+    "evidence_ids": [
+      "140"
+    ],
+    "job_id": "7c2567170e15c99478f7e8163b18a4a9154a008d05b9a7c021d7fbcc192007be",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Mubarak security-response event on Jan 29; distinct from existing Jan 29 protests/curfew event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-db688a1f383a8add"
+  },
+  {
+    "candidate_id": "4138ede704192196568735be",
+    "time": "2011-02-10",
+    "date_precision": "day",
+    "summary": "Protests in Egypt continue on Day 17, with lawyers toppling barricades at Cairo's Abdeen Palace and petroleum, railway, and telecommunications employees striking in solidarity, as demonstrators are angered by President Hosni Mubarak's refusal to immediately step down.",
+    "time_range": null,
+    "evidence_ids": [
+      "53"
+    ],
+    "job_id": "022dd12b72a7fd9c4cdc351afa512ec85e3a2f717e1c67537106acda733aed0c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Day 17 protest milestone with distinct details (Abdeen Palace barricades, petroleum/railway/telecom strikes) not covered by existing events; similar date to event-010a82f45da159c1 but different specific occurrence, so kept separate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-54453c98ac506fd1"
+  },
+  {
+    "candidate_id": "5d92f36218f8b40189f56a9d",
+    "time": "2011-01-28",
+    "date_precision": "day",
+    "summary": "Large pro-democracy protests occur across Egypt, challenging President Hosni Mubarak's authoritarian regime.",
+    "time_range": null,
+    "evidence_ids": [
+      "267"
+    ],
+    "job_id": "348402809baa043c26c875dfc47a1f534ec91e14471ff48cfdfe5d4a4daee726",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-834de3e9090cdc9a",
+    "reason": "Same date and same event: nationwide Egyptian protests against Mubarak on 2011-01-28.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-834de3e9090cdc9a"
+  },
+  {
+    "candidate_id": "783e894a99639fd1c070f7b7",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush concedes that much of the pre-war intelligence on Iraq 'turned out to be wrong' but insists the conflict was justified anyway due to the threat posed by Saddam Hussein .",
+    "time_range": null,
+    "evidence_ids": [
+      "38"
+    ],
+    "job_id": "d6515cd1fbd1930ffc6144d6b48f114ffae78f0c3de97d5f5b01563f7891d194",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Iraq war intelligence controversy; not related to Egypt.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "6bbfe9d64ce41d8de5939f7b",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush concedes that much of the pre-war intelligence on Iraq 'turned out to be wrong' but insists the conflict was justified anyway due to the threat posed by Saddam Hussein.",
+    "time_range": null,
+    "evidence_ids": [
+      "35"
+    ],
+    "job_id": "055e99c51394c4376895b94ad5936623c80e609bd27e8987e58e90658fc281ef",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Iraq war intelligence controversy; not related to Egypt.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "5421d299e8dadd3c53582c02",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "President Bush conceded that much of the pre-war intelligence on Iraq turned out to be wrong but took sole responsibility for ordering the invasion, which he said was justified by the potential threat posed by Saddam Hussein.",
+    "time_range": null,
+    "evidence_ids": [
+      "200"
+    ],
+    "job_id": "adea44b763d6c41de9f91617603cb8a085e4855057b069044aacbec07a25f511",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush statement on Iraq pre-war intelligence is not an Egypt-related milestone and does not contribute to the Egypt timeline.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "764a7264377ad6ec0c66d8f8",
+    "time": "2011-02-07",
+    "date_precision": "day",
+    "summary": "Protests in Egypt continue as demonstrators refuse to leave Cairo's Liberation Square until Hosni Mubarak steps down, while Mubarak also refuses to budge.",
+    "time_range": null,
+    "evidence_ids": [
+      "55"
+    ],
+    "job_id": "efea897c69dac8a8e7fdab8fe77dd0885a6ce2de2db88d5978456c9865558124",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Egypt protest milestone on 2011-02-07; distinct from existing 2011-02-07 event about Wael Ghonim's release.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-cf008378e156585d"
+  },
+  {
+    "candidate_id": "8aba84a74b7d2c8110e96811",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush concedes that much of the pre-war intelligence on Iraq 'turned out to be wrong' but insists the conflict was justified anyway due to the threat posed by Saddam Hussein .",
+    "time_range": null,
+    "evidence_ids": [
+      "149"
+    ],
+    "job_id": "0ad34376ef8fa9732cbdcce9d109a75aef051bb84352adda52b612daf6e5c34e",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Iraq war intelligence controversy; not relevant to Egypt topic.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "a75067f3a5b0f963afba85b6",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush concedes that much of the pre-war intelligence on Iraq 'turned out to be wrong' but insists the conflict was justified anyway due to the threat posed by Saddam Hussein .",
+    "time_range": null,
+    "evidence_ids": [
+      "198"
+    ],
+    "job_id": "63a33b63a4ee90fba5eb30391e2f027028317194147d408e32f58d199357dee9",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Iraq war intelligence controversy; not relevant to Egypt topic.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "4fca9384c3e20dec37b2eff2",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "President Bush conceded that much of the pre-war intelligence on Iraq turned out to be wrong but took sole responsibility for ordering the invasion, which he said was justified by the potential threat posed by Saddam Hussein.",
+    "time_range": null,
+    "evidence_ids": [
+      "27"
+    ],
+    "job_id": "4b403bfcf88bd2c394fb146aeda16d11996cb18b5abd33f2591322e689c55ff4",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Iraq war intelligence controversy; not relevant to Egypt topic.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "242ddc64ac088b6c1e2137dc",
+    "time": "2011-02-04",
+    "date_precision": "day",
+    "summary": "The Mubarak regime shut down the internet in Egypt in a failed attempt to disrupt pro-democracy forces, catching human rights advocates and dissidents off guard.",
+    "time_range": null,
+    "evidence_ids": [
+      "263"
+    ],
+    "job_id": "b56517fc12a59f41dc169818f07bbd6211276b62dbe68e2381491877eac74c91",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Egypt internet shutdown during 2011 protests; distinct from existing 2011-02-04 events about Tahrir rally and cabinet changes.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-14efffea49a83a56"
+  },
+  {
+    "candidate_id": "bf41d632a670922e81752405",
+    "time": "2011-02-10",
+    "date_precision": "day",
+    "summary": "The Egyptian military nudged President Hosni Mubarak from power after 17 days of expanding unrest, though Mubarak announced he would transfer day-to-day powers to Vice President Omar Suleiman rather than resign.",
+    "time_range": null,
+    "evidence_ids": [
+      "238"
+    ],
+    "job_id": "42f7212fbeeeeb9bed12bf99b80d0a250a31ac5e6eebc38da5d4d3cb64fa5dcc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-f2a0224704f87a96",
+    "reason": "Same date and event: Mubarak delegates powers to Suleiman while remaining in power; duplicate of existing 2011-02-10 event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f2a0224704f87a96"
+  },
+  {
+    "candidate_id": "c68d38f21132334a216b0bc9",
+    "time": "2011-02-11",
+    "date_precision": "day",
+    "summary": "Egyptian President Hosni Mubarak steps down and the military takes over, prompting mass celebrations in Tahrir Square.",
+    "time_range": null,
+    "evidence_ids": [
+      "122"
+    ],
+    "job_id": "457e0f4833d3a76cf8ab2b0b595ecf40b4189abc5b4665512500503ba2fcc74e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ca0a499290cb05ea",
+    "reason": "Same date and event: Mubarak steps down and military takes over on 2011-02-11; duplicate of existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ca0a499290cb05ea"
+  },
+  {
+    "candidate_id": "cb3717ea3a6a4d04ea59277d",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush conceded that much of the pre-war intelligence on Iraq turned out to be wrong but took sole responsibility for ordering the invasion, which he said was justified by the potential threat posed by Saddam Hussein.",
+    "time_range": null,
+    "evidence_ids": [
+      "5"
+    ],
+    "job_id": "3e9f351af5c40678413a7690d29a46582da96becf36b48811571ce1e66d96d06",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Iraq intelligence statement is not related to Egypt.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "eb88a2bc5d57c35c5c035405",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush concedes that much of the pre-war intelligence on Iraq 'turned out to be wrong' but insists the conflict was justified anyway due to the threat posed by Saddam Hussein .",
+    "time_range": null,
+    "evidence_ids": [
+      "220"
+    ],
+    "job_id": "e6b710d76b64c81fea67360c7e6b543af66b3e26996d1d4614e5cd4146fd5ca4",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Iraq intelligence statement is not related to Egypt.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "f9d36245a108f4ffa8aa5b91",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No significant event related to Egypt or Egyptian is reported in the article.",
+    "time_range": null,
+    "evidence_ids": [
+      "137"
+    ],
+    "job_id": "e5ff21c50e6767e7d9dc5a481f51f3f409e6171fcb977d6f7e4acadf36f8b61b",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Explicitly reports no significant Egypt-related event.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "33d836e4bc7948f933b1831b",
+    "time": "2011-02-12",
+    "date_precision": "day",
+    "summary": "Yemen expresses confidence that Egypt's military council will steer the nation through its political crisis following Hosni Mubarak's ouster.",
+    "time_range": null,
+    "evidence_ids": [
+      "274"
+    ],
+    "job_id": "12540353cbff388433a34fab7e1b945ca5045fe46d6cfb62514f79be377dbff7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Yemen's reaction to Egypt's post-Mubarak military council is a distinct Egypt-related milestone on 2011-02-12.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-44d4dcdafb855f2f"
+  },
+  {
+    "candidate_id": "33b28733f27ffa5da716a1e6",
+    "time": "2011-02-02",
+    "date_precision": "day",
+    "summary": "Heavy gunfire erupted in central Cairo's Tahrir Square as supporters and opponents of Egyptian President Hosni Mubarak clashed, with the health ministry reporting three killed and 639 wounded in Wednesday's violence.",
+    "time_range": null,
+    "evidence_ids": [
+      "166"
+    ],
+    "job_id": "74b92e09a485821460f712e7a672ae387af0405308b75eb320d01e6d01505a1c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Tahrir Square clashes with casualties on 2011-02-02 is a distinct Egypt-related protest milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-179cba914ed123c1"
+  },
+  {
+    "candidate_id": "99cbd89f02e7b30b057cf9b8",
+    "time": "2011-02-04",
+    "date_precision": "day",
+    "summary": "Tens of thousands of Egyptians protest in Tahrir Square demanding President Mubarak's departure, as the Egyptian military establishes a perimeter and fires in the air to keep pro-Mubarak demonstrators back, following 48 hours of violence.",
+    "time_range": null,
+    "evidence_ids": [
+      "133"
+    ],
+    "job_id": "378412f645a7b1c82f15d938fe544d8f5168381d953d3b565aee70dab6b15d20",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-2588c0c8d4e23588",
+    "reason": "Same date and event: mass Tahrir Square protest demanding Mubarak's departure on 2011-02-04; duplicate of existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2588c0c8d4e23588"
+  },
+  {
+    "candidate_id": "9d7e87445da6d1f291e12d9f",
+    "time": "2011-02-11",
+    "date_precision": "day",
+    "summary": "Hosni Mubarak's regime was toppled amid mass protests in Egypt, with debate over the role of social media in the revolution.",
+    "time_range": null,
+    "evidence_ids": [
+      "3"
+    ],
+    "job_id": "2c4a0217d2f4db85ff7fd788823f84f07c13fa7531f1e03667f41731a38e60f8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ca0a499290cb05ea",
+    "reason": "Same date and event: Mubarak's regime toppled/stepped down on 2011-02-11; duplicate of existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ca0a499290cb05ea"
+  },
+  {
+    "candidate_id": "ce94a09c6c8023466e99e245",
+    "time": "2011-01-29",
+    "date_precision": "day",
+    "summary": "Saudi King Abdullah expressed support for Egyptian President Hosni Mubarak and condemned protesters in Egypt as \"infiltrators\" seeking to destabilize the country.",
+    "time_range": null,
+    "evidence_ids": [
+      "110"
+    ],
+    "job_id": "167705a23c6b75a96646df5dce76b260b83c839795f5e09d7200175d09efdacc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant international reaction to Egypt unrest; distinct event from existing 2011-01-29 domestic events, no duplicate match.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-96b731873bf8fb57"
+  },
+  {
+    "candidate_id": "afbb5826f8b210d43798e041",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush concedes that much of the pre-war intelligence on Iraq 'turned out to be wrong' but insists the conflict was justified anyway due to the threat posed by Saddam Hussein.",
+    "time_range": null,
+    "evidence_ids": [
+      "143"
+    ],
+    "job_id": "0dea343ee67126c6d0695b0426295a7e691fc2f122452677e89735962bf14919",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush statement on Iraq pre-war intelligence is not related to Egypt.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "425406879adb2dae4f1f0e2f",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "George Bush concedes that much of the pre-war intelligence on Iraq 'turned out to be wrong' but insists the conflict was justified anyway due to the threat posed by Saddam Hussein .",
+    "time_range": null,
+    "evidence_ids": [
+      "226"
+    ],
+    "job_id": "e31a1c75c3d707827b8eebc4c69619b754615a5d6b75a97ee0c3c2e871d46e79",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Duplicate of the Iraq intelligence statement; not related to Egypt.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "c6b0ca336419d526bb911dce",
+    "time": "2011-01-28",
+    "date_precision": "day",
+    "summary": "Egyptian protesters clashed with police in Cairo and other cities, demanding President Hosni Mubarak step down amid anger over corruption and economic policies.",
+    "time_range": null,
+    "evidence_ids": [
+      "108"
+    ],
+    "job_id": "1c5f50efa61c99723f98ea65621884fa1130ad2b34f6e9f1ac305fd2626de797",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-834de3e9090cdc9a",
+    "reason": "Same date and same Cairo anti-Mubarak protest event as existing event-834de3e9090cdc9a.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-834de3e9090cdc9a"
+  },
+  {
+    "candidate_id": "c6d04c5625758a6d0ff33e5a",
+    "time": "2011-01-25",
+    "date_precision": "day",
+    "summary": "Demonstrations erupted in Egypt driven by Egyptians' aspirations for greater dignity in their lives.",
+    "time_range": null,
+    "evidence_ids": [
+      "39"
+    ],
+    "job_id": "3dea18725358429a178347e015cd6a0d3ae4b224c5f2ab2cadcc1f86e27bd413",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-601eb3fe50b89e04",
+    "reason": "Same date and same outbreak of Egyptian demonstrations as existing event-601eb3fe50b89e04.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-601eb3fe50b89e04"
+  },
+  {
+    "candidate_id": "cc1ac53175ebf3f77a052136",
+    "time": "2011-01-28",
+    "date_precision": "day",
+    "summary": "Looters at the Cairo Museum damaged two statues of King Tutankhamun, broke 13 glass showcases, and damaged 70 other antiquities.",
+    "time_range": null,
+    "evidence_ids": [
+      "162"
+    ],
+    "job_id": "09cd184499ed60cd693ddcda562f45e6cbe5add32ad81f44bc9d66b8d4f669b9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct 2011-01-28 Cairo Museum looting and antiquities damage milestone during the Egyptian uprising.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8fb2c81d5c25837e"
+  },
+  {
+    "candidate_id": "f1cb2167e6fccc537115679e",
+    "time": "2011-01-31",
+    "date_precision": "day",
+    "summary": "Egyptian Vice President Omar Suleiman says President Hosni Mubarak has asked him to begin working immediately on \"real political reform,\" with talks with opposition parties already under way, as massive \"Million-Man\" marches are planned across the country and the government moves to shut down mobile phone networks ahead of them.",
+    "time_range": null,
+    "evidence_ids": [
+      "60"
+    ],
+    "job_id": "360ccbbd111b8adb620454df65735ffab255e38cf387f3a7da75a07c1c42010b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-8b8c88be594fc762",
+    "reason": "Same date (2011-01-31) and same event: government shutdown of mobile networks ahead of planned million-man marches; adds Suleiman reform talks detail.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8b8c88be594fc762"
+  },
+  {
+    "candidate_id": "8ad951cd2b3d3a67bb222489",
+    "time": "2011-02-03",
+    "date_precision": "day",
+    "summary": "Egyptian President Hosni Mubarak says he would like to step down right away but cannot because he does not want to risk plunging the nation into chaos, as mass protests are planned for Friday.",
+    "time_range": null,
+    "evidence_ids": [
+      "37"
+    ],
+    "job_id": "7c152530617632666195aa4a52b633fa113ed07b0d56eadea5f943d2959a81cc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-e37e021e308967e1",
+    "reason": "Same date and same Mubarak refusal-to-step-down statement as existing event; duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e37e021e308967e1"
+  },
+  {
+    "candidate_id": "a0c78d66535d2caa7aa74707",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "President Bush conceded that much of the pre-war intelligence on Iraq turned out to be wrong but took sole responsibility for ordering the invasion, which he said was justified by the potential threat posed by Saddam Hussein.",
+    "time_range": null,
+    "evidence_ids": [
+      "120"
+    ],
+    "job_id": "c2d793880bdd0d03a412a1c82bfa2378a2a024d15eccffa48d77c7c27724a91d",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush statement on Iraq pre-war intelligence and invasion is not an Egypt-related milestone.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "605bb473222115d97d21ec4f",
+    "time": "2011-02-03",
+    "date_precision": "day",
+    "summary": "Journalists covering unrest in Egypt reported being beaten, arrested, and harassed by security forces and police, leading to sharply limited television coverage of the protests.",
+    "time_range": null,
+    "evidence_ids": [
+      "41"
+    ],
+    "job_id": "35b546d00337b514db484359871b8697d0e88ac4ad6857a7291e7798b52623ec",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Journalists harassed and coverage limited during Egypt unrest; distinct 2011-02-03 event not matching existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-827e33d3147e278c"
+  },
+  {
+    "candidate_id": "dc4b423145635c85dd85b1cb",
+    "time": "2011-02-04",
+    "date_precision": "day",
+    "summary": "President Obama condemns attacks on journalists in Egypt amid criticism that the assaults were orchestrated by President Hosni Mubarak to suppress international coverage of bloodshed by pro-government operatives against peaceful protesters.",
+    "time_range": null,
+    "evidence_ids": [
+      "251"
+    ],
+    "job_id": "7ca04909f245212b7908ceb8c71fad59309cdea18ed954f62ae8ff6d5f786fe7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Obama condemns attacks on journalists in Egypt; distinct 2011-02-04 event not identical to existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-82d966f9787c4833"
+  },
+  {
+    "candidate_id": "2dc4e4ff58781d556581b955",
+    "time": "2011-01-28",
+    "date_precision": "day",
+    "summary": "Egyptian troops were deployed on the streets of Cairo and other cities, where protesters embraced them, in contrast to their hostility toward the national police.",
+    "time_range": null,
+    "evidence_ids": [
+      "264"
+    ],
+    "job_id": "6bc0f6fab43537ce2665db6e1e7d4e6eaa58aea9d6cd0686e1d2e1cda643fda9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-834de3e9090cdc9a",
+    "reason": "Same 2011-01-28 date and same Egypt army deployment amid protests as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-834de3e9090cdc9a"
+  },
+  {
+    "candidate_id": "b52a29ba846782de7c5d52b7",
+    "time": "2011-01-27",
+    "date_precision": "day",
+    "summary": "Protesters in Egypt use social media to organize and spread images of demonstrations, with a Facebook page for Friday's planned protests surpassing 80,000 followers.",
+    "time_range": null,
+    "evidence_ids": [
+      "258"
+    ],
+    "job_id": "6a747eaec9e26731230fc9e7a622f0cb937bd10076878c28e8e03332b6ddc55f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Egypt protest mobilization milestone; distinct focus on social media organizing and planned Friday protests, not a duplicate of existing Jan 27 events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-daa54e68bb4ba439"
+  },
+  {
+    "candidate_id": "5452994b2548912d12a77293",
+    "time": "2011-01-30",
+    "date_precision": "day",
+    "summary": "Iranian Foreign Minister Ali Akbar Salehi praises Egypt's protests, with Iran's parliament speaker also expressing support for uprisings against dictatorial regimes.",
+    "time_range": null,
+    "evidence_ids": [
+      "182"
+    ],
+    "job_id": "cf78d3d7f0564d84560f61e79d4fdc97c87d227d705be20d94bebc4ee7a425eb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Iranian official support for Egypt's protests is a relevant international reaction milestone; no same-date duplicate in existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6dbdc34e73841bca"
+  },
+  {
+    "candidate_id": "7aa121ffa927ed35d9df152c",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "President Bush conceded that much of the pre-war intelligence on Iraq turned out to be wrong but took sole responsibility for ordering the invasion, which he said was justified by the potential threat posed by Saddam Hussein.",
+    "time_range": null,
+    "evidence_ids": [
+      "117"
+    ],
+    "job_id": "d4565ca7fa31384868d4624052c789ee37d2e7af6e8c316aa0b883295621d9c1",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush's Iraq war intelligence concession is not about Egypt and does not contribute to the Egypt timeline.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "f9c761d58e09f1cdf73dd0e5",
+    "time": "2011-02-05",
+    "date_precision": "day",
+    "summary": "Palestinians demonstrating in support of Egyptian anti-government protesters in Ramallah were forcibly disbanded when a few dozen men in plain clothes disrupted the protest, sparking fistfights that injured at least two people.",
+    "time_range": null,
+    "evidence_ids": [
+      "147"
+    ],
+    "job_id": "41467c43803690e8230a2a4e56d445b9dfc85c7f3a4d5fdde1d94ae696204b45",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Palestinian solidarity protest for Egyptian protesters is a relevant regional spillover event; no same-date duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7554eacc76a40746"
+  },
+  {
+    "candidate_id": "40768932ebc4bdf156905fb3",
+    "time": "2011-02-08",
+    "date_precision": "day",
+    "summary": "Human Rights Watch issues a report alleging that numerous Arab governments, including the Palestinian Authority and Hamas, have used violence to quash demonstrations in the wake of mass protests in Egypt.",
+    "time_range": null,
+    "evidence_ids": [
+      "156"
+    ],
+    "job_id": "1e81269c472d0f2202875bfd7dbefdca40609d20c2bb9556f83b3ba00c0a9c09",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "HRW report on Arab government crackdowns in the wake of Egypt protests is a relevant aftermath milestone; no same-date duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-daa677fca61a1938"
+  },
+  {
+    "candidate_id": "e6dc0d9a8ef24db629ae3d08",
+    "time": "2005-12-14",
+    "date_precision": "day",
+    "summary": "President Bush conceded that much of the pre-war intelligence on Iraq turned out to be wrong but took sole responsibility for ordering the invasion, which he said was justified by the potential threat posed by Saddam Hussein.",
+    "time_range": null,
+    "evidence_ids": [
+      "275"
+    ],
+    "job_id": "7ba10126df7b327c7055b0d600669a4fcb5405c3ba04d802c7993629aed21424",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush's concession on Iraq pre-war intelligence concerns Iraq, not Egypt; no contribution to an Egypt timeline.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "3f4ed4514a540ac604bd6ceb",
+    "time": "2011-01-28",
+    "date_precision": "day",
+    "summary": "Egyptian protesters in the streets of Egypt share grievances and vow to continue demonstrations after President Hosni Mubarak announced he had asked his government to resign without indicating he planned to step down.",
+    "time_range": null,
+    "evidence_ids": [
+      "191"
+    ],
+    "job_id": "32570453ac006b07f5680a5a468f9d0b8f7ef0f6b0fec0aec3eb1e6854c545d1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-834de3e9090cdc9a",
+    "reason": "Same date (2011-01-28) and same event: Egyptian protesters demanding Mubarak's resignation amid the uprising.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-834de3e9090cdc9a"
+  }
+]
