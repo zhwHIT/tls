@@ -1,0 +1,12 @@
+{
+  "policy": "direct_pause_network_isolate_explicit_content_rejection_v3",
+  "proxy_policy": "disabled: explicit urllib ProxyHandler({}) for API and probes",
+  "script_sha256": "99891427af73cdaea53f3adfe29ec52430f26dc1e2237b4ccecde894b95a6e98",
+  "installed_at_utc": "2026-09-19T17:26:10.173051+00:00",
+  "network_probe": "HEAD provider root without API key",
+  "probe_interval_seconds": 30,
+  "network_resume": "automatic_after_reachability",
+  "ordinary_http_retry_policy": "unchanged",
+  "document_rejection_policy": "HTTP 400 Content Exists Risk: record error, no retry or rewriting, continue other jobs",
+  "note": "A lost response may have been processed remotely; billing cannot be inferred from reachability."
+}
