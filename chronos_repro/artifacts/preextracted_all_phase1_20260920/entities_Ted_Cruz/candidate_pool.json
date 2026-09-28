@@ -1,0 +1,1986 @@
+[
+  {
+    "candidate_id": "c9b054478844d9cb76a8f0bd",
+    "time": "2016-02-01",
+    "date_precision": "day",
+    "summary": "Ted Cruz wins the Iowa Republican caucuses, beating Donald Trump.",
+    "time_range": null,
+    "evidence_ids": [
+      "89012"
+    ],
+    "job_id": "378c232afae473f1d615c94d626defe95ef6f3f822d243012ceb34aebe778adb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Major milestone: Cruz wins the Iowa Republican caucuses.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fcf997a4599b8913"
+  },
+  {
+    "candidate_id": "003a4ae0579bafe5a3c3359f",
+    "time": "2015-03-23",
+    "date_precision": "day",
+    "summary": "Ted Cruz announces his candidacy for the 2016 Republican presidential nomination with a speech at Liberty University in Virginia.",
+    "time_range": null,
+    "evidence_ids": [
+      "89096"
+    ],
+    "job_id": "f2f9ff527d00d47c4f7ad5c86fcf656276ede13aea3637e292df3f3598be0a26",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Milestone: Cruz announces his 2016 presidential candidacy.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bb716cc7f50acd58"
+  },
+  {
+    "candidate_id": "ac83f5e1d28f01e1c12c55a2",
+    "time": "2015-02-26",
+    "date_precision": "day",
+    "summary": "Ted Cruz delivered a pugilistic speech at CPAC, attacking the political establishment on both the left and right and outlining his agenda for a potential presidency.",
+    "time_range": null,
+    "evidence_ids": [
+      "89204"
+    ],
+    "job_id": "5fe38d88f89ff0cb968870c23bf1bf1f4a7370618074f2fbd4ebdd08f09c485c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Notable Cruz speech at CPAC outlining his agenda.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9555c4895d161ecf"
+  },
+  {
+    "candidate_id": "a8978cea6ccd05257ad0658c",
+    "time": "2016-07-20",
+    "date_precision": "day",
+    "summary": "Ted Cruz was showered with boos at the Republican national convention after he withheld his endorsement of Donald Trump as the Republican nominee.",
+    "time_range": null,
+    "evidence_ids": [
+      "88942"
+    ],
+    "job_id": "2e7351a9fea93a64307e1ac614207938e85cf7097e585a3e4bbb8078e4ec9de9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Notable convention moment: Cruz booed for withholding Trump endorsement.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1d48b5e335962420"
+  },
+  {
+    "candidate_id": "54b5f2f27c5e44bb459c6589",
+    "time": "2015-12-25",
+    "date_precision": "day",
+    "summary": "Ted Cruz begins his #CruzCountryChristmasTour, traveling across the country by private jet.",
+    "time_range": null,
+    "evidence_ids": [
+      "89038"
+    ],
+    "job_id": "e671dd6e83fa1e260b5efde31071b486c233a07f4976c09e280b9b842875b1cc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Campaign activity: start of Cruz's #CruzCountryChristmasTour.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c50acc8771a452f3"
+  },
+  {
+    "candidate_id": "e9f8545277c795b948a89a22",
+    "time": "2016-02-15",
+    "date_precision": "day",
+    "summary": "Donald Trump threatened to sue Ted Cruz over his eligibility and the \"lies\" recited by his campaign, while Cruz responded with attacks on Trump.",
+    "time_range": null,
+    "evidence_ids": [
+      "89011"
+    ],
+    "job_id": "156a5841b6dbfc9d22fdfa17f3a13a43f009f2817a1217eaacda0bc2d096eb8b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Campaign conflict: Trump threatens to sue Cruz; Cruz responds.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8184de34d7d1d873"
+  },
+  {
+    "candidate_id": "31d6b3d2ccf627c0b1b2b600",
+    "time": "2015-03-23",
+    "date_precision": "day",
+    "summary": "Ted Cruz announced he is running for president of the United States.",
+    "time_range": null,
+    "evidence_ids": [
+      "89190"
+    ],
+    "job_id": "10eef14494e8666166b318605e8441258643cfee02f4c9b10b1cae4a1dee6510",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "003a4ae0579bafe5a3c3359f",
+    "reason": "Duplicate of Cruz's 2016-03-23 presidential candidacy announcement.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-bb716cc7f50acd58"
+    },
+    "timeline_event_id": "event-bb716cc7f50acd58"
+  },
+  {
+    "candidate_id": "a43b4c0eceb627cadceef4ee",
+    "time": "2016-02-01",
+    "date_precision": "day",
+    "summary": "Ted Cruz defied expectations in the Iowa caucuses, competing with Marco Rubio to reshape the Republican primary.",
+    "time_range": null,
+    "evidence_ids": [
+      "88946"
+    ],
+    "job_id": "12c44b0274cbbf444dee3f6c061277410a8ba7b3c39ca73a90c61e7b3ccff421",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "c9b054478844d9cb76a8f0bd",
+    "reason": "Duplicate of Cruz's 2016-02-01 Iowa caucuses result.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-fcf997a4599b8913"
+    },
+    "timeline_event_id": "event-fcf997a4599b8913"
+  },
+  {
+    "candidate_id": "2df3d6e667672432cce5dd0d",
+    "time": "2016-03-02",
+    "date_precision": "day",
+    "summary": "A \"Ted Cruz is the Zodiac killer\" meme-inspired T-shirt fundraising project ended sales after selling about 7,500 shirts, raising an estimated $69,000 for the West Fund.",
+    "time_range": null,
+    "evidence_ids": [
+      "88992"
+    ],
+    "job_id": "ad5b0f8766415ada16314f059661d0dcebcfc87de59ea4abf89f77b79d5a1d82",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz-related meme fundraising milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-cbc1b936650f99fd"
+  },
+  {
+    "candidate_id": "6f2d878373bffa7aa198528b",
+    "time": "2016-04-06",
+    "date_precision": "day",
+    "summary": "Ted Cruz emerges as the main rival to Donald Trump and a safer bet for the Republican establishment despite longstanding party misgivings.",
+    "time_range": null,
+    "evidence_ids": [
+      "88976"
+    ],
+    "job_id": "2da67feda580ae6afb6090bc6bfa7aa10ce143858709cd7790b2d3e178a426cf",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz's status as main Trump rival and establishment alternative; distinct 2016 campaign development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ca9d364dcad5ba84"
+  },
+  {
+    "candidate_id": "3fc58d7368bdff3d70399908",
+    "time": "2013-08-19",
+    "date_precision": "day",
+    "summary": "Ted Cruz says he will renounce any Canadian citizenship after a report that he may be a dual citizen of the USA and Canada.",
+    "time_range": null,
+    "evidence_ids": [
+      "89377"
+    ],
+    "job_id": "b836e02af51856ee5a3c782c2f251383559bf21dbf9d6eb8c3e3aa8ea339a20a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz renouncing Canadian citizenship; notable biographical milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b20c45584d2c8255"
+  },
+  {
+    "candidate_id": "24856700a5a8bfd06d57d15d",
+    "time": "2015-03-23",
+    "date_precision": "day",
+    "summary": "Ted Cruz became the first official US presidential candidate, launching his campaign at Liberty University with a direct appeal to the Christian right.",
+    "time_range": null,
+    "evidence_ids": [
+      "89193"
+    ],
+    "job_id": "5d3e3c64488262ef5a3d05caca7304fc0f8c285c4a3703afc46307bf39857035",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-bb716cc7f50acd58",
+    "reason": "Same 2015-03-23 Liberty University campaign launch as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bb716cc7f50acd58"
+  },
+  {
+    "candidate_id": "b70436ff366aecf62b26c058",
+    "time": "2016-03-12",
+    "date_precision": "day",
+    "summary": "Ted Cruz took an early lead in the Wyoming Republican caucuses and picked up a single delegate in Guam's Republican primary.",
+    "time_range": null,
+    "evidence_ids": [
+      "88987"
+    ],
+    "job_id": "c436b94af2bf41a423614aa3fe1f3036f25fd3c94004c9748221b6f97dfd84f3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz's Wyoming caucus lead and Guam delegate; distinct primary result.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-83c2016dfcafa5be"
+  },
+  {
+    "candidate_id": "f82cb163b765254d3e5f3736",
+    "time": "2013-10-12",
+    "date_precision": "day",
+    "summary": "Ted Cruz is cited as evidence that gerrymandering did not cause increased political polarization, since he was elected to the Senate in a statewide election where redistricting does not apply.",
+    "time_range": null,
+    "evidence_ids": [
+      "89339"
+    ],
+    "job_id": "d8fc61d0cd48b5e06dcf5b706bac12933802d2a040333bfce10b7ecf980792c1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz cited in gerrymandering/polarization debate; relevant political commentary.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d2b75fab2ad6c92b"
+  },
+  {
+    "candidate_id": "935d044168acbaa1ee59db7a",
+    "time": "2016-03-23",
+    "date_precision": "day",
+    "summary": "Jeb Bush endorses Ted Cruz for the Republican presidential nomination, following Cruz's victory in the Utah primary.",
+    "time_range": null,
+    "evidence_ids": [
+      "88982"
+    ],
+    "job_id": "af75ac952169325106adb5eb62083a9619dbc0f614543b1f52e6e1de27e7cadd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jeb Bush endorsing Cruz after Utah win; distinct campaign milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0302c83d59daecd8"
+  },
+  {
+    "candidate_id": "61d818994c892dd615c3e891",
+    "time": "2016-03-05",
+    "date_precision": "day",
+    "summary": "Ted Cruz wins the Republican caucuses in Kansas and Maine.",
+    "time_range": null,
+    "evidence_ids": [
+      "88996"
+    ],
+    "job_id": "5f6855e4c18b106b37ca1e4c59edb873b5e77365dd4dbd29627bf9d2edc19c21",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz winning Kansas and Maine caucuses; distinct primary victories.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-eedd6b11718c7e7d"
+  },
+  {
+    "candidate_id": "ce4db70cf83d150e8df631a2",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "89355"
+    ],
+    "job_id": "e14610bc7cb08b7d93bf13e8791cac15be812a7e41c6f0ab426d86f82ae76fae",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Appointment of Bush and Clinton for tsunami relief does not involve Ted Cruz or contribute to his timeline.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "000605ad5c8a67be20baec2d",
+    "time": "2016-04-20",
+    "date_precision": "day",
+    "summary": "Ted Cruz predicted that the Republican presidential race would culminate in a contested convention after Donald Trump won over 60% of the New York Republican primary vote.",
+    "time_range": null,
+    "evidence_ids": [
+      "89260"
+    ],
+    "job_id": "c318f9c99630e90b1f2776969d33227fb4090d8bbdc52ddfcf83096894123f8e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz's prediction of a contested convention after the New York primary is a distinct 2016 campaign milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-39d9626a7a4b2e26"
+  },
+  {
+    "candidate_id": "44123201dc6c1ad1fae74a6d",
+    "time": "2013-09-24",
+    "date_precision": "day",
+    "summary": "Ted Cruz spoke from 2:40pm ET Tuesday to 12:03pm ET Wednesday in a faux-filibuster against Obamacare.",
+    "time_range": null,
+    "evidence_ids": [
+      "89382"
+    ],
+    "job_id": "f56feada95e10dd4ff7e2a42ff399c7895adc86113c52509fbff7867f949a36b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz's 21-hour faux-filibuster against Obamacare is a notable event in his Senate career.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-980acc13a6b4071e"
+  },
+  {
+    "candidate_id": "a8feff7edeb9d906b7dce8a5",
+    "time": "2016-03-22",
+    "date_precision": "day",
+    "summary": "Ted Cruz won the Utah Republican caucus with more than 50% of the vote, securing all 40 of the state's delegates.",
+    "time_range": null,
+    "evidence_ids": [
+      "89269"
+    ],
+    "job_id": "e82a91bd2701edac8eab5d9d6502666df89583276e862f83cc4eeb24c8870e07",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz winning the Utah caucus and all 40 delegates is a distinct 2016 primary milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-cbcadea34239d8f1"
+  },
+  {
+    "candidate_id": "8ec8e88b10560579edf1652e",
+    "time": "2015-03-23",
+    "date_precision": "day",
+    "summary": "Senator Ted Cruz declares his candidacy for the presidency at a Liberty University event.",
+    "time_range": null,
+    "evidence_ids": [
+      "89107"
+    ],
+    "job_id": "111d9fbf52f12dc7ac9a37a5b194a44f7fb47bf1bb463fd55791d3a9b37645d4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-bb716cc7f50acd58",
+    "reason": "Same date and event as existing record of Cruz announcing his candidacy at Liberty University.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bb716cc7f50acd58"
+  },
+  {
+    "candidate_id": "51ab412a5406407d5a12f90b",
+    "time": "2015-03-23",
+    "date_precision": "day",
+    "summary": "Ted Cruz announced he is running for president in 2016 during a speech at Liberty University in Virginia.",
+    "time_range": null,
+    "evidence_ids": [
+      "89196"
+    ],
+    "job_id": "fa5e7b0c077bb2759b5d79ecc3d1704724ee82ca6ca9d4c830b44084c0db096f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-bb716cc7f50acd58",
+    "reason": "Duplicate of Cruz's March 23, 2015 Liberty University candidacy announcement.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bb716cc7f50acd58"
+  },
+  {
+    "candidate_id": "083788fd882cf5b0df71f370",
+    "time": "2016-02-01",
+    "date_precision": "day",
+    "summary": "Donald Trump claims Ted Cruz committed fraud in winning the Republican Iowa caucuses and calls for a new election.",
+    "time_range": null,
+    "evidence_ids": [
+      "89014"
+    ],
+    "job_id": "2b6345dde014672c0847d8d6768a99775f00cb63f05fc460401bee73540c061f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Trump's fraud claim and call for a new Iowa election is a distinct event involving Cruz, not identical to Cruz's Iowa win.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-86e0583db362ad2a"
+  },
+  {
+    "candidate_id": "a2dc15cfb6ae52bd451e9e06",
+    "time": "2016-05-03",
+    "date_precision": "day",
+    "summary": "Ted Cruz dropped out of the presidential race after a disastrous loss in Indiana.",
+    "time_range": null,
+    "evidence_ids": [
+      "88964"
+    ],
+    "job_id": "0b79664d8483d7ae1ba14f67c68d45406ce14f1223e2f3315e30662acfdbdd48",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz dropping out after the Indiana loss is a major distinct milestone in his 2016 campaign.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f85d2ac320d443a1"
+  },
+  {
+    "candidate_id": "01047a98deb31fc30098ab55",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "89343"
+    ],
+    "job_id": "49182e2c8934f2cb1574c013d94d7d24da06eebe58c26cce96238255aed3fe0d",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Concerns George W. Bush, George H.W. Bush, and Bill Clinton; no Ted Cruz relevance.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "34d86a0bda96cc6f2256827e",
+    "time": "2015-03-23",
+    "date_precision": "day",
+    "summary": "Ted Cruz raised $4.3 million in his first week as a presidential candidate, outpacing Mitt Romney's early 2012 fundraising.",
+    "time_range": null,
+    "evidence_ids": [
+      "89176"
+    ],
+    "job_id": "435327130022b5c69ed4eb1910ea8bb067d92fdbde8957abc498d831d8dabd0a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Ted Cruz fundraising milestone in his first week as a presidential candidate; distinct from his announcement event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ff6f91e3e2051eb0"
+  },
+  {
+    "candidate_id": "191c79c01054124d015365c4",
+    "time": "2016-03-23",
+    "date_precision": "day",
+    "summary": "Donald Trump and Ted Cruz traded Twitter barbs over their wives' honor after an anti-Trump group ran Facebook ads featuring a nearly-nude photo of Melania Trump, with Trump accusing Cruz's campaign of being behind the picture and Cruz denying it and warning Trump not to attack Heidi Cruz.",
+    "time_range": null,
+    "evidence_ids": [
+      "88952"
+    ],
+    "job_id": "74b61ae36dca8dccc03e4a3fa76acc3be1fe4cbe747f6efb35d87d798a98d3db",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Ted Cruz-related 2016 campaign dispute with Donald Trump; same date as Jeb Bush endorsement but a distinct occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d824c0c4af73d072"
+  },
+  {
+    "candidate_id": "8bb1155e135378bde97829bd",
+    "time": "2014-03-04",
+    "date_precision": "day",
+    "summary": "Ted Cruz's refusal to endorse Senator John Cornyn for re-election and his anti-establishment stance are cited as driving Texas Republican primary candidates to the right ahead of voting.",
+    "time_range": null,
+    "evidence_ids": [
+      "89334"
+    ],
+    "job_id": "9b1705171c933d41f79498c3308f277550a2b3029816573a52a8345cddec0b6f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone showing Cruz's anti-establishment influence on the 2014 Texas GOP primary; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-24c0b7354bd7dd27"
+  },
+  {
+    "candidate_id": "79666a29eb03a8429d8a3774",
+    "time": "2014-08-08",
+    "date_precision": "day",
+    "summary": "Ted Cruz spoke at the RedState Gathering conservative convention, where he reiterated admiration for Rick Perry and deflected but did not dismiss questions about a possible 2016 presidential run.",
+    "time_range": null,
+    "evidence_ids": [
+      "89284"
+    ],
+    "job_id": "dd4ba34941f65d2795d284dc3843a6713858365b03dac2dce057fbe1734732e1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Cruz appearance and 2016 speculation; no duplicate existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-dd75703ceb891f61"
+  },
+  {
+    "candidate_id": "d70fcdcca71213c42eea087f",
+    "time": "2013-09-24",
+    "date_precision": "day",
+    "summary": "Ted Cruz began a filibuster on the Senate floor to block the implementation of Obamacare, vowing to speak \"until I am no longer able to stand.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "89304"
+    ],
+    "job_id": "eb892abf6f1398e3c4d73a00ccd6e1555e412d066937c625ba780e126af9e57c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-980acc13a6b4071e",
+    "reason": "Same 2013-09-24 Senate filibuster against Obamacare as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-980acc13a6b4071e"
+  },
+  {
+    "candidate_id": "1882f5bd7091206d7f5f8d79",
+    "time": "2013-09-26",
+    "date_precision": "day",
+    "summary": "Ted Cruz is described as driving the Republican Party's strategy tying the budget and debt limit to defunding or delaying Obamacare, leading to a possible government shutdown.",
+    "time_range": null,
+    "evidence_ids": [
+      "89320"
+    ],
+    "job_id": "25ec88184c334f06b0903ff846bdc0071f418b826d35943fb94d8e4840346c51",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant to Cruz's role in the Obamacare budget showdown; distinct date from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-32c5cb0b5b8b82e0"
+  },
+  {
+    "candidate_id": "f1143b46a7896758f5687486",
+    "time": "2013-09-24",
+    "date_precision": "day",
+    "summary": "Senator Ted Cruz delivers a 21-hour speech in the US Senate opposing Barack Obama's healthcare reforms, exposing a rift within the Republican party.",
+    "time_range": null,
+    "evidence_ids": [
+      "89381"
+    ],
+    "job_id": "2050d767d2b7d72021565576a8f584271558edf5b4dc6a981b6325c2d8c8661d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-980acc13a6b4071e",
+    "reason": "Same 2013-09-24 21-hour Senate speech against Obamacare as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-980acc13a6b4071e"
+  },
+  {
+    "candidate_id": "09edbe067434dc349d229821",
+    "time": "2017-09-24",
+    "date_precision": "day",
+    "summary": "Ted Cruz says he will not vote for the Graham-Cassidy healthcare bill in its current form and believes Mike Lee will also oppose it.",
+    "time_range": null,
+    "evidence_ids": [
+      "88936"
+    ],
+    "job_id": "dd45f1121b1271074c2bf0ff61f67bc33772ae8115a061c6be77e79066c3e099",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Cruz healthcare-vote stance; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-aacf8f12d50dc0b8"
+  },
+  {
+    "candidate_id": "da77410746b38df2f1a01431",
+    "time": "2013-10-05",
+    "date_precision": "day",
+    "summary": "Ted Cruz emerges as a leading figure in the Republican strategy over Obamacare that prompted a US government shutdown, acting as an unofficial envoy between House conservatives and the Senate.",
+    "time_range": null,
+    "evidence_ids": [
+      "89370"
+    ],
+    "job_id": "d5a1f6111530fc6bfa28e6b4c7e29e080ec15da6407e0d8b2423bf72d8febae8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Cruz role in the government shutdown strategy; no duplicate existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b1749fe8763b1e80"
+  },
+  {
+    "candidate_id": "13f5d84e646ae9f3a71f8167",
+    "time": "2015-09-28",
+    "date_precision": "day",
+    "summary": "Ted Cruz was abandoned by his colleagues in a Senate vote to advance a bipartisan spending bill, after which he spoke angrily for an hour to a near-empty chamber, accusing Republican leadership of abdicating its responsibility to fight for conservative principles.",
+    "time_range": null,
+    "evidence_ids": [
+      "89063"
+    ],
+    "job_id": "8a962750a0866496cdc78fb341925e72b7ea22acbc99f9fb122185bbb172d8ba",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Cruz Senate confrontation with GOP leadership; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6437a7ab9dd33d6f"
+  },
+  {
+    "candidate_id": "aebbd4181a6b727a16b28405",
+    "time": "2015-03-23",
+    "date_precision": "day",
+    "summary": "Senator Ted Cruz announced his campaign for President of the United States at Liberty University.",
+    "time_range": null,
+    "evidence_ids": [
+      "89195"
+    ],
+    "job_id": "543e67389091038970b064df679b76881ca2fdfbd9c1d32795f5dcb63ae69d76",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-bb716cc7f50acd58",
+    "reason": "Same event: Cruz's 2015-03-23 presidential campaign announcement at Liberty University, matching date and existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bb716cc7f50acd58"
+  },
+  {
+    "candidate_id": "95a226741af9eae04fd011dd",
+    "time": "2013-09-24",
+    "date_precision": "day",
+    "summary": "Ted Cruz began a marathon speech against Obamacare that lasted 21 hours and 19 minutes, ending on September 25.",
+    "time_range": null,
+    "evidence_ids": [
+      "89372"
+    ],
+    "job_id": "9b4fcbcbd44d14ac0edb45dc3347ba47b348f6ca5a0683e539ea4160d01d7fbb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-980acc13a6b4071e",
+    "reason": "Same event: Cruz's 2013-09-24 marathon anti-Obamacare speech, matching date and existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-980acc13a6b4071e"
+  },
+  {
+    "candidate_id": "19c558df97040242023321e9",
+    "time": "2016-04-09",
+    "date_precision": "day",
+    "summary": "Ted Cruz won all 34 delegates available in Colorado, including the final 13 at the state convention, continuing his dominance in the state's Republican delegate selection process.",
+    "time_range": null,
+    "evidence_ids": [
+      "88949"
+    ],
+    "job_id": "c5cef90aa183d4b4d854f4a44311917a8d549b682f7110e6a384750f95e76c1a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in Cruz's 2016 delegate accumulation; no existing event with the same date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f99490ed3f9ec997"
+  },
+  {
+    "candidate_id": "a34f8ab23066b0ed417fd98b",
+    "time": "2016-04-06",
+    "date_precision": "day",
+    "summary": "Ted Cruz won the Wisconsin Republican primary, emerging as the strongest alternative to Donald Trump.",
+    "time_range": null,
+    "evidence_ids": [
+      "88948"
+    ],
+    "job_id": "cc45ce14f1f248603b7af69b828e7f456ac3b6aa1c9b0ebaf3d23e936c7fc532",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ca9d364dcad5ba84",
+    "reason": "Same date as existing event on Cruz emerging as Trump's main rival; duplicate occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ca9d364dcad5ba84"
+  },
+  {
+    "candidate_id": "61cf9703e78319df6634674b",
+    "time": "2016-05-07",
+    "date_precision": "day",
+    "summary": "Ted Cruz ends his campaign for the presidency.",
+    "time_range": null,
+    "evidence_ids": [
+      "88965"
+    ],
+    "job_id": "71842e2a888ce9647fe38ede8a82a5fc802cbf6dfa181e50c3cbf71d8cb0a0c1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone marking the end of Cruz's presidential campaign; no existing event with the same date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3d052432089e1251"
+  },
+  {
+    "candidate_id": "ceb5d99b80d8c5cafced9c47",
+    "time": "2016-01-12",
+    "date_precision": "day",
+    "summary": "Ted Cruz released a commercial titled “Invasion” in New Hampshire in which he says that if elected president he will triple the border patrol, build a wall “that works,” and secure the border.",
+    "time_range": null,
+    "evidence_ids": [
+      "89034"
+    ],
+    "job_id": "64488c0a232a724b9ae8e43b518577fd506b97f65f18c4f982afbb2769c26b8c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz campaign ad on border security is a relevant milestone in his presidential campaign.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e62969208a016a30"
+  },
+  {
+    "candidate_id": "b043a64b1e8fb992bb133240",
+    "time": "2015-08-02",
+    "date_precision": "day",
+    "summary": "Republican presidential candidate Ted Cruz expressed \"full out denial\" of global warming during a forum hosted by Freedom Partners.",
+    "time_range": null,
+    "evidence_ids": [
+      "89101"
+    ],
+    "job_id": "0f9b3ff73d458955ddeba44304cb70c071fcb96ecfcc51d04d85f101ba198275",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz's climate change denial at a candidate forum is a relevant campaign position event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-41730d18748d9f30"
+  },
+  {
+    "candidate_id": "3ee9e13c7a93cc11aa536e27",
+    "time": "2016-02-16",
+    "date_precision": "day",
+    "summary": "Ted Cruz touted his national security credentials on a statewide tour in South Carolina, pledging to increase US army enlistment by 75,000 troops and add more ships and planes.",
+    "time_range": null,
+    "evidence_ids": [
+      "89010"
+    ],
+    "job_id": "6aa451ea75feb70fe38f8ea31a03e0ce92d97e1c9237fda35e8cc4bc80cb306a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz's national security platform and South Carolina tour is a relevant campaign milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2e442c83f7b80f01"
+  },
+  {
+    "candidate_id": "2ca06f53b1490f23c3c9e8c1",
+    "time": "2016-01-30",
+    "date_precision": "day",
+    "summary": "Ted Cruz delivered a dystopian vision of America’s future ahead of the Iowa caucuses, warning that other Republicans would put religious freedoms at risk and that the nation was one Supreme Court justice away from abortion on demand and the removal of religious symbols from memorials.",
+    "time_range": null,
+    "evidence_ids": [
+      "89015"
+    ],
+    "job_id": "aca91fd28783dbeb1470f18eb2b399ca4497f1330c000407cbc76f6e108fae5b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz's pre-Iowa caucus dystopian vision is a relevant campaign event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-948183caa06c0e87"
+  },
+  {
+    "candidate_id": "e6c0d03dd05af35c18b81623",
+    "time": "2016-04-13",
+    "date_precision": "day",
+    "summary": "A report highlights that Ted Cruz, as Texas solicitor general in 2007, helped defend Texas's ban on the sale of sex toys in a federal court case.",
+    "time_range": null,
+    "evidence_ids": [
+      "88979"
+    ],
+    "job_id": "14c298450ebfdea609e549ba533ee1de35592bf753772b5d02c9109fb8f2d75d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Report on Cruz's 2007 solicitor general role is a relevant biographical milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-aa11ddd7fdc34dd7"
+  },
+  {
+    "candidate_id": "04b34174b17edef320e7065f",
+    "time": "2016-01-30",
+    "date_precision": "day",
+    "summary": "Iowa Secretary of State Paul Pate formally condemned the Cruz campaign for sending mailers that falsely accused voters of a \"voting violation,\" and Cruz responded by refusing to apologize.",
+    "time_range": null,
+    "evidence_ids": [
+      "89086"
+    ],
+    "job_id": "51caa9e582987047dc3ba0bb7d68a9000c8e4996797ad7865fb48bab0c274751",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Iowa mailer controversy and Cruz's refusal to apologize is a relevant campaign event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d201bfbd946b89b8"
+  },
+  {
+    "candidate_id": "746e82fbc975b125ab8abaea",
+    "time": "2015-12-10",
+    "date_precision": "day",
+    "summary": "Ted Cruz rejected calls from fellow Republicans to revive mass telephone surveillance after the San Bernardino terrorist attack, arguing that bulk data collection had failed to detect the plotters.",
+    "time_range": null,
+    "evidence_ids": [
+      "89043"
+    ],
+    "job_id": "299fa68cf9d2eff8e84e73a85d259f90c3f6e02f47dbb9a4b33792e19cd277a4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz's rejection of mass surveillance revival is a relevant policy stance event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-919ff027563e79ba"
+  },
+  {
+    "candidate_id": "b301408ad8e5b4fe1e1eaa5f",
+    "time": "2016-04-08",
+    "date_precision": "day",
+    "summary": "Ted Cruz picked up 12 more delegates in Colorado, giving him 21 of the state's 37 delegates ahead of the state convention.",
+    "time_range": null,
+    "evidence_ids": [
+      "88977"
+    ],
+    "job_id": "a5f3731c94c8945c720cff02bc8a52169e9c8a872d7c8948c961d04932461f50",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz's Colorado delegate gains are a relevant campaign milestone; distinct from the later April 9 event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-363acd230a8ac313"
+  },
+  {
+    "candidate_id": "33ec42e314d3febebe175dc6",
+    "time": "2016-02-17",
+    "date_precision": "day",
+    "summary": "Senators Ted Cruz and Marco Rubio are among the Republican obstructionists who want to block Obama from nominating a new US supreme court justice.",
+    "time_range": null,
+    "evidence_ids": [
+      "89352"
+    ],
+    "job_id": "72c2a53376b1302026c5201c859c9a587aef0de00a355440391aac5838388980",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Ted Cruz Supreme Court nomination obstruction event; no existing event with the same date and time_range to merge.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-04ccb578695a0c08"
+  },
+  {
+    "candidate_id": "3ae9bbc1471b77c2be9648f3",
+    "time": "2016-03-07",
+    "date_precision": "day",
+    "summary": "Ted Cruz campaigned in Mississippi and Michigan ahead of their votes the next day, reportedly preparing to announce his first endorsements from Senate colleagues.",
+    "time_range": null,
+    "evidence_ids": [
+      "88941"
+    ],
+    "job_id": "b5377d302e67ddf9cd06700e31d224d21f08c80669ed8b2f7e3a011c408f783c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Ted Cruz campaign milestone in Mississippi and Michigan; no existing event with the same date and time_range to merge.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-cff4d43d5c594dd2"
+  },
+  {
+    "candidate_id": "09327339bebef4cb63eaaca0",
+    "time": "2016-01-14",
+    "date_precision": "day",
+    "summary": "During a Republican debate, Ted Cruz called Harvard law professor Laurence Tribe a \"leftwing judicial activist\" after Donald Trump cited Tribe in questioning Cruz's eligibility to be president, despite Cruz having cited Tribe in his own Supreme Court briefs.",
+    "time_range": null,
+    "evidence_ids": [
+      "89023"
+    ],
+    "job_id": "276a291e254036174fd9f98932eb6be3d629b5a10e78c96eeaaa438ce90f6acb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Cruz campaign event during a Republican debate; no existing event matches this date or content.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b81ada3ca80cd2e0"
+  },
+  {
+    "candidate_id": "68c87011fc69a63695c2e0be",
+    "time": "2016-02-17",
+    "date_precision": "day",
+    "summary": "Ted Cruz makes the supreme court vacancy a central issue of his campaign, arguing the 2016 election should be a referendum on the court and warning that the Bill of Rights hangs in the balance.",
+    "time_range": null,
+    "evidence_ids": [
+      "89006"
+    ],
+    "job_id": "bd88fef98ac74e1748c2ce1844f734cc2fab51664df4b6cf3fdf54897f4c44c4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-04ccb578695a0c08",
+    "reason": "Same date and same Supreme Court vacancy issue as the existing Cruz/Rubio obstruction event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-04ccb578695a0c08"
+  },
+  {
+    "candidate_id": "058c8190989de9f65ff1d4ea",
+    "time": "2016-11-01",
+    "date_precision": "day",
+    "summary": "Republican Senator Ted Cruz voiced support for indefinitely blocking any Supreme Court nominee proposed by Hillary Clinton if she were elected, breaking with 150-year precedent.",
+    "time_range": null,
+    "evidence_ids": [
+      "88994"
+    ],
+    "job_id": "fbec24a40a907e6efe896e52c107347cb842f77ac0056b6438127895a6d9410a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Cruz Supreme Court blockade stance; no existing event matches this date or content.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9522d92e197bee07"
+  },
+  {
+    "candidate_id": "b840abf1fff566540ebdfed0",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No significant event related to Ted Cruz is reported in the article.",
+    "time_range": null,
+    "evidence_ids": [
+      "88991"
+    ],
+    "job_id": "6dcd6c1ac47e4f02b20b35cccbc4e489448db1866097cb81d95308f85e48fbb2",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No significant Ted Cruz event reported; does not contribute to the timeline.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "df1466e9db460789dd2b47a4",
+    "time": "2015-06-30",
+    "date_precision": "day",
+    "summary": "Ted Cruz said Chief Justice John Roberts \"violated his oath\" when he backed Obamacare in a Supreme Court decision.",
+    "time_range": null,
+    "evidence_ids": [
+      "89126"
+    ],
+    "job_id": "2961269467d32e92796ae098461c27d6199c23771260136d2d846c8f96958a77",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Cruz comment on Chief Justice Roberts and Obamacare; no existing event matches this date or content.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d554c273cb7bc4e6"
+  },
+  {
+    "candidate_id": "5c3e9bdd79b9ddac148f5e0f",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "89033"
+    ],
+    "job_id": "4a1e8d9fa4c2981d4dea592a3fe7df4e0fbc645d824108ef1a3f03fd9095ad80",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Concerns George W. Bush, George H.W. Bush, and Bill Clinton; no connection to Ted Cruz.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "457bf8e8785948c448750f77",
+    "time": "2014-11-20",
+    "date_precision": "day",
+    "summary": "Senator Ted Cruz delivered a Senate floor speech denouncing President Obama's planned executive action on immigration, adapting remarks by Cicero to accuse Obama of wanting to \"destroy the constitution.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "89189"
+    ],
+    "job_id": "bdc94e27e48229476669f5198b9eb0f61e3eb0054518be426e4c1d2a917fd59a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Ted Cruz Senate floor speech on Obama's immigration executive action; distinct date and event from existing timeline entries.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b2d2dc6ee3440109"
+  },
+  {
+    "candidate_id": "0bf835031daf3201831ef684",
+    "time": "2013-09-27",
+    "date_precision": "day",
+    "summary": "Ted Cruz led 19 Republican senators in voting against a procedural motion to advance a spending bill, after which the Senate stripped out the Obamacare defunding clause and sent the bill back to the House.",
+    "time_range": null,
+    "evidence_ids": [
+      "89389"
+    ],
+    "job_id": "47b6de1ad2f0e373e5f6c696709b80d588cfc386782d9db656f362db44c0368d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Ted Cruz leading Senate vote against advancing spending bill during Obamacare defunding fight; distinct date from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-81446567607418cd"
+  },
+  {
+    "candidate_id": "99724acc85e2b4ad748dda13",
+    "time": "2016-09-23",
+    "date_precision": "day",
+    "summary": "Ted Cruz announced on Facebook that he will vote for Republican nominee Donald Trump, citing his promise to support the nominee and his opposition to Hillary Clinton.",
+    "time_range": null,
+    "evidence_ids": [
+      "89007"
+    ],
+    "job_id": "3033bcd0c8a8c217bed5641c59ee66746734a20a0c9bf03e82f570629bd25787",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz's Facebook announcement that he would vote for Trump is a distinct milestone in his Trump relationship, dated 2016-09-23 with no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0b7ad5ec8069d615"
+  },
+  {
+    "candidate_id": "976c3313ff21f9233e7b628b",
+    "time": "2016-04-02",
+    "date_precision": "day",
+    "summary": "Ted Cruz detoured from campaigning in Wisconsin to appear at North Dakota's Republican convention, where presidential delegates were being picked.",
+    "time_range": null,
+    "evidence_ids": [
+      "89078"
+    ],
+    "job_id": "a7349222f629cdee46688933677adf692a5b388bffe2d680492c75021a730c35",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz's North Dakota convention appearance during the 2016 delegate fight is a relevant campaign milestone with no duplicate existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-adca914596fdf7a3"
+  },
+  {
+    "candidate_id": "f28911a28901ab2629851c1d",
+    "time": "2016-05-10",
+    "date_precision": "day",
+    "summary": "Ted Cruz refused to commit his support to Donald Trump as the Republican nominee and did not rule out resurrecting his presidential campaign despite having dropped out of the race.",
+    "time_range": null,
+    "evidence_ids": [
+      "88962"
+    ],
+    "job_id": "e9a7e0bad9e441232fbf75fdf52514958786eea0cec4b84fe14c60bb3a0dbef0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz's refusal to commit support to Trump and openness to reviving his campaign is a distinct 2016-05-10 development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f99a022c85b56639"
+  },
+  {
+    "candidate_id": "2445133db847c38c9c23502e",
+    "time": "2016-07-20",
+    "date_precision": "day",
+    "summary": "Ted Cruz declined to endorse Donald Trump in his Republican National Convention speech, drawing boos from the crowd.",
+    "time_range": null,
+    "evidence_ids": [
+      "89124"
+    ],
+    "job_id": "7173be74f610c9d26d2b37bd163096cda98c36826be69d941ad5f852587bc3b9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-1d48b5e335962420",
+    "reason": "Same 2016-07-20 RNC non-endorsement and crowd booing as existing event-1d48b5e335962420.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1d48b5e335962420"
+  },
+  {
+    "candidate_id": "2dda9ae044a5bf6a6d45cad5",
+    "time": "2016-07-20",
+    "date_precision": "day",
+    "summary": "Ted Cruz did not endorse Donald Trump in a speech at the Republican national convention and was booed by the crowd.",
+    "time_range": null,
+    "evidence_ids": [
+      "89052"
+    ],
+    "job_id": "badad48010137ab66dbb1a40a3ba9296dccd90636827323c34e3c667ab838fbf",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-1d48b5e335962420",
+    "reason": "Duplicate of the 2016-07-20 RNC non-endorsement and booing already represented by event-1d48b5e335962420.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1d48b5e335962420"
+  },
+  {
+    "candidate_id": "e1c2fbaba491a1290e6fe77a",
+    "time": "2016-05-14",
+    "date_precision": "day",
+    "summary": "Ted Cruz returned to the Republican stage at the Texas state convention, avoiding mention of Donald Trump while telling Texans he would continue fighting for a far-right conservative movement.",
+    "time_range": null,
+    "evidence_ids": [
+      "88961"
+    ],
+    "job_id": "a8bb4a77e834591b5fe6a720b2865dab69d9e3bfd27114e43e3203ada71415b2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz's Texas state convention return and continued movement-building is a distinct 2016-05-14 milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f0bfaebbb833c81e"
+  },
+  {
+    "candidate_id": "e0b63c8dd2cad34c080b7285",
+    "time": "2016-04-22",
+    "date_precision": "day",
+    "summary": "Maine Governor Paul LePage accused Ted Cruz’s campaign of reneging on a delegate unity deal and condemned it as run by “greedy political hooligans.”",
+    "time_range": null,
+    "evidence_ids": [
+      "88971"
+    ],
+    "job_id": "7ede45fc92165ddef5af7b226a0f344a4ffc53ef572e208b29d8861ca01a8d36",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "LePage's accusation over a Cruz delegate unity deal is a relevant 2016-04-22 campaign development with no duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8098b9d70fadbc88"
+  },
+  {
+    "candidate_id": "7da502b18920cf1a330374fa",
+    "time": "2015-09-19",
+    "date_precision": "day",
+    "summary": "Ted Cruz spoke at the Mackinac Republican Leadership Conference, making jokes about Democratic candidates and outlining conservative policy promises.",
+    "time_range": null,
+    "evidence_ids": [
+      "89062"
+    ],
+    "job_id": "0b5836e8a210c1050cac7719785d4ecad9ab7e2abd668b14c0fd32c59654f5f2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz's 2015-09-19 Mackinac speech is a relevant early campaign appearance with no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-716142f434f15fc3"
+  },
+  {
+    "candidate_id": "23bb4ea9fe0298434b3cb874",
+    "time": "2015-04-26",
+    "date_precision": "day",
+    "summary": "Gay hotelier Ian Reisner apologized to the LGBT community for hosting a “fireside chat” with Republican presidential candidate Ted Cruz, calling it “a terrible mistake.”",
+    "time_range": null,
+    "evidence_ids": [
+      "89166"
+    ],
+    "job_id": "3541377b99e80a7b5f95998a8e6b1a0fcb45cc7f93c8572d2d6423832eeac903",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Ted Cruz event: hotelier's apology over hosting Cruz; no matching existing event date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-03a53b397cb405b3"
+  },
+  {
+    "candidate_id": "85eb9668f5dbe9d07cde5f31",
+    "time": "2016-02-03",
+    "date_precision": "day",
+    "summary": "Ben Carson held a press conference to criticize Ted Cruz for his campaign spreading rumors that Carson was dropping out of the race on the night of the Iowa caucuses, though Carson refused to name Cruz directly.",
+    "time_range": null,
+    "evidence_ids": [
+      "89013"
+    ],
+    "job_id": "1b222a8cbcf5882948af76ea8a35f46c983514df344c1356d38d33199ecc9598",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Ted Cruz campaign event: Carson criticism over Iowa caucus rumors; no duplicate existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-887667b9decaade8"
+  },
+  {
+    "candidate_id": "5541fa34901bfe5931a18a5e",
+    "time": "2016-09-24",
+    "date_precision": "day",
+    "summary": "Ted Cruz refuses to say Donald Trump is fit to be president after endorsing him, citing Hillary Clinton as unfit and a binary choice.",
+    "time_range": null,
+    "evidence_ids": [
+      "88944"
+    ],
+    "job_id": "44ecf38ef246929edf5c77303626c6abfc77f7d2a6c0f94b39d01ce224ff0b85",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct follow-up to Cruz's endorsement, showing he would not affirm Trump's fitness; different date from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9f3d44efc13df581"
+  },
+  {
+    "candidate_id": "ea56d53692df79ed602d4ae2",
+    "time": "2016-09-23",
+    "date_precision": "day",
+    "summary": "Ted Cruz announces he will vote for Donald Trump in the presidential election.",
+    "time_range": null,
+    "evidence_ids": [
+      "89017"
+    ],
+    "job_id": "4d8a416ab78fca3227a9ab44b3c0ed5c6f3f5773d4d0ceb8c07609df940651e8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-0b7ad5ec8069d615",
+    "reason": "Same date and same event as existing record of Cruz announcing he will vote for Trump.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0b7ad5ec8069d615"
+  },
+  {
+    "candidate_id": "38719a5dea8697b017536358",
+    "time": "2016-03-28",
+    "date_precision": "day",
+    "summary": "Wisconsin Governor Scott Walker endorsed Ted Cruz for the Republican presidential nomination.",
+    "time_range": null,
+    "evidence_ids": [
+      "89264"
+    ],
+    "job_id": "a22f718b2bec235c5385abbd2795f753f98273274159630499588ae326c0defe",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Scott Walker's endorsement of Cruz is a relevant campaign milestone not covered by existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d8a7c64283204dc8"
+  },
+  {
+    "candidate_id": "489f3b21710e0d9eaa69d672",
+    "time": "2016-09-23",
+    "date_precision": "day",
+    "summary": "Ted Cruz announces in a Facebook post that he will vote for Republican nominee Donald Trump on Election Day.",
+    "time_range": null,
+    "evidence_ids": [
+      "89123"
+    ],
+    "job_id": "1ce7180722bb9c6f58490c27ee23d2467e692e48c59225f99ea72c9f1da5d66d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-0b7ad5ec8069d615",
+    "reason": "Same date and same Facebook announcement of voting for Trump as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0b7ad5ec8069d615"
+  },
+  {
+    "candidate_id": "0e6d18b9c7a8985974ac5884",
+    "time": "2016-02-15",
+    "date_precision": "day",
+    "summary": "Donald Trump threatens to sue Ted Cruz over his eligibility to be president unless Cruz apologizes, calling him \"unstable\" and \"unhinged.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "88957"
+    ],
+    "job_id": "81a6287c93ab4095228f8e3fd686975910b40ee4ad2b259c5085463fc1814e3a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-8184de34d7d1d873",
+    "reason": "Same date and same Trump lawsuit threat over Cruz eligibility as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8184de34d7d1d873"
+  },
+  {
+    "candidate_id": "222b192a41046363fdfc3b91",
+    "time": "2016-02-17",
+    "date_precision": "day",
+    "summary": "Ted Cruz dared Donald Trump to sue him over a negative campaign ad, saying he would welcome a lawsuit and that Trump's own words on national television cannot be defamation.",
+    "time_range": null,
+    "evidence_ids": [
+      "89009"
+    ],
+    "job_id": "aebe6adc2c74b3a2e82b15c7f63ee61d92f7e00e0c5842836ac11175e8da85bc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz's dare to Trump to sue over a campaign ad is a distinct event; existing 2016-02-17 event concerns a different Supreme Court nomination matter.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-12c697960b555124"
+  },
+  {
+    "candidate_id": "a96378db8215f5bee5b888ad",
+    "time": "2016-01-23",
+    "date_precision": "day",
+    "summary": "Ted Cruz challenges Donald Trump to a one-on-one debate in Iowa and offers a $1.5 million donation to veterans' organizations if Trump accepts.",
+    "time_range": null,
+    "evidence_ids": [
+      "89021"
+    ],
+    "job_id": "fd4a48b29761957b0c5896bb8918b146bc79626dbb677df12966f7a3f6f12253",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz's challenge to a one-on-one Iowa debate with a veterans donation offer is a relevant campaign milestone not in existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bf750239f9fc7893"
+  },
+  {
+    "candidate_id": "966860fa64906ffd8c5f4374",
+    "time": "2016-05-01",
+    "date_precision": "day",
+    "summary": "Ted Cruz made a series of last-ditch attacks on Donald Trump ahead of the Indiana primary, calling him corrupt and part of a political \"cartel\" with Hillary Clinton.",
+    "time_range": null,
+    "evidence_ids": [
+      "88966"
+    ],
+    "job_id": "4c0267758a269c3f13d7c4bc2efc5dfd80ea3cd7bb5535398dd28bdd4d56e465",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz's last-ditch attacks on Trump before the Indiana primary are a relevant campaign event not covered by existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a9ef759cfee48a23"
+  },
+  {
+    "candidate_id": "279908133564701218468d60",
+    "time": "2016-01-10",
+    "date_precision": "day",
+    "summary": "Harvard law professor Laurence Tribe says the legal and constitutional issues around whether Ted Cruz is a “natural-born citizen” eligible for the presidency are “murky and unsettled,” a position cited by Donald Trump in his attacks on Cruz.",
+    "time_range": null,
+    "evidence_ids": [
+      "89058"
+    ],
+    "job_id": "7d9232c31b1e113d75446aa990a20699050439eda86ea61ab069957023d42c84",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in the Cruz natural-born-citizen controversy; distinct date from the existing Tribe-related debate event, so it is a separate occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-de4b0f9a88ee5a18"
+  },
+  {
+    "candidate_id": "e0bcee9f0608963be5c35449",
+    "time": "2015-12-02",
+    "date_precision": "day",
+    "summary": "Ted Cruz condemned campus protesters at Princeton University as \"pampered teenagers\" over their campaign to remove Woodrow Wilson's name from the Wilson School of Public and International Affairs.",
+    "time_range": null,
+    "evidence_ids": [
+      "88980"
+    ],
+    "job_id": "ad2ff2efbc8b450d6c150ae5d47016b0fd641628021d6891fc26c51b7c54f1b4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant example of Cruz's public political commentary; no duplicate existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bba3b0779bfbaf53"
+  },
+  {
+    "candidate_id": "5a94767631bc9df70678d9a2",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "A lawsuit was filed challenging Ted Cruz's eligibility to become President of the United States because he was born in Calgary, Canada.",
+    "time_range": null,
+    "evidence_ids": [
+      "89029"
+    ],
+    "job_id": "a8b19fef306ee12b8463b8a360fb7157100d486ee4465067476ac0f4fab689da",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant eligibility-lawsuit milestone; date is unknown, so it cannot merge with dated existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9f691a0a4ba42346"
+  },
+  {
+    "candidate_id": "dc4390b9a49564747ce356d9",
+    "time": "2016-01-10",
+    "date_precision": "day",
+    "summary": "Ted Cruz insists he is a natural-born citizen and dismisses claims from Donald Trump and other Republicans that he is not qualified to be president.",
+    "time_range": null,
+    "evidence_ids": [
+      "89028"
+    ],
+    "job_id": "351d42ae49d9838c7214ac892dbae693240e1646b41de29ed35266809b2ffadb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz defending his natural-born citizenship status is a relevant milestone in the eligibility controversy; no existing event has the same date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-84bac32a95296c02"
+  },
+  {
+    "candidate_id": "4a2bc1ad60f7716709bd513e",
+    "time": "2016-01-14",
+    "date_precision": "day",
+    "summary": "At a Republican debate in South Carolina, Ted Cruz responded to Donald Trump's claim that he is not \"natural-born\" and thus ineligible for the presidency, arguing that under Trump's citizenship logic Trump himself would be disqualified.",
+    "time_range": null,
+    "evidence_ids": [
+      "89031"
+    ],
+    "job_id": "0ba770ea588ce391ded47437d26c3de3b2c59d400aab1a07ce924da340a5d3e2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz's debate response to Trump's eligibility claim is a distinct relevant occurrence; existing 2016-01-14 event covers Tribe exchange, not this response.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-25f9ee8b823b2d1f"
+  },
+  {
+    "candidate_id": "e6693fcb7fc248a9b22649f9",
+    "time": "2016-02-04",
+    "date_precision": "day",
+    "summary": "Canadians, particularly Albertans, disavow Ted Cruz after his victory in the Republican Iowa caucus, rejecting his association with Canada and expressing disapproval of his politics.",
+    "time_range": null,
+    "evidence_ids": [
+      "89018"
+    ],
+    "job_id": "ca25d865f3d5d8d4f6b18802e8f98ee665cf065984c68faf648b28148dea4483",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Canadian disavowal of Cruz after Iowa is a relevant development in the citizenship narrative; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4deefd7ba56e20d1"
+  },
+  {
+    "candidate_id": "5af92b4b1e2d7cc867bf93cb",
+    "time": "2016-01-05",
+    "date_precision": "day",
+    "summary": "Donald Trump cast doubt on Ted Cruz's eligibility for the presidency, claiming Cruz may not be a natural-born US citizen because he was born in Canada.",
+    "time_range": null,
+    "evidence_ids": [
+      "89030"
+    ],
+    "job_id": "13d2a08ca005122db95e8c729ca41fd96c0837fdd90deaee8102dda94b5b5081",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Trump's initial public doubt about Cruz's eligibility is a relevant milestone; no existing event on this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-77a8639a3cabf656"
+  },
+  {
+    "candidate_id": "a6a7c6d99562187d5e35c4fd",
+    "time": "2013-12-29",
+    "date_precision": "day",
+    "summary": "Ted Cruz said he is taking steps to renounce his Canadian citizenship.",
+    "time_range": null,
+    "evidence_ids": [
+      "89314"
+    ],
+    "job_id": "953a59f95f0082bcf971f6a18abc0ef85db174a919706d37372d92ab16a22f59",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz taking steps to renounce Canadian citizenship is relevant; existing 2013-08-19 event is a different dated occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d271e7b87e253f46"
+  },
+  {
+    "candidate_id": "a8cd69e4ea50a6330400956f",
+    "time": "2015-12-12",
+    "date_precision": "day",
+    "summary": "A Bloomberg/Des Moines Register poll shows Ted Cruz leading the Republican field in Iowa with 31% support, ahead of Donald Trump at 21%.",
+    "time_range": null,
+    "evidence_ids": [
+      "89041"
+    ],
+    "job_id": "9eafe95a9e9e726425092b1bf2b7629b559be674ba392fd63651876556254edd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Iowa poll showing Cruz leading is a relevant campaign milestone; no existing event matches.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1bef4b6070db002e"
+  },
+  {
+    "candidate_id": "e7865de0e072fc0d69881f08",
+    "time": "2016-02-17",
+    "date_precision": "day",
+    "summary": "At a South Carolina town hall, Ted Cruz said he would not endorse a Senate committee hearing on any Supreme Court nominee Barack Obama puts forward during an election year.",
+    "time_range": null,
+    "evidence_ids": [
+      "89140"
+    ],
+    "job_id": "d1b6d56bd586c6525b1c1e2f4ff30d3502bc9255cbe1a1217474f4385e8d055c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-04ccb578695a0c08",
+    "reason": "Same date and same Supreme Court nomination obstruction stance as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-04ccb578695a0c08"
+  },
+  {
+    "candidate_id": "8cce3d9d1df5e9563fd646a9",
+    "time": "2016-04-09",
+    "date_precision": "day",
+    "summary": "The Trump campaign's ballot error at the Colorado state convention may lead voters to support Ted Cruz delegates.",
+    "time_range": null,
+    "evidence_ids": [
+      "89132"
+    ],
+    "job_id": "2347adb69ee58f61f5364b2079b8413a277094a367fde68b2f1f2ec7af5a73f4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant to Cruz's delegate strategy in Colorado; distinct from the existing Colorado event, which covers Cruz winning delegates rather than the Trump ballot error's effect.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-022545435930b8eb"
+  },
+  {
+    "candidate_id": "2e9561c2f58c52895db4c431",
+    "time": "2016-04-24",
+    "date_precision": "day",
+    "summary": "Ted Cruz and John Kasich announce a deal in which Cruz will focus resources on Indiana while Kasich focuses on Oregon and New Mexico, in an attempt to prevent Donald Trump from reaching the 1,237 delegates needed to clinch the Republican nomination.",
+    "time_range": null,
+    "evidence_ids": [
+      "88974"
+    ],
+    "job_id": "44bf07101fc510f018c394cfa15cf247f3f01e99f6cf940d428b2e711f512d9a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Major Cruz campaign milestone: the Cruz-Kasich alliance to block Trump; no existing event covers it.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bbd05655ff903607"
+  },
+  {
+    "candidate_id": "53f6a02e614897ef5ce46223",
+    "time": "2016-04-19",
+    "date_precision": "day",
+    "summary": "Donald Trump wins the New York Republican primary, decisively defeating Ted Cruz and undoing the delegate gains Cruz made after his Wisconsin victory.",
+    "time_range": null,
+    "evidence_ids": [
+      "89210"
+    ],
+    "job_id": "2d35e3d0a7c635dd3fbf4ed8b44c83abfbfb962039c22ce7de20c71f7f2cd477",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant to Cruz's nomination fight; distinct from the existing April 20 event, which is Cruz's contested-convention prediction after the New York primary.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-eb5873d6b36149ef"
+  },
+  {
+    "candidate_id": "dfd65fbd9774f65302d8d8b9",
+    "time": "2016-02-22",
+    "date_precision": "day",
+    "summary": "Ted Cruz fired national spokesman Rick Tyler after Tyler promoted a false story questioning Marco Rubio's commitment to the Bible.",
+    "time_range": null,
+    "evidence_ids": [
+      "88999"
+    ],
+    "job_id": "b5899b63918643b438832bf2afeecdfb8e8e20e2341564c15d9cf0f537f23d6d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Cruz campaign event: firing national spokesman Rick Tyler; no existing event covers it.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-aead93b036df7140"
+  },
+  {
+    "candidate_id": "561104df73d1a2b8a5ca8256",
+    "time": "2016-02-01",
+    "date_precision": "day",
+    "summary": "Ted Cruz wins the Iowa caucus, defeating Donald Trump for the Republican victory.",
+    "time_range": null,
+    "evidence_ids": [
+      "89019"
+    ],
+    "job_id": "4239b8c8d65394ecdacd2fb1336360518b7aec1ef89386476f67a4cf35f8c84e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-fcf997a4599b8913",
+    "reason": "Duplicate of the existing February 1, 2016 event recording Cruz's Iowa caucus win over Trump.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fcf997a4599b8913"
+  },
+  {
+    "candidate_id": "31eb3a70090f5b27b0d7d0a2",
+    "time": "2016-03-25",
+    "date_precision": "day",
+    "summary": "Ted Cruz held a press conference to call a tabloid story alleging he had extramarital affairs \"lies\" and a \"smear\" from Donald Trump and his \"henchmen,\" while Trump denied having anything to do with the story.",
+    "time_range": null,
+    "evidence_ids": [
+      "89117"
+    ],
+    "job_id": "73e8efce317c826cb9ab07e6a4d86eb8244ecd4d1b68c9af535cfd823b14b8bf",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Ted Cruz campaign event: press conference denying tabloid affair allegations and blaming Trump; no existing event matches this date or content.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-19b924287938261b"
+  },
+  {
+    "candidate_id": "9cb402ee0788e69cbc0eb978",
+    "time": "2015-11-13",
+    "date_precision": "day",
+    "summary": "Republican presidential candidate Ted Cruz unveiled a hardline immigration plan that would limit legal immigration, increase deportations, end birthright citizenship, and build a wall along the US-Mexico border.",
+    "time_range": null,
+    "evidence_ids": [
+      "89054"
+    ],
+    "job_id": "b7a53e1cb6bcec1070568b8e09f49c880f465f1e5454ddd6db11e3028468d367",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant policy milestone: Cruz unveils hardline immigration plan; no existing event covers this.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9fd16d6412e68b1e"
+  },
+  {
+    "candidate_id": "8efddc6fffec63e8ed4bf6b1",
+    "time": "2016-03-25",
+    "date_precision": "day",
+    "summary": "Ted Cruz accused Donald Trump and his \"henchmen\" of spreading lies about his personal life in a National Enquirer story, and backed away from his pledge to support the Republican nominee.",
+    "time_range": null,
+    "evidence_ids": [
+      "88984"
+    ],
+    "job_id": "940817d2051e20a71fde41cd03b2e3561af4db522ed48f2a860c875e505c6d3a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "31eb3a70090f5b27b0d7d0a2",
+    "reason": "Same date and same underlying event as candidate 31eb3a70090f5b27b0d7d0a2: Cruz's response to the National Enquirer story and Trump.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-19b924287938261b"
+    },
+    "timeline_event_id": "event-19b924287938261b"
+  },
+  {
+    "candidate_id": "0cee6002addbda0366037f7f",
+    "time": "2015-04-25",
+    "date_precision": "day",
+    "summary": "Republican presidential candidate Ted Cruz said conservatives should “fall to our knees and pray” that the Supreme Court will not make same-sex marriage legal in all 50 states.",
+    "time_range": null,
+    "evidence_ids": [
+      "89383"
+    ],
+    "job_id": "1a005283c5bf0e65377983181e22eced2d5f051fd0c52477f7ee9564214192ee",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Ted Cruz campaign milestone on same-sex marriage; no existing event shares its 2015-04-25 date, so it is not a duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-51869884fd4a72de"
+  },
+  {
+    "candidate_id": "aff5898ebfbeef74d6a8c593",
+    "time": "2015-11-28",
+    "date_precision": "day",
+    "summary": "Ted Cruz became the first Republican presidential candidate to directly address the fatal shooting at a Planned Parenthood clinic in Colorado, calling the attack \"horrific\" and \"unacceptable.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "88983"
+    ],
+    "job_id": "63e3c21e96c0d93961b5c934841fd2a9da92d553d52ba082a649948ad30e7a59",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Cruz's first GOP candidate response to the Colorado Planned Parenthood shooting; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c3e352ec4964c192"
+  },
+  {
+    "candidate_id": "2c786489a04d33be73d8a0fd",
+    "time": "2014-06-03",
+    "date_precision": "day",
+    "summary": "Ted Cruz won the straw poll at the Republican Leadership Conference in New Orleans after giving an anti-establishment speech.",
+    "time_range": null,
+    "evidence_ids": [
+      "89360"
+    ],
+    "job_id": "23242dbf081c925438c278380d4c2e89566236afcfc409d4c1524c2ef8867f2a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Cruz won the Republican Leadership Conference straw poll; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f2d3198e69d9fa8e"
+  },
+  {
+    "candidate_id": "1d9b022378c25ea745b22998",
+    "time": "2016-07-21",
+    "date_precision": "day",
+    "summary": "Ted Cruz refused to endorse Donald Trump at the Republican convention and told Texas delegates he is not \"a servile puppy dog\" to Trump.",
+    "time_range": null,
+    "evidence_ids": [
+      "88954"
+    ],
+    "job_id": "8fad1bd4d43566ce5ebc96a6f6c65109cd080fef513f569b24ddaa22850298ca",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz's convention refusal to endorse Trump and 'servile puppy dog' remark is a distinct milestone on July 21, separate from the July 20 booing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-da329083e83f780a"
+  },
+  {
+    "candidate_id": "f799eb6848aa1f91263e11c1",
+    "time": "2016-05-03",
+    "date_precision": "day",
+    "summary": "Ted Cruz suspended his presidential campaign after Donald Trump won the Indiana Republican primary.",
+    "time_range": null,
+    "evidence_ids": [
+      "89180"
+    ],
+    "job_id": "364020fca54c1502e088e50d069c9a9ce4d2e5d06c4b06f507f18d41b7986d02",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-f85d2ac320d443a1",
+    "reason": "Same date and same event: Cruz suspended his campaign after losing Indiana.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f85d2ac320d443a1"
+  },
+  {
+    "candidate_id": "d72c6b15a00999fbbd5ce2ef",
+    "time": "2015-01-12",
+    "date_precision": "day",
+    "summary": "Senator Ted Cruz is appointed to chair the subcommittee overseeing science and NASA in the new Republican-controlled Congress.",
+    "time_range": null,
+    "evidence_ids": [
+      "89155"
+    ],
+    "job_id": "5ad45c8c0b6205d529108891a7460543bc00d58b30920780baab6e6e37d26af2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz chairing the science and NASA subcommittee is a distinct relevant milestone in his Senate career.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ac8405f8a1c2f682"
+  },
+  {
+    "candidate_id": "db00013c0bd24f0045ccb929",
+    "time": "2016-01-26",
+    "date_precision": "day",
+    "summary": "Ted Cruz campaigned in Iowa ahead of the state's caucuses, telling voters he is the real conservative and sharply criticizing Donald Trump.",
+    "time_range": null,
+    "evidence_ids": [
+      "89024"
+    ],
+    "job_id": "dc67cdc50e047ed119368cead5d4dcd63176af6e3c601fe465b7f45659e7016a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cruz campaigning in Iowa before the caucuses and criticizing Trump is a distinct 2016 campaign event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e9a9aa4fdef7cf86"
+  },
+  {
+    "candidate_id": "b91f8c20d8ab3ba03953b889",
+    "time": "2016-02-23",
+    "date_precision": "day",
+    "summary": "Ted Cruz's presidential campaign is described as flailing after Donald Trump's third resounding victory, with Cruz pinning his hopes on his home state of Texas ahead of Super Tuesday.",
+    "time_range": null,
+    "evidence_ids": [
+      "89042"
+    ],
+    "job_id": "1c928ec584cd9fc3e7bbae219c695e1222bd94b0e8caf1e7464469c84b2f4ac3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in Cruz's 2016 presidential campaign after a Trump victory; no existing event matches this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-62008e717308db93"
+  },
+  {
+    "candidate_id": "22d14965cb2e6a8042f473e8",
+    "time": "2016-02-21",
+    "date_precision": "day",
+    "summary": "Ted Cruz and Marco Rubio campaigned in Nevada, each arguing they are the most viable challenger to Donald Trump for the Republican presidential nomination.",
+    "time_range": null,
+    "evidence_ids": [
+      "89185"
+    ],
+    "job_id": "ae9e4e36fb94da2fcf28142b5bbce6436845211026d5fb0338de954c0d8ff0b2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant campaign activity in Nevada as Cruz vied to be Trump's main challenger; no existing event matches this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b526e5bb12c49eef"
+  },
+  {
+    "candidate_id": "bdd9c56a65ce92fe8641cdcd",
+    "time": "2016-01-20",
+    "date_precision": "day",
+    "summary": "A CNN/WMUR poll shows Donald Trump widening his lead over Ted Cruz to 20 points among Republicans likely to vote in the New Hampshire primary.",
+    "time_range": null,
+    "evidence_ids": [
+      "89025"
+    ],
+    "job_id": "bb3dd458ddd59875cbe176746892b3cbd686f41726d50c92fcdc3de49f229547",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "New Hampshire primary poll showing Trump's lead over Cruz is a distinct campaign milestone with a unique date, not duplicating any existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1a4f2c93059d12f1"
+  }
+]

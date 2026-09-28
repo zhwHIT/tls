@@ -1,0 +1,85 @@
+{
+  "mode": "checkpoint_continuation_failed_topics_only",
+  "prepared_at_utc": "2026-09-20T08:53:59.069406+00:00",
+  "root_archive": "artifacts\\preextracted_all_phase1_20260920\\history\\before_search_schema_resume_20260920T085349Z",
+  "topics": [
+    {
+      "dataset": "crisis",
+      "topic": "syria",
+      "config": "configs/preextracted_all_phase1/crisis_syria.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/crisis_syria",
+      "at_utc": "2026-09-20T08:53:56.401626+00:00",
+      "reason": "User requested checkpoint continuation of four failed topics after SEARCH schema recovery fixes.",
+      "previous_source_sha256": "f6e7ce70694d4dba3a79f689efe2983d50cac99c8dae226ae25cfb4358676743",
+      "new_source_sha256": "126cb0a18c2ace018226be65da48523481247e1054bb5923dfd72b4e125c2c31",
+      "changed_files": [
+        "scripts/batched_search_phase.py",
+        "src/chronos_repro/batch_policy.py"
+      ],
+      "checkpoint_resume": true,
+      "completed_batches_retained": 14,
+      "requests_started_before_resume": 104,
+      "request_ledger_reset": false,
+      "archive": "artifacts\\preextracted_all_phase1_20260920\\crisis_syria\\history\\before_search_schema_resume_20260920T085349Z"
+    },
+    {
+      "dataset": "entities",
+      "topic": "John_Boehner",
+      "config": "configs/preextracted_all_phase1/entities_John_Boehner.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_John_Boehner",
+      "at_utc": "2026-09-20T08:53:56.869984+00:00",
+      "reason": "User requested checkpoint continuation of four failed topics after SEARCH schema recovery fixes.",
+      "previous_source_sha256": "f6e7ce70694d4dba3a79f689efe2983d50cac99c8dae226ae25cfb4358676743",
+      "new_source_sha256": "126cb0a18c2ace018226be65da48523481247e1054bb5923dfd72b4e125c2c31",
+      "changed_files": [
+        "scripts/batched_search_phase.py",
+        "src/chronos_repro/batch_policy.py"
+      ],
+      "checkpoint_resume": true,
+      "completed_batches_retained": 15,
+      "requests_started_before_resume": 38,
+      "request_ledger_reset": false,
+      "archive": "artifacts\\preextracted_all_phase1_20260920\\entities_John_Boehner\\history\\before_search_schema_resume_20260920T085349Z"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Osama_bin_Laden",
+      "config": "configs/preextracted_all_phase1/entities_Osama_bin_Laden.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Osama_bin_Laden",
+      "at_utc": "2026-09-20T08:53:57.734647+00:00",
+      "reason": "User requested checkpoint continuation of four failed topics after SEARCH schema recovery fixes.",
+      "previous_source_sha256": "f6e7ce70694d4dba3a79f689efe2983d50cac99c8dae226ae25cfb4358676743",
+      "new_source_sha256": "126cb0a18c2ace018226be65da48523481247e1054bb5923dfd72b4e125c2c31",
+      "changed_files": [
+        "scripts/batched_search_phase.py",
+        "src/chronos_repro/batch_policy.py"
+      ],
+      "checkpoint_resume": true,
+      "completed_batches_retained": 20,
+      "requests_started_before_resume": 100,
+      "request_ledger_reset": false,
+      "archive": "artifacts\\preextracted_all_phase1_20260920\\entities_Osama_bin_Laden\\history\\before_search_schema_resume_20260920T085349Z"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Silvio_Berlusconi",
+      "config": "configs/preextracted_all_phase1/entities_Silvio_Berlusconi.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Silvio_Berlusconi",
+      "at_utc": "2026-09-20T08:53:58.645079+00:00",
+      "reason": "User requested checkpoint continuation of four failed topics after SEARCH schema recovery fixes.",
+      "previous_source_sha256": "f6e7ce70694d4dba3a79f689efe2983d50cac99c8dae226ae25cfb4358676743",
+      "new_source_sha256": "126cb0a18c2ace018226be65da48523481247e1054bb5923dfd72b4e125c2c31",
+      "changed_files": [
+        "scripts/batched_search_phase.py",
+        "src/chronos_repro/batch_policy.py"
+      ],
+      "checkpoint_resume": true,
+      "completed_batches_retained": 10,
+      "requests_started_before_resume": 55,
+      "request_ledger_reset": false,
+      "archive": "artifacts\\preextracted_all_phase1_20260920\\entities_Silvio_Berlusconi\\history\\before_search_schema_resume_20260920T085349Z"
+    }
+  ],
+  "completed_topics_reused": 56,
+  "historical_source_bindings_preserved_in_archive": true
+}

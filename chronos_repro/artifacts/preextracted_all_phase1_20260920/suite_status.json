@@ -1,0 +1,495 @@
+{
+  "stage": "completed",
+  "pid": 30036,
+  "started_at_utc": "2026-09-20T05:14:46.611349+00:00",
+  "resumed_at_utc": "2026-09-20T08:55:10.737103+00:00",
+  "parallel_topics": 3,
+  "planned_topics": 60,
+  "completed": [
+    {
+      "dataset": "t17",
+      "topic": "bpoil",
+      "config": "configs/preextracted_all_phase1/t17_bpoil.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/t17_bpoil",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "crisis",
+      "topic": "egypt",
+      "config": "configs/preextracted_all_phase1/crisis_egypt.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/crisis_egypt",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Al_Gore",
+      "config": "configs/preextracted_all_phase1/entities_Al_Gore.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Al_Gore",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "t17",
+      "topic": "egypt",
+      "config": "configs/preextracted_all_phase1/t17_egypt.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/t17_egypt",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "crisis",
+      "topic": "libya",
+      "config": "configs/preextracted_all_phase1/crisis_libya.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/crisis_libya",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Angela_Merkel",
+      "config": "configs/preextracted_all_phase1/entities_Angela_Merkel.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Angela_Merkel",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "t17",
+      "topic": "finan",
+      "config": "configs/preextracted_all_phase1/t17_finan.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/t17_finan",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Ariel_Sharon",
+      "config": "configs/preextracted_all_phase1/entities_Ariel_Sharon.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Ariel_Sharon",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "t17",
+      "topic": "h1n1",
+      "config": "configs/preextracted_all_phase1/t17_h1n1.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/t17_h1n1",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "crisis",
+      "topic": "yemen",
+      "config": "configs/preextracted_all_phase1/crisis_yemen.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/crisis_yemen",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Arnold_Schwarzenegger",
+      "config": "configs/preextracted_all_phase1/entities_Arnold_Schwarzenegger.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Arnold_Schwarzenegger",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "t17",
+      "topic": "haiti",
+      "config": "configs/preextracted_all_phase1/t17_haiti.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/t17_haiti",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Bashar_al-Assad",
+      "config": "configs/preextracted_all_phase1/entities_Bashar_al-Assad.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Bashar_al-Assad",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "t17",
+      "topic": "iraq",
+      "config": "configs/preextracted_all_phase1/t17_iraq.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/t17_iraq",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Bill_Clinton",
+      "config": "configs/preextracted_all_phase1/entities_Bill_Clinton.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Bill_Clinton",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "t17",
+      "topic": "libya",
+      "config": "configs/preextracted_all_phase1/t17_libya.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/t17_libya",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Charles_Taylor",
+      "config": "configs/preextracted_all_phase1/entities_Charles_Taylor.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Charles_Taylor",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "t17",
+      "topic": "mj",
+      "config": "configs/preextracted_all_phase1/t17_mj.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/t17_mj",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Chris_Brown",
+      "config": "configs/preextracted_all_phase1/entities_Chris_Brown.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Chris_Brown",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "t17",
+      "topic": "syria",
+      "config": "configs/preextracted_all_phase1/t17_syria.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/t17_syria",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "David_Beckham",
+      "config": "configs/preextracted_all_phase1/entities_David_Beckham.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_David_Beckham",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "David_Bowie",
+      "config": "configs/preextracted_all_phase1/entities_David_Bowie.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_David_Bowie",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Dilma_Rousseff",
+      "config": "configs/preextracted_all_phase1/entities_Dilma_Rousseff.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Dilma_Rousseff",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Dmitry_Medvedev",
+      "config": "configs/preextracted_all_phase1/entities_Dmitry_Medvedev.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Dmitry_Medvedev",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Dominique_Strauss-Kahn",
+      "config": "configs/preextracted_all_phase1/entities_Dominique_Strauss-Kahn.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Dominique_Strauss-Kahn",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Edward_Snowden",
+      "config": "configs/preextracted_all_phase1/entities_Edward_Snowden.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Edward_Snowden",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Ehud_Olmert",
+      "config": "configs/preextracted_all_phase1/entities_Ehud_Olmert.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Ehud_Olmert",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Enron",
+      "config": "configs/preextracted_all_phase1/entities_Enron.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Enron",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Hamid_Karzai",
+      "config": "configs/preextracted_all_phase1/entities_Hamid_Karzai.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Hamid_Karzai",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Hassan_Rouhani",
+      "config": "configs/preextracted_all_phase1/entities_Hassan_Rouhani.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Hassan_Rouhani",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Hu_Jintao",
+      "config": "configs/preextracted_all_phase1/entities_Hu_Jintao.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Hu_Jintao",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Jacob_Zuma",
+      "config": "configs/preextracted_all_phase1/entities_Jacob_Zuma.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Jacob_Zuma",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "John_Kerry",
+      "config": "configs/preextracted_all_phase1/entities_John_Kerry.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_John_Kerry",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Julian_Assange",
+      "config": "configs/preextracted_all_phase1/entities_Julian_Assange.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Julian_Assange",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Lance_Armstrong",
+      "config": "configs/preextracted_all_phase1/entities_Lance_Armstrong.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Lance_Armstrong",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Mahmoud_Ahmadinejad",
+      "config": "configs/preextracted_all_phase1/entities_Mahmoud_Ahmadinejad.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Mahmoud_Ahmadinejad",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Marco_Rubio",
+      "config": "configs/preextracted_all_phase1/entities_Marco_Rubio.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Marco_Rubio",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Margaret_Thatcher",
+      "config": "configs/preextracted_all_phase1/entities_Margaret_Thatcher.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Margaret_Thatcher",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Michael_Jackson",
+      "config": "configs/preextracted_all_phase1/entities_Michael_Jackson.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Michael_Jackson",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Michelle_Obama",
+      "config": "configs/preextracted_all_phase1/entities_Michelle_Obama.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Michelle_Obama",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Mitt_Romney",
+      "config": "configs/preextracted_all_phase1/entities_Mitt_Romney.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Mitt_Romney",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Morgan_Tsvangirai",
+      "config": "configs/preextracted_all_phase1/entities_Morgan_Tsvangirai.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Morgan_Tsvangirai",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Nawaz_Sharif",
+      "config": "configs/preextracted_all_phase1/entities_Nawaz_Sharif.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Nawaz_Sharif",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Nelson_Mandela",
+      "config": "configs/preextracted_all_phase1/entities_Nelson_Mandela.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Nelson_Mandela",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Osama_bin_Laden",
+      "config": "configs/preextracted_all_phase1/entities_Osama_bin_Laden.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Osama_bin_Laden",
+      "returncode": 0,
+      "finished_at_utc": "2026-09-20T08:58:23.878716+00:00"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Oscar_Pistorius",
+      "config": "configs/preextracted_all_phase1/entities_Oscar_Pistorius.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Oscar_Pistorius",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Phil_Spector",
+      "config": "configs/preextracted_all_phase1/entities_Phil_Spector.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Phil_Spector",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Prince_William",
+      "config": "configs/preextracted_all_phase1/entities_Prince_William.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Prince_William",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Robert_Mugabe",
+      "config": "configs/preextracted_all_phase1/entities_Robert_Mugabe.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Robert_Mugabe",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Rupert_Murdoch",
+      "config": "configs/preextracted_all_phase1/entities_Rupert_Murdoch.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Rupert_Murdoch",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Saddam_Hussein",
+      "config": "configs/preextracted_all_phase1/entities_Saddam_Hussein.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Saddam_Hussein",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Sarah_Palin",
+      "config": "configs/preextracted_all_phase1/entities_Sarah_Palin.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Sarah_Palin",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "John_Boehner",
+      "config": "configs/preextracted_all_phase1/entities_John_Boehner.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_John_Boehner",
+      "returncode": 0,
+      "finished_at_utc": "2026-09-20T08:59:01.727524+00:00"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Steve_Jobs",
+      "config": "configs/preextracted_all_phase1/entities_Steve_Jobs.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Steve_Jobs",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Taliban",
+      "config": "configs/preextracted_all_phase1/entities_Taliban.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Taliban",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Ted_Cruz",
+      "config": "configs/preextracted_all_phase1/entities_Ted_Cruz.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Ted_Cruz",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "Tiger_Woods",
+      "config": "configs/preextracted_all_phase1/entities_Tiger_Woods.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Tiger_Woods",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "entities",
+      "topic": "WikiLeaks",
+      "config": "configs/preextracted_all_phase1/entities_WikiLeaks.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_WikiLeaks",
+      "returncode": 0,
+      "reused_completed_run": true
+    },
+    {
+      "dataset": "crisis",
+      "topic": "syria",
+      "config": "configs/preextracted_all_phase1/crisis_syria.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/crisis_syria",
+      "returncode": 0,
+      "finished_at_utc": "2026-09-20T08:59:26.417176+00:00"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Silvio_Berlusconi",
+      "config": "configs/preextracted_all_phase1/entities_Silvio_Berlusconi.json",
+      "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Silvio_Berlusconi",
+      "returncode": 0,
+      "finished_at_utc": "2026-09-20T09:01:19.198318+00:00"
+    }
+  ],
+  "active": [],
+  "stop_reason": null,
+  "updated_at_utc": "2026-09-20T09:01:19.199322+00:00",
+  "pending_topics": 0,
+  "finished_at_utc": "2026-09-20T09:01:21.322354+00:00"
+}

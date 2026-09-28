@@ -1,0 +1,120 @@
+{"started": "bpoil", "dataset": "t17", "pid": 18776}
+{"started": "egypt", "dataset": "crisis", "pid": 3980}
+{"started": "Al_Gore", "dataset": "entities", "pid": 11388}
+{"dataset": "t17", "topic": "bpoil", "config": "configs/preextracted_all_phase1/t17_bpoil.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/t17_bpoil", "returncode": 0, "finished_at_utc": "2026-09-20T05:19:08.067541+00:00"}
+{"started": "egypt", "dataset": "t17", "pid": 9528}
+{"dataset": "entities", "topic": "Al_Gore", "config": "configs/preextracted_all_phase1/entities_Al_Gore.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Al_Gore", "returncode": 0, "finished_at_utc": "2026-09-20T05:20:05.727916+00:00"}
+{"started": "libya", "dataset": "crisis", "pid": 17104}
+{"dataset": "crisis", "topic": "egypt", "config": "configs/preextracted_all_phase1/crisis_egypt.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/crisis_egypt", "returncode": 0, "finished_at_utc": "2026-09-20T05:20:32.065463+00:00"}
+{"started": "Angela_Merkel", "dataset": "entities", "pid": 30756}
+{"dataset": "t17", "topic": "egypt", "config": "configs/preextracted_all_phase1/t17_egypt.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/t17_egypt", "returncode": 0, "finished_at_utc": "2026-09-20T05:22:06.380401+00:00"}
+{"started": "finan", "dataset": "t17", "pid": 12956}
+{"dataset": "entities", "topic": "Angela_Merkel", "config": "configs/preextracted_all_phase1/entities_Angela_Merkel.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Angela_Merkel", "returncode": 0, "finished_at_utc": "2026-09-20T05:25:38.945401+00:00"}
+{"started": "syria", "dataset": "crisis", "pid": 8332}
+{"dataset": "t17", "topic": "finan", "config": "configs/preextracted_all_phase1/t17_finan.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/t17_finan", "returncode": 0, "finished_at_utc": "2026-09-20T05:25:49.995295+00:00"}
+{"started": "Ariel_Sharon", "dataset": "entities", "pid": 27532}
+{"dataset": "crisis", "topic": "libya", "config": "configs/preextracted_all_phase1/crisis_libya.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/crisis_libya", "returncode": 0, "finished_at_utc": "2026-09-20T05:27:06.223643+00:00"}
+{"started": "h1n1", "dataset": "t17", "pid": 37504}
+{"dataset": "t17", "topic": "h1n1", "config": "configs/preextracted_all_phase1/t17_h1n1.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/t17_h1n1", "returncode": 0, "finished_at_utc": "2026-09-20T05:30:27.962630+00:00"}
+{"started": "yemen", "dataset": "crisis", "pid": 16352}
+{"dataset": "crisis", "topic": "syria", "config": "configs/preextracted_all_phase1/crisis_syria.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/crisis_syria", "returncode": 2, "finished_at_utc": "2026-09-20T05:31:18.233998+00:00"}
+{"started": "Arnold_Schwarzenegger", "dataset": "entities", "pid": 31364}
+{"dataset": "entities", "topic": "Ariel_Sharon", "config": "configs/preextracted_all_phase1/entities_Ariel_Sharon.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Ariel_Sharon", "returncode": 0, "finished_at_utc": "2026-09-20T05:31:51.411451+00:00"}
+{"started": "haiti", "dataset": "t17", "pid": 19628}
+{"dataset": "t17", "topic": "haiti", "config": "configs/preextracted_all_phase1/t17_haiti.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/t17_haiti", "returncode": 0, "finished_at_utc": "2026-09-20T05:34:51.071806+00:00"}
+{"started": "Bashar_al-Assad", "dataset": "entities", "pid": 31844}
+{"dataset": "entities", "topic": "Arnold_Schwarzenegger", "config": "configs/preextracted_all_phase1/entities_Arnold_Schwarzenegger.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Arnold_Schwarzenegger", "returncode": 0, "finished_at_utc": "2026-09-20T05:35:48.256697+00:00"}
+{"started": "iraq", "dataset": "t17", "pid": 20272}
+{"dataset": "crisis", "topic": "yemen", "config": "configs/preextracted_all_phase1/crisis_yemen.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/crisis_yemen", "returncode": 0, "finished_at_utc": "2026-09-20T05:36:46.572751+00:00"}
+{"started": "Bill_Clinton", "dataset": "entities", "pid": 32684}
+{"dataset": "t17", "topic": "iraq", "config": "configs/preextracted_all_phase1/t17_iraq.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/t17_iraq", "returncode": 0, "finished_at_utc": "2026-09-20T05:39:05.150408+00:00"}
+{"started": "libya", "dataset": "t17", "pid": 15012}
+{"dataset": "entities", "topic": "Bashar_al-Assad", "config": "configs/preextracted_all_phase1/entities_Bashar_al-Assad.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Bashar_al-Assad", "returncode": 0, "finished_at_utc": "2026-09-20T05:41:14.356001+00:00"}
+{"started": "Charles_Taylor", "dataset": "entities", "pid": 29492}
+{"dataset": "entities", "topic": "Bill_Clinton", "config": "configs/preextracted_all_phase1/entities_Bill_Clinton.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Bill_Clinton", "returncode": 0, "finished_at_utc": "2026-09-20T05:43:04.252995+00:00"}
+{"started": "mj", "dataset": "t17", "pid": 19496}
+{"dataset": "t17", "topic": "libya", "config": "configs/preextracted_all_phase1/t17_libya.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/t17_libya", "returncode": 0, "finished_at_utc": "2026-09-20T05:43:59.568254+00:00"}
+{"started": "Chris_Brown", "dataset": "entities", "pid": 34656}
+{"dataset": "t17", "topic": "mj", "config": "configs/preextracted_all_phase1/t17_mj.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/t17_mj", "returncode": 0, "finished_at_utc": "2026-09-20T05:45:19.372668+00:00"}
+{"started": "syria", "dataset": "t17", "pid": 26124}
+{"dataset": "entities", "topic": "Charles_Taylor", "config": "configs/preextracted_all_phase1/entities_Charles_Taylor.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Charles_Taylor", "returncode": 0, "finished_at_utc": "2026-09-20T05:45:38.836911+00:00"}
+{"started": "David_Beckham", "dataset": "entities", "pid": 13068}
+{"dataset": "entities", "topic": "Chris_Brown", "config": "configs/preextracted_all_phase1/entities_Chris_Brown.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Chris_Brown", "returncode": 0, "finished_at_utc": "2026-09-20T05:47:47.631228+00:00"}
+{"started": "David_Bowie", "dataset": "entities", "pid": 11360}
+{"dataset": "t17", "topic": "syria", "config": "configs/preextracted_all_phase1/t17_syria.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/t17_syria", "returncode": 0, "finished_at_utc": "2026-09-20T05:49:44.764052+00:00"}
+{"started": "Dilma_Rousseff", "dataset": "entities", "pid": 5612}
+{"dataset": "entities", "topic": "David_Beckham", "config": "configs/preextracted_all_phase1/entities_David_Beckham.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_David_Beckham", "returncode": 0, "finished_at_utc": "2026-09-20T05:51:37.205849+00:00"}
+{"started": "Dmitry_Medvedev", "dataset": "entities", "pid": 37400}
+{"dataset": "entities", "topic": "David_Bowie", "config": "configs/preextracted_all_phase1/entities_David_Bowie.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_David_Bowie", "returncode": 0, "finished_at_utc": "2026-09-20T05:53:25.647915+00:00"}
+{"started": "Dominique_Strauss-Kahn", "dataset": "entities", "pid": 27988}
+{"dataset": "entities", "topic": "Dilma_Rousseff", "config": "configs/preextracted_all_phase1/entities_Dilma_Rousseff.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Dilma_Rousseff", "returncode": 0, "finished_at_utc": "2026-09-20T05:53:45.060825+00:00"}
+{"started": "Edward_Snowden", "dataset": "entities", "pid": 32536}
+{"dataset": "entities", "topic": "Dmitry_Medvedev", "config": "configs/preextracted_all_phase1/entities_Dmitry_Medvedev.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Dmitry_Medvedev", "returncode": 0, "finished_at_utc": "2026-09-20T05:56:13.357788+00:00"}
+{"started": "Ehud_Olmert", "dataset": "entities", "pid": 28200}
+{"dataset": "entities", "topic": "Dominique_Strauss-Kahn", "config": "configs/preextracted_all_phase1/entities_Dominique_Strauss-Kahn.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Dominique_Strauss-Kahn", "returncode": 0, "finished_at_utc": "2026-09-20T05:57:56.544706+00:00"}
+{"started": "Enron", "dataset": "entities", "pid": 21876}
+{"dataset": "entities", "topic": "Edward_Snowden", "config": "configs/preextracted_all_phase1/entities_Edward_Snowden.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Edward_Snowden", "returncode": 0, "finished_at_utc": "2026-09-20T05:59:03.676513+00:00"}
+{"started": "Hamid_Karzai", "dataset": "entities", "pid": 20208}
+{"dataset": "entities", "topic": "Ehud_Olmert", "config": "configs/preextracted_all_phase1/entities_Ehud_Olmert.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Ehud_Olmert", "returncode": 0, "finished_at_utc": "2026-09-20T06:00:35.528855+00:00"}
+{"started": "Hassan_Rouhani", "dataset": "entities", "pid": 18760}
+{"dataset": "entities", "topic": "Enron", "config": "configs/preextracted_all_phase1/entities_Enron.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Enron", "returncode": 0, "finished_at_utc": "2026-09-20T06:03:06.973032+00:00"}
+{"started": "Hu_Jintao", "dataset": "entities", "pid": 35376}
+{"dataset": "entities", "topic": "Hassan_Rouhani", "config": "configs/preextracted_all_phase1/entities_Hassan_Rouhani.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Hassan_Rouhani", "returncode": 0, "finished_at_utc": "2026-09-20T06:04:35.989794+00:00"}
+{"started": "Jacob_Zuma", "dataset": "entities", "pid": 36140}
+{"dataset": "entities", "topic": "Hamid_Karzai", "config": "configs/preextracted_all_phase1/entities_Hamid_Karzai.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Hamid_Karzai", "returncode": 0, "finished_at_utc": "2026-09-20T06:05:03.295436+00:00"}
+{"started": "John_Boehner", "dataset": "entities", "pid": 13232}
+{"dataset": "entities", "topic": "Hu_Jintao", "config": "configs/preextracted_all_phase1/entities_Hu_Jintao.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Hu_Jintao", "returncode": 0, "finished_at_utc": "2026-09-20T06:08:00.775155+00:00"}
+{"started": "John_Kerry", "dataset": "entities", "pid": 28268}
+{"dataset": "entities", "topic": "John_Boehner", "config": "configs/preextracted_all_phase1/entities_John_Boehner.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_John_Boehner", "returncode": 2, "finished_at_utc": "2026-09-20T06:08:07.413503+00:00"}
+{"started": "Julian_Assange", "dataset": "entities", "pid": 11920}
+{"dataset": "entities", "topic": "Jacob_Zuma", "config": "configs/preextracted_all_phase1/entities_Jacob_Zuma.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Jacob_Zuma", "returncode": 0, "finished_at_utc": "2026-09-20T06:08:21.084107+00:00"}
+{"started": "Lance_Armstrong", "dataset": "entities", "pid": 35212}
+{"dataset": "entities", "topic": "Julian_Assange", "config": "configs/preextracted_all_phase1/entities_Julian_Assange.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Julian_Assange", "returncode": 0, "finished_at_utc": "2026-09-20T06:12:54.340844+00:00"}
+{"started": "Mahmoud_Ahmadinejad", "dataset": "entities", "pid": 42120}
+{"dataset": "entities", "topic": "John_Kerry", "config": "configs/preextracted_all_phase1/entities_John_Kerry.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_John_Kerry", "returncode": 0, "finished_at_utc": "2026-09-20T06:13:44.314830+00:00"}
+{"started": "Marco_Rubio", "dataset": "entities", "pid": 12044}
+{"dataset": "entities", "topic": "Lance_Armstrong", "config": "configs/preextracted_all_phase1/entities_Lance_Armstrong.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Lance_Armstrong", "returncode": 0, "finished_at_utc": "2026-09-20T06:13:51.308758+00:00"}
+{"started": "Margaret_Thatcher", "dataset": "entities", "pid": 29364}
+{"dataset": "entities", "topic": "Marco_Rubio", "config": "configs/preextracted_all_phase1/entities_Marco_Rubio.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Marco_Rubio", "returncode": 0, "finished_at_utc": "2026-09-20T06:17:26.042173+00:00"}
+{"started": "Michael_Jackson", "dataset": "entities", "pid": 23756}
+{"dataset": "entities", "topic": "Mahmoud_Ahmadinejad", "config": "configs/preextracted_all_phase1/entities_Mahmoud_Ahmadinejad.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Mahmoud_Ahmadinejad", "returncode": 0, "finished_at_utc": "2026-09-20T06:19:12.731721+00:00"}
+{"started": "Michelle_Obama", "dataset": "entities", "pid": 27760}
+{"dataset": "entities", "topic": "Margaret_Thatcher", "config": "configs/preextracted_all_phase1/entities_Margaret_Thatcher.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Margaret_Thatcher", "returncode": 0, "finished_at_utc": "2026-09-20T06:19:19.925540+00:00"}
+{"started": "Mitt_Romney", "dataset": "entities", "pid": 39912}
+{"dataset": "entities", "topic": "Michael_Jackson", "config": "configs/preextracted_all_phase1/entities_Michael_Jackson.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Michael_Jackson", "returncode": 0, "finished_at_utc": "2026-09-20T06:23:14.876391+00:00"}
+{"started": "Morgan_Tsvangirai", "dataset": "entities", "pid": 25196}
+{"dataset": "entities", "topic": "Michelle_Obama", "config": "configs/preextracted_all_phase1/entities_Michelle_Obama.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Michelle_Obama", "returncode": 0, "finished_at_utc": "2026-09-20T06:24:22.003652+00:00"}
+{"started": "Nawaz_Sharif", "dataset": "entities", "pid": 21076}
+{"dataset": "entities", "topic": "Mitt_Romney", "config": "configs/preextracted_all_phase1/entities_Mitt_Romney.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Mitt_Romney", "returncode": 0, "finished_at_utc": "2026-09-20T06:24:44.813153+00:00"}
+{"started": "Nelson_Mandela", "dataset": "entities", "pid": 11708}
+{"dataset": "entities", "topic": "Morgan_Tsvangirai", "config": "configs/preextracted_all_phase1/entities_Morgan_Tsvangirai.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Morgan_Tsvangirai", "returncode": 0, "finished_at_utc": "2026-09-20T06:28:02.815847+00:00"}
+{"started": "Osama_bin_Laden", "dataset": "entities", "pid": 29452}
+{"dataset": "entities", "topic": "Nawaz_Sharif", "config": "configs/preextracted_all_phase1/entities_Nawaz_Sharif.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Nawaz_Sharif", "returncode": 0, "finished_at_utc": "2026-09-20T06:28:41.752007+00:00"}
+{"started": "Oscar_Pistorius", "dataset": "entities", "pid": 17824}
+{"dataset": "entities", "topic": "Nelson_Mandela", "config": "configs/preextracted_all_phase1/entities_Nelson_Mandela.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Nelson_Mandela", "returncode": 0, "finished_at_utc": "2026-09-20T06:30:08.222074+00:00"}
+{"started": "Phil_Spector", "dataset": "entities", "pid": 8084}
+{"dataset": "entities", "topic": "Oscar_Pistorius", "config": "configs/preextracted_all_phase1/entities_Oscar_Pistorius.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Oscar_Pistorius", "returncode": 0, "finished_at_utc": "2026-09-20T06:33:32.325814+00:00"}
+{"started": "Prince_William", "dataset": "entities", "pid": 24000}
+{"dataset": "entities", "topic": "Osama_bin_Laden", "config": "configs/preextracted_all_phase1/entities_Osama_bin_Laden.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Osama_bin_Laden", "returncode": 2, "finished_at_utc": "2026-09-20T06:34:12.416383+00:00"}
+{"started": "Robert_Mugabe", "dataset": "entities", "pid": 20040}
+{"dataset": "entities", "topic": "Phil_Spector", "config": "configs/preextracted_all_phase1/entities_Phil_Spector.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Phil_Spector", "returncode": 0, "finished_at_utc": "2026-09-20T06:34:20.377392+00:00"}
+{"started": "Rupert_Murdoch", "dataset": "entities", "pid": 19364}
+{"dataset": "entities", "topic": "Prince_William", "config": "configs/preextracted_all_phase1/entities_Prince_William.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Prince_William", "returncode": 0, "finished_at_utc": "2026-09-20T06:38:22.840331+00:00"}
+{"started": "Saddam_Hussein", "dataset": "entities", "pid": 23996}
+{"dataset": "entities", "topic": "Robert_Mugabe", "config": "configs/preextracted_all_phase1/entities_Robert_Mugabe.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Robert_Mugabe", "returncode": 0, "finished_at_utc": "2026-09-20T06:41:26.305298+00:00"}
+{"started": "Sarah_Palin", "dataset": "entities", "pid": 8736}
+{"dataset": "entities", "topic": "Rupert_Murdoch", "config": "configs/preextracted_all_phase1/entities_Rupert_Murdoch.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Rupert_Murdoch", "returncode": 0, "finished_at_utc": "2026-09-20T06:42:22.236626+00:00"}
+{"started": "Silvio_Berlusconi", "dataset": "entities", "pid": 40620}
+{"dataset": "entities", "topic": "Saddam_Hussein", "config": "configs/preextracted_all_phase1/entities_Saddam_Hussein.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Saddam_Hussein", "returncode": 0, "finished_at_utc": "2026-09-20T06:44:59.782786+00:00"}
+{"started": "Steve_Jobs", "dataset": "entities", "pid": 20840}
+{"dataset": "entities", "topic": "Silvio_Berlusconi", "config": "configs/preextracted_all_phase1/entities_Silvio_Berlusconi.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Silvio_Berlusconi", "returncode": 2, "finished_at_utc": "2026-09-20T06:45:59.298674+00:00"}
+{"started": "Taliban", "dataset": "entities", "pid": 4532}
+{"dataset": "entities", "topic": "Sarah_Palin", "config": "configs/preextracted_all_phase1/entities_Sarah_Palin.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Sarah_Palin", "returncode": 0, "finished_at_utc": "2026-09-20T06:47:04.562172+00:00"}
+{"started": "Ted_Cruz", "dataset": "entities", "pid": 37008}
+{"dataset": "entities", "topic": "Steve_Jobs", "config": "configs/preextracted_all_phase1/entities_Steve_Jobs.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Steve_Jobs", "returncode": 0, "finished_at_utc": "2026-09-20T06:50:40.372821+00:00"}
+{"started": "Tiger_Woods", "dataset": "entities", "pid": 16908}
+{"dataset": "entities", "topic": "Ted_Cruz", "config": "configs/preextracted_all_phase1/entities_Ted_Cruz.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Ted_Cruz", "returncode": 0, "finished_at_utc": "2026-09-20T06:50:56.079034+00:00"}
+{"started": "WikiLeaks", "dataset": "entities", "pid": 18628}
+{"dataset": "entities", "topic": "Taliban", "config": "configs/preextracted_all_phase1/entities_Taliban.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Taliban", "returncode": 0, "finished_at_utc": "2026-09-20T06:52:37.204323+00:00"}
+{"dataset": "entities", "topic": "Tiger_Woods", "config": "configs/preextracted_all_phase1/entities_Tiger_Woods.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_Tiger_Woods", "returncode": 0, "finished_at_utc": "2026-09-20T06:55:53.285339+00:00"}
+{"dataset": "entities", "topic": "WikiLeaks", "config": "configs/preextracted_all_phase1/entities_WikiLeaks.json", "output_dir": "artifacts/preextracted_all_phase1_20260920/entities_WikiLeaks", "returncode": 0, "finished_at_utc": "2026-09-20T06:56:45.100539+00:00"}

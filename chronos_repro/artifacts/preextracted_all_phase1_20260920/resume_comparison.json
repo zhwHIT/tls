@@ -1,0 +1,120 @@
+{
+  "scope": "Checkpoint continuation of four failed topics only; first phase only.",
+  "untouched_successful_topics": 56,
+  "successful_topic_files_unchanged": true,
+  "all_60_runtime_status_ok": true,
+  "requests_added": 96,
+  "returned_tokens_added": 242704,
+  "rows": [
+    {
+      "dataset": "crisis",
+      "topic": "syria",
+      "before_hits": 25,
+      "after_hits": 27,
+      "gold_count": 106,
+      "before_batches": 14,
+      "after_batches": 20,
+      "termination": "invalid_policy_handoff",
+      "status": "ok",
+      "added_gold_dates": [
+        "2012-07-19",
+        "2012-12-28"
+      ],
+      "requests_added": 27,
+      "old_steps_preserved": true,
+      "old_cache_unchanged": true,
+      "old_event_summaries_and_dates_preserved": true,
+      "deferred_verification_count": 0
+    },
+    {
+      "dataset": "entities",
+      "topic": "John_Boehner",
+      "before_hits": 4,
+      "after_hits": 4,
+      "gold_count": 13,
+      "before_batches": 15,
+      "after_batches": 24,
+      "termination": "runner_limit",
+      "status": "ok",
+      "added_gold_dates": [],
+      "requests_added": 18,
+      "old_steps_preserved": true,
+      "old_cache_unchanged": true,
+      "old_event_summaries_and_dates_preserved": true,
+      "deferred_verification_count": 0
+    },
+    {
+      "dataset": "entities",
+      "topic": "Osama_bin_Laden",
+      "before_hits": 4,
+      "after_hits": 4,
+      "gold_count": 16,
+      "before_batches": 20,
+      "after_batches": 24,
+      "termination": "runner_limit",
+      "status": "ok",
+      "added_gold_dates": [],
+      "requests_added": 17,
+      "old_steps_preserved": true,
+      "old_cache_unchanged": true,
+      "old_event_summaries_and_dates_preserved": true,
+      "deferred_verification_count": 0
+    },
+    {
+      "dataset": "entities",
+      "topic": "Silvio_Berlusconi",
+      "before_hits": 14,
+      "after_hits": 16,
+      "gold_count": 34,
+      "before_batches": 10,
+      "after_batches": 24,
+      "termination": "runner_limit",
+      "status": "ok",
+      "added_gold_dates": [
+        "2011-02-15",
+        "2011-04-06"
+      ],
+      "requests_added": 34,
+      "old_steps_preserved": true,
+      "old_cache_unchanged": true,
+      "old_event_summaries_and_dates_preserved": true,
+      "deferred_verification_count": 0
+    }
+  ],
+  "datasets": {
+    "crisis": {
+      "planned_topics": 4,
+      "finished_without_runtime_error": 4,
+      "partial_error_results": 0,
+      "macro_gold_date_recall": 0.337081236233866,
+      "micro_gold_date_recall": 0.33489461358313816,
+      "termination_counts": {
+        "runner_limit": 3,
+        "invalid_policy_handoff": 1
+      }
+    },
+    "entities": {
+      "planned_topics": 47,
+      "finished_without_runtime_error": 47,
+      "partial_error_results": 0,
+      "macro_gold_date_recall": 0.4372199051384746,
+      "micro_gold_date_recall": 0.4213006597549482,
+      "termination_counts": {
+        "runner_limit": 44,
+        "invalid_policy_handoff": 3
+      }
+    },
+    "t17": {
+      "planned_topics": 9,
+      "finished_without_runtime_error": 9,
+      "partial_error_results": 0,
+      "macro_gold_date_recall": 0.5200669129398635,
+      "micro_gold_date_recall": 0.41535776614310643,
+      "termination_counts": {
+        "runner_limit": 8,
+        "autonomous_stop": 1
+      }
+    }
+  },
+  "aggregation_note": "Current aggregates now include all 60 topics. Earlier aggregates excluded the four error cases; changing this denominator is not a decline in already completed results."
+}

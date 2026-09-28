@@ -1,0 +1,76 @@
+{
+  "metric": "exact_gold_date_coverage",
+  "gold_date_count": 11,
+  "matched_gold_date_count": 5,
+  "gold_date_recall": 0.45454545454545453,
+  "matched_gold_dates": [
+    "2013-09-24",
+    "2015-03-23",
+    "2016-05-03",
+    "2016-05-10",
+    "2016-09-23"
+  ],
+  "missed_gold_dates": [
+    "2012-05-29",
+    "2012-07-31",
+    "2012-11-06",
+    "2012-11-14",
+    "2013-01-03",
+    "2016-04-27"
+  ],
+  "predicted_date_count": 71,
+  "predicted_start": "2013-08-19",
+  "predicted_end": "2017-09-24",
+  "gold_start": "2012-05-29",
+  "gold_end": "2016-09-23",
+  "gold_start_exactly_matched": false,
+  "gold_end_exactly_matched": true,
+  "span_contains_gold_endpoints": false,
+  "retrieved_extracted_date_hits": 5,
+  "all_topic_extracted_date_hits": 6,
+  "not_available_in_extraction": [
+    "2012-05-29",
+    "2012-07-31",
+    "2012-11-06",
+    "2012-11-14",
+    "2013-01-03"
+  ],
+  "available_but_not_retrieved": [
+    "2016-04-27"
+  ],
+  "retrieved_but_not_selected": [],
+  "partial_or_unknown_selected_events": 1,
+  "gold_used_in_search_or_verify": false,
+  "gold_sha256": "4aa78cb203a6b28c8d2812a8ce5eddbfeb95aa7ecefeb01ea0033d0e974c44b3",
+  "limitations": [
+    "Date matches do not establish event semantic correctness.",
+    "Diagnostic topics were selected by historical Gold performance.",
+    "Historical runs differ in budgets and versions; not a controlled equal-cost comparison."
+  ],
+  "runtime_status": "ok",
+  "phase1_termination": "runner_limit",
+  "accepted_event_count": 80,
+  "candidate_count": 104,
+  "deferred_verification_count": 0,
+  "query_count": 63,
+  "completed_batches": 24,
+  "retrieved_articles": 105,
+  "usage": {
+    "prompt_tokens": 124865,
+    "completion_tokens": 18656,
+    "total_tokens": 143521,
+    "logical_calls": 61,
+    "http_attempts": 61
+  },
+  "returned_response_usage_cumulative": {
+    "prompt_tokens": 124865,
+    "completion_tokens": 18656,
+    "total_tokens": 143521,
+    "prompt_cache_hit_tokens": 19840,
+    "prompt_cache_miss_tokens": 105025
+  },
+  "candidate_status_counts": {
+    "ACCEPTED": 100,
+    "IRRELEVANT": 4
+  }
+}

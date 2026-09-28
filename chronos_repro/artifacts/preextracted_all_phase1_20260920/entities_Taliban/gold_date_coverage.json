@@ -1,0 +1,101 @@
+{
+  "metric": "exact_gold_date_coverage",
+  "gold_date_count": 24,
+  "matched_gold_date_count": 6,
+  "gold_date_recall": 0.25,
+  "matched_gold_dates": [
+    "2011-04-25",
+    "2013-06-18",
+    "2015-07-29",
+    "2015-09-28",
+    "2016-05-21",
+    "2016-05-25"
+  ],
+  "missed_gold_dates": [
+    "2007-12-11",
+    "2008-10-21",
+    "2011-09-10",
+    "2011-09-13",
+    "2012-02-27",
+    "2012-08-08",
+    "2013-09-21",
+    "2014-05-31",
+    "2015-12-21",
+    "2016-03-27",
+    "2017-01-25",
+    "2017-02-11",
+    "2017-02-13",
+    "2017-04-21",
+    "2017-07-25",
+    "2017-08-03",
+    "2018-01-27",
+    "2018-02-28"
+  ],
+  "predicted_date_count": 193,
+  "predicted_start": "2006-09-10",
+  "predicted_end": "2017-08-17",
+  "gold_start": "2007-12-11",
+  "gold_end": "2018-02-28",
+  "gold_start_exactly_matched": false,
+  "gold_end_exactly_matched": false,
+  "span_contains_gold_endpoints": false,
+  "retrieved_extracted_date_hits": 6,
+  "all_topic_extracted_date_hits": 14,
+  "not_available_in_extraction": [
+    "2011-09-10",
+    "2012-08-08",
+    "2017-01-25",
+    "2017-02-11",
+    "2017-02-13",
+    "2017-04-21",
+    "2017-07-25",
+    "2017-08-03",
+    "2018-01-27",
+    "2018-02-28"
+  ],
+  "available_but_not_retrieved": [
+    "2007-12-11",
+    "2008-10-21",
+    "2011-09-13",
+    "2012-02-27",
+    "2013-09-21",
+    "2014-05-31",
+    "2015-12-21",
+    "2016-03-27"
+  ],
+  "retrieved_but_not_selected": [],
+  "partial_or_unknown_selected_events": 15,
+  "gold_used_in_search_or_verify": false,
+  "gold_sha256": "b205940258e34a82540c8a5a079c60dd0293a03eefedc91085cb231d3becd9ea",
+  "limitations": [
+    "Date matches do not establish event semantic correctness.",
+    "Diagnostic topics were selected by historical Gold performance.",
+    "Historical runs differ in budgets and versions; not a controlled equal-cost comparison."
+  ],
+  "runtime_status": "ok",
+  "phase1_termination": "runner_limit",
+  "accepted_event_count": 219,
+  "candidate_count": 286,
+  "deferred_verification_count": 0,
+  "query_count": 68,
+  "completed_batches": 24,
+  "retrieved_articles": 281,
+  "usage": {
+    "prompt_tokens": 218315,
+    "completion_tokens": 44061,
+    "total_tokens": 262376,
+    "logical_calls": 106,
+    "http_attempts": 106
+  },
+  "returned_response_usage_cumulative": {
+    "prompt_tokens": 218315,
+    "completion_tokens": 44061,
+    "total_tokens": 262376,
+    "prompt_cache_hit_tokens": 26752,
+    "prompt_cache_miss_tokens": 191563
+  },
+  "candidate_status_counts": {
+    "ACCEPTED": 250,
+    "IRRELEVANT": 36
+  }
+}
