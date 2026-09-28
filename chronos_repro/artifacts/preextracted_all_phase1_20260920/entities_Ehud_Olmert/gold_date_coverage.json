@@ -1,0 +1,80 @@
+{
+  "metric": "exact_gold_date_coverage",
+  "gold_date_count": 16,
+  "matched_gold_date_count": 9,
+  "gold_date_recall": 0.5625,
+  "matched_gold_dates": [
+    "2006-03-28",
+    "2006-05-04",
+    "2006-05-26",
+    "2008-07-30",
+    "2008-09-18",
+    "2008-09-21",
+    "2009-08-30",
+    "2012-07-10",
+    "2014-03-31"
+  ],
+  "missed_gold_dates": [
+    "2005-11-07",
+    "2006-01-05",
+    "2012-01-05",
+    "2014-08-06",
+    "2015-03-30",
+    "2016-02-15",
+    "2017-07-02"
+  ],
+  "predicted_date_count": 79,
+  "predicted_start": "2004-01-21",
+  "predicted_end": "2015-05-05",
+  "gold_start": "2005-11-07",
+  "gold_end": "2017-07-02",
+  "gold_start_exactly_matched": false,
+  "gold_end_exactly_matched": false,
+  "span_contains_gold_endpoints": false,
+  "retrieved_extracted_date_hits": 9,
+  "all_topic_extracted_date_hits": 9,
+  "not_available_in_extraction": [
+    "2005-11-07",
+    "2006-01-05",
+    "2012-01-05",
+    "2014-08-06",
+    "2015-03-30",
+    "2016-02-15",
+    "2017-07-02"
+  ],
+  "available_but_not_retrieved": [],
+  "retrieved_but_not_selected": [],
+  "partial_or_unknown_selected_events": 3,
+  "gold_used_in_search_or_verify": false,
+  "gold_sha256": "ebd10ba31d8b26c28c54bd543bbd42d3e6624bf181a878b467e45470fca6e18a",
+  "limitations": [
+    "Date matches do not establish event semantic correctness.",
+    "Diagnostic topics were selected by historical Gold performance.",
+    "Historical runs differ in budgets and versions; not a controlled equal-cost comparison."
+  ],
+  "runtime_status": "ok",
+  "phase1_termination": "runner_limit",
+  "accepted_event_count": 83,
+  "candidate_count": 104,
+  "deferred_verification_count": 0,
+  "query_count": 70,
+  "completed_batches": 24,
+  "retrieved_articles": 104,
+  "usage": {
+    "prompt_tokens": 139644,
+    "completion_tokens": 21745,
+    "total_tokens": 161389,
+    "logical_calls": 65,
+    "http_attempts": 65
+  },
+  "returned_response_usage_cumulative": {
+    "prompt_tokens": 139644,
+    "completion_tokens": 21745,
+    "total_tokens": 161389,
+    "prompt_cache_hit_tokens": 22528,
+    "prompt_cache_miss_tokens": 117116
+  },
+  "candidate_status_counts": {
+    "ACCEPTED": 104
+  }
+}
