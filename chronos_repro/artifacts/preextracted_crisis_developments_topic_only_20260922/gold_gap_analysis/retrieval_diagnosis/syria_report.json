@@ -1,0 +1,521 @@
+{
+  "topic": "syria",
+  "gold_available": 65,
+  "original_query_count": 65,
+  "time_filter_modes": {
+    "none": 65
+  },
+  "original_final_hits": 25,
+  "original_retrieved_hits": 26,
+  "saved_top12_replay_mismatches": [],
+  "measurements": {
+    "fixed12": {
+      "unique_articles": 439,
+      "retrieved_gold_date_hits": 26,
+      "new_previously_unretrieved_gold_dates": []
+    },
+    "fixed24": {
+      "unique_articles": 768,
+      "retrieved_gold_date_hits": 36,
+      "new_previously_unretrieved_gold_dates": [
+        "2012-02-09",
+        "2012-04-16",
+        "2012-05-10",
+        "2012-07-19",
+        "2012-08-06",
+        "2012-08-13",
+        "2012-12-03",
+        "2012-12-28",
+        "2013-02-21",
+        "2013-07-06"
+      ]
+    },
+    "fixed50": {
+      "unique_articles": 1379,
+      "retrieved_gold_date_hits": 55,
+      "new_previously_unretrieved_gold_dates": [
+        "2011-03-18",
+        "2011-11-16",
+        "2011-12-02",
+        "2012-02-06",
+        "2012-02-09",
+        "2012-02-26",
+        "2012-03-27",
+        "2012-04-12",
+        "2012-04-16",
+        "2012-05-10",
+        "2012-07-06",
+        "2012-07-13",
+        "2012-07-14",
+        "2012-07-18",
+        "2012-07-19",
+        "2012-07-23",
+        "2012-08-03",
+        "2012-08-06",
+        "2012-08-13",
+        "2012-08-14",
+        "2012-08-15",
+        "2012-09-26",
+        "2012-10-17",
+        "2012-12-03",
+        "2012-12-11",
+        "2012-12-28",
+        "2013-01-01",
+        "2013-02-21",
+        "2013-07-06"
+      ]
+    },
+    "fixed_all": {
+      "unique_articles": 2381,
+      "retrieved_gold_date_hits": 60,
+      "new_previously_unretrieved_gold_dates": [
+        "2011-03-18",
+        "2011-11-16",
+        "2011-11-27",
+        "2011-12-02",
+        "2012-02-06",
+        "2012-02-09",
+        "2012-02-26",
+        "2012-03-21",
+        "2012-03-27",
+        "2012-04-12",
+        "2012-04-16",
+        "2012-05-10",
+        "2012-05-27",
+        "2012-07-06",
+        "2012-07-13",
+        "2012-07-14",
+        "2012-07-18",
+        "2012-07-19",
+        "2012-07-23",
+        "2012-08-03",
+        "2012-08-06",
+        "2012-08-13",
+        "2012-08-14",
+        "2012-08-15",
+        "2012-09-26",
+        "2012-10-17",
+        "2012-11-25",
+        "2012-11-29",
+        "2012-12-03",
+        "2012-12-11",
+        "2012-12-28",
+        "2013-01-01",
+        "2013-02-21",
+        "2013-07-06"
+      ]
+    },
+    "native24": {
+      "unique_articles": 765,
+      "retrieved_gold_date_hits": 40,
+      "new_previously_unretrieved_gold_dates": [
+        "2011-11-16",
+        "2011-11-27",
+        "2012-02-09",
+        "2012-03-27",
+        "2012-07-06",
+        "2012-07-19",
+        "2012-08-03",
+        "2012-08-13",
+        "2012-08-14",
+        "2012-09-26",
+        "2012-10-17",
+        "2012-12-03",
+        "2013-02-21",
+        "2013-07-06"
+      ]
+    },
+    "native50": {
+      "unique_articles": 1326,
+      "retrieved_gold_date_hits": 53,
+      "new_previously_unretrieved_gold_dates": [
+        "2011-11-16",
+        "2011-11-27",
+        "2011-12-02",
+        "2012-02-06",
+        "2012-02-09",
+        "2012-02-26",
+        "2012-03-27",
+        "2012-04-12",
+        "2012-04-16",
+        "2012-05-10",
+        "2012-07-06",
+        "2012-07-13",
+        "2012-07-18",
+        "2012-07-19",
+        "2012-07-23",
+        "2012-08-03",
+        "2012-08-06",
+        "2012-08-13",
+        "2012-08-14",
+        "2012-08-15",
+        "2012-09-26",
+        "2012-10-17",
+        "2012-12-03",
+        "2012-12-11",
+        "2012-12-28",
+        "2013-02-21",
+        "2013-07-06"
+      ]
+    },
+    "candidate_union": {
+      "unique_articles": 2384,
+      "retrieved_gold_date_hits": 60,
+      "new_previously_unretrieved_gold_dates": [
+        "2011-03-18",
+        "2011-11-16",
+        "2011-11-27",
+        "2011-12-02",
+        "2012-02-06",
+        "2012-02-09",
+        "2012-02-26",
+        "2012-03-21",
+        "2012-03-27",
+        "2012-04-12",
+        "2012-04-16",
+        "2012-05-10",
+        "2012-05-27",
+        "2012-07-06",
+        "2012-07-13",
+        "2012-07-14",
+        "2012-07-18",
+        "2012-07-19",
+        "2012-07-23",
+        "2012-08-03",
+        "2012-08-06",
+        "2012-08-13",
+        "2012-08-14",
+        "2012-08-15",
+        "2012-09-26",
+        "2012-10-17",
+        "2012-11-25",
+        "2012-11-29",
+        "2012-12-03",
+        "2012-12-11",
+        "2012-12-28",
+        "2013-01-01",
+        "2013-02-21",
+        "2013-07-06"
+      ]
+    }
+  },
+  "missing_date_partition": {
+    "returned_after_top12_in_original_pool": [
+      "2011-03-18",
+      "2011-11-16",
+      "2011-11-27",
+      "2011-12-02",
+      "2012-02-06",
+      "2012-02-09",
+      "2012-02-26",
+      "2012-03-21",
+      "2012-03-27",
+      "2012-04-12",
+      "2012-04-16",
+      "2012-05-10",
+      "2012-05-27",
+      "2012-07-06",
+      "2012-07-13",
+      "2012-07-14",
+      "2012-07-18",
+      "2012-07-19",
+      "2012-07-23",
+      "2012-08-03",
+      "2012-08-06",
+      "2012-08-13",
+      "2012-08-14",
+      "2012-08-15",
+      "2012-09-26",
+      "2012-10-17",
+      "2012-11-25",
+      "2012-11-29",
+      "2012-12-03",
+      "2012-12-11",
+      "2012-12-28",
+      "2013-01-01",
+      "2013-02-21",
+      "2013-07-06"
+    ],
+    "present_only_before_content_deduplication": [],
+    "outside_original_bm25_and_dense_top60_pools": [
+      "2011-12-20",
+      "2012-02-03",
+      "2012-05-25",
+      "2012-06-16",
+      "2012-06-21"
+    ]
+  },
+  "best_missing_date_ranks": {
+    "2013-07-06": {
+      "rank": 24,
+      "query_number": 23,
+      "query": "Syria rebel offensive Qusair Homs 2013 government gains",
+      "document_id": "5838"
+    },
+    "2012-02-09": {
+      "rank": 20,
+      "query_number": 39,
+      "query": "Syria barrel bombs Aleppo civilian casualties 2014 government offensive",
+      "document_id": "5479"
+    },
+    "2012-11-29": {
+      "rank": 85,
+      "query_number": 23,
+      "query": "Syria rebel offensive Qusair Homs 2013 government gains",
+      "document_id": "3958"
+    },
+    "2012-02-26": {
+      "rank": 35,
+      "query_number": 2,
+      "query": "Syria political transition government change 2024 2025",
+      "document_id": "1094"
+    },
+    "2012-07-06": {
+      "rank": 40,
+      "query_number": 2,
+      "query": "Syria political transition government change 2024 2025",
+      "document_id": "409"
+    },
+    "2012-03-27": {
+      "rank": 39,
+      "query_number": 56,
+      "query": "Geneva II peace talks Syria 2014 opposition Assad negotiations",
+      "document_id": "4112"
+    },
+    "2012-07-18": {
+      "rank": 27,
+      "query_number": 25,
+      "query": "Syria Homs old city siege evacuation rebels 2014",
+      "document_id": "5167"
+    },
+    "2013-02-21": {
+      "rank": 17,
+      "query_number": 39,
+      "query": "Syria barrel bombs Aleppo civilian casualties 2014 government offensive",
+      "document_id": "1142"
+    },
+    "2012-08-03": {
+      "rank": 26,
+      "query_number": 36,
+      "query": "Syria chemical weapons disarmament UN resolution October 2013",
+      "document_id": "386"
+    },
+    "2012-09-26": {
+      "rank": 34,
+      "query_number": 39,
+      "query": "Syria barrel bombs Aleppo civilian casualties 2014 government offensive",
+      "document_id": "1992"
+    },
+    "2012-07-23": {
+      "rank": 37,
+      "query_number": 13,
+      "query": "Syria chemical weapons disarmament OPCW destruction 2014",
+      "document_id": "5051"
+    },
+    "2012-08-14": {
+      "rank": 25,
+      "query_number": 5,
+      "query": "Syria refugee crisis neighboring countries Turkey Lebanon Jordan 2014 2015",
+      "document_id": "1776"
+    },
+    "2012-08-15": {
+      "rank": 35,
+      "query_number": 53,
+      "query": "Turkey military operation northern Syria Afrin Euphrates Shield SDF",
+      "document_id": "2747"
+    },
+    "2012-12-28": {
+      "rank": 21,
+      "query_number": 47,
+      "query": "Geneva II peace talks Syria negotiations January 2014",
+      "document_id": "3769"
+    },
+    "2012-07-19": {
+      "rank": 15,
+      "query_number": 7,
+      "query": "Russia military intervention Syria airstrikes 2015 2016",
+      "document_id": "4786"
+    },
+    "2012-08-13": {
+      "rank": 16,
+      "query_number": 43,
+      "query": "Syria US airstrikes Islamic State intervention September 2014",
+      "document_id": "3065"
+    },
+    "2012-02-06": {
+      "rank": 29,
+      "query_number": 9,
+      "query": "Syria Arab League readmission Assad regional normalization 2023",
+      "document_id": "585"
+    },
+    "2012-07-14": {
+      "rank": 35,
+      "query_number": 9,
+      "query": "Syria Arab League readmission Assad regional normalization 2023",
+      "document_id": "4460"
+    },
+    "2011-11-16": {
+      "rank": 44,
+      "query_number": 9,
+      "query": "Syria Arab League readmission Assad regional normalization 2023",
+      "document_id": "1613"
+    },
+    "2011-11-27": {
+      "rank": 75,
+      "query_number": 9,
+      "query": "Syria Arab League readmission Assad regional normalization 2023",
+      "document_id": "1356"
+    },
+    "2012-12-03": {
+      "rank": 18,
+      "query_number": 55,
+      "query": "Ghouta chemical attack August 2013 Obama military strike Syria",
+      "document_id": "3741"
+    },
+    "2012-08-06": {
+      "rank": 20,
+      "query_number": 28,
+      "query": "Syria Palmyra Islamic State capture 2015 government recapture",
+      "document_id": "558"
+    },
+    "2013-01-01": {
+      "rank": 33,
+      "query_number": 25,
+      "query": "Syria Homs old city siege evacuation rebels 2014",
+      "document_id": "5464"
+    },
+    "2012-12-11": {
+      "rank": 30,
+      "query_number": 35,
+      "query": "Syria Islamic State Raqqa declaration caliphate 2014",
+      "document_id": "5375"
+    },
+    "2012-04-16": {
+      "rank": 21,
+      "query_number": 18,
+      "query": "Syria ceasefire Astana Sochi peace process 2017 2018",
+      "document_id": "967"
+    },
+    "2012-04-12": {
+      "rank": 26,
+      "query_number": 51,
+      "query": "Syria ceasefire Astana Sochi negotiations 2017 2018",
+      "document_id": "2538"
+    },
+    "2012-10-17": {
+      "rank": 31,
+      "query_number": 39,
+      "query": "Syria barrel bombs Aleppo civilian casualties 2014 government offensive",
+      "document_id": "3987"
+    },
+    "2012-07-13": {
+      "rank": 26,
+      "query_number": 41,
+      "query": "Syria Kurdish autonomous region declaration 2014 Rojava cantons",
+      "document_id": "1978"
+    },
+    "2012-05-27": {
+      "rank": 77,
+      "query_number": 25,
+      "query": "Syria Homs old city siege evacuation rebels 2014",
+      "document_id": "1789"
+    },
+    "2011-03-18": {
+      "rank": 44,
+      "query_number": 28,
+      "query": "Syria Palmyra Islamic State capture 2015 government recapture",
+      "document_id": "2009"
+    },
+    "2012-03-21": {
+      "rank": 61,
+      "query_number": 37,
+      "query": "Kobani Islamic State siege Kurdish fighters 2014 2015",
+      "document_id": "4149"
+    },
+    "2011-12-02": {
+      "rank": 47,
+      "query_number": 59,
+      "query": "Obama Syria military strike congressional vote September 2013",
+      "document_id": "717"
+    },
+    "2012-11-25": {
+      "rank": 57,
+      "query_number": 55,
+      "query": "Ghouta chemical attack August 2013 Obama military strike Syria",
+      "document_id": "4562"
+    },
+    "2012-05-10": {
+      "rank": 17,
+      "query_number": 58,
+      "query": "Ghouta chemical attack August 21 2013 casualties UN inspectors",
+      "document_id": "359"
+    }
+  },
+  "diagnostic_probes": [
+    {
+      "target_date": "2012-05-25",
+      "query": "Syria Houla massacre May 2012",
+      "top12_target_date_hit": true,
+      "matching_articles": [
+        {
+          "rank": 3,
+          "document_id": "5667"
+        },
+        {
+          "rank": 4,
+          "document_id": "4937"
+        },
+        {
+          "rank": 12,
+          "document_id": "4466"
+        },
+        {
+          "rank": 46,
+          "document_id": "4234"
+        },
+        {
+          "rank": 50,
+          "document_id": "25"
+        },
+        {
+          "rank": 63,
+          "document_id": "5959"
+        },
+        {
+          "rank": 69,
+          "document_id": "3961"
+        },
+        {
+          "rank": 98,
+          "document_id": "5727"
+        }
+      ],
+      "best_rank_under_original_queries": null
+    },
+    {
+      "target_date": "2012-08-06",
+      "query": "Syria Prime Minister Riad Hijab defects August 2012",
+      "top12_target_date_hit": true,
+      "matching_articles": [
+        {
+          "rank": 1,
+          "document_id": "5576"
+        },
+        {
+          "rank": 2,
+          "document_id": "4205"
+        },
+        {
+          "rank": 85,
+          "document_id": "2385"
+        }
+      ],
+      "best_rank_under_original_queries": {
+        "rank": 20,
+        "query_number": 28,
+        "query": "Syria Palmyra Islamic State capture 2015 government recapture",
+        "document_id": "558"
+      }
+    }
+  ]
+}

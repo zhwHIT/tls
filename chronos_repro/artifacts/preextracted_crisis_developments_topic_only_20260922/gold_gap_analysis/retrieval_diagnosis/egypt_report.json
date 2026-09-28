@@ -1,0 +1,671 @@
+{
+  "topic": "egypt",
+  "gold_available": 106,
+  "original_query_count": 69,
+  "time_filter_modes": {
+    "none": 69
+  },
+  "original_final_hits": 40,
+  "original_retrieved_hits": 40,
+  "saved_top12_replay_mismatches": [],
+  "measurements": {
+    "fixed12": {
+      "unique_articles": 401,
+      "retrieved_gold_date_hits": 40,
+      "new_previously_unretrieved_gold_dates": []
+    },
+    "fixed24": {
+      "unique_articles": 683,
+      "retrieved_gold_date_hits": 61,
+      "new_previously_unretrieved_gold_dates": [
+        "2011-01-25",
+        "2011-01-26",
+        "2011-02-02",
+        "2011-02-13",
+        "2011-03-04",
+        "2011-05-27",
+        "2011-08-03",
+        "2011-08-18",
+        "2011-09-10",
+        "2011-09-30",
+        "2011-11-21",
+        "2012-01-21",
+        "2012-01-23",
+        "2012-06-13",
+        "2012-06-30",
+        "2012-08-12",
+        "2012-10-08",
+        "2012-11-22",
+        "2012-11-23",
+        "2012-12-21",
+        "2013-01-25"
+      ]
+    },
+    "fixed50": {
+      "unique_articles": 1139,
+      "retrieved_gold_date_hits": 73,
+      "new_previously_unretrieved_gold_dates": [
+        "2011-01-25",
+        "2011-01-26",
+        "2011-02-02",
+        "2011-02-03",
+        "2011-02-08",
+        "2011-02-10",
+        "2011-02-13",
+        "2011-03-04",
+        "2011-03-08",
+        "2011-04-10",
+        "2011-05-27",
+        "2011-08-03",
+        "2011-08-18",
+        "2011-08-19",
+        "2011-08-21",
+        "2011-09-10",
+        "2011-09-30",
+        "2011-10-10",
+        "2011-11-21",
+        "2011-11-25",
+        "2012-01-16",
+        "2012-01-21",
+        "2012-01-23",
+        "2012-01-24",
+        "2012-06-13",
+        "2012-06-26",
+        "2012-06-30",
+        "2012-08-12",
+        "2012-10-08",
+        "2012-11-22",
+        "2012-11-23",
+        "2012-12-21",
+        "2013-01-25"
+      ]
+    },
+    "fixed_all": {
+      "unique_articles": 1778,
+      "retrieved_gold_date_hits": 86,
+      "new_previously_unretrieved_gold_dates": [
+        "2011-01-25",
+        "2011-01-26",
+        "2011-01-27",
+        "2011-02-02",
+        "2011-02-03",
+        "2011-02-07",
+        "2011-02-08",
+        "2011-02-10",
+        "2011-02-13",
+        "2011-02-15",
+        "2011-03-03",
+        "2011-03-04",
+        "2011-03-08",
+        "2011-04-10",
+        "2011-05-13",
+        "2011-05-24",
+        "2011-05-27",
+        "2011-08-01",
+        "2011-08-03",
+        "2011-08-18",
+        "2011-08-19",
+        "2011-08-21",
+        "2011-09-10",
+        "2011-09-28",
+        "2011-09-30",
+        "2011-10-10",
+        "2011-11-21",
+        "2011-11-25",
+        "2012-01-16",
+        "2012-01-21",
+        "2012-01-23",
+        "2012-01-24",
+        "2012-04-14",
+        "2012-04-17",
+        "2012-06-13",
+        "2012-06-22",
+        "2012-06-26",
+        "2012-06-30",
+        "2012-08-12",
+        "2012-10-08",
+        "2012-11-22",
+        "2012-11-23",
+        "2012-12-21",
+        "2013-01-25",
+        "2013-04-29",
+        "2013-05-07"
+      ]
+    },
+    "native24": {
+      "unique_articles": 659,
+      "retrieved_gold_date_hits": 60,
+      "new_previously_unretrieved_gold_dates": [
+        "2011-01-25",
+        "2011-01-26",
+        "2011-02-02",
+        "2011-02-13",
+        "2011-08-18",
+        "2011-08-19",
+        "2011-08-21",
+        "2011-09-10",
+        "2011-11-21",
+        "2011-11-25",
+        "2012-01-21",
+        "2012-01-24",
+        "2012-04-14",
+        "2012-06-13",
+        "2012-10-08",
+        "2012-11-22",
+        "2012-11-23",
+        "2012-12-21",
+        "2013-01-25",
+        "2013-05-07"
+      ]
+    },
+    "native50": {
+      "unique_articles": 1101,
+      "retrieved_gold_date_hits": 76,
+      "new_previously_unretrieved_gold_dates": [
+        "2011-01-25",
+        "2011-01-26",
+        "2011-01-27",
+        "2011-02-02",
+        "2011-02-03",
+        "2011-02-08",
+        "2011-02-13",
+        "2011-03-04",
+        "2011-03-08",
+        "2011-05-27",
+        "2011-08-03",
+        "2011-08-18",
+        "2011-08-19",
+        "2011-08-21",
+        "2011-09-10",
+        "2011-09-28",
+        "2011-09-30",
+        "2011-11-21",
+        "2011-11-25",
+        "2012-01-16",
+        "2012-01-21",
+        "2012-01-23",
+        "2012-01-24",
+        "2012-04-14",
+        "2012-04-17",
+        "2012-06-13",
+        "2012-06-26",
+        "2012-06-30",
+        "2012-08-12",
+        "2012-10-08",
+        "2012-11-22",
+        "2012-11-23",
+        "2012-12-21",
+        "2013-01-25",
+        "2013-04-29",
+        "2013-05-07"
+      ]
+    },
+    "candidate_union": {
+      "unique_articles": 1779,
+      "retrieved_gold_date_hits": 86,
+      "new_previously_unretrieved_gold_dates": [
+        "2011-01-25",
+        "2011-01-26",
+        "2011-01-27",
+        "2011-02-02",
+        "2011-02-03",
+        "2011-02-07",
+        "2011-02-08",
+        "2011-02-10",
+        "2011-02-13",
+        "2011-02-15",
+        "2011-03-03",
+        "2011-03-04",
+        "2011-03-08",
+        "2011-04-10",
+        "2011-05-13",
+        "2011-05-24",
+        "2011-05-27",
+        "2011-08-01",
+        "2011-08-03",
+        "2011-08-18",
+        "2011-08-19",
+        "2011-08-21",
+        "2011-09-10",
+        "2011-09-28",
+        "2011-09-30",
+        "2011-10-10",
+        "2011-11-21",
+        "2011-11-25",
+        "2012-01-16",
+        "2012-01-21",
+        "2012-01-23",
+        "2012-01-24",
+        "2012-04-14",
+        "2012-04-17",
+        "2012-06-13",
+        "2012-06-22",
+        "2012-06-26",
+        "2012-06-30",
+        "2012-08-12",
+        "2012-10-08",
+        "2012-11-22",
+        "2012-11-23",
+        "2012-12-21",
+        "2013-01-25",
+        "2013-04-29",
+        "2013-05-07"
+      ]
+    }
+  },
+  "missing_date_partition": {
+    "returned_after_top12_in_original_pool": [
+      "2011-01-25",
+      "2011-01-26",
+      "2011-01-27",
+      "2011-02-02",
+      "2011-02-03",
+      "2011-02-07",
+      "2011-02-08",
+      "2011-02-10",
+      "2011-02-13",
+      "2011-02-15",
+      "2011-03-03",
+      "2011-03-04",
+      "2011-03-08",
+      "2011-04-10",
+      "2011-05-13",
+      "2011-05-24",
+      "2011-05-27",
+      "2011-08-01",
+      "2011-08-03",
+      "2011-08-18",
+      "2011-08-19",
+      "2011-08-21",
+      "2011-09-10",
+      "2011-09-28",
+      "2011-09-30",
+      "2011-10-10",
+      "2011-11-21",
+      "2011-11-25",
+      "2012-01-16",
+      "2012-01-21",
+      "2012-01-23",
+      "2012-01-24",
+      "2012-04-14",
+      "2012-04-17",
+      "2012-06-13",
+      "2012-06-22",
+      "2012-06-26",
+      "2012-06-30",
+      "2012-08-12",
+      "2012-10-08",
+      "2012-11-22",
+      "2012-11-23",
+      "2012-12-21",
+      "2013-01-25",
+      "2013-04-29",
+      "2013-05-07"
+    ],
+    "present_only_before_content_deduplication": [],
+    "outside_original_bm25_and_dense_top60_pools": [
+      "2011-01-01",
+      "2011-01-18",
+      "2011-02-22",
+      "2011-02-25",
+      "2011-03-21",
+      "2011-03-23",
+      "2011-04-08",
+      "2011-04-13",
+      "2011-04-21",
+      "2011-05-08",
+      "2011-06-05",
+      "2011-06-29",
+      "2011-07-10",
+      "2011-07-12",
+      "2011-08-15",
+      "2011-09-16",
+      "2011-10-12",
+      "2012-04-20",
+      "2012-07-14",
+      "2013-04-07"
+    ]
+  },
+  "best_missing_date_ranks": {
+    "2011-09-30": {
+      "rank": 15,
+      "query_number": 1,
+      "query": "Egypt presidential election transfer of power",
+      "document_id": "3642"
+    },
+    "2011-11-25": {
+      "rank": 29,
+      "query_number": 9,
+      "query": "Egypt economic reforms fuel subsidy cuts currency float 2016",
+      "document_id": "3037"
+    },
+    "2012-04-14": {
+      "rank": 55,
+      "query_number": 1,
+      "query": "Egypt presidential election transfer of power",
+      "document_id": "3079"
+    },
+    "2011-02-10": {
+      "rank": 44,
+      "query_number": 17,
+      "query": "Hosni Mubarak released retrial acquitted 2014 2017",
+      "document_id": "2033"
+    },
+    "2011-01-25": {
+      "rank": 13,
+      "query_number": 41,
+      "query": "Egypt Sinai State ISIS affiliate insurgency attacks 2015 2017",
+      "document_id": "1480"
+    },
+    "2011-09-28": {
+      "rank": 71,
+      "query_number": 1,
+      "query": "Egypt presidential election transfer of power",
+      "document_id": "2534"
+    },
+    "2012-01-16": {
+      "rank": 32,
+      "query_number": 27,
+      "query": "Egypt 2022 2023 economic crisis IMF loan devaluation",
+      "document_id": "5522"
+    },
+    "2013-01-25": {
+      "rank": 19,
+      "query_number": 11,
+      "query": "Egypt 2019 protests Mohamed Ali Sisi response",
+      "document_id": "492"
+    },
+    "2012-11-22": {
+      "rank": 14,
+      "query_number": 3,
+      "query": "Egypt Gaza ceasefire mediation negotiations",
+      "document_id": "3175"
+    },
+    "2011-09-10": {
+      "rank": 16,
+      "query_number": 3,
+      "query": "Egypt Gaza ceasefire mediation negotiations",
+      "document_id": "50"
+    },
+    "2011-01-26": {
+      "rank": 20,
+      "query_number": 3,
+      "query": "Egypt Gaza ceasefire mediation negotiations",
+      "document_id": "3498"
+    },
+    "2011-05-27": {
+      "rank": 21,
+      "query_number": 8,
+      "query": "Egypt crackdown Muslim Brotherhood trials death sentences 2014",
+      "document_id": "3557"
+    },
+    "2011-08-21": {
+      "rank": 35,
+      "query_number": 3,
+      "query": "Egypt Gaza ceasefire mediation negotiations",
+      "document_id": "1165"
+    },
+    "2011-08-19": {
+      "rank": 26,
+      "query_number": 41,
+      "query": "Egypt Sinai State ISIS affiliate insurgency attacks 2015 2017",
+      "document_id": "4054"
+    },
+    "2011-02-02": {
+      "rank": 13,
+      "query_number": 37,
+      "query": "Sinai insurgency militant attacks Egypt military response 2013 2014",
+      "document_id": "2727"
+    },
+    "2011-02-08": {
+      "rank": 47,
+      "query_number": 9,
+      "query": "Egypt economic reforms fuel subsidy cuts currency float 2016",
+      "document_id": "3896"
+    },
+    "2011-02-07": {
+      "rank": 69,
+      "query_number": 5,
+      "query": "Egypt Rabaa sit-in dispersal crackdown Muslim Brotherhood",
+      "document_id": "4899"
+    },
+    "2012-11-23": {
+      "rank": 15,
+      "query_number": 50,
+      "query": "Mohamed Morsi trial Egypt court 2013 2014",
+      "document_id": "4153"
+    },
+    "2012-08-12": {
+      "rank": 17,
+      "query_number": 62,
+      "query": "Rabaa al-Adawiya sit-in dispersal August 2013 Muslim Brotherhood",
+      "document_id": "2398"
+    },
+    "2013-05-07": {
+      "rank": 60,
+      "query_number": 6,
+      "query": "Egypt IMF loan Gulf aid economy after 2013",
+      "document_id": "2874"
+    },
+    "2012-12-21": {
+      "rank": 15,
+      "query_number": 60,
+      "query": "Egypt constitution referendum December 2012 opposition reaction",
+      "document_id": "3870"
+    },
+    "2011-02-15": {
+      "rank": 52,
+      "query_number": 62,
+      "query": "Rabaa al-Adawiya sit-in dispersal August 2013 Muslim Brotherhood",
+      "document_id": "4946"
+    },
+    "2013-04-29": {
+      "rank": 71,
+      "query_number": 9,
+      "query": "Egypt economic reforms fuel subsidy cuts currency float 2016",
+      "document_id": "3832"
+    },
+    "2011-04-10": {
+      "rank": 40,
+      "query_number": 8,
+      "query": "Egypt crackdown Muslim Brotherhood trials death sentences 2014",
+      "document_id": "2960"
+    },
+    "2011-02-13": {
+      "rank": 17,
+      "query_number": 49,
+      "query": "Abdel Fattah el-Sisi Egypt army chief 2013 2014",
+      "document_id": "927"
+    },
+    "2012-01-24": {
+      "rank": 37,
+      "query_number": 28,
+      "query": "Egypt August 2013 state of emergency curfew crackdown Muslim Brotherhood",
+      "document_id": "5563"
+    },
+    "2011-02-03": {
+      "rank": 32,
+      "query_number": 19,
+      "query": "Rabaa al-Adawiya sit-in dispersal massacre 2013",
+      "document_id": "789"
+    },
+    "2012-01-23": {
+      "rank": 24,
+      "query_number": 12,
+      "query": "Grand Ethiopian Renaissance Dam Egypt Nile negotiations",
+      "document_id": "715"
+    },
+    "2012-06-30": {
+      "rank": 23,
+      "query_number": 52,
+      "query": "Mohamed Morsi death sentence Egypt court 2015",
+      "document_id": "2944"
+    },
+    "2011-11-21": {
+      "rank": 18,
+      "query_number": 14,
+      "query": "Egypt Sinai insurgency military campaign casualties",
+      "document_id": "4030"
+    },
+    "2011-08-18": {
+      "rank": 21,
+      "query_number": 41,
+      "query": "Egypt Sinai State ISIS affiliate insurgency attacks 2015 2017",
+      "document_id": "4645"
+    },
+    "2011-08-03": {
+      "rank": 22,
+      "query_number": 17,
+      "query": "Hosni Mubarak released retrial acquitted 2014 2017",
+      "document_id": "4719"
+    },
+    "2011-03-08": {
+      "rank": 29,
+      "query_number": 19,
+      "query": "Rabaa al-Adawiya sit-in dispersal massacre 2013",
+      "document_id": "5669"
+    },
+    "2011-03-04": {
+      "rank": 21,
+      "query_number": 21,
+      "query": "Abdel Fattah el-Sisi reelection 2018 2023 Egypt",
+      "document_id": "2602"
+    },
+    "2012-04-17": {
+      "rank": 62,
+      "query_number": 32,
+      "query": "Egypt 2015 parliamentary election Sisi consolidation power",
+      "document_id": "2117"
+    },
+    "2011-03-03": {
+      "rank": 87,
+      "query_number": 26,
+      "query": "Hosni Mubarak retrial acquittal release 2014 2017",
+      "document_id": "2925"
+    },
+    "2012-01-21": {
+      "rank": 21,
+      "query_number": 32,
+      "query": "Egypt 2015 parliamentary election Sisi consolidation power",
+      "document_id": "1236"
+    },
+    "2012-06-22": {
+      "rank": 60,
+      "query_number": 33,
+      "query": "Egypt Sisi 2018 presidential election reelection results",
+      "document_id": "1566"
+    },
+    "2011-10-10": {
+      "rank": 45,
+      "query_number": 53,
+      "query": "Rabaa al-Adawiya mosque sit-in dispersal August 2013 casualties",
+      "document_id": "1883"
+    },
+    "2012-06-13": {
+      "rank": 19,
+      "query_number": 42,
+      "query": "Abdel Fattah el-Sisi elected president Egypt 2014",
+      "document_id": "1479"
+    },
+    "2011-01-27": {
+      "rank": 60,
+      "query_number": 48,
+      "query": "Rabaa al-Adawiya sit-in dispersal August 2013 Egypt",
+      "document_id": "2752"
+    },
+    "2011-05-24": {
+      "rank": 81,
+      "query_number": 48,
+      "query": "Rabaa al-Adawiya sit-in dispersal August 2013 Egypt",
+      "document_id": "5377"
+    },
+    "2012-10-08": {
+      "rank": 14,
+      "query_number": 63,
+      "query": "Mohamed Morsi trial court charges Egypt 2014 2015",
+      "document_id": "2075"
+    },
+    "2011-05-13": {
+      "rank": 60,
+      "query_number": 62,
+      "query": "Rabaa al-Adawiya sit-in dispersal August 2013 Muslim Brotherhood",
+      "document_id": "1668"
+    },
+    "2012-06-26": {
+      "rank": 35,
+      "query_number": 63,
+      "query": "Mohamed Morsi trial court charges Egypt 2014 2015",
+      "document_id": "3449"
+    },
+    "2011-08-01": {
+      "rank": 75,
+      "query_number": 67,
+      "query": "Egypt interim cabinet Hazem el-Beblawi government July 2013",
+      "document_id": "5012"
+    }
+  },
+  "diagnostic_probes": [
+    {
+      "target_date": "2011-02-02",
+      "query": "Egypt Mubarak supporters Tahrir Square clashes February 2011",
+      "top12_target_date_hit": true,
+      "matching_articles": [
+        {
+          "rank": 11,
+          "document_id": "4173"
+        },
+        {
+          "rank": 31,
+          "document_id": "4863"
+        },
+        {
+          "rank": 33,
+          "document_id": "2643"
+        },
+        {
+          "rank": 38,
+          "document_id": "5201"
+        },
+        {
+          "rank": 46,
+          "document_id": "5227"
+        },
+        {
+          "rank": 78,
+          "document_id": "3986"
+        },
+        {
+          "rank": 109,
+          "document_id": "5601"
+        },
+        {
+          "rank": 114,
+          "document_id": "2588"
+        }
+      ],
+      "best_rank_under_original_queries": {
+        "rank": 13,
+        "query_number": 37,
+        "query": "Sinai insurgency militant attacks Egypt military response 2013 2014",
+        "document_id": "2727"
+      }
+    },
+    {
+      "target_date": "2011-03-03",
+      "query": "Egypt Prime Minister Ahmed Shafik resigns March 2011",
+      "top12_target_date_hit": false,
+      "matching_articles": [
+        {
+          "rank": 17,
+          "document_id": "2925"
+        }
+      ],
+      "best_rank_under_original_queries": {
+        "rank": 87,
+        "query_number": 26,
+        "query": "Hosni Mubarak retrial acquittal release 2014 2017",
+        "document_id": "2925"
+      }
+    }
+  ]
+}

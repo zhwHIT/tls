@@ -1,0 +1,3641 @@
+{
+  "run_root": "artifacts/preextracted_crisis_developments_topic_only_20260922",
+  "keywords": "topic only",
+  "rows": [
+    {
+      "topic": "egypt",
+      "gold": 122,
+      "matched": 40,
+      "recall": 0.32786885245901637,
+      "missing_in_extraction": 16,
+      "available_but_not_retrieved": 66,
+      "retrieved_but_not_selected": [],
+      "years": [
+        {
+          "year": "2011",
+          "gold": 68,
+          "matched_gold_dates": 8,
+          "not_available_in_extraction": 15,
+          "available_but_not_retrieved": 45,
+          "retrieved_but_not_selected": 0
+        },
+        {
+          "year": "2012",
+          "gold": 36,
+          "matched_gold_dates": 18,
+          "not_available_in_extraction": 1,
+          "available_but_not_retrieved": 17,
+          "retrieved_but_not_selected": 0
+        },
+        {
+          "year": "2013",
+          "gold": 18,
+          "matched_gold_dates": 14,
+          "not_available_in_extraction": 0,
+          "available_but_not_retrieved": 4,
+          "retrieved_but_not_selected": 0
+        }
+      ],
+      "predicted_dates": 154,
+      "predicted_years": {
+        "2011": 23,
+        "2012": 63,
+        "2013": 68
+      },
+      "predicted_dates_outside_gold_span": 11,
+      "gold_start": "2011-01-01",
+      "gold_end": "2013-07-07",
+      "prediction_start": "2011-01-28",
+      "prediction_end": "2013-07-19",
+      "start_hit": false,
+      "end_hit": true,
+      "dates": [
+        {
+          "date": "2011-01-01",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "At least 21 dead and more than 70 injured after bomb explodes outside Coptic church in Alexandria"
+          ]
+        },
+        {
+          "date": "2011-01-02",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Egyptian President Hosni Mubarak 's announcement that he will serve out remaining term immediately rejected by angry crowds"
+          ]
+        },
+        {
+          "date": "2011-01-17",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Man sets himself on fire near Egyptian parliament"
+          ]
+        },
+        {
+          "date": "2011-01-18",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Mohamed ElBaradei warns of ` Tunisia-style explosion ' in Egypt Mohamed ElBaradei says Egyptians ` yearning for change ' , but draws criticism for refusing to back street-level protests"
+          ]
+        },
+        {
+          "date": "2011-01-25",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Thousands protest against President Hosni Mubarak",
+            "Egyptians hold nationwide demonstrations against the authoritarian rule of Hosni Mubarak , who has led the country for nearly three decades .",
+            "- Anti-government protests begin across Egypt following the January 14 overthrow of Tunisia 's president in the first of a series of Arab uprisings ."
+          ]
+        },
+        {
+          "date": "2011-01-26",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "A large security force moves into Cairo 's Tahrir Square , beating and arresting protesters and using rubber bullets and tear gas .",
+            "Three protesters are killed in similar protests outside Cairo , among the first in an eventual death toll of about 900 during the uprising ."
+          ]
+        },
+        {
+          "date": "2011-01-27",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Bloody and bruised : the journalist caught in Egypt unrest"
+          ]
+        },
+        {
+          "date": "2011-01-28",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Egyptian government on last legs , says ElBaradei .",
+            "Mubarak tries to head off protest .",
+            "Protesters burn down the ruling party 's headquarters , and the military is deployed .",
+            "Protesters occupy Tahrir Square for a prolonged sit in .",
+            "Mubarak , 82 , a former air force commander who has been president since 1981 under a military-backed system of rule in force for six decades , orders troops and tanks into cities to quell demonstrations .",
+            "Thousands cheer news of intervention of the army , which is widely seen as a neutral force in politics , unlike police who are regularly deployed to stifle dissent ."
+          ]
+        },
+        {
+          "date": "2011-01-31",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "New government is sworn in with former air force commander Ahmed Shafik as prime minister .",
+            "New vice president , Omar Suleiman , hitherto intelligence chief , says Mubarak has asked him to start dialogue with political forces ."
+          ]
+        },
+        {
+          "date": "2011-02-02",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Mubarak supporters stage brutal bid to crush Cairo uprising"
+          ]
+        },
+        {
+          "date": "2011-02-03",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Egypt 's vice-president complains rioting is bad for business .",
+            "Tourism loses at least $ 1bn as one million visitors flee anti-Mubarak protests ."
+          ]
+        },
+        {
+          "date": "2011-02-04",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Cairo 's biggest protest yet demands Mubarak 's immediate departure",
+            "Thousands gather in Cairo 's Tahrir Square in a `` Day of Departure '' to press Mubarak to go ."
+          ]
+        },
+        {
+          "date": "2011-02-07",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Egypt 's new cabinet announces 15 % rise in salaries and pensions"
+          ]
+        },
+        {
+          "date": "2011-02-08",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Wael Ghonim , the Google executive who helped organise the protests that started Egypt 's uprising , has been hailed as a hero and a symbol of hope amid calls for him to be appointed spokesman for the country 's democracy movement ."
+          ]
+        },
+        {
+          "date": "2011-02-10",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Mubarak says national dialogue under way , transfers powers to Vice President Suleiman ."
+          ]
+        },
+        {
+          "date": "2011-02-11",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Hosni Mubarak resigns   and Egypt celebrates a new dawn",
+            "Mubarak steps down and turns power over to the military .",
+            "Two days later , the body of top generals , the Supreme Council of the Armed Forces , dissolves parliament and suspends the constitution , meeting two key demands of protesters .",
+            "Mubarak steps down and a military council led by Field Marshal Hussein Tantawi takes over ."
+          ]
+        },
+        {
+          "date": "2011-02-13",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Egypt 's military rejects swift transfer of power and suspends constitution"
+          ]
+        },
+        {
+          "date": "2011-02-15",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Egyptian officials ' assets to be traced by Serious Organised Crime Agency"
+          ]
+        },
+        {
+          "date": "2011-02-22",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Tantawi swears in new cabinet but Muslim Brotherhood and others want it purged of Mubarak 's ministers ."
+          ]
+        },
+        {
+          "date": "2011-02-25",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Thousands join ` day of rage ' across the Middle East"
+          ]
+        },
+        {
+          "date": "2011-03-03",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Prime Minister Shafik resigns and military asks former Transport Minister Essam Sharaf to form cabinet ."
+          ]
+        },
+        {
+          "date": "2011-03-04",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Essam Sharaf , Egypt 's new prime minister , rouses Tahrir Square crowds"
+          ]
+        },
+        {
+          "date": "2011-03-08",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Million-woman March"
+          ]
+        },
+        {
+          "date": "2011-03-19",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "In the first post Mubarak vote , Egyptians cast ballots on constitutional amendments sponsored by the military setting the framework for the transition to democracy , including scheduling the first parliamentary and presidential elections .",
+            "Islamists back the amendments , eager to hold elections they are poised to dominate .",
+            "Many revolutionaries push for a `` no '' vote , arguing a constitution should be written first .",
+            "The measures are overwhelmingly approved .",
+            "Big majority of Egyptians approves amendments to the constitution in referendum .",
+            "The amendments are designed to pave way for parliamentary and presidential elections ."
+          ]
+        },
+        {
+          "date": "2011-03-21",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Egyptians endorse reforms but Arab discontent simmers"
+          ]
+        },
+        {
+          "date": "2011-03-23",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Egypt approves law easing curbs that choked political life under Mubarak ."
+          ]
+        },
+        {
+          "date": "2011-04-08",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Tahrir Square comes alive with protesters again",
+            "Thousands protest in Tahrir Square against delays in putting Mubarak on trial ."
+          ]
+        },
+        {
+          "date": "2011-04-09",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Egyptian soldiers attack Tahrir Square protesters"
+          ]
+        },
+        {
+          "date": "2011-04-10",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Hosni Mubarak breaks silence to deny corruption"
+          ]
+        },
+        {
+          "date": "2011-04-13",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Hosni Mubarak detained over corruption allegations"
+          ]
+        },
+        {
+          "date": "2011-04-21",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Hosni Mubarak 's name to be removed from all public buildings"
+          ]
+        },
+        {
+          "date": "2011-05-08",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Egypt promises justice after Copts and Muslims clash in Cairo"
+          ]
+        },
+        {
+          "date": "2011-05-13",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Tahrir Square fills again as Egypt holds Mubarak 's wife for crimes against state"
+          ]
+        },
+        {
+          "date": "2011-05-15",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Egypt 's Coptic church leader urges end to Christian sit-in protest"
+          ]
+        },
+        {
+          "date": "2011-05-24",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Hosni Mubarak charged with murder"
+          ]
+        },
+        {
+          "date": "2011-05-27",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Egypt to open Gaza border crossing"
+          ]
+        },
+        {
+          "date": "2011-06-05",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Egypt strikes $ 3bn IMF deal to ` relaunch ' economy"
+          ]
+        },
+        {
+          "date": "2011-06-13",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Fury over advert claiming Egypt revolution as Vodafone 's"
+          ]
+        },
+        {
+          "date": "2011-06-29",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Cairo street clashes leave more than 1,000 injured"
+          ]
+        },
+        {
+          "date": "2011-07-05",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Egypt clashes after police released on bail"
+          ]
+        },
+        {
+          "date": "2011-07-10",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Protests spread in Egypt as discontent with military rule grows"
+          ]
+        },
+        {
+          "date": "2011-07-12",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Egyptian pipeline hit by fourth explosive attack since January"
+          ]
+        },
+        {
+          "date": "2011-07-13",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Egypt hit by new wave of protests as military postpones election"
+          ]
+        },
+        {
+          "date": "2011-07-17",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Egypt 's prime minister reshuffles cabinet in response to protests"
+          ]
+        },
+        {
+          "date": "2011-07-24",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Egypt erupts into new violence as dozens injured during Cairo protest"
+          ]
+        },
+        {
+          "date": "2011-08-01",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Egyptian army retakes Tahrir Square"
+          ]
+        },
+        {
+          "date": "2011-08-03",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Mubarak in the dock : historic trial of former Egyptian president begins",
+            "Mubarak trial opens .",
+            "Wheeled into a courtroom cage lying on a bed , Mubarak denies charges of ordering the killing protesters and other abuses of power ."
+          ]
+        },
+        {
+          "date": "2011-08-05",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Hosni Mubarak 's puppet trade union federation dismantled"
+          ]
+        },
+        {
+          "date": "2011-08-15",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Mubarak on trial"
+          ]
+        },
+        {
+          "date": "2011-08-18",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Israelis killed in attacks near Egypt border"
+          ]
+        },
+        {
+          "date": "2011-08-19",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Israel and Gaza trade missiles and rockets in wake of bloodshed"
+          ]
+        },
+        {
+          "date": "2011-08-21",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Ceasefire talks intensify as Israeli PM orders continuation of Gaza air strikes"
+          ]
+        },
+        {
+          "date": "2011-08-26",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Fighting stops in Gaza but fears of further violence remain"
+          ]
+        },
+        {
+          "date": "2011-09-05",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Hosni Mubarak denies police were ordered to fire on protesters"
+          ]
+        },
+        {
+          "date": "2011-09-10",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Israel evacuates ambassador to Egypt after embassy attack"
+          ]
+        },
+        {
+          "date": "2011-09-16",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Egyptians rally in Tahrir Square against return of emergency laws"
+          ]
+        },
+        {
+          "date": "2011-09-28",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Military regime announces first elections since Hosni Mubarak was ousted , but opposition groups are unhappy with rules"
+          ]
+        },
+        {
+          "date": "2011-09-30",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Egyptians demand quicker move to democracy at protest rallies"
+          ]
+        },
+        {
+          "date": "2011-10-06",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Egypt 's ruling generals accused of buying time to stay in power"
+          ]
+        },
+        {
+          "date": "2011-10-09",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Cairo clashes leave at least 24 dead",
+            "Troops crush a protest by Christians in Cairo over a church attack , killing more than 25 protesters .",
+            "The rally is one of many during the military 's nearly 17 month rule , with protesters often calling for the removal of the generals and clashes frequently erupting that killed dozens ."
+          ]
+        },
+        {
+          "date": "2011-10-10",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Egypt 's Coptic Christians face an uncertain future"
+          ]
+        },
+        {
+          "date": "2011-10-11",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Cairo witnesses blame security forces for bloodshed at Coptic march"
+          ]
+        },
+        {
+          "date": "2011-10-12",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Israel apologises to Egypt over police officer deaths"
+          ]
+        },
+        {
+          "date": "2011-10-18",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Jailed Egyptian blogger on hunger strike says ` he is ready to die '"
+          ]
+        },
+        {
+          "date": "2011-11-21",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Sharaf 's government resigns after more protests in Tahrir Square against the slow pace of `` transition '' ."
+          ]
+        },
+        {
+          "date": "2011-11-22",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Tantawi promises that a civilian president will be elected in June 2012 , six months sooner than planned ."
+          ]
+        },
+        {
+          "date": "2011-11-25",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Thousands demanding an end to military rule pack Tahrir Square in the biggest turnout of a week of protests in which 42 people were killed .",
+            "The military council names Kamal al-Ganzouri to head a government of national salvation .",
+            "He had served as prime minister under Mubarak from 1996 to 1999 ."
+          ]
+        },
+        {
+          "date": "2011-11-28",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Voting begins in the first parliamentary elections since Mubarak 's ouster .",
+            "The election concludes in January with nearly half the seats won by the previously banned Muslim Brotherhood .",
+            "First voting in parliamentary election ."
+          ]
+        },
+        {
+          "date": "2012-01-16",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Egypt says it has asked the IMF for $ 3.2 billion to help to fill a budget gap widened by almost a year of political and economic turmoil ."
+          ]
+        },
+        {
+          "date": "2012-01-21",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "A new political era in Egypt begins as Islamist parties win nearly three-quarters of the seats in parliamentary elections to inherit a nation mired in economic crisis and desperate to move beyond military rule and the corrupt legacy of deposed President Hosni Mubarak ."
+          ]
+        },
+        {
+          "date": "2012-01-23",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "New parliament holds its first session ."
+          ]
+        },
+        {
+          "date": "2012-01-24",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Egypt's new parliament holds its inaugural session , and a sense of wonder is mixed with the gravity of a country still under military rule and beset by economic turmoil ."
+          ]
+        },
+        {
+          "date": "2012-04-14",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Egypt's volatile presidential race is jolted when the election commission disqualifies three controversial front-runners  the nation's former spy chief and two impassioned Islamists  just five weeks before voters go to the polls ."
+          ]
+        },
+        {
+          "date": "2012-04-17",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Ten candidates disqualified from the presidential race , including Omar Suleiman and Muslim Brotherhood 's Khairat al-Shater .",
+            "Brotherhood fields reserve candidate Mohamed Morsy ."
+          ]
+        },
+        {
+          "date": "2012-04-20",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            ": The presidential campaign officially begins .",
+            "A first round of voting on May 23 24 determines that Morsi and Ahmed Shafiq , the last prime minister under Mubarak , will face each other in a runoff ."
+          ]
+        },
+        {
+          "date": "2012-05-23",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Egyptians begin two days of voting in a landmark contest between a stirring political Islam and a secularist vision embodied by men connected to the old regime .",
+            "First round of presidential election ."
+          ]
+        },
+        {
+          "date": "2012-05-28",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Morsy and Shafik declared the runoff candidates ."
+          ]
+        },
+        {
+          "date": "2012-06-02",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The life sentence imposed on toppled President Hosni Mubarak for complicity in the deaths of hundreds of protesters marks an unprecedented milestone in Egypt's path toward democracy .",
+            "Mubarak is sentenced to life in prison for his role in the killing of protesters ."
+          ]
+        },
+        {
+          "date": "2012-06-13",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Egypt issues a decree allowing military police to detain civilians , a move critics say is a barely disguised bid to reinstate decades-old emergency law that expired on May 31 .",
+            "Parliament approves an assembly to draft a new constitution - the first attempt was criticized for including too many Islamists .",
+            "However the list of 100 names immediately triggers similar objections from liberals and Christians ."
+          ]
+        },
+        {
+          "date": "2012-06-14",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The Supreme Constitutional Court orders the dissolving of the Islamist dominated lower house of parliament on grounds that a third of its members were elected illegally .",
+            "The military swiftly closes down parliament .",
+            "The battle between Egypt's military leaders and the ascendant Muslim Brotherhood over the country's political fate dramatically sharpens when the nation's constitutional court dissolves the Islamist-dominated parliament while upholding the right of an ally of deposed leader Hosni Mubarak to remain on the presidential election ballot .",
+            "Supreme court rules to dissolve parliament , just two days before the runoff presidential election .",
+            "Islamists and liberals denounce `` coup '' by military establishment .",
+            "Court also dismissed move to bar Shafik from contesting election ."
+          ]
+        },
+        {
+          "date": "2012-06-18",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The Muslim Brotherhood claims victory in Egypt's landmark presidential runoff election , but its historic rise to power is blunted by a decree from the ruling military council to greatly limit the authority of the nation's next leader ."
+          ]
+        },
+        {
+          "date": "2012-06-19",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Egyptian officials deny reports that deposed President Hosni Mubarak was clinically dead after he suffered a stroke and slipped out of consciousness at a prison hospital in Cairo , according to state and independent news media .",
+            "Conflicting reports about the former leader's health emerged after a report by the official state news agency MENA that Mubarak was declared clinically dead  after he was transferred from a prison hospital to a nearby military hospital. .",
+            "The report could not be independently verified ."
+          ]
+        },
+        {
+          "date": "2012-06-20",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Conflicting reports about Hosni Mubarak's health leave Egypt confused and suspicious .",
+            "His near death  strikes many as just another political ploy ."
+          ]
+        },
+        {
+          "date": "2012-06-22",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Protesters return en masse to Egypt's Tahrir Square as the Muslim Brotherhood and other groups stage a sit-in to protest actions by Egypt's military council ahead of presidential runoff results ."
+          ]
+        },
+        {
+          "date": "2012-06-24",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Election officials declare Morsi the winner , with 51.7 % of the vote .",
+            "Muslim Brotherhood candidate Mohamed Morsi is declared Egypt's first freely elected president , defeating Ahmed Shafik , the last prime minister to serve deposed leader Hosni Mubarak ."
+          ]
+        },
+        {
+          "date": "2012-06-26",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "A move by Egypt's ruling generals to revive martial law is blunted as a court strikes down a government decree that had allowed soldiers and military intelligence services to arrest civilians during the nation's political turmoil"
+          ]
+        },
+        {
+          "date": "2012-06-30",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Morsi takes his oath of office before the Supreme Constitutional Court , a day after reading a symbolic oath in Cairo 's Tahrir Square , birthplace of the revolution .",
+            "July 8 : Morsi issues a surprise decree overruling the court 's dissolution of parliament and challenging the generals ."
+          ]
+        },
+        {
+          "date": "2012-07-09",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Parliament convenes in defiance of the court ruling disbanding it .",
+            "In a short session , it approves a new law that effectively places the panel tasked with writing the new constitution above judicial review ."
+          ]
+        },
+        {
+          "date": "2012-07-10",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Lawmakers defy a court order and reconvene the dissolved parliament , a symbolic victory for President Mohamed Morsi , who had ordered it to meet despite a recent court ruling that disbanded the chamber because of electoral violations ."
+          ]
+        },
+        {
+          "date": "2012-07-14",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "U.S. Secretary of State Hillary Rodham Clinton meets for the first time with new President Mohamed Morsi ."
+          ]
+        },
+        {
+          "date": "2012-08-12",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "In a bold step , Morsi orders the retirement of the top Mubarak era leadership of the military and cancels the military 's last constitutional decree , taking back the powers that the generals gave themselves .",
+            "The move was seen as way to curb the military 's role in political affairs , but it also gave Morsi the power to legislate in the absence of parliament ."
+          ]
+        },
+        {
+          "date": "2012-10-08",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Egyptian President Mohamed Morsi issues a blanket pardon for hundreds of activists arrested during the revolution and its turbulent aftermath , in what was widely viewed as a morally wise but politically timed move from a leader attempting to calm his critics amid social and economic turmoil ."
+          ]
+        },
+        {
+          "date": "2012-11-19",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Members of liberal parties and representatives of Egypt 's churches withdraw from the 100 member assembly writing the constitution , created by parliament before it was dissolved .",
+            "They say they are protesting attempts by Islamists who dominate the panel to impose their will on the draft ."
+          ]
+        },
+        {
+          "date": "2012-11-22",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Morsi unilaterally decrees greater powers for himself , giving his decisions immunity from judicial review and barring the courts from dissolving the constituent assembly and the upper house of parliament .",
+            "The move came just ahead of court decisions that could have dissolved the bodies .",
+            "The move sparks days of protests , with clashes between Morsi 's supporters and opponents .",
+            "At one point , some 200,000 people rally in Tahrir Square , with some of the first chants for Morsi to `` leave . ''"
+          ]
+        },
+        {
+          "date": "2012-11-23",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Clashes erupt across Egypt over President Mohamed Morsi's decree expanding his authority , a move that sharpens lines between Islamists and those who fear the president is stealing power in order to edge the country closer to Islamic law ."
+          ]
+        },
+        {
+          "date": "2012-11-30",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "In a marathon all night session , Islamists in the constituent assembly rush to complete the draft of the constitution , with almost all non Islamists boycotting the gathering .",
+            "Morsi sets a Dec. 15 date for a referendum , fueling further protests .",
+            "Egypt's Islamist-dominated constitutional assembly passes a rushed draft of a constitution to ease public anger against President Mohamed Morsi's expanded powers and preempt an expected court decision to disband the chamber the following weekend ."
+          ]
+        },
+        {
+          "date": "2012-12-01",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Morsi sets the referendum date for the disputed charter for Dec. 15 .",
+            "A week later , he cancels the decrees that gave him immunity from judicial oversight ."
+          ]
+        },
+        {
+          "date": "2012-12-02",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Islamists protest outside the Supreme Constitutional Court , blocking judges from entering to rule on the legality of the constituent assembly ."
+          ]
+        },
+        {
+          "date": "2012-12-04",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "More than 100,000 protesters march on the presidential palace , demanding the cancellation of the referendum and the writing of a new constitution .",
+            "The next day , Islamists attack a peaceful anti Morsi sit in outside the palace , sparking street battles that leave at least 10 dead .",
+            "Days later , Morsi rescinds his initial decrees , but maintains the date of the referendum ."
+          ]
+        },
+        {
+          "date": "2012-12-08",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Morsi rescinds his 2-week-old decree seizing broad powers and putting his office beyond judicial oversight .",
+            "But the move fails to calm unrest as the president refuses to cancel a referendum later in the month on a proposed constitution drafted by an Islamist-dominated assembly ."
+          ]
+        },
+        {
+          "date": "2012-12-15",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Unofficial results show that 56 % voted yes for the draft constitution ."
+          ]
+        },
+        {
+          "date": "2012-12-21",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Islamists hold massive rally in the city of Alexandria to show solidarity with religious clerics ."
+          ]
+        },
+        {
+          "date": "2012-12-22",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "In the final vote on the constitution , it passes with a 64 % yes vote .",
+            "Morsi scores a victory in his push for an Islamist state when a controversial new constitution is approved by 64 % of voters in a two-round referendum .",
+            "But the secular opposition accuses the president's Islamist allies of fraud , portending more conflict between Muslim Brotherhood supporters and a newly collaborative opposition , the National Salvation Front , which includes Nobel laureate Mohamed ElBaradei and former Arab League Secretary-General Amr Moussa ."
+          ]
+        },
+        {
+          "date": "2012-12-29",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "The Egyptian Central Bank announces that foreign reserves drained to $ 15 billion from $ 36 billion in 2010 have fallen to a `` critical minimum '' and starts new measures to stop a sharp slide in the value of the Egyptian pound .",
+            "The pound 's decline slows but does n't stop , and now stands at just over 7 to the dollar , compared to as strong as 5.5 to the dollar in 2010 ."
+          ]
+        },
+        {
+          "date": "2013-01-25",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Hundreds of thousands hold protests in Tahrir Square and nationwide against Morsi on the 2 year anniversary of the start of the revolt against Mubarak , and clashes erupt in many places .",
+            "The following day , residents of the city of Port Said stage protests , angered by a court ruling convicting and sentencing to death a group of local soccer fans for a 2012 stadium riot .",
+            "Police crack down hard in Port Said , killing more than 40 protesters , and the city and others nearby go into near revolt .",
+            "Much of the anger is focused at Morsi , who praised the police for their crackdown ."
+          ]
+        },
+        {
+          "date": "2013-01-27",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Morsi invokes emergency powers in Ismailia , Port Said and Suez to quell riots that have killed nearly 50 and raised questions on whether his Islamist-backed government can secure order amid intensifying political turmoil ."
+          ]
+        },
+        {
+          "date": "2013-02-22",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Morsi schedules elections for a new lower house of parliament to begin in April .",
+            "But the election is postponed after a court rules that the upper house which is carrying out legislative duties until a lower house is created improperly approved the law governing the election .",
+            "It remains unknown when elections will be held ."
+          ]
+        },
+        {
+          "date": "2013-03-03",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The U.S. government releases $ 250 million in aid to Morsi's government in exchange for pledges of political and economic reforms .",
+            "Secretary of State John F. Kerry serves notice that the Obama administration will keep close watch on how Morsi honors his commitments and that future aid will be dependent on fulfilling promises of building democracy .",
+            "Egypt is also struggling to meet conditions for a $ 4.8-billion loan package from the International Monetary Fund ."
+          ]
+        },
+        {
+          "date": "2013-03-30",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Egyptian state prosecutors order the arrest of popular television satirist Bassem Youssef for allegedly insulting Islam and Morsi .",
+            "The order reflects an accelerated campaign to stifle protest and opposition to the Islamist president as it follows the arrest a week earlier of five prominent pro-democracy activists ."
+          ]
+        },
+        {
+          "date": "2013-04-07",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "A Muslim mob attacks the main cathedral of the Coptic Orthodox Church when Christians hold a funeral and protest there over four Christians killed in sectarian violence outside of Cairo the day before .",
+            "One person is killed in clashes at the cathedral , and Pope Tawadros II publicly blames Morsi for failing to protect the building , thought the president condemns the attack ."
+          ]
+        },
+        {
+          "date": "2013-04-29",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "An alcohol-free hotel in the Red Sea resort of Hurghada opens , testament to the spreading influence of Islamic values in Egyptian commerce and society .",
+            "The opening , marked by the ceremonial dumping of liquor bottle contents on the resort's sidewalks , is cheered by Islamists but denounced by secular political and business leaders as a threat to Egypt's tourism industry , already devastated by two years of political turmoil ."
+          ]
+        },
+        {
+          "date": "2013-05-07",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Morsi reshuffles the Cabinet , bringing in more ministers from the Muslim Brotherhood to total 11 members of the 36 member government .",
+            "Officials say the changes aim to finalize long stalled negotiations with the International Monetary Fund for crucial $ 4.8 billion loan , which requires sensitive reductions to fuel and food subsidies that take up a large chunk of the budget .",
+            "A deal on the loan has still not been reached .",
+            "Morsi reshuffles his Cabinet , strengthening the Muslim Brotherhood's hold on power and angering opposition leaders who had demanded more secular ministers to balance Islamist influence in the government's upper ranks ."
+          ]
+        },
+        {
+          "date": "2013-06-04",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Nineteen Americans are convicted on charges of operating illegally funded organizations for their work helping Egyptians build civil society institutions .",
+            "The U.S. defendants , all but one already out of the country , are sentenced to five-year prison terms .",
+            "The move angers Washington and Egypt's secular opposition , as it is seen as an effort to repress rival political forces challenging Morsi's Muslim Brotherhood allies ."
+          ]
+        },
+        {
+          "date": "2013-06-23",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "A mob beats to death four Egyptian Shiites in their home in a village on the edge of Cairo .",
+            "Morsi condemns the attack , but critics blame virulent anti Shiite rhetoric by his hard line Islamist allies , fueled by Syria 's civil war .",
+            "A week earlier , Morsi shared a stage with hard line clerics at a rally , sitting silently as they denounced Shiites as `` filthy . ''"
+          ]
+        },
+        {
+          "date": "2013-06-30",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Millions of Egyptians take to the streets in Cairo and other cities calling for Morsi to step down in a massive display of anger and frustration .",
+            "The demonstrations are largely peaceful , although 16 people , half of them in clashes outside the Muslim Brotherhood 's Cairo headquarters , are killed in protest related violence nationwide .",
+            "Organizers vow to keep up the protests until Morsi resigns .",
+            "Hundreds of thousands fill town and city centers across Egypt to denounce Morsi on the first anniversary of his inauguration .",
+            "The protests against his Islamist agenda and heavy-handed moves to shackle political opposition are countered by the turnout of Morsi supporters , leading to deadly clashes and violence that escalates into a massive force demanding the president step down ."
+          ]
+        },
+        {
+          "date": "2013-07-01",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Large scale demonstrations continue , and Egypt 's powerful military gives the two sides 48 hours to resolve their disputes , or it will impose its own solution .",
+            "The military 's statement appears to back the protesters , telling the government to respond to their demands ."
+          ]
+        },
+        {
+          "date": "2013-07-02",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Military officials disclose main details of their plan if no agreement is reached : replacing Morsi with an interim administration , canceling the Islamist based constitution and calling elections in a year .",
+            "Morsi delivers a late night speech in which he pledges to defend his legitimacy and vows not to step down ."
+          ]
+        },
+        {
+          "date": "2013-07-03",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Deadline for Morsi and opponents to come to agreement passes , Morsi standing firm .",
+            "The military chief met with opposition and religious leaders and sent soldiers to the state TV's newsroom in what were seen as first steps toward taking power .",
+            "Egypt's military chief says Morsi has been replaced by Adly Mansour , the chief justice of constitutional court .",
+            "Egypt's military , which two days earlier had issued an ultimatum that Morsi end the disruptive turmoil paralyzing the country within 48 hours , announces that it has removed him from office and suspended the constitution .",
+            "Demonstrators celebrate in Cairo's Tahrir Square , restoring the scene of revolutionary chaos that ensued after Mubarak's February 2011 ouster ."
+          ]
+        },
+        {
+          "date": "2013-07-04",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Adly Mansour is sworn in as the nation's interim president , taking over hours after the military ousted the Islamist President Mohammed Morsi ."
+          ]
+        },
+        {
+          "date": "2013-07-05",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Adly dissolves the Islamist dominated upper house of parliament as soldiers open fire on mostly Islamist protesters in Cairo demanding restoration of Morsi , killing at least one person ."
+          ]
+        },
+        {
+          "date": "2013-07-06",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "After an initial announcement that Mansour had named ElBaradei to the key post of prime minister , a spokesman for the interim president backs away , saying consultations are still underway ."
+          ]
+        },
+        {
+          "date": "2013-07-07",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Secular and liberal factions wrangle with the sole Islamist group that backed Morsi's ouster over installing a new prime minister , reflecting the difficulties in building a broad coalition behind a new leadership .",
+            "Morsi's opponents and supporters stage huge rallies to push their respective causes ."
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "libya",
+      "gold": 118,
+      "matched": 55,
+      "recall": 0.4661016949152542,
+      "missing_in_extraction": 5,
+      "available_but_not_retrieved": 58,
+      "retrieved_but_not_selected": [],
+      "years": [
+        {
+          "year": "2011",
+          "gold": 118,
+          "matched_gold_dates": 55,
+          "not_available_in_extraction": 5,
+          "available_but_not_retrieved": 58,
+          "retrieved_but_not_selected": 0
+        }
+      ],
+      "predicted_dates": 180,
+      "predicted_years": {
+        "2011": 110,
+        "2012": 45,
+        "2013": 25
+      },
+      "predicted_dates_outside_gold_span": 74,
+      "gold_start": "2011-02-14",
+      "gold_end": "2011-11-22",
+      "prediction_start": "2011-02-20",
+      "prediction_end": "2013-07-18",
+      "start_hit": false,
+      "end_hit": true,
+      "dates": [
+        {
+          "date": "2011-02-14",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Three days after the fall of Egyptian President Hosni Mubarak , calls go out on Facebook for peaceful demonstrations in Libya against leader Moammar Gadhafi .",
+            "The Libyan leader , who has ruled over the country for more than four decades , voiced support for Mubarak during the Egyptian crisis ."
+          ]
+        },
+        {
+          "date": "2011-02-15",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The arrest of human rights activist Fethi Tarbel starts a riot in Benghazi .",
+            "Massive protests erupted in Libyan cities , including capital Tripoli , demanding an end to the 42-year rule of Gaddafi .",
+            "Protesters clashed with the police , resulting in casualties ."
+          ]
+        },
+        {
+          "date": "2011-02-16",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "About 200 demonstrators protesting the arrest of a human activist take to the streets in the coastal city of Benghazi , witnesses say .",
+            "Several of them are arrested amid confrontations with police .",
+            "A highly placed source close to the Libyan government tells CNN , `` There is nothing serious here .",
+            "These are just young people fighting each other . ''"
+          ]
+        },
+        {
+          "date": "2011-02-17",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Protests calling for the ouster of strongman Moammar Kadafi start in Benghazi , Libya's second largest city , and quickly spread to four other eastern cities .",
+            "The Day of Revolt .",
+            "The first major protests and violent clashes in Libya actually began two days before this , on February 15 , mostly in Benghazi .",
+            "Hundreds gathered outside the police station , and a number of protesters were killed ."
+          ]
+        },
+        {
+          "date": "2011-02-18",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Libyan state television shows images of men chanting pro-Gadhafi slogans , waving flags and singing around the Libyan leader 's limousine as it creeps through Tripoli .",
+            "In Benghazi , human rights groups and protesters claim they 're under attack by pro-government security forces .",
+            "Among the tens of thousands of protesters who take to the streets , at least 20 people are killed and 200 are wounded , according to medical sources .",
+            "Demonstrators are met with violence in Benghazi as Moammar Kadafi dispatches the army to put down the rebellion ."
+          ]
+        },
+        {
+          "date": "2011-02-19",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Protests continue to turn violent , however the death and injury toll is unclear .",
+            "In Benghazi , witnesses report bloody clashes with soldiers firing tear gas and bullets .",
+            "Witnesses say protests have erupted in cities across the country .",
+            "Human Rights Watch reports that 84 people have been killed in Libyan demonstrations since February 15 ."
+          ]
+        },
+        {
+          "date": "2011-02-20",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Violence surges in Benghazi where a witness says protesters have taken control of the city and much of Tripoli .",
+            "Gadhafi 's son Saif al-Islam Gadhafi appears on state television to warn demonstrators that the country could fall into civil war if their protests do not subside .",
+            "Despite heavy bloodshed , anti-Kadafi forces seize Benghazi and several other cities .",
+            "Moammar Kadafi's son , Seif Islam , appears on television , vowing that security forces will fight'to the last bullet' to keep his father's regime in power .",
+            "Human Rights Watch puts the death toll above 230 .",
+            "Rebels take Benghazi .",
+            "After several days of fighting , and hundreds of people killed , anti-Gaddafi fighters seized control of Libya 's second city .",
+            "Gaddafi 's son Seif al-Islam warned in a televised speech that Libya would face civil war if the clashes continued .",
+            "He said nearly 100 people had been killed during anti-government protests in the eastern city of Benghazi ."
+          ]
+        },
+        {
+          "date": "2011-02-21",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The Libyan newspaper Quryna reports that the country 's justice minister has resigned to protest what he calls a `` bloody situation and use of excessive force '' by security forces against protesters ."
+          ]
+        },
+        {
+          "date": "2011-02-22",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Gadhafi appears on television to dispel rumors that he has fled the country , vowing he will never leave Libya , and `` will die as a martyr at the end . ''",
+            "The United Nations Security Council issues a statement saying it `` condemned the violence and use of force against civilians , deplored the repression against peaceful demonstrators and expressed deep regret at the deaths of hundreds of civilians '' in Libya .",
+            "The Arab League AL decided to suspend Libya 's participation in future AL meetings and any other derivative organizations or bodies .",
+            "Many countries began to evacuate their nationals from Libya as clashes between Gaddafi 's loyalists and rebels escalated in the country ."
+          ]
+        },
+        {
+          "date": "2011-02-23",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "U.N. Secretary-General Ban Ki-moon condemns what he calls `` egregious violations '' of human rights as Libya tries to crush an ongoing revolt , telling reporters that those who have shed `` the blood of innocents '' must face punishment .",
+            "Anti-Kadafi rebels take control of most eastern cities as well as Misurata , a key western city less than 100 miles from the capital , Tripoli ."
+          ]
+        },
+        {
+          "date": "2011-02-24",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Anti-government militias take control of the central coastal city of Misrata after evicting forces loyal to Gaddafi .",
+            "Rebels reach Zawiya , 30 miles west of Tripoli .",
+            "They seize control of Zawiya two days later .",
+            "Anti-government militias take control of central coastal city of Misrata after evicting forces loyal to Gaddafi ."
+          ]
+        },
+        {
+          "date": "2011-02-25",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "U.S. President Barack Obama signs an executive order freezing Moammar Gadhafi 's assets ."
+          ]
+        },
+        {
+          "date": "2011-02-26",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The UN security council imposes sanctions on Gaddafi and his family , and refers the crackdown on rebels to the international criminal court .",
+            "The United Nations Security Council imposes sanctions against Libya , including an arms embargo , asset freeze and travel bans for Gadhafi and his associates .",
+            "It also refers Gadhafi to the International Criminal Court for alleged crimes against humanity .",
+            "The opposition movement announces that it has picked a leader : former Justice Minister Mustafa Abdul Jalil .",
+            "In response to violent repression of peaceful demonstrators in Tripoli , the United Nations imposes sanctions .",
+            "U.S. President Barack Obama and Secretary of State Hillary Rodham Clinton call on Moammar Kadafi to step down .",
+            "The UN Security Council adopted a resolution to impose sanctions on Libya , including an arms embargo against the Libyan authorities and travel bans and asset freezes against Gaddafi and his key family members .",
+            "The U.N. Security Council imposes sanctions on Gaddafi and his family , and refers the crackdown on rebels to the International Criminal Court ."
+          ]
+        },
+        {
+          "date": "2011-02-28",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "EU governments approve sanctions against Gaddafi and his closest advisers .",
+            "The European Union bans the sale of arms and ammunition to Libya and freezes the assets of Gadhafi and five members of his family , while imposing a visa ban on Gadhafi and 15 other people tied to the regime 's crackdown ."
+          ]
+        },
+        {
+          "date": "2011-03-01",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The United Nations General Assembly adopts a resolution to oust Libya from its seat on the 47-member Human Rights Council .",
+            "The UN General Assembly adopted a resolution to suspend the rights of membership of Libya in the UN Human Rights Council ."
+          ]
+        },
+        {
+          "date": "2011-03-02",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Moammar Kadafi's forces launch their first counterattack on Port Brega , a key oil-producing complex .",
+            "The rebels are briefly repelled but retake the city , forcing the military to retreat to Ras Lanuf ."
+          ]
+        },
+        {
+          "date": "2011-03-05",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The rebel National Transitional Council NTC in Benghazi declares itself Libya 's sole representative .",
+            "Rebels take Ras Lanuf , giving them control of petroleum production in the east , which produces 75 % of Libya's crude .",
+            "The rebel National Transitional Council - LRBNTC - RRBin Benghazi declares itself Libya 's sole representative ."
+          ]
+        },
+        {
+          "date": "2011-03-07",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "NATO begins round-the-clock surveillance flights of Libya as it considers various options for dealing with escalating violence there .",
+            "The rebels face their first major setback as Moammar Kadafi orders airstrikes against Ras Lanuf .",
+            "Farther west , government forces retake Bin Jawwad and cut off Misurata from rebel support ."
+          ]
+        },
+        {
+          "date": "2011-03-09",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Rebel forces begin to fall apart as Moammar Kadafi captures Zawiya and Ras Lanuf ."
+          ]
+        },
+        {
+          "date": "2011-03-10",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Gaddafi bombs Brega ; retakes Zawiyah , Bin Jawad .",
+            "Further west , though , the early weeks of the war did not go well for the rebels ."
+          ]
+        },
+        {
+          "date": "2011-03-11",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The EU calls for Moammar Kadafi to step down .",
+            "France recognizes the rebel council in Benghazi as Libya's legitimate authority ."
+          ]
+        },
+        {
+          "date": "2011-03-12",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The Arab League joins Britain and France in calling for a no-fly zone over Libya .",
+            "Arab League foreign ministers agreed in an emergency meeting to urge the UN Security Council to impose a no-fly zone over Libya to protect citizens ."
+          ]
+        },
+        {
+          "date": "2011-03-13",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Moammar Kadafi's forces retake Port Brega and control over Libya's oil supply .",
+            "Rebels still hold Misurata but are under siege .",
+            "Libyan government troops advanced toward Benghazi , the last stronghold of the rebels , after retaking the rebel-held western city of Zawiyah and eastern cities of Bin Jawad , Ras Lanuf , Brega and Ajdabiya ."
+          ]
+        },
+        {
+          "date": "2011-03-16",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Moammar Kadafi begins bombing Benghazi as forces loyal to him prepare to take the city and end the rebellion ."
+          ]
+        },
+        {
+          "date": "2011-03-17",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The UN security council votes to authorise a no-fly zone over Libya and military action : to protect civilians against Gaddafi 's army .",
+            "The United Nations Security Council votes to impose a no-fly zone over Libya and take `` all necessary measures '' to protect civilians .",
+            "The resolution is approved with 10 votes , including those of the United States and the United Kingdom .",
+            "There are no opposing votes on the 15-member council , but China , Russia , Germany , India and Brazil abstain .",
+            "Germany says it is concerned about a protracted military conflict .",
+            "The U.N. Security Council authorizes a no-fly zone to protect civilians .",
+            "The resolution authorizes all necessary measures' short of deploying ground forces .",
+            "The UN Security Council adopted a resolution to authorize a no-fly zone over Libya and `` all necessary measures , '' excluding troops on the ground , to protect civilians under threat of attack in the country .",
+            "The U.N. Security Council votes to authorize a no-fly zone over Libya and military action - to protect civilians against Gaddafi 's army ."
+          ]
+        },
+        {
+          "date": "2011-03-18",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Libyan Foreign Minister Moussa Koussa says the country has decided on `` an immediate cease-fire and the stoppage of all military operations . ''",
+            "But sources inside Libya say violence continues .",
+            "Moammar Kadafi announces a cease-fire , but his army continues toward Benghazi ."
+          ]
+        },
+        {
+          "date": "2011-03-19",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The first air strikes halt the advance of Gaddafi 's forces on Benghazi and target Libya 's air defences .",
+            "French , British and American military forces begin the first phase of operation `` Odyssey Dawn , '' aimed at enforcing the no-fly zone .",
+            "More than 110 Tomahawk missiles fired from American and British ships and submarines hit about 20 Libyan air and missile defense targets , U.S. Vice Adm. William Gortney says at a Pentagon briefing .",
+            "The operation is meant `` to deny the Libyan regime from using force against its own people , '' Gortney says .",
+            "Operation Odyssey Dawn' begins with western airstrikes against Libyan air defenses .",
+            "French fighter jets and U.S. and British warships fire more than 110 cruise missiles .",
+            "NATO starts bombing Libya .",
+            "After a debate , the United Nations Security Council voted to impose a no-fly zone over Libya .",
+            "Ten of the council 's 15 members voted `` yes , '' while five - Russia , China , India , Germany and Brazil - abstained .",
+            "Forces from Western countries , including the United States , France and Britain , Saturday started to strike targets in areas controlled by Libyan government troops , using warplanes , submarines and aircraft carriers .",
+            "With troops loyal to Libyan leader Muammar Gaddafi threatening rebel-held Benghazi , French , US and British forces launch UN-mandated air attacks and push them back ."
+          ]
+        },
+        {
+          "date": "2011-03-20",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Gadhafi , speaking on Libyan state TV , says the U.N. charter provides for Libya 's right to defend itself in a `` war zone . ''",
+            "Weapons depots will be opened , he says .",
+            "`` All you people of the Islamic nations and Africa , and Latin America and Asia , stand with the Libyan people in its fight against this aggression , '' Gadhafi said ."
+          ]
+        },
+        {
+          "date": "2011-03-24",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "NATO agrees to take command of the mission enforcing a no-fly zone over Libya .",
+            "NATO agrees to take over control of military operations in Libya , with the U.S. continuing to fly patrols in the interim ."
+          ]
+        },
+        {
+          "date": "2011-03-26",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "A Libyan woman with bruises all over her body bursts into a Tripoli hotel housing international journalists , shouting that she was taken from a checkpoint and held for two days while 15 of Gadhafi 's militiamen beat and raped her .",
+            "`` Look at what Gadhafi 's brigades did to me , '' Eman al-Obeidy says before government officials and hotel staff whisk her outside to car and drive her away .",
+            "She is not heard from for more than a week .",
+            "The Libyan government says al-Obeidy is mentally ill and drunk .",
+            "Officials call her a prostitute .",
+            "Later , the government changes its story and says the men accused of raping al-Obeidy are being investigated , but the suspects , in turn , file counter-charges for slander .",
+            "Emboldened by allied airstrikes , rebels press west and retake Ajdabiya ."
+          ]
+        },
+        {
+          "date": "2011-03-27",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "After heavy airstrikes , rebels retake Port Brega and Ras Lanuf in quick succession ."
+          ]
+        },
+        {
+          "date": "2011-03-29",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "At an international conference in London , the U.S. prepares to hand over control of military action in Libya , but NATO still remains starkly divided over the best possible outcome for the country .",
+            "Without air support , rebel forces are routed in the western city of Surt , retreating 100 miles to the east , giving up Bin Jawwad and Ras Lanuf in the process .",
+            "Port Brega is eventually lost as well , reversing the gains of previous days ."
+          ]
+        },
+        {
+          "date": "2011-03-30",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Libyan Foreign Minister Moussa Koussa arrives in the United Kingdom and tells the government there that he has resigned .",
+            "Libyan foreign minister Moussa Koussa defects .",
+            "Dozens of political and military figures follow suit .",
+            "Advertisement"
+          ]
+        },
+        {
+          "date": "2011-03-31",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "NATO announces that it has begun Operation Unified Protector in Libya , including an arms embargo , a no-fly zone , and `` actions to protect civilians and civilian centers . ''",
+            "Libya's foreign minister , Musa Kusa , defects to Britain .",
+            "Four other defections are rumored to be imminent , including the head of parliament , the oil minister and the head of foreign intelligence .",
+            "The North Atlantic Treaty Organisation NATO takes over formal command of the military operation ."
+          ]
+        },
+        {
+          "date": "2011-04-01",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The leader of the opposition's national council , Mustafa Abdul Jalil , offers a cease-fire if Moammar Kadafi's forces withdraw from several eastern cities and allow for peaceful protests to resume , but his overture is rebuffed ."
+          ]
+        },
+        {
+          "date": "2011-04-04",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Italy formally recognizes the opposition council as Libya's government .",
+            "The U.S. begins to remove its warplanes from active combat ."
+          ]
+        },
+        {
+          "date": "2011-04-06",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Gadhafi urges U.S. President Barack Obama to end the NATO bombing of his war-torn country , making an appeal in a letter to the American president .",
+            "Gadhafi asks Obama to stop what he calls the `` unjust war against a small people of a developing country , '' adding that those in the opposition are terrorists and members of al Qaeda , the official said ."
+          ]
+        },
+        {
+          "date": "2011-04-07",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "After recriminations for being slow to act and inadvertently killing rebels in a wayward airstrike , NATO increases attacks on Tripoli .",
+            "In Port Brega , NATO planes mistakenly bomb tanks under rebel control ."
+          ]
+        },
+        {
+          "date": "2011-04-08",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "A U.N. ship carries food and supplies to rebels isolated in Misurata ."
+          ]
+        },
+        {
+          "date": "2011-04-10",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Gaddafi accepted a roadmap for ending the conflict , which was presented by a delegation of four African leaders during talks in Tripoli .",
+            "But rebels rejected the plan the next day ."
+          ]
+        },
+        {
+          "date": "2011-04-11",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "With rebel and pro-government forces locked in a seemingly intractable battle for Ajdabiya , South African President Jacob Zuma and other delegates from the African Union meet with Moammar Kadafi in Tripoli to discuss a path to a peaceful resolution .",
+            "Kadafi is reportedly amenable to details of the cease-fire , but rebels reject outright any plan that does not result in Kadafi relinquishing power ."
+          ]
+        },
+        {
+          "date": "2011-04-19",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Misurata , the only rebel-held city in western Libya , asks that NATO troops be sent to fight alongside the rebels holding off Libyan forces .",
+            "If they don't come , we will die ,' Nouri Abdul Ati , a member of the 17-member ruling body in Misurata , tells reporters ."
+          ]
+        },
+        {
+          "date": "2011-04-20",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "France and Italy join Britain in sending military advisers to assist the rebels ."
+          ]
+        },
+        {
+          "date": "2011-04-24",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "After a bloody fight , Kadafi's forces flee Misurata but continue to pound it with artillery ."
+          ]
+        },
+        {
+          "date": "2011-04-29",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "In a speech , Gadhafi urges NATO to negotiate an end to airstrikes , accusing the international coalition of killing civilians and destroying the nation 's infrastructure in a bid to take over its oil production ."
+          ]
+        },
+        {
+          "date": "2011-04-30",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "A Nato missile attack on a house in Tripoli kills Gaddafi 's youngest son and three grandchildren , his government says .",
+            "NATO launches a missile attack on a house in Tripoli .",
+            "The attack kills one of Gadhafi 's sons , Saif al-Arab Gadhafi , and several of his grandchildren .",
+            "A NATO airstrike misses Moammar Kadafi but kills one of his sons and three grandchildren .",
+            "A NATO missile attack on a house in Tripoli killed Gaddafi 's youngest son and three grandchildren .",
+            "A NATO missile attack on a house in Tripoli kills Gaddafi 's youngest son and three grandchildren , his government says ."
+          ]
+        },
+        {
+          "date": "2011-05-01",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Gaddafi escapes a NATO air strike , which the regime says kills his youngest son , Seif al-Arab , and three grandchildren ."
+          ]
+        },
+        {
+          "date": "2011-05-05",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "A rescue ship with 800 migrant workers from the besieged Libyan city Misurata arrives at the opposition stronghold of Benghazi ."
+          ]
+        },
+        {
+          "date": "2011-05-08",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Al-Obeidy , who garnered worldwide attention for her vocal rape allegations against Gadhafi 's regime , says she has fled Libya , fearing for her safety .",
+            "She tells CNN that she has crossed into Tunisia with the help of a defecting military officer and his family .",
+            "A month later , she finds temporary sanctuary in Qatar before being deported back to Libya ."
+          ]
+        },
+        {
+          "date": "2011-05-15",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Prosecutors ask judges of the International Criminal Court to issue arrest warrants for Libyan leader Moammar Kadafi , his son and his brother-in-law .",
+            "Gaddafi forces withdraw from Misrata .",
+            "The seaside city of Misrata was besieged for months by Gaddafi forces ; they surrounded it and frequently lobbed mortars downtown ."
+          ]
+        },
+        {
+          "date": "2011-05-20",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Facing criticism from Congress that authority for U.S. military action in Libya is about to expire under the War Powers Act , President Obama asks congressional leaders for a resolution of support for continuing the military involvement ."
+          ]
+        },
+        {
+          "date": "2011-05-22",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The European Union opens an office in the rebel-held Libyan city of Benghazi ."
+          ]
+        },
+        {
+          "date": "2011-05-25",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "As President Obama and Western allies reaffirm their resolve to force Moammar Kadafi from power , Libyan leaders promote an alternative : The embattled Libyan leader remains as a figurehead who would ensure a transition to democracy ."
+          ]
+        },
+        {
+          "date": "2011-05-31",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Moammar Kadafi has no intention of leaving Libya , South African President Jacob Zuma's office reports after Zuma met with the Libyan leader in Tripoli ."
+          ]
+        },
+        {
+          "date": "2011-06-01",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "NATO announces that it is extending its mission in Libya for 90 days .",
+            "Libya 's oil minister defects to Italy and tells CNN he left because the suffering of the country 's people had become unbearable .",
+            "NATO says the operation , originally due to wind up at the end of June , will continue until the end of September ."
+          ]
+        },
+        {
+          "date": "2011-06-07",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Waves of NATO fighter planes hit the Libyan capital with one of the largest bombardments of the city since the Western-led alliance began airstrikes almost three months ago ."
+          ]
+        },
+        {
+          "date": "2011-06-09",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "An International Contact Group on Libya meets in Abu Dhabi , and finalises a fund aimed at helping the rebels ."
+          ]
+        },
+        {
+          "date": "2011-06-14",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "South African President Jacob Zuma lashes out at NATO , arguing that the organization is misusing the United Nations resolution meant to protect civilians `` for regime change , political assassinations and foreign military occupation . ''"
+          ]
+        },
+        {
+          "date": "2011-06-17",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "On the four-month anniversary of the uprising against the Libyan regime , the throngs converging on Tripoli's Green Square praise Moammar Kadafi ."
+          ]
+        },
+        {
+          "date": "2011-06-19",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "NATO officials admit that the alliance was probably responsible for an airstrike in a densely populated Tripoli neighborhood that Libyan authorities said killed nine people and injured 18 ."
+          ]
+        },
+        {
+          "date": "2011-06-20",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Libyan government officials say 15 people , including three children , were killed in the strike on Khweldi Hamedi's home west of Tripoli .",
+            "NATO defends the attack as a'a precision strike on a legitimate military target ."
+          ]
+        },
+        {
+          "date": "2011-06-22",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "According to a spokesman for the opposition , indirect talks on the future of Libya have been taking place between representatives of Moammar Kadafi's government and rebels based in Benghazi ."
+          ]
+        },
+        {
+          "date": "2011-06-24",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The U.S. House of Representatives rejects a bill that would have cut off support for the NATO mission in Libya ."
+          ]
+        },
+        {
+          "date": "2011-06-25",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "The uprising is also playing out in rugged mountain communities in the west , near the Tunisian border , where Libya's long-oppressed Berber minority sees its own chance to shake off Moammar Kadafi's four-decade rule ."
+          ]
+        },
+        {
+          "date": "2011-06-27",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The ICC issues arrest warrants for Gaddafi , his son Saif al-Islam and intelligence chief Abdullah al-Senussi on charges of crimes against humanity .",
+            "The International Criminal Court issues arrest warrants for Libyan leader Moammar Gadhafi , his son Saif al-Islam Gadhafi , and his brother-in-law Abdullah al-Sanussi .",
+            "The warrants are `` for crimes against humanity , '' including murder and persecution , `` allegedly committed across Libya '' from February 15 through `` at least '' February 28 , `` through the state apparatus and security forces , '' the court says in a news release .",
+            "The International Criminal Court at The Hague issues an arrest warrant for Moammar Kadafi , his son and his brother-in-law .",
+            "The International Criminal Court issued arrest warrants for Gaddafi , his son Seif al-Islam and intelligence chief Abdullah al-Senussi , charged with crimes against humanity .",
+            "The International Criminal Court ICC issues an arrest warrant for Gaddafi for war crimes and crimes against humanity ."
+          ]
+        },
+        {
+          "date": "2011-06-29",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "France says it has air-dropped weapons to rebel forces ."
+          ]
+        },
+        {
+          "date": "2011-06-30",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Rebels in Libya's western Nafusa mountain range are less than 50 miles from the nation's capital and edging closer to their first significant victory outside their mountain stronghold ."
+          ]
+        },
+        {
+          "date": "2011-07-06",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Rebel fighters in the Nafusa Mountains say they've driven out Moammar Kadafi's forces from Qawalish .",
+            "Kadafi's regime announces treason charges against 21 rebel leaders ."
+          ]
+        },
+        {
+          "date": "2011-07-14",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The rebels consolidate their positions in the west , and begin an offensive on the oil town of Brega .",
+            "NATO dismisses accusations that its attacks have killed more than 1100 civilians ."
+          ]
+        },
+        {
+          "date": "2011-07-15",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Secretary of State Hillary Rodham Clinton announces in Istanbul , Turkey , that the United States will join more than 30 other nations in extending diplomatic recognition to the Transitional National Council , which is based in Benghazi and controls eastern Libya .",
+            "In Istanbul , the Contact Group designates the rebels as Libya 's legitimate rulers , paving the way for the release of frozen Gaddafi regime assets ."
+          ]
+        },
+        {
+          "date": "2011-07-19",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Fighting intensifies around Port Brega in eastern Libya as rebel fighters struggle to dislodge government forces from the strategic coastal city and its petrochemical complex ."
+          ]
+        },
+        {
+          "date": "2011-07-25",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "NATO says it supported rebels by hitting a military facility , armored vehicles , tanks and light military vehicles around Brega ."
+          ]
+        },
+        {
+          "date": "2011-07-27",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "After being granted asylum in the United States , al-Obeidy arrives in New York , then boards a flight to the destination where she will reside .",
+            "Her arrival in the United States comes after she spends 54 days in a U.N. High Commissioner for Refugees facility in Romania ."
+          ]
+        },
+        {
+          "date": "2011-07-28",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Rebel leaders announce that the commander of Libya 's rebel army was assassinated in Benghazi along with two senior officers , just hours after claiming big successes on the battlefield .",
+            "Major push in the Western Mountains .",
+            "Rebel gains in the east slowed down after the Misrata campaign , but they began winning territory in western Libya , allowing them to surround Gaddafi in Tripoli .",
+            "Rebel military chief General Abdel Fatah Yunis is assassinated as insurgent fighters pound forces loyal to Gaddafi in the West ."
+          ]
+        },
+        {
+          "date": "2011-07-29",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The chief of staff for rebel forces fighting to overthrow Libyan leader Moammar Kadafi is attacked and killed .",
+            "In a terse announcement that left many questions unanswered , the president of the council said Gen. Abdul Fatah Younis and two other commanders were killed as they returned from the eastern front near Port Brega to Benghazi , the de facto rebel capital."
+          ]
+        },
+        {
+          "date": "2011-08-04",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Western allies move cautiously on Libyan assets .",
+            "The U.S. and other nations are eager to help the Libyan rebel council gain access to Moammar Kadafi's funds frozen abroad .",
+            "But they also want to make sure his regime can't get to the money ."
+          ]
+        },
+        {
+          "date": "2011-08-05",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The regime denies the death of Gaddafi 's son Khamis in a NATO raid , as announced by rebels ."
+          ]
+        },
+        {
+          "date": "2011-08-06",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The western town of Bir al-Ghanam falls to the rebels ."
+          ]
+        },
+        {
+          "date": "2011-08-08",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Rebel leader Mustafa Abdel Jalil sacks the entire executive office of his government ."
+          ]
+        },
+        {
+          "date": "2011-08-09",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Libyan Transitional National Council Chairman Mustafa Abdel Jalil dismissed the rebels ' 14-member executive board , a spokesman for the council says .",
+            "Libyan authorities accuse NATO of a `` massacre '' of 85 villagers in air strikes south of Zliten in western Libya .",
+            "NATO insists it has no evidence of the civilian deaths ."
+          ]
+        },
+        {
+          "date": "2011-08-10",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "EU widens sanctions against the regime ."
+          ]
+        },
+        {
+          "date": "2011-08-14",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Libyan rebels battle for a key city near Tripoli .",
+            "Capturing Zawiya would allow the fighters to cut off supplies to Moammar Kadafi's forces and bring them that much closer to the capital.",
+            "Rebels took the gateway of Tripoli , Zawiyah , cutting the coastal highway to Tunisia which keeps the capital supplied with food and fuel ."
+          ]
+        },
+        {
+          "date": "2011-08-15",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Gadhafi urges Libyans to fight opposition forces and `` cleanse this sweet and honorable land . ''",
+            "In a speech broadcast on state television , Gadhafi says : `` The strikes will be over and NATO will be defeated .",
+            "Move always forward to the challenge ; pick up your weapons ; go to the fight in order to liberate Libya inch by inch from the traitors and from NATO .",
+            "Be prepared to fight if they hit the ground . ''",
+            "Rebels take Gharyan .",
+            "The war 's final phase seemed to begin last week , when rebels reported taking control of Gharyan , a town about 80km south of Tripoli .",
+            "Rebels say they have seized `` most '' of Zawiyah , the final hurdle on the road to Tripoli as Gaddafi calls the insurgents `` rats '' and predicts their demise .",
+            "The UN chief 's special envoy visits Tunis for talks on Libya 's future .",
+            "Gaddafi 's deputy interior minister flies out to Cairo ."
+          ]
+        },
+        {
+          "date": "2011-08-16",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Col. Roland Lavoie , a spokesman for NATO 's military operation , tells reporters that `` anti-Gadhafi forces are now assuming control of the key approaches to Tripoli . ''",
+            "A spokesman for the Gadhafi government offers a different view .",
+            "`` We are doing very well , '' spokesman Musa Ibrahim says .",
+            "Tripoli isolated .",
+            "Libya  s rebels say they have completed moves to cut off roads to the capital .",
+            "August 18 2011 Opposition forces seize vital oil refinery .",
+            "Reports confirm the oil plant near Az Zawiyah was taken and rebels were in complete control of Gharyan .",
+            "Battles continued over control of center of Az Zawiyah city ."
+          ]
+        },
+        {
+          "date": "2011-08-18",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Libyan Prime Minister al-Baghdadi al-Mahmoodi says the military is `` powerful enough to finish this battle '' to its advantage , but warned that the cost would be too high , calling again for dialogue to resolve the crisis peacefully rather than militarily .",
+            "Meanwhile , a brother of Moussa Ibrahim , the spokesman for the government in Tripoli , was killed Thursday night by NATO aircraft , a Libyan government official said ."
+          ]
+        },
+        {
+          "date": "2011-08-19",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "U.S. officials say Gadhafi may be making preparations for a `` last stand '' in Tripoli as a month-long NATO air campaign continues amid reports of rebel advances .",
+            "Rebel troops seize Zlitan .",
+            "Opposition source report more than 30 dead and 120 wounded in operations to further cut-off the capital from its supply lines .",
+            "According to a Libyan government official , Hassan Ibrahim , the brother of Libyan government spokesman Moussa Ibrahim , was killed by gunfire from a NATO helicopter .",
+            "Rebels made advances in Zliten and controlled most of the city in the west front , a remarkable move to completely cut off roads to Tripoli ."
+          ]
+        },
+        {
+          "date": "2011-08-20",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Libyan rebels have taken their fight inside Tripoli , home to the embattled Libyan leader , a rebel spokesman says .",
+            "Government spokesman Musa Ibrahim insists that all is safe and well .",
+            "He says that the Libyan capital remains under government control .",
+            "Libyan officials reject rebel claims that Gadhafi is seeking refuge for his family , saying that neither the leader nor his wife and children plan to leave the country .",
+            "Libyan rebels make gains that suggest Moammar Kadafi is losing his grip on power , though a fight for Tripoli , which the rebels say they have attacked , is likely to be protracted .",
+            "Tripoli revolts .",
+            "Opposition cells in Tripoli supported by NATO launched an uprising codenamed `` Operation Mermaid Dawn '' .",
+            "Many of the weapons used by rebels had been assembled and sent to Tripoli by tugboat .",
+            "Rebels suffered high casualties .",
+            "Fighting erupts in Tripoli as rebels close in on the capital after claiming the oil city of Brega , a day after seizing Zawiyah and Zliten ."
+          ]
+        },
+        {
+          "date": "2011-08-21",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Rebels enter Tripoli with little resistance .",
+            "Gaddafi makes audio addresses over state television calling on Libyans to fight off the rebel `` rats '' .",
+            "Faithi Baja , political affairs chief for the rebels ' Transitional National Council , said in a video statement that the rebel fighters ' freshly launched operation inside Tripoli is `` going easily '' and that they are inching toward Gadhafi 's Bab al-Azizia compound .",
+            "But Saif al-Islam Gadhafi , a son of the country 's ruler and a top official in his regime , insisted on Libyan state-run television that the rebels were losing every battle .",
+            "Libyan rebel leaders say Moammar Kadafi's son and onetime heir apparent , Seif Islam Kadafi , is captured .",
+            "Both sides in the conflict claim the upper hand as uprisings are reported across Tripoli",
+            "Rebel fighters enter Tripoli , reporting little resistance .",
+            "Gaddafi makes two addresses over state TV , calling on Libyans to fight off the rebel `` rats '' , and saying he is in the capital and will be `` with you until the end '' .",
+            "Rebels reach Green Square and rename it Martyrs ' Square .",
+            "Rebels entered Tripoli 's central Green Square , after hours of heavy fighting with Gaddafi 's forces .",
+            "Gaddafi makes audio addresses over state television calling on Libyans to fight off the rebel `` rats . ''",
+            "Libyan rebels enter Tripoli from the west , greeted by cheering crowds , witnesses say , and launch an offensive .",
+            "Gaddafi vows he will not surrender and boasts he will `` emerge victorious '' in the battle for the capital .",
+            "NATO says the regime is `` crumbling , '' while the ICC says Gaddafi 's son Seif al-Islam is in custody .",
+            "Senior rebel figure Mahmud Jibril warns there are still pockets of resistance in and around Tripoli , while urging insurgents to act responsibly and avoid taking vengeance ."
+          ]
+        },
+        {
+          "date": "2011-08-22",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Libyan insurgents claim control of 80 % of Tripoli but report heavy casualties in fierce fighting outside Moammar Kadafi's compound and other pockets of the city .",
+            "Gaddafi 's son reappears .",
+            "It was believed that Tripoli had largely fallen and there were reports that three of Gaddafi 's sons were captured alive .",
+            "Later in the day , however , Saif al-Islam Gaddafi showed up outside the Rixos Hotel , posed for pictures and a video and said his father 's forces were still in control of the city .",
+            "His re-emergence put earlier reports about his capture , and the rebels ' hold on the city , in serious discredit .",
+            "US President Barack Obama says the Libyan `` tyrant '' must leave now to avoid further bloodshed while calling on the rebels to respect human rights , show leadership , preserve the institutions of the state and move towards democracy ."
+          ]
+        },
+        {
+          "date": "2011-08-23",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The rebels overrun Gaddafi 's fortified Bab al-Aziziya compound in Tripoli , trashing the symbols of his rule .",
+            "Libyan rebels destroy symbols of Moammar Kadafi's power .",
+            "Battle for Tripoli rages on .",
+            "Libyan rebels launch massive offensive on Gaddafi 's compound .",
+            "Rebel fighters mount an attack backed by captured tanks on the compound , in the center of the capital .",
+            "The sky was filled with the sound of heavy and light machine guns as well as mortars , with the overhead roar of NATO jets that have been carrying out much more intense air raids than in recent days .",
+            "Rebels captured the Bab al-Azizya compound in Tripoli , forcing Gaddafi and his sons into hiding ."
+          ]
+        },
+        {
+          "date": "2011-08-29",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Gaddafi 's wife , his daughter Aisha and two of his sons enter Algeria .",
+            "Aisha Gaddafi gives birth in a clinic in a border town hours after crossing the frontier .",
+            "Gaddafi 's wife Safia , his daughter Aisha , his sons Hannibal and Mohammed , accompanied by their children , crossed the border into Algeria for asylum ."
+          ]
+        },
+        {
+          "date": "2011-09-01",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Libya 's interim rulers meet world leaders at a conference in Paris to discuss reshaping Libya .",
+            "Gaddafi , on the 42nd anniversary of his coming to power , urges his supporters to fight on ."
+          ]
+        },
+        {
+          "date": "2011-09-07",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Moammar Kadafi's whereabouts remain a mystery"
+          ]
+        },
+        {
+          "date": "2011-09-08",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Interim prime minister Mahmoud Jibril arrives in Tripoli on his first visit since it was taken by his forces .",
+            "Mahmoud Jibril , the interim prime minister arrives in Tripoli on his first visit since it was taken by his forces ."
+          ]
+        },
+        {
+          "date": "2011-09-11",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Libya starts producing oil again .",
+            "Niger says Gaddafi 's son Saadi has arrived there .",
+            "Gaddafi 's third son , Saadi , fled to Niger along with several generals of the former regime , including the head of Gaddafi 's security brigade ."
+          ]
+        },
+        {
+          "date": "2011-09-13",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Interim government chief Mustafa Abdel Jalil makes his first speech in Tripoli to a crowd of about 10,000 .",
+            "Mustafa Abdel Jalil , Interim government chief , makes his first speech in Tripoli to a crowd of about 10,000 ."
+          ]
+        },
+        {
+          "date": "2011-09-15",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "France 's Nicolas Sarkozy and Britain 's David Cameron land in Libya to a heroes ' welcome .",
+            "Nicolas Sarkozy , the French president and David Cameron , the British prime minister , land in Libya to a heroes ' welcome ."
+          ]
+        },
+        {
+          "date": "2011-09-16",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The UN security council eases sanctions on Libya , including on its national oil company and central bank .",
+            "The UN general assembly approves a request to accredit interim government envoys as Libya 's sole representatives at the United Nations , effectively recognizing the NTC .",
+            "The UN Security Council eases sanctions on Libya , including on its national oil company and central bank .",
+            "The UN General Assembly approves a request to accredit interim government envoys as Libya 's sole representatives at the UN , effectively recognizing the NTC .",
+            "The Libyan National Transitional Council was granted Libya 's seat at the United Nations and the UN Security Council voted to ease sanctions on the country .",
+            "The U.N. Security Council eases sanctions on Libya , including on its national oil company and central bank .",
+            "The U.N. General Assembly approves a request to accredit interim government envoys as Libya 's sole representatives at the U.N. , effectively recognizing the NTC ."
+          ]
+        },
+        {
+          "date": "2011-09-18",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Libya's provisional rulers put off'indefinitely' their much-anticipated naming of a new government tasked with guiding the nation forward after the ouster of longtime leader Moammar Kadafi ."
+          ]
+        },
+        {
+          "date": "2011-09-20",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "President Barack Obama calls for the last of Gaddafi 's loyalist forces to surrender as he announces the return of the US ambassador to Tripoli .",
+            "Gaddafi taunts Nato in a speech broadcast by the Syrian-based Arrai television station .",
+            "Barack Obama , the US President , calls for the last of Gaddafi 's loyalist forces to surrender as he announces the return of the US ambassador to Tripoli .",
+            "Gaddafi taunts NATO in a speech broadcast by Syrian-based Arrai television station .",
+            "U.S. President Barack Obama calls for the last of Gaddafi 's loyalist forces to surrender as he announces the return of the U.S. ambassador to Tripoli ."
+          ]
+        },
+        {
+          "date": "2011-09-21",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The interim rulers say they have captured most of Sabha , one of three main towns where Gaddafi loyalists have been holding out since the fall of Tripoli .",
+            "Gaddafi 's birthplace Sirte and the town of Bani Walid continue to resist ."
+          ]
+        },
+        {
+          "date": "2011-09-25",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The first Libyan crude oil to be shipped in months sails from the eastern port of Marsa el-Hariga for Italy .",
+            "The first Libyan crude oil to be shipped in months sails from the eastern port of Marsa el Hariga for Italy ."
+          ]
+        },
+        {
+          "date": "2011-09-27",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Nato says Libya 's interim rulers have taken full control of the country 's stockpile of chemical weapons and nuclear material .",
+            "NATO says Libya 's interim rulers have taken full control of the country 's stockpile of chemical weapons and nuclear material ."
+          ]
+        },
+        {
+          "date": "2011-09-28",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Revolutionary forces loyal to Libya's provisional government press their assault on Moammar Kadafi's hometown ."
+          ]
+        },
+        {
+          "date": "2011-10-02",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "As fighters loyal to Libya's revolutionary government gain on the holdout city of Surt , residents are making it clear that the battle for hearts and minds is far from won ."
+          ]
+        },
+        {
+          "date": "2011-10-12",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Government fighters capture Gaddafi 's son Mutassim after he tried to escape Sirte ."
+          ]
+        },
+        {
+          "date": "2011-10-13",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "NTC forces say they have control of the whole of Sirte except neighborhood `` Number Two '' where Gaddafi forces are surrounded .",
+            "Fighters loyal to Moammar Kadafi engage in a last-ditch battle from a single pocket of resistance in the former Libyan leader's besieged hometown .",
+            "NTC forces say they have control of the whole of Sirte except neighborhood ` Number Two ' where Gaddafi forces are surrounded ."
+          ]
+        },
+        {
+          "date": "2011-10-14",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Gunfights break out in Tripoli between Gaddafi supporters and NTC forces , the first sign of armed resistance to the new government ."
+          ]
+        },
+        {
+          "date": "2011-10-17",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "NTC forces celebrate the capture of Bani Walid , one of the final bastions of Gaddafi loyalists .",
+            "A Syrian television station confirms Gaddafi 's son Khamis was killed in fighting south-east of Tripoli on 29 August .",
+            "NTC forces captured the southern oasis town of Bani Walid after weeks of intense fighting .",
+            "- A Syrian television station confirms Gaddafi 's son Khamis died in fighting southeast of Tripoli on August 29 ."
+          ]
+        },
+        {
+          "date": "2011-10-18",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "US secretary of state Hillary Clinton arrives in Libya on an unannounced visit , urges militias to unite .",
+            "Hilary Clinton , the US Secretary of State , arrives in Libya on an unannounced visit , urges militias to unite .",
+            "U.S. Secretary of State Hilary Clinton arrives in Libya on an unannounced visit , urges militias to unite ."
+          ]
+        },
+        {
+          "date": "2011-10-20",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Muammar Gaddafi is captured and killed as NTC fighters take his hometown Sirte , ending a two-month siege .",
+            "An NTC official says Gaddafi 's son Mutassim is dead .",
+            "Moammar Kadafi is dead .",
+            "NTC fighters capture Sirte , Gaddafi 's hometown , ending a two-month siege and extinguishing the last significant hold out of troops loyal to the deposed leader .",
+            "Abdul Hakim Belhaj , the NTC military chief , confirms that Muammar Gaddafi has died of his wounds after being captured near Sirte ."
+          ]
+        },
+        {
+          "date": "2011-10-21",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Gaddafi 's body lies in an old meat store , viewed by hundreds of onlookers , as arguments over a burial , and his killing after being captured , dog efforts by Libya 's new leaders to make a formal start on a new era of democracy ."
+          ]
+        },
+        {
+          "date": "2011-10-23",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Libya declares the liberation of the nation .",
+            "`` We declare to the whole world that we have liberated our beloved country , with its cities , villages , hill-tops , mountains , deserts and skies , '' an NTC official says .",
+            "Libya's new leaders declare their nation'liberated ,' paving the way for elections and a constitution that the revolutionary government says will put the country on a path to its first representative democracy .",
+            "Mustafa Abdel Jalil , the leader of the NTC has declares the liberation of Libya eight-months after the uprising against Muammar Gaddafi 's 42-year rule began .",
+            "Jalil kneeled in prayer after taking the stand in a celebration in Benghazi and promised to uphold Islamic law .",
+            "`` We as a Muslim nation have taken Islamic sharia as the source of legislation , therefore any law that contradicts the principles of Islam is legally nullified , '' Jalil told the crowd ."
+          ]
+        },
+        {
+          "date": "2011-10-24",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The bodies of Muammar Gaddafi , his son Mutassim , and a former aide were moved from a commercial freezer in a warehouse area of Misrata where they had been put on display , in anticipation of burial planned for Tuesday .",
+            "The NTC also ordered an investigation into the death of Gaddafi after international pressure to examine the circumstances surrounding his death .",
+            "`` In response to international calls , we have started to put in place a commission tasked with investigating the circumstances of Muammar Gaddafi 's death in the clash with his circle as he was being captured , '' Mustafa Abdel Jalil , the head of the NTC , said in Bengazi ."
+          ]
+        },
+        {
+          "date": "2011-10-25",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Final Islamic prayers are said over the body of Gaddafi by his cleric , Khaled Tantoush , who was arrested with him .",
+            "Afterwards , two trusted NTC officials are handed the bodies of Gaddafi and Mutassim and they are buried deep in the Sahara desert in a secret place , the NTC says .",
+            "Libya 's National Transitional Council buried Muammar Gaddafi , his son Mutassim , and a former aide at a secret location in the desert at dawn , sources told Al Jazeera ."
+          ]
+        },
+        {
+          "date": "2011-10-31",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Little-known academic Abdul Raheem al-Keeb is elected as the new interim prime minister ."
+          ]
+        },
+        {
+          "date": "2011-11-19",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Saif al-Islam has been detained with several bodyguards near the town of Obari by fighters based in the western mountain town of Zintan , the interim justice minister and other officials said .",
+            "He was not wounded .",
+            "Saif al Islam Gaddafi has been arrested near Ubari in southern Libya .",
+            "In a press conference , Bashir al-Taylib , a military commander , told reporters that Saif al Islam had been captured and will be moved to Zintan ."
+          ]
+        },
+        {
+          "date": "2011-11-22",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Libya's interim prime minister , Abdel-Rahim Keeb , announces a new Cabinet ."
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "syria",
+      "gold": 106,
+      "matched": 25,
+      "recall": 0.2358490566037736,
+      "missing_in_extraction": 41,
+      "available_but_not_retrieved": 39,
+      "retrieved_but_not_selected": [
+        "2012-01-24"
+      ],
+      "years": [
+        {
+          "year": "2011",
+          "gold": 45,
+          "matched_gold_dates": 1,
+          "not_available_in_extraction": 39,
+          "available_but_not_retrieved": 5,
+          "retrieved_but_not_selected": 0
+        },
+        {
+          "year": "2012",
+          "gold": 49,
+          "matched_gold_dates": 15,
+          "not_available_in_extraction": 2,
+          "available_but_not_retrieved": 31,
+          "retrieved_but_not_selected": 1
+        },
+        {
+          "year": "2013",
+          "gold": 12,
+          "matched_gold_dates": 9,
+          "not_available_in_extraction": 0,
+          "available_but_not_retrieved": 3,
+          "retrieved_but_not_selected": 0
+        }
+      ],
+      "predicted_dates": 221,
+      "predicted_years": {
+        "2011": 4,
+        "2012": 99,
+        "2013": 118
+      },
+      "predicted_dates_outside_gold_span": 12,
+      "gold_start": "2011-03-15",
+      "gold_end": "2013-07-06",
+      "prediction_start": "2011-11-17",
+      "prediction_end": "2013-07-21",
+      "start_hit": false,
+      "end_hit": false,
+      "dates": [
+        {
+          "date": "2011-03-15",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "First protests after calls on Facebook for a `` Day of Dignity . ''"
+          ]
+        },
+        {
+          "date": "2011-03-18",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Police open fire on demonstrators in the southern city of Dara , as the government moves to quash the protests that have taken place in five Syrian cities in recent days , including the capital of Damascus .",
+            "Protesters are calling for the release of political prisoners and increased freedom ."
+          ]
+        },
+        {
+          "date": "2011-03-23",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Syrians hold \"Day of Dignity\" protest in Damascus, demanding release of political prisoners. The same day, a \"Day of Rage\" rally is held in the southern city of Daraa, where security forces shoot a number of people dead, leading to unrest and clashes."
+          ]
+        },
+        {
+          "date": "2011-03-25",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Dozens of demonstrators are killed in Damascus , according to witnesses .",
+            "Protests have not yet spread nationwide as President Bashar Assad still enjoys broad support ."
+          ]
+        },
+        {
+          "date": "2011-03-29",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Assad dissolves his cabinet and promises reforms in an attempt to appease protesters .",
+            "But he does not lift the emergency ban on public dissent , further inciting anger ."
+          ]
+        },
+        {
+          "date": "2011-04-01",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Thousands of Syrians flood the streets of several major cities for a new round of anti-government protests , defying security forces who use gunfire and tear gas in an attempt to disperse them ."
+          ]
+        },
+        {
+          "date": "2011-04-07",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Assad promises citizenship and increased rights to hundreds of thousands of Kurdish minorities , hoping to dissuade them from joining the protests ."
+          ]
+        },
+        {
+          "date": "2011-04-08",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Protests nationwide' including the first uprisings in Aleppo , Syria's second-largest city' are the largest and deadliest thus far .",
+            "Demonstrators begin calling for an end to Assad's regime ."
+          ]
+        },
+        {
+          "date": "2011-04-10",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "At least three people are killed and scores wounded as security forces keep up their assault on the coastal town of Baniyas , where anti-government protests have been gaining momentum ."
+          ]
+        },
+        {
+          "date": "2011-04-19",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "The newly appointed cabinet endorses proposals that appear to broaden civil liberties' among them , lifting a 48-year-old state of emergency that restricts civil liberties , abolishing a powerful security court and regulating political gatherings .",
+            "But security forces continue their violent crackdown and the cabinet warns residents not to protest ."
+          ]
+        },
+        {
+          "date": "2011-04-22",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Tens of thousands of peaceful protesters pour into the streets of Syrian cities only to be met with bullets and tear gas .",
+            "At least 88 people around the country are killed , according to a prominent human rights lawyer .",
+            "The Syrian uprising , then a month old , experienced its bloodiest day so far on 22 April when 72 protesters were killed by security forces firing on crowds .",
+            "Many of the dead were in the southern village of Ezra , near Deraa and in a suburb of Damascus ."
+          ]
+        },
+        {
+          "date": "2011-04-25",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Syrian government forces roll in tanks into Daraa to quell protests."
+          ]
+        },
+        {
+          "date": "2011-05-05",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Syrian authorities intensify a crackdown on opposition activist , arresting hundreds of people ahead of another planned day of demonstrations ."
+          ]
+        },
+        {
+          "date": "2011-05-08",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Syrian forces loyal to President Bashar Assad appear determined to stop persistent anti-government protests , with clashes in several cities leading to several deaths , scores of injuries and hundreds of arrests ."
+          ]
+        },
+        {
+          "date": "2011-05-13",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "In a show of strength , the popular movement opposing Syrian President Bashar Assad took to the streets in large numbers nationwide , defying a campaign of violence and mass detentions by security forces"
+          ]
+        },
+        {
+          "date": "2011-05-18",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Ratcheting up pressure to halt a bloody crackdown on pro-democracy protesters , the Obama administration for the first time slaps economic sanctions on Syrian President Bashar Assad and his top aides ."
+          ]
+        },
+        {
+          "date": "2011-05-20",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Syrian security forces loyal to President Bashar Assad , ignoring international pressure , fire on anti-government protesters , killing at least 34 on a day activists try to draw the country's Kurdish minority into the nationwide movement for political change ."
+          ]
+        },
+        {
+          "date": "2011-05-29",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Syrian forces attack several towns , killing at least nine people as protests continue against the embattled regime of President Bashar Assad ."
+          ]
+        },
+        {
+          "date": "2011-06-03",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Thousands of anti-government protesters march in Damascus , Homs and other Syrian cities in opposition to President Bashar Assad , chanting ,'These are the last days of your season ."
+          ]
+        },
+        {
+          "date": "2011-06-24",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Syrian security officers open fire on protesters , leaving as many as 20 dead , as people pour into the streets across the nation in defiance of President Bashar Assad and his promise of limited reform ."
+          ]
+        },
+        {
+          "date": "2011-07-01",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "At least 24 Syrian protesters are killed when security forces fire on demonstrators in cities across the country ."
+          ]
+        },
+        {
+          "date": "2011-07-04",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Syrian tanks , troops and bulldozers enter Hama , a city that has long been a potent symbol of the nation's pro-democracy movement , raiding houses and hunting down activists opposed to President Bashar Assad's rule"
+          ]
+        },
+        {
+          "date": "2011-07-15",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Syria security forces attack protesters across the country .",
+            "At least 27 people are reported killed , according to activists , many in the suburbs of Damascus and areas near the capital"
+          ]
+        },
+        {
+          "date": "2011-07-22",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Massive protests erupted throughout Syria after noon prayers , as security forces continued to hammer the rebellious central city of Homs with intense gunfire ."
+          ]
+        },
+        {
+          "date": "2011-07-29",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Massive protests are reported across Syria , as opposition activists gear up for increased confrontation expected next week with the start of the Muslim holy month of Ramadan ."
+          ]
+        },
+        {
+          "date": "2011-07-31",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Scores dead' as Syrian tanks storm the city of Hama."
+          ]
+        },
+        {
+          "date": "2011-08-03",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Syrian troops move tanks into the heart of the rebellious city of Hama , intensifying a days-long assault on a city that symbolizes resistance to President Bashar Assad ."
+          ]
+        },
+        {
+          "date": "2011-08-14",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Syrian forces for the first time deploy naval power in an attempt to quell an anti-government uprising in the coastal city of Latakia , where protests recently intensified"
+          ]
+        },
+        {
+          "date": "2011-08-15",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "According to activists , Syrian security forces in Latakia herd thousands of people into a stadium and take away their identification cards and cellphones ."
+          ]
+        },
+        {
+          "date": "2011-08-18",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "President Obama calls for President Bashar Assad to give up power .",
+            "US President Barack Obama and his allies urge Assad to quit .",
+            "Western and Arab states later impose sanctions on his regime ."
+          ]
+        },
+        {
+          "date": "2011-08-19",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "President Obama for the first time explicitly calls on Assad to step down. Obama also issues an executive order immediately freezing all assets of the Syrian government subject to U.S. jurisdiction."
+          ]
+        },
+        {
+          "date": "2011-08-27",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Security forces in the Syrian capital increase checkpoints , troop deployments and helicopter patrols in a bid to keep an overnight surge of antigovernment protests in the suburbs from spreading to the heart of Damascus ."
+          ]
+        },
+        {
+          "date": "2011-08-30",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "The final days of Ramadan saw a surge in protests and alleged killings by President Assad's forces , with 23 people slain from Monday afternoon to Tuesday afternoon , according to the Local Coordinating Committees opposition coalition"
+          ]
+        },
+        {
+          "date": "2011-09-07",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "At least 20 Syrians are killed in violence , the opposition says , most of them in the central city of Homs ."
+          ]
+        },
+        {
+          "date": "2011-10-02",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Creation of the opposition Syrian National Council SNC ."
+          ]
+        },
+        {
+          "date": "2011-10-03",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Opposition groups formed the Syrian National Council and pledge to overthrow President Bashar al-Assad ."
+          ]
+        },
+        {
+          "date": "2011-10-24",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "The Obama administration temporarily withdraws its ambassador to Syria , citing threats against his personal safety following his outspoken criticism of the country's brutal crackdown on pro-democracy protesters ."
+          ]
+        },
+        {
+          "date": "2011-10-26",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "An Arab League delegation holds talks with President Bashar Assad , as antigovernment activists report a a paralyzing general strike and 17 more deaths ."
+          ]
+        },
+        {
+          "date": "2011-11-12",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "In a stinging rebuke of President Bashar Assad , the Arab League votes to suspend Syria if his regime fails to take immediate steps to implement a peace plan designed to end months of unrest in the country .",
+            "The Arab League voted to suspend Syria , accusing it of failing to implement an Arab peace plan , and imposed sanctions .",
+            "Arab Leagues suspends Syria's membership."
+          ]
+        },
+        {
+          "date": "2011-11-14",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Syrian President Bashar Assad faces heightened economic and political pressures , as Europe imposes a new round of financial sanctions and King Abdullah II of Jordan calls on the embattled autocrat to step down ."
+          ]
+        },
+        {
+          "date": "2011-11-16",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The Free Syrian Army FSA , set up in Turkey by a deserter from Assad 's army , claims an attack on a Damascus military base ."
+          ]
+        },
+        {
+          "date": "2011-11-27",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "At an Arab League meeting in Cairo , members vote to impose punishing sanctions on the regime of President Bashar Assad"
+          ]
+        },
+        {
+          "date": "2011-12-02",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The United Nations' top human rights forum condemns Syria for'gross and systematic violations' after an independent panel found evidence suggesting the country's security forces had committed crimes against humanity ."
+          ]
+        },
+        {
+          "date": "2011-12-19",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Under mounting international pressure , Syria says that it will admit Arab observers to monitor a regional peace initiative aimed at ending months of bloodshed that is threatening to push the country into civil war .",
+            "Villages in the area of Jabal al-Zawiya in Idlib province were the site of a massacre of army defectors .",
+            "Opposition activists said around 70 soldiers were mown down by machine-guns on 19 December after hundreds fled their positions between the villages of Kafrouaid and Kansafra .",
+            "This was later backed up by eyewitnesses and a report by Human Rights Watch ."
+          ]
+        },
+        {
+          "date": "2011-12-20",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The London-based Syrian Observatory for Human Rights said a further 111 people - also mostly army defectors - were hunted down by the army and killed the next day in an `` organised massacre '' ."
+          ]
+        },
+        {
+          "date": "2012-01-24",
+          "status": "retrieved_but_not_selected",
+          "gold_events": [
+            "An Arab League peace plan for Syria appears to be near collapse as six Persian Gulf nations announce their intention to withdraw monitors from the country and urge the United Nations Security Council to take'all needed measures' to pressure Syrian President Bashar Assad to relinquish power ."
+          ]
+        },
+        {
+          "date": "2012-01-28",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "The Arab League says it is suspending its observer mission in Syria amid escalating violence that has left scores dead in recent days ."
+          ]
+        },
+        {
+          "date": "2012-02-03",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Syrian forces began shelling the restive city of Homs on 3 February , in what was to become a month-long bombardment ."
+          ]
+        },
+        {
+          "date": "2012-02-06",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The United States shuts down its embassy in Damascus, citing security concerns."
+          ]
+        },
+        {
+          "date": "2012-02-09",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Opposition activists report that government shelling and attacks kill more than 100 people , most of them in the embattled city of Homs ."
+          ]
+        },
+        {
+          "date": "2012-02-26",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "With violence flaring in several regions , Syrians cast ballots for a new constitution hailed as a historic breakthrough by President Bashar Assad and denounced as a farce by his opponents ."
+          ]
+        },
+        {
+          "date": "2012-03-01",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The Free Syrian Army announces March 1 that it is retreating from the shattered Bab Amr neighborhood in the Syrian city of Homs"
+          ]
+        },
+        {
+          "date": "2012-03-06",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "President Obama rules out a unilateral U.S. military campaign to support the beleaguered rebels in Syria , calling such an operation'much more complicated' than the NATO-led air war launched to help protect civilians during the civil war in Libya ."
+          ]
+        },
+        {
+          "date": "2012-03-10",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Former U.N. Secretary-General Kofi Annan urges Syrian President Bashar Assad to take'concrete steps' to end the turmoil in his nation , but a reported offensive against rebels in the country's rugged northwest highlights the ferocity of the violence almost a year after the country's uprising began ."
+          ]
+        },
+        {
+          "date": "2012-03-15",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "A year into the Syrian uprising , it was not the opposition but the government of President Bashar Assad that made a point of conspicuously marking the anniversary .",
+            "Raucous pro-Assad rallies in the streets of Damascus and other Syrian cities were the latest triumphal signal from a government widely described from outside as besieged or doomed ."
+          ]
+        },
+        {
+          "date": "2012-03-21",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The UN Security Council backed UN-Arab League envoy Kofi Annan 's peace plan to end all violence , provide humanitarian relief and secure a peaceful transition of power .",
+            "The Syrian government accepted the plan six days later .",
+            "The UN Security Council demands that Syria implement a peace plan drawn up by UNArab League envoy Kofi Annan calling for a ceasefire and democratic transition ."
+          ]
+        },
+        {
+          "date": "2012-03-27",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Syria agrees to a peace plan put forward by former United Nations Secretary-General Kofi Annan , but fighting rages on between government forces and rebels , officials and activists say ."
+          ]
+        },
+        {
+          "date": "2012-04-11",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "A United Nations-brokered cease-fire appears to take hold April 11, after the Assad government claims it succeeded in asserting its control over the country."
+          ]
+        },
+        {
+          "date": "2012-04-12",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The UNbacked ceasefire , which the regime accepted , formally begins , but violence continues ."
+          ]
+        },
+        {
+          "date": "2012-04-16",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "As six members of a United Nations monitoring mission begin setting up an operations headquarters and reaching out to both sides of the Syrian conflict Monday , the violence continues to slip toward the level it had been before a cease-fire began .",
+            "The first UN observers , a group of just six , began their work to monitor the situation on the ground as part of the Annan peace plan .",
+            "Their numbers increased to nearly 300 over the following weeks , but with violence continuing to escalate they suspended their operations on 16 June ."
+          ]
+        },
+        {
+          "date": "2012-04-23",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "The United States and European Union slap Syria with additional sanctions , as international pressure and a United Nations-backed peace plan fail to quell the violence .",
+            "Despite the presence of U.N. monitors in the country , President Bashar Assad's forces continue to shell cities and shoot at protesters , killing dozens of people on the day the sanctions are imposed , activists say ."
+          ]
+        },
+        {
+          "date": "2012-05-10",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The largest of a series of attacks blamed on suicide bombers in the capital , in which 55 people died after explosions outside the military intelligence building .",
+            "Many of the attacks have targeted security facilities .",
+            "The government blames anti-regime forces and Islamist groups linked to al-Qaeda , but the opposition says the attacks are staged in an attempt to discredit them ."
+          ]
+        },
+        {
+          "date": "2012-05-25",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The village of Taldou , in the Houla region near Homs , witnessed one of the worst massacres in Syria 's uprising .",
+            "UN observers confirmed that 108 people were killed , most of them women and children .",
+            "Some had been killed by shell fire , but the majority had been shot at point-blank range or stabbed .",
+            "The government blamed terrorists , but survivors and human rights groups pointed the finger at the army and shabiha militiamen allied to the government .",
+            "At least 108 people , including 49 children and 34 women , killed in Houla in Homs province .",
+            "Rebels and regime blame each other for the massacre .",
+            "The Security Council condemns Damascus ."
+          ]
+        },
+        {
+          "date": "2012-05-27",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The U.N. Security Council condemns Syrian army artillery and tank barrages on a civilian neighborhood where 108 people , most of them women and children , were killed , suggesting in a carefully worded statement that government forces were largely responsible ."
+          ]
+        },
+        {
+          "date": "2012-06-16",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The United Nations says it is suspending its observer mission in Syria because of escalating violence in the country , signaling a major setback in a U.N.-brokered effort to end violence in the strife-torn nation .",
+            "UN observer head General Robert Mood suspends the work of his mission because of escalating violence , although the monitors remain in Syria .",
+            "UN observers , deployed to monitor the April ceasefire deal , which was not respected , suspend operations .",
+            "The United Nations suspends its mission in Syria on June 16, stating that the escalating violence hindered the team's ability to fulfill its obligations."
+          ]
+        },
+        {
+          "date": "2012-06-21",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Syrian government forces shoot down a Turkish jet near its border, prompting an emergency NATO meeting."
+          ]
+        },
+        {
+          "date": "2012-06-22",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Syria shoots down a Turkish military jet .",
+            "The Turkish foreign minister later says it was shot down in'international airspace' without warning after the aircraft had inadvertently wandered into Syrian skies , contradicting Syria's version that it downed the jet less than a mile from Syria's coastal province of Latakia ."
+          ]
+        },
+        {
+          "date": "2012-07-03",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The USbased Human Rights Watch says Syria is holding tens of thousands of detainees in a `` torture archipelago . ''"
+          ]
+        },
+        {
+          "date": "2012-07-06",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "France confirms that Gen. Manaf Tlas , a brigade commander in the Syria's ultra-loyal Republican Guard , has defected .",
+            "Manaf Tlass , a general from a Sunni family close to the Assads , fled Syria , in the highest-level desertion of the regime so far .",
+            "Two weeks later , he was confirmed to be in France .",
+            "Munaf Tlass , a highprofile general close to Assad , defects ."
+          ]
+        },
+        {
+          "date": "2012-07-12",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "There are conflicting reports from Syria about the deaths of dozens of people in Tremseh , a village in Hama province .",
+            "Opposition activists and witnesses said army tanks bombarded the village for several hours before pro-government militiamen swept in , shooting and stabbing victims at close range .",
+            "They reported that as many as 220 people were killed , including a number of rebel fighters .",
+            "The Syrian government said at least 50 people were killed in Tremseh , but it blamed `` armed terrorist groups '' ."
+          ]
+        },
+        {
+          "date": "2012-07-13",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The massacre of roughly 200 people in Tresmeh, a small Syrian farming village, ignites international criticism on July 13, with reports claiming heavy weaponry was used against civilians"
+          ]
+        },
+        {
+          "date": "2012-07-14",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "United Nations observers visit an alleged massacre site in Treimseh but reach no conclusion about whether the killings were a deliberate slaughter of civilians or the result of clashes between government troops and insurgents .",
+            "Opposition activists say that as many as 200 people were killed ."
+          ]
+        },
+        {
+          "date": "2012-07-18",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "An audacious bombing aimed at the heart of Syria's feared security services kills three high-ranking officials in Damascus .",
+            "Defense Minister Daoud Rajiha and his deputy Assef Shawkat , President Assad 's brother-in-law , are killed in a suicide attack during a high-level meeting at the national security headquarters , Syrian state TV says .",
+            "General Hassan Turkomani , an assistant to the vice-president , is also killed in the attack .",
+            "The interior minister and national security chief were said to be injured in the attack , which some analysts describe as a turning point in the fate of the Assad regime .",
+            "The rebel Free Syrian Army FSA and a jihadist group calling itself Lord of the Martyrs Brigade both said they were behind the bombing .",
+            "Reports say the bomber was working as a bodyguard for members of the inner circle .",
+            "Four top security officials , including Assad 's brotherinlaw Assef Shawkat , are killed in a Damascus attack .",
+            "Four top security officials , including Assad 's brotherinlaw Assef Shawkat , killed in a Damascus attack .",
+            "The Free Syria Army responds on July 18, taking responsibility for the bombing of the National Security building in Damascus that killed top members of President Assad's government."
+          ]
+        },
+        {
+          "date": "2012-07-19",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Russia and China veto for the third time a UN Security Council resolution that would threaten sanctions against Assad .",
+            "Russia and China for the third time veto a UN Security Council resolution that would threaten sanctions against Assad ."
+          ]
+        },
+        {
+          "date": "2012-07-23",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Regime forces , boosted by elite troops , reclaim most of the capital after days of unprecedented clashes .",
+            "Regime forces say they have reclaimed most of Damascus after days of unprecedented clashes ."
+          ]
+        },
+        {
+          "date": "2012-07-28",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The military launches a dawn assault on Syria 's economic capital Aleppo , where clashes have been taking place since the 20th , using helicopter gunships , artillery and tanks as well as ground troops .",
+            "The military launches a dawn assault on Syria 's economic capital Aleppo ."
+          ]
+        },
+        {
+          "date": "2012-08-02",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Annan resigns after five months of fruitless peace efforts ."
+          ]
+        },
+        {
+          "date": "2012-08-03",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The U.N. General Assembly condemns the Syrian government's latest attacks on rebellious citizens in a symbolic vote that also criticizes infighting on the Security Council that has thwarted intervention to halt an escalating civil war ."
+          ]
+        },
+        {
+          "date": "2012-08-06",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Syria's prime minister defects , a stunning blow to the government ."
+          ]
+        },
+        {
+          "date": "2012-08-13",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Rebels claim they downed a fighter jet ."
+          ]
+        },
+        {
+          "date": "2012-08-14",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "More than 23,000 people have been killed since the outbreak of the revolt , the Syrian Observatory for Human Rights says .",
+            "Former prime minister Riad Hijab , who defected on August 5 , says that the regime is collapsing .",
+            "Government forces concentrate their operations on the two main cities Damascus and Aleppo ."
+          ]
+        },
+        {
+          "date": "2012-08-15",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "A bomb explodes in central Damascus near the hotel used by the UN observer mission in Syria , wounding three people .",
+            "The U.N. Human Rights Council says the Syrian military committed war crimes in the massacre of more than 100 civilians, half of them children, in the village of Houla in May 2012."
+          ]
+        },
+        {
+          "date": "2012-08-26",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Bloodied bodies are found strewn in the streets , in basements and even in the cemetery in the besieged Damascus suburb of Dariya , site of what is believed to be the largest mass killing to date in more than 17 months of fighting in Syria , according to opposition and pro-government accounts ."
+          ]
+        },
+        {
+          "date": "2012-09-26",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Syrian rebels breach checkpoints and concrete barriers to attack the country's military headquarters in Damascus , an assault that left the facility scorched and abandoned , and punctured President Bashar Assad's claim to have his capital under tight control ."
+          ]
+        },
+        {
+          "date": "2012-10-17",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Rebels shoot down military helicopter in Idlib."
+          ]
+        },
+        {
+          "date": "2012-10-25",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The Syrian military says its forces will observe a temporary holiday cease-fire coinciding with the Muslim holiday of Eid al-Adha .",
+            "The truce is violated within hours , with both sides blaming each other ."
+          ]
+        },
+        {
+          "date": "2012-11-09",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Fierce fighting in a border town in northeastern Syrian sends about 8,000 people fleeing into neighboring Turkey over a 24-hour period , one of the largest single-day surges of refugees since the Syrian conflict began , officials say .",
+            "Turkey is now sheltering more than 120,000 Syrian refugees , well beyond the 100,000 total that Ankara had said would be its limit ."
+          ]
+        },
+        {
+          "date": "2012-11-11",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The deeply divided Syrian opposition takes a step toward renewed unity , forming a new coalition designed to build stronger international support for its goal of ousting the government of Syrian President Bashar Assad .",
+            "After more than a week of sometimes contentious discussions in the Qatari capital , Doha , Syrian dissidents form the Syrian National Coalition for Opposition and Revolutionary Forces .",
+            "The opposition signs a unity deal in Doha to form a national coalition against Assad 's regime ."
+          ]
+        },
+        {
+          "date": "2012-11-25",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Rebels capture military bases near Damascus."
+          ]
+        },
+        {
+          "date": "2012-11-29",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The regime launches a major offensive on a radius of eight kilometres five miles around the capital .",
+            "The area becomes the major battleground in the Syria conflict ."
+          ]
+        },
+        {
+          "date": "2012-12-03",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The United States bluntly warns Syrian President Bashar Assad against using chemical weapons as his forces lose ground to rebel fighters , reflecting U.S. concerns over new intelligence indicating that Syria might be preparing to unleash some of its chemical agent stockpiles .",
+            "The United Nations says it is pulling nonessential foreign staff from Syria because of deteriorating security ."
+          ]
+        },
+        {
+          "date": "2012-12-11",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Washington puts key Syrian rebel group , the AlNusra Front , on its terror blacklist , citing AlQaeda links , a day after the jihadist faction captures a key army base ."
+          ]
+        },
+        {
+          "date": "2012-12-28",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Russia urges Assad to talk to the opposition ."
+          ]
+        },
+        {
+          "date": "2012-12-30",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "International envoy Lakhdar Brahimi announces a peace plan he believes could find support from world powers ."
+          ]
+        },
+        {
+          "date": "2013-01-01",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Syria ushers in the New Year with new violence with regime air strikes , as Aleppo airport is closed after repeated rebel attacks"
+          ]
+        },
+        {
+          "date": "2013-01-29",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "At least 65 people are found dead Jan. 29 in the contested Syrian city of Aleppo, many of them bound and shot execution-style, according to opposition activists."
+          ]
+        },
+        {
+          "date": "2013-02-21",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "A car bomb that detonated at a checkpoint near Baath party headquarters in Damascus sets off a huge explosion, killing dozens and wounding more than 200."
+          ]
+        },
+        {
+          "date": "2013-02-23",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "A surge of rebel advances in Syria is being fueled at least in part by an influx of heavy weaponry in a renewed effort by outside powers to arm moderates in the Free Syrian Army."
+          ]
+        },
+        {
+          "date": "2013-03-19",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The al-Nusra front makes an organized effort to institute Islamic law in rebel-held areas."
+          ]
+        },
+        {
+          "date": "2013-04-18",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Britain and France inform the United Nations that there is credible evidence that Syria has used chemical weapons against rebel forces."
+          ]
+        },
+        {
+          "date": "2013-05-05",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Israeli airstrikes target a Syrian facility that housed Fateh-110 missiles, which may have been destined for the Lebanese militant group Hezbollah, Mideast officials say."
+          ]
+        },
+        {
+          "date": "2013-05-19",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Hezbollah, a long-standing ally of Syria, sends thousands of men to support Assad forces and fight against the rebels in parts of the strategic border town of Qusair."
+          ]
+        },
+        {
+          "date": "2013-05-27",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The European Union decides to lift the arms embargo on the Syrian opposition while maintaining all other sanctions against Assad's regime."
+          ]
+        },
+        {
+          "date": "2013-06-05",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Following months of heavy fighting, Hezbollah fighters help Syrian forces capture Qusair."
+          ]
+        },
+        {
+          "date": "2013-06-13",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The continuing violence in Syria has killed nearly 93,000 people, according to the United Nations, which warned that more bloodshed could be on the way as government forces prepare to fight for Aleppo.",
+            "Syrian government used chemical weapons in its fight against opposition forces, and President Obama has authorized direct U.S. military support to the rebels, according to the White House."
+          ]
+        },
+        {
+          "date": "2013-07-06",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Ahmad al-Jarba, a little-known tribal leader from the eastern province of Hasakah, was elected to head the Syrian Opposition Coalition."
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "yemen",
+      "gold": 81,
+      "matched": 36,
+      "recall": 0.4444444444444444,
+      "missing_in_extraction": 4,
+      "available_but_not_retrieved": 41,
+      "retrieved_but_not_selected": [],
+      "years": [
+        {
+          "year": "2011",
+          "gold": 73,
+          "matched_gold_dates": 32,
+          "not_available_in_extraction": 4,
+          "available_but_not_retrieved": 37,
+          "retrieved_but_not_selected": 0
+        },
+        {
+          "year": "2012",
+          "gold": 8,
+          "matched_gold_dates": 4,
+          "not_available_in_extraction": 0,
+          "available_but_not_retrieved": 4,
+          "retrieved_but_not_selected": 0
+        }
+      ],
+      "predicted_dates": 178,
+      "predicted_years": {
+        "2010": 1,
+        "2011": 90,
+        "2012": 48,
+        "2013": 39
+      },
+      "predicted_dates_outside_gold_span": 79,
+      "gold_start": "2011-01-22",
+      "gold_end": "2012-02-27",
+      "prediction_start": "2010-02-06",
+      "prediction_end": "2013-07-17",
+      "start_hit": false,
+      "end_hit": true,
+      "dates": [
+        {
+          "date": "2011-01-22",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Hundreds of students and other protesters gather at Sana'a University , calling for an end to the 32-year rule of President Ali Abdullah Saleh .",
+            "The demonstrators were apparently inspired by the protests that led to the ouster of Tunisia 's President ."
+          ]
+        },
+        {
+          "date": "2011-01-27",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Inspired by revolts in Tunisia and Egypt , Yemenis rally to demand the ouster of President Ali Abdullah Saleh ."
+          ]
+        },
+        {
+          "date": "2011-01-29",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Yemen 's ruling party calls for dialogue with the opposition in a bid to stem antigovernment protests .",
+            "Saleh supporters attack and disperse Yemenis who try to march to the Egyptian embassy in Sanaa to express solidarity with Egyptian antigovernment demonstrators .",
+            "Yemeni protesters chant `` the people want the regime to fall . ''"
+          ]
+        },
+        {
+          "date": "2011-02-02",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Saleh promises reforms and says he will not seek a new mandate when his term ends in 2013 ."
+          ]
+        },
+        {
+          "date": "2011-02-03",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "A day of antigovernment protests brings more than 20,000 people onto the streets in Sanaa .",
+            "Tens of thousands take part in a `` day of rage '' .",
+            "Saleh loyalists hold a counter-demonstration ."
+          ]
+        },
+        {
+          "date": "2011-02-23",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Seven legislators resign from Yemeni President Ali Abdullah Saleh's ruling General People's Congress party and say they will form an independent bloc .",
+            "Nine legislators have left the party since protests began ."
+          ]
+        },
+        {
+          "date": "2011-02-26",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Leaders of two of Yemen 's most important tribes abandon the president ."
+          ]
+        },
+        {
+          "date": "2011-03-01",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Tens of thousands of opposition activists demand the ouster of Saleh .",
+            "President Saleh fires five of 22 provincial governors , some for criticizing the crackdown on the protests .",
+            "Huge new protests near Sanaa University ."
+          ]
+        },
+        {
+          "date": "2011-03-02",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The opposition presents Saleh with a plan for a smooth transition of power , offering him a graceful exit .",
+            "Saleh says he will draw up a new constitution to create a parliamentary system of government .",
+            "An opposition spokesman rejects the proposal .",
+            "The president and opposition leaders make tentative plans for reform , including the provision that President Ali Abdullah Saleh will step down by the end of the year .",
+            "Influential clerics , tribal leaders and members of Yemen's opposition present a plan for a peaceful transition of presidential power .",
+            "Saleh had pledged not to seek reelection in 2013 .",
+            "But some protesters demand that he step down immediately , and the opposition's proposal marks an attempt to find a middle ground ."
+          ]
+        },
+        {
+          "date": "2011-03-08",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The government deploys military vehicles and extra troops in Sana'a , the capital , as police open fire on protesters , reportedly for the first time , killing at least one person and wounding 80 others .",
+            "Talks break down between President Ali Abdullah Saleh and key opposition leaders .",
+            "Protesters are reportedly fired upon by security forces disguised as pro-government supporters ."
+          ]
+        },
+        {
+          "date": "2011-03-10",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Saleh says by the end of this year a new constitution will transfer power from the president to a parliamentary system .",
+            "Saleh promises a referendum on a new constitution to devolve power to parliament , but the opposition rejects the offer ."
+          ]
+        },
+        {
+          "date": "2011-03-11",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Nearly 100,000 protest in Yemen's capital , deeming it the'Friday of No Return ."
+          ]
+        },
+        {
+          "date": "2011-03-18",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "As protest crowds swell , security forces fire on protesters in Sana'a , killing at least 52 people and wounding more than 100 .",
+            "President Saleh declares a state of emergency .",
+            "World leaders criticize the crackdown .",
+            "Snipers kill 52 protesters among crowds that flock to a sitin at Sanaa University after Friday prayers .",
+            "Saleh declares a state of emergency .",
+            "After 45 pro-democracy protesters are killed in the deadliest day of civil unrest thus far , President Ali Abdullah Saleh declares Yemen to be in a state of emergency , granting the government the ability to detain civilians without charges and ban them from carrying weapons .",
+            "After a deadly attack on protesters that kills dozens , Yemeni authorities declare a nationwide state of emergency .",
+            "Regime loyalists open fire on demonstrators in the capital , killing 52 ."
+          ]
+        },
+        {
+          "date": "2011-03-20",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Saleh dismisses his government .",
+            "As many ministers prepare to resign in protest over the recent deaths of unarmed demonstrators , President Ali Abdullah Saleh dismisses his cabinet in a move meant to signify governmental reform .",
+            "Saleh sacks his government as tens of thousands of mourners mass in Sanaa to bury many of the 52 people gunned down by his loyalists ."
+          ]
+        },
+        {
+          "date": "2011-03-21",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Senior army commanders , including Saleh ally General Ali Mohsen , commander of the northwest military zone , say they have switched support to prodemocracy activists .",
+            "President Ali Abdullah Saleh's rule is further weakened when five key generals defect to join anti-government protesters .",
+            "Top generals pledge allegiance to the `` revolution '' , and the country 's main tribal leader demands Saleh 's exit from power .",
+            "Several top government officials also pledge support for the protesters ."
+          ]
+        },
+        {
+          "date": "2011-03-22",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Saleh warns against a coup , saying it could cause civil war .",
+            "Tanks are deployed in the capital ."
+          ]
+        },
+        {
+          "date": "2011-03-23",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Saleh offers to step down by the end of 2011 .",
+            "He also proposes to hold a referendum on a new constitution , then a parliamentary election and presidential vote .",
+            "Yemen's parliament enacts emergency laws after Saleh asks for new powers to quash a popular uprising demanding his ouster .",
+            "Deputies backing President Saleh approve the state of emergency , but the vote is boycotted by the opposition .",
+            "The Islamist Al-Islah Reform party dismisses the vote as a `` fraud '' .",
+            "Saleh says he is willing to step down at the end of the year .",
+            "The premises of the Al-Jazeera TV news station in Sanaa are ransacked and shut down ."
+          ]
+        },
+        {
+          "date": "2011-03-24",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Clashes in southeastern Yemen between regular army troops and the Republican Guard , loyal to Saleh .",
+            "- Saleh holds late-night talks with powerful army general Ali Mohsen al-Ahmar , who has defected to the opposition , but the two fail to agree ."
+          ]
+        },
+        {
+          "date": "2011-03-25",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Saleh says he is ready to cede power to stop more bloodshed in Yemen .",
+            "Thousands rally against him in `` Day of Departure '' protests .",
+            "In a speech to thousands of supporters , President Ali Abdullah Saleh says he may conditionally step aside and hand the nation to'safe hands' to avert further bloodshed after weeks of protests .",
+            "Saleh tells supporters he will cede power if he can leave the nation in'safe hands .",
+            "He makes the offer'the latest in a series of concessions' as tens of thousands of pro-government and opposition demonstrators stage dueling rallies in the capital and in other cities , each side backed by a faction of the divided armed forces .",
+            "Saleh says he will hand over power , but only to `` safe hands '' .",
+            "- Huge rival marches in Sanaa , one for and one against the president .",
+            "- Thousands of anti-Saleh protesters march in the southern port of Aden ."
+          ]
+        },
+        {
+          "date": "2011-03-29",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Saleh holds talks with Mohammed alYadoumi , head of the Islamist Islah party , once a partner in his government .",
+            "Saleh proposes staying in office until elections are held but transferring his powers to a caretaker .",
+            "The opposition rejects the offer .",
+            "In Yemen's tribal northern and southern territories , insurgents take over six of 18 provinces ."
+          ]
+        },
+        {
+          "date": "2011-04-01",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Saleh opponents and supports stage mass rallies in Sanaa ."
+          ]
+        },
+        {
+          "date": "2011-04-02",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The opposition proposes a fivepoint plan for the army and security forces to be restructured by a vicepresident acting as temporary president .",
+            "The opposition urges Saleh to transfer his powers to his deputy ."
+          ]
+        },
+        {
+          "date": "2011-04-03",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Activists say police kill one anti-government demonstrator and wound scores more in Taez as Saleh calls for an end to the protests .",
+            "The Taez governor denies a protester was killed ."
+          ]
+        },
+        {
+          "date": "2011-04-04",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Violence continues to escalate as police fire on unarmed protesters for the second consecutive day .",
+            "Yemeni security forces shot dead at least 17 protesters as Gulf states offered to mediate and Washington appeared to be pulling the plug on Saleh ."
+          ]
+        },
+        {
+          "date": "2011-04-06",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Qatari Prime Minister Sheikh Hamad bin Jassim alThani says the GCC will strike a deal for Saleh to leave ."
+          ]
+        },
+        {
+          "date": "2011-04-14",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The opposition rejects an offer to join Gulfmediated talks .",
+            "April 18 Ruling party members , including three former ministers , form Justice and Development Bloc to support the protests ."
+          ]
+        },
+        {
+          "date": "2011-04-19",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The U.N. Security Council meets on Yemen for the first time since the protests erupted in January .",
+            "Russia and China reportedly prevent the council from publicly endorsing a draft statement calling on the parties in Yemen to `` exercise restraint and enter a dialogue . ''",
+            "President Ali Abdullah Saleh hangs on even as protesters grow bolder and allies abandon him ."
+          ]
+        },
+        {
+          "date": "2011-04-23",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Saleh agrees to step down in weeks in return for immunity from prosecution .",
+            "The opposition agrees to the plan .",
+            "President Ali Abdullah Saleh agrees to an internationally negotiated plan to step down within 30 days in exchange for criminal immunity in the deadly crackdown on protests ."
+          ]
+        },
+        {
+          "date": "2011-04-25",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "The opposition agrees to take part in a transitional government under a Gulfnegotiated peace plan for Saleh to step aside ."
+          ]
+        },
+        {
+          "date": "2011-04-30",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Saleh appears to sabotage the peace plan by refusing to sign in his capacity as president .",
+            "GCC mediators tell Yemen 's opposition Saleh will only sign the deal as leader of his party ."
+          ]
+        },
+        {
+          "date": "2011-05-11",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Security forces kill 13 protesters around Yemen ."
+          ]
+        },
+        {
+          "date": "2011-05-12",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Yemeni security forces and anti-government protesters clash violently , as Persian Gulf and U.S. officials press for a deal that would allow longtime President Ali Abdullah Saleh to leave office with immunity ."
+          ]
+        },
+        {
+          "date": "2011-05-13",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Huge crowds across Yemen demand Saleh leave .",
+            "In a defiant speech to supporters in Sanaa , Saleh declares : `` We will confront a challenge with a challenge '' and denounces his opponents as `` saboteurs . ''",
+            "May 14 GCC secretarygeneral Abdullatif alZayani arrives in Sanaa on a threeday visit to revive the stalled deal ."
+          ]
+        },
+        {
+          "date": "2011-05-15",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Yemen 's main opposition coalition says the GCC plan to end the country 's political crisis is `` dead . ''"
+          ]
+        },
+        {
+          "date": "2011-05-21",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Yemen 's opposition signs the transition deal ."
+          ]
+        },
+        {
+          "date": "2011-05-22",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Five members of the ruling party sign the deal , but Gulf Arab states suspend it after Saleh asks for additional conditions and diplomats fail to persuade him to sign it .",
+            "Loyalist gunmen trap Western and Arab diplomats in the UAE embassy in Sanaa , blocking mediators from going to the presidential palace .",
+            "Diplomats later leave by helicopter .",
+            "President Ali Abdullah Saleh refuses to sign the accord for him to step down with immunity , and a regional council says it is ceasing efforts for a deal ."
+          ]
+        },
+        {
+          "date": "2011-05-23",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Loyalist forces fight Saleh opponents in Sanaa .",
+            "Saleh apologizes to the UAE but foreign governments pile criticism on him over his refusal to sign ."
+          ]
+        },
+        {
+          "date": "2011-05-24",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Saleh 's refusal to sign the power transfer deal sparks street battles in Sanaa between his security forces and a powerful tribal group , the Hashed tribal alliance , led by Sadeq alAhmar .",
+            "At least 20 people are killed ."
+          ]
+        },
+        {
+          "date": "2011-05-26",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Several countries , including United States , ask their diplomats to leave .",
+            "G8 leaders at a summit in France call on Saleh to leave .",
+            "Yemeni government forces push fighters opposed to President Ali Abdullah Saleh's regime from Sana's northern district ."
+          ]
+        },
+        {
+          "date": "2011-05-27",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Opposition tribal leaders say they are talking with the government and that a cease-fire is in effect , temporarily halting most of the fighting with security forces .",
+            "International calls continue from several world powers calling for Mr. Saleh to leave office soon ."
+          ]
+        },
+        {
+          "date": "2011-05-28",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Saleh 's security forces and tribesmen agree to a truce after days of fighting kill at least 115 .",
+            "The deal includes a withdrawal of armed tribesmen from government buildings and moves to normalize life in Sanaa 's Hasaba district At least 300 people have now been killed across Yemen since demonstrations began ."
+          ]
+        },
+        {
+          "date": "2011-05-29",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Gunmen believed to be linked to Al-Qaeda seize the southern city of Zinjibar , capital of Abyan province , after fighting with security forces that leaves dozens dead ."
+          ]
+        },
+        {
+          "date": "2011-05-30",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Loyalist forces open fire on protesters in the southern city of Taiz , killing at least 15 .",
+            "Saleh 's forces disperse a sit-in in Taez , Yemen 's second-largest city , killing at least 50 people ."
+          ]
+        },
+        {
+          "date": "2011-05-31",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Yemen's capital and other cities erupt into violent chaos after a cease-fire collapses between forces loyal to President Ali Abdullah Saleh and tribal fighters ."
+          ]
+        },
+        {
+          "date": "2011-06-02",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Forces loyal to Saleh battle tribal fighters ."
+          ]
+        },
+        {
+          "date": "2011-06-03",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "President Saleh and five other Yemeni officials are wounded in a rocket attack on the presidential compound in Sana'a .",
+            "Opposition parades through Sanaa the bodies of 50 people it says were killed in clashes with Saleh 's forces .",
+            "Street battles have killed at least 155 over last 10 days , more than 370 people have been killed in total .",
+            "A bomb explodes at Saleh 's palace in Sanaa , wounding the president , the prime minister , and the parliament speaker .",
+            "Saleh leaves for treatment in Riyadh hospital .",
+            "During a rocket attack on his presidential palace compound , Saleh is wounded .",
+            "Saleh wounded in an explosion in the presidential compound .",
+            "Eleven are killed .",
+            "Saleh flown a day later to Saudi Arabia for treatment ."
+          ]
+        },
+        {
+          "date": "2011-06-04",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "President Saleh 's forces and forces loyal to tribal leader Sheikh Sadiq al-Ahmar accept a Saudi-brokered cease-fire .",
+            "A truce negotiated a week earlier quickly deteriorated .",
+            "Mr. Saleh flies to Saudi Arabia for treatment .",
+            "Vice President Abd al-Rab Mansur Hadi takes over .",
+            "VicePresident AbdRabbu Mansour Hadi takes over as acting president and supreme commander of the armed forces .",
+            "President Ali Abdullah Saleh leaves Yemen for treatment of injuries suffered in a rocket attack , a dramatic turn after two weeks of heavy fighting .",
+            "Saleh is flown to Saudi Arabia for medical treatment .",
+            "He transfers power temporarily to Vice President Abed Rabbo Mansour Hadi ."
+          ]
+        },
+        {
+          "date": "2011-06-05",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "There are celebrations in Yemen 's capital , Sana'a , after word spreads that President Saleh left the country .",
+            "Saleh undergoes surgery to remove shrapnel from his chest .",
+            "Crowds cheer what they hope is his exit from power ."
+          ]
+        },
+        {
+          "date": "2011-06-06",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Opposition calls for official transfer of power to VP , U.S. pushes for immediate democratic transition ."
+          ]
+        },
+        {
+          "date": "2011-06-12",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Despite their tenacity and desire to fashion a new order , protesters face a threat that it is the contest between President Ali Abdullah Saleh's family and a rival clan that will decide what change , if any , comes to Yemen ."
+          ]
+        },
+        {
+          "date": "2011-06-13",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Suspects arrested over attack on Saleh ."
+          ]
+        },
+        {
+          "date": "2011-06-24",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "U.N. Security Council voices its `` grave concern '' about Yemen 's deteriorating situation , urges restraint ."
+          ]
+        },
+        {
+          "date": "2011-07-05",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Yemeni warplanes bomb militantheld cities in southern Abyan province .",
+            "More than 50,000 civilians flee after month of clashes between army and militants linked to al Qaeda ."
+          ]
+        },
+        {
+          "date": "2011-07-07",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Saleh makes first televised appearance since attack , says he supports dialogue and welcomes power sharing .",
+            "Saleh makes his first public appearance since the explosion , in a speech broadcast on television ."
+          ]
+        },
+        {
+          "date": "2011-07-10",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "U.S. counterterrorism official John Brennan meets Saleh in Riyadh , urges him to sign a transition plan ."
+          ]
+        },
+        {
+          "date": "2011-07-25",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Opposition rejects government plan for dialogue , refusing to negotiate until Saleh signs transition deal ."
+          ]
+        },
+        {
+          "date": "2011-08-15",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Government blames opposition tribal leader Hamid alAhmar for attack which wounded Saleh ."
+          ]
+        },
+        {
+          "date": "2011-08-20",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Several opposition figures quit newly formed National Council , exposing division in antigovernment movement ."
+          ]
+        },
+        {
+          "date": "2011-08-29",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Saleh says he is committed to holding elections for a new president as soon as possible ."
+          ]
+        },
+        {
+          "date": "2011-09-07",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Ruling party approves changes to power transfer plan , which would transfer Saleh 's powers to his vice president but give him three months to formally step down .",
+            "It provides the basis for an interim government , which is to draft a new constitution and restructure the Salehcontrolled military ."
+          ]
+        },
+        {
+          "date": "2011-09-12",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Saleh empowers vice president to sign deal .",
+            "The opposition is sceptical of Saleh 's call for further talks before the VP signs the deal ."
+          ]
+        },
+        {
+          "date": "2011-09-15",
+          "status": "not_available_in_extraction",
+          "gold_events": [
+            "Protesters have been struggling for months to overthrow President Ali Abdullah Saleh .",
+            "But unity and order are in short supply ."
+          ]
+        },
+        {
+          "date": "2011-09-18",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Protests escalate as security forces fire on demonstrators , killing 21 and wounding dozens .",
+            "Security forces open fire on tens of thousands of demonstrators in Yemen's capital , Sana , killing at least 26 protesters in one of the bloodiest days of the 9-month-old rebellion against President Ali Abdullah Saleh ."
+          ]
+        },
+        {
+          "date": "2011-09-19",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Security forces kill at least 20 people , some shot by snipers from rooftops , in a crowd of protesters demanding the removal of Saleh ."
+          ]
+        },
+        {
+          "date": "2011-09-23",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Nearly four months after he was severely wounded in an assassination attempt , President Ali Abdullah Saleh makes a surprise return to Yemen .",
+            "Against the wishes of the United States and Persian Gulf states , Saleh returns to Yemen .",
+            "Saleh returns to Yemen ."
+          ]
+        },
+        {
+          "date": "2011-09-29",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Saleh says he will not step down as long as his key rivals remain in influential positions ."
+          ]
+        },
+        {
+          "date": "2011-10-07",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Yemen 's Arab Spring activist Tawakkul Karman shares the Nobel Peace Prize with Liberian President Ellen Johnson Sirleaf and compatriot `` peace warrior '' Leymah Gbowee ."
+          ]
+        },
+        {
+          "date": "2011-10-08",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "With his country tilting toward civil war and powerful tribes and mutinous soldiers arrayed against him , Yemeni President Ali Abdullah Saleh again promises to step down soon ."
+          ]
+        },
+        {
+          "date": "2011-10-15",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "At least 29 killed as police open fire on protesters and rival tribes clash in Sanaa ."
+          ]
+        },
+        {
+          "date": "2011-10-21",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The UN Security Council calls on Saleh to stand down ."
+          ]
+        },
+        {
+          "date": "2011-11-23",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "After months of unrest that have brought his country to the edge of civil war , Yemen President Ali Abdullah Saleh signs an agreement in Saudi Arabia to hand over power to his vice president in a deal that leaves him immune from prosecution in the deaths of protesters .",
+            "Saleh signs a Gulf Cooperation Council-brokered agreement to step down , turning over power to his vice president .",
+            "Saleh signs a deal with the parliamentary opposition to hand over his powers to Hadi , in exchange for immunity from prosecution for both him and his family .",
+            "Under the deal he remains honorary president for 90 days ."
+          ]
+        },
+        {
+          "date": "2011-12-10",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "A unity government , part of a power-transfer agreement signed by President Ali Abdullah Saleh in November , is sworn in to office .",
+            "An opposition-led national unity government is sworn in , headed by Prime Minister Mohammed Basindawa ."
+          ]
+        },
+        {
+          "date": "2011-12-24",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "President Ali Abdullah Saleh says he will soon leave for the United States to help make way for elections for his replacement ."
+          ]
+        },
+        {
+          "date": "2012-01-21",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Parliament adopts a law giving Saleh immunity and approving Hadi as consensus candidate in the election to succeed him ."
+          ]
+        },
+        {
+          "date": "2012-01-22",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "The U.S. Department of State approves Saleh's request to travel to the United States for medical treatment ."
+          ]
+        },
+        {
+          "date": "2012-01-28",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Saleh arrives in the United States for medical treatment ."
+          ]
+        },
+        {
+          "date": "2012-02-07",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "Hadi launches his campaign for the February 21 election ."
+          ]
+        },
+        {
+          "date": "2012-02-16",
+          "status": "available_but_not_retrieved",
+          "gold_events": [
+            "17 killed in tribal infighting following the killing of a local Al-Qaeda leader by his half brother in Bayda province ."
+          ]
+        },
+        {
+          "date": "2012-02-21",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Four people killed in clashes across south Yemen , where separatists called for `` civil disobediance '' to protest against the presidential election ."
+          ]
+        },
+        {
+          "date": "2012-02-25",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "Former vice president Hadi is sworn in as Yemen's president , ending Saleh's 33-year rule ."
+          ]
+        },
+        {
+          "date": "2012-02-27",
+          "status": "matched_gold_dates",
+          "gold_events": [
+            "An Associated Press report says Saleh will seek exile in Ethiopia ."
+          ]
+        }
+      ]
+    }
+  ]
+}

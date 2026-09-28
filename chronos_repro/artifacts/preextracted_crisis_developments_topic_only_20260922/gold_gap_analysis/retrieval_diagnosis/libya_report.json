@@ -1,0 +1,612 @@
+{
+  "topic": "libya",
+  "gold_available": 113,
+  "original_query_count": 60,
+  "time_filter_modes": {
+    "none": 60
+  },
+  "original_final_hits": 55,
+  "original_retrieved_hits": 55,
+  "saved_top12_replay_mismatches": [],
+  "measurements": {
+    "fixed12": {
+      "unique_articles": 375,
+      "retrieved_gold_date_hits": 55,
+      "new_previously_unretrieved_gold_dates": []
+    },
+    "fixed24": {
+      "unique_articles": 642,
+      "retrieved_gold_date_hits": 70,
+      "new_previously_unretrieved_gold_dates": [
+        "2011-02-15",
+        "2011-03-02",
+        "2011-03-24",
+        "2011-03-30",
+        "2011-03-31",
+        "2011-04-07",
+        "2011-04-10",
+        "2011-05-05",
+        "2011-07-06",
+        "2011-08-23",
+        "2011-09-01",
+        "2011-09-07",
+        "2011-09-13",
+        "2011-09-16",
+        "2011-09-21"
+      ]
+    },
+    "fixed50": {
+      "unique_articles": 1106,
+      "retrieved_gold_date_hits": 87,
+      "new_previously_unretrieved_gold_dates": [
+        "2011-02-15",
+        "2011-02-23",
+        "2011-02-25",
+        "2011-02-28",
+        "2011-03-02",
+        "2011-03-10",
+        "2011-03-24",
+        "2011-03-27",
+        "2011-03-30",
+        "2011-03-31",
+        "2011-04-06",
+        "2011-04-07",
+        "2011-04-10",
+        "2011-04-24",
+        "2011-05-01",
+        "2011-05-05",
+        "2011-05-20",
+        "2011-05-22",
+        "2011-06-22",
+        "2011-06-29",
+        "2011-07-06",
+        "2011-07-14",
+        "2011-08-19",
+        "2011-08-23",
+        "2011-09-01",
+        "2011-09-07",
+        "2011-09-13",
+        "2011-09-16",
+        "2011-09-20",
+        "2011-09-21",
+        "2011-10-02",
+        "2011-10-25"
+      ]
+    },
+    "fixed_all": {
+      "unique_articles": 1839,
+      "retrieved_gold_date_hits": 99,
+      "new_previously_unretrieved_gold_dates": [
+        "2011-02-15",
+        "2011-02-18",
+        "2011-02-21",
+        "2011-02-23",
+        "2011-02-25",
+        "2011-02-28",
+        "2011-03-02",
+        "2011-03-05",
+        "2011-03-10",
+        "2011-03-24",
+        "2011-03-27",
+        "2011-03-30",
+        "2011-03-31",
+        "2011-04-06",
+        "2011-04-07",
+        "2011-04-08",
+        "2011-04-10",
+        "2011-04-24",
+        "2011-05-01",
+        "2011-05-05",
+        "2011-05-20",
+        "2011-05-22",
+        "2011-06-14",
+        "2011-06-19",
+        "2011-06-22",
+        "2011-06-29",
+        "2011-06-30",
+        "2011-07-06",
+        "2011-07-14",
+        "2011-08-09",
+        "2011-08-16",
+        "2011-08-19",
+        "2011-08-23",
+        "2011-08-29",
+        "2011-09-01",
+        "2011-09-07",
+        "2011-09-08",
+        "2011-09-13",
+        "2011-09-16",
+        "2011-09-20",
+        "2011-09-21",
+        "2011-10-02",
+        "2011-10-17",
+        "2011-10-25"
+      ]
+    },
+    "native24": {
+      "unique_articles": 604,
+      "retrieved_gold_date_hits": 66,
+      "new_previously_unretrieved_gold_dates": [
+        "2011-03-10",
+        "2011-03-24",
+        "2011-03-31",
+        "2011-04-07",
+        "2011-04-10",
+        "2011-06-19",
+        "2011-08-23",
+        "2011-09-01",
+        "2011-09-13",
+        "2011-09-16",
+        "2011-10-02"
+      ]
+    },
+    "native50": {
+      "unique_articles": 1026,
+      "retrieved_gold_date_hits": 85,
+      "new_previously_unretrieved_gold_dates": [
+        "2011-02-15",
+        "2011-02-23",
+        "2011-02-28",
+        "2011-03-02",
+        "2011-03-10",
+        "2011-03-24",
+        "2011-03-27",
+        "2011-03-30",
+        "2011-03-31",
+        "2011-04-06",
+        "2011-04-07",
+        "2011-04-10",
+        "2011-04-24",
+        "2011-05-05",
+        "2011-05-20",
+        "2011-05-22",
+        "2011-06-14",
+        "2011-06-19",
+        "2011-06-29",
+        "2011-07-06",
+        "2011-08-16",
+        "2011-08-19",
+        "2011-08-23",
+        "2011-09-01",
+        "2011-09-07",
+        "2011-09-13",
+        "2011-09-16",
+        "2011-09-21",
+        "2011-10-02",
+        "2011-10-25"
+      ]
+    },
+    "candidate_union": {
+      "unique_articles": 1839,
+      "retrieved_gold_date_hits": 99,
+      "new_previously_unretrieved_gold_dates": [
+        "2011-02-15",
+        "2011-02-18",
+        "2011-02-21",
+        "2011-02-23",
+        "2011-02-25",
+        "2011-02-28",
+        "2011-03-02",
+        "2011-03-05",
+        "2011-03-10",
+        "2011-03-24",
+        "2011-03-27",
+        "2011-03-30",
+        "2011-03-31",
+        "2011-04-06",
+        "2011-04-07",
+        "2011-04-08",
+        "2011-04-10",
+        "2011-04-24",
+        "2011-05-01",
+        "2011-05-05",
+        "2011-05-20",
+        "2011-05-22",
+        "2011-06-14",
+        "2011-06-19",
+        "2011-06-22",
+        "2011-06-29",
+        "2011-06-30",
+        "2011-07-06",
+        "2011-07-14",
+        "2011-08-09",
+        "2011-08-16",
+        "2011-08-19",
+        "2011-08-23",
+        "2011-08-29",
+        "2011-09-01",
+        "2011-09-07",
+        "2011-09-08",
+        "2011-09-13",
+        "2011-09-16",
+        "2011-09-20",
+        "2011-09-21",
+        "2011-10-02",
+        "2011-10-17",
+        "2011-10-25"
+      ]
+    }
+  },
+  "missing_date_partition": {
+    "returned_after_top12_in_original_pool": [
+      "2011-02-15",
+      "2011-02-18",
+      "2011-02-21",
+      "2011-02-23",
+      "2011-02-25",
+      "2011-02-28",
+      "2011-03-02",
+      "2011-03-05",
+      "2011-03-10",
+      "2011-03-24",
+      "2011-03-27",
+      "2011-03-30",
+      "2011-03-31",
+      "2011-04-06",
+      "2011-04-07",
+      "2011-04-08",
+      "2011-04-10",
+      "2011-04-24",
+      "2011-05-01",
+      "2011-05-05",
+      "2011-05-20",
+      "2011-05-22",
+      "2011-06-14",
+      "2011-06-19",
+      "2011-06-22",
+      "2011-06-29",
+      "2011-06-30",
+      "2011-07-06",
+      "2011-07-14",
+      "2011-08-09",
+      "2011-08-16",
+      "2011-08-19",
+      "2011-08-23",
+      "2011-08-29",
+      "2011-09-01",
+      "2011-09-07",
+      "2011-09-08",
+      "2011-09-13",
+      "2011-09-16",
+      "2011-09-20",
+      "2011-09-21",
+      "2011-10-02",
+      "2011-10-17",
+      "2011-10-25"
+    ],
+    "present_only_before_content_deduplication": [],
+    "outside_original_bm25_and_dense_top60_pools": [
+      "2011-02-16",
+      "2011-02-17",
+      "2011-03-13",
+      "2011-04-30",
+      "2011-05-08",
+      "2011-06-07",
+      "2011-07-19",
+      "2011-08-05",
+      "2011-08-10",
+      "2011-08-14",
+      "2011-09-18",
+      "2011-09-27",
+      "2011-09-28",
+      "2011-11-19"
+    ]
+  },
+  "best_missing_date_ranks": {
+    "2011-09-01": {
+      "rank": 13,
+      "query_number": 1,
+      "query": "Libya political transition government formation prime minister",
+      "document_id": "5736"
+    },
+    "2011-08-23": {
+      "rank": 24,
+      "query_number": 9,
+      "query": "Libya Khalifa Haftar Libyan National Army Tripoli offensive 2019",
+      "document_id": "5336"
+    },
+    "2011-10-17": {
+      "rank": 66,
+      "query_number": 1,
+      "query": "Libya political transition government formation prime minister",
+      "document_id": "5760"
+    },
+    "2011-02-28": {
+      "rank": 26,
+      "query_number": 23,
+      "query": "Libya 2015 Skhirat agreement unity government signing",
+      "document_id": "1916"
+    },
+    "2011-03-24": {
+      "rank": 16,
+      "query_number": 31,
+      "query": "Libya 2015 Skhirat agreement Government of National Accord",
+      "document_id": "935"
+    },
+    "2011-04-07": {
+      "rank": 24,
+      "query_number": 22,
+      "query": "Libya 2014 Operation Dignity Benghazi civil war escalation",
+      "document_id": "1450"
+    },
+    "2011-05-05": {
+      "rank": 18,
+      "query_number": 31,
+      "query": "Libya 2015 Skhirat agreement Government of National Accord",
+      "document_id": "2857"
+    },
+    "2011-03-05": {
+      "rank": 82,
+      "query_number": 2,
+      "query": "Libya civil conflict ceasefire military escalation",
+      "document_id": "84"
+    },
+    "2011-05-22": {
+      "rank": 25,
+      "query_number": 3,
+      "query": "Libya elections constitutional framework national reconciliation",
+      "document_id": "3032"
+    },
+    "2011-05-20": {
+      "rank": 38,
+      "query_number": 3,
+      "query": "Libya elections constitutional framework national reconciliation",
+      "document_id": "3143"
+    },
+    "2011-03-10": {
+      "rank": 26,
+      "query_number": 28,
+      "query": "Libya 2013 political crisis General National Congress no-confidence Zeidan",
+      "document_id": "4676"
+    },
+    "2011-03-02": {
+      "rank": 23,
+      "query_number": 8,
+      "query": "Libya Islamic State Sirte offensive 2016 liberation",
+      "document_id": "3825"
+    },
+    "2011-06-19": {
+      "rank": 57,
+      "query_number": 10,
+      "query": "Libya Ali Zeidan ousted prime minister vote of no confidence 2014",
+      "document_id": "5668"
+    },
+    "2011-03-30": {
+      "rank": 24,
+      "query_number": 15,
+      "query": "Libya 2020 Berlin conference ceasefire permanent agreement elections",
+      "document_id": "1"
+    },
+    "2011-02-23": {
+      "rank": 31,
+      "query_number": 42,
+      "query": "Libya 2020 ceasefire Berlin conference political dialogue",
+      "document_id": "5102"
+    },
+    "2011-04-10": {
+      "rank": 23,
+      "query_number": 36,
+      "query": "Libya 2014 Misrata Libya Dawn Operation Tripoli airport",
+      "document_id": "5659"
+    },
+    "2011-04-08": {
+      "rank": 59,
+      "query_number": 20,
+      "query": "Libya 2016 Government of National Accord Serraj arrival Tripoli",
+      "document_id": "5234"
+    },
+    "2011-09-13": {
+      "rank": 20,
+      "query_number": 55,
+      "query": "Libya 2023 Derna flood dam collapse deaths aid",
+      "document_id": "6181"
+    },
+    "2011-09-16": {
+      "rank": 13,
+      "query_number": 32,
+      "query": "Libya 2016 Sirte Islamic State offensive Misrata forces",
+      "document_id": "5805"
+    },
+    "2011-10-25": {
+      "rank": 29,
+      "query_number": 45,
+      "query": "Libya Gaddafi capture Sirte 2011 aftermath burial",
+      "document_id": "4152"
+    },
+    "2011-08-29": {
+      "rank": 90,
+      "query_number": 58,
+      "query": "Libya 2011 Gaddafi captured Sirte killed NATO campaign end",
+      "document_id": "1081"
+    },
+    "2011-02-25": {
+      "rank": 31,
+      "query_number": 14,
+      "query": "Libya Skhirat agreement 2015 UN peace talks signing",
+      "document_id": "3467"
+    },
+    "2011-07-06": {
+      "rank": 20,
+      "query_number": 9,
+      "query": "Libya Khalifa Haftar Libyan National Army Tripoli offensive 2019",
+      "document_id": "3328"
+    },
+    "2011-03-31": {
+      "rank": 17,
+      "query_number": 11,
+      "query": "Libya General National Congress mandate extension protests 2013",
+      "document_id": "279"
+    },
+    "2011-02-18": {
+      "rank": 80,
+      "query_number": 9,
+      "query": "Libya Khalifa Haftar Libyan National Army Tripoli offensive 2019",
+      "document_id": "4343"
+    },
+    "2011-08-19": {
+      "rank": 34,
+      "query_number": 10,
+      "query": "Libya Ali Zeidan ousted prime minister vote of no confidence 2014",
+      "document_id": "5008"
+    },
+    "2011-08-16": {
+      "rank": 70,
+      "query_number": 40,
+      "query": "Libya 2019 Haftar Tripoli offensive LNA advance",
+      "document_id": "292"
+    },
+    "2011-09-07": {
+      "rank": 24,
+      "query_number": 10,
+      "query": "Libya Ali Zeidan ousted prime minister vote of no confidence 2014",
+      "document_id": "1455"
+    },
+    "2011-02-15": {
+      "rank": 23,
+      "query_number": 52,
+      "query": "Libya 2017 2018 Paris Palermo conference elections Haftar",
+      "document_id": "5201"
+    },
+    "2011-09-20": {
+      "rank": 44,
+      "query_number": 11,
+      "query": "Libya General National Congress mandate extension protests 2013",
+      "document_id": "607"
+    },
+    "2011-06-22": {
+      "rank": 44,
+      "query_number": 23,
+      "query": "Libya 2015 Skhirat agreement unity government signing",
+      "document_id": "1297"
+    },
+    "2011-06-30": {
+      "rank": 69,
+      "query_number": 11,
+      "query": "Libya General National Congress mandate extension protests 2013",
+      "document_id": "3821"
+    },
+    "2011-05-01": {
+      "rank": 43,
+      "query_number": 14,
+      "query": "Libya Skhirat agreement 2015 UN peace talks signing",
+      "document_id": "5559"
+    },
+    "2011-06-14": {
+      "rank": 56,
+      "query_number": 30,
+      "query": "Libya 2023 Dbeibah GNU interim government political deadlock",
+      "document_id": "5414"
+    },
+    "2011-06-29": {
+      "rank": 31,
+      "query_number": 43,
+      "query": "Libya July 2012 election National Congress results",
+      "document_id": "579"
+    },
+    "2011-07-14": {
+      "rank": 42,
+      "query_number": 21,
+      "query": "Libya 2017 Haftar Libyan National Army Benghazi victory",
+      "document_id": "1718"
+    },
+    "2011-10-02": {
+      "rank": 36,
+      "query_number": 24,
+      "query": "Libya 2020 Berlin conference ceasefire Sirte Jufra",
+      "document_id": "5228"
+    },
+    "2011-04-06": {
+      "rank": 28,
+      "query_number": 29,
+      "query": "Libya 2014 parliamentary election House of Representatives Tobruk",
+      "document_id": "1083"
+    },
+    "2011-04-24": {
+      "rank": 45,
+      "query_number": 55,
+      "query": "Libya 2023 Derna flood dam collapse deaths aid",
+      "document_id": "3023"
+    },
+    "2011-03-27": {
+      "rank": 45,
+      "query_number": 45,
+      "query": "Libya Gaddafi capture Sirte 2011 aftermath burial",
+      "document_id": "4940"
+    },
+    "2011-09-08": {
+      "rank": 82,
+      "query_number": 46,
+      "query": "Libya 2011 NTC transitional government formation Jibril",
+      "document_id": "821"
+    },
+    "2011-08-09": {
+      "rank": 71,
+      "query_number": 52,
+      "query": "Libya 2017 2018 Paris Palermo conference elections Haftar",
+      "document_id": "5602"
+    },
+    "2011-09-21": {
+      "rank": 24,
+      "query_number": 55,
+      "query": "Libya 2023 Derna flood dam collapse deaths aid",
+      "document_id": "757"
+    },
+    "2011-02-21": {
+      "rank": 53,
+      "query_number": 55,
+      "query": "Libya 2023 Derna flood dam collapse deaths aid",
+      "document_id": "3968"
+    }
+  },
+  "diagnostic_probes": [
+    {
+      "target_date": "2011-04-30",
+      "query": "Libya NATO airstrike Gaddafi son grandchildren killed April 2011",
+      "top12_target_date_hit": true,
+      "matching_articles": [
+        {
+          "rank": 12,
+          "document_id": "6147"
+        }
+      ],
+      "best_rank_under_original_queries": null
+    },
+    {
+      "target_date": "2011-08-23",
+      "query": "Libya rebels storm Bab al Aziziya compound Tripoli August 2011",
+      "top12_target_date_hit": true,
+      "matching_articles": [
+        {
+          "rank": 1,
+          "document_id": "5336"
+        },
+        {
+          "rank": 4,
+          "document_id": "3998"
+        },
+        {
+          "rank": 9,
+          "document_id": "132"
+        },
+        {
+          "rank": 17,
+          "document_id": "2492"
+        },
+        {
+          "rank": 23,
+          "document_id": "2911"
+        },
+        {
+          "rank": 75,
+          "document_id": "1574"
+        }
+      ],
+      "best_rank_under_original_queries": {
+        "rank": 24,
+        "query_number": 9,
+        "query": "Libya Khalifa Haftar Libyan National Army Tripoli offensive 2019",
+        "document_id": "5336"
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "updated_at_utc": "2026-09-22T13:54:20.292326+00:00",
+  "scope": "First phase only; original article ranking, extracted event results.",
+  "metric": "exact Gold date recall per topic (union of reference dates)",
+  "aggregation": "Macro averages topic recalls; micro divides summed hits by summed topic Gold counts. Only runtime_status=ok enters aggregates; error results remain separate partial rows. Runtime success does not establish autonomous search sufficiency.",
+  "requests_started": 505,
+  "returned_tokens_finished_topics": 1248829,
+  "datasets": {
+    "crisis": {
+      "planned_topics": 4,
+      "finished_without_runtime_error": 4,
+      "partial_error_results": 0,
+      "macro_gold_date_recall": 0.3685660121056222,
+      "micro_gold_date_recall": 0.36533957845433257,
+      "termination_counts": {
+        "runner_limit": 4
+      }
+    }
+  },
+  "rows": [
+    {
+      "dataset": "crisis",
+      "topic": "egypt",
+      "output_dir": "artifacts/preextracted_crisis_developments_topic_only_20260922/crisis_egypt",
+      "runtime_status": "ok",
+      "phase1_termination": "runner_limit",
+      "gold_date_count": 122,
+      "matched_gold_date_count": 40,
+      "gold_date_recall": 0.32786885245901637,
+      "completed_batches": 24,
+      "query_count": 69,
+      "accepted_event_count": 254,
+      "retrieved_extracted_date_hits": 40,
+      "all_topic_extracted_date_hits": 106,
+      "deferred_verification_count": 0,
+      "gold_start_exactly_matched": false,
+      "gold_end_exactly_matched": true,
+      "error": null,
+      "requests": 130
+    },
+    {
+      "dataset": "crisis",
+      "topic": "libya",
+      "output_dir": "artifacts/preextracted_crisis_developments_topic_only_20260922/crisis_libya",
+      "runtime_status": "ok",
+      "phase1_termination": "runner_limit",
+      "gold_date_count": 118,
+      "matched_gold_date_count": 55,
+      "gold_date_recall": 0.4661016949152542,
+      "completed_batches": 24,
+      "query_count": 60,
+      "accepted_event_count": 223,
+      "retrieved_extracted_date_hits": 55,
+      "all_topic_extracted_date_hits": 113,
+      "deferred_verification_count": 0,
+      "gold_start_exactly_matched": false,
+      "gold_end_exactly_matched": true,
+      "error": null,
+      "requests": 125
+    },
+    {
+      "dataset": "crisis",
+      "topic": "syria",
+      "output_dir": "artifacts/preextracted_crisis_developments_topic_only_20260922/crisis_syria",
+      "runtime_status": "ok",
+      "phase1_termination": "runner_limit",
+      "gold_date_count": 106,
+      "matched_gold_date_count": 25,
+      "gold_date_recall": 0.2358490566037736,
+      "completed_batches": 24,
+      "query_count": 65,
+      "accepted_event_count": 345,
+      "retrieved_extracted_date_hits": 26,
+      "all_topic_extracted_date_hits": 65,
+      "deferred_verification_count": 0,
+      "gold_start_exactly_matched": false,
+      "gold_end_exactly_matched": false,
+      "error": null,
+      "requests": 139
+    },
+    {
+      "dataset": "crisis",
+      "topic": "yemen",
+      "output_dir": "artifacts/preextracted_crisis_developments_topic_only_20260922/crisis_yemen",
+      "runtime_status": "ok",
+      "phase1_termination": "runner_limit",
+      "gold_date_count": 81,
+      "matched_gold_date_count": 36,
+      "gold_date_recall": 0.4444444444444444,
+      "completed_batches": 24,
+      "query_count": 66,
+      "accepted_event_count": 215,
+      "retrieved_extracted_date_hits": 36,
+      "all_topic_extracted_date_hits": 77,
+      "deferred_verification_count": 0,
+      "gold_start_exactly_matched": false,
+      "gold_end_exactly_matched": true,
+      "error": null,
+      "requests": 111
+    }
+  ]
+}

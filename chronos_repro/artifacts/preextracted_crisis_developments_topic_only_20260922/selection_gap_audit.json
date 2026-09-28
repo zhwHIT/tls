@@ -1,0 +1,43 @@
+[
+  {
+    "topic": "egypt",
+    "retrieved_but_not_selected": [],
+    "decisions": []
+  },
+  {
+    "topic": "libya",
+    "retrieved_but_not_selected": [],
+    "decisions": []
+  },
+  {
+    "topic": "syria",
+    "retrieved_but_not_selected": [
+      "2012-01-24"
+    ],
+    "decisions": [
+      {
+        "candidate_id": "18f72790543c74cb74267f8e",
+        "time": "2012-01-24",
+        "date_precision": "day",
+        "summary": "Syria rebukes the Arab League.",
+        "time_range": null,
+        "evidence_ids": [
+          "2280"
+        ],
+        "job_id": "225341f514ce4957936e3db7a00af8526a7e095bace05a5fdfc2dded05bc9779",
+        "extraction_origin": "llm_generated",
+        "relevant": false,
+        "operation": "IGNORE",
+        "target_event_id": null,
+        "reason": "Vague summary with no substantive milestone detail for the Syria timeline.",
+        "status": "IRRELEVANT",
+        "fact_check_performed": false
+      }
+    ]
+  },
+  {
+    "topic": "yemen",
+    "retrieved_but_not_selected": [],
+    "decisions": []
+  }
+]

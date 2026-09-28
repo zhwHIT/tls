@@ -1,0 +1,2361 @@
+{
+  "api_calls": 0,
+  "query_policy_frozen": true,
+  "verify_rerun": false,
+  "method": "Replay existing queries; fixed60 uses original BM25/dense candidate pools and only extends returned rank prefix. native24/50 also expands each candidate pool to top_k * 5.",
+  "probe_warning": "Targeted probes are selected after inspecting missed Gold events. They diagnose retrievability, not autonomous policy performance or an unbiased benchmark.",
+  "limitations": [
+    "Retrieval date hits are not final timeline coverage; no VERIFY rerun.",
+    "Changing top_k online would change later state, queries and costs.",
+    "A target article outside top60 for existing queries may reflect query wording, lexical/dense representation or ranking; these are not fully separated."
+  ],
+  "topics": [
+    {
+      "topic": "egypt",
+      "gold_available": 106,
+      "original_query_count": 69,
+      "time_filter_modes": {
+        "none": 69
+      },
+      "original_final_hits": 40,
+      "original_retrieved_hits": 40,
+      "saved_top12_replay_mismatches": [],
+      "measurements": {
+        "fixed12": {
+          "unique_articles": 401,
+          "retrieved_gold_date_hits": 40,
+          "new_previously_unretrieved_gold_dates": []
+        },
+        "fixed24": {
+          "unique_articles": 683,
+          "retrieved_gold_date_hits": 61,
+          "new_previously_unretrieved_gold_dates": [
+            "2011-01-25",
+            "2011-01-26",
+            "2011-02-02",
+            "2011-02-13",
+            "2011-03-04",
+            "2011-05-27",
+            "2011-08-03",
+            "2011-08-18",
+            "2011-09-10",
+            "2011-09-30",
+            "2011-11-21",
+            "2012-01-21",
+            "2012-01-23",
+            "2012-06-13",
+            "2012-06-30",
+            "2012-08-12",
+            "2012-10-08",
+            "2012-11-22",
+            "2012-11-23",
+            "2012-12-21",
+            "2013-01-25"
+          ]
+        },
+        "fixed50": {
+          "unique_articles": 1139,
+          "retrieved_gold_date_hits": 73,
+          "new_previously_unretrieved_gold_dates": [
+            "2011-01-25",
+            "2011-01-26",
+            "2011-02-02",
+            "2011-02-03",
+            "2011-02-08",
+            "2011-02-10",
+            "2011-02-13",
+            "2011-03-04",
+            "2011-03-08",
+            "2011-04-10",
+            "2011-05-27",
+            "2011-08-03",
+            "2011-08-18",
+            "2011-08-19",
+            "2011-08-21",
+            "2011-09-10",
+            "2011-09-30",
+            "2011-10-10",
+            "2011-11-21",
+            "2011-11-25",
+            "2012-01-16",
+            "2012-01-21",
+            "2012-01-23",
+            "2012-01-24",
+            "2012-06-13",
+            "2012-06-26",
+            "2012-06-30",
+            "2012-08-12",
+            "2012-10-08",
+            "2012-11-22",
+            "2012-11-23",
+            "2012-12-21",
+            "2013-01-25"
+          ]
+        },
+        "fixed_all": {
+          "unique_articles": 1778,
+          "retrieved_gold_date_hits": 86,
+          "new_previously_unretrieved_gold_dates": [
+            "2011-01-25",
+            "2011-01-26",
+            "2011-01-27",
+            "2011-02-02",
+            "2011-02-03",
+            "2011-02-07",
+            "2011-02-08",
+            "2011-02-10",
+            "2011-02-13",
+            "2011-02-15",
+            "2011-03-03",
+            "2011-03-04",
+            "2011-03-08",
+            "2011-04-10",
+            "2011-05-13",
+            "2011-05-24",
+            "2011-05-27",
+            "2011-08-01",
+            "2011-08-03",
+            "2011-08-18",
+            "2011-08-19",
+            "2011-08-21",
+            "2011-09-10",
+            "2011-09-28",
+            "2011-09-30",
+            "2011-10-10",
+            "2011-11-21",
+            "2011-11-25",
+            "2012-01-16",
+            "2012-01-21",
+            "2012-01-23",
+            "2012-01-24",
+            "2012-04-14",
+            "2012-04-17",
+            "2012-06-13",
+            "2012-06-22",
+            "2012-06-26",
+            "2012-06-30",
+            "2012-08-12",
+            "2012-10-08",
+            "2012-11-22",
+            "2012-11-23",
+            "2012-12-21",
+            "2013-01-25",
+            "2013-04-29",
+            "2013-05-07"
+          ]
+        },
+        "native24": {
+          "unique_articles": 659,
+          "retrieved_gold_date_hits": 60,
+          "new_previously_unretrieved_gold_dates": [
+            "2011-01-25",
+            "2011-01-26",
+            "2011-02-02",
+            "2011-02-13",
+            "2011-08-18",
+            "2011-08-19",
+            "2011-08-21",
+            "2011-09-10",
+            "2011-11-21",
+            "2011-11-25",
+            "2012-01-21",
+            "2012-01-24",
+            "2012-04-14",
+            "2012-06-13",
+            "2012-10-08",
+            "2012-11-22",
+            "2012-11-23",
+            "2012-12-21",
+            "2013-01-25",
+            "2013-05-07"
+          ]
+        },
+        "native50": {
+          "unique_articles": 1101,
+          "retrieved_gold_date_hits": 76,
+          "new_previously_unretrieved_gold_dates": [
+            "2011-01-25",
+            "2011-01-26",
+            "2011-01-27",
+            "2011-02-02",
+            "2011-02-03",
+            "2011-02-08",
+            "2011-02-13",
+            "2011-03-04",
+            "2011-03-08",
+            "2011-05-27",
+            "2011-08-03",
+            "2011-08-18",
+            "2011-08-19",
+            "2011-08-21",
+            "2011-09-10",
+            "2011-09-28",
+            "2011-09-30",
+            "2011-11-21",
+            "2011-11-25",
+            "2012-01-16",
+            "2012-01-21",
+            "2012-01-23",
+            "2012-01-24",
+            "2012-04-14",
+            "2012-04-17",
+            "2012-06-13",
+            "2012-06-26",
+            "2012-06-30",
+            "2012-08-12",
+            "2012-10-08",
+            "2012-11-22",
+            "2012-11-23",
+            "2012-12-21",
+            "2013-01-25",
+            "2013-04-29",
+            "2013-05-07"
+          ]
+        },
+        "candidate_union": {
+          "unique_articles": 1779,
+          "retrieved_gold_date_hits": 86,
+          "new_previously_unretrieved_gold_dates": [
+            "2011-01-25",
+            "2011-01-26",
+            "2011-01-27",
+            "2011-02-02",
+            "2011-02-03",
+            "2011-02-07",
+            "2011-02-08",
+            "2011-02-10",
+            "2011-02-13",
+            "2011-02-15",
+            "2011-03-03",
+            "2011-03-04",
+            "2011-03-08",
+            "2011-04-10",
+            "2011-05-13",
+            "2011-05-24",
+            "2011-05-27",
+            "2011-08-01",
+            "2011-08-03",
+            "2011-08-18",
+            "2011-08-19",
+            "2011-08-21",
+            "2011-09-10",
+            "2011-09-28",
+            "2011-09-30",
+            "2011-10-10",
+            "2011-11-21",
+            "2011-11-25",
+            "2012-01-16",
+            "2012-01-21",
+            "2012-01-23",
+            "2012-01-24",
+            "2012-04-14",
+            "2012-04-17",
+            "2012-06-13",
+            "2012-06-22",
+            "2012-06-26",
+            "2012-06-30",
+            "2012-08-12",
+            "2012-10-08",
+            "2012-11-22",
+            "2012-11-23",
+            "2012-12-21",
+            "2013-01-25",
+            "2013-04-29",
+            "2013-05-07"
+          ]
+        }
+      },
+      "missing_date_partition": {
+        "returned_after_top12_in_original_pool": [
+          "2011-01-25",
+          "2011-01-26",
+          "2011-01-27",
+          "2011-02-02",
+          "2011-02-03",
+          "2011-02-07",
+          "2011-02-08",
+          "2011-02-10",
+          "2011-02-13",
+          "2011-02-15",
+          "2011-03-03",
+          "2011-03-04",
+          "2011-03-08",
+          "2011-04-10",
+          "2011-05-13",
+          "2011-05-24",
+          "2011-05-27",
+          "2011-08-01",
+          "2011-08-03",
+          "2011-08-18",
+          "2011-08-19",
+          "2011-08-21",
+          "2011-09-10",
+          "2011-09-28",
+          "2011-09-30",
+          "2011-10-10",
+          "2011-11-21",
+          "2011-11-25",
+          "2012-01-16",
+          "2012-01-21",
+          "2012-01-23",
+          "2012-01-24",
+          "2012-04-14",
+          "2012-04-17",
+          "2012-06-13",
+          "2012-06-22",
+          "2012-06-26",
+          "2012-06-30",
+          "2012-08-12",
+          "2012-10-08",
+          "2012-11-22",
+          "2012-11-23",
+          "2012-12-21",
+          "2013-01-25",
+          "2013-04-29",
+          "2013-05-07"
+        ],
+        "present_only_before_content_deduplication": [],
+        "outside_original_bm25_and_dense_top60_pools": [
+          "2011-01-01",
+          "2011-01-18",
+          "2011-02-22",
+          "2011-02-25",
+          "2011-03-21",
+          "2011-03-23",
+          "2011-04-08",
+          "2011-04-13",
+          "2011-04-21",
+          "2011-05-08",
+          "2011-06-05",
+          "2011-06-29",
+          "2011-07-10",
+          "2011-07-12",
+          "2011-08-15",
+          "2011-09-16",
+          "2011-10-12",
+          "2012-04-20",
+          "2012-07-14",
+          "2013-04-07"
+        ]
+      },
+      "best_missing_date_ranks": {
+        "2011-09-30": {
+          "rank": 15,
+          "query_number": 1,
+          "query": "Egypt presidential election transfer of power",
+          "document_id": "3642"
+        },
+        "2011-11-25": {
+          "rank": 29,
+          "query_number": 9,
+          "query": "Egypt economic reforms fuel subsidy cuts currency float 2016",
+          "document_id": "3037"
+        },
+        "2012-04-14": {
+          "rank": 55,
+          "query_number": 1,
+          "query": "Egypt presidential election transfer of power",
+          "document_id": "3079"
+        },
+        "2011-02-10": {
+          "rank": 44,
+          "query_number": 17,
+          "query": "Hosni Mubarak released retrial acquitted 2014 2017",
+          "document_id": "2033"
+        },
+        "2011-01-25": {
+          "rank": 13,
+          "query_number": 41,
+          "query": "Egypt Sinai State ISIS affiliate insurgency attacks 2015 2017",
+          "document_id": "1480"
+        },
+        "2011-09-28": {
+          "rank": 71,
+          "query_number": 1,
+          "query": "Egypt presidential election transfer of power",
+          "document_id": "2534"
+        },
+        "2012-01-16": {
+          "rank": 32,
+          "query_number": 27,
+          "query": "Egypt 2022 2023 economic crisis IMF loan devaluation",
+          "document_id": "5522"
+        },
+        "2013-01-25": {
+          "rank": 19,
+          "query_number": 11,
+          "query": "Egypt 2019 protests Mohamed Ali Sisi response",
+          "document_id": "492"
+        },
+        "2012-11-22": {
+          "rank": 14,
+          "query_number": 3,
+          "query": "Egypt Gaza ceasefire mediation negotiations",
+          "document_id": "3175"
+        },
+        "2011-09-10": {
+          "rank": 16,
+          "query_number": 3,
+          "query": "Egypt Gaza ceasefire mediation negotiations",
+          "document_id": "50"
+        },
+        "2011-01-26": {
+          "rank": 20,
+          "query_number": 3,
+          "query": "Egypt Gaza ceasefire mediation negotiations",
+          "document_id": "3498"
+        },
+        "2011-05-27": {
+          "rank": 21,
+          "query_number": 8,
+          "query": "Egypt crackdown Muslim Brotherhood trials death sentences 2014",
+          "document_id": "3557"
+        },
+        "2011-08-21": {
+          "rank": 35,
+          "query_number": 3,
+          "query": "Egypt Gaza ceasefire mediation negotiations",
+          "document_id": "1165"
+        },
+        "2011-08-19": {
+          "rank": 26,
+          "query_number": 41,
+          "query": "Egypt Sinai State ISIS affiliate insurgency attacks 2015 2017",
+          "document_id": "4054"
+        },
+        "2011-02-02": {
+          "rank": 13,
+          "query_number": 37,
+          "query": "Sinai insurgency militant attacks Egypt military response 2013 2014",
+          "document_id": "2727"
+        },
+        "2011-02-08": {
+          "rank": 47,
+          "query_number": 9,
+          "query": "Egypt economic reforms fuel subsidy cuts currency float 2016",
+          "document_id": "3896"
+        },
+        "2011-02-07": {
+          "rank": 69,
+          "query_number": 5,
+          "query": "Egypt Rabaa sit-in dispersal crackdown Muslim Brotherhood",
+          "document_id": "4899"
+        },
+        "2012-11-23": {
+          "rank": 15,
+          "query_number": 50,
+          "query": "Mohamed Morsi trial Egypt court 2013 2014",
+          "document_id": "4153"
+        },
+        "2012-08-12": {
+          "rank": 17,
+          "query_number": 62,
+          "query": "Rabaa al-Adawiya sit-in dispersal August 2013 Muslim Brotherhood",
+          "document_id": "2398"
+        },
+        "2013-05-07": {
+          "rank": 60,
+          "query_number": 6,
+          "query": "Egypt IMF loan Gulf aid economy after 2013",
+          "document_id": "2874"
+        },
+        "2012-12-21": {
+          "rank": 15,
+          "query_number": 60,
+          "query": "Egypt constitution referendum December 2012 opposition reaction",
+          "document_id": "3870"
+        },
+        "2011-02-15": {
+          "rank": 52,
+          "query_number": 62,
+          "query": "Rabaa al-Adawiya sit-in dispersal August 2013 Muslim Brotherhood",
+          "document_id": "4946"
+        },
+        "2013-04-29": {
+          "rank": 71,
+          "query_number": 9,
+          "query": "Egypt economic reforms fuel subsidy cuts currency float 2016",
+          "document_id": "3832"
+        },
+        "2011-04-10": {
+          "rank": 40,
+          "query_number": 8,
+          "query": "Egypt crackdown Muslim Brotherhood trials death sentences 2014",
+          "document_id": "2960"
+        },
+        "2011-02-13": {
+          "rank": 17,
+          "query_number": 49,
+          "query": "Abdel Fattah el-Sisi Egypt army chief 2013 2014",
+          "document_id": "927"
+        },
+        "2012-01-24": {
+          "rank": 37,
+          "query_number": 28,
+          "query": "Egypt August 2013 state of emergency curfew crackdown Muslim Brotherhood",
+          "document_id": "5563"
+        },
+        "2011-02-03": {
+          "rank": 32,
+          "query_number": 19,
+          "query": "Rabaa al-Adawiya sit-in dispersal massacre 2013",
+          "document_id": "789"
+        },
+        "2012-01-23": {
+          "rank": 24,
+          "query_number": 12,
+          "query": "Grand Ethiopian Renaissance Dam Egypt Nile negotiations",
+          "document_id": "715"
+        },
+        "2012-06-30": {
+          "rank": 23,
+          "query_number": 52,
+          "query": "Mohamed Morsi death sentence Egypt court 2015",
+          "document_id": "2944"
+        },
+        "2011-11-21": {
+          "rank": 18,
+          "query_number": 14,
+          "query": "Egypt Sinai insurgency military campaign casualties",
+          "document_id": "4030"
+        },
+        "2011-08-18": {
+          "rank": 21,
+          "query_number": 41,
+          "query": "Egypt Sinai State ISIS affiliate insurgency attacks 2015 2017",
+          "document_id": "4645"
+        },
+        "2011-08-03": {
+          "rank": 22,
+          "query_number": 17,
+          "query": "Hosni Mubarak released retrial acquitted 2014 2017",
+          "document_id": "4719"
+        },
+        "2011-03-08": {
+          "rank": 29,
+          "query_number": 19,
+          "query": "Rabaa al-Adawiya sit-in dispersal massacre 2013",
+          "document_id": "5669"
+        },
+        "2011-03-04": {
+          "rank": 21,
+          "query_number": 21,
+          "query": "Abdel Fattah el-Sisi reelection 2018 2023 Egypt",
+          "document_id": "2602"
+        },
+        "2012-04-17": {
+          "rank": 62,
+          "query_number": 32,
+          "query": "Egypt 2015 parliamentary election Sisi consolidation power",
+          "document_id": "2117"
+        },
+        "2011-03-03": {
+          "rank": 87,
+          "query_number": 26,
+          "query": "Hosni Mubarak retrial acquittal release 2014 2017",
+          "document_id": "2925"
+        },
+        "2012-01-21": {
+          "rank": 21,
+          "query_number": 32,
+          "query": "Egypt 2015 parliamentary election Sisi consolidation power",
+          "document_id": "1236"
+        },
+        "2012-06-22": {
+          "rank": 60,
+          "query_number": 33,
+          "query": "Egypt Sisi 2018 presidential election reelection results",
+          "document_id": "1566"
+        },
+        "2011-10-10": {
+          "rank": 45,
+          "query_number": 53,
+          "query": "Rabaa al-Adawiya mosque sit-in dispersal August 2013 casualties",
+          "document_id": "1883"
+        },
+        "2012-06-13": {
+          "rank": 19,
+          "query_number": 42,
+          "query": "Abdel Fattah el-Sisi elected president Egypt 2014",
+          "document_id": "1479"
+        },
+        "2011-01-27": {
+          "rank": 60,
+          "query_number": 48,
+          "query": "Rabaa al-Adawiya sit-in dispersal August 2013 Egypt",
+          "document_id": "2752"
+        },
+        "2011-05-24": {
+          "rank": 81,
+          "query_number": 48,
+          "query": "Rabaa al-Adawiya sit-in dispersal August 2013 Egypt",
+          "document_id": "5377"
+        },
+        "2012-10-08": {
+          "rank": 14,
+          "query_number": 63,
+          "query": "Mohamed Morsi trial court charges Egypt 2014 2015",
+          "document_id": "2075"
+        },
+        "2011-05-13": {
+          "rank": 60,
+          "query_number": 62,
+          "query": "Rabaa al-Adawiya sit-in dispersal August 2013 Muslim Brotherhood",
+          "document_id": "1668"
+        },
+        "2012-06-26": {
+          "rank": 35,
+          "query_number": 63,
+          "query": "Mohamed Morsi trial court charges Egypt 2014 2015",
+          "document_id": "3449"
+        },
+        "2011-08-01": {
+          "rank": 75,
+          "query_number": 67,
+          "query": "Egypt interim cabinet Hazem el-Beblawi government July 2013",
+          "document_id": "5012"
+        }
+      },
+      "diagnostic_probes": [
+        {
+          "target_date": "2011-02-02",
+          "query": "Egypt Mubarak supporters Tahrir Square clashes February 2011",
+          "top12_target_date_hit": true,
+          "matching_articles": [
+            {
+              "rank": 11,
+              "document_id": "4173"
+            },
+            {
+              "rank": 31,
+              "document_id": "4863"
+            },
+            {
+              "rank": 33,
+              "document_id": "2643"
+            },
+            {
+              "rank": 38,
+              "document_id": "5201"
+            },
+            {
+              "rank": 46,
+              "document_id": "5227"
+            },
+            {
+              "rank": 78,
+              "document_id": "3986"
+            },
+            {
+              "rank": 109,
+              "document_id": "5601"
+            },
+            {
+              "rank": 114,
+              "document_id": "2588"
+            }
+          ],
+          "best_rank_under_original_queries": {
+            "rank": 13,
+            "query_number": 37,
+            "query": "Sinai insurgency militant attacks Egypt military response 2013 2014",
+            "document_id": "2727"
+          }
+        },
+        {
+          "target_date": "2011-03-03",
+          "query": "Egypt Prime Minister Ahmed Shafik resigns March 2011",
+          "top12_target_date_hit": false,
+          "matching_articles": [
+            {
+              "rank": 17,
+              "document_id": "2925"
+            }
+          ],
+          "best_rank_under_original_queries": {
+            "rank": 87,
+            "query_number": 26,
+            "query": "Hosni Mubarak retrial acquittal release 2014 2017",
+            "document_id": "2925"
+          }
+        }
+      ]
+    },
+    {
+      "topic": "libya",
+      "gold_available": 113,
+      "original_query_count": 60,
+      "time_filter_modes": {
+        "none": 60
+      },
+      "original_final_hits": 55,
+      "original_retrieved_hits": 55,
+      "saved_top12_replay_mismatches": [],
+      "measurements": {
+        "fixed12": {
+          "unique_articles": 375,
+          "retrieved_gold_date_hits": 55,
+          "new_previously_unretrieved_gold_dates": []
+        },
+        "fixed24": {
+          "unique_articles": 642,
+          "retrieved_gold_date_hits": 70,
+          "new_previously_unretrieved_gold_dates": [
+            "2011-02-15",
+            "2011-03-02",
+            "2011-03-24",
+            "2011-03-30",
+            "2011-03-31",
+            "2011-04-07",
+            "2011-04-10",
+            "2011-05-05",
+            "2011-07-06",
+            "2011-08-23",
+            "2011-09-01",
+            "2011-09-07",
+            "2011-09-13",
+            "2011-09-16",
+            "2011-09-21"
+          ]
+        },
+        "fixed50": {
+          "unique_articles": 1106,
+          "retrieved_gold_date_hits": 87,
+          "new_previously_unretrieved_gold_dates": [
+            "2011-02-15",
+            "2011-02-23",
+            "2011-02-25",
+            "2011-02-28",
+            "2011-03-02",
+            "2011-03-10",
+            "2011-03-24",
+            "2011-03-27",
+            "2011-03-30",
+            "2011-03-31",
+            "2011-04-06",
+            "2011-04-07",
+            "2011-04-10",
+            "2011-04-24",
+            "2011-05-01",
+            "2011-05-05",
+            "2011-05-20",
+            "2011-05-22",
+            "2011-06-22",
+            "2011-06-29",
+            "2011-07-06",
+            "2011-07-14",
+            "2011-08-19",
+            "2011-08-23",
+            "2011-09-01",
+            "2011-09-07",
+            "2011-09-13",
+            "2011-09-16",
+            "2011-09-20",
+            "2011-09-21",
+            "2011-10-02",
+            "2011-10-25"
+          ]
+        },
+        "fixed_all": {
+          "unique_articles": 1839,
+          "retrieved_gold_date_hits": 99,
+          "new_previously_unretrieved_gold_dates": [
+            "2011-02-15",
+            "2011-02-18",
+            "2011-02-21",
+            "2011-02-23",
+            "2011-02-25",
+            "2011-02-28",
+            "2011-03-02",
+            "2011-03-05",
+            "2011-03-10",
+            "2011-03-24",
+            "2011-03-27",
+            "2011-03-30",
+            "2011-03-31",
+            "2011-04-06",
+            "2011-04-07",
+            "2011-04-08",
+            "2011-04-10",
+            "2011-04-24",
+            "2011-05-01",
+            "2011-05-05",
+            "2011-05-20",
+            "2011-05-22",
+            "2011-06-14",
+            "2011-06-19",
+            "2011-06-22",
+            "2011-06-29",
+            "2011-06-30",
+            "2011-07-06",
+            "2011-07-14",
+            "2011-08-09",
+            "2011-08-16",
+            "2011-08-19",
+            "2011-08-23",
+            "2011-08-29",
+            "2011-09-01",
+            "2011-09-07",
+            "2011-09-08",
+            "2011-09-13",
+            "2011-09-16",
+            "2011-09-20",
+            "2011-09-21",
+            "2011-10-02",
+            "2011-10-17",
+            "2011-10-25"
+          ]
+        },
+        "native24": {
+          "unique_articles": 604,
+          "retrieved_gold_date_hits": 66,
+          "new_previously_unretrieved_gold_dates": [
+            "2011-03-10",
+            "2011-03-24",
+            "2011-03-31",
+            "2011-04-07",
+            "2011-04-10",
+            "2011-06-19",
+            "2011-08-23",
+            "2011-09-01",
+            "2011-09-13",
+            "2011-09-16",
+            "2011-10-02"
+          ]
+        },
+        "native50": {
+          "unique_articles": 1026,
+          "retrieved_gold_date_hits": 85,
+          "new_previously_unretrieved_gold_dates": [
+            "2011-02-15",
+            "2011-02-23",
+            "2011-02-28",
+            "2011-03-02",
+            "2011-03-10",
+            "2011-03-24",
+            "2011-03-27",
+            "2011-03-30",
+            "2011-03-31",
+            "2011-04-06",
+            "2011-04-07",
+            "2011-04-10",
+            "2011-04-24",
+            "2011-05-05",
+            "2011-05-20",
+            "2011-05-22",
+            "2011-06-14",
+            "2011-06-19",
+            "2011-06-29",
+            "2011-07-06",
+            "2011-08-16",
+            "2011-08-19",
+            "2011-08-23",
+            "2011-09-01",
+            "2011-09-07",
+            "2011-09-13",
+            "2011-09-16",
+            "2011-09-21",
+            "2011-10-02",
+            "2011-10-25"
+          ]
+        },
+        "candidate_union": {
+          "unique_articles": 1839,
+          "retrieved_gold_date_hits": 99,
+          "new_previously_unretrieved_gold_dates": [
+            "2011-02-15",
+            "2011-02-18",
+            "2011-02-21",
+            "2011-02-23",
+            "2011-02-25",
+            "2011-02-28",
+            "2011-03-02",
+            "2011-03-05",
+            "2011-03-10",
+            "2011-03-24",
+            "2011-03-27",
+            "2011-03-30",
+            "2011-03-31",
+            "2011-04-06",
+            "2011-04-07",
+            "2011-04-08",
+            "2011-04-10",
+            "2011-04-24",
+            "2011-05-01",
+            "2011-05-05",
+            "2011-05-20",
+            "2011-05-22",
+            "2011-06-14",
+            "2011-06-19",
+            "2011-06-22",
+            "2011-06-29",
+            "2011-06-30",
+            "2011-07-06",
+            "2011-07-14",
+            "2011-08-09",
+            "2011-08-16",
+            "2011-08-19",
+            "2011-08-23",
+            "2011-08-29",
+            "2011-09-01",
+            "2011-09-07",
+            "2011-09-08",
+            "2011-09-13",
+            "2011-09-16",
+            "2011-09-20",
+            "2011-09-21",
+            "2011-10-02",
+            "2011-10-17",
+            "2011-10-25"
+          ]
+        }
+      },
+      "missing_date_partition": {
+        "returned_after_top12_in_original_pool": [
+          "2011-02-15",
+          "2011-02-18",
+          "2011-02-21",
+          "2011-02-23",
+          "2011-02-25",
+          "2011-02-28",
+          "2011-03-02",
+          "2011-03-05",
+          "2011-03-10",
+          "2011-03-24",
+          "2011-03-27",
+          "2011-03-30",
+          "2011-03-31",
+          "2011-04-06",
+          "2011-04-07",
+          "2011-04-08",
+          "2011-04-10",
+          "2011-04-24",
+          "2011-05-01",
+          "2011-05-05",
+          "2011-05-20",
+          "2011-05-22",
+          "2011-06-14",
+          "2011-06-19",
+          "2011-06-22",
+          "2011-06-29",
+          "2011-06-30",
+          "2011-07-06",
+          "2011-07-14",
+          "2011-08-09",
+          "2011-08-16",
+          "2011-08-19",
+          "2011-08-23",
+          "2011-08-29",
+          "2011-09-01",
+          "2011-09-07",
+          "2011-09-08",
+          "2011-09-13",
+          "2011-09-16",
+          "2011-09-20",
+          "2011-09-21",
+          "2011-10-02",
+          "2011-10-17",
+          "2011-10-25"
+        ],
+        "present_only_before_content_deduplication": [],
+        "outside_original_bm25_and_dense_top60_pools": [
+          "2011-02-16",
+          "2011-02-17",
+          "2011-03-13",
+          "2011-04-30",
+          "2011-05-08",
+          "2011-06-07",
+          "2011-07-19",
+          "2011-08-05",
+          "2011-08-10",
+          "2011-08-14",
+          "2011-09-18",
+          "2011-09-27",
+          "2011-09-28",
+          "2011-11-19"
+        ]
+      },
+      "best_missing_date_ranks": {
+        "2011-09-01": {
+          "rank": 13,
+          "query_number": 1,
+          "query": "Libya political transition government formation prime minister",
+          "document_id": "5736"
+        },
+        "2011-08-23": {
+          "rank": 24,
+          "query_number": 9,
+          "query": "Libya Khalifa Haftar Libyan National Army Tripoli offensive 2019",
+          "document_id": "5336"
+        },
+        "2011-10-17": {
+          "rank": 66,
+          "query_number": 1,
+          "query": "Libya political transition government formation prime minister",
+          "document_id": "5760"
+        },
+        "2011-02-28": {
+          "rank": 26,
+          "query_number": 23,
+          "query": "Libya 2015 Skhirat agreement unity government signing",
+          "document_id": "1916"
+        },
+        "2011-03-24": {
+          "rank": 16,
+          "query_number": 31,
+          "query": "Libya 2015 Skhirat agreement Government of National Accord",
+          "document_id": "935"
+        },
+        "2011-04-07": {
+          "rank": 24,
+          "query_number": 22,
+          "query": "Libya 2014 Operation Dignity Benghazi civil war escalation",
+          "document_id": "1450"
+        },
+        "2011-05-05": {
+          "rank": 18,
+          "query_number": 31,
+          "query": "Libya 2015 Skhirat agreement Government of National Accord",
+          "document_id": "2857"
+        },
+        "2011-03-05": {
+          "rank": 82,
+          "query_number": 2,
+          "query": "Libya civil conflict ceasefire military escalation",
+          "document_id": "84"
+        },
+        "2011-05-22": {
+          "rank": 25,
+          "query_number": 3,
+          "query": "Libya elections constitutional framework national reconciliation",
+          "document_id": "3032"
+        },
+        "2011-05-20": {
+          "rank": 38,
+          "query_number": 3,
+          "query": "Libya elections constitutional framework national reconciliation",
+          "document_id": "3143"
+        },
+        "2011-03-10": {
+          "rank": 26,
+          "query_number": 28,
+          "query": "Libya 2013 political crisis General National Congress no-confidence Zeidan",
+          "document_id": "4676"
+        },
+        "2011-03-02": {
+          "rank": 23,
+          "query_number": 8,
+          "query": "Libya Islamic State Sirte offensive 2016 liberation",
+          "document_id": "3825"
+        },
+        "2011-06-19": {
+          "rank": 57,
+          "query_number": 10,
+          "query": "Libya Ali Zeidan ousted prime minister vote of no confidence 2014",
+          "document_id": "5668"
+        },
+        "2011-03-30": {
+          "rank": 24,
+          "query_number": 15,
+          "query": "Libya 2020 Berlin conference ceasefire permanent agreement elections",
+          "document_id": "1"
+        },
+        "2011-02-23": {
+          "rank": 31,
+          "query_number": 42,
+          "query": "Libya 2020 ceasefire Berlin conference political dialogue",
+          "document_id": "5102"
+        },
+        "2011-04-10": {
+          "rank": 23,
+          "query_number": 36,
+          "query": "Libya 2014 Misrata Libya Dawn Operation Tripoli airport",
+          "document_id": "5659"
+        },
+        "2011-04-08": {
+          "rank": 59,
+          "query_number": 20,
+          "query": "Libya 2016 Government of National Accord Serraj arrival Tripoli",
+          "document_id": "5234"
+        },
+        "2011-09-13": {
+          "rank": 20,
+          "query_number": 55,
+          "query": "Libya 2023 Derna flood dam collapse deaths aid",
+          "document_id": "6181"
+        },
+        "2011-09-16": {
+          "rank": 13,
+          "query_number": 32,
+          "query": "Libya 2016 Sirte Islamic State offensive Misrata forces",
+          "document_id": "5805"
+        },
+        "2011-10-25": {
+          "rank": 29,
+          "query_number": 45,
+          "query": "Libya Gaddafi capture Sirte 2011 aftermath burial",
+          "document_id": "4152"
+        },
+        "2011-08-29": {
+          "rank": 90,
+          "query_number": 58,
+          "query": "Libya 2011 Gaddafi captured Sirte killed NATO campaign end",
+          "document_id": "1081"
+        },
+        "2011-02-25": {
+          "rank": 31,
+          "query_number": 14,
+          "query": "Libya Skhirat agreement 2015 UN peace talks signing",
+          "document_id": "3467"
+        },
+        "2011-07-06": {
+          "rank": 20,
+          "query_number": 9,
+          "query": "Libya Khalifa Haftar Libyan National Army Tripoli offensive 2019",
+          "document_id": "3328"
+        },
+        "2011-03-31": {
+          "rank": 17,
+          "query_number": 11,
+          "query": "Libya General National Congress mandate extension protests 2013",
+          "document_id": "279"
+        },
+        "2011-02-18": {
+          "rank": 80,
+          "query_number": 9,
+          "query": "Libya Khalifa Haftar Libyan National Army Tripoli offensive 2019",
+          "document_id": "4343"
+        },
+        "2011-08-19": {
+          "rank": 34,
+          "query_number": 10,
+          "query": "Libya Ali Zeidan ousted prime minister vote of no confidence 2014",
+          "document_id": "5008"
+        },
+        "2011-08-16": {
+          "rank": 70,
+          "query_number": 40,
+          "query": "Libya 2019 Haftar Tripoli offensive LNA advance",
+          "document_id": "292"
+        },
+        "2011-09-07": {
+          "rank": 24,
+          "query_number": 10,
+          "query": "Libya Ali Zeidan ousted prime minister vote of no confidence 2014",
+          "document_id": "1455"
+        },
+        "2011-02-15": {
+          "rank": 23,
+          "query_number": 52,
+          "query": "Libya 2017 2018 Paris Palermo conference elections Haftar",
+          "document_id": "5201"
+        },
+        "2011-09-20": {
+          "rank": 44,
+          "query_number": 11,
+          "query": "Libya General National Congress mandate extension protests 2013",
+          "document_id": "607"
+        },
+        "2011-06-22": {
+          "rank": 44,
+          "query_number": 23,
+          "query": "Libya 2015 Skhirat agreement unity government signing",
+          "document_id": "1297"
+        },
+        "2011-06-30": {
+          "rank": 69,
+          "query_number": 11,
+          "query": "Libya General National Congress mandate extension protests 2013",
+          "document_id": "3821"
+        },
+        "2011-05-01": {
+          "rank": 43,
+          "query_number": 14,
+          "query": "Libya Skhirat agreement 2015 UN peace talks signing",
+          "document_id": "5559"
+        },
+        "2011-06-14": {
+          "rank": 56,
+          "query_number": 30,
+          "query": "Libya 2023 Dbeibah GNU interim government political deadlock",
+          "document_id": "5414"
+        },
+        "2011-06-29": {
+          "rank": 31,
+          "query_number": 43,
+          "query": "Libya July 2012 election National Congress results",
+          "document_id": "579"
+        },
+        "2011-07-14": {
+          "rank": 42,
+          "query_number": 21,
+          "query": "Libya 2017 Haftar Libyan National Army Benghazi victory",
+          "document_id": "1718"
+        },
+        "2011-10-02": {
+          "rank": 36,
+          "query_number": 24,
+          "query": "Libya 2020 Berlin conference ceasefire Sirte Jufra",
+          "document_id": "5228"
+        },
+        "2011-04-06": {
+          "rank": 28,
+          "query_number": 29,
+          "query": "Libya 2014 parliamentary election House of Representatives Tobruk",
+          "document_id": "1083"
+        },
+        "2011-04-24": {
+          "rank": 45,
+          "query_number": 55,
+          "query": "Libya 2023 Derna flood dam collapse deaths aid",
+          "document_id": "3023"
+        },
+        "2011-03-27": {
+          "rank": 45,
+          "query_number": 45,
+          "query": "Libya Gaddafi capture Sirte 2011 aftermath burial",
+          "document_id": "4940"
+        },
+        "2011-09-08": {
+          "rank": 82,
+          "query_number": 46,
+          "query": "Libya 2011 NTC transitional government formation Jibril",
+          "document_id": "821"
+        },
+        "2011-08-09": {
+          "rank": 71,
+          "query_number": 52,
+          "query": "Libya 2017 2018 Paris Palermo conference elections Haftar",
+          "document_id": "5602"
+        },
+        "2011-09-21": {
+          "rank": 24,
+          "query_number": 55,
+          "query": "Libya 2023 Derna flood dam collapse deaths aid",
+          "document_id": "757"
+        },
+        "2011-02-21": {
+          "rank": 53,
+          "query_number": 55,
+          "query": "Libya 2023 Derna flood dam collapse deaths aid",
+          "document_id": "3968"
+        }
+      },
+      "diagnostic_probes": [
+        {
+          "target_date": "2011-04-30",
+          "query": "Libya NATO airstrike Gaddafi son grandchildren killed April 2011",
+          "top12_target_date_hit": true,
+          "matching_articles": [
+            {
+              "rank": 12,
+              "document_id": "6147"
+            }
+          ],
+          "best_rank_under_original_queries": null
+        },
+        {
+          "target_date": "2011-08-23",
+          "query": "Libya rebels storm Bab al Aziziya compound Tripoli August 2011",
+          "top12_target_date_hit": true,
+          "matching_articles": [
+            {
+              "rank": 1,
+              "document_id": "5336"
+            },
+            {
+              "rank": 4,
+              "document_id": "3998"
+            },
+            {
+              "rank": 9,
+              "document_id": "132"
+            },
+            {
+              "rank": 17,
+              "document_id": "2492"
+            },
+            {
+              "rank": 23,
+              "document_id": "2911"
+            },
+            {
+              "rank": 75,
+              "document_id": "1574"
+            }
+          ],
+          "best_rank_under_original_queries": {
+            "rank": 24,
+            "query_number": 9,
+            "query": "Libya Khalifa Haftar Libyan National Army Tripoli offensive 2019",
+            "document_id": "5336"
+          }
+        }
+      ]
+    },
+    {
+      "topic": "syria",
+      "gold_available": 65,
+      "original_query_count": 65,
+      "time_filter_modes": {
+        "none": 65
+      },
+      "original_final_hits": 25,
+      "original_retrieved_hits": 26,
+      "saved_top12_replay_mismatches": [],
+      "measurements": {
+        "fixed12": {
+          "unique_articles": 439,
+          "retrieved_gold_date_hits": 26,
+          "new_previously_unretrieved_gold_dates": []
+        },
+        "fixed24": {
+          "unique_articles": 768,
+          "retrieved_gold_date_hits": 36,
+          "new_previously_unretrieved_gold_dates": [
+            "2012-02-09",
+            "2012-04-16",
+            "2012-05-10",
+            "2012-07-19",
+            "2012-08-06",
+            "2012-08-13",
+            "2012-12-03",
+            "2012-12-28",
+            "2013-02-21",
+            "2013-07-06"
+          ]
+        },
+        "fixed50": {
+          "unique_articles": 1379,
+          "retrieved_gold_date_hits": 55,
+          "new_previously_unretrieved_gold_dates": [
+            "2011-03-18",
+            "2011-11-16",
+            "2011-12-02",
+            "2012-02-06",
+            "2012-02-09",
+            "2012-02-26",
+            "2012-03-27",
+            "2012-04-12",
+            "2012-04-16",
+            "2012-05-10",
+            "2012-07-06",
+            "2012-07-13",
+            "2012-07-14",
+            "2012-07-18",
+            "2012-07-19",
+            "2012-07-23",
+            "2012-08-03",
+            "2012-08-06",
+            "2012-08-13",
+            "2012-08-14",
+            "2012-08-15",
+            "2012-09-26",
+            "2012-10-17",
+            "2012-12-03",
+            "2012-12-11",
+            "2012-12-28",
+            "2013-01-01",
+            "2013-02-21",
+            "2013-07-06"
+          ]
+        },
+        "fixed_all": {
+          "unique_articles": 2381,
+          "retrieved_gold_date_hits": 60,
+          "new_previously_unretrieved_gold_dates": [
+            "2011-03-18",
+            "2011-11-16",
+            "2011-11-27",
+            "2011-12-02",
+            "2012-02-06",
+            "2012-02-09",
+            "2012-02-26",
+            "2012-03-21",
+            "2012-03-27",
+            "2012-04-12",
+            "2012-04-16",
+            "2012-05-10",
+            "2012-05-27",
+            "2012-07-06",
+            "2012-07-13",
+            "2012-07-14",
+            "2012-07-18",
+            "2012-07-19",
+            "2012-07-23",
+            "2012-08-03",
+            "2012-08-06",
+            "2012-08-13",
+            "2012-08-14",
+            "2012-08-15",
+            "2012-09-26",
+            "2012-10-17",
+            "2012-11-25",
+            "2012-11-29",
+            "2012-12-03",
+            "2012-12-11",
+            "2012-12-28",
+            "2013-01-01",
+            "2013-02-21",
+            "2013-07-06"
+          ]
+        },
+        "native24": {
+          "unique_articles": 765,
+          "retrieved_gold_date_hits": 40,
+          "new_previously_unretrieved_gold_dates": [
+            "2011-11-16",
+            "2011-11-27",
+            "2012-02-09",
+            "2012-03-27",
+            "2012-07-06",
+            "2012-07-19",
+            "2012-08-03",
+            "2012-08-13",
+            "2012-08-14",
+            "2012-09-26",
+            "2012-10-17",
+            "2012-12-03",
+            "2013-02-21",
+            "2013-07-06"
+          ]
+        },
+        "native50": {
+          "unique_articles": 1326,
+          "retrieved_gold_date_hits": 53,
+          "new_previously_unretrieved_gold_dates": [
+            "2011-11-16",
+            "2011-11-27",
+            "2011-12-02",
+            "2012-02-06",
+            "2012-02-09",
+            "2012-02-26",
+            "2012-03-27",
+            "2012-04-12",
+            "2012-04-16",
+            "2012-05-10",
+            "2012-07-06",
+            "2012-07-13",
+            "2012-07-18",
+            "2012-07-19",
+            "2012-07-23",
+            "2012-08-03",
+            "2012-08-06",
+            "2012-08-13",
+            "2012-08-14",
+            "2012-08-15",
+            "2012-09-26",
+            "2012-10-17",
+            "2012-12-03",
+            "2012-12-11",
+            "2012-12-28",
+            "2013-02-21",
+            "2013-07-06"
+          ]
+        },
+        "candidate_union": {
+          "unique_articles": 2384,
+          "retrieved_gold_date_hits": 60,
+          "new_previously_unretrieved_gold_dates": [
+            "2011-03-18",
+            "2011-11-16",
+            "2011-11-27",
+            "2011-12-02",
+            "2012-02-06",
+            "2012-02-09",
+            "2012-02-26",
+            "2012-03-21",
+            "2012-03-27",
+            "2012-04-12",
+            "2012-04-16",
+            "2012-05-10",
+            "2012-05-27",
+            "2012-07-06",
+            "2012-07-13",
+            "2012-07-14",
+            "2012-07-18",
+            "2012-07-19",
+            "2012-07-23",
+            "2012-08-03",
+            "2012-08-06",
+            "2012-08-13",
+            "2012-08-14",
+            "2012-08-15",
+            "2012-09-26",
+            "2012-10-17",
+            "2012-11-25",
+            "2012-11-29",
+            "2012-12-03",
+            "2012-12-11",
+            "2012-12-28",
+            "2013-01-01",
+            "2013-02-21",
+            "2013-07-06"
+          ]
+        }
+      },
+      "missing_date_partition": {
+        "returned_after_top12_in_original_pool": [
+          "2011-03-18",
+          "2011-11-16",
+          "2011-11-27",
+          "2011-12-02",
+          "2012-02-06",
+          "2012-02-09",
+          "2012-02-26",
+          "2012-03-21",
+          "2012-03-27",
+          "2012-04-12",
+          "2012-04-16",
+          "2012-05-10",
+          "2012-05-27",
+          "2012-07-06",
+          "2012-07-13",
+          "2012-07-14",
+          "2012-07-18",
+          "2012-07-19",
+          "2012-07-23",
+          "2012-08-03",
+          "2012-08-06",
+          "2012-08-13",
+          "2012-08-14",
+          "2012-08-15",
+          "2012-09-26",
+          "2012-10-17",
+          "2012-11-25",
+          "2012-11-29",
+          "2012-12-03",
+          "2012-12-11",
+          "2012-12-28",
+          "2013-01-01",
+          "2013-02-21",
+          "2013-07-06"
+        ],
+        "present_only_before_content_deduplication": [],
+        "outside_original_bm25_and_dense_top60_pools": [
+          "2011-12-20",
+          "2012-02-03",
+          "2012-05-25",
+          "2012-06-16",
+          "2012-06-21"
+        ]
+      },
+      "best_missing_date_ranks": {
+        "2013-07-06": {
+          "rank": 24,
+          "query_number": 23,
+          "query": "Syria rebel offensive Qusair Homs 2013 government gains",
+          "document_id": "5838"
+        },
+        "2012-02-09": {
+          "rank": 20,
+          "query_number": 39,
+          "query": "Syria barrel bombs Aleppo civilian casualties 2014 government offensive",
+          "document_id": "5479"
+        },
+        "2012-11-29": {
+          "rank": 85,
+          "query_number": 23,
+          "query": "Syria rebel offensive Qusair Homs 2013 government gains",
+          "document_id": "3958"
+        },
+        "2012-02-26": {
+          "rank": 35,
+          "query_number": 2,
+          "query": "Syria political transition government change 2024 2025",
+          "document_id": "1094"
+        },
+        "2012-07-06": {
+          "rank": 40,
+          "query_number": 2,
+          "query": "Syria political transition government change 2024 2025",
+          "document_id": "409"
+        },
+        "2012-03-27": {
+          "rank": 39,
+          "query_number": 56,
+          "query": "Geneva II peace talks Syria 2014 opposition Assad negotiations",
+          "document_id": "4112"
+        },
+        "2012-07-18": {
+          "rank": 27,
+          "query_number": 25,
+          "query": "Syria Homs old city siege evacuation rebels 2014",
+          "document_id": "5167"
+        },
+        "2013-02-21": {
+          "rank": 17,
+          "query_number": 39,
+          "query": "Syria barrel bombs Aleppo civilian casualties 2014 government offensive",
+          "document_id": "1142"
+        },
+        "2012-08-03": {
+          "rank": 26,
+          "query_number": 36,
+          "query": "Syria chemical weapons disarmament UN resolution October 2013",
+          "document_id": "386"
+        },
+        "2012-09-26": {
+          "rank": 34,
+          "query_number": 39,
+          "query": "Syria barrel bombs Aleppo civilian casualties 2014 government offensive",
+          "document_id": "1992"
+        },
+        "2012-07-23": {
+          "rank": 37,
+          "query_number": 13,
+          "query": "Syria chemical weapons disarmament OPCW destruction 2014",
+          "document_id": "5051"
+        },
+        "2012-08-14": {
+          "rank": 25,
+          "query_number": 5,
+          "query": "Syria refugee crisis neighboring countries Turkey Lebanon Jordan 2014 2015",
+          "document_id": "1776"
+        },
+        "2012-08-15": {
+          "rank": 35,
+          "query_number": 53,
+          "query": "Turkey military operation northern Syria Afrin Euphrates Shield SDF",
+          "document_id": "2747"
+        },
+        "2012-12-28": {
+          "rank": 21,
+          "query_number": 47,
+          "query": "Geneva II peace talks Syria negotiations January 2014",
+          "document_id": "3769"
+        },
+        "2012-07-19": {
+          "rank": 15,
+          "query_number": 7,
+          "query": "Russia military intervention Syria airstrikes 2015 2016",
+          "document_id": "4786"
+        },
+        "2012-08-13": {
+          "rank": 16,
+          "query_number": 43,
+          "query": "Syria US airstrikes Islamic State intervention September 2014",
+          "document_id": "3065"
+        },
+        "2012-02-06": {
+          "rank": 29,
+          "query_number": 9,
+          "query": "Syria Arab League readmission Assad regional normalization 2023",
+          "document_id": "585"
+        },
+        "2012-07-14": {
+          "rank": 35,
+          "query_number": 9,
+          "query": "Syria Arab League readmission Assad regional normalization 2023",
+          "document_id": "4460"
+        },
+        "2011-11-16": {
+          "rank": 44,
+          "query_number": 9,
+          "query": "Syria Arab League readmission Assad regional normalization 2023",
+          "document_id": "1613"
+        },
+        "2011-11-27": {
+          "rank": 75,
+          "query_number": 9,
+          "query": "Syria Arab League readmission Assad regional normalization 2023",
+          "document_id": "1356"
+        },
+        "2012-12-03": {
+          "rank": 18,
+          "query_number": 55,
+          "query": "Ghouta chemical attack August 2013 Obama military strike Syria",
+          "document_id": "3741"
+        },
+        "2012-08-06": {
+          "rank": 20,
+          "query_number": 28,
+          "query": "Syria Palmyra Islamic State capture 2015 government recapture",
+          "document_id": "558"
+        },
+        "2013-01-01": {
+          "rank": 33,
+          "query_number": 25,
+          "query": "Syria Homs old city siege evacuation rebels 2014",
+          "document_id": "5464"
+        },
+        "2012-12-11": {
+          "rank": 30,
+          "query_number": 35,
+          "query": "Syria Islamic State Raqqa declaration caliphate 2014",
+          "document_id": "5375"
+        },
+        "2012-04-16": {
+          "rank": 21,
+          "query_number": 18,
+          "query": "Syria ceasefire Astana Sochi peace process 2017 2018",
+          "document_id": "967"
+        },
+        "2012-04-12": {
+          "rank": 26,
+          "query_number": 51,
+          "query": "Syria ceasefire Astana Sochi negotiations 2017 2018",
+          "document_id": "2538"
+        },
+        "2012-10-17": {
+          "rank": 31,
+          "query_number": 39,
+          "query": "Syria barrel bombs Aleppo civilian casualties 2014 government offensive",
+          "document_id": "3987"
+        },
+        "2012-07-13": {
+          "rank": 26,
+          "query_number": 41,
+          "query": "Syria Kurdish autonomous region declaration 2014 Rojava cantons",
+          "document_id": "1978"
+        },
+        "2012-05-27": {
+          "rank": 77,
+          "query_number": 25,
+          "query": "Syria Homs old city siege evacuation rebels 2014",
+          "document_id": "1789"
+        },
+        "2011-03-18": {
+          "rank": 44,
+          "query_number": 28,
+          "query": "Syria Palmyra Islamic State capture 2015 government recapture",
+          "document_id": "2009"
+        },
+        "2012-03-21": {
+          "rank": 61,
+          "query_number": 37,
+          "query": "Kobani Islamic State siege Kurdish fighters 2014 2015",
+          "document_id": "4149"
+        },
+        "2011-12-02": {
+          "rank": 47,
+          "query_number": 59,
+          "query": "Obama Syria military strike congressional vote September 2013",
+          "document_id": "717"
+        },
+        "2012-11-25": {
+          "rank": 57,
+          "query_number": 55,
+          "query": "Ghouta chemical attack August 2013 Obama military strike Syria",
+          "document_id": "4562"
+        },
+        "2012-05-10": {
+          "rank": 17,
+          "query_number": 58,
+          "query": "Ghouta chemical attack August 21 2013 casualties UN inspectors",
+          "document_id": "359"
+        }
+      },
+      "diagnostic_probes": [
+        {
+          "target_date": "2012-05-25",
+          "query": "Syria Houla massacre May 2012",
+          "top12_target_date_hit": true,
+          "matching_articles": [
+            {
+              "rank": 3,
+              "document_id": "5667"
+            },
+            {
+              "rank": 4,
+              "document_id": "4937"
+            },
+            {
+              "rank": 12,
+              "document_id": "4466"
+            },
+            {
+              "rank": 46,
+              "document_id": "4234"
+            },
+            {
+              "rank": 50,
+              "document_id": "25"
+            },
+            {
+              "rank": 63,
+              "document_id": "5959"
+            },
+            {
+              "rank": 69,
+              "document_id": "3961"
+            },
+            {
+              "rank": 98,
+              "document_id": "5727"
+            }
+          ],
+          "best_rank_under_original_queries": null
+        },
+        {
+          "target_date": "2012-08-06",
+          "query": "Syria Prime Minister Riad Hijab defects August 2012",
+          "top12_target_date_hit": true,
+          "matching_articles": [
+            {
+              "rank": 1,
+              "document_id": "5576"
+            },
+            {
+              "rank": 2,
+              "document_id": "4205"
+            },
+            {
+              "rank": 85,
+              "document_id": "2385"
+            }
+          ],
+          "best_rank_under_original_queries": {
+            "rank": 20,
+            "query_number": 28,
+            "query": "Syria Palmyra Islamic State capture 2015 government recapture",
+            "document_id": "558"
+          }
+        }
+      ]
+    },
+    {
+      "topic": "yemen",
+      "gold_available": 77,
+      "original_query_count": 66,
+      "time_filter_modes": {
+        "none": 66
+      },
+      "original_final_hits": 36,
+      "original_retrieved_hits": 36,
+      "saved_top12_replay_mismatches": [],
+      "measurements": {
+        "fixed12": {
+          "unique_articles": 329,
+          "retrieved_gold_date_hits": 36,
+          "new_previously_unretrieved_gold_dates": []
+        },
+        "fixed24": {
+          "unique_articles": 529,
+          "retrieved_gold_date_hits": 48,
+          "new_previously_unretrieved_gold_dates": [
+            "2011-02-02",
+            "2011-02-26",
+            "2011-03-02",
+            "2011-03-08",
+            "2011-04-19",
+            "2011-04-25",
+            "2011-05-24",
+            "2011-06-12",
+            "2011-09-07",
+            "2011-10-15",
+            "2011-12-10",
+            "2012-01-21"
+          ]
+        },
+        "fixed50": {
+          "unique_articles": 933,
+          "retrieved_gold_date_hits": 67,
+          "new_previously_unretrieved_gold_dates": [
+            "2011-02-02",
+            "2011-02-03",
+            "2011-02-23",
+            "2011-02-26",
+            "2011-03-02",
+            "2011-03-08",
+            "2011-03-11",
+            "2011-03-23",
+            "2011-03-25",
+            "2011-03-29",
+            "2011-04-01",
+            "2011-04-02",
+            "2011-04-19",
+            "2011-04-25",
+            "2011-05-11",
+            "2011-05-13",
+            "2011-05-23",
+            "2011-05-24",
+            "2011-06-12",
+            "2011-06-24",
+            "2011-07-07",
+            "2011-08-15",
+            "2011-09-07",
+            "2011-09-18",
+            "2011-09-23",
+            "2011-09-29",
+            "2011-10-07",
+            "2011-10-15",
+            "2011-12-10",
+            "2012-01-21",
+            "2012-02-07"
+          ]
+        },
+        "fixed_all": {
+          "unique_articles": 1423,
+          "retrieved_gold_date_hits": 73,
+          "new_previously_unretrieved_gold_dates": [
+            "2011-02-02",
+            "2011-02-03",
+            "2011-02-23",
+            "2011-02-26",
+            "2011-03-01",
+            "2011-03-02",
+            "2011-03-08",
+            "2011-03-11",
+            "2011-03-23",
+            "2011-03-25",
+            "2011-03-29",
+            "2011-04-01",
+            "2011-04-02",
+            "2011-04-03",
+            "2011-04-19",
+            "2011-04-25",
+            "2011-05-11",
+            "2011-05-13",
+            "2011-05-23",
+            "2011-05-24",
+            "2011-05-29",
+            "2011-05-30",
+            "2011-06-12",
+            "2011-06-24",
+            "2011-07-07",
+            "2011-08-15",
+            "2011-08-20",
+            "2011-09-07",
+            "2011-09-18",
+            "2011-09-23",
+            "2011-09-29",
+            "2011-10-07",
+            "2011-10-15",
+            "2011-12-10",
+            "2011-12-24",
+            "2012-01-21",
+            "2012-02-07"
+          ]
+        },
+        "native24": {
+          "unique_articles": 531,
+          "retrieved_gold_date_hits": 47,
+          "new_previously_unretrieved_gold_dates": [
+            "2011-02-26",
+            "2011-03-02",
+            "2011-03-23",
+            "2011-04-19",
+            "2011-05-23",
+            "2011-06-24",
+            "2011-07-07",
+            "2011-09-07",
+            "2011-12-10",
+            "2012-01-21",
+            "2012-02-07"
+          ]
+        },
+        "native50": {
+          "unique_articles": 885,
+          "retrieved_gold_date_hits": 65,
+          "new_previously_unretrieved_gold_dates": [
+            "2011-02-02",
+            "2011-02-03",
+            "2011-02-23",
+            "2011-02-26",
+            "2011-03-01",
+            "2011-03-02",
+            "2011-03-08",
+            "2011-03-23",
+            "2011-03-25",
+            "2011-04-02",
+            "2011-04-19",
+            "2011-04-25",
+            "2011-05-11",
+            "2011-05-23",
+            "2011-05-24",
+            "2011-06-12",
+            "2011-06-24",
+            "2011-07-07",
+            "2011-08-20",
+            "2011-09-07",
+            "2011-09-18",
+            "2011-09-23",
+            "2011-09-29",
+            "2011-10-07",
+            "2011-10-15",
+            "2011-12-10",
+            "2011-12-24",
+            "2012-01-21",
+            "2012-02-07"
+          ]
+        },
+        "candidate_union": {
+          "unique_articles": 1424,
+          "retrieved_gold_date_hits": 73,
+          "new_previously_unretrieved_gold_dates": [
+            "2011-02-02",
+            "2011-02-03",
+            "2011-02-23",
+            "2011-02-26",
+            "2011-03-01",
+            "2011-03-02",
+            "2011-03-08",
+            "2011-03-11",
+            "2011-03-23",
+            "2011-03-25",
+            "2011-03-29",
+            "2011-04-01",
+            "2011-04-02",
+            "2011-04-03",
+            "2011-04-19",
+            "2011-04-25",
+            "2011-05-11",
+            "2011-05-13",
+            "2011-05-23",
+            "2011-05-24",
+            "2011-05-29",
+            "2011-05-30",
+            "2011-06-12",
+            "2011-06-24",
+            "2011-07-07",
+            "2011-08-15",
+            "2011-08-20",
+            "2011-09-07",
+            "2011-09-18",
+            "2011-09-23",
+            "2011-09-29",
+            "2011-10-07",
+            "2011-10-15",
+            "2011-12-10",
+            "2011-12-24",
+            "2012-01-21",
+            "2012-02-07"
+          ]
+        }
+      },
+      "missing_date_partition": {
+        "returned_after_top12_in_original_pool": [
+          "2011-02-02",
+          "2011-02-03",
+          "2011-02-23",
+          "2011-02-26",
+          "2011-03-01",
+          "2011-03-02",
+          "2011-03-08",
+          "2011-03-11",
+          "2011-03-23",
+          "2011-03-25",
+          "2011-03-29",
+          "2011-04-01",
+          "2011-04-02",
+          "2011-04-03",
+          "2011-04-19",
+          "2011-04-25",
+          "2011-05-11",
+          "2011-05-13",
+          "2011-05-23",
+          "2011-05-24",
+          "2011-05-29",
+          "2011-05-30",
+          "2011-06-12",
+          "2011-06-24",
+          "2011-07-07",
+          "2011-08-15",
+          "2011-08-20",
+          "2011-09-07",
+          "2011-09-18",
+          "2011-09-23",
+          "2011-09-29",
+          "2011-10-07",
+          "2011-10-15",
+          "2011-12-10",
+          "2011-12-24",
+          "2012-01-21",
+          "2012-02-07"
+        ],
+        "present_only_before_content_deduplication": [],
+        "outside_original_bm25_and_dense_top60_pools": [
+          "2011-01-22",
+          "2011-08-29",
+          "2012-01-28",
+          "2012-02-16"
+        ]
+      },
+      "best_missing_date_ranks": {
+        "2011-06-12": {
+          "rank": 18,
+          "query_number": 59,
+          "query": "Yemen peace talks Kuwait 2016 UN ceasefire agreement",
+          "document_id": "4568"
+        },
+        "2011-04-19": {
+          "rank": 15,
+          "query_number": 18,
+          "query": "Yemen civil war UN peace talks Kuwait 2016",
+          "document_id": "1538"
+        },
+        "2011-07-07": {
+          "rank": 42,
+          "query_number": 49,
+          "query": "Yemen presidential council Rashad al-Alimi April 2022",
+          "document_id": "4295"
+        },
+        "2011-04-25": {
+          "rank": 19,
+          "query_number": 6,
+          "query": "Yemen peace negotiations UN ceasefire Hodeidah agreement",
+          "document_id": "2656"
+        },
+        "2011-03-02": {
+          "rank": 17,
+          "query_number": 2,
+          "query": "Yemen presidential leadership council political transition",
+          "document_id": "4631"
+        },
+        "2012-01-21": {
+          "rank": 17,
+          "query_number": 51,
+          "query": "Ali Abdullah Saleh Saudi Arabia medical treatment Riyadh June 2011 return",
+          "document_id": "5358"
+        },
+        "2011-03-23": {
+          "rank": 30,
+          "query_number": 26,
+          "query": "Yemen Red Sea shipping attacks Houthi 2024",
+          "document_id": "2816"
+        },
+        "2011-06-24": {
+          "rank": 31,
+          "query_number": 9,
+          "query": "Southern Transitional Council Aden Yemen separatism",
+          "document_id": "4158"
+        },
+        "2012-02-07": {
+          "rank": 30,
+          "query_number": 55,
+          "query": "Abd-Rabbu Mansour Hadi resignation Houthi house arrest January 2015",
+          "document_id": "1311"
+        },
+        "2011-02-03": {
+          "rank": 29,
+          "query_number": 9,
+          "query": "Southern Transitional Council Aden Yemen separatism",
+          "document_id": "959"
+        },
+        "2011-04-03": {
+          "rank": 61,
+          "query_number": 2,
+          "query": "Yemen presidential leadership council political transition",
+          "document_id": "1158"
+        },
+        "2011-09-23": {
+          "rank": 33,
+          "query_number": 51,
+          "query": "Ali Abdullah Saleh Saudi Arabia medical treatment Riyadh June 2011 return",
+          "document_id": "2297"
+        },
+        "2011-03-01": {
+          "rank": 58,
+          "query_number": 20,
+          "query": "Ali Abdullah Saleh killed Houthi alliance 2017",
+          "document_id": "4313"
+        },
+        "2011-10-07": {
+          "rank": 32,
+          "query_number": 37,
+          "query": "Yemen UN peace talks Kuwait Stockholm agreement 2016 2018",
+          "document_id": "230"
+        },
+        "2011-04-01": {
+          "rank": 42,
+          "query_number": 64,
+          "query": "Yemen national dialogue conference conclusion 2014",
+          "document_id": "1288"
+        },
+        "2011-04-02": {
+          "rank": 45,
+          "query_number": 16,
+          "query": "Houthi capture Sanaa Yemen September 2014",
+          "document_id": "3683"
+        },
+        "2011-05-23": {
+          "rank": 43,
+          "query_number": 11,
+          "query": "Yemen prisoner exchange detainees release negotiations",
+          "document_id": "5103"
+        },
+        "2011-05-29": {
+          "rank": 95,
+          "query_number": 6,
+          "query": "Yemen peace negotiations UN ceasefire Hodeidah agreement",
+          "document_id": "1923"
+        },
+        "2011-09-18": {
+          "rank": 27,
+          "query_number": 7,
+          "query": "Ali Abdullah Saleh killed Houthi Sanaa 2017",
+          "document_id": "2244"
+        },
+        "2011-05-13": {
+          "rank": 49,
+          "query_number": 11,
+          "query": "Yemen prisoner exchange detainees release negotiations",
+          "document_id": "2373"
+        },
+        "2011-03-25": {
+          "rank": 26,
+          "query_number": 20,
+          "query": "Ali Abdullah Saleh killed Houthi alliance 2017",
+          "document_id": "454"
+        },
+        "2011-02-23": {
+          "rank": 26,
+          "query_number": 8,
+          "query": "Hadi resigns ousted Aden Yemen 2015",
+          "document_id": "4067"
+        },
+        "2011-02-26": {
+          "rank": 14,
+          "query_number": 38,
+          "query": "Yemen Houthi advance Sanaa Saleh resignation January 2015",
+          "document_id": "2978"
+        },
+        "2011-02-02": {
+          "rank": 24,
+          "query_number": 38,
+          "query": "Yemen Houthi advance Sanaa Saleh resignation January 2015",
+          "document_id": "4438"
+        },
+        "2011-05-24": {
+          "rank": 20,
+          "query_number": 37,
+          "query": "Yemen UN peace talks Kuwait Stockholm agreement 2016 2018",
+          "document_id": "4226"
+        },
+        "2011-09-29": {
+          "rank": 42,
+          "query_number": 20,
+          "query": "Ali Abdullah Saleh killed Houthi alliance 2017",
+          "document_id": "257"
+        },
+        "2011-09-07": {
+          "rank": 16,
+          "query_number": 21,
+          "query": "Yemen cholera outbreak humanitarian crisis Saudi blockade",
+          "document_id": "4614"
+        },
+        "2011-03-29": {
+          "rank": 47,
+          "query_number": 11,
+          "query": "Yemen prisoner exchange detainees release negotiations",
+          "document_id": "467"
+        },
+        "2011-03-08": {
+          "rank": 24,
+          "query_number": 18,
+          "query": "Yemen civil war UN peace talks Kuwait 2016",
+          "document_id": "227"
+        },
+        "2011-05-11": {
+          "rank": 31,
+          "query_number": 65,
+          "query": "Houthi takeover Sanaa Yemen 2014 2015 government collapse",
+          "document_id": "2975"
+        },
+        "2011-10-15": {
+          "rank": 21,
+          "query_number": 36,
+          "query": "Yemen Saudi-led coalition airstrikes Operation Decisive Storm 2015",
+          "document_id": "1580"
+        },
+        "2011-12-10": {
+          "rank": 18,
+          "query_number": 37,
+          "query": "Yemen UN peace talks Kuwait Stockholm agreement 2016 2018",
+          "document_id": "5614"
+        },
+        "2011-08-20": {
+          "rank": 79,
+          "query_number": 55,
+          "query": "Abd-Rabbu Mansour Hadi resignation Houthi house arrest January 2015",
+          "document_id": "3835"
+        },
+        "2011-12-24": {
+          "rank": 74,
+          "query_number": 21,
+          "query": "Yemen cholera outbreak humanitarian crisis Saudi blockade",
+          "document_id": "395"
+        },
+        "2011-05-30": {
+          "rank": 83,
+          "query_number": 45,
+          "query": "Saudi-led coalition airstrikes Yemen March 2015 Operation Decisive Storm",
+          "document_id": "4874"
+        },
+        "2011-03-11": {
+          "rank": 40,
+          "query_number": 56,
+          "query": "Southern Transitional Council Aden independence Yemen 2017",
+          "document_id": "1930"
+        },
+        "2011-08-15": {
+          "rank": 41,
+          "query_number": 33,
+          "query": "Ali Abdullah Saleh Houthi alliance killed 2017 Yemen",
+          "document_id": "5047"
+        }
+      },
+      "diagnostic_probes": [
+        {
+          "target_date": "2011-09-18",
+          "query": "Yemen Sanaa protesters government forces open fire September 2011",
+          "top12_target_date_hit": false,
+          "matching_articles": [
+            {
+              "rank": 22,
+              "document_id": "2875"
+            },
+            {
+              "rank": 23,
+              "document_id": "1057"
+            },
+            {
+              "rank": 48,
+              "document_id": "3871"
+            },
+            {
+              "rank": 92,
+              "document_id": "4498"
+            }
+          ],
+          "best_rank_under_original_queries": {
+            "rank": 27,
+            "query_number": 7,
+            "query": "Ali Abdullah Saleh killed Houthi Sanaa 2017",
+            "document_id": "2244"
+          }
+        },
+        {
+          "target_date": "2011-09-23",
+          "query": "Yemen Saleh returns from Saudi Arabia September 2011",
+          "top12_target_date_hit": true,
+          "matching_articles": [
+            {
+              "rank": 3,
+              "document_id": "1184"
+            },
+            {
+              "rank": 24,
+              "document_id": "2297"
+            },
+            {
+              "rank": 56,
+              "document_id": "813"
+            },
+            {
+              "rank": 108,
+              "document_id": "3950"
+            }
+          ],
+          "best_rank_under_original_queries": {
+            "rank": 33,
+            "query_number": 51,
+            "query": "Ali Abdullah Saleh Saudi Arabia medical treatment Riyadh June 2011 return",
+            "document_id": "2297"
+          }
+        }
+      ]
+    }
+  ]
+}

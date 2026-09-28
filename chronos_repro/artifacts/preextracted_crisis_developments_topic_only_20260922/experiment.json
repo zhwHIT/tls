@@ -1,0 +1,37 @@
+{
+  "first_phase_only": true,
+  "fresh_run": true,
+  "model": "deepseek-v4-flash",
+  "temperature": 0,
+  "max_batches": 24,
+  "max_queries": 3,
+  "top_k": 12,
+  "workers": 3,
+  "keywords": {
+    "egypt": [
+      "egypt"
+    ],
+    "libya": [
+      "libya"
+    ],
+    "syria": [
+      "syria"
+    ],
+    "yemen": [
+      "yemen"
+    ]
+  },
+  "keyword_rollback_requested": true,
+  "superseded_run": "artifacts/preextracted_crisis_developments_20260922",
+  "search_changes": [
+    "No date-completion queue creation or presentation",
+    "No batch yield feedback in SEARCH input or prompt",
+    "Follow further developments using accepted events",
+    "Directions for people, countries, organizations and crisis/event topics"
+  ],
+  "baseline_root": "artifacts/preextracted_all_phase1_20260920",
+  "comparison_note": "Effective keywords and maximum budgets match original baseline; current prompt and flow differ. Baseline Syria resumed after schema recovery; all current runs use current recovery code. Single run, realized cost and stopping can differ.",
+  "gold_visible_during_rollout": false,
+  "prior_results_modified": false,
+  "last_offline_tests_passed": 82
+}

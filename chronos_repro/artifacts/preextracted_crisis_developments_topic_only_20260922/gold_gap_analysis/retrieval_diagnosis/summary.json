@@ -1,0 +1,21 @@
+{
+  "replayed_queries": 260,
+  "replay_mismatches": 0,
+  "gold_available": 361,
+  "original_final_hits": 156,
+  "retrieval_hits": {
+    "fixed12": 157,
+    "fixed24": 215,
+    "fixed50": 282,
+    "fixed_all": 318,
+    "native24": 213,
+    "native50": 279
+  },
+  "partition": {
+    "returned_after_top12_in_original_pool": 161,
+    "present_only_before_content_deduplication": 0,
+    "outside_original_bm25_and_dense_top60_pools": 43
+  },
+  "targeted_probe_hits": 6,
+  "targeted_probes": 8
+}

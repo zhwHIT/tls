@@ -1,0 +1,543 @@
+{
+  "topic": "yemen",
+  "gold_available": 77,
+  "original_query_count": 66,
+  "time_filter_modes": {
+    "none": 66
+  },
+  "original_final_hits": 36,
+  "original_retrieved_hits": 36,
+  "saved_top12_replay_mismatches": [],
+  "measurements": {
+    "fixed12": {
+      "unique_articles": 329,
+      "retrieved_gold_date_hits": 36,
+      "new_previously_unretrieved_gold_dates": []
+    },
+    "fixed24": {
+      "unique_articles": 529,
+      "retrieved_gold_date_hits": 48,
+      "new_previously_unretrieved_gold_dates": [
+        "2011-02-02",
+        "2011-02-26",
+        "2011-03-02",
+        "2011-03-08",
+        "2011-04-19",
+        "2011-04-25",
+        "2011-05-24",
+        "2011-06-12",
+        "2011-09-07",
+        "2011-10-15",
+        "2011-12-10",
+        "2012-01-21"
+      ]
+    },
+    "fixed50": {
+      "unique_articles": 933,
+      "retrieved_gold_date_hits": 67,
+      "new_previously_unretrieved_gold_dates": [
+        "2011-02-02",
+        "2011-02-03",
+        "2011-02-23",
+        "2011-02-26",
+        "2011-03-02",
+        "2011-03-08",
+        "2011-03-11",
+        "2011-03-23",
+        "2011-03-25",
+        "2011-03-29",
+        "2011-04-01",
+        "2011-04-02",
+        "2011-04-19",
+        "2011-04-25",
+        "2011-05-11",
+        "2011-05-13",
+        "2011-05-23",
+        "2011-05-24",
+        "2011-06-12",
+        "2011-06-24",
+        "2011-07-07",
+        "2011-08-15",
+        "2011-09-07",
+        "2011-09-18",
+        "2011-09-23",
+        "2011-09-29",
+        "2011-10-07",
+        "2011-10-15",
+        "2011-12-10",
+        "2012-01-21",
+        "2012-02-07"
+      ]
+    },
+    "fixed_all": {
+      "unique_articles": 1423,
+      "retrieved_gold_date_hits": 73,
+      "new_previously_unretrieved_gold_dates": [
+        "2011-02-02",
+        "2011-02-03",
+        "2011-02-23",
+        "2011-02-26",
+        "2011-03-01",
+        "2011-03-02",
+        "2011-03-08",
+        "2011-03-11",
+        "2011-03-23",
+        "2011-03-25",
+        "2011-03-29",
+        "2011-04-01",
+        "2011-04-02",
+        "2011-04-03",
+        "2011-04-19",
+        "2011-04-25",
+        "2011-05-11",
+        "2011-05-13",
+        "2011-05-23",
+        "2011-05-24",
+        "2011-05-29",
+        "2011-05-30",
+        "2011-06-12",
+        "2011-06-24",
+        "2011-07-07",
+        "2011-08-15",
+        "2011-08-20",
+        "2011-09-07",
+        "2011-09-18",
+        "2011-09-23",
+        "2011-09-29",
+        "2011-10-07",
+        "2011-10-15",
+        "2011-12-10",
+        "2011-12-24",
+        "2012-01-21",
+        "2012-02-07"
+      ]
+    },
+    "native24": {
+      "unique_articles": 531,
+      "retrieved_gold_date_hits": 47,
+      "new_previously_unretrieved_gold_dates": [
+        "2011-02-26",
+        "2011-03-02",
+        "2011-03-23",
+        "2011-04-19",
+        "2011-05-23",
+        "2011-06-24",
+        "2011-07-07",
+        "2011-09-07",
+        "2011-12-10",
+        "2012-01-21",
+        "2012-02-07"
+      ]
+    },
+    "native50": {
+      "unique_articles": 885,
+      "retrieved_gold_date_hits": 65,
+      "new_previously_unretrieved_gold_dates": [
+        "2011-02-02",
+        "2011-02-03",
+        "2011-02-23",
+        "2011-02-26",
+        "2011-03-01",
+        "2011-03-02",
+        "2011-03-08",
+        "2011-03-23",
+        "2011-03-25",
+        "2011-04-02",
+        "2011-04-19",
+        "2011-04-25",
+        "2011-05-11",
+        "2011-05-23",
+        "2011-05-24",
+        "2011-06-12",
+        "2011-06-24",
+        "2011-07-07",
+        "2011-08-20",
+        "2011-09-07",
+        "2011-09-18",
+        "2011-09-23",
+        "2011-09-29",
+        "2011-10-07",
+        "2011-10-15",
+        "2011-12-10",
+        "2011-12-24",
+        "2012-01-21",
+        "2012-02-07"
+      ]
+    },
+    "candidate_union": {
+      "unique_articles": 1424,
+      "retrieved_gold_date_hits": 73,
+      "new_previously_unretrieved_gold_dates": [
+        "2011-02-02",
+        "2011-02-03",
+        "2011-02-23",
+        "2011-02-26",
+        "2011-03-01",
+        "2011-03-02",
+        "2011-03-08",
+        "2011-03-11",
+        "2011-03-23",
+        "2011-03-25",
+        "2011-03-29",
+        "2011-04-01",
+        "2011-04-02",
+        "2011-04-03",
+        "2011-04-19",
+        "2011-04-25",
+        "2011-05-11",
+        "2011-05-13",
+        "2011-05-23",
+        "2011-05-24",
+        "2011-05-29",
+        "2011-05-30",
+        "2011-06-12",
+        "2011-06-24",
+        "2011-07-07",
+        "2011-08-15",
+        "2011-08-20",
+        "2011-09-07",
+        "2011-09-18",
+        "2011-09-23",
+        "2011-09-29",
+        "2011-10-07",
+        "2011-10-15",
+        "2011-12-10",
+        "2011-12-24",
+        "2012-01-21",
+        "2012-02-07"
+      ]
+    }
+  },
+  "missing_date_partition": {
+    "returned_after_top12_in_original_pool": [
+      "2011-02-02",
+      "2011-02-03",
+      "2011-02-23",
+      "2011-02-26",
+      "2011-03-01",
+      "2011-03-02",
+      "2011-03-08",
+      "2011-03-11",
+      "2011-03-23",
+      "2011-03-25",
+      "2011-03-29",
+      "2011-04-01",
+      "2011-04-02",
+      "2011-04-03",
+      "2011-04-19",
+      "2011-04-25",
+      "2011-05-11",
+      "2011-05-13",
+      "2011-05-23",
+      "2011-05-24",
+      "2011-05-29",
+      "2011-05-30",
+      "2011-06-12",
+      "2011-06-24",
+      "2011-07-07",
+      "2011-08-15",
+      "2011-08-20",
+      "2011-09-07",
+      "2011-09-18",
+      "2011-09-23",
+      "2011-09-29",
+      "2011-10-07",
+      "2011-10-15",
+      "2011-12-10",
+      "2011-12-24",
+      "2012-01-21",
+      "2012-02-07"
+    ],
+    "present_only_before_content_deduplication": [],
+    "outside_original_bm25_and_dense_top60_pools": [
+      "2011-01-22",
+      "2011-08-29",
+      "2012-01-28",
+      "2012-02-16"
+    ]
+  },
+  "best_missing_date_ranks": {
+    "2011-06-12": {
+      "rank": 18,
+      "query_number": 59,
+      "query": "Yemen peace talks Kuwait 2016 UN ceasefire agreement",
+      "document_id": "4568"
+    },
+    "2011-04-19": {
+      "rank": 15,
+      "query_number": 18,
+      "query": "Yemen civil war UN peace talks Kuwait 2016",
+      "document_id": "1538"
+    },
+    "2011-07-07": {
+      "rank": 42,
+      "query_number": 49,
+      "query": "Yemen presidential council Rashad al-Alimi April 2022",
+      "document_id": "4295"
+    },
+    "2011-04-25": {
+      "rank": 19,
+      "query_number": 6,
+      "query": "Yemen peace negotiations UN ceasefire Hodeidah agreement",
+      "document_id": "2656"
+    },
+    "2011-03-02": {
+      "rank": 17,
+      "query_number": 2,
+      "query": "Yemen presidential leadership council political transition",
+      "document_id": "4631"
+    },
+    "2012-01-21": {
+      "rank": 17,
+      "query_number": 51,
+      "query": "Ali Abdullah Saleh Saudi Arabia medical treatment Riyadh June 2011 return",
+      "document_id": "5358"
+    },
+    "2011-03-23": {
+      "rank": 30,
+      "query_number": 26,
+      "query": "Yemen Red Sea shipping attacks Houthi 2024",
+      "document_id": "2816"
+    },
+    "2011-06-24": {
+      "rank": 31,
+      "query_number": 9,
+      "query": "Southern Transitional Council Aden Yemen separatism",
+      "document_id": "4158"
+    },
+    "2012-02-07": {
+      "rank": 30,
+      "query_number": 55,
+      "query": "Abd-Rabbu Mansour Hadi resignation Houthi house arrest January 2015",
+      "document_id": "1311"
+    },
+    "2011-02-03": {
+      "rank": 29,
+      "query_number": 9,
+      "query": "Southern Transitional Council Aden Yemen separatism",
+      "document_id": "959"
+    },
+    "2011-04-03": {
+      "rank": 61,
+      "query_number": 2,
+      "query": "Yemen presidential leadership council political transition",
+      "document_id": "1158"
+    },
+    "2011-09-23": {
+      "rank": 33,
+      "query_number": 51,
+      "query": "Ali Abdullah Saleh Saudi Arabia medical treatment Riyadh June 2011 return",
+      "document_id": "2297"
+    },
+    "2011-03-01": {
+      "rank": 58,
+      "query_number": 20,
+      "query": "Ali Abdullah Saleh killed Houthi alliance 2017",
+      "document_id": "4313"
+    },
+    "2011-10-07": {
+      "rank": 32,
+      "query_number": 37,
+      "query": "Yemen UN peace talks Kuwait Stockholm agreement 2016 2018",
+      "document_id": "230"
+    },
+    "2011-04-01": {
+      "rank": 42,
+      "query_number": 64,
+      "query": "Yemen national dialogue conference conclusion 2014",
+      "document_id": "1288"
+    },
+    "2011-04-02": {
+      "rank": 45,
+      "query_number": 16,
+      "query": "Houthi capture Sanaa Yemen September 2014",
+      "document_id": "3683"
+    },
+    "2011-05-23": {
+      "rank": 43,
+      "query_number": 11,
+      "query": "Yemen prisoner exchange detainees release negotiations",
+      "document_id": "5103"
+    },
+    "2011-05-29": {
+      "rank": 95,
+      "query_number": 6,
+      "query": "Yemen peace negotiations UN ceasefire Hodeidah agreement",
+      "document_id": "1923"
+    },
+    "2011-09-18": {
+      "rank": 27,
+      "query_number": 7,
+      "query": "Ali Abdullah Saleh killed Houthi Sanaa 2017",
+      "document_id": "2244"
+    },
+    "2011-05-13": {
+      "rank": 49,
+      "query_number": 11,
+      "query": "Yemen prisoner exchange detainees release negotiations",
+      "document_id": "2373"
+    },
+    "2011-03-25": {
+      "rank": 26,
+      "query_number": 20,
+      "query": "Ali Abdullah Saleh killed Houthi alliance 2017",
+      "document_id": "454"
+    },
+    "2011-02-23": {
+      "rank": 26,
+      "query_number": 8,
+      "query": "Hadi resigns ousted Aden Yemen 2015",
+      "document_id": "4067"
+    },
+    "2011-02-26": {
+      "rank": 14,
+      "query_number": 38,
+      "query": "Yemen Houthi advance Sanaa Saleh resignation January 2015",
+      "document_id": "2978"
+    },
+    "2011-02-02": {
+      "rank": 24,
+      "query_number": 38,
+      "query": "Yemen Houthi advance Sanaa Saleh resignation January 2015",
+      "document_id": "4438"
+    },
+    "2011-05-24": {
+      "rank": 20,
+      "query_number": 37,
+      "query": "Yemen UN peace talks Kuwait Stockholm agreement 2016 2018",
+      "document_id": "4226"
+    },
+    "2011-09-29": {
+      "rank": 42,
+      "query_number": 20,
+      "query": "Ali Abdullah Saleh killed Houthi alliance 2017",
+      "document_id": "257"
+    },
+    "2011-09-07": {
+      "rank": 16,
+      "query_number": 21,
+      "query": "Yemen cholera outbreak humanitarian crisis Saudi blockade",
+      "document_id": "4614"
+    },
+    "2011-03-29": {
+      "rank": 47,
+      "query_number": 11,
+      "query": "Yemen prisoner exchange detainees release negotiations",
+      "document_id": "467"
+    },
+    "2011-03-08": {
+      "rank": 24,
+      "query_number": 18,
+      "query": "Yemen civil war UN peace talks Kuwait 2016",
+      "document_id": "227"
+    },
+    "2011-05-11": {
+      "rank": 31,
+      "query_number": 65,
+      "query": "Houthi takeover Sanaa Yemen 2014 2015 government collapse",
+      "document_id": "2975"
+    },
+    "2011-10-15": {
+      "rank": 21,
+      "query_number": 36,
+      "query": "Yemen Saudi-led coalition airstrikes Operation Decisive Storm 2015",
+      "document_id": "1580"
+    },
+    "2011-12-10": {
+      "rank": 18,
+      "query_number": 37,
+      "query": "Yemen UN peace talks Kuwait Stockholm agreement 2016 2018",
+      "document_id": "5614"
+    },
+    "2011-08-20": {
+      "rank": 79,
+      "query_number": 55,
+      "query": "Abd-Rabbu Mansour Hadi resignation Houthi house arrest January 2015",
+      "document_id": "3835"
+    },
+    "2011-12-24": {
+      "rank": 74,
+      "query_number": 21,
+      "query": "Yemen cholera outbreak humanitarian crisis Saudi blockade",
+      "document_id": "395"
+    },
+    "2011-05-30": {
+      "rank": 83,
+      "query_number": 45,
+      "query": "Saudi-led coalition airstrikes Yemen March 2015 Operation Decisive Storm",
+      "document_id": "4874"
+    },
+    "2011-03-11": {
+      "rank": 40,
+      "query_number": 56,
+      "query": "Southern Transitional Council Aden independence Yemen 2017",
+      "document_id": "1930"
+    },
+    "2011-08-15": {
+      "rank": 41,
+      "query_number": 33,
+      "query": "Ali Abdullah Saleh Houthi alliance killed 2017 Yemen",
+      "document_id": "5047"
+    }
+  },
+  "diagnostic_probes": [
+    {
+      "target_date": "2011-09-18",
+      "query": "Yemen Sanaa protesters government forces open fire September 2011",
+      "top12_target_date_hit": false,
+      "matching_articles": [
+        {
+          "rank": 22,
+          "document_id": "2875"
+        },
+        {
+          "rank": 23,
+          "document_id": "1057"
+        },
+        {
+          "rank": 48,
+          "document_id": "3871"
+        },
+        {
+          "rank": 92,
+          "document_id": "4498"
+        }
+      ],
+      "best_rank_under_original_queries": {
+        "rank": 27,
+        "query_number": 7,
+        "query": "Ali Abdullah Saleh killed Houthi Sanaa 2017",
+        "document_id": "2244"
+      }
+    },
+    {
+      "target_date": "2011-09-23",
+      "query": "Yemen Saleh returns from Saudi Arabia September 2011",
+      "top12_target_date_hit": true,
+      "matching_articles": [
+        {
+          "rank": 3,
+          "document_id": "1184"
+        },
+        {
+          "rank": 24,
+          "document_id": "2297"
+        },
+        {
+          "rank": 56,
+          "document_id": "813"
+        },
+        {
+          "rank": 108,
+          "document_id": "3950"
+        }
+      ],
+      "best_rank_under_original_queries": {
+        "rank": 33,
+        "query_number": 51,
+        "query": "Ali Abdullah Saleh Saudi Arabia medical treatment Riyadh June 2011 return",
+        "document_id": "2297"
+      }
+    }
+  ]
+}

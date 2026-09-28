@@ -1,0 +1,310 @@
+[
+  {
+    "topic": "egypt",
+    "keywords": [
+      "egypt"
+    ],
+    "checked_policy_inputs": 24,
+    "no_completion_or_yield_feedback": true,
+    "lead_queue_count": 0,
+    "accepted_partial_or_unknown_events": 5,
+    "first_search_input": {
+      "protocol": "batch-v9",
+      "stage": "BATCH_POLICY",
+      "state": {
+        "task": "egypt",
+        "phase": "SKELETON_EXPLORATION",
+        "retrieval_contract": {
+          "ranking": "article BM25+dense retrieval",
+          "returned_content": "pre-extracted events and times, no article body",
+          "extraction_errors_accepted": true,
+          "verify_role": "topic relevance and timeline membership only"
+        },
+        "retrieval_feedback": {},
+        "keywords": [
+          "egypt"
+        ],
+        "memory": {
+          "version": 0,
+          "through_revision": 0,
+          "summary_update_deferred": false,
+          "facts": []
+        },
+        "current_revision": 0,
+        "event_delta": [],
+        "recent_queries": [],
+        "older_query_count": 0,
+        "event_count": 0,
+        "stop_scope": "phase_one"
+      },
+      "output": {
+        "reason": "brief evidence-based decision",
+        "action": "SEARCH|STOP",
+        "queries": [
+          {
+            "query": "3-20 English tokens",
+            "time_filter": {
+              "mode": "none|soft|hard",
+              "start": null,
+              "end": null
+            }
+          }
+        ],
+        "stop_reason": null
+      },
+      "query_limit": 3,
+      "search_example": {
+        "reason": "The agreement mentions an approval decision worth checking.",
+        "action": "SEARCH",
+        "queries": [
+          {
+            "query": "Aurora agreement regulatory approval decision",
+            "time_filter": {
+              "mode": "none",
+              "start": null,
+              "end": null
+            }
+          }
+        ],
+        "stop_reason": null
+      },
+      "stop_example": {
+        "reason": "No worthwhile new development remains to search.",
+        "action": "STOP",
+        "queries": [],
+        "stop_reason": "NO_ACTIONABLE_QUERY"
+      }
+    }
+  },
+  {
+    "topic": "libya",
+    "keywords": [
+      "libya"
+    ],
+    "checked_policy_inputs": 24,
+    "no_completion_or_yield_feedback": true,
+    "lead_queue_count": 0,
+    "accepted_partial_or_unknown_events": 2,
+    "first_search_input": {
+      "protocol": "batch-v9",
+      "stage": "BATCH_POLICY",
+      "state": {
+        "task": "libya",
+        "phase": "SKELETON_EXPLORATION",
+        "retrieval_contract": {
+          "ranking": "article BM25+dense retrieval",
+          "returned_content": "pre-extracted events and times, no article body",
+          "extraction_errors_accepted": true,
+          "verify_role": "topic relevance and timeline membership only"
+        },
+        "retrieval_feedback": {},
+        "keywords": [
+          "libya"
+        ],
+        "memory": {
+          "version": 0,
+          "through_revision": 0,
+          "summary_update_deferred": false,
+          "facts": []
+        },
+        "current_revision": 0,
+        "event_delta": [],
+        "recent_queries": [],
+        "older_query_count": 0,
+        "event_count": 0,
+        "stop_scope": "phase_one"
+      },
+      "output": {
+        "reason": "brief evidence-based decision",
+        "action": "SEARCH|STOP",
+        "queries": [
+          {
+            "query": "3-20 English tokens",
+            "time_filter": {
+              "mode": "none|soft|hard",
+              "start": null,
+              "end": null
+            }
+          }
+        ],
+        "stop_reason": null
+      },
+      "query_limit": 3,
+      "search_example": {
+        "reason": "The agreement mentions an approval decision worth checking.",
+        "action": "SEARCH",
+        "queries": [
+          {
+            "query": "Aurora agreement regulatory approval decision",
+            "time_filter": {
+              "mode": "none",
+              "start": null,
+              "end": null
+            }
+          }
+        ],
+        "stop_reason": null
+      },
+      "stop_example": {
+        "reason": "No worthwhile new development remains to search.",
+        "action": "STOP",
+        "queries": [],
+        "stop_reason": "NO_ACTIONABLE_QUERY"
+      }
+    }
+  },
+  {
+    "topic": "syria",
+    "keywords": [
+      "syria"
+    ],
+    "checked_policy_inputs": 24,
+    "no_completion_or_yield_feedback": true,
+    "lead_queue_count": 0,
+    "accepted_partial_or_unknown_events": 3,
+    "first_search_input": {
+      "protocol": "batch-v9",
+      "stage": "BATCH_POLICY",
+      "state": {
+        "task": "syria",
+        "phase": "SKELETON_EXPLORATION",
+        "retrieval_contract": {
+          "ranking": "article BM25+dense retrieval",
+          "returned_content": "pre-extracted events and times, no article body",
+          "extraction_errors_accepted": true,
+          "verify_role": "topic relevance and timeline membership only"
+        },
+        "retrieval_feedback": {},
+        "keywords": [
+          "syria"
+        ],
+        "memory": {
+          "version": 0,
+          "through_revision": 0,
+          "summary_update_deferred": false,
+          "facts": []
+        },
+        "current_revision": 0,
+        "event_delta": [],
+        "recent_queries": [],
+        "older_query_count": 0,
+        "event_count": 0,
+        "stop_scope": "phase_one"
+      },
+      "output": {
+        "reason": "brief evidence-based decision",
+        "action": "SEARCH|STOP",
+        "queries": [
+          {
+            "query": "3-20 English tokens",
+            "time_filter": {
+              "mode": "none|soft|hard",
+              "start": null,
+              "end": null
+            }
+          }
+        ],
+        "stop_reason": null
+      },
+      "query_limit": 3,
+      "search_example": {
+        "reason": "The agreement mentions an approval decision worth checking.",
+        "action": "SEARCH",
+        "queries": [
+          {
+            "query": "Aurora agreement regulatory approval decision",
+            "time_filter": {
+              "mode": "none",
+              "start": null,
+              "end": null
+            }
+          }
+        ],
+        "stop_reason": null
+      },
+      "stop_example": {
+        "reason": "No worthwhile new development remains to search.",
+        "action": "STOP",
+        "queries": [],
+        "stop_reason": "NO_ACTIONABLE_QUERY"
+      }
+    }
+  },
+  {
+    "topic": "yemen",
+    "keywords": [
+      "yemen"
+    ],
+    "checked_policy_inputs": 24,
+    "no_completion_or_yield_feedback": true,
+    "lead_queue_count": 0,
+    "accepted_partial_or_unknown_events": 11,
+    "first_search_input": {
+      "protocol": "batch-v9",
+      "stage": "BATCH_POLICY",
+      "state": {
+        "task": "yemen",
+        "phase": "SKELETON_EXPLORATION",
+        "retrieval_contract": {
+          "ranking": "article BM25+dense retrieval",
+          "returned_content": "pre-extracted events and times, no article body",
+          "extraction_errors_accepted": true,
+          "verify_role": "topic relevance and timeline membership only"
+        },
+        "retrieval_feedback": {},
+        "keywords": [
+          "yemen"
+        ],
+        "memory": {
+          "version": 0,
+          "through_revision": 0,
+          "summary_update_deferred": false,
+          "facts": []
+        },
+        "current_revision": 0,
+        "event_delta": [],
+        "recent_queries": [],
+        "older_query_count": 0,
+        "event_count": 0,
+        "stop_scope": "phase_one"
+      },
+      "output": {
+        "reason": "brief evidence-based decision",
+        "action": "SEARCH|STOP",
+        "queries": [
+          {
+            "query": "3-20 English tokens",
+            "time_filter": {
+              "mode": "none|soft|hard",
+              "start": null,
+              "end": null
+            }
+          }
+        ],
+        "stop_reason": null
+      },
+      "query_limit": 3,
+      "search_example": {
+        "reason": "The agreement mentions an approval decision worth checking.",
+        "action": "SEARCH",
+        "queries": [
+          {
+            "query": "Aurora agreement regulatory approval decision",
+            "time_filter": {
+              "mode": "none",
+              "start": null,
+              "end": null
+            }
+          }
+        ],
+        "stop_reason": null
+      },
+      "stop_example": {
+        "reason": "No worthwhile new development remains to search.",
+        "action": "STOP",
+        "queries": [],
+        "stop_reason": "NO_ACTIONABLE_QUERY"
+      }
+    }
+  }
+]

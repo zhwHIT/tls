@@ -1,0 +1,58 @@
+{
+  "api_calls": 0,
+  "topics": [
+    {
+      "dataset": "crisis",
+      "topic": "egypt",
+      "config": "configs/preextracted_crisis_developments_topic_only_20260922/crisis_egypt.json",
+      "output_dir": "artifacts/preextracted_crisis_developments_topic_only_20260922/crisis_egypt",
+      "articles": 4083,
+      "returned_article_keys": 4083,
+      "identical_output_aliases": {},
+      "config_sha256": "3edec9da4e50798b5dcf8808ff5fdcad39a5d5ae52af84b3a493ca99f2656f83",
+      "event_store_sha256": "a1d61374d8b5bd27ff51843f489bff3b8a98697e3e27347139ada78a5f49de43",
+      "index_manifest_sha256": "1b45244429f2a4a700a3ed25e102635c40a7951ea59cb3a44d7b7784aa67b1a5"
+    },
+    {
+      "dataset": "crisis",
+      "topic": "libya",
+      "config": "configs/preextracted_crisis_developments_topic_only_20260922/crisis_libya.json",
+      "output_dir": "artifacts/preextracted_crisis_developments_topic_only_20260922/crisis_libya",
+      "articles": 4274,
+      "returned_article_keys": 4274,
+      "identical_output_aliases": {},
+      "config_sha256": "b1d0c6fe3b5738e9d959d69c1b673e79f93f632b23a59544b8346b5c7b912768",
+      "event_store_sha256": "449243f255c545041c42c099bd730ce8694edd82b477f28ded7e18d54e4918fd",
+      "index_manifest_sha256": "1b45244429f2a4a700a3ed25e102635c40a7951ea59cb3a44d7b7784aa67b1a5"
+    },
+    {
+      "dataset": "crisis",
+      "topic": "syria",
+      "config": "configs/preextracted_crisis_developments_topic_only_20260922/crisis_syria.json",
+      "output_dir": "artifacts/preextracted_crisis_developments_topic_only_20260922/crisis_syria",
+      "articles": 5170,
+      "returned_article_keys": 5170,
+      "identical_output_aliases": {},
+      "config_sha256": "6164525acc488432397f6e9c1f0bf5ee892919699b67f9608989ee52812f70a4",
+      "event_store_sha256": "164cfa5d7c15b126b1a842cabb8aa2e106701e45268495d1db0b2fda2f34dc22",
+      "index_manifest_sha256": "1b45244429f2a4a700a3ed25e102635c40a7951ea59cb3a44d7b7784aa67b1a5"
+    },
+    {
+      "dataset": "crisis",
+      "topic": "yemen",
+      "config": "configs/preextracted_crisis_developments_topic_only_20260922/crisis_yemen.json",
+      "output_dir": "artifacts/preextracted_crisis_developments_topic_only_20260922/crisis_yemen",
+      "articles": 4046,
+      "returned_article_keys": 4046,
+      "identical_output_aliases": {},
+      "config_sha256": "fafb9cd3caac0883b68ca10a8de474b66fe69b385ba61fbc58e87243ab84b050",
+      "event_store_sha256": "bd89e0941c26aadf4914504e60bdd18368d4d971f85cb4bfd9dc28cb60eee07f",
+      "index_manifest_sha256": "1b45244429f2a4a700a3ed25e102635c40a7951ea59cb3a44d7b7784aa67b1a5"
+    }
+  ],
+  "topic_count": 4,
+  "article_count": 17573,
+  "datasets": {
+    "crisis": 4
+  }
+}
