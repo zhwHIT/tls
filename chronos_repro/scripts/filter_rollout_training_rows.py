@@ -19,6 +19,10 @@ def curate(rows, trace):
             continue
         # Copy the metadata; preserve all original prompts and labels.
         item = {**row, "metadata": {**row.get("metadata", {}),
+                                  "training_ready": False,
+                                  "trajectory_input_integrity": (
+                                      "detached_step_payload" if step.get('snapshot_metadata', {}).get('detached_from_live_state') is True
+                                      else "legacy_snapshot_integrity_unverified_diagnostic_only"),
                                   "semantic_review_required": True,
                                   "validation_filtered": bool(observation.get("validation_rejections"))}}
         kept.append(item)

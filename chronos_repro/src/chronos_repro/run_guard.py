@@ -10,6 +10,7 @@ import uuid
 
 from .snapshot import sha256
 from .runtime_profile import RUNTIME_REVISION, RUNTIME_OPTIONS
+from .limited_llm import budgeted_requests
 
 
 class RunLockedError(RuntimeError):
@@ -86,7 +87,7 @@ def prepare_execution(project, output, replay=False):
         ledger = json.loads(ledger_path.read_text(encoding='utf-8'))
         if ledger.get('balance_stop'):
             raise ValueError('Balance-stopped ledger cannot be replayed')
-        if ledger['requests_started'] >= ledger['request_limit']:
+        if budgeted_requests(ledger) >= ledger['request_limit']:
             raise ValueError('Cumulative request ceiling already reached')
         archive = output / 'history' / (datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S') + '-' + uuid.uuid4().hex[:8])
         archive.mkdir(parents=True, exist_ok=False)

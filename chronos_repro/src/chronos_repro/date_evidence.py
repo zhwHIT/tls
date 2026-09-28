@@ -108,6 +108,12 @@ def validate_date_evidence(event_time: str, evidence: object, documents: list[di
             rule = 'structured_timeline_year' if event_time in supported else None
         else:
             rule = annotation_rule(expression, event_time, published)
+        from .temporal_context import annotation_context_conflict
+        preceding = str(doc.get('context_before', ''))
+        conflict = annotation_context_conflict(preceding + doc['text'], len(preceding) + a,
+                                               len(preceding) + b, event_time, published)
+        if conflict:
+            raise ValueError('Date annotation context conflict: ' + conflict)
         if not rule or rule != annotation['rule'] or annotation['publication_anchor'] != published:
             raise ValueError('Date annotation normalization is inconsistent')
         # The event quote must enclose the selected occurrence, not another identical weekday.
@@ -132,18 +138,23 @@ def validate_date_evidence(event_time: str, evidence: object, documents: list[di
     supported = explicit_dates(expression)
     checked_context = None
     if event_time not in supported and isinstance(context, dict):
-        if str(context.get('document_id')) != document_id:
-            raise ValueError('Contextual year must come from the same supplied passage')
+        context_id = str(context.get('document_id'))
+        context_doc = docs.get(context_id)
+        if context_id != document_id:
+            from .joint_verification import same_source
+            if context_id not in evidence_ids or context_doc is None or not same_source(doc, context_doc):
+                raise ValueError('Contextual year must come from the same supplied passage or a cited passage of the same frozen article')
         context_quote = context.get('quote')
         year = str(context.get('year', ''))
-        context_text = text + ' ' + str(doc.get('context_before', ''))
+        context_text = (str(context_doc.get('title', '')) + ' ' + str(context_doc.get('context_before', ''))
+                        + str(context_doc.get('text', '')))
         if not isinstance(context_quote, str) or not context_quote.strip() or len(context_quote) > 700 or normalize(context_quote) not in normalize(context_text):
             raise ValueError('Contextual year quote must be verbatim supplied source context')
         years = {v[:4] for v in explicit_dates(context_quote)}
         if not re.fullmatch(r'\d{4}', year) or years != {year}:
             raise ValueError('Context must unambiguously support one literal year')
         supported |= explicit_dates(expression + ' ' + year)
-        checked_context = {'document_id': document_id, 'quote': context_quote, 'year': year}
+        checked_context = {'document_id': context_id, 'quote': context_quote, 'year': year}
     if event_time not in supported:
         raise ValueError('Event date/precision not supported by time_expression; use INSUFFICIENT with time null or original partial date, never repair to day 01')
     return {'document_id': document_id, 'quote': quote, 'time_expression': expression,

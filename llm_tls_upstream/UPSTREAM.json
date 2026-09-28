@@ -1,0 +1,62 @@
+{
+  "repository": "https://github.com/nusnlp/LLM-TLS",
+  "commit": "13951f669587662434b5f8e8e9c369103ba55a69",
+  "license": "GPL-3.0",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "url": "https://raw.githubusercontent.com/nusnlp/LLM-TLS/13951f669587662434b5f8e8e9c369103ba55a69/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "sha256": "45e4a483f1a2db535e70f9cf1a26b1811d808820ddadfd03c8fdfd186b282192",
+      "url": "https://raw.githubusercontent.com/nusnlp/LLM-TLS/13951f669587662434b5f8e8e9c369103ba55a69/README.md"
+    },
+    {
+      "path": "topicTLS/data.py",
+      "sha256": "1b267cff796ec05ac099ea08b4b203502e4d0338aff51a9835f49316e35360bf",
+      "url": "https://raw.githubusercontent.com/nusnlp/LLM-TLS/13951f669587662434b5f8e8e9c369103ba55a69/topicTLS/data.py"
+    },
+    {
+      "path": "topicTLS/utils.py",
+      "sha256": "0e37d7d866c53240693cc9fb34d5db725d543cd4bac8d25488684afe0620d31b",
+      "url": "https://raw.githubusercontent.com/nusnlp/LLM-TLS/13951f669587662434b5f8e8e9c369103ba55a69/topicTLS/utils.py"
+    },
+    {
+      "path": "topicTLS/preprocess_articles.py",
+      "sha256": "30c750b3f45dc5cf67c56c5a58acd8d4d805952880fea044afa162eef54f8a30",
+      "url": "https://raw.githubusercontent.com/nusnlp/LLM-TLS/13951f669587662434b5f8e8e9c369103ba55a69/topicTLS/preprocess_articles.py"
+    },
+    {
+      "path": "topicTLS/generate_events.py",
+      "sha256": "cd80bc55053666d141023d8b57d4230248a8c3fd49e6a476ec7af1d6c9a37f84",
+      "url": "https://raw.githubusercontent.com/nusnlp/LLM-TLS/13951f669587662434b5f8e8e9c369103ba55a69/topicTLS/generate_events.py"
+    },
+    {
+      "path": "topicTLS/prompt_template.py",
+      "sha256": "549ad7b4c7cfbe7ef0bb7d8be786354670e54ab6d34af92b105fbe0ccc52aeb2",
+      "url": "https://raw.githubusercontent.com/nusnlp/LLM-TLS/13951f669587662434b5f8e8e9c369103ba55a69/topicTLS/prompt_template.py"
+    },
+    {
+      "path": "topicTLS/keywords_mapping.py",
+      "sha256": "19fb8dde805d938970285f2253e2181545e52e086cc3069be28def782b69c406",
+      "url": "https://raw.githubusercontent.com/nusnlp/LLM-TLS/13951f669587662434b5f8e8e9c369103ba55a69/topicTLS/keywords_mapping.py"
+    },
+    {
+      "path": "topicTLS/process_hybrid_events.py",
+      "sha256": "81221b02253e30d0c09f3462a87e6e5736af6e529f269d096c4f9b4259bb5a92",
+      "url": "https://raw.githubusercontent.com/nusnlp/LLM-TLS/13951f669587662434b5f8e8e9c369103ba55a69/topicTLS/process_hybrid_events.py"
+    },
+    {
+      "path": "topicTLS/generate_clusters.py",
+      "sha256": "4ca8fd57d18b62b26a0387c4749446594b1f41bd3f9a763f208f7503aa7f2790",
+      "url": "https://raw.githubusercontent.com/nusnlp/LLM-TLS/13951f669587662434b5f8e8e9c369103ba55a69/topicTLS/generate_clusters.py"
+    },
+    {
+      "path": "topicTLS/evaluation.py",
+      "sha256": "ecb40d9027844b217756dfe3de9a08504cf9fff006376bef45adfd77c9239e55",
+      "url": "https://raw.githubusercontent.com/nusnlp/LLM-TLS/13951f669587662434b5f8e8e9c369103ba55a69/topicTLS/evaluation.py"
+    }
+  ]
+}

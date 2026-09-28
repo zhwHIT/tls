@@ -1,5 +1,5 @@
 """Bound runtime defaults for the temporal-grounding diagnostic revision."""
-RUNTIME_REVISION = 'two-phase-v9.5-state-continuation-and-gap-contract'
+RUNTIME_REVISION = 'two-phase-v9.7-unlimited-verify-accounting'
 REQUEST_OPTIONS = {'thinking': {'type': 'disabled'}, 'max_tokens': 8192}
 RUNTIME_OPTIONS = {'request_options': REQUEST_OPTIONS, 'frozen_timex': True,
                    'max_temporal_annotations_per_passage': 12, 'candidate_batch_cap': 12,

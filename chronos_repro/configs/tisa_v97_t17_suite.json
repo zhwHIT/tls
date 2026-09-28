@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "pipeline_revision": "two-phase-v9.7-unlimited-verify-accounting",
+  "split": "authorized_cross_dataset_diagnostic",
+  "target_gold_date_recall": 0.7,
+  "topics": [
+    {
+      "dataset": "t17",
+      "topic": "haiti",
+      "config": "configs/tisa_v97_t17_resume_haiti.json",
+      "output_dir": "artifacts/tisa_v97_authorized/t17_haiti"
+    },
+    {
+      "dataset": "t17",
+      "topic": "iraq",
+      "config": "configs/tisa_v97_t17_resume_iraq.json",
+      "output_dir": "artifacts/tisa_v97_authorized/t17_iraq"
+    }
+  ]
+}

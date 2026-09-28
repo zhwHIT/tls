@@ -9,6 +9,7 @@ from pathlib import Path
 import re
 
 from .date_evidence import explicit_dates
+from .temporal_context import annotation_context_conflict
 
 WEEKDAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
 MONTH = r'(?:January|February|March|April|May|June|July|August|September|October|November|December)'
@@ -118,7 +119,7 @@ def article_annotations(article):
                 rule = annotation_rule(expression, normalized, published)
             except ValueError:
                 continue
-            if not rule or len(expression) > 100:
+            if not rule or len(expression) > 100 or annotation_context_conflict(body, a, b, normalized, published):
                 continue
             identity = hashlib.sha256(f'{digest}:{a}:{b}:{normalized}'.encode()).hexdigest()[:16]
             yield {'annotation_id': identity, 'expression': expression, 'date': normalized,
@@ -140,6 +141,18 @@ def attach_annotations(passage, annotations, maximum=12, represented_dates=()):
     # Compact source IDs/date/spans; the event quote still comes from supplied body.
     rows = [row for row in annotations if row['document_sha256'] == passage['document_sha256']
             and passage['source_start'] <= row['source_start'] < row['source_end'] <= passage['source_end']]
+    accepted, conflicts = [], []
+    for row in rows:
+        a, b = row['source_start'] - passage['source_start'], row['source_end'] - passage['source_start']
+        context = passage.get('context_before', '')
+        reason = annotation_context_conflict(context + passage['text'], len(context) + a, len(context) + b,
+                                             row['date'], str(passage.get('publication_date', ''))[:10])
+        if reason:
+            conflicts.append({'annotation_id': row['annotation_id'], 'reason': reason})
+        else:
+            accepted.append(row)
+    rows = accepted
+    passage['temporal_annotation_conflicts'] = conflicts
     known = set(represented_dates)
     rows.sort(key=lambda row: (row['date'] in known, row['source_start'], row['source_end']))
     passage['temporal_annotations'] = [dict(row) for row in rows[:maximum]]

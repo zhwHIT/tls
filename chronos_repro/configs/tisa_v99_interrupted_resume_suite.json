@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "pipeline_revision": "two-phase-v9.9-gap-scope-integrity-authorized-continuation",
+  "split": "authorized_cross_dataset_diagnostic",
+  "target_gold_date_recall": 0.7,
+  "scope": {
+    "resumed_topics": 1,
+    "previously_unstarted_entities": 0,
+    "full_entities_benchmark": false,
+    "continuations_mix_parent_and_current_code": true
+  },
+  "topics": [
+    {
+      "dataset": "entities",
+      "topic": "Dilma_Rousseff",
+      "config": "configs/tisa_v99_entities_Dilma_Rousseff_resume.json",
+      "output_dir": "artifacts/tisa_v99_interrupted_resume/entities_Dilma_Rousseff"
+    }
+  ]
+}

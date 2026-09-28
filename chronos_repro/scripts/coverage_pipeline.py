@@ -13,6 +13,7 @@ from chronos_repro.exploration_control import record_cycle_outcome
 from chronos_repro.tisa_rollout import SKELETON, validate_student_state, validate_thought
 from chronos_repro.retrieval import search
 from chronos_repro.label_repair import recover_boundary_summary
+from chronos_repro.verification_efficiency import extraction_key, stable_documents, unique_extracted_events
 
 
 def enabled(config):
@@ -24,7 +25,11 @@ def reader_for(state, index, config):
         settings = {**config['coverage_pipeline']}
         if state.get('_frozen_topic_path'):
             settings['frozen_topic_path'] = state['_frozen_topic_path']
-        state['_evidence_reader'] = EvidenceReader(index, state['topic'], settings)
+        if settings.get('selection_policy') == 'sentence_union_with_queue_v1':
+            from chronos_repro.sentence_reader import SentenceUnionReader
+            state['_evidence_reader'] = SentenceUnionReader(index, state['topic'], settings)
+        else:
+            state['_evidence_reader'] = EvidenceReader(index, state['topic'], settings)
     return state['_evidence_reader']
 
 
@@ -69,18 +74,29 @@ def refresh_evidence_memory(state):
                 keywords.append(actor)
         if row['status'] == 'INSUFFICIENT':
             previous = old_leads.get(observation_id, {})
+            accumulated = leads.get(observation_id, {})
+            reason = row.get('latest_reason') or row.get('reason') or 'Legacy candidate has no recorded reason; inspect original evidence before resolving its date.'
             leads[observation_id] = {
                 'lead_id': observation_id, 'time': event.get('time'), 'summary': event['summary'],
-                'evidence_ids': row['evidence_ids'], 'status': previous.get('status', 'OPEN'),
+                'reason': reason,
+                'reasons': list(dict.fromkeys([*accumulated.get('reasons', []), reason])),
+                'candidate_ids': [*accumulated.get('candidate_ids', []), row['candidate_id']],
+                'evidence_ids': list(dict.fromkeys([*accumulated.get('evidence_ids', []), *row['evidence_ids']])),
+                'status': 'OPEN',
                 'priority': 1.0 if row.get('contribution_pass') else 0.5,
                 'attempted_queries': previous.get('attempted_queries', []),
-                'resolution_event_ids': previous.get('resolution_event_ids', [])}
-    # Only exact factual identity closes a lead automatically; similarity is not entailment.
+                'resolution_event_ids': list(dict.fromkeys([*accumulated.get('resolution_event_ids', []),
+                                                          *row.get('resolution_event_ids', [])])),
+                **{k: previous[k] for k in ('presentation_count', 'last_presented_turn', 'last_search_batch',
+                                            'last_result_count') if k in previous}}
+    # Closure needs a committed explicit re-verification or exact factual identity, never similarity alone.
     for lead in leads.values():
-        matches = [e['event_id'] for e in state['timeline_events']
-                   if ' '.join(e['summary'].casefold().split()) == ' '.join(lead['summary'].casefold().split())
+        matches = [e['event_id'] for e in state['timeline_events'] if not e.get('conflict')
+                   and (e['event_id'] in lead['resolution_event_ids'] or (
+                   ' '.join(e['summary'].casefold().split()) == ' '.join(lead['summary'].casefold().split())
                    and (not lead.get('time') or e['time'] == lead['time']
-                        or e['time'].startswith(str(lead['time']) + '-'))]
+                        or e['time'].startswith(str(lead['time']) + '-'))))]
+        lead['resolution_event_ids'] = matches
         if matches:
             lead.update(status='RESOLVED', resolution_event_ids=matches)
     memory['lead_queue'] = sorted(leads.values(), key=lambda r: (r['status'] != 'OPEN', -r['priority'], r['lead_id']))
@@ -94,6 +110,8 @@ def refresh_evidence_memory(state):
 
 def process_passages(client, state, docs, config, trajectory, usage, phase, visible):
     from run_tisa_two_phase_annotation import verify_batch, execute_merge, model_step, add_audits
+    from run_full_timeline_api_agent import build_verify_instruction, SYSTEM
+    from chronos_repro.joint_verification import expand_batch, pending_candidates, request_fits, record_resolutions
     settings = config['coverage_pipeline']
     batch_size = settings.get('verification_batch_passages', 2)
     if batch_size < 1:
@@ -102,24 +120,45 @@ def process_passages(client, state, docs, config, trajectory, usage, phase, visi
     all_candidates, all_applied, all_operations = [], [], []
     state.setdefault('candidate_pool', [])
     state.setdefault('_extraction_cache', {})
+    covered_ids = set()
     for offset in range(0, len(docs), batch_size):
-        batch = docs[offset:offset + batch_size]
+        seeds = [d for d in docs[offset:offset + batch_size] if d['id'] not in covered_ids]
+        if not seeds:
+            continue
+        joint = settings.get('joint_verification', True)
+        batch = stable_documents(expand_batch(seeds, docs, state, settings) if joint else seeds)
         batch_ids = {d['id'] for d in batch}
         previously_extracted = [{'time': r['event']['time'], 'summary': r['event']['summary']}
                                 for r in state['candidate_pool'] if r.get('merge_processed')
-                                and set(r.get('source_passage_ids', [])) & batch_ids]
+                                and set(r.get('source_passage_ids', [])) & batch_ids
+                                and not (joint and len(batch) > 1 and r['status'] == 'INSUFFICIENT')]
         complete = False
-        page_limit = 1 if phase == SKELETON else min(settings.get('extraction_pages', 3), 2)
+        page_limit = state.get('_reread_pages') or (1 if phase == SKELETON else min(settings.get('extraction_pages', 3), 2))
         for page in range(page_limit):
             # Extraction must not depend on query/Gold/current timeline; novelty is decided at MERGE.
+            previously_extracted = unique_extracted_events(previously_extracted)
             extract_state = {'dataset': state['dataset'], 'topic': state['topic'], 'phase': phase,
                              'keywords': state.get('keywords', []), 'events': [], 'valid_actions': ['VERIFY'],
                              'memory': {'already_extracted': copy.deepcopy(previously_extracted)}}
             extract_config = {**config, 'max_candidates_per_round': max_candidates, 'coverage_extraction': True}
             extract_config['coarse_extraction'] = phase == SKELETON
-            request_key = hashlib.sha256(json.dumps({'documents': batch, 'state': extract_state,
-                'model': config.get('model'), 'max_candidates': max_candidates}, sort_keys=True).encode()).hexdigest()
-            if request_key in state['_extraction_cache']:
+            if state.get('_reread_pages'):
+                extract_config['coarse_extraction'] = False
+            if state.get('_event_scope'):
+                extract_state['event_scope'] = copy.deepcopy(state['_event_scope'])
+                extract_state['event_scope_instruction'] = 'Extract only events with occurrence dates inside this interval; other dates are context only.'
+            extract_state['extraction_mode'] = 'coarse' if extract_config['coarse_extraction'] else 'detailed'
+            while True:
+                if joint:
+                    extract_state['memory']['pending_candidates'] = pending_candidates(state, batch)
+                candidate_prompt = build_verify_instruction({'model_visible_state': extract_state}, batch, extract_config)
+                if request_fits(client, candidate_prompt, SYSTEM, config) or len(batch) <= len(seeds):
+                    break
+                batch.pop()  # Only optional companion passages; no clipping of quotes or dates.
+            batch_ids = {d['id'] for d in batch}
+            request_key = extraction_key(batch, extract_state, config, max_candidates)
+            cache_reused = request_key in state['_extraction_cache']
+            if cache_reused:
                 verified = copy.deepcopy(state['_extraction_cache'][request_key])
                 audits = []
             else:
@@ -127,27 +166,42 @@ def process_passages(client, state, docs, config, trajectory, usage, phase, visi
                 verified, audits = verify_batch(client, state, batch, extract_config)
                 state['_extraction_cache'][request_key] = copy.deepcopy(verified)
             add_audits(trajectory, usage, f'{phase}:VERIFY_PASSAGES', audits)
-            if verified.get('quarantined_candidates'):
+            if verified.get('quarantined_candidates') and not cache_reused:
                 state.setdefault('verification_quarantine', []).extend(copy.deepcopy(verified['quarantined_candidates']))
             for row in verified['candidates']:
-                row['candidate_id'] = f'{request_key[:12]}-p{page}-{row["candidate_id"]}'
+                row['candidate_id'] = f'{request_key[:12]}-{row["candidate_id"]}'
                 pool_row = copy.deepcopy(row)
                 pool_row['source_passage_ids'] = [d['id'] for d in batch if d['id'] in row['evidence_ids']]
                 if not any(r['candidate_id'] == row['candidate_id'] for r in state['candidate_pool']):
                     state['candidate_pool'].append(pool_row)
             accepted = [r for r in verified['candidates'] if r['status'] in {'SUPPORTED', 'CONFLICTED'}
                         and r['relevance_pass'] and r['contribution_pass']]
+            if state.get('_event_scope'):
+                from chronos_repro.supplement import in_scope
+                scopes = {p['id']: p.get('event_scope', state['_event_scope']) for p in batch}
+                def inside(row):
+                    evidence_id = (row.get('date_evidence') or {}).get('document_id')
+                    effective = scopes.get(evidence_id, state['_event_scope'])
+                    return in_scope(row['event']['time'], state['_event_scope']) and in_scope(row['event']['time'], effective)
+                rejected = [r for r in accepted if not inside(r)]
+                state.setdefault('scope_quarantine', []).extend(copy.deepcopy(rejected))
+                accepted = [r for r in accepted if inside(r)]
             model_step(trajectory, phase, 'VERIFY', {**extract_state, 'tool_observation': {'retrieved_documents': batch}},
                        verified, {'passed_candidate_ids': [r['candidate_id'] for r in accepted],
+                                  'cache_reused': cache_reused,
                                   'extraction_page': page, 'maximum_reached': len(verified['candidates']) == max_candidates},
-                       'partial_validation_quarantine_not_training_target' if verified.get('repair_exhausted')
+                       'cached_verification_not_training_target' if cache_reused else
+                       'partial_validation_quarantine_not_training_target' if verified.get('repair_exhausted') or verified.get('partial_repair_applied')
                        else 'deepseek_actual_rollout_evidence_only')
+            committed = {r['candidate_id'] for r in state['candidate_pool'] if r.get('merge_processed')}
+            accepted = [r for r in accepted if r['candidate_id'] not in committed]
             merge_visible = copy.deepcopy(visible)
             merge_visible['events'] = related_events(state['timeline_events'], accepted, settings.get('merge_context_events', 40))
             merge_visible['memory'] = _compact_memory(merge_visible.get('memory', {}))
             merge_visible['valid_actions'] = ['MERGE']
             validate_student_state(merge_visible)
             merged, applied = execute_merge(client, state, accepted, config, trajectory, usage, phase, merge_visible)
+            record_resolutions(state, verified['candidates'], applied)
             if config.get('batch_controller', {}).get('enabled'):
                 from chronos_repro.batch_memory import sync_events
                 sync_events(state)
@@ -166,11 +220,14 @@ def process_passages(client, state, docs, config, trajectory, usage, phase, visi
                 break  # Keep unresolved extraction recorded; do not repeat the same invalid batch immediately.
         if complete:
             state['_evidence_reader'].mark_processed(batch)
+            covered_ids.update(batch_ids)
             state['incomplete_extraction'] = [r for r in state.get('incomplete_extraction', [])
                                              if not set(r['passage_ids']).issubset(state['_evidence_reader'].processed)]
         else:
-            state.setdefault('incomplete_extraction', []).append({'passage_ids': [d['id'] for d in batch],
-                                                                 'reason': 'extraction page limit reached'})
+            incomplete = state.setdefault('incomplete_extraction', [])
+            if not any(set(r['passage_ids']) == batch_ids for r in incomplete):
+                incomplete.append({'passage_ids': [d['id'] for d in batch],
+                                   'reason': 'extraction incomplete; page limit or unresolved validation'})
         state['evidence_progress'] = state['_evidence_reader'].summary()
         refresh_evidence_memory(state)
         checkpoint(state, trajectory, usage)
@@ -178,6 +235,9 @@ def process_passages(client, state, docs, config, trajectory, usage, phase, visi
 
 
 def checkpoint(state, trajectory, usage):
+    if state.get('_checkpoint_hook'):
+        state['_checkpoint_hook'](state, trajectory)
+        return
     folder = state.get('_output_dir')
     if not folder:
         return
@@ -188,6 +248,11 @@ def checkpoint(state, trajectory, usage):
                 'exploration_memory': state.get('exploration_memory', {}),
                 'gap_memory': copy.deepcopy(state.get('gap_memory'))}
     snapshot['verification_quarantine'] = copy.deepcopy(state.get('verification_quarantine', []))
+    snapshot['extraction_cache'] = copy.deepcopy(state.get('_extraction_cache', {}))
+    snapshot['incomplete_extraction'] = copy.deepcopy(state.get('incomplete_extraction', []))
+    for key in ('phase1_supplement', 'phase1_baseline_binding', 'date_conflict_quarantine', 'scope_quarantine'):
+        if key in state:
+            snapshot[key] = copy.deepcopy(state[key])
     if 'controller_memory' in state:
         snapshot['controller_memory'] = copy.deepcopy(state['controller_memory'])
         snapshot['query_batches'] = copy.deepcopy(state.get('query_batches', []))

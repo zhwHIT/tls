@@ -15,11 +15,15 @@ from chronos_repro.snapshot import MANIFEST, sha256
 
 
 def coverage_envelope(config):
+    from chronos_repro.supplement import validate_settings
+    validate_settings(config)
     if not config.get('coverage_pipeline', {}).get('enabled'):
         raise ValueError('This preflight is for coverage-enabled runs')
     if config.get('phase2_teacher_guidance', False):
         raise ValueError('Evaluation rollout must not expose Gold to the model')
     settings = config['coverage_pipeline']
+    if type(config.get('unlimited_verify', False)) is not bool:
+        raise ValueError('unlimited_verify must be Boolean')
     counts = {key: config[key] for key in ('phase1_max_rounds', 'phase2_max_gap_cycles', 'max_api_requests', 'top_k')}
     counts.update({key: settings[key] for key in ('passages_per_search', 'passage_chars', 'verification_batch_passages', 'extraction_pages')})
     batch = config.get('batch_controller', {})
@@ -39,11 +43,25 @@ def coverage_envelope(config):
         raise ValueError('Run limits must be positive integers')
     if settings['passage_chars'] > 3200 or settings['passages_per_search'] > 8:
         raise ValueError('Coverage transport exceeds the planned 8 x 3200-character envelope')
+    supplement = config.get('phase1_supplement', {})
+    supplement_rounds = (supplement['max_intervals'] * supplement['batches_per_interval']
+                         if supplement.get('enabled') else 0)
+    if config.get('first_phase_only') and (config.get('phase1_baseline') or supplement.get('enabled')):
+        raise ValueError('Fresh first-phase-only run excludes baselines and supplementation')
+    phase2_rounds = 0 if config.get('first_phase_only') else config['phase2_max_gap_cycles']
+    search_rounds = (0 if config.get('phase1_baseline') else config['phase1_max_rounds']) + phase2_rounds + supplement_rounds
     return {
         'topic': config['topic'], 'model': config['model'], 'endpoint': 'https://api.deepseek.com',
-        'max_http_requests_across_restarts': config['max_api_requests'],
-        'max_search_rounds': config['phase1_max_rounds'] + config['phase2_max_gap_cycles'],
-        'max_passage_selection_slots': (config['phase1_max_rounds'] + config['phase2_max_gap_cycles']) * settings['passages_per_search'] * (batch.get('max_queries', 1) if batch.get('enabled') else 1),
+        'max_http_requests_across_restarts': None if config.get('unlimited_verify', False) else config['max_api_requests'],
+        'unlimited_verify': config.get('unlimited_verify', False),
+        'max_budgeted_requests_across_restarts': config['max_api_requests'],
+        'request_budget_scope': 'non_verify_plus_legacy_unclassified' if config.get('unlimited_verify', False) else 'all_http',
+        'max_search_rounds': search_rounds,
+        'supplement_search_rounds': supplement_rounds,
+        'supplement_reread_passages': supplement.get('reread_passages', 0) if supplement.get('enabled') else 0,
+        'max_passage_selection_slots': None if settings.get('selection_policy') == 'sentence_union_with_queue_v1' else search_rounds * settings['passages_per_search'] * (batch.get('max_queries', 1) if batch.get('enabled') else 1),
+        'selection_policy': settings.get('selection_policy', 'legacy_contiguous_passages'),
+        'first_phase_only': bool(config.get('first_phase_only')),
         'max_queries_per_batch': batch.get('max_queries', 1) if batch.get('enabled') else 1,
         'passages_per_search': settings['passages_per_search'],
         'body_chars_per_passage': settings['passage_chars'], 'preceding_context_chars_per_passage': 400,
@@ -87,12 +105,16 @@ def build_preflight(project, config_path, config, env_file):
     query = ' '.join(keywords) + ' key events timeline'
     started = time.perf_counter()
     results = search(index, [query], config['top_k'], config['dataset'] + ' ' + config['topic'])
-    reader = EvidenceReader(index, config['topic'], config['coverage_pipeline'])
+    if config['coverage_pipeline'].get('selection_policy') == 'sentence_union_with_queue_v1':
+        from chronos_repro.sentence_reader import SentenceUnionReader
+        reader = SentenceUnionReader(index, config['topic'], config['coverage_pipeline'])
+    else:
+        reader = EvidenceReader(index, config['topic'], config['coverage_pipeline'])
     reader.add_results(results)
     passages = reader.select(query)
     if not results or not passages:
         raise ValueError('Local hybrid retrieval or passage access returned no evidence')
-    if any(len(p['text']) > envelope['body_chars_per_passage'] or len(p.get('context_before', '')) > 400 for p in passages):
+    if envelope['selection_policy'] == 'legacy_contiguous_passages' and any(len(p['text']) > envelope['body_chars_per_passage'] or len(p.get('context_before', '')) > 400 for p in passages):
         raise ValueError('Retrieved preview exceeds transport envelope')
     return {
         'status': 'offline_preflight_passed_not_api_authorized', 'api_calls': 0,
@@ -132,4 +154,5 @@ def guarded_coverage_client(config, output, *, allow_replay_from_start=False):
     from chronos_repro.runtime_profile import REQUEST_OPTIONS
     return LimitedDeepSeekClient(model=config['model'], max_retries=4, retry_backoff_seconds=5.0,
                                  request_options=REQUEST_OPTIONS,
-                                 request_limit=config['max_api_requests'], request_ledger_path=ledger)
+                                 request_limit=config['max_api_requests'], request_ledger_path=ledger,
+                                 unlimited_verify=config.get('unlimited_verify', False))

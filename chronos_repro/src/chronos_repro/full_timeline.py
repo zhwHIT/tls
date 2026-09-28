@@ -209,7 +209,8 @@ def apply_merge_operations(
     updated = [dict(row) for row in timeline]
     by_candidate = {row["candidate_id"]: row for row in candidates}
     audit = []
-    next_number = len(updated) + 1
+    next_number = max((int(r['event_id'][6:]) for r in updated
+                       if re.fullmatch(r'event-\d+', r['event_id'])), default=0) + 1
     resolved_updates = resolved_updates or {}
     for decision in operations:
         candidate = by_candidate[decision["candidate_id"]]

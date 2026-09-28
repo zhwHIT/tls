@@ -7,10 +7,12 @@ import re
 
 import coverage_pipeline
 from chronos_repro import batch_memory as memory
-from chronos_repro.batch_policy import POLICY_SYSTEM, instruction, validate_action, recover_duplicate_queries
+from chronos_repro.batch_policy import POLICY_SYSTEM, FIRST_PHASE_POLICY_SYSTEM, instruction, validate_action, recover_duplicate_queries, recover_policy_action
 from chronos_repro.fact_memory import validate_facts, recover_fact_lengths, fact_text_limits
 from chronos_repro.compact_context import ContextLimitError
 from chronos_repro.gap_contract import GAP_PROMPT, GAP_FEW_SHOTS, TARGET_SCHEMA, gap_signature, validate_resolution
+from chronos_repro.gap_evidence import deduplicate_open_gaps, review_context
+from chronos_repro.gap_discovery import bind_anchors, validate_discovery, recover_discovery
 from chronos_repro.retrieval import search
 from chronos_repro.tisa_rollout import SKELETON, REFINE, student_state, validate_gap_memory_action, next_open_gap
 
@@ -37,13 +39,43 @@ def _fits(client, system, payload):
         {'role': 'user', 'content': json.dumps(payload, ensure_ascii=False)}]) <= budget.settings.get('preflight_limit', 3800)
 
 
+def policy_system(state):
+    if state.get('_preextracted_events'):
+        return FIRST_PHASE_POLICY_SYSTEM + (
+            ' This run uses pre-extracted event/time results for article retrieval. '
+            'Their extraction error rate is accepted. Do not ask for verbatim quotes or '
+            'raw article verification. VERIFY only judges relevance and timeline membership. '
+            'No extracted event in an article means this representation supplies no event; '
+            'try a different article or query if useful. Accepted events retain their supplied '
+            'date precision in the timeline. This run ends after phase one.'
+        )
+    if not state.get('_event_scope'):
+        return POLICY_SYSTEM
+    begin = POLICY_SYSTEM.index('time_filter applies')
+    end = POLICY_SYSTEM.index('Avoid repeated', begin)
+    return (POLICY_SYSTEM[:begin] + 'For this interval worker, time_filter means EVENT OCCURRENCE dates. '
+            'Every search is restricted to event_scope even when mode is none. Retrospective evidence is allowed. '
+            'Do not query or append events outside event_scope. ' + POLICY_SYSTEM[end:])
+
+
+def call_payload(stage, payload):
+    """Build the same envelope for budgeting and transmission."""
+    return {'protocol': 'batch-v9', 'stage': stage, **payload}
+
+
 def _call(client, state, config, trajectory, usage, stage, payload, validator, *, policy=False, recovery=None):
     from run_tisa_two_phase_annotation import repaired_call, add_audits, model_step, LabelValidationError
-    payload = {'protocol': 'batch-v9', 'stage': stage, **payload}
-    system = POLICY_SYSTEM if policy else API_SYSTEM
+    payload = call_payload(stage, payload)
+    system = policy_system(state) if policy else API_SYSTEM
     recovered = None
     try:
-        output, audits = repaired_call(client, system, payload, validator, config)
+        # In event-return mode, metadata normalization and invalid/duplicate
+        # query isolation are deterministic. Repeating the full near-budget policy
+        # state plus the invalid 512-token answer can exceed the input cap.
+        # Keep VERIFY/MEMORY repairs unchanged; only policy uses local recovery.
+        call_config = ({**config, 'label_repair_attempts': 0}
+                       if policy and state.get('_preextracted_events') else config)
+        output, audits = repaired_call(client, system, payload, validator, call_config)
     except LabelValidationError as error:
         if recovery is None:
             raise
@@ -113,25 +145,45 @@ def discover_gaps(client, state, config, trajectory, usage):
     events = [memory.event_view(e) for e in state['timeline_events']]
     existing = state.setdefault('gap_memory', {'phase': REFINE, 'gaps': [], 'history': []})
     signatures = {gap_signature(g) for g in existing['gaps']}
+    incomplete = []
     offset = 0
     while offset < len(events):
         count = min(12, len(events) - offset)
+        facts = memory.initialize(state)['facts']
+        fact_count = len(facts)
         def build(n):
+            anchors, visible_facts = bind_anchors(events[offset:offset+n], facts[:fact_count], events)
             return {'protocol': 'batch-v9', 'stage': 'GAP_DISCOVERY', 'topic': state['topic'],
-                    'events': events[offset:offset+n], 'fact_memory': memory.initialize(state)['facts'],
-                    'events_outside_window': len(events) - n,
+                    'events': anchors, 'fact_memory': visible_facts,
+                    'allowed_anchor_ids': [e['event_id'] for e in anchors],
+                    'discovery_window_event_ids': [e['event_id'] for e in events[offset:offset+n]],
+                    'events_outside_window': len(events) - len(anchors),
+                    'facts_omitted_count': len(facts) - len(visible_facts),
                     'objective': GAP_PROMPT + ' Summary selection or a window boundary is not evidence of a missing event. '
+                    'Both neighbor IDs must be null or in allowed_anchor_ids; at least one anchor is required. '
+                    'fact_memory is a paraphrase, not a verbatim quote source. Copy anchor_quote only from '
+                    'the matching events[].summary. Memory-referenced events are included as explicit anchors. '
                     'Do not propose a question already answered by these events. Return at most 3 gaps; [] is valid.',
                     'few_shots': GAP_FEW_SHOTS,
                     'output': {'thought': 'ONE short sentence, target <=160 characters, hard limit 6-240 including spaces', 'action': 'GAP_MEMORY', 'gaps': [{
                         'gap_id': 'unique ID', 'type': 'TEMPORAL_GAP|CAUSAL_GAP|MISSING_KEY_EVENT|MISSING_FACTOR|EVIDENCE_CONFLICT',
                         'description': 'one uncertainty', 'priority': 0.5, 'status': 'OPEN',
                         'left_event_id': 'anchor ID', 'right_event_id': None, 'retrieval_target': TARGET_SCHEMA}]}}
+        while fact_count > 0 and not _fits(client, API_SYSTEM, build(count)):
+            fact_count -= 1
         while count > 1 and not _fits(client, API_SYSTEM, build(count)):
             count -= 1
         payload = build(count)
+        def recover(response):
+            recovered, audit = recover_discovery(response, payload['events'])
+            record = {'revision': memory.initialize(state)['revision'],
+                      'window_event_ids': payload['discovery_window_event_ids'],
+                      'allowed_anchor_ids': payload['allowed_anchor_ids'], **copy.deepcopy(audit)}
+            incomplete.append(record)
+            existing.setdefault('discovery_quarantine_history', []).append(copy.deepcopy(record))
+            return recovered, audit
         out = _call(client, state, config, trajectory, usage, 'GAP_DISCOVERY', payload,
-                    lambda p: validate_gap_memory_action(p, payload['events'], 3, require_atomic=True))
+                    lambda p: validate_discovery(p, payload['events']), recovery=recover)
         for gap in out['gaps']:
             signature = gap_signature(gap)
             if signature in signatures:
@@ -142,18 +194,20 @@ def discover_gaps(client, state, config, trajectory, usage):
             signatures.add(signature)
         offset += max(1, count - 2) if offset + count < len(events) else count
     existing['discovery_revision'] = memory.initialize(state)['revision']
+    existing['discovery_incomplete_windows'] = incomplete
+    deduplicate_open_gaps(existing)
     return existing
 
 
 def review_gap(client, state, config, trajectory, usage, gap):
-    words = set(re.findall(r'[a-z0-9]+', gap['retrieval_target']['question'].lower()))
     anchors = {gap.get('left_event_id'), gap.get('right_event_id')} - {None}
-    rows = sorted(state['timeline_events'], key=lambda e: (
-        e['event_id'] not in anchors, -len(words & set(re.findall(r'[a-z0-9]+', e['summary'].lower())))))
-    events = [memory.event_view(e) for e in rows[:12]]
+    rows = state['timeline_events']
+    events, prior_proofs = review_context(rows, gap, state.get('gap_memory', {}).get('gaps', []))
     payload = {'protocol': 'batch-v9', 'stage': 'GAP_STATUS', 'gap': gap, 'events': events,
                'omitted_event_count': len(rows) - len(events),
                'objective': 'Use current events to check whether completion_criterion is answered. '
+               'Related prior resolution evidence is a retrieval hint, not proof that this gap is resolved. '
+               'Judge the active completion criterion independently, including every requested part. '
                'RESOLVED needs a verbatim event quote that actually answers the question; conflict cannot resolve it. '
                'Otherwise OPEN; DEFERRED only when no worthwhile query is available. Do not create new gaps. '
                'An absent answer in this view does not prove absence from the archive. '
@@ -170,6 +224,12 @@ def review_gap(client, state, config, trajectory, usage, gap):
     while len(events) > max(1, len(anchors)) and not _fits(client, API_SYSTEM, payload):
         events.pop()
         payload['omitted_event_count'] = len(rows) - len(events)
+    # Prior proof events are prioritized in the same bounded event window; do not duplicate their quotes.
+    visible_ids = {e['event_id'] for e in events}
+    if prior_proofs:
+        trajectory.setdefault('gap_evidence_reuse', []).append({
+            'gap_id': gap['gap_id'], 'visible_proofs': [p for p in prior_proofs if p['event_id'] in visible_ids],
+            'resolution_established': False, 'training_target': False})
     def validate(p):
         if p.get('action') != 'GAP_MEMORY' or p.get('status') not in {'OPEN', 'RESOLVED', 'DEFERRED'}:
             raise ValueError('Invalid GAP_MEMORY status')
@@ -193,32 +253,51 @@ def review_gap(client, state, config, trajectory, usage, gap):
 
 def decide(client, state, config, trajectory, usage, phase, active_gap=None):
     policy_client = state.get('_policy_client', client)
+    include_leads = not state.get('_preextracted_events', False)
     refresh_summary(client, state, config, trajectory, usage)
-    view = memory.policy_view(state, phase, active_gap)
+    lead_limit = config['batch_controller'].get('pending_lead_limit', 8)
+    view = memory.policy_view(state, phase, active_gap, pending_lead_limit=lead_limit)
     view['stop_scope'] = 'active_gap_only' if active_gap else 'phase_one'
     maximum_queries = config['batch_controller'].get('max_queries', 3)
-    if active_gap:
+    if active_gap and 'phase2_max_batches_per_gap' not in config:
         remaining = config.get('phase2_max_attempts_per_gap', 3) - len(active_gap.get('attempted_queries', []))
         maximum_queries = min(maximum_queries, remaining)
     if maximum_queries < 1:
         raise ValueError('Exhausted gap must be deferred before requesting another query')
-    payload = instruction(view, maximum_queries)
-    if not _fits(policy_client, POLICY_SYSTEM, payload):
+    payload = call_payload('BATCH_POLICY', instruction(view, maximum_queries, include_leads=include_leads))
+    if not _fits(policy_client, policy_system(state), payload):
         refresh_summary(client, state, config, trajectory, usage, force=True)
-        view = memory.policy_view(state, phase, active_gap, recent_queries=3)
+        view = memory.policy_view(state, phase, active_gap, recent_queries=3, pending_lead_limit=lead_limit)
         # The scheduler retains the full queue; STOP cannot discard unseen tasks.
         view['stop_scope'] = 'active_gap_only' if active_gap else 'phase_one'
-        payload = instruction(view, maximum_queries)
+        payload = call_payload('BATCH_POLICY', instruction(view, maximum_queries, include_leads=include_leads))
+    # Shrink the rotating page, never truncate a reason or pretend omitted leads are resolved.
+    while not _fits(policy_client, policy_system(state), payload) and len(view.get('pending_leads', [])) > 1:
+        lead_limit = len(view['pending_leads']) - 1
+        view = memory.policy_view(state, phase, active_gap, recent_queries=3, pending_lead_limit=lead_limit)
+        view['stop_scope'] = 'active_gap_only' if active_gap else 'phase_one'
+        payload = call_payload('BATCH_POLICY', instruction(view, maximum_queries, include_leads=include_leads))
+    visible_lead_ids = {r['lead_id'] for r in view.get('pending_leads', [])}
     def recover(p):
-        recovered, audit = recover_duplicate_queries(p, memory.initialize(state)['query_history'],
-                                                      maximum_queries=maximum_queries)
+        recover_action = recover_policy_action if state.get('_preextracted_events') else recover_duplicate_queries
+        recovered, audit = recover_action(p, memory.initialize(state)['query_history'],
+                                          maximum_queries=maximum_queries, visible_lead_ids=visible_lead_ids)
         if recovered is None:
             recovered = {'action': 'STOP', 'queries': [], 'stop_reason': 'LOW_EXPECTED_GAIN',
-                         'reason': 'Executor handoff after repeated invalid queries; retrieval value remains unassessed.'}
+                         'reason': 'Executor handoff after invalid policy output; retrieval value remains unassessed.'}
         return recovered, audit
     output = _call(policy_client, state, config, trajectory, usage, 'BATCH_POLICY', payload,
                    lambda p: validate_action(p, memory.initialize(state)['query_history'],
-                                             maximum_queries=maximum_queries), policy=True, recovery=recover)
+                                             maximum_queries=maximum_queries, visible_lead_ids=visible_lead_ids), policy=True, recovery=recover)
+    if include_leads:
+        from chronos_repro.lead_feedback import record_presentation
+        record_presentation(state, view['pending_leads'])
+    else:
+        # Tolerate an old empty metadata field in a response, but do not carry
+        # it into subsequent retrieval records or model input.
+        for query in output['queries']:
+            query.pop('target_lead_ids', None)
+    coverage_pipeline.checkpoint(state, trajectory, usage)
     return output, payload
 
 
@@ -229,19 +308,31 @@ def execute_batch(client, state, config, index, trajectory, usage, phase, decisi
     # Queries are decided jointly; retrieval is independent and does not resample a policy mid-batch.
     for row in decision['queries']:
         filt = row['time_filter']
-        temporal = {'date_from': filt['start'], 'date_to': filt['end'], 'date_filter_mode': filt['mode'],
-                    'date_soft_penalty': config.get('temporal_search', {}).get('soft_penalty', .5)}
-        results = search(index, [row['query']], config['top_k'], f"{state['dataset']} {state['topic']}", **temporal)
-        docs = coverage_pipeline.retrieve_passages(state, config, index, row['query'], results, temporal=temporal)
+        if state.get('_event_scope'):
+            from chronos_repro.supplement import intersect
+            effective = intersect(state['_event_scope'], filt)
+            reader = state['_evidence_reader']
+            docs = reader.select(row['query'], events=state['timeline_events'],
+                                 temporal={'event_scope': effective}) if effective else []
+            results = [{'id': i} for i in dict.fromkeys(p['document_id'] for p in docs)]
+        else:
+            effective = filt
+            temporal = {'date_from': filt['start'], 'date_to': filt['end'], 'date_filter_mode': filt['mode'],
+                        'date_soft_penalty': config.get('temporal_search', {}).get('soft_penalty', .5)}
+            results = search(index, [row['query']], config['top_k'], f"{state['dataset']} {state['topic']}", **temporal)
+            docs = coverage_pipeline.retrieve_passages(state, config, index, row['query'], results, temporal=temporal)
         record = {**copy.deepcopy(row), 'batch_id': batch_id, 'gap_id': gap['gap_id'] if gap else None,
-                  'requested_filter': copy.deepcopy(filt), 'executed_filter': copy.deepcopy(filt),
+                  'requested_filter': copy.deepcopy(filt), 'executed_filter': copy.deepcopy(effective),
                   'result_ids': [r['id'] for r in results], 'passage_ids': [d['id'] for d in docs]}
         records.append(record)
         memory.record_query(state, record)
+        from chronos_repro.lead_feedback import record_lead_query
+        record_lead_query(state, record)
         state['search_history'].append(copy.deepcopy(record))
         selected.update({d['id']: d for d in docs})
     model_step(trajectory, phase, 'BATCH_RETRIEVAL', visible, {'batch_id': batch_id},
                {'queries': records, 'distinct_passages': len(selected)}, 'deterministic_batch_executor')
+    coverage_pipeline.checkpoint(state, trajectory, usage)
     before_revision = memory.initialize(state)['revision']
     merge_view = student_state(state['dataset'], state['topic'], phase, state['timeline_events'], {}, ['MERGE'])
     coverage_pipeline.process_passages(client, state, list(selected.values()), config, trajectory, usage, phase, merge_view)
@@ -249,9 +340,12 @@ def execute_batch(client, state, config, index, trajectory, usage, phase, decisi
     saved = memory.initialize(state)
     changes = [r for r in saved['pending_changes'] if r['revision'] > before_revision]
     saved['batches_since_summary'] += 1
-    state['query_batches'].append({'batch_id': batch_id, 'query_count': len(records),
+    state['query_batches'].append({'batch_id': batch_id, 'phase': phase, 'query_count': len(records),
                                    'before_revision': before_revision, 'after_revision': saved['revision'],
-                                   'event_change_count': len(changes), 'summary_version': saved['version']})
+                                   'event_change_count': len(changes), 'summary_version': saved['version'],
+                                   'appended_event_count': sum(c['operation'] == 'APPEND' for c in changes),
+                                   'updated_event_count': sum(c['operation'] == 'UPDATE' for c in changes),
+                                   'deleted_event_count': sum(c['operation'] == 'DELETE' for c in changes)})
     for row in saved['query_history'][-len(records):]:
         row['batch_event_change_count'] = len(changes)
         row['gain_attribution'] = 'joint_batch_not_individual_query_gain'
@@ -288,10 +382,12 @@ def _forced_stop(state, trajectory, phase):
 
 
 def run_phase2(client, state, config, index, trajectory, usage):
+    from chronos_repro.supplement import gap_exhausted
     state['phase'] = REFINE
     gaps = state.get('gap_memory')
-    if not gaps or gaps.get('discovery_revision') is None:
+    if not gaps or gaps.get('discovery_revision') is None or gaps.get('discovery_incomplete_windows'):
         gaps = discover_gaps(client, state, config, trajectory, usage)
+    deduplicate_open_gaps(gaps)
     cycles = sum(g.get('search_batches', 0) for g in gaps.get('gaps', []))
     while cycles < config['phase2_max_gap_cycles']:
         gap = next_open_gap(gaps)
@@ -302,14 +398,16 @@ def run_phase2(client, state, config, index, trajectory, usage):
                 discover_gaps(client, state, config, trajectory, usage)
                 gap = next_open_gap(gaps)
             if gap is None:
-                state['phase2_termination'] = 'no_actionable_gaps'
+                state['phase2_termination'] = ('gap_discovery_incomplete'
+                    if gaps.get('discovery_incomplete_windows') else 'no_actionable_gaps')
                 break
         if gap.get('last_review_revision') != memory.initialize(state)['revision']:
             review_gap(client, state, config, trajectory, usage, gap)
             if gap['status'] != 'OPEN':
                 continue
-        if len(gap.get('attempted_queries', [])) >= config.get('phase2_max_attempts_per_gap', 3):
-            gap.update(status='DEFERRED', status_reason='query_attempt_ceiling_not_resolution')
+        if gap_exhausted(gap, config):
+            gap.update(status='DEFERRED', status_reason=('gap_batch_ceiling_not_resolution'
+                       if 'phase2_max_batches_per_gap' in config else 'query_attempt_ceiling_not_resolution'))
             continue
         decision, visible = decide(client, state, config, trajectory, usage, REFINE, gap)
         if decision['action'] == 'STOP':
@@ -324,8 +422,9 @@ def run_phase2(client, state, config, index, trajectory, usage):
         execute_batch(client, state, config, index, trajectory, usage, REFINE, decision, visible, gap)
         cycles += 1
         review_gap(client, state, config, trajectory, usage, gap)
-        if gap['status'] == 'OPEN' and len(gap['attempted_queries']) >= config.get('phase2_max_attempts_per_gap', 3):
-            gap.update(status='DEFERRED', status_reason='query_attempt_ceiling_not_resolution')
+        if gap['status'] == 'OPEN' and gap_exhausted(gap, config):
+            gap.update(status='DEFERRED', status_reason=('gap_batch_ceiling_not_resolution'
+                       if 'phase2_max_batches_per_gap' in config else 'query_attempt_ceiling_not_resolution'))
     else:
         state['phase2_termination'] = 'runner_limit'
         _forced_stop(state, trajectory, REFINE)

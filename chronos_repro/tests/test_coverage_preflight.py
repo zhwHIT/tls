@@ -25,6 +25,20 @@ def test_planned_envelope_is_not_a_claim_of_coverage(config):
     assert 'byte cap' in scope['retransmission_note']
 
 
+def test_baseline_supplement_envelope_includes_new_rounds_only(config):
+    from coverage_preflight import coverage_envelope
+    config.update(phase1_baseline={'path':'bound-baseline.json','sha256':'bound'},
+        phase1_supplement={'enabled':True,'workers':1,'max_intervals':3,'interval_days':90,
+            'min_documents':2,'batches_per_interval':6,'reread_passages':6,'reread_pages':3},
+        phase2_max_batches_per_gap=3,phase2_max_gap_cycles=30,phase2_teacher_guidance=False,
+        batch_controller={'enabled':True,'max_queries':3,'summary_interval_batches':3,
+                          'tokens':{'preflight_limit':3800,'input_limit':4096}})
+    scope=coverage_envelope(config)
+    assert scope['max_search_rounds']==48
+    assert scope['supplement_search_rounds']==18
+    assert scope['supplement_reread_passages']==6
+
+
 @pytest.mark.parametrize('change', ['gold', 'characters', 'count', 'budget'])
 def test_preflight_rejects_incompatible_scope(config, change):
     from coverage_preflight import coverage_envelope

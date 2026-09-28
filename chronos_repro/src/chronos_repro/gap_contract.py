@@ -22,6 +22,10 @@ GAP_PROMPT = (
     'A causal task requires a concrete causal clue in its anchor, not merely chronology. '
     'Year/month-level milestones are already known at that precision, not absent. '
     'Return no gaps if no evidence-grounded uncertainty can be identified. '
+    'A completed milestone does not automatically require a follow-up story. '
+    'Ask about a later outcome only when the anchor states a pending decision, plan, unresolved consequence '
+    'or conflict whose answer materially changes the timeline. Do not ask whether every reported '
+    'quantity was later revised or what happened next to every person merely because it is unknown. '
     'completion_criterion states the evidence needed for this single question. '
     'seed_query is a proposal, never an invented executed search.'
 )
@@ -35,6 +39,8 @@ GAP_FEW_SHOTS = [
          'seed_query': 'Aurora purchase agreement regulatory approval decision'}},
     {'anchor_summary': 'The artist released an album in 1996.',
      'decision': 'The year-level milestone is known. Do not invent a missing daily event or a causal gap merely because the day is unknown.'},
+    {'anchor_summary': 'Rescuers freed an adult survivor from a collapsed building on May 8.',
+     'decision': 'No gap follows from this completed rescue alone. Do not invent a follow-up about the survivor without an explicit unresolved consequence.'},
 ]
 _BROAD = re.compile(
     r'\b(?:all (?:events|developments|causes|factors)|(?:complete|entire|full) '
@@ -53,10 +59,19 @@ def _text(value, field, maximum):
 
 
 def gap_signature(gap):
-    '''Different factual questions at the same anchors remain separate tasks.'''
+    '''Deduplicate explicit dated questions across anchors; retain context for anaphora.'''
     anchors = tuple(sorted({str(gap[k]) for k in ('left_event_id', 'right_event_id')
                             if gap.get(k) is not None}))
-    question = ' '.join(re.findall(r'\w+', gap.get('retrieval_target', {}).get('question', '').casefold()))
+    original = gap.get('retrieval_target', {}).get('question', '')
+    question = ' '.join(re.findall(r'\w+', original.casefold()))
+    explicit_scope = re.search(r'\b(?:19|20)\d{2}\b', question)
+    contextual = re.search(r'\b(?:it|its|they|their|them|he|his|she|her|this|that|these|those)\b', question)
+    generic_capitals = set('What When Where Who Why How Did Does Do Was Were Is Are Has Have Had '
+                           'Will Would Could Should The A An On In January February March April May June '
+                           'July August September October November December'.split())
+    named_scope = set(re.findall(r'\b[A-Z][A-Za-z]+\b', original)) - generic_capitals
+    if explicit_scope and named_scope and not contextual:
+        return ('explicit_dated_question', question)
     return (gap.get('type'), anchors, question)
 
 

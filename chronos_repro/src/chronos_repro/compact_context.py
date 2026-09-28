@@ -71,7 +71,7 @@ def memory_view(memory, active_gap=None, *, settings=None, stage=''):
         if not key or key in seen:
             continue
         seen.add(key)
-        selected.append({k: copy.deepcopy(row[k]) for k in ('lead_id', 'time', 'summary', 'status') if k in row})
+        selected.append({k: copy.deepcopy(row[k]) for k in ('lead_id', 'time', 'summary', 'status', 'reason') if k in row})
         if len(selected) >= settings.get('pending_leads', 8):
             break
     stages = [{k: copy.deepcopy(row[k]) for k in ('period', 'description') if k in row}
@@ -181,6 +181,8 @@ def state_view(state, stage='', settings=None):
     if stage == 'VERIFY':
         result['events'] = []
         result['memory'] = {'already_extracted': copy.deepcopy(memory.get('already_extracted', []))}
+        if memory.get('pending_candidates'):
+            result['memory']['pending_candidates'] = copy.deepcopy(memory['pending_candidates'])
     elif stage.startswith('UPDATE:'):
         result['events'] = []  # Exactly two unabridged input events are supplied separately.
         result['memory'] = {}
@@ -257,7 +259,7 @@ def compact_instruction(instruction, settings=None):
     if stage == 'FINAL_SELECT' and 'events' in result:
         result['events'] = [event_view(e) for e in result['events']]
     if 'repair' in result:
-        # Repairs must still contain the complete previous output, not the full old state.
+        # Preserve the caller's repair scope, including VERIFY's invalid-row-only payload.
         result['repair'] = copy.deepcopy(instruction['repair'])
     result['context_rule'] = CONTEXT_RULE
     return compact_gap_update(result)

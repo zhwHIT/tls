@@ -7,6 +7,8 @@ import subprocess
 import sys
 
 from chronos_repro.run_guard import exclusive_run, source_binding
+from chronos_repro.limited_llm import budgeted_requests
+from batch_continuation import balance_recovery_authorized
 
 
 def plan(project, suite, *, allow_exhausted=False):
@@ -25,20 +27,27 @@ def plan(project, suite, *, allow_exhausted=False):
         ledger = json.loads(ledger_path.read_text(encoding='utf-8')) if ledger_path.exists() else None
         if ledger and (ledger['request_limit'] != config['max_api_requests'] or ledger.get('balance_stop')):
             raise ValueError('Changed authorization ceiling or balance stop: halt entire suite')
-        used = ledger['requests_started'] if ledger else 0
+        if ledger and 'unlimited_verify' in ledger and ledger['unlimited_verify'] != config.get('unlimited_verify', False):
+            raise ValueError('Changed request accounting mode')
+        used = budgeted_requests(ledger) if ledger else 0
+        total = ledger['requests_started'] if ledger else 0
         if ledger is None and config.get('continuation'):
             parent_path = (project / config['continuation']['snapshot']).resolve().parent
             if not parent_path.is_relative_to(project):
                 raise ValueError('Continuation source must remain inside project')
             parent_ledger = json.loads((parent_path / 'request_ledger.json').read_text(encoding='utf-8'))
-            if parent_ledger.get('balance_stop'):
+            if parent_ledger.get('balance_stop') and not balance_recovery_authorized(config):
                 raise ValueError('Parent balance stop: halt entire suite')
-            used = parent_ledger['requests_started']
+            used = budgeted_requests(parent_ledger)
+            total = parent_ledger['requests_started']
         if type(used) is not int or not 0 <= used <= config['max_api_requests'] or (
                 used == config['max_api_requests'] and not allow_exhausted):
             raise ValueError('Invalid or exhausted cumulative request ledger')
-        rows.append({**item, 'requests_already_started': used,
-                     'remaining_http_requests': config['max_api_requests'] - used})
+        unlimited = config.get('unlimited_verify', False)
+        rows.append({**item, 'requests_already_started': total, 'budgeted_requests_already_started': used,
+                     'remaining_budgeted_requests': config['max_api_requests'] - used,
+                     'remaining_http_requests': None if unlimited else config['max_api_requests'] - used,
+                     'unlimited_verify': unlimited})
     return rows
 
 
@@ -95,7 +104,7 @@ def main():
             output = project / row['output_dir']
             current = next(r for r in plan(project, suite, allow_exhausted=True)
                            if (r['dataset'], r['topic']) == (row['dataset'], row['topic']))
-            if current['remaining_http_requests'] == 0:
+            if current['remaining_budgeted_requests'] == 0:
                 record['completed_processes'].append({'topic': record['active_topic'],
                     'returncode': 2, 'status': 'skipped_exhausted_ledger'})
                 save()
@@ -111,9 +120,15 @@ def main():
                 result = subprocess.run(command, cwd=project, stdout=log, stderr=subprocess.STDOUT)
             record['completed_processes'].append({'topic': record['active_topic'], 'returncode': result.returncode,
                                                    'log': str(log_path)})
+            save()  # Persist successful generation even if offline evaluation fails next.
             if args.evaluate_after_each:
                 from evaluate_multitopic_timeline import evaluate_suite
-                report = evaluate_suite(project, suite)
+                try:
+                    report = evaluate_suite(project, suite)
+                except (ValueError, KeyError, TypeError, OSError) as error:
+                    record.update(status='stopped_evaluation_error', evaluation_error=str(error))
+                    save()
+                    return 2
                 report_path = record_dir / f"evaluation_after_{len(record['completed_processes']):02d}.json"
                 with report_path.open('x', encoding='utf-8') as handle:
                     json.dump(report, handle, ensure_ascii=False, indent=2)
@@ -121,6 +136,14 @@ def main():
                 record['latest_evaluation'] = str(report_path)
                 record['all_topics_complete'] = report['all_complete']
                 record['aggregate'] = report['aggregate']
+                # Report each dataset separately; resumed T17 cannot contaminate fresh-dataset aggregates.
+                dataset_suite = {**suite, 'topics': [r for r in suite['topics'] if r['dataset'] == row['dataset']]}
+                dataset_report = evaluate_suite(project, dataset_suite)
+                dataset_path = record_dir / f"evaluation_{row['dataset']}_after_{len(record['completed_processes']):02d}.json"
+                with dataset_path.open('x', encoding='utf-8') as handle:
+                    json.dump(dataset_report, handle, ensure_ascii=False, indent=2)
+                    handle.write('\n')
+                record.setdefault('latest_dataset_evaluations', {})[row['dataset']] = str(dataset_path)
             if result.returncode == 3:
                 record['status'] = 'stopped_insufficient_balance'
                 save()

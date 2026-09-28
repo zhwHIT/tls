@@ -41,10 +41,14 @@ def teacher_call(client: DeepSeekClient, instruction: dict, temperature: float) 
         [{"role": "system", "content": SYSTEM}, {"role": "user", "content": json.dumps(instruction, ensure_ascii=False)}],
         temperature=temperature,
     )
-    payload = parse_json_object(result.text)
     audit = asdict(result)
     audit.pop("text", None)
     audit["response_sha256"] = hashlib.sha256(result.text.encode("utf-8")).hexdigest()
+    try:
+        payload = parse_json_object(result.text)
+    except (ValueError, TypeError) as error:
+        from chronos_repro.label_repair import ResponseParseError
+        raise ResponseParseError(str(error), result.text, audit) from error
     return payload, audit
 
 
@@ -139,7 +143,7 @@ def decide_search_or_stop(
     raise AssertionError("unreachable")
 
 
-def verify_batch(client: DeepSeekClient, state: dict, documents: list[dict], config: dict) -> tuple[dict, list[dict]]:
+def build_verify_instruction(state: dict, documents: list[dict], config: dict) -> dict:
     instruction = {
         "stage": "VERIFY",
         "state_before_verify": compact_state(state),
@@ -170,8 +174,11 @@ def verify_batch(client: DeepSeekClient, state: dict, documents: list[dict], con
                 'exactly into date_evidence, and quote the event clause containing that annotated occurrence. '
                 'These are frozen temporal-parser annotations, not truth labels: check the event really depends '
                 'on that expression; reject generic recurring weekdays, ambiguity, unsupported plans or contradictions. '
-                'Publication date alone never establishes event date. Missing year/month/day without a supplied '
-                'validated annotation stays INSUFFICIENT. Never fabricate an annotation ID or date. '
+                'Publication date alone never establishes event date. '
+                'A dated newspaper header next to an obituary or retrospective paragraph does not date the death or earlier event. '
+                'A parser-normalized weekday must also agree with explicit event relations such as "the day after voting"; '
+                'if those relations contradict the annotation, keep the date INSUFFICIENT. '
+                'Missing year/month/day without a supplied validated annotation stays INSUFFICIENT. Never fabricate an annotation ID or date. '
                 'Prefer copying a supplied source_quote verbatim when it supports the event; otherwise copy an exact enclosing source span. '
                 'A structured_timeline_year annotation uses its explicit year_context, not the publication year. '
                 'Prioritize distinct dated developments; keep undated leads concise. Apply relevance and contribution filters.')
@@ -204,6 +211,38 @@ def verify_batch(client: DeepSeekClient, state: dict, documents: list[dict], con
             'a short batch alone never proves completeness. This is a model declaration, not an independent coverage guarantee.')
         instruction["required_json"]["candidates"][0]["date_evidence"]["context"] = {
             "document_id": "same cited passage ID", "quote": "literal unique-year context; omit context for explicit dates", "year": "YYYY"}
+        instruction['objective'] += (
+            ' Keep each reason concise; do not repeat the source quote in reason or thought. '
+            'Quote the shortest exact source span that still establishes the event and date, with necessary '
+            'context. Do not copy whole paragraphs unnecessarily, truncate evidence, or repeat the same '
+            'event within this response. Distinct events on the same day remain separate candidates.')
+        instruction['objective'] += (
+            ' Jointly summarize each distinct event and its occurrence time using all supplied passages. '
+            'Combine complementary evidence only when it concerns the same actor, action and occurrence; '
+            'do not equate signing with debut, announcement with implementation, or repeated editions of a match. '
+            'Use memory.pending_candidates as unverified tasks, never as source evidence. Reconsider them '
+            'against the supplied original passages and cite every passage needed for the combined conclusion. '
+            'If the combined evidence establishes the event and full date, output SUPPORTED for MERGE into '
+            'the confirmed timeline; otherwise keep INSUFFICIENT. For INSUFFICIENT, reason must state '
+            'what is supported, exactly what is missing (year/month/day, relative-time anchor, event-date '
+            'association, actual outcome, event identity, or conflicting evidence), and what evidence would '
+            'resolve it. A generic "insufficient evidence" is not enough. Preserve grounded partial dates '
+            'and planned/proposed status; never substitute publication date or infer a plan happened. '
+            'When reassessing a supplied pending candidate, include its ID in revises_candidate_ids only '
+            'if it is the same event and you cite its supplied original evidence. Use [] for a new event. '
+            'Date context may cite another supplied passage of the SAME frozen article; cite both IDs '
+            'and its literal year. Different articles cannot provide a contextual year by mere proximity.')
+        instruction['required_json']['candidates'][0]['reason'] = 'supported information; precise remaining gap and evidence needed, or why combined evidence is sufficient'
+        instruction['required_json']['candidates'][0]['revises_candidate_ids'] = []
+        instruction['required_json']['candidates'][0]['date_evidence']['context']['document_id'] = 'same passage or another supplied, cited passage of the same frozen article'
+    return instruction
+
+
+def verify_batch(client: DeepSeekClient, state: dict, documents: list[dict], config: dict) -> tuple[dict, list[dict]]:
+    instruction = build_verify_instruction(state, documents, config)
+    if config.get('coverage_extraction'):
+        from chronos_repro.verify_partial_repair import verify_with_partial_repair
+        return verify_with_partial_repair(client, instruction, documents, config, teacher_call)
     failures = []
     for attempt in range(config["label_repair_attempts"] + 1):
         audit = None
@@ -256,6 +295,18 @@ def decide_merge(client: DeepSeekClient, state: dict, candidates: list[dict], co
         "current_timeline_state": compact_state(state),
         "verified_candidates": candidates,
         "objective": "Decide every verified candidate against the current timeline. APPEND only for a new distinct event. UPDATE only when it is the same event and new evidence improves an existing event. DROP duplicates, low-contribution items, or unresolved conflicts. Do not write the fused UPDATE text here.",
+        "event_identity_rules": [
+            "A shared actor, topic, or ongoing numerical series does not make two dated developments the same event.",
+            "APPEND a distinct later cost total, death-toll revision, ruling, announcement or implementation milestone. Preserve the earlier dated milestone.",
+            "Do not UPDATE an earlier node into a multi-date chronology with only the latest date as time.",
+            "A different-date UPDATE needs evidence that both accounts describe the same occurrence and one date is corrected or disputed. Similar wording alone is insufficient.",
+            "When dropping a date-conflicting duplicate, explain the date evidence; do not silently treat different dates as interchangeable.",
+        ],
+        "identity_example": {
+            "existing": {"time": "2020-02-10", "summary": "Aurora reported cleanup costs of $2 million."},
+            "candidate": {"time": "2020-04-15", "summary": "Aurora reported cleanup costs had reached $7 million."},
+            "decision": "APPEND: distinct dated cost milestones, not a correction to the February report.",
+        },
         "required_json": {
             "thought": "brief comparison with current timeline",
             "operations": [{"candidate_id": "c1", "operation": "APPEND|UPDATE|DROP", "target_event_id": "required existing event ID for UPDATE, otherwise null", "reason": "brief reason"}],

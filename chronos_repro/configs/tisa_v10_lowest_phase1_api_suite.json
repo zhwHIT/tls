@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "pipeline_revision": "two-phase-v10-interval-supplement-diagnostic",
+  "split": "gold_selected_worst_phase1_diagnostic",
+  "target_gold_date_recall": 0.7,
+  "topics": [
+    {
+      "dataset": "entities",
+      "topic": "David_Beckham",
+      "config": "configs/tisa_v10_entities_David_Beckham_api.json",
+      "output_dir": "artifacts/tisa_v10_lowest_phase1_api/entities_David_Beckham"
+    }
+  ]
+}

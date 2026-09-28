@@ -8,8 +8,8 @@ def summarize_topics(rows, expected_topics, target=0.7):
     if not 0 < target <= 1:
         raise ValueError('target must be in (0, 1]')
     expected = [tuple(x) for x in expected_topics]
-    if len(set(expected)) != len(expected) or len(expected) < 2:
-        raise ValueError('Evaluation needs at least two distinct dataset/topic pairs')
+    if len(set(expected)) != len(expected) or not expected:
+        raise ValueError('Evaluation needs distinct dataset/topic pairs and at least one topic')
     keyed = {}
     for row in rows:
         key = (row['dataset'], row['topic'])

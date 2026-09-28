@@ -14,10 +14,46 @@ __pycache__/
 # Empty extraction staging directories
 closed_corpora_staging/
 
-# Downloaded embedding weights and generated dense indexes
-chronos_repro/models/
-chronos_repro/artifacts/*_dense*/
-chronos_repro/artifacts/*_hybrid_index.json
+# Runtime sidecars and download caches (data and indexes are versioned)
+*.sqlite3-shm
+*.sqlite3-wal
+chronos_repro/models/**/.cache/
+
+# Local duplicate checkouts and superseded download copies
+/chronos_repro_v99_review/
+/closed_corpora_download/
+/chronos_repro/3.4
+
+# Keep the active embedding runtime, not duplicate/full-precision weights
+/chronos_repro/models/**/*.safetensors
+/chronos_repro/models/paraphrase-multilingual-MiniLM-L12-v2-onnx-int8-avx2/
+
+# Curated data snapshot: active indexes, extracted events and latest valid runs.
+# Previously committed files remain tracked; historical local runs stay on disk.
+/chronos_repro/artifacts/*
+!/chronos_repro/artifacts/crisis_dense_collection_v3/
+!/chronos_repro/artifacts/entities_dense_collection_v3/
+!/chronos_repro/artifacts/t17_dense_collection_v3/
+!/chronos_repro/artifacts/crisis_collection_v3_hybrid_index.json
+!/chronos_repro/artifacts/entities_collection_v3_hybrid_index.json
+!/chronos_repro/artifacts/t17_collection_v3_hybrid_index.json
+!/chronos_repro/artifacts/deepseek_v4_tokenizer/
+/chronos_repro/artifacts/deepseek_v4_tokenizer/*.zip
+!/chronos_repro/artifacts/llm_tls_extraction_v1/
+/chronos_repro/artifacts/llm_tls_extraction_v1/*
+!/chronos_repro/artifacts/llm_tls_extraction_v1/events/
+!/chronos_repro/artifacts/llm_tls_extraction_v1/export_report.json
+!/chronos_repro/artifacts/llm_tls_extraction_v1/preparation_report.json
+!/chronos_repro/artifacts/llm_tls_extraction_v1/run_identity.json
+!/chronos_repro/artifacts/llm_tls_extraction_v1/transport_policy.json
+!/chronos_repro/artifacts/preextracted_all_phase1_20260920/
+/chronos_repro/artifacts/preextracted_all_phase1_20260920/crisis_*/
+!/chronos_repro/artifacts/preextracted_crisis_developments_topic_only_20260922/
+!/chronos_repro/artifacts/crisis_time_distribution_20260922/
+!/chronos_repro/artifacts/current_scheme_review_20260928/
+/chronos_repro/artifacts/**/api_cache/
+/chronos_repro/artifacts/**/history/
+/chronos_repro/artifacts/**/attempts/
 
 # OS files
 Thumbs.db

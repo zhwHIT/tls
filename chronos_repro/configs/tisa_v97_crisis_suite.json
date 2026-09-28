@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "pipeline_revision": "two-phase-v9.7-unlimited-verify-accounting",
+  "split": "authorized_cross_dataset_diagnostic",
+  "target_gold_date_recall": 0.7,
+  "topics": [
+    {
+      "dataset": "crisis",
+      "topic": "egypt",
+      "config": "configs/tisa_v97_crisis_egypt.json",
+      "output_dir": "artifacts/tisa_v97_authorized/crisis_egypt"
+    },
+    {
+      "dataset": "crisis",
+      "topic": "libya",
+      "config": "configs/tisa_v97_crisis_libya.json",
+      "output_dir": "artifacts/tisa_v97_authorized/crisis_libya"
+    },
+    {
+      "dataset": "crisis",
+      "topic": "syria",
+      "config": "configs/tisa_v97_crisis_syria.json",
+      "output_dir": "artifacts/tisa_v97_authorized/crisis_syria"
+    },
+    {
+      "dataset": "crisis",
+      "topic": "yemen",
+      "config": "configs/tisa_v97_crisis_yemen.json",
+      "output_dir": "artifacts/tisa_v97_authorized/crisis_yemen"
+    }
+  ]
+}

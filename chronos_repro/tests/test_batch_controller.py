@@ -63,6 +63,32 @@ def test_summary_is_not_updated_every_search_and_no_gain_does_not_refresh():
     assert not memory.summary_due(s)
 
 
+def test_policy_keeps_factual_memory_without_early_history_frontier():
+    s = state()
+    first = {**event('early'), 'time': '2001-01-02'}
+    later = {**event('late'), 'time': '2010-01-02'}
+    s['timeline_events'] = [later, first]
+    memory.sync_events(s)
+    memory.commit_summary(s, [{'text': 'Only a later milestone.', 'event_ids': ['late']}], 2)
+    view = memory.policy_view(s, 'SKELETON_EXPLORATION')
+    assert 'chronology_frontier' not in view
+    assert view['memory']['facts'] == [{'text': 'Only a later milestone.', 'event_ids': ['late']}]
+    payload = {'protocol': 'batch-v9', **instruction(view)}
+    assert 'chronology_frontier' not in compact_instruction(payload)['state']
+
+
+def test_policy_preserves_event_scope_without_early_history_frontier():
+    s = state()
+    s['timeline_events'] = [{**event('conflict'), 'time': '1990-01-01', 'conflict': True},
+                            {**event('partial'), 'time': '1980'}, event('confirmed')]
+    assert 'chronology_frontier' not in memory.policy_view(s, 'SKELETON_EXPLORATION')
+    assert 'chronology_frontier' not in memory.policy_view(s, 'GAP_REFINEMENT')
+    s['_event_scope'] = {'start': '2020-01-01', 'end': '2020-01-31'}
+    view = memory.policy_view(s, 'SKELETON_EXPLORATION')
+    assert 'chronology_frontier' not in view
+    assert view['event_scope'] == s['_event_scope']
+
+
 def test_batch_queries_validate_time_filters_and_history():
     rows = [query(), query('Aurora acquisition regulatory decision', 'soft', '2020-01-01', '2020-02-01')]
     assert validate_action(action(rows), [])['queries'] == rows
@@ -183,6 +209,31 @@ def test_batch_executes_independent_queries_deduplicates_passages_and_records_de
     assert s['controller_memory']['version'] == 0
     assert s['controller_memory']['pending_changes'][0]['event_id'] == 'e1'
     assert s['query_batches'][0]['query_count'] == 2
+
+
+def test_early_career_search_keeps_retrospective_evidence_without_implicit_bounds(runtime, monkeypatch):
+    s = state()
+    s['timeline_events'] = [{**event('later'), 'time': '2010-01-02'}]
+    calls = []
+    def search(index, queries, k, engine, **kwargs):
+        calls.append(kwargs)
+        # A later publication can supply an event before the current timeline.
+        return [{'id': 'retrospective', 'publication_date': '2024-02-03'}]
+    monkeypatch.setattr(runtime, 'search', search)
+    monkeypatch.setattr(runtime.coverage_pipeline, 'retrieve_passages', lambda *a, **k: [{'id': 'early-passage'}])
+    monkeypatch.setattr(runtime.coverage_pipeline, 'process_passages', lambda *a, **k: None)
+    monkeypatch.setattr(runtime.coverage_pipeline, 'checkpoint', lambda *a: None)
+    row = {**query('Aurora first professional appearance career beginnings'), 'target_lead_ids': []}
+    decision = validate_action(action([row]), [], visible_lead_ids=[])
+    trace = {'steps': []}
+    runtime.execute_batch(None, s, {'top_k': 5}, 'index', trace, {}, 'SKELETON_EXPLORATION', decision, {})
+    assert calls[0]['date_filter_mode'] == 'none'
+    assert calls[0]['date_from'] is None and calls[0]['date_to'] is None
+    record = s['controller_memory']['query_history'][0]
+    assert record['result_ids'] == ['retrospective']
+    assert record['target_lead_ids'] == []
+    assert record['executed_filter'] == row['time_filter']
+    assert len(s['timeline_events']) == 1  # SEARCH cannot itself promote a new event.
 
 
 def test_phase1_allows_early_stop_without_minimum_events(runtime, monkeypatch):

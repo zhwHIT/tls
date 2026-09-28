@@ -92,8 +92,12 @@ def evaluate_suite(project, suite):
     result['comparable_source_versions'] = len(versions) == 1 and 'unbound_legacy' not in versions
     if not result['comparable_source_versions']:
         result['aggregate'] = None
+    modes = {'state_continuation' if row.get('continuation') else 'fresh_rollout' for row in rows}
+    evaluation_mode = next(iter(modes)) if len(modes) == 1 else 'mixed_continuation_and_fresh' if modes else 'not_started'
+    if len(modes) > 1:
+        result['aggregate'] = None
     result.update(api_calls=0, pipeline_revision=suite['pipeline_revision'],
-                  evaluation_mode='state_continuation' if any(r.get('continuation') for r in rows) else 'fresh_rollout',
+                  evaluation_mode=evaluation_mode,
                   split=suite.get('split', 'unassigned'),
                   limitations=['Strict date coverage does not establish event correctness',
                                'Previously inspected dev topics are not an untouched test set'])

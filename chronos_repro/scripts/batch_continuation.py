@@ -10,6 +10,14 @@ from chronos_repro.atomic_io import atomic_write_json
 from chronos_repro.snapshot import sha256
 from chronos_repro.tisa_rollout import SKELETON, REFINE, student_state
 from chronos_repro import batch_memory as memory
+from chronos_repro.limited_llm import budgeted_requests
+
+
+def balance_recovery_authorized(config):
+    recovery = config.get('continuation', {}).get('balance_recovery', {})
+    return (isinstance(recovery, dict) and recovery.get('user_authorized') is True
+            and isinstance(recovery.get('authorization_note'), str)
+            and bool(recovery['authorization_note'].strip()))
 
 
 def prepare(project, output, config):
@@ -28,29 +36,43 @@ def prepare(project, output, config):
             raise ValueError('Continuation changes bound input: ' + key)
     ledger_path = parent / 'request_ledger.json'
     ledger = json.loads(ledger_path.read_text(encoding='utf-8'))
-    if sha256(ledger_path) != spec['ledger_sha256'] or ledger.get('balance_stop'):
+    if sha256(ledger_path) != spec['ledger_sha256']:
         raise ValueError('Parent ledger changed or account stopped')
-    if config['max_api_requests'] != ledger['requests_started'] + spec['additional_requests']:
+    recovered_balance = balance_recovery_authorized(config)
+    if ledger.get('balance_stop') and not recovered_balance:
+        raise ValueError('Parent balance stop requires explicit recovery authorization')
+    if ledger.get('unlimited_verify', False) and not config.get('unlimited_verify', False):
+        raise ValueError('Cannot discard classified request accounting on continuation')
+    if config['max_api_requests'] != budgeted_requests(ledger) + spec['additional_requests']:
         raise ValueError('Continuation ceiling must preserve cumulative request count')
     snapshot = json.loads(path.read_text(encoding='utf-8'))
-    if snapshot.get('status') in {'ok', 'stopped_insufficient_balance'}:
+    if snapshot.get('status') == 'ok' or (snapshot.get('status') == 'stopped_insufficient_balance' and not recovered_balance):
         raise ValueError('Do not continue an already completed or balance-stopped run')
     if (snapshot['dataset'], snapshot['topic']) != (config['dataset'], config['topic']):
         raise ValueError('Continuation topic mismatch')
     new_ledger = output / 'request_ledger.json'
     if new_ledger.exists():
         raise ValueError('Continuation requires a fresh destination; never reset a ledger')
-    atomic_write_json(new_ledger, {'request_limit': config['max_api_requests'],
-                                  'requests_started': ledger['requests_started'], 'balance_stop': False})
+    continued_ledger = copy.deepcopy(ledger)
+    continued_ledger.update(request_limit=config['max_api_requests'], balance_stop=False)
+    atomic_write_json(new_ledger, continued_ledger)
     cache = output / 'api_cache'
     cache.mkdir(exist_ok=True)
-    for entry in (parent / 'api_cache').glob('*.json'):
-        shutil.copy2(entry, cache / entry.name)
+    reuse_cache = spec.get('reuse_parent_api_cache', True)
+    if reuse_cache:
+        for entry in (parent / 'api_cache').glob('*.json'):
+            shutil.copy2(entry, cache / entry.name)
     lineage = {'parent_snapshot': str(path), 'parent_snapshot_sha256': sha256(path),
                'parent_source_sha256': snapshot.get('source_sha256'),
                'parent_requests': ledger['requests_started'], 'additional_request_ceiling': spec['additional_requests'],
                'mode': 'state_continuation_not_replay_from_start', 'parent_unchanged': True,
                'old_audits_stay_in_parent': True}
+    lineage['additional_request_scope'] = 'non_verify' if config.get('unlimited_verify', False) else 'all_http'
+    lineage['unlimited_verify'] = config.get('unlimited_verify', False)
+    lineage['parent_api_cache_reused'] = reuse_cache
+    if ledger.get('balance_stop'):
+        lineage['balance_recovery'] = copy.deepcopy(spec['balance_recovery'])
+        lineage['parent_balance_stop_preserved'] = True
     atomic_write_json(output / 'continuation_binding.json', lineage)
     parent_binding = json.loads((parent / 'run_binding.json').read_text(encoding='utf-8'))
     return {'snapshot': snapshot, 'parent': parent, 'lineage': lineage, 'input_binding': parent_binding}
@@ -69,8 +91,12 @@ def restore(state, trajectory, continuation, config, index):
     for key in ('phase1_termination', 'phase2_termination', 'incomplete_extraction', 'verification_quarantine'):
         if key in old:
             state[key] = copy.deepcopy(old[key])
+    for key in ('phase1_supplement', 'phase1_baseline_binding', 'date_conflict_quarantine', 'scope_quarantine'):
+        if key in old:
+            state[key] = copy.deepcopy(old[key])
     pool = continuation['parent'] / 'candidate_pool.json'
     state['candidate_pool'] = json.loads(pool.read_text(encoding='utf-8')) if pool.exists() else copy.deepcopy(old.get('candidate_pool', []))
+    state['_extraction_cache'] = copy.deepcopy(old.get('extraction_cache', {}))
     reader = coverage_pipeline.reader_for(state, index, config)
     manifest_path = continuation['parent'] / 'evidence_reader_manifest.json'
     if manifest_path.exists():

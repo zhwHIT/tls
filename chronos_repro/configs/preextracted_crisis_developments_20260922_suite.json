@@ -1,0 +1,30 @@
+{
+  "pipeline_revision": "first-phase-preextracted-events-v1",
+  "scope": "Fresh Crisis first phase with current developments prompt; no completion leads or batch yield feedback supplied to SEARCH",
+  "topics": [
+    {
+      "dataset": "crisis",
+      "topic": "egypt",
+      "config": "configs/preextracted_crisis_developments_20260922/crisis_egypt.json",
+      "output_dir": "artifacts/preextracted_crisis_developments_20260922/crisis_egypt"
+    },
+    {
+      "dataset": "crisis",
+      "topic": "libya",
+      "config": "configs/preextracted_crisis_developments_20260922/crisis_libya.json",
+      "output_dir": "artifacts/preextracted_crisis_developments_20260922/crisis_libya"
+    },
+    {
+      "dataset": "crisis",
+      "topic": "syria",
+      "config": "configs/preextracted_crisis_developments_20260922/crisis_syria.json",
+      "output_dir": "artifacts/preextracted_crisis_developments_20260922/crisis_syria"
+    },
+    {
+      "dataset": "crisis",
+      "topic": "yemen",
+      "config": "configs/preextracted_crisis_developments_20260922/crisis_yemen.json",
+      "output_dir": "artifacts/preextracted_crisis_developments_20260922/crisis_yemen"
+    }
+  ]
+}

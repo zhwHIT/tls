@@ -101,6 +101,24 @@ class EvidenceReader:
                                    represented_dates=represented)
         from .temporal_filter import in_publication_range
         temporal = temporal or {}
+        event_scope = temporal.get('event_scope')
+        if event_scope:
+            from .supplement import in_scope
+            from .frozen_timex import attach_annotations
+            scoped = []
+            for p in candidates:
+                annotations = (self.temporal_annotations or {}).get(p['document_id'], [])
+                if annotations:
+                    attach_annotations(p, annotations, maximum=len(annotations))
+                relevant = [a for a in p.get('temporal_annotations', []) if in_scope(a['date'], event_scope)]
+                if relevant:
+                    # Return copies: local scope must not erase the shared corpus annotations.
+                    import copy
+                    item = copy.deepcopy(p)
+                    item['temporal_annotations'] = relevant[:12]
+                    item['event_scope'] = dict(event_scope)
+                    scoped.append(item)
+            candidates = scoped
         mode = temporal.get('date_filter_mode', 'none')
         inside = lambda p: in_publication_range(p.get('publication_date'), temporal.get('date_from'), temporal.get('date_to'))
         if mode == 'hard':

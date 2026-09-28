@@ -1,0 +1,23 @@
+{
+  "pipeline_revision": "first-phase-preextracted-events-v1",
+  "topics": [
+    {
+      "dataset": "entities",
+      "topic": "David_Beckham",
+      "config": "configs/preextracted_phase1_David_Beckham.json",
+      "output_dir": "artifacts/preextracted_phase1_20260920/entities_David_Beckham"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Bill_Clinton",
+      "config": "configs/preextracted_phase1_Bill_Clinton.json",
+      "output_dir": "artifacts/preextracted_phase1_20260920/entities_Bill_Clinton"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Bashar_al-Assad",
+      "config": "configs/preextracted_phase1_Bashar_al-Assad.json",
+      "output_dir": "artifacts/preextracted_phase1_20260920/entities_Bashar_al-Assad"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": 6,
+  "pipeline_revision": "first-phase-joint-evidence-feedback-v1",
+  "model": "deepseek-v4-flash",
+  "dataset": "entities",
+  "topic": "David_Beckham",
+  "data": "snapshots/entities/25ac73e52bc93b3b",
+  "index": "artifacts/entities_collection_v3_hybrid_index.json",
+  "top_k": 12,
+  "document_char_limit": 1200,
+  "max_candidates_per_round": 4,
+  "strict_date_evidence": true,
+  "phase1_max_rounds": 24,
+  "phase1_min_search_rounds": 0,
+  "phase1_min_events": 0,
+  "exploration_memory": {
+    "enabled": true,
+    "progress_control_enabled": true,
+    "minimum_stages": 0
+  },
+  "coverage_pipeline": {
+    "enabled": true,
+    "passage_words": 180,
+    "passage_chars": 1200,
+    "overlap_words": 30,
+    "passages_per_search": 2,
+    "verification_batch_passages": 1,
+    "candidates_per_batch": 6,
+    "extraction_pages": 2,
+    "merge_context_events": 8,
+    "selection_policy": "sentence_union_with_queue_v1",
+    "sentence_tokenizer_path": "D:\\paper\\chronos_repro\\artifacts\\deepseek_v4_tokenizer\\tokenizer.json",
+    "joint_verification": true,
+    "joint_verification_max_passages": 4,
+    "joint_verification_max_chars": 6000
+  },
+  "max_api_requests": 500,
+  "phase2_max_gaps": 12,
+  "phase2_max_gap_cycles": 30,
+  "phase2_teacher_guidance": false,
+  "resume_failed_phase1": false,
+  "label_repair_attempts": 1,
+  "temperature": 0,
+  "semantic_coverage_threshold": 0.2,
+  "temporal_search": {
+    "enabled": true,
+    "soft_penalty": 0.5
+  },
+  "compact_context": {
+    "enabled": true,
+    "local_events": 8,
+    "recent_queries": 4,
+    "max_request_chars": 64000
+  },
+  "batch_controller": {
+    "enabled": true,
+    "max_queries": 3,
+    "summary_interval_batches": 3,
+    "summary_delta_chars": 4500,
+    "tokens": {
+      "tokenizer_path": "artifacts/deepseek_v4_tokenizer/tokenizer.json",
+      "preflight_limit": 3800,
+      "input_limit": 4096
+    },
+    "summary_fact_max_chars": 320,
+    "summary_fact_target_chars": 240,
+    "pending_lead_limit": 8
+  },
+  "evaluation_role": "joint_evidence_feedback_first_phase_gold_date_recall",
+  "authorization_note": "2026-09-18 user explicitly authorized an API rerun of the new joint-evidence and lead-feedback scheme: fresh David Beckham first phase only, no supplementation or phase two, evaluate all 16 Gold dates offline.",
+  "unlimited_verify": true,
+  "date_conflict_review": {
+    "enabled": true,
+    "similarity_threshold": 0.55
+  },
+  "phase2_max_batches_per_gap": 3,
+  "first_phase_only": true,
+  "selection_budget_note": "Per live query, reserialize the legacy reader selection with common metadata as token and visible-char ceilings. Query sequence is adaptive, not frozen historical 51 queries. Full API token costs are reported separately."
+}

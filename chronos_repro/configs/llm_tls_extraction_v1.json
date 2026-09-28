@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "model": "deepseek-v4-flash",
+  "base_url": "https://api.deepseek.com",
+  "api_key_env": "DEEPSEEK_API_KEY",
+  "env_file": ".env",
+  "upstream": "../llm_tls_upstream",
+  "tokenizer": "artifacts/deepseek_v4_tokenizer/tokenizer.json",
+  "output": "artifacts/llm_tls_extraction_v1",
+  "datasets": {
+    "t17": "snapshots/t17/2704b6b058774e15",
+    "entities": "snapshots/entities/25ac73e52bc93b3b",
+    "crisis": "snapshots/crisis/ece08f344cc94933"
+  },
+  "context_length": 1500,
+  "max_tokens": 512,
+  "temperature": 0,
+  "workers": 32,
+  "timeout": 90,
+  "max_retries": 2,
+  "authorization": "User explicitly authorized API summarization and event/date extraction for T17, Entities and the other local dataset Crisis in this conversation.",
+  "fact_verification": false,
+  "integration_scope": "offline extraction only; retrieval and VERIFY are unchanged",
+  "adaptations": [
+    "Reuse pinned upstream one-shot prompts and first-time selectors; use existing DeepSeek API instead of local Llama2.",
+    "Keep the upstream 1500 article-token prefix using the deployed model tokenizer.",
+    "Preserve partial/unknown dates and planned-event wording; do not force publication dates into event dates.",
+    "Deduplicate identical requests while preserving every source article mapping, rather than dropping title/date duplicates.",
+    "Add SQLite checkpoints, per-response caches, usage logs, source hashes, and all token time mentions."
+  ]
+}

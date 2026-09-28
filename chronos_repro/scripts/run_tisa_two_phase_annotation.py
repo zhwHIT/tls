@@ -191,10 +191,12 @@ def model_step(
         "step_id": f"step-{len(trajectory['steps']) + 1:03d}",
         "phase": phase,
         "action": action,
-        "model_input": visible_input,
-        "model_output": model_output,
-        "observation": observation,
+        "model_input": copy.deepcopy(visible_input),
+        "model_output": copy.deepcopy(model_output),
+        "observation": copy.deepcopy(observation),
         "label_source": label_source,
+        "snapshot_metadata": {"version": 1, "detached_from_live_state": True,
+                              "capture_kind": "step_payload_not_exact_wire_messages"},
     })
 
 
@@ -237,6 +239,11 @@ def execute_merge(
     phase: str,
     visible: dict,
 ) -> tuple[dict, list[dict]]:
+    if state.get('_event_scope'):
+        from chronos_repro.supplement import in_scope
+        outside = [c for c in candidates if not in_scope(c['event']['time'], state['_event_scope'])]
+        if outside:
+            raise ValueError('Supplement MERGE contains out-of-scope event')
     if not candidates:
         output = {
             "thought": "No verified candidate can improve the current timeline.",
@@ -250,14 +257,30 @@ def execute_merge(
         return output, []
     state["valid_actions"] = ["MERGE"]
     state["model_visible_state"] = visible
-    merged, audits = decide_merge(client, state, candidates, config)
-    add_audits(trajectory, usage, f"{phase}:MERGE", audits)
+    from chronos_repro.verification_efficiency import partition_exact_duplicates
+    from date_conflict_review import partition
+    reviewed, date_operations, date_fusions = partition(client, state, candidates, config, trajectory, usage, phase)
+    pending, local_operations, duplicate_audit = partition_exact_duplicates(reviewed, state['timeline_events'])
+    local_operations = [*local_operations, *date_operations]
+    if pending:
+        merged, audits = decide_merge(client, state, pending, config)
+        add_audits(trajectory, usage, f"{phase}:MERGE", audits)
+    else:
+        merged = {'thought': 'All candidate facts and their evidence are already represented.', 'operations': []}
+    if local_operations:
+        merged = {**merged, 'operations': [*merged['operations'], *local_operations],
+                  'local_duplicate_filter': duplicate_audit, 'training_target': False}
+    from chronos_repro.full_timeline import validate_merge_operations
+    validate_merge_operations(merged['operations'], candidates, state['timeline_events'], exact_duplicate_guard=True)
     by_candidate = {row["candidate_id"]: row for row in candidates}
     by_event = {row["event_id"]: row for row in state["timeline_events"]}
-    resolved_updates = {}
-    update_observations = []
+    resolved_updates = dict(date_fusions)
+    update_observations = [{'thought': 'Separately adjudicated date conflict.', 'merged_event': e}
+                           for e in date_fusions.values()]
     for operation in merged["operations"]:
         if operation["operation"] != "UPDATE":
+            continue
+        if operation['candidate_id'] in date_fusions:
             continue
         existing = by_event[operation["target_event_id"]]
         candidate = by_candidate[operation["candidate_id"]]
@@ -280,13 +303,16 @@ def execute_merge(
         "new_event_count": len(state["timeline_events"]) - before,
         "event_count": len(state["timeline_events"]),
     }
+    if duplicate_audit:
+        observation.update(local_duplicate_filter=duplicate_audit, training_target=False,
+                           model_candidate_count=len(pending), local_drop_count=len(local_operations))
     if merged.get('executor_recovery'):
         observation.update(executor_recovery=merged['executor_recovery'], training_target=False)
     model_step(
         trajectory, phase, "MERGE",
         {**visible, "tool_observation": {"verified_candidates": candidates}},
         merged, observation,
-        "executor_recovery_not_training_target" if merged.get('executor_recovery') else "deepseek_actual_rollout",
+        "executor_recovery_not_training_target" if merged.get('executor_recovery') or duplicate_audit else "deepseek_actual_rollout",
     )
     return merged, applied
 
@@ -1042,6 +1068,22 @@ def write_jsonl(path: Path, rows: list[dict]) -> None:
     )
 
 
+def run_requested_later_phases(client, state, private_events, config, index, trajectory, usage):
+    if config.get('first_phase_only'):
+        if config.get('phase1_supplement', {}).get('enabled'):
+            raise ValueError('First-phase-only run cannot enable supplementation')
+        state['phase2_termination'] = 'not_requested_first_phase_only'
+        state['event_pool'] = copy.deepcopy(state['timeline_events'])
+        return {}
+    if config.get('phase1_supplement', {}).get('enabled'):
+        from phase1_supplement import run as run_supplement
+        run_supplement(client, state, config, index, trajectory, usage)
+    private = run_phase2(client, state, private_events, config, index, trajectory, usage)
+    if coverage_pipeline.enabled(config):
+        coverage_pipeline.finalize(client, state, config, trajectory, usage)
+    return private
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--project-root", required=True)
@@ -1057,6 +1099,9 @@ def main() -> int:
     project = Path(args.project_root).resolve()
     config_path = Path(args.config).resolve()
     config = json.loads(config_path.read_text(encoding="utf-8"))
+    if config.get('first_phase_only'):
+        if config.get('phase1_baseline') or config.get('phase1_supplement', {}).get('enabled'):
+            raise ValueError('Fresh first-phase-only runs cannot load a baseline or enable supplementation')
     if coverage_pipeline.enabled(config) and config.get("phase2_teacher_guidance", False):
         raise ValueError("Coverage evaluation must not expose private references to policy")
     if coverage_pipeline.enabled(config) and not (args.dry_run or args.allow_api):
@@ -1072,6 +1117,9 @@ def main() -> int:
 
 
 def execute_locked(args, project, config_path, config, output):
+    if config.get('preextracted_events', {}).get('enabled'):
+        from run_preextracted_phase1 import execute_locked as execute_preextracted
+        return execute_preextracted(args, project, config_path, config, output)
     data_root = project / config['data']
     index = project / config['index']
     run_config_path = output / "run_config.json"
@@ -1117,7 +1165,7 @@ def execute_locked(args, project, config_path, config, output):
     ]
     client = (coverage_preflight.guarded_coverage_client(config, output, allow_replay_from_start=args.replay_from_start) if coverage_pipeline.enabled(config) else
               LimitedDeepSeekClient(model=config["model"], max_retries=4, retry_backoff_seconds=5.0,
-                                   request_limit=config["max_api_requests"])
+                                   request_limit=config["max_api_requests"], unlimited_verify=config.get('unlimited_verify', False))
               if config.get("max_api_requests") else DeepSeekClient(model=config["model"], max_retries=4, retry_backoff_seconds=5.0))
     raw_client = client
     if temporal_enabled(config):
@@ -1207,6 +1255,12 @@ def execute_locked(args, project, config_path, config, output):
     status = "running"
     phase2_private = {}
     try:
+        if config.get('phase1_baseline'):
+            from phase1_supplement import load_baseline
+            load_baseline(project, state, config, index)
+            if not config.get('continuation'):
+                from chronos_repro.batch_memory import policy_view
+                trajectory['initial_state'] = copy.deepcopy(policy_view(state, SKELETON))
         if config.get('continuation'):
             from batch_continuation import finish_pending
             finish_pending(client, state, config, trajectory, usage)
@@ -1215,12 +1269,10 @@ def execute_locked(args, project, config_path, config, output):
                 run_phase1(client, state, config, index, trajectory, usage)
         elif trajectory["steps"][-1]["action"] == "VERIFY":
             finish_resumed_phase1(client, state, config, trajectory, usage)
-        phase2_private = run_phase2(
-            client, state, private_events, config, index, trajectory, usage
-        )
-        if coverage_pipeline.enabled(config):
-            coverage_pipeline.finalize(client, state, config, trajectory, usage)
-        status = "ok"
+        phase2_private = run_requested_later_phases(
+            client, state, private_events, config, index, trajectory, usage)
+        status = ('stopped_incomplete_gap_discovery'
+                  if state.get('gap_memory', {}).get('discovery_incomplete_windows') else 'ok')
     except InsufficientBalanceError as error:
         status = "stopped_insufficient_balance"
         trajectory["error"] = str(error)
@@ -1240,9 +1292,13 @@ def execute_locked(args, project, config_path, config, output):
     if isinstance(raw_client, LimitedDeepSeekClient):
         trajectory['http_requests_started'] = raw_client.http_requests_started
         trajectory['http_requests_total'] = raw_client.http_requests_total
+        trajectory['request_accounting'] = copy.deepcopy(raw_client.ledger)
     if isinstance(client, (CachedLLMClient, CompactContextClient)):
         trajectory["api_cache"] = client.statistics()
     trajectory["final_events"] = state["timeline_events"]
+    for key in ('phase1_supplement', 'phase1_baseline_binding', 'date_conflict_quarantine', 'scope_quarantine'):
+        if key in state:
+            trajectory[key] = copy.deepcopy(state[key])
     if config.get('batch_controller', {}).get('enabled'):
         trajectory['controller_memory'] = state.get('controller_memory', {})
         trajectory['query_batches'] = state.get('query_batches', [])
@@ -1260,6 +1316,7 @@ def execute_locked(args, project, config_path, config, output):
     if coverage_pipeline.enabled(config):
         trajectory["evidence_progress"] = state.get("evidence_progress", {})
         trajectory["incomplete_extraction"] = state.get("incomplete_extraction", [])
+        trajectory['extraction_cache'] = copy.deepcopy(state.get('_extraction_cache', {}))
         save_json(output / "candidate_pool.json", state.get("candidate_pool", []))
         pool = state.get("event_pool", state["timeline_events"])
         save_json(output / "event_pool.json", pool)
@@ -1314,6 +1371,7 @@ def execute_locked(args, project, config_path, config, output):
         controller = [r for r in sft_rows if r['metadata']['action'] in {'SEARCH', 'STOP', 'MEMORY_UPDATE', 'GAP_MEMORY'}]
         write_jsonl(output / 'controller_candidates.review_required.jsonl', controller)
         save_json(output / 'training_gate.json', {'training_ready': False, 'runtime_status': status,
+                  'trajectory_snapshot_protocol': 'detached_step_payload_v1_not_exact_wire_messages',
             'controller_candidate_count': len(controller), 'reason': 'Exact inference prompt alignment and semantic review remain required; do not train directly on raw audit exports.'})
     private_sidecar = {
         "schema_version": schema_version,
@@ -1362,6 +1420,7 @@ def execute_locked(args, project, config_path, config, output):
     if isinstance(raw_client, LimitedDeepSeekClient):
         manifest['http_requests_started'] = raw_client.http_requests_started
         manifest['http_requests_total'] = raw_client.http_requests_total
+        manifest['request_accounting'] = copy.deepcopy(raw_client.ledger)
     if coverage_pipeline.enabled(config):
         manifest["pipeline_revision"] = config.get('pipeline_revision', 'coverage-v6')
         manifest["evidence_progress"] = state.get("evidence_progress", {})

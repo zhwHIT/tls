@@ -52,6 +52,52 @@ def test_continuation_seeds_total_and_keeps_parent_immutable(tmp_path):
         continuation.prepare(tmp_path,destination,config)
 
 
+@pytest.mark.parametrize('authorized', [False, True])
+def test_balance_recovery_preserves_parent_and_cumulative_counts(tmp_path, authorized):
+    from run_guarded_diagnostic_suite import plan
+    parent, destination = tmp_path / 'old', tmp_path / 'new'
+    parent.mkdir(); destination.mkdir()
+    config = {'dataset': 'fixture', 'topic': 'topic', 'data': 'data', 'index': 'index', 'model': 'model',
+              'phase2_teacher_guidance': False, 'max_api_requests': 500, 'unlimited_verify': True}
+    ledger = {'request_limit': 500, 'requests_started': 9, 'balance_stop': True,
+              'budgeted_requests_started': 2, 'verify_requests_started': 7,
+              'unlimited_verify': True, 'legacy_unclassified_requests': 0}
+    atomic_write_json(parent / 'run_config.json', config)
+    atomic_write_json(parent / 'run_binding.json', {'snapshot_id': 'frozen'})
+    atomic_write_json(parent / 'request_ledger.json', ledger)
+    atomic_write_json(parent / 'trajectory.json', {'dataset': 'fixture', 'topic': 'topic',
+                                                  'status': 'stopped_insufficient_balance'})
+    (parent / 'api_cache').mkdir()
+    atomic_write_json(parent / 'api_cache' / 'invalid_response.json', {'content': 'bad cached label'})
+    before = sha256(parent / 'request_ledger.json')
+    config['continuation'] = {'snapshot': 'old/trajectory.json',
+        'snapshot_sha256': sha256(parent / 'trajectory.json'), 'ledger_sha256': before,
+        'additional_requests': 498, 'reuse_parent_api_cache': False}
+    if authorized:
+        config['continuation']['balance_recovery'] = {
+            'user_authorized': True, 'authorization_note': 'User restored API and requested continuation.'}
+    atomic_write_json(tmp_path / 'config.json', config)
+    suite = {'topics': [{'dataset': 'fixture', 'topic': 'topic', 'config': 'config.json', 'output_dir': 'new'}]}
+    if not authorized:
+        with pytest.raises(ValueError, match='balance'):
+            plan(tmp_path, suite)
+        with pytest.raises(ValueError, match='balance'):
+            continuation.prepare(tmp_path, destination, config)
+        assert not (destination / 'request_ledger.json').exists()
+    else:
+        assert plan(tmp_path, suite)[0]['remaining_budgeted_requests'] == 498
+        result = continuation.prepare(tmp_path, destination, config)
+        child = json.loads((destination / 'request_ledger.json').read_text())
+        assert child == {**ledger, 'balance_stop': False}
+        assert result['lineage']['parent_balance_stop_preserved'] is True
+        assert not list((destination / 'api_cache').iterdir())
+        # A newly observed balance failure must stop the new batch as well.
+        atomic_write_json(destination / 'request_ledger.json', ledger)
+        with pytest.raises(ValueError, match='balance'):
+            plan(tmp_path, suite)
+    assert sha256(parent / 'request_ledger.json') == before
+
+
 class Reader:
     def __init__(self):
         self.passages = {}; self.loaded_documents=set(); self.processed=set(); self.retrieval_ranks={}
@@ -68,13 +114,17 @@ def test_resume_restores_pending_passages_without_reexecuting_search(tmp_path, m
     memory.record_query(s, {'batch_id':1,'query':'topic agreement decision','gap_id':None,
         'result_ids':['d1'],'passage_ids':['p1','p2'],'time_filter':{'mode':'none','start':None,'end':None}})
     old={'final_events':[e],'controller_memory':s['controller_memory'],'query_batches':[],
-         'candidate_pool':[], 'exploration_memory':{}, 'steps':[
+         'candidate_pool':[], 'extraction_cache': {'protocol-key': {'candidates': [], 'extraction_complete': False}},
+         'exploration_memory':{}, 'steps':[
              {'action':'BATCH_RETRIEVAL'}, {'action':'VERIFY','model_input':{'tool_observation':{
                  'retrieved_documents':[{'id':'p1'}]}}}, {'action':'MERGE'}]}
     atomic_write_json(tmp_path/'evidence_reader_manifest.json', {'passages':[
         {'id':'p1','document_id':'d1'},{'id':'p2','document_id':'d1'}],'processed_passage_ids':['p1']})
     resumed={'dataset':'fixture','topic':'topic'}; trace={}
     continuation.restore(resumed,trace,{'snapshot':old,'parent':tmp_path,'lineage':{}},{},None)
+    assert resumed['_extraction_cache'] == old['extraction_cache']
+    resumed['_extraction_cache']['protocol-key']['candidates'].append({'candidate_id': 'local'})
+    assert old['extraction_cache']['protocol-key']['candidates'] == []
     assert [p['id'] for p in resumed['_pending_continuation_batch']['documents']] == ['p2']
     processed=[]
     monkeypatch.setattr(coverage_pipeline,'process_passages', lambda client,state,docs,*a:processed.extend(docs))

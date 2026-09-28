@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "pipeline_revision": "two-phase-v9.8-verify-partial-repair-authorized-continuation",
+  "split": "authorized_cross_dataset_diagnostic",
+  "target_gold_date_recall": 0.7,
+  "scope": {
+    "resumed_topics": 6,
+    "previously_unstarted_entities": 35,
+    "total_topics": 41,
+    "full_entities_benchmark": false,
+    "continuations_mix_parent_and_current_code": true
+  },
+  "topics": [
+    {
+      "dataset": "crisis",
+      "topic": "egypt",
+      "config": "configs/tisa_v98_crisis_egypt.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/crisis_egypt"
+    },
+    {
+      "dataset": "crisis",
+      "topic": "syria",
+      "config": "configs/tisa_v98_crisis_syria.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/crisis_syria"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Al_Gore",
+      "config": "configs/tisa_v98_entities_Al_Gore.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Al_Gore"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Bill_Clinton",
+      "config": "configs/tisa_v98_entities_Bill_Clinton.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Bill_Clinton"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Dilma_Rousseff",
+      "config": "configs/tisa_v98_entities_Dilma_Rousseff.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Dilma_Rousseff"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Dmitry_Medvedev",
+      "config": "configs/tisa_v98_entities_Dmitry_Medvedev.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Dmitry_Medvedev"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Dominique_Strauss-Kahn",
+      "config": "configs/tisa_v98_entities_Dominique_Strauss-Kahn.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Dominique_Strauss-Kahn"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Edward_Snowden",
+      "config": "configs/tisa_v98_entities_Edward_Snowden.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Edward_Snowden"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Ehud_Olmert",
+      "config": "configs/tisa_v98_entities_Ehud_Olmert.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Ehud_Olmert"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Enron",
+      "config": "configs/tisa_v98_entities_Enron.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Enron"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Hamid_Karzai",
+      "config": "configs/tisa_v98_entities_Hamid_Karzai.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Hamid_Karzai"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Hassan_Rouhani",
+      "config": "configs/tisa_v98_entities_Hassan_Rouhani.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Hassan_Rouhani"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Hu_Jintao",
+      "config": "configs/tisa_v98_entities_Hu_Jintao.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Hu_Jintao"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Jacob_Zuma",
+      "config": "configs/tisa_v98_entities_Jacob_Zuma.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Jacob_Zuma"
+    },
+    {
+      "dataset": "entities",
+      "topic": "John_Boehner",
+      "config": "configs/tisa_v98_entities_John_Boehner.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_John_Boehner"
+    },
+    {
+      "dataset": "entities",
+      "topic": "John_Kerry",
+      "config": "configs/tisa_v98_entities_John_Kerry.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_John_Kerry"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Julian_Assange",
+      "config": "configs/tisa_v98_entities_Julian_Assange.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Julian_Assange"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Lance_Armstrong",
+      "config": "configs/tisa_v98_entities_Lance_Armstrong.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Lance_Armstrong"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Mahmoud_Ahmadinejad",
+      "config": "configs/tisa_v98_entities_Mahmoud_Ahmadinejad.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Mahmoud_Ahmadinejad"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Marco_Rubio",
+      "config": "configs/tisa_v98_entities_Marco_Rubio.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Marco_Rubio"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Margaret_Thatcher",
+      "config": "configs/tisa_v98_entities_Margaret_Thatcher.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Margaret_Thatcher"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Michael_Jackson",
+      "config": "configs/tisa_v98_entities_Michael_Jackson.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Michael_Jackson"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Michelle_Obama",
+      "config": "configs/tisa_v98_entities_Michelle_Obama.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Michelle_Obama"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Mitt_Romney",
+      "config": "configs/tisa_v98_entities_Mitt_Romney.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Mitt_Romney"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Morgan_Tsvangirai",
+      "config": "configs/tisa_v98_entities_Morgan_Tsvangirai.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Morgan_Tsvangirai"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Nawaz_Sharif",
+      "config": "configs/tisa_v98_entities_Nawaz_Sharif.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Nawaz_Sharif"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Nelson_Mandela",
+      "config": "configs/tisa_v98_entities_Nelson_Mandela.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Nelson_Mandela"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Osama_bin_Laden",
+      "config": "configs/tisa_v98_entities_Osama_bin_Laden.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Osama_bin_Laden"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Oscar_Pistorius",
+      "config": "configs/tisa_v98_entities_Oscar_Pistorius.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Oscar_Pistorius"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Phil_Spector",
+      "config": "configs/tisa_v98_entities_Phil_Spector.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Phil_Spector"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Prince_William",
+      "config": "configs/tisa_v98_entities_Prince_William.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Prince_William"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Robert_Mugabe",
+      "config": "configs/tisa_v98_entities_Robert_Mugabe.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Robert_Mugabe"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Rupert_Murdoch",
+      "config": "configs/tisa_v98_entities_Rupert_Murdoch.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Rupert_Murdoch"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Saddam_Hussein",
+      "config": "configs/tisa_v98_entities_Saddam_Hussein.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Saddam_Hussein"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Sarah_Palin",
+      "config": "configs/tisa_v98_entities_Sarah_Palin.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Sarah_Palin"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Silvio_Berlusconi",
+      "config": "configs/tisa_v98_entities_Silvio_Berlusconi.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Silvio_Berlusconi"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Steve_Jobs",
+      "config": "configs/tisa_v98_entities_Steve_Jobs.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Steve_Jobs"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Taliban",
+      "config": "configs/tisa_v98_entities_Taliban.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Taliban"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Ted_Cruz",
+      "config": "configs/tisa_v98_entities_Ted_Cruz.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Ted_Cruz"
+    },
+    {
+      "dataset": "entities",
+      "topic": "Tiger_Woods",
+      "config": "configs/tisa_v98_entities_Tiger_Woods.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_Tiger_Woods"
+    },
+    {
+      "dataset": "entities",
+      "topic": "WikiLeaks",
+      "config": "configs/tisa_v98_entities_WikiLeaks.json",
+      "output_dir": "artifacts/tisa_v98_resumed_and_unstarted/entities_WikiLeaks"
+    }
+  ]
+}
