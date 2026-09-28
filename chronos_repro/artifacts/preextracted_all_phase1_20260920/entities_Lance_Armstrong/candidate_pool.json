@@ -1,0 +1,3401 @@
+[
+  {
+    "candidate_id": "10baf96645a4aa413b09bb31",
+    "time": "2015-03-09",
+    "date_precision": "day",
+    "summary": "An arbitration panel orders Lance Armstrong and Tailwind Sports to pay $10 million in a fraud dispute with promotions company SCA.",
+    "time_range": null,
+    "evidence_ids": [
+      "40281"
+    ],
+    "job_id": "7e58061534dcd026ad3b42a4fff6f8ee3c11ee12ce43cd931c917efac2dbd6dc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant legal/financial consequence of Armstrong's doping fraud dispute.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c9ee7d1db53a61b5"
+  },
+  {
+    "candidate_id": "0cf453f3bdb1f85cec8d22b0",
+    "time": "2005-07-24",
+    "date_precision": "day",
+    "summary": "Lance Armstrong secured his record-breaking seventh Tour de France victory in Paris, ending his cycling career.",
+    "time_range": null,
+    "evidence_ids": [
+      "40798"
+    ],
+    "job_id": "d1545b30fd7edf9777121a38452e902fc20f2328cc235422ae65991f897c3766",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Major career milestone: record seventh Tour de France victory.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-dc9bd996a1c8c77a"
+  },
+  {
+    "candidate_id": "c0413d811f165f4df719bdf0",
+    "time": "2004-07-25",
+    "date_precision": "day",
+    "summary": "Lance Armstrong becomes the first man to win six consecutive Tour de France titles, from 1999 to 2004.",
+    "time_range": null,
+    "evidence_ids": [
+      "40778"
+    ],
+    "job_id": "975750a7dec5f04ad975b3410cd10d8d8845e634371b648effd332300e609c78",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Major career milestone: first sixth consecutive Tour de France title.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e7c83651526791b3"
+  },
+  {
+    "candidate_id": "9efb9956034e92644ab01e71",
+    "time": "2012-10-22",
+    "date_precision": "day",
+    "summary": "SCA Promotions is considering legal action to recover a $7.5m bonus paid to Lance Armstrong after he was stripped of his seven Tour de France titles.",
+    "time_range": null,
+    "evidence_ids": [
+      "40492"
+    ],
+    "job_id": "aebc4a106401e58deacad111a0e72abc3d7d1f539b8d56263e91a84a67d8e2b0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant post-stripping legal fallout over Armstrong bonus money.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1d2bb380d1c6ec89"
+  },
+  {
+    "candidate_id": "18f0483596debd45b00d4fb3",
+    "time": "2012-08-24",
+    "date_precision": "day",
+    "summary": "The US Anti-Doping Agency bans Lance Armstrong from competitive cycling for life and strips him of his seven Tour de France titles after he declines to challenge its doping investigation.",
+    "time_range": null,
+    "evidence_ids": [
+      "40449"
+    ],
+    "job_id": "5826d2028f75fd1e42e34cd769fde141fd41d6d5f1b195f4617ec4510d7060bb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Central doping sanction: lifetime ban and stripping of Tour titles.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-93730b6b85fd6d95"
+  },
+  {
+    "candidate_id": "4d156acaab998fa1ae772fb3",
+    "time": "2012-10-12",
+    "date_precision": "day",
+    "summary": "Tour de France organiser Christian Prudhomme calls for Lance Armstrong's seven Tour de France victories to be erased and for no winner to be declared for 1999-2005, following a US Anti-Doping Agency report alleging systematic doping.",
+    "time_range": null,
+    "evidence_ids": [
+      "40515"
+    ],
+    "job_id": "389e2daf3c600516fd63a99b94d2f2147550e129dbc293f86b7714eb9716e331",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant call to erase Armstrong's Tour victories after USADA report.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bcb6cc7b39ca7aae"
+  },
+  {
+    "candidate_id": "c78905f05497319bea503f18",
+    "time": "2012-10",
+    "date_precision": "month",
+    "summary": "The US Anti-Doping Agency stripped Lance Armstrong of his seven Tour de France titles.",
+    "time_range": null,
+    "evidence_ids": [
+      "40298"
+    ],
+    "job_id": "994e73af717fc6d5f302030f1d64f1b7914b236c3c701bf8fc367b2e35c1c86a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant USADA title-stripping event, but month-only date differs from the day-precision 2012-08-24 sanction.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-577a277c8b1c2187"
+  },
+  {
+    "candidate_id": "0e15a9894bf2b69f425ebd83",
+    "time": "2008-09-09",
+    "date_precision": "day",
+    "summary": "Tour de France organisers welcomed Lance Armstrong's plans to return to the 2009 event but warned he must adhere to stricter drug-testing regulations.",
+    "time_range": null,
+    "evidence_ids": [
+      "40718"
+    ],
+    "job_id": "966f3c7cbdedf15fe168d130893f055399035c4496e76ca75ce201bc4c9ab669",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant comeback milestone: Tour organisers' response to Armstrong's planned 2009 return.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0c1ff90ce20f4365"
+  },
+  {
+    "candidate_id": "b4c19502505faafe95020d80",
+    "time": "2009-06-21",
+    "date_precision": "day",
+    "summary": "Lance Armstrong won the Nevada City Classic, his first victory since coming out of retirement, in his final race before returning to the Tour de France.",
+    "time_range": null,
+    "evidence_ids": [
+      "40611"
+    ],
+    "job_id": "9f90bf97de3f506b62e3e08e30d2e3fb3984bd8a6158f04fd752128602d34a50",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's first win after coming out of retirement, a distinct competitive milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a81b999e3255a52c"
+  },
+  {
+    "candidate_id": "2e0bbb3316f1d39a6b033da6",
+    "time": "2012-06-13",
+    "date_precision": "day",
+    "summary": "The US Anti-Doping Agency formally charged Lance Armstrong and five associates with alleged doping violations, banning him from competition and potentially stripping his seven Tour de France titles.",
+    "time_range": null,
+    "evidence_ids": [
+      "40476"
+    ],
+    "job_id": "c0ec46c46bd4f42b10e7a8145fce7d4ccdf3884cb6fd2aa34369f7d29a497d30",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "USADA's formal charging and provisional ban is a distinct doping-case milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bd08400931a0715b"
+  },
+  {
+    "candidate_id": "7e91fdbf7602f8afe714c278",
+    "time": "2008-09-09",
+    "date_precision": "day",
+    "summary": "Lance Armstrong confirms he intends to return to cycling and ride in the 2009 Tour de France.",
+    "time_range": null,
+    "evidence_ids": [
+      "40643"
+    ],
+    "job_id": "6ad1aa1fbd0a0d73085876446d4bf804b7aa9b8b62a89e55fd680b3eddc6fe5b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's confirmation of his return to cycling is a distinct career milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5ab39f3f7cd524e0"
+  },
+  {
+    "candidate_id": "32ed2bd3e1276eded3f9699d",
+    "time": "2005-03-29",
+    "date_precision": "day",
+    "summary": "Lance Armstrong finished 24th in the Paris-Camembert single-day race, confirming his form ahead of the Tour of Flanders.",
+    "time_range": null,
+    "evidence_ids": [
+      "40844"
+    ],
+    "job_id": "cb28f029d9f5aafb595daac5649f3e2c34bb14180b81503db72ee932678b25bd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "A specific race result confirming form ahead of the Tour of Flanders.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-621bb96e95b31802"
+  },
+  {
+    "candidate_id": "3e833d5399c638e667a14943",
+    "time": "2013-01-16",
+    "date_precision": "day",
+    "summary": "The IOC stripped Lance Armstrong of his 2000 Sydney Olympics bronze medal in the time trial and disqualified him from the events in which he competed at the Games.",
+    "time_range": null,
+    "evidence_ids": [
+      "40441"
+    ],
+    "job_id": "961b6ad26ea0d5b20367e4278aabfac823f46d3a170b6ce0a916a771ad461ec6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "IOC stripping of Olympic bronze is a distinct sanction milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5f3a456266e42188"
+  },
+  {
+    "candidate_id": "7f91fe8b18d33a0c82700865",
+    "time": "2013-01-15",
+    "date_precision": "day",
+    "summary": "Lance Armstrong admitted his doping past in a televised interview with Oprah Winfrey, according to Winfrey.",
+    "time_range": null,
+    "evidence_ids": [
+      "40443"
+    ],
+    "job_id": "10f13d07a5a88605514e62f7240e7839ad35a9c87a345a93272d4d8ef9099871",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's televised doping admission is a major distinct event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1717befa44dd9bdd"
+  },
+  {
+    "candidate_id": "d9dd2d25f1966d18afba2963",
+    "time": "2012-10-22",
+    "date_precision": "day",
+    "summary": "The UCI accepted USADA’s verdict and stripped Lance Armstrong of his seven Tour de France titles, imposing a lifetime ban.",
+    "time_range": null,
+    "evidence_ids": [
+      "40471"
+    ],
+    "job_id": "6aace272b119bbccdccddf3060a81a28dbe1db64cf3264b24235f787e54e3d9e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "UCI's acceptance of the USADA verdict and title stripping is a distinct governing-body action.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-53fb99e546ce5ec6"
+  },
+  {
+    "candidate_id": "db33790a41caf770efd2d69f",
+    "time": "2015-01-22",
+    "date_precision": "day",
+    "summary": "Greg LeMond rejects calls for Lance Armstrong's life ban to be reduced, saying Armstrong deserves the ban for his doping and treatment of people.",
+    "time_range": null,
+    "evidence_ids": [
+      "40288"
+    ],
+    "job_id": "6dd07f1e432a0e44167e389b45963e63c691bd605c76ef56ebf4c60bb8720b92",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Greg LeMond's rejection of reducing Armstrong's ban is a distinct post-ban reaction.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-dd710276b148b424"
+  },
+  {
+    "candidate_id": "427e73715b0b919b26221761",
+    "time": "2013-01-08",
+    "date_precision": "day",
+    "summary": "Lance Armstrong is to give his first formal interview since being banned for life, with Oprah Winfrey, scheduled to be broadcast on 17 January 2013.",
+    "time_range": null,
+    "evidence_ids": [
+      "40395"
+    ],
+    "job_id": "c890fdce71a1748c81fd82fcb20b7f292c298a6e4c56527e1c129f39227b6f83",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Announcement of Armstrong's first formal post-ban interview; distinct from the later broadcast event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-cd92d30786db1095"
+  },
+  {
+    "candidate_id": "002078954bcd4a077a6ecf9a",
+    "time": "2012-10-12",
+    "date_precision": "day",
+    "summary": "Following the US Anti-Doping Agency's release of evidence that Lance Armstrong used banned performance-enhancing drugs, an article questions whether his charity Livestrong should strip him of his chairman title.",
+    "time_range": null,
+    "evidence_ids": [
+      "40481"
+    ],
+    "job_id": "33eb02cdc8783acea66a3d64db6130fce3ae5ad5d9f5c0726a51576d43a86e44",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Livestrong chairman-title question after USADA evidence; distinct from Prudhomme's call on the same date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1604139a84f87fe6"
+  },
+  {
+    "candidate_id": "fb7e24a8794781015d7d4407",
+    "time": "2012-06-13",
+    "date_precision": "day",
+    "summary": "The US Anti-Doping Agency sent a 15-page letter to Lance Armstrong charging him with extensive use of performance-enhancing drugs and participation in an organized doping program, leading to his suspension from competition.",
+    "time_range": null,
+    "evidence_ids": [
+      "40436"
+    ],
+    "job_id": "04814c99fad4c888630e61cd1a4c15cebf709ef58a2ca09b350057559f048465",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-bd08400931a0715b",
+    "reason": "Same date and same USADA charging action as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bd08400931a0715b"
+  },
+  {
+    "candidate_id": "e632afd670fbc999a9a93759",
+    "time": "2013-02-06",
+    "date_precision": "day",
+    "summary": "Armstrong's attorney says Armstrong has little expectation of having his life ban reduced or becoming eligible to compete in Olympic sports again.",
+    "time_range": null,
+    "evidence_ids": [
+      "40347"
+    ],
+    "job_id": "220854c4f5ca974b759fca32a0c095418439c67ac366e481e5501258073d41fb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Attorney statement on slim chances of ban reduction; distinct post-interview development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-96acf8fc5315d18f"
+  },
+  {
+    "candidate_id": "0db733bd86b48842a9ac07db",
+    "time": "2012-02-03",
+    "date_precision": "day",
+    "summary": "The federal investigation into Lance Armstrong is abandoned after nearly two years.",
+    "time_range": null,
+    "evidence_ids": [
+      "40558"
+    ],
+    "job_id": "a187cebe30fc29c7e2e13091455e969343cb143846160a6e56b011ef27a79f87",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Abandonment of federal investigation; key milestone in Armstrong timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fce553116a361553"
+  },
+  {
+    "candidate_id": "bae55b0b8e7822c5dfaafa6b",
+    "time": "2010-08-05",
+    "date_precision": "day",
+    "summary": "An unnamed cyclist corroborated claims that Lance Armstrong's former US Postal Service team engaged in systematic doping, supporting Floyd Landis's earlier allegations, while Armstrong continued to deny using performance-enhancing drugs.",
+    "time_range": null,
+    "evidence_ids": [
+      "40597"
+    ],
+    "job_id": "26d441fa56f57241476e1fde8338667714ba0f1d5c3bbb3c51b1298e9389b311",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Corroborating doping allegation supporting Landis claims; relevant early development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1ae1478ad29ead3e"
+  },
+  {
+    "candidate_id": "8a55d9c901551e2f889eac2b",
+    "time": "2013-02-07",
+    "date_precision": "day",
+    "summary": "Lance Armstrong remains under active criminal investigation by US federal agents for obstruction, witness tampering, and intimidation, according to ABC News.",
+    "time_range": null,
+    "evidence_ids": [
+      "40363"
+    ],
+    "job_id": "820b07106b4adb57571c0e290766873a223d57479369c17993d868ba83b44669",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Active criminal investigation for obstruction and witness tampering; distinct legal development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ef74e1daf04b363b"
+  },
+  {
+    "candidate_id": "81ef8193a6e665a73805fdbe",
+    "time": "2012-10-10",
+    "date_precision": "day",
+    "summary": "The US Anti-Doping Agency publishes a report detailing Lance Armstrong's doping practices and efforts to suppress the truth, leading to him being stripped of his seven Tour de France titles.",
+    "time_range": null,
+    "evidence_ids": [
+      "40497"
+    ],
+    "job_id": "7933b272256bc9eed9612e4c18c798fab72eabed380c07b18e49973133cd4948",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "USADA publishes detailed doping report and Armstrong stripped of titles; distinct from existing October 2012 events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-aacf739fc2cae236"
+  },
+  {
+    "candidate_id": "4fa74e3f77e8674fbc5b2896",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "40362"
+    ],
+    "job_id": "1889c8d3a478832ade68b388ca2467ffeb9be2541d961f4e18a5a0957c267d71",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Tsunami relief appointment unrelated to Lance Armstrong.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "0f30ad3a9360d27dfc893f36",
+    "time": "2013-01-14",
+    "date_precision": "day",
+    "summary": "Lance Armstrong apologized to Livestrong staff during an emotional meeting before his interview with Oprah Winfrey about doping allegations.",
+    "time_range": null,
+    "evidence_ids": [
+      "40362"
+    ],
+    "job_id": "1889c8d3a478832ade68b388ca2467ffeb9be2541d961f4e18a5a0957c267d71",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's apology to Livestrong staff before Oprah interview is a relevant doping-scandal milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d271e6e411592f36"
+  },
+  {
+    "candidate_id": "5e185aeeb3223f992e4a810c",
+    "time": "2005-07-23",
+    "date_precision": "day",
+    "summary": "Lance Armstrong wins the Tour de France for a record seventh time and retires from cycling.",
+    "time_range": null,
+    "evidence_ids": [
+      "40855"
+    ],
+    "job_id": "a9956cf151f05582d1dd8853bbad97f711c7e9b8ae69704a0a8af4d77993e63a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Record seventh Tour de France win and retirement is a major Armstrong career milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5adf20cab3406f23"
+  },
+  {
+    "candidate_id": "08e54509ec57dcbed85eaa65",
+    "time": "2009-01-19",
+    "date_precision": "day",
+    "summary": "Lance Armstrong launched the Livestrong Global Campaign at the Royal Adelaide Hospital, aiming to raise global awareness and action to conquer cancer.",
+    "time_range": null,
+    "evidence_ids": [
+      "40684"
+    ],
+    "job_id": "8dde7dfa2a38553d70c9c91240673d124555bf1d79487ce620f797e4b078df66",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Launch of Livestrong Global Campaign is a relevant Armstrong charity milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0853ee3fd28e5a15"
+  },
+  {
+    "candidate_id": "ebd20648a8d1ae7e258022ca",
+    "time": "2012-10-02",
+    "date_precision": "day",
+    "summary": "Livestrong Day, the cancer charity founded by Lance Armstrong, is held amid controversy over his doping conviction.",
+    "time_range": null,
+    "evidence_ids": [
+      "40523"
+    ],
+    "job_id": "36e950cabc19e18cfde3e72a7033abf90ca4846408aa0a0bf93716340a3761fe",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Livestrong Day amid doping controversy is a relevant Armstrong-related event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c0a06fb5c9026b06"
+  },
+  {
+    "candidate_id": "03b2858b20d9e9391d91f35a",
+    "time": "2008-09-24",
+    "date_precision": "day",
+    "summary": "Lance Armstrong confirms he will return to professional cycling in 2009, starting with the Tour Down Under in Australia and attempting to win an eighth Tour de France.",
+    "time_range": null,
+    "evidence_ids": [
+      "40722"
+    ],
+    "job_id": "276f4fb004a4fca4764e16ba3fa32e01160dca9727ab646021b43a85fb8bd1ed",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's 2009 comeback confirmation is a relevant career milestone; date differs from existing 2008-09-09 return event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2a96d1343cdc36aa"
+  },
+  {
+    "candidate_id": "f808bfd0d5c504b4e3eab480",
+    "time": "2012-10-10",
+    "date_precision": "day",
+    "summary": "US Anti-Doping Agency report labels Lance Armstrong a \"serial drug cheat\" and details extensive doping, prompting pressure on him to respond and potential legal and title-stripping consequences.",
+    "time_range": null,
+    "evidence_ids": [
+      "40483"
+    ],
+    "job_id": "de1ad5909e3d856b0b1aea06170ff811dafc90f8564012d957fd8ca8708b2955",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-aacf739fc2cae236",
+    "reason": "Same 2012-10-10 USADA report event already present.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-aacf739fc2cae236"
+  },
+  {
+    "candidate_id": "266690969d5b9797ebe0db29",
+    "time": "2008-11-18",
+    "date_precision": "day",
+    "summary": "Lance Armstrong discusses doping allegations and his comeback in an interview, denying he used performance-enhancing drugs.",
+    "time_range": null,
+    "evidence_ids": [
+      "40629"
+    ],
+    "job_id": "d276ccc616e862327d061ec3850c484516a2f52f6d2c8f761d56d9ee5212949f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong denying doping and discussing comeback is a relevant doping-scandal milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c217255b2ec2566b"
+  },
+  {
+    "candidate_id": "2ec184eb2261df26d542c6f3",
+    "time": "2004-07-25",
+    "date_precision": "day",
+    "summary": "Lance Armstrong became the first man to win the Tour de France six times, seven years after completing cancer treatment.",
+    "time_range": null,
+    "evidence_ids": [
+      "40929"
+    ],
+    "job_id": "1bc3a2ce3f3928110632f2bf5d6e7e3a2179fff70bc44af87a14e52c04db82fa",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-e7c83651526791b3",
+    "reason": "Same date and same milestone: Armstrong's first sixth Tour de France title.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e7c83651526791b3"
+  },
+  {
+    "candidate_id": "c2090803a722d54513d73649",
+    "time": "2009-03-23",
+    "date_precision": "day",
+    "summary": "Lance Armstrong sustained a broken right collarbone during the opening stage of the Vuelta a Castilla y Leon in Spain and confirmed he would return to the United States for surgery later that week.",
+    "time_range": null,
+    "evidence_ids": [
+      "40673"
+    ],
+    "job_id": "ba8ccce8133030766313c7d926c068ea83e3b03c728ecf888803b3372be381ae",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's 2009 collarbone injury during his comeback is a distinct relevant milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-24be095064e4af6d"
+  },
+  {
+    "candidate_id": "ab5952fb3e3fc6e23c3b296b",
+    "time": "1999-07-26",
+    "date_precision": "day",
+    "summary": "Lance Armstrong spoke out against his former team Cofidis and others who would not take him on after his illness, following his Tour de France victory.",
+    "time_range": null,
+    "evidence_ids": [
+      "41041"
+    ],
+    "job_id": "98b86b02c3eb79bd0dd8fd0b40c8e6d2d94ba806be7e6c2b0e943f3860257b06",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's post-victory remarks about teams that rejected him during his illness mark a distinct 1999 milestone in his career narrative.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bb92d559668978a1"
+  },
+  {
+    "candidate_id": "8754b527d75913308e713aa2",
+    "time": "2005-03-06",
+    "date_precision": "day",
+    "summary": "Lance Armstrong is set to start Paris-Nice, his first major race of the cycling calendar, seven years after abandoning the event in 1998.",
+    "time_range": null,
+    "evidence_ids": [
+      "40851"
+    ],
+    "job_id": "501676eb86970d19efcefa031fe478acedf8294f74a24312970bb81346a17b21",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's planned return to Paris-Nice in 2005 is a distinct competitive milestone not covered by existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9ab91fe2fe5c0eb8"
+  },
+  {
+    "candidate_id": "31b8b781592c8512329b5806",
+    "time": "2005-08-23",
+    "date_precision": "day",
+    "summary": "Lance Armstrong denies allegations that he tested positive for a performance-enhancing drug in 1999, calling the claims a \"witch hunt.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "40808"
+    ],
+    "job_id": "75310bee200bb7af80a0c2fa97ceab9d84c1ec3226f63218e4b330b8fea2fcc4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's 2005 denial of 1999 doping allegations is a distinct doping-controversy milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-14ef1b5f58ea1ec4"
+  },
+  {
+    "candidate_id": "ce879f6fd77f7dd3723f5d28",
+    "time": "2009-02-12",
+    "date_precision": "day",
+    "summary": "Lance Armstrong abandoned his proposal for an independent drug-testing programme supervised by Don Catlin due to logistical problems and high costs, instead using Ramsus Damsgaard for the Astana team's internal testing programme.",
+    "time_range": null,
+    "evidence_ids": [
+      "40681"
+    ],
+    "job_id": "613ddad4ea58f9b0588d1ae9097e2f79a562df87adb83ba7818d148a8fc073ff",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong abandoning his independent drug-testing proposal in 2009 is a distinct doping-related milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d84de8c7ce1f7925"
+  },
+  {
+    "candidate_id": "56f11f7cc11bc684ad102248",
+    "time": "2001-06-04",
+    "date_precision": "day",
+    "summary": "A letter cites Lance Armstrong, the Tour de France champion, as an example of someone whose fight against testicular cancer was made possible by chemotherapy.",
+    "time_range": null,
+    "evidence_ids": [
+      "41027"
+    ],
+    "job_id": "6f7194f98811b925e48ea0678fa3ca65b6647ac79d36d6401a8dd7ffb994239e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "A 2001 letter citing Armstrong's cancer fight as enabled by chemotherapy reflects his public cancer-survivor role.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4179f64277fc3163"
+  },
+  {
+    "candidate_id": "51ecd03da6bdd6f72d494214",
+    "time": "2013-04-24",
+    "date_precision": "day",
+    "summary": "A US Department of Justice court document raises the possibility that Lance Armstrong's former wife, Kristin, may be called to testify against him in Floyd Landis's whistleblower suit, alleging she witnessed Armstrong supplying doping products to Landis.",
+    "time_range": null,
+    "evidence_ids": [
+      "40433"
+    ],
+    "job_id": "cef437bd0fa194a4210e2e5e299872e1de2e02a5eeed7fb460e82508a0c99445",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "The 2013 DOJ filing raising possible testimony by Kristin Armstrong is a distinct legal-development milestone in the doping saga.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9952766dc80409df"
+  },
+  {
+    "candidate_id": "8e4bef14e0933bdaee209af6",
+    "time": "2001-07-23",
+    "date_precision": "day",
+    "summary": "Lance Armstrong denies using banned blood-booster erythropoietin or human growth hormone, while confirming he uses a permitted hypobaric chamber and saying he would re-evaluate his relationship with trainer Michele Ferrari if Ferrari is found guilty of supplying banned drugs.",
+    "time_range": null,
+    "evidence_ids": [
+      "41029"
+    ],
+    "job_id": "77334042275ccc0c2c415aca98aae8a8f6f576d20c39fd4cb9c7dfa78b2bd487",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's 2001 denial of EPO/hGH use and comments on Ferrari are a distinct doping-controversy milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5bd0cd525ab5a8b6"
+  },
+  {
+    "candidate_id": "7a44a74d2072ea7e5c653edb",
+    "time": "2005-07-23",
+    "date_precision": "day",
+    "summary": "Lance Armstrong is set to compete in the Tour de France time-trial stage, with his career ending within days.",
+    "time_range": null,
+    "evidence_ids": [
+      "40835"
+    ],
+    "job_id": "dadd3bb7ab1af60544180846e7c3c9c8967710d5ec438a50cd911c168fbd78d0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-5adf20cab3406f23",
+    "reason": "Same date as the existing 2005-07-23 Tour de France/retirement event; duplicate occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5adf20cab3406f23"
+  },
+  {
+    "candidate_id": "aed0af115f7ba75414652c1d",
+    "time": "2004-07-03",
+    "date_precision": "day",
+    "summary": "Lance Armstrong is competing in the Tour de France, seeking a record sixth victory, with Jan Ullrich as his most feared challenger.",
+    "time_range": null,
+    "evidence_ids": [
+      "40901"
+    ],
+    "job_id": "3800249b79e1949f8b56802264b1c1f3c070333bf598190cd2ca2ea8f7883618",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong competing for a record sixth Tour de France victory is a relevant career milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f1fe7f80a8dc0822"
+  },
+  {
+    "candidate_id": "82513d12b3cb7a54fcdfdbac",
+    "time": "2011-01-19",
+    "date_precision": "day",
+    "summary": "Lance Armstrong faced new performance-enhancing drug allegations published in Sports Illustrated during the Tour Down Under, which he denied.",
+    "time_range": null,
+    "evidence_ids": [
+      "40587"
+    ],
+    "job_id": "fa25377cf23428e20bd493519b3ebd33e185438fdea3a11a66b300a629265805",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "New doping allegations and Armstrong's denial are relevant to the doping controversy timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-25677b4c69c740ad"
+  },
+  {
+    "candidate_id": "04826f80e6d40fed52a96d08",
+    "time": "2012-10-11",
+    "date_precision": "day",
+    "summary": "Eleven of Lance Armstrong's former teammates gave evidence against him to the United States Anti-Doping Agency, revealing what Usada described as a \"doping conspiracy\" at the US Postal Service Pro Cycling Team.",
+    "time_range": null,
+    "evidence_ids": [
+      "40418"
+    ],
+    "job_id": "1daa9f0969c40dc2e67714322e378fefe9fc2d026dad53f00e09068343c01157",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Former teammates' evidence to USADA is a distinct relevant development in the doping case.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c33c483a45fa5b9d"
+  },
+  {
+    "candidate_id": "79c3c9e196f2a9058b78f11c",
+    "time": "2009-02-22",
+    "date_precision": "day",
+    "summary": "Lance Armstrong, returning from retirement, helped Astana teammate Levi Leipheimer complete a Tour of California hat-trick, finishing seventh overall in his first race on home soil since coming out of retirement.",
+    "time_range": null,
+    "evidence_ids": [
+      "40701"
+    ],
+    "job_id": "813216d6afb107929691ebea4d00ff99aa7b2902746a244e08d2d9ec6f30b824",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's return from retirement and Tour of California result is a relevant comeback milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-cb0daa91eabd5ea9"
+  },
+  {
+    "candidate_id": "c8559949ec929ea2bf8df2e8",
+    "time": "2012-10-18",
+    "date_precision": "day",
+    "summary": "Bike-parts maker Sram terminated its product sponsorship agreement with Lance Armstrong, following Nike and other sponsors in abandoning him after the USADA doping report.",
+    "time_range": null,
+    "evidence_ids": [
+      "40415"
+    ],
+    "job_id": "e62ccf59c4192f1ec76cb03187ba029f20f097132e4329d27c1271b514463e77",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sponsor Sram terminating its agreement is a relevant consequence of the USADA doping report.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-41b7a55a4753914c"
+  },
+  {
+    "candidate_id": "2a46c1c359591b722358a0dc",
+    "time": "2012-08-24",
+    "date_precision": "day",
+    "summary": "The US Anti-Doping Agency stripped Lance Armstrong of his competitive titles from August 1998, including his seven Tour de France wins, after he dropped his challenge to anti-doping charges.",
+    "time_range": null,
+    "evidence_ids": [
+      "40445"
+    ],
+    "job_id": "956356a2106c141d9cb965d81f5e42138a1e48f32429691d0b65df3e8317649f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-93730b6b85fd6d95",
+    "reason": "Same date and same USADA title-stripping event as the existing record.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-93730b6b85fd6d95"
+  },
+  {
+    "candidate_id": "3ba87b3c0cd40b7cbc212a56",
+    "time": "2013-01",
+    "date_precision": "month",
+    "summary": "Lance Armstrong confessed to doping in an interview with Oprah Winfrey.",
+    "time_range": null,
+    "evidence_ids": [
+      "40315"
+    ],
+    "job_id": "50f02d273338d23aa040c17378ba5416f29a17e656f998591691c529383aec86",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's doping confession is a major milestone in his timeline; no existing event matches this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-419b5ff1d732c2dc"
+  },
+  {
+    "candidate_id": "c8f249b4be73cd31d04e666e",
+    "time": "2008-09-09",
+    "date_precision": "day",
+    "summary": "Speculation mounts that Lance Armstrong may return to competitive cycling in 2009, though Team Astana denies any contacts or plans to sign him.",
+    "time_range": null,
+    "evidence_ids": [
+      "40725"
+    ],
+    "job_id": "247e3b079e5bb932fcba3b6db2cbdcf054f6dfb9416e1597cc2b7615b2d91620",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Return speculation is a distinct 2008-09-09 development; existing same-date events cover confirmation and organizer reaction, not this speculation.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2186bb6708719cf6"
+  },
+  {
+    "candidate_id": "6775d6de9e891a696c2cc6b4",
+    "time": "2005-07-05",
+    "date_precision": "day",
+    "summary": "Lance Armstrong’s Discovery Channel team won the Tour de France team time trial stage, putting Armstrong in the yellow jersey for the first time that year.",
+    "time_range": null,
+    "evidence_ids": [
+      "40858"
+    ],
+    "job_id": "194f64ebf394c8c18d3845abb6cd473316142ac68be7c8c80aec6c8ec83a1650",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Tour de France team time trial win and yellow jersey is a relevant competitive milestone; no existing event matches.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ddeb72178b75b342"
+  },
+  {
+    "candidate_id": "5095dcf6ea49c6a605285b15",
+    "time": "2004-03-04",
+    "date_precision": "day",
+    "summary": "Lance Armstrong finished 1 minute 6 seconds ahead of Jan Ullrich in a 21.3 km time-trial stage at the Tour of Murcia, their only head-to-head time-trial before the Tour de France.",
+    "time_range": null,
+    "evidence_ids": [
+      "40910"
+    ],
+    "job_id": "60963af210009639bcecbf2f501b41450cb5bd66e4db9fbb58fb9c5e59c1b093",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Head-to-head time trial result against Ullrich is a relevant pre-Tour milestone; no existing event matches.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2b65a4886a19a9fc"
+  },
+  {
+    "candidate_id": "8c8a0f715a055fb57979dcce",
+    "time": "2003-07-14",
+    "date_precision": "day",
+    "summary": "Lance Armstrong avoided a crash by riding off the prescribed course into a field during stage nine of the Tour de France, and was not penalized despite breaking a rule against shortcuts.",
+    "time_range": null,
+    "evidence_ids": [
+      "40944"
+    ],
+    "job_id": "af089a9146a69d1bd931c1e97f6e1b6a3773d785e70c989569bbb13488bc4940",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Off-course shortcut incident during the 2003 Tour is a relevant race milestone; no existing event matches.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-21cc502f9e9c4171"
+  },
+  {
+    "candidate_id": "070c4a482de79dd953b7fc21",
+    "time": "2009-07",
+    "date_precision": "month",
+    "summary": "Lance Armstrong was competing in the Tour de France and remained in contention, with reports that he was talking about competing again the following year.",
+    "time_range": null,
+    "evidence_ids": [
+      "40640"
+    ],
+    "job_id": "9e7695e0817608a07d3fdd863d72103b5255a8b76c72784c512a9770a977b83a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "2009 Tour de France contention and talk of racing again is a relevant comeback milestone; no existing event matches.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3b77edde40f9a783"
+  },
+  {
+    "candidate_id": "ab9be6b09b129bf274932d9a",
+    "time": "2010-07-11",
+    "date_precision": "day",
+    "summary": "Lance Armstrong crashed at the foot of the Col de La Ramaz, effectively ending his chances of winning the Tour de France for an eighth time.",
+    "time_range": null,
+    "evidence_ids": [
+      "40599"
+    ],
+    "job_id": "3f74463268fe365bf425acb4c4e66c3313015e26178b75b48520f64003124ee9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Crash ending his eighth Tour title chances is a relevant milestone; no existing event matches.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7ec3e702e47b94dd"
+  },
+  {
+    "candidate_id": "29314a513289a786aa33c1fc",
+    "time": "2003-03-08",
+    "date_precision": "day",
+    "summary": "Lance Armstrong competed in his first race of the year, the third stage of the Tour of Murcia, finishing in the main bunch.",
+    "time_range": null,
+    "evidence_ids": [
+      "40963"
+    ],
+    "job_id": "9d04359a1aca379cfbfc270c1053d79db36941316b25299dfcfdc6cc288a2dfe",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "First race of the 2003 season is a relevant competitive milestone; no existing event matches.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-00c8ba37c5727369"
+  },
+  {
+    "candidate_id": "6c8f18b60174ba80a2f726bc",
+    "time": "2005-07-23",
+    "date_precision": "day",
+    "summary": "Lance Armstrong is expected to win his seventh and final Tour de France as he rides up the Champs Elysees, according to Eddy Merckx.",
+    "time_range": null,
+    "evidence_ids": [
+      "40792"
+    ],
+    "job_id": "23c1e8e19d8672e6ce2b9dd76efc033ec9ac5a4f780ad17980a96398dc769b5b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-5adf20cab3406f23",
+    "reason": "Same date and event as Armstrong's seventh Tour de France victory; duplicate of existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5adf20cab3406f23"
+  },
+  {
+    "candidate_id": "fad70d4a20843d00c76a0ec3",
+    "time": "2005-07",
+    "date_precision": "month",
+    "summary": "Matt Damon is in talks to star in a film about Lance Armstrong, based on Armstrong's biography, with Damon reportedly Armstrong's preferred choice for the role.",
+    "time_range": null,
+    "evidence_ids": [
+      "40802"
+    ],
+    "job_id": "a08cdc7830ba497414be941f7258c7991eaef5ce75a878bf42b33581c63f2523",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong biopic casting development; relevant milestone, no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e6d6dcce460612ef"
+  },
+  {
+    "candidate_id": "403ad463a3de0a1d0cd115b7",
+    "time": "2003-02-23",
+    "date_precision": "day",
+    "summary": "Lance Armstrong and his wife Kristin confirmed they are to separate due to difficulty in their marriage.",
+    "time_range": null,
+    "evidence_ids": [
+      "40959"
+    ],
+    "job_id": "31b4ca43389671ce3d9aee91008491e48c3f91f1a56d53c51905ff4d7b4422be",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's separation from his wife; relevant personal milestone, no duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3d3f0788a6c8c32d"
+  },
+  {
+    "candidate_id": "214eb5a42d65d4cb74ce2662",
+    "time": "2015-10-15",
+    "date_precision": "day",
+    "summary": "A workmanlike biopic of disgraced doper and Tour de France cycling champ Lance Armstrong, titled The Program, is reviewed, featuring Ben Foster as Armstrong.",
+    "time_range": null,
+    "evidence_ids": [
+      "40261"
+    ],
+    "job_id": "3836b4035167aca60f6f1b63284bbf40dc30537339f83b778982c5e99a4c99b2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Release/review of The Program biopic about Armstrong; relevant cultural milestone, no duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-87a39f46ef4fb020"
+  },
+  {
+    "candidate_id": "e3437d3ee13e12d12dee1915",
+    "time": "2008-09-23",
+    "date_precision": "day",
+    "summary": "Lance Armstrong confirmed he will begin his comeback to professional cycling in January with the Tour Down Under in Australia and join the Astana team.",
+    "time_range": null,
+    "evidence_ids": [
+      "40706"
+    ],
+    "job_id": "463d0aff6a0848c2ee5e068b1113f39ce6c36c204fa7f00f666f4c7f184827e9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's confirmed comeback start at the Tour Down Under and Astana team is a distinct milestone; date differs from existing 2008-09-24 event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3e1abc48a2504e85"
+  },
+  {
+    "candidate_id": "ecb6d47d4977290f598d0ece",
+    "time": "2008-09-08",
+    "date_precision": "day",
+    "summary": "Lance Armstrong announced he intends to return to professional cycling and try to win an eighth Tour de France in 2009.",
+    "time_range": null,
+    "evidence_ids": [
+      "40711"
+    ],
+    "job_id": "22657c495bd18c6e4a7d03c5f251d3cb54500a8fb1b319fb211725f2f297a9c9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's return announcement and 2009 Tour de France goal is relevant, but its 2008-09-08 date differs from the existing 2008-09-09 event, so it stays separate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c0cc0eebe9c7ee68"
+  },
+  {
+    "candidate_id": "021f10f8f3dced089f92f97c",
+    "time": "2009-08-28",
+    "date_precision": "day",
+    "summary": "Lance Armstrong said he is confident he can win an eighth Tour de France in 2010, while acknowledging Alberto Contador is very good and that he does not know if he will be good enough to beat him.",
+    "time_range": null,
+    "evidence_ids": [
+      "40622"
+    ],
+    "job_id": "7ab5570a0834fbf79c770a711a27d96e559faaf156c63220471dc9a271720208",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's stated confidence about winning the 2010 Tour and rivalry with Contador is a distinct later milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6bc3a339abf1d2ec"
+  },
+  {
+    "candidate_id": "199d9b37ce2a2c3d189f0d45",
+    "time": "2009-03",
+    "date_precision": "month",
+    "summary": "Lance Armstrong's Astana team confirms he will return to Europe to race in the Tour of Castilla y Leon, where he is set to race for the first time with teammate and rival Alberto Contador, and in the Milan-San Remo one-dayer.",
+    "time_range": null,
+    "evidence_ids": [
+      "40661"
+    ],
+    "job_id": "9b1dd0f50237cdca90288e1603a19cabb8a5d11ea10f1fa8cc768fb4d747bcf0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Astana confirming Armstrong's European race return and first race with Contador is a distinct March 2009 milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e7ff1317d3cccebc"
+  },
+  {
+    "candidate_id": "4c435e540c85eb3ab053f0aa",
+    "time": "2008-09-09",
+    "date_precision": "day",
+    "summary": "Lance Armstrong announces that he plans to make a comeback to professional cycling next year.",
+    "time_range": null,
+    "evidence_ids": [
+      "40724"
+    ],
+    "job_id": "ac3f2d798e7c0a20b47634ba76ff02c882a2386dde084bb2bdc71e00f7b2ff3f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-5ab39f3f7cd524e0",
+    "reason": "Same date and same comeback announcement as the existing 2008-09-09 event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5ab39f3f7cd524e0"
+  },
+  {
+    "candidate_id": "ff01866497fe0b975765a9e6",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Lance Armstrong was rumored to be contemplating a comeback to professional cycling, though no comeback had occurred.",
+    "time_range": null,
+    "evidence_ids": [
+      "40680"
+    ],
+    "job_id": "9a473544c5ace303ff828d0fb5f04e59a3f59d258e7c9aceeb8241a0a3d124e0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rumored pre-comeback speculation is relevant context; unknown date prevents merging with dated comeback events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-26326a814d84687e"
+  },
+  {
+    "candidate_id": "89353a59deb7c8ae1f721844",
+    "time": "2008-12-01",
+    "date_precision": "day",
+    "summary": "Lance Armstrong confirmed that he intends to ride in the 2009 Tour de France.",
+    "time_range": null,
+    "evidence_ids": [
+      "40682"
+    ],
+    "job_id": "a5baf70e6e8210763fef04be7af0f7f89ced088b54609229880cd1b7f90b91c8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong confirming he intends to ride the 2009 Tour de France is a distinct December 2008 milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4cb71532d5931a5e"
+  },
+  {
+    "candidate_id": "01a54f2fef737d375287afe3",
+    "time": "2009-03-23",
+    "date_precision": "day",
+    "summary": "Lance Armstrong broke his collarbone in a crash during stage one of the Vuelta a Castilla y León, casting doubt on his participation in the Tour de France.",
+    "time_range": null,
+    "evidence_ids": [
+      "40659"
+    ],
+    "job_id": "4a567e223e43cab305d2b44e7a5eeee70f1a9ee49c040fd9f56a2373e57c6cff",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-24be095064e4af6d",
+    "reason": "Same date and same collarbone crash during Vuelta a Castilla y Leon stage one.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-24be095064e4af6d"
+  },
+  {
+    "candidate_id": "269edbf43076dab07958c393",
+    "time": "2013-01-12",
+    "date_precision": "day",
+    "summary": "Lance Armstrong says he will answer Oprah Winfrey's questions directly, honestly and candidly in an upcoming televised interview, amid reports he will make a limited confession to doping.",
+    "time_range": null,
+    "evidence_ids": [
+      "40380"
+    ],
+    "job_id": "f8a28e96ca2341933c3a9e6a3962f1bcfbf866136d9221fb5460ab758019dbd2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's stated intent to answer candidly ahead of the interview is a distinct milestone in the doping admission timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9c59c27fa06387f8"
+  },
+  {
+    "candidate_id": "3bc78bab04f2a46b1ff750a8",
+    "time": "2013-01-09",
+    "date_precision": "day",
+    "summary": "Lance Armstrong agrees to appear on Oprah Winfrey's show for a 90-minute interview, his first public remarks since being stripped of his Tour de France titles and receiving a lifetime ban for doping.",
+    "time_range": null,
+    "evidence_ids": [
+      "40451"
+    ],
+    "job_id": "e4e2db607e3d2d2cfbf974bd53f0d2eb7b1f807d23510362e2f05ca0b31efb43",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Agreement to give the first public interview after his ban is a distinct milestone; date differs from the existing 2013-01-08 scheduling event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e3481a68ee89d574"
+  },
+  {
+    "candidate_id": "bd848551baba05ec538eedc5",
+    "time": "2013-01-17",
+    "date_precision": "day",
+    "summary": "Lance Armstrong confessed to using banned substances, including EPO, blood doping, testosterone, cortisone, and growth hormone, during all seven of his Tour de France wins in an interview with Oprah Winfrey.",
+    "time_range": null,
+    "evidence_ids": [
+      "40468"
+    ],
+    "job_id": "1540f45883be52909f3ff76b1c0f5d9938f52b6e0ff0952beb38c9f8ae41d51f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Doping confession in the Oprah Winfrey interview is a key milestone; its 2013-01-17 date differs from the existing 2013-01-15 event, so it is appended separately.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-460fed7c7c394292"
+  },
+  {
+    "candidate_id": "644af2690d4749b9207e8179",
+    "time": "2013-01-17",
+    "date_precision": "day",
+    "summary": "Lance Armstrong admitted to doping during an interview with Oprah Winfrey, opening him up to multiple multi-million dollar legal challenges.",
+    "time_range": null,
+    "evidence_ids": [
+      "40372"
+    ],
+    "job_id": "8183409ca61015e9aea13de3b181b5c5af4b1bcfe37906285e5b9a9b205ee7c1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Doping admission and resulting legal exposure is a distinct milestone; its 2013-01-17 date differs from the existing 2013-01-15 event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1898b4c12debf9ee"
+  },
+  {
+    "candidate_id": "3fef5a3ea04cb6c9ea00b3df",
+    "time": "2013-01-15",
+    "date_precision": "day",
+    "summary": "Oprah Winfrey confirmed that Lance Armstrong \"came clean\" about his doping past in a two-and-a-half-hour interview filmed on Monday in Austin, which was due to be broadcast later that week.",
+    "time_range": null,
+    "evidence_ids": [
+      "40360"
+    ],
+    "job_id": "ae06c548214a33cc951df130329df0c58147d6ed591c9329fcb2ffb870ac14c6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-1717befa44dd9bdd",
+    "reason": "Same 2013-01-15 confirmation that Armstrong came clean in the Oprah Winfrey interview; duplicate of the existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1717befa44dd9bdd"
+  },
+  {
+    "candidate_id": "4795c1631ce60a5837157b11",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Lance Armstrong's admission interview with Oprah Winfrey is described as having mesmerised her, but no specific event date or completed action is stated in the provided content.",
+    "time_range": null,
+    "evidence_ids": [
+      "40358"
+    ],
+    "job_id": "2db7c462f7c7ffbf1debb1881cbeb5cfd1049de8b3e9176cb9269586ac5d835c",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No specific event date or completed action; adds no distinct timeline milestone.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "f0b10c838bc95021171353c2",
+    "time": "2013-01-17",
+    "date_precision": "day",
+    "summary": "Lance Armstrong admitted in an interview with Oprah Winfrey that he doped to win all seven of his Tour de France titles.",
+    "time_range": null,
+    "evidence_ids": [
+      "40357"
+    ],
+    "job_id": "dc1633e1bdf05643c261b9f75b244e865446e61eb9b7ca2385684c1ae68416fa",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Admission of doping to win all seven Tour de France titles is a key milestone; its 2013-01-17 date differs from the existing 2013-01-15 event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ea77bb3d5d313ac8"
+  },
+  {
+    "candidate_id": "6498163d579726c6ec0f3695",
+    "time": "2013-01-09",
+    "date_precision": "day",
+    "summary": "Lance Armstrong is set to give his first TV interview since the alleged doping scandal, choosing Oprah Winfrey for the appearance.",
+    "time_range": null,
+    "evidence_ids": [
+      "40461"
+    ],
+    "job_id": "c6b12393607f207be49f7f6ae977e1576f2c91e7958e0f5671cf38ded8f5074a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "First TV interview selection of Oprah Winfrey is a distinct milestone; date differs from the existing 2013-01-08 scheduling event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-30e64f7dd81330cb"
+  },
+  {
+    "candidate_id": "d21617c3e0449f168107ab62",
+    "time": "2013-01-17",
+    "date_precision": "day",
+    "summary": "In an interview with Oprah Winfrey, Lance Armstrong admitted to using banned substances and blood doping during all seven of his Tour de France victories.",
+    "time_range": null,
+    "evidence_ids": [
+      "40428"
+    ],
+    "job_id": "5a13695ba9387c6cae8b3c8c2cfc352385c70da834efe10501da6bd8c84fa80b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-460fed7c7c394292",
+    "reason": "Same date and same Oprah Winfrey doping confession as existing event; duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-460fed7c7c394292"
+  },
+  {
+    "candidate_id": "cfcea4b1bf633bb331d0fb2f",
+    "time": "2013-01-17",
+    "date_precision": "day",
+    "summary": "Lance Armstrong admitted to doping in an interview with Oprah Winfrey.",
+    "time_range": null,
+    "evidence_ids": [
+      "40525"
+    ],
+    "job_id": "258e79f0c4443f9bd71aa8b1e69ae323fb60a7168172ff8894ce1126acc1856c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-460fed7c7c394292",
+    "reason": "Same date and same Oprah Winfrey doping admission; duplicate of existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-460fed7c7c394292"
+  },
+  {
+    "candidate_id": "0ac35c8ddd73979465c33edb",
+    "time": "2012-08-24",
+    "date_precision": "day",
+    "summary": "The United States Anti-Doping Agency banned Lance Armstrong for life and recommended stripping all his awards after he refused to defend himself against doping allegations.",
+    "time_range": null,
+    "evidence_ids": [
+      "40503"
+    ],
+    "job_id": "5f014ebd49953dca069a786a37df49fee0549be529a772383896a3221b7e5dfd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-93730b6b85fd6d95",
+    "reason": "Same date and same USADA lifetime ban and award-stripping action; duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-93730b6b85fd6d95"
+  },
+  {
+    "candidate_id": "c034495b2fbbdf9284388f4e",
+    "time": "2002-12-12",
+    "date_precision": "day",
+    "summary": "Lance Armstrong announced he is likely to retire at the end of 2004, giving him two more attempts at the Tour de France.",
+    "time_range": null,
+    "evidence_ids": [
+      "40972"
+    ],
+    "job_id": "7b9d22c73714f81ca1e0cf98228f943c80d87d2d961f8d686dcd5f8dd252ba47",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's stated retirement plan is a relevant career milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-baefc3450aa74aa7"
+  },
+  {
+    "candidate_id": "7baf03584efb1d90d08f4a11",
+    "time": "2009-07-26",
+    "date_precision": "day",
+    "summary": "Lance Armstrong finished third in the 2009 Tour de France, behind winner Alberto Contador, and indicated he will most likely ride in the 2010 Tour de France.",
+    "time_range": null,
+    "evidence_ids": [
+      "40649"
+    ],
+    "job_id": "35f44e29cdcdfeb56af76776ce13ebf4c12de20f9175eacbd4ef0f109bbc46b4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Third-place finish in the 2009 Tour de France is a relevant competitive milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9b92cfb829830685"
+  },
+  {
+    "candidate_id": "5aa9e5e21ac5c73a1a49cb01",
+    "time": "2010-07-11",
+    "date_precision": "day",
+    "summary": "Lance Armstrong crashed multiple times during stage eight of the Tour de France and lost significant time, falling out of contention.",
+    "time_range": null,
+    "evidence_ids": [
+      "40609"
+    ],
+    "job_id": "521c7ef837b96c14e89da26b35e6f884f9a7befdd03e850c1f301b44f14ee0d3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-7ec3e702e47b94dd",
+    "reason": "Same 2010-07-11 Tour de France crash and loss of contention as the existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7ec3e702e47b94dd"
+  },
+  {
+    "candidate_id": "0f4b8e2311e8afdb9465a5db",
+    "time": "2009-01-18",
+    "date_precision": "day",
+    "summary": "Lance Armstrong is set to return to competitive cycling after three years in retirement at the Tour Down Under in Adelaide, where he will compete against 2006 Tour de France winner Oscar Pereiro.",
+    "time_range": null,
+    "evidence_ids": [
+      "40703"
+    ],
+    "job_id": "adcb205ae4ad59d8f35106aee96bbaa89e66a74986c3d31a238232aa75a7003a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Return to competition at the Tour Down Under is a relevant comeback milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fa01ce731ed8222b"
+  },
+  {
+    "candidate_id": "91e98adc8b987b3fdea5b763",
+    "time": "2005-07-02",
+    "date_precision": "day",
+    "summary": "Lance Armstrong will start his 10th and final Tour de France.",
+    "time_range": null,
+    "evidence_ids": [
+      "40830"
+    ],
+    "job_id": "3fa76d417c8b8d0e666a7c7af11ab435cec79d268a9f9a1cbe6d71fe37530ebe",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Start of his 10th and final Tour de France is a relevant career milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0480ff11a9e09fc4"
+  },
+  {
+    "candidate_id": "0ad6d0b4cf32d1fc5294c718",
+    "time": "2001-07-27",
+    "date_precision": "day",
+    "summary": "Lance Armstrong won the fourth stage of the Tour de France, a 61-kilometre time trial from Montlucon, extending his overall lead with two stages remaining.",
+    "time_range": null,
+    "evidence_ids": [
+      "41017"
+    ],
+    "job_id": "5ba0f9cf3190569ac90cbb42f74ef3cffa0004a5e490d574bb21a946215403b7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Tour de France stage win and overall lead extension is a relevant competitive milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-547c905cfa262fcd"
+  },
+  {
+    "candidate_id": "ce418f6b8bee4b1cc755c7dc",
+    "time": "2009-10-14",
+    "date_precision": "day",
+    "summary": "Lance Armstrong is expected to attend the 2010 Tour de France route announcement in Paris.",
+    "time_range": null,
+    "evidence_ids": [
+      "40672"
+    ],
+    "job_id": "da1dbb2e32e2d949e7a3466885aaa3a6cf2c743026fde398964344d6d4046b15",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Expected attendance at the 2010 Tour route announcement is a relevant event; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3e11114c8f733109"
+  },
+  {
+    "candidate_id": "28b75bbf0a0f2c49703af956",
+    "time": "2009-10-14",
+    "date_precision": "day",
+    "summary": "Lance Armstrong attended the unveiling of the 2010 Tour de France route, which features fewer time-trials and greater climbs, and commented that a strong team will be needed.",
+    "time_range": null,
+    "evidence_ids": [
+      "40720"
+    ],
+    "job_id": "7a3f13362b7c48ea625e4ad02b79af1ed4e8138a9626c5b0f279626b11148af7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "ce418f6b8bee4b1cc755c7dc",
+    "reason": "Same 2009-10-14 event as the expected route-announcement attendance; duplicate occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-3e11114c8f733109"
+    },
+    "timeline_event_id": "event-3e11114c8f733109"
+  },
+  {
+    "candidate_id": "025d599f90ac98bd8b152e40",
+    "time": "2001-07-21",
+    "date_precision": "day",
+    "summary": "Lance Armstrong won the 13th stage of the Tour de France and took the yellow jersey for the first time in that year's race.",
+    "time_range": null,
+    "evidence_ids": [
+      "41021"
+    ],
+    "job_id": "4c180b55136a95528ad5a345c1974aea8c9d97da5b8159211307d800fd4f9e0b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Tour de France milestone: Armstrong won stage 13 and took the yellow jersey; no existing event matches this date or occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e5ff270250756bf1"
+  },
+  {
+    "candidate_id": "e6a7438105ea863713336099",
+    "time": "2004-07-16",
+    "date_precision": "day",
+    "summary": "Lance Armstrong won the 205-kilometre Pyrenean mountain stage of the Tour de France, moving closer to a record sixth Tour victory.",
+    "time_range": null,
+    "evidence_ids": [
+      "40913"
+    ],
+    "job_id": "a02841b0d17d2229913756c08c93da27f5fc0e87fb20474750726f5969bd9b63",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Tour de France stage win contributing to his record sixth Tour victory; no existing event matches this date or occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-127cc9c5dcf6b76b"
+  },
+  {
+    "candidate_id": "5714c817ceeec4660af78b74",
+    "time": "2013-01-13",
+    "date_precision": "day",
+    "summary": "Lance Armstrong admitted to taking banned performance-enhancing substances, including steroids and EPO, during his Oprah Winfrey interview.",
+    "time_range": null,
+    "evidence_ids": [
+      "40455"
+    ],
+    "job_id": "e0541c7a822f01f104f3fb7d61d9c39271c61187287953b64ffc2935377e5d87",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's admission of banned substance use is a core milestone; date differs from existing Oprah interview events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-dce0e93239bda7c9"
+  },
+  {
+    "candidate_id": "a9bd201431e5dbf98f42c012",
+    "time": "2013-01-10",
+    "date_precision": "day",
+    "summary": "Lance Armstrong is due to give a public, televised confession to Oprah Winfrey regarding his use of drugs to enhance his cycling performance.",
+    "time_range": null,
+    "evidence_ids": [
+      "40364"
+    ],
+    "job_id": "76fa04c56db7b791b99ce106de8a357c1746c97045863c68f1483b7d066fea20",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Planned televised confession is a relevant pre-event milestone; no same-date existing event to merge with.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-641d570af62a9bb0"
+  },
+  {
+    "candidate_id": "72ac6a85916d6547e7a98d11",
+    "time": "2013-01-17",
+    "date_precision": "day",
+    "summary": "Lance Armstrong confessed to Oprah Winfrey that he used performance-enhancing drugs and described himself as a controlling person, though his confession was criticized as incomplete and too late.",
+    "time_range": null,
+    "evidence_ids": [
+      "40478"
+    ],
+    "job_id": "9b73108e46376c9b21751a0a2aa7f8072df9bca9c3a28736d863b7475d1a4c6a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-460fed7c7c394292",
+    "reason": "Same date and same Oprah Winfrey doping confession as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-460fed7c7c394292"
+  },
+  {
+    "candidate_id": "6aa57a00d254e868f11df415",
+    "time": "2013-01-18",
+    "date_precision": "day",
+    "summary": "Lance Armstrong's first part of a two-part interview with Oprah Winfrey airs, in which he confesses to doping.",
+    "time_range": null,
+    "evidence_ids": [
+      "40323"
+    ],
+    "job_id": "1a56abe5d8bbd2f24bb79ab1fc61133a90c607ad41bb884005a22d75ad2cd74e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Broadcast of the Oprah interview confession is a relevant milestone; date differs from existing confession events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0f4239e3cf444917"
+  },
+  {
+    "candidate_id": "11fad1d47ff2d7d3807757ee",
+    "time": "2006-05-31",
+    "date_precision": "day",
+    "summary": "Independent investigators cleared Lance Armstrong of doping during the 1999 Tour de France, finding WADA and the French anti-doping lab committed misconduct.",
+    "time_range": null,
+    "evidence_ids": [
+      "40755"
+    ],
+    "job_id": "4c1035882e2bb281dccdcdf3f7293b3c80a332d5e9a9ed477e6f24ef6b430b98",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Doping investigation outcome directly relevant to Armstrong timeline; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-81fdbbf0164d4088"
+  },
+  {
+    "candidate_id": "35efc4c5800ebc112565f07a",
+    "time": "2005-04-18",
+    "date_precision": "day",
+    "summary": "Lance Armstrong confirms that he will retire from professional cycling after the 2005 Tour de France, which will be his last race.",
+    "time_range": null,
+    "evidence_ids": [
+      "40840"
+    ],
+    "job_id": "c1860c31af4e490ca4d2da48c4e5fa3dcaef4ce2d1025aac9a628d35258bf3a3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Retirement announcement is a key career milestone; no duplicate in existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-072b272d25c6a23c"
+  },
+  {
+    "candidate_id": "0639a10efc44b247a915cee2",
+    "time": "2005-02-16",
+    "date_precision": "day",
+    "summary": "Lance Armstrong confirmed he will attempt a seventh straight Tour de France victory.",
+    "time_range": null,
+    "evidence_ids": [
+      "40856"
+    ],
+    "job_id": "f45362525eedc9e25594473d1cc90e880a7b9f5543855ffd642ccb10b8deeee4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Confirmation of seventh Tour attempt is a distinct career milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2647e18b3449567c"
+  },
+  {
+    "candidate_id": "9f9e25da9b47407d8e7eeb9e",
+    "time": "2005-01-10",
+    "date_precision": "day",
+    "summary": "Lance Armstrong confirmed he will try to win a seventh Tour de France, possibly in 2006, and said he plans to decide in late April whether to attempt a seventh consecutive victory in July 2005.",
+    "time_range": null,
+    "evidence_ids": [
+      "40859"
+    ],
+    "job_id": "cc7bfab2a34ffe915311ffb1d69f556b4d8d0f9c165ae46d8d75126694cf06d0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Earlier statement about possible seventh Tour attempt is a distinct dated occurrence; no duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8021ad25d7ac2676"
+  },
+  {
+    "candidate_id": "734b6c295b5fae83c885ec68",
+    "time": "2012-08-24",
+    "date_precision": "day",
+    "summary": "Lance Armstrong abandons his effort to defend himself against US Anti-Doping Agency doping charges, leading the USADA to propose banning him and stripping his seven Tour de France titles.",
+    "time_range": null,
+    "evidence_ids": [
+      "40406"
+    ],
+    "job_id": "8bad57e100919bad4015ab60afa00a3334c9c3f6d09564e309fea2670ebaadf6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-93730b6b85fd6d95",
+    "reason": "Same date and same USADA ban/stripping outcome as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-93730b6b85fd6d95"
+  },
+  {
+    "candidate_id": "0df04b3546125c66c1696d9b",
+    "time": "2008-10-01",
+    "date_precision": "day",
+    "summary": "Lance Armstrong refuses to allow his 1999 Tour de France urine samples to be retested, rejecting the French anti-doping agency's invitation.",
+    "time_range": null,
+    "evidence_ids": [
+      "40705"
+    ],
+    "job_id": "c7ce4ed3b9d94633aa4c16d77e96a067503ae6b5e80a0037910b2af25629f8b1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Refusal of sample retesting is a relevant doping-related milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0e55cad2785e0c48"
+  },
+  {
+    "candidate_id": "d881838028185f091e559211",
+    "time": "2009-03-25",
+    "date_precision": "day",
+    "summary": "Lance Armstrong underwent successful surgery involving a five-inch stainless steel plate and 12 screws to repair a collarbone broken in four places after a racing accident on 2009-03-23.",
+    "time_range": null,
+    "evidence_ids": [
+      "40660"
+    ],
+    "job_id": "b70c7566cbaf29597cc31897fdb0374ce425c943726f0323347e7c62fbb4f77a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Surgery after collarbone injury is a distinct dated event; existing event covers the injury, not the surgery.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-949a47bd739ea437"
+  },
+  {
+    "candidate_id": "f03ac9050369f731832cf51e",
+    "time": "2009-04-08",
+    "date_precision": "day",
+    "summary": "The French Anti-Doping Agency said it is considering action against Lance Armstrong for allegedly failing to respect its rules during a March 17 out-of-competition test, potentially jeopardizing his Tour de France participation.",
+    "time_range": null,
+    "evidence_ids": [
+      "40666"
+    ],
+    "job_id": "a22ef4fd9815bece86e0ce872ef7389e8ca60f0ccfbbbee8a697018789dbbc68",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "French anti-doping agency consideration is a relevant doping-related milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2eb0dd78eb9a8ce6"
+  },
+  {
+    "candidate_id": "070b96dcdcc1b97a69362ced",
+    "time": "2003-07-26",
+    "date_precision": "day",
+    "summary": "Lance Armstrong effectively secured his fifth consecutive Tour de France victory after Jan Ullrich crashed on a slippery roundabout during the final stage, extending Armstrong's overall lead to 1 minute 16 seconds.",
+    "time_range": null,
+    "evidence_ids": [
+      "40973"
+    ],
+    "job_id": "17884ee24224f610b7c746dff2bd2ea63baebfb954d8d56c374d76e99c163a23",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong effectively securing his fifth Tour de France title is a major career milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8200c246bd0319f4"
+  },
+  {
+    "candidate_id": "4089a1bb1cc7a3c50c8e0ea0",
+    "time": "2009-03-23",
+    "date_precision": "day",
+    "summary": "Lance Armstrong suffered a broken collarbone in a racing accident at the Vuelta a Castilla y Leon and planned to undergo surgery in the United States.",
+    "time_range": null,
+    "evidence_ids": [
+      "40674"
+    ],
+    "job_id": "1cf55997f2c4eb9b712796b8d4bcfa230839eb288a8bcc9c60a1b71a9529b5da",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-24be095064e4af6d",
+    "reason": "Same 2009-03-23 collarbone crash and planned surgery as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-24be095064e4af6d"
+  },
+  {
+    "candidate_id": "9fb724baf86d8de9bde6fb1c",
+    "time": "2009-03-23",
+    "date_precision": "day",
+    "summary": "Lance Armstrong fractures his collarbone after crashing in the first stage of the Vuelta a Castilla y León race in northern Spain.",
+    "time_range": null,
+    "evidence_ids": [
+      "40668"
+    ],
+    "job_id": "f1b0028905ba9cbd147044866170a15f69da0addc150ed2fd1913262c474775d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-24be095064e4af6d",
+    "reason": "Same 2009-03-23 Vuelta a Castilla y Leon collarbone fracture as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-24be095064e4af6d"
+  },
+  {
+    "candidate_id": "08b05f8250050e669eb5ada8",
+    "time": "2009-01-21",
+    "date_precision": "day",
+    "summary": "Lance Armstrong attacked during the third stage of the Tour Down Under, escaped two major crashes, and was later caught after a furious chase.",
+    "time_range": null,
+    "evidence_ids": [
+      "40683"
+    ],
+    "job_id": "f037c791d129033d605b121b6285cee5da04b7b00a04850cc7aa77e7dce30826",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's attack and escapes during the 2009 Tour Down Under is a notable comeback-race moment.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7bf27bde1aa1a3ca"
+  },
+  {
+    "candidate_id": "5ccf5612eda14060d43d65ec",
+    "time": "2004-07-16",
+    "date_precision": "day",
+    "summary": "Lance Armstrong wins the Tour de France stage over five mountain passes, moving to within 22 seconds of the overall leader.",
+    "time_range": null,
+    "evidence_ids": [
+      "40841"
+    ],
+    "job_id": "078d829a91a96d19d5a3258fc5542d8cdde7f8053d9616aebcf2e66378bc4f4c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-127cc9c5dcf6b76b",
+    "reason": "Same 2004-07-16 Tour de France mountain-stage win as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-127cc9c5dcf6b76b"
+  },
+  {
+    "candidate_id": "3673133e61ac1ed823152972",
+    "time": "2009-03-23",
+    "date_precision": "day",
+    "summary": "Lance Armstrong broke his right collarbone in a crash in Spain, and his participation in the Tour de France is looking doubtful.",
+    "time_range": null,
+    "evidence_ids": [
+      "40625"
+    ],
+    "job_id": "edbbe8a82d38483a114a1acdcfd671e81b11e0e8d5b789aac297f4a872dfef77",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-24be095064e4af6d",
+    "reason": "Same 2009-03-23 broken collarbone crash in Spain as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-24be095064e4af6d"
+  },
+  {
+    "candidate_id": "6d9a17e4296b6935991c687a",
+    "time": "2013-01-21",
+    "date_precision": "day",
+    "summary": "JJ Abrams options the forthcoming book \"Cycle of Lies: The Fall of Lance Armstrong\" by Juliet Macur with the intention of turning it into a film, the first proposed movie announced since Armstrong admitted to blood doping and steroid use.",
+    "time_range": null,
+    "evidence_ids": [
+      "40379"
+    ],
+    "job_id": "1be34c8b9bbc85b679c3da7d52b6305fa88bac376ca62799c15f2430b0791407",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "First proposed film optioned after Armstrong's doping admission is a distinct post-scandal milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9011d65ed2f7b826"
+  },
+  {
+    "candidate_id": "258890411b5d292439f4edb8",
+    "time": "2013-01-17",
+    "date_precision": "day",
+    "summary": "Lance Armstrong admitted to using performance-enhancing drugs in an interview with Oprah Winfrey.",
+    "time_range": null,
+    "evidence_ids": [
+      "40343"
+    ],
+    "job_id": "663c4537c3a2c84054a770d392b9b1aab3ff46ee1d78c7a8688dd9587156b593",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-460fed7c7c394292",
+    "reason": "Same 2013-01-17 Oprah Winfrey doping admission as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-460fed7c7c394292"
+  },
+  {
+    "candidate_id": "0376a2e2bedeb8bce3528e75",
+    "time": "2013-01-17",
+    "date_precision": "day",
+    "summary": "Lance Armstrong is scheduled to give his first interview since being stripped of his Tour de France titles and banned for life, a 90-minute special with Oprah Winfrey to be streamed live and broadcast in the US.",
+    "time_range": null,
+    "evidence_ids": [
+      "40389"
+    ],
+    "job_id": "c33823848cef0f5bf374cb2a38105ea6875e3f6d52f1119c40a1e685651b33b7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Scheduled Oprah Winfrey interview on 2013-01-17; date differs from existing scheduling events, so append separately.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0b3b1263bc5ccb0c"
+  },
+  {
+    "candidate_id": "d7912d39abad9740c61734e0",
+    "time": "2005-07-23",
+    "date_precision": "day",
+    "summary": "Lance Armstrong all but sealed a record seventh Tour de France victory by winning the penultimate stage, a 55.5-km time trial around St Etienne, while retaining the overall leader's yellow jersey.",
+    "time_range": null,
+    "evidence_ids": [
+      "40839"
+    ],
+    "job_id": "66ff5b76e9a63aa547cb0b62fb26ebc373c0fa520d13dad485b916206fa8aa8b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-5adf20cab3406f23",
+    "reason": "Same 2005-07-23 seventh Tour de France victory milestone as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5adf20cab3406f23"
+  },
+  {
+    "candidate_id": "c67b4f604a9cebd2cd716b28",
+    "time": "2005-07-23",
+    "date_precision": "day",
+    "summary": "Lance Armstrong won the final time-trial stage of the Tour de France, securing his seventh consecutive overall victory, which he was set to formally claim in Paris the following day.",
+    "time_range": null,
+    "evidence_ids": [
+      "40816"
+    ],
+    "job_id": "7da611f2ca9d4fc47434712a4c86af1c3c1425a8b5230906c72de3c0458e58e6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-5adf20cab3406f23",
+    "reason": "Same 2005-07-23 seventh Tour de France victory milestone as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5adf20cab3406f23"
+  },
+  {
+    "candidate_id": "ebe56fec57aba8e5deb8d5b1",
+    "time": "2004-07-20",
+    "date_precision": "day",
+    "summary": "Lance Armstrong won stage 15 of the Tour de France and regained the yellow jersey, moving closer to a record sixth victory.",
+    "time_range": null,
+    "evidence_ids": [
+      "40876"
+    ],
+    "job_id": "7f6939a31e92219700f2df6cb865d370bd512680787cfc5b400ccdee089e02a2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct 2004 Tour de France stage win and yellow jersey milestone; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6b20e4df56da2450"
+  },
+  {
+    "candidate_id": "f84338f2886e1c22b815edec",
+    "time": "2002-05-26",
+    "date_precision": "day",
+    "summary": "Lance Armstrong completed his first win of the season by winning the Midi Libre stage race in Southern France.",
+    "time_range": null,
+    "evidence_ids": [
+      "40994"
+    ],
+    "job_id": "3aae31baea29920dfc9a3267fb5f2e2d74c602bb002a87cfdc03afcdd2dde079",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct 2002 Midi Libre stage race victory; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a6f8f6516f806562"
+  },
+  {
+    "candidate_id": "915108d1d2f0d6932a09c00b",
+    "time": "2008-10-07",
+    "date_precision": "day",
+    "summary": "The International Cycling Union cleared Lance Armstrong to ride in the Tour Down Under in January, waiving the six-month advance registration rule.",
+    "time_range": null,
+    "evidence_ids": [
+      "40679"
+    ],
+    "job_id": "49e7af62f000ce98a58a0c163931a115dcd2060dbe0dd1cec3b65c31a23a488c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: UCI clears Armstrong for Tour Down Under, distinct from his September 2008 return announcement.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4d083273d8729a25"
+  },
+  {
+    "candidate_id": "9d62e1f2274adc048be176f4",
+    "time": "2009-01-18",
+    "date_precision": "day",
+    "summary": "Lance Armstrong finished 64th out of 133 starters in the Tour Down Under criterium in Adelaide, marking his return to professional cycling.",
+    "time_range": null,
+    "evidence_ids": [
+      "40675"
+    ],
+    "job_id": "e3f81d9e47f7e38e39a92d9c6e9fcbb49ce41c3a2435ff0e4af1de7f64385039",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-fa01ce731ed8222b",
+    "reason": "Same date and topic as existing event on Armstrong's return at the Tour Down Under.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fa01ce731ed8222b"
+  },
+  {
+    "candidate_id": "1c258e86617cd19d9241b3c9",
+    "time": "2009-12-10",
+    "date_precision": "day",
+    "summary": "Lance Armstrong says he will retire from racing after the 2011 season.",
+    "time_range": null,
+    "evidence_ids": [
+      "40608"
+    ],
+    "job_id": "40dbfd768d126491fb78a367e3f3704d5edb516d8ac74d0267330d90476839f7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Armstrong announces planned retirement after 2011 season.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-79e5631473696f89"
+  },
+  {
+    "candidate_id": "0ddd29a766e855c0cb9d8129",
+    "time": "2011-02-16",
+    "date_precision": "day",
+    "summary": "Lance Armstrong announced his retirement from professional cycling, which he described as \"retirement 2.0\" and is likely to be final.",
+    "time_range": null,
+    "evidence_ids": [
+      "40555"
+    ],
+    "job_id": "33fa0a5334149bb907ae984217254f48db31257425d8d16b6d61073ab6c7f7a8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Armstrong announces likely final retirement in 2011.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-358026506d8b0217"
+  },
+  {
+    "candidate_id": "884c8f8a03834106e18984ac",
+    "time": "2005-09-06",
+    "date_precision": "day",
+    "summary": "Lance Armstrong admitted he is tempted to come out of retirement to bid for an eighth Tour de France win, saying he will no longer rule it out.",
+    "time_range": null,
+    "evidence_ids": [
+      "40793"
+    ],
+    "job_id": "585184cec2ba8c48bed8e6cb2581cf493363a1b95807fbfe846e773448f2806e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Armstrong hints at coming out of retirement for an eighth Tour title.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a653c3a9ae025141"
+  },
+  {
+    "candidate_id": "d4c08f7fb0dff4de7ba6d78b",
+    "time": "2003-12-11",
+    "date_precision": "day",
+    "summary": "Lance Armstrong's key mountain-stage teammate Roberto Heras is on the verge of leaving the US Postal team to join Spain's Liberty Seguros, potentially affecting Armstrong's attempt at a historic sixth Tour de France title.",
+    "time_range": null,
+    "evidence_ids": [
+      "40943"
+    ],
+    "job_id": "465f0dc6c921aa36aa79f603952fe12920db4218aa29f6efc8d3572a2a2c5985",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant to Armstrong's Tour preparations: key teammate Heras may leave US Postal.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4053e91f533bae09"
+  },
+  {
+    "candidate_id": "1160cf6a033a9d45c7ccc394",
+    "time": "2004-06-30",
+    "date_precision": "day",
+    "summary": "Lance Armstrong confronts journalist David Walsh, co-author of an investigative book alleging doping, at a press conference on the eve of the Tour de France, and states he will pursue legal action over the book.",
+    "time_range": null,
+    "evidence_ids": [
+      "40931"
+    ],
+    "job_id": "f7add7aeedc07eebb522019186655f5b01d76f99664f1c127f61cbc62e6c0477",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant doping controversy milestone: Armstrong confronts David Walsh and threatens legal action.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0f40ece257743012"
+  },
+  {
+    "candidate_id": "118677759aa99672b6b4037e",
+    "time": "2012-08-23",
+    "date_precision": "day",
+    "summary": "Lance Armstrong was stripped of all seven of his Tour de France titles and banned for life from cycling after withdrawing his appeal against the US Anti-Doping Agency's doping allegations.",
+    "time_range": null,
+    "evidence_ids": [
+      "40397"
+    ],
+    "job_id": "371c9b97a7a31943a17378954f4086f0fbaf53ef50ae7e690685f136246cfadb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Armstrong stripped of Tour titles and banned for life; date differs from existing USADA ban event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-72e70a2ef9abbdbf"
+  },
+  {
+    "candidate_id": "2f9fefde2c6027792a592a58",
+    "time": "2004-07-22",
+    "date_precision": "day",
+    "summary": "Lance Armstrong won the 17th stage of the Tour de France, retaining the overall lead and yellow jersey.",
+    "time_range": null,
+    "evidence_ids": [
+      "40871"
+    ],
+    "job_id": "f4bf19d081af9566ac15e752a71b6011788e47c42c411e89a02a074e702018b8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's 2004 Tour de France stage win and yellow jersey is a relevant career milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-be8623039c01dc1e"
+  },
+  {
+    "candidate_id": "c0cf31b39eef5e5e5a8843ac",
+    "time": "2005-06-22",
+    "date_precision": "day",
+    "summary": "Lance Armstrong fell during a training ride near Nice, sustaining a black eye, a cracked helmet, and road rash ahead of his attempt at a seventh Tour de France title.",
+    "time_range": null,
+    "evidence_ids": [
+      "40796"
+    ],
+    "job_id": "8d6a170337f53b8cf2c869e712f70961bcb2b4d7d5dc943bd44b05c47528b34e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Training crash before his seventh Tour attempt is a relevant Armstrong event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3767590241e76f3b"
+  },
+  {
+    "candidate_id": "cd34f7f6601eccefcb5b58ca",
+    "time": "2013-02-22",
+    "date_precision": "day",
+    "summary": "The US Justice Department joined a lawsuit against Lance Armstrong seeking to recover more than $30 million in US Postal Service sponsorship money.",
+    "time_range": null,
+    "evidence_ids": [
+      "40412"
+    ],
+    "job_id": "584c1ddd34ae215f98bcd76cb406906bdcba94ee3ffe05ad07ec97934044553a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "US Justice Department joining the USPS sponsorship lawsuit is a relevant legal milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f8bad8e157d89a63"
+  },
+  {
+    "candidate_id": "b9460618aec0cfaa420a8ac0",
+    "time": "2013-01-22",
+    "date_precision": "day",
+    "summary": "Lance Armstrong admitted in a televised interview with Oprah Winfrey that he had used banned, performance-enhancing drugs to cheat his way to a record seven Tour de France titles.",
+    "time_range": null,
+    "evidence_ids": [
+      "40417"
+    ],
+    "job_id": "3969901b29c2617bf84eeab4b4ecd4874cbb53011a6a131657a3bfc17d1235f8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's televised doping admission is a central milestone; date differs from existing confession events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c9736d47d8bbe7d1"
+  },
+  {
+    "candidate_id": "e1cec284e72495e23814207d",
+    "time": "2013-01-22",
+    "date_precision": "day",
+    "summary": "A lawsuit was filed by Rob Stutzman and Jonathan Wheeler accusing Lance Armstrong and his publishers of marketing his memoirs as true non-fiction despite later admissions of doping.",
+    "time_range": null,
+    "evidence_ids": [
+      "40324"
+    ],
+    "job_id": "8196f35d8c92be4cf95958c2a0508b59be0a70286e689303de18891fb98ab746",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Memoir-related lawsuit is a distinct relevant legal event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e9417a35c41fb522"
+  },
+  {
+    "candidate_id": "5b468498951e6054054d142e",
+    "time": "2013-01-20",
+    "date_precision": "day",
+    "summary": "SCA Promotions plans to file a lawsuit against Lance Armstrong seeking the return of $12m in performance bonuses paid for his 2002, 2003 and 2004 Tour de France victories after he admitted to doping.",
+    "time_range": null,
+    "evidence_ids": [
+      "40431"
+    ],
+    "job_id": "18d6eaabf628d3484ff7d53f50737ee5746ae43d84b5320497fde076b23ab312",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "SCA Promotions planned bonus-recovery lawsuit is a relevant legal development; date differs from existing SCA event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ebcb3d44faba5494"
+  },
+  {
+    "candidate_id": "98828c38dbcc16684218bde0",
+    "time": "2006-06-25",
+    "date_precision": "day",
+    "summary": "The Sunday Times settled with Lance Armstrong and apologized after a court ruled its 2004 article implied he had taken performance-enhancing drugs.",
+    "time_range": null,
+    "evidence_ids": [
+      "40753"
+    ],
+    "job_id": "04672dfa6b3624998cd2384b3a3cfb4ffaf4d010230a23f339ac150110927c1b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Sunday Times settlement and apology is a relevant Armstrong legal milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-57f8eb2bd22b63ef"
+  },
+  {
+    "candidate_id": "f9c928a3c476eca35a7a4bb4",
+    "time": "2013-01-10",
+    "date_precision": "day",
+    "summary": "Lance Armstrong decided to appear on Oprah Winfrey's OWN network and confess that he used performance-enhancing drugs during his cycling career.",
+    "time_range": null,
+    "evidence_ids": [
+      "40470"
+    ],
+    "job_id": "077ad0c5bc984df3acfe350937e0d3a3f6bcff5efc49657909a1445d63b022e4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-641d570af62a9bb0",
+    "reason": "Same date and same planned Oprah confession event as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-641d570af62a9bb0"
+  },
+  {
+    "candidate_id": "f0ef58bd44021d027ea5a721",
+    "time": "2013-01-17",
+    "date_precision": "day",
+    "summary": "Lance Armstrong is expected to make some form of admission to doping in an interview with Oprah Winfrey.",
+    "time_range": null,
+    "evidence_ids": [
+      "40391"
+    ],
+    "job_id": "36c75a51be9dccf267e6587372b05ab693518264edd9e7fc3a59b597796fdc2d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-0b3b1263bc5ccb0c",
+    "reason": "Same date and same Oprah Winfrey interview event; pre-interview expectation of admission is a duplicate of the scheduled interview.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0b3b1263bc5ccb0c"
+  },
+  {
+    "candidate_id": "12e278a907bdddc1fb0083b3",
+    "time": "2014-06-12",
+    "date_precision": "day",
+    "summary": "Lance Armstrong was questioned under oath for the first time since his 2013 doping admission, in an arbitration case by SCA Promotions seeking to recoup $12 million in Tour de France bonuses.",
+    "time_range": null,
+    "evidence_ids": [
+      "40300"
+    ],
+    "job_id": "8440d834a454a3816b14427e3d40763f15e5c40db93dda8f776354ac7c3cdb1e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct later legal milestone: first sworn questioning after the doping admission in SCA Promotions arbitration.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-dcaa7b7459c7e18d"
+  },
+  {
+    "candidate_id": "b3a9c2e18274ccb9f64c5d87",
+    "time": "2013-11-18",
+    "date_precision": "day",
+    "summary": "Lance Armstrong met face-to-face with whistleblower Emma O'Reilly in Florida, telling her his past attempts to ruin her reputation were \"inexcusable and embarrassing.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "40309"
+    ],
+    "job_id": "86a8965b27205ea61328ccc5996e8c5111ab285f7e763dcce8e197db23b08979",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct post-admission event: face-to-face meeting and apology to whistleblower Emma O'Reilly.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-86d97c0d11d6452f"
+  },
+  {
+    "candidate_id": "63ae888389740c953f6d20e9",
+    "time": "2013-02-06",
+    "date_precision": "day",
+    "summary": "Lance Armstrong could face criminal charges following his confessional interview with Oprah Winfrey, according to US media reports, though the US attorney's office said there was no active criminal investigation.",
+    "time_range": null,
+    "evidence_ids": [
+      "40367"
+    ],
+    "job_id": "46c9bd22cb07d2a332baaec7175f21a1940ff9440aa71e998c02454b83f1e9da",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct legal-consequence development after the Oprah interview; no same-date duplicate in existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bd04c5748040b78f"
+  },
+  {
+    "candidate_id": "db6456aefd92e2c749c3dc0d",
+    "time": "2005-06-08",
+    "date_precision": "day",
+    "summary": "Lance Armstrong finished fourth in the Dauphine Libere stage on Mont Ventoux and moved to second place overall, 21 seconds behind Levi Leipheimer.",
+    "time_range": null,
+    "evidence_ids": [
+      "40829"
+    ],
+    "job_id": "bf6e37a52ddb9676c14760457d5d168251364885c11c3ecaefab9e3c065c7cdf",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant 2005 Dauphine Libere performance in Armstrong's Tour preparation; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-74d051e267a24535"
+  },
+  {
+    "candidate_id": "1a704ea17a74df3d77c7512c",
+    "time": "2005-06-05",
+    "date_precision": "day",
+    "summary": "Lance Armstrong began the final countdown to the last Tour de France of his career by finishing fifth in the prologue time-trial of the Dauphiné Libéré, his principal preparation race.",
+    "time_range": null,
+    "evidence_ids": [
+      "40904"
+    ],
+    "job_id": "68891927840bfceea29efb12c6fab12f482a6f7573b04118bb1e3476410d3e5c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant 2005 Dauphine Libere prologue marking start of final Tour de France countdown; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b4afbd099f1616eb"
+  },
+  {
+    "candidate_id": "4a65df04fec0c3a5ca0e5b1e",
+    "time": "2009-03-23",
+    "date_precision": "day",
+    "summary": "Lance Armstrong suffered a fractured collarbone after crashing during the first stage of Spain's Vuelta Castilla of Leon, shortly after conceding Astana team leadership to Alberto Contador.",
+    "time_range": null,
+    "evidence_ids": [
+      "40667"
+    ],
+    "job_id": "eeab2c0872d3451ef094d794b1f46db6a357e29a90328a172bf2fced52e5a282",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-24be095064e4af6d",
+    "reason": "Same 2009-03-23 collarbone crash at Vuelta Castilla y Leon as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-24be095064e4af6d"
+  },
+  {
+    "candidate_id": "ac15eb2940d3e4b031d884b5",
+    "time": "2009-01-13",
+    "date_precision": "day",
+    "summary": "Lance Armstrong trained in Adelaide heat in preparation for his competitive return with the Astana team at the Tour Down Under, which begins on 20 January.",
+    "time_range": null,
+    "evidence_ids": [
+      "40692"
+    ],
+    "job_id": "8a20ac56134b9370a388c1618126ef2ad85ac71321de30c58e8f8830c6ac14a5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's Adelaide training ahead of his Astana/Tour Down Under return is a distinct dated milestone in his comeback timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-eb072ed4b592fc69"
+  },
+  {
+    "candidate_id": "ac94dc25c53616cbc827839d",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Lance Armstrong commented that Jan Ullrich would have been better off joining Team CSC for nothing rather than Coast, amid Ullrich's return to racing after a 14-month absence.",
+    "time_range": null,
+    "evidence_ids": [
+      "40965"
+    ],
+    "job_id": "244d439832b64bf9e1be7a6afc0e314cd8af73c1662fc6f9991e19b79a82e8da",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's comment on Ullrich's team choice is a relevant, undated item about his involvement in cycling affairs.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0ebaf1c4d4f79985"
+  },
+  {
+    "candidate_id": "4f3bc938df57a501993fb4dd",
+    "time": "2009-01-23",
+    "date_precision": "day",
+    "summary": "Lance Armstrong backs Floyd Landis's return to professional cycling after Landis's two-year doping ban ends, saying people should \"forgive and forget.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "40699"
+    ],
+    "job_id": "d1f4435930c95989bdeda72fb8321f815005d6cd1a89d0c01ced4170831d6ffd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong publicly backing Landis's return is a distinct dated milestone in his post-comeback cycling involvement.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d0d4116da22f29c4"
+  },
+  {
+    "candidate_id": "fd8bd42b70e56570f83930fd",
+    "time": "2001-08-04",
+    "date_precision": "day",
+    "summary": "Lance Armstrong wins the Tour de France for the third time, finishing with a total time of 86 hours, 17 minutes and 28 seconds, six minutes and 44 seconds ahead of Jan Ullrich.",
+    "time_range": null,
+    "evidence_ids": [
+      "41004"
+    ],
+    "job_id": "6d098ec41fbba3dc738e4354e00557aa429c639e59744393e650602b6d599d78",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's third Tour de France victory is a relevant career milestone; no existing event covers this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0db5b81349111577"
+  },
+  {
+    "candidate_id": "15cd18645ee1b82a34d46020",
+    "time": "2012-08-24",
+    "date_precision": "day",
+    "summary": "Lance Armstrong conceded that he did not wish to confront the US Anti-Doping Agency's evidence against him, leading to a lifetime ban and the stripping of his seven Tour de France titles.",
+    "time_range": null,
+    "evidence_ids": [
+      "40506"
+    ],
+    "job_id": "df6996583afb9e55c0277545a7b54f07d972c3670a72f41db45c6987ab13a7c6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-93730b6b85fd6d95",
+    "reason": "Same date and same USADA lifetime ban/title-stripping event as existing event-93730b6b85fd6d95.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-93730b6b85fd6d95"
+  },
+  {
+    "candidate_id": "0d6c5c28bc815fdae2bc9973",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "NONE",
+    "time_range": null,
+    "evidence_ids": [
+      "40607"
+    ],
+    "job_id": "116cda021dc5dddea6c6785338c898c922d1f61fe04e1f8b3df2bfd84107798a",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Summary is NONE with unknown date; no relevant event content to include.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "c561d104999fcf3cf968701c",
+    "time": "2012-11-30",
+    "date_precision": "day",
+    "summary": "A commission headed by former appeal court judge Sir Philip Otton is announced to investigate the UCI's handling of the Lance Armstrong doping affair, with a wide-ranging remit including allegations made by Usada, the strength of the UCI's anti-doping measures, and payments Armstrong made to the UCI.",
+    "time_range": null,
+    "evidence_ids": [
+      "40464"
+    ],
+    "job_id": "ed4e9c514c7816589fc0a3e2a9d378a0a9e9ba1c2a8ce07ede2a78ef689a21f1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Announcement of the Otton commission into UCI's Armstrong handling is a relevant milestone; no existing event matches this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c60c52fed33c4914"
+  },
+  {
+    "candidate_id": "dbb19e48111e5ed055c4f61b",
+    "time": "2012-10-11",
+    "date_precision": "day",
+    "summary": "The United States Anti-Doping Agency releases its \"Reasoned Decision\" detailing evidence of Lance Armstrong's use of performance-enhancing drugs and systematic doping by the US Postal Service and Discovery teams.",
+    "time_range": null,
+    "evidence_ids": [
+      "40499"
+    ],
+    "job_id": "ce38d2f6740cf5ddf5e56d7e84c856c36b25a5f6b7578b71c1846ce469a1c039",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "USADA Reasoned Decision release is a key Armstrong doping milestone; existing related events are on different dates.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2ea17d8d303b5ec5"
+  },
+  {
+    "candidate_id": "150c748b7d2b9925a61c9fa2",
+    "time": "2013-01-18",
+    "date_precision": "day",
+    "summary": "The UCI’s independent commission into the Lance Armstrong affair is to hold its first session to decide whether to include a truth and reconciliation process during its inquiry.",
+    "time_range": null,
+    "evidence_ids": [
+      "40423"
+    ],
+    "job_id": "42d70925d819269cfed0c393a06c86ae005cf733bc215e97ee5ced8d8852f58b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "UCI commission session on truth and reconciliation is a relevant Armstrong-affair development; no existing event matches this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e1c50fa041e853ad"
+  },
+  {
+    "candidate_id": "d722ee493a5c8ce51727f989",
+    "time": "2015-03-08",
+    "date_precision": "day",
+    "summary": "The UCI’s Independent Commission on Reform in Cycling (CIRC) report is published, addressing how the Lance Armstrong era was allowed to happen and prompting further scrutiny of former UCI president Hein Verbruggen.",
+    "time_range": null,
+    "evidence_ids": [
+      "40282"
+    ],
+    "job_id": "beb1335db49bb7ff60caa07ec7db97a8ecf7d647ec934367971ab8d7f97dfb68",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Publication of the CIRC report addressing the Armstrong era is a relevant milestone; no existing event matches this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c5a0832dd84ae342"
+  },
+  {
+    "candidate_id": "cb81ff6f51e1c90166669151",
+    "time": "2013-01-18",
+    "date_precision": "day",
+    "summary": "Lance Armstrong admitted in an interview with Oprah Winfrey that he took performance-enhancing drugs to win his seven Tour de France titles, while denying that his donations to the UCI were related to covering up a failed test.",
+    "time_range": null,
+    "evidence_ids": [
+      "40467"
+    ],
+    "job_id": "856923923d09c36d123e45b8250cc9aa8d1351f8419eee3bf77f686710387346",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-0f4239e3cf444917",
+    "reason": "Same date and same Oprah Winfrey doping confession as existing event-0f4239e3cf444917.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0f4239e3cf444917"
+  },
+  {
+    "candidate_id": "223267005c246d2e16eaf7bb",
+    "time": "2012-12-02",
+    "date_precision": "day",
+    "summary": "Greg LeMond, whose Tour de France titles were surpassed by Lance Armstrong, confirms he will run for the UCI presidency following the Usada report on systematic doping by Armstrong and associates.",
+    "time_range": null,
+    "evidence_ids": [
+      "40554"
+    ],
+    "job_id": "3436af247e6aa68942298fcdee6b7a36440fa2cfa323b40cbd917fd78cd7f94a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: LeMond's UCI presidency bid follows the Usada Armstrong doping report; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0a82d2fed55ce559"
+  },
+  {
+    "candidate_id": "b55d8a0c8bcbdd1fcba5c2ae",
+    "time": "2013-01-18",
+    "date_precision": "day",
+    "summary": "Cyclists in Lance Armstrong's hometown watch his Oprah Winfrey interview.",
+    "time_range": null,
+    "evidence_ids": [
+      "40485"
+    ],
+    "job_id": "d5420d16465247bb46be33f2a5f5db2b49edb564c9e9cfc1e5fee4f79d7d0018",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-0f4239e3cf444917",
+    "reason": "Same date and topic: hometown viewing of Armstrong's Oprah interview, which is the existing 2013-01-18 Oprah interview event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0f4239e3cf444917"
+  },
+  {
+    "candidate_id": "0146d64abb51b942f6fe8fe5",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No article content was provided for the Lance Armstrong keyword, so no topic-related event can be identified.",
+    "time_range": null,
+    "evidence_ids": [
+      "40351"
+    ],
+    "job_id": "c69151bd64f5e589c858bd3ecbc06065acb2f01b2836c3bef96fd7ee9a67130c",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No identifiable Armstrong-related event; does not contribute to the timeline.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "3d35507b02fe635e21f1b623",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No event related to Lance Armstrong is reported in the article.",
+    "time_range": null,
+    "evidence_ids": [
+      "40446"
+    ],
+    "job_id": "f6789dbecd0d29e8718c8957cbc4c66c8a877adbe5e22daf825d6a0dbc625719",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No Armstrong-related event reported; does not contribute to the timeline.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "c22e22dc1665ade6ff06f8e2",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No event related to Lance Armstrong is reported in the article.",
+    "time_range": null,
+    "evidence_ids": [
+      "40435"
+    ],
+    "job_id": "0ace4d7e2d2031ced3aed8577f97be74a1378e06df6420e7b50f23971ad20c5d",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No Armstrong-related event reported; does not contribute to the timeline.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "39e465856ebed64ae88a31ed",
+    "time": "2007-02-02",
+    "date_precision": "day",
+    "summary": "The IOC ethics commission rebuked WADA head Dick Pound for public comments about Lance Armstrong's alleged 1999 EPO use, a decision Armstrong called \"a victory\" after he had sought Pound's dismissal.",
+    "time_range": null,
+    "evidence_ids": [
+      "40747"
+    ],
+    "job_id": "4f23e3eff6c03ad5b32a89e427eceb2723627b9261cd2151500289d43f3b937f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant doping-related milestone involving Armstrong and anti-doping authorities; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-29097e10fe61d556"
+  },
+  {
+    "candidate_id": "5d79d3b859f9eb8dc02fa79a",
+    "time": "2004-07-21",
+    "date_precision": "day",
+    "summary": "Lance Armstrong won the 15.5 km individual time trial to seize control of the Tour de France.",
+    "time_range": null,
+    "evidence_ids": [
+      "40878"
+    ],
+    "job_id": "9089635dd912cd772dd5cd9da924bf4a01edd47d65ea5018205c0763ba4dd571",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong Tour de France stage win and race lead; distinct date from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5d70cfddb5029f89"
+  },
+  {
+    "candidate_id": "cbc3c3e763756a8e50b46f96",
+    "time": "2005-07-12",
+    "date_precision": "day",
+    "summary": "Lance Armstrong retained the overall lead in the 2005 Tour de France after the 11th stage, won by Alexander Vinokourov, keeping the yellow jersey with a 38-second advantage.",
+    "time_range": null,
+    "evidence_ids": [
+      "40821"
+    ],
+    "job_id": "82676875277427feb524fb7bd4bbe320d318789981ac74028400afc91a246f78",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong retaining Tour de France lead; distinct date from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8141357a09fdf124"
+  },
+  {
+    "candidate_id": "865cdad0ce117eb9c6c48390",
+    "time": "2002-07-17",
+    "date_precision": "day",
+    "summary": "Lance Armstrong regained the yellow jersey and won the first mountain stage of the Tour de France, taking the overall lead.",
+    "time_range": null,
+    "evidence_ids": [
+      "40991"
+    ],
+    "job_id": "642158067578d3b627db53747907bc48924d0feffa6b5bed046a26ee09d119dd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong regaining yellow jersey and winning mountain stage; distinct date from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-86a565388bcf5697"
+  },
+  {
+    "candidate_id": "91c9dccac8164d0e23e20ae8",
+    "time": "2015-03-09",
+    "date_precision": "day",
+    "summary": "A report by cycling’s Independent Commission for Reform in Cycling found that the UCI colluded with Lance Armstrong from 1999 to 2009 to circumvent doping accusations and cement his status in the sport.",
+    "time_range": null,
+    "evidence_ids": [
+      "40272"
+    ],
+    "job_id": "8cb9d013325aadd4719a4f50e1296b68ee34dc34678955e9b7827fc61e66bcb0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: CIRC report finding UCI collusion with Armstrong; distinct from the 2015-03-08 CIRC publication and the 2015-03-09 SCA arbitration event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9fc446f5f5ef3c5b"
+  },
+  {
+    "candidate_id": "882fe934fb26ddc839b354ee",
+    "time": "2011-05-23",
+    "date_precision": "day",
+    "summary": "Lance Armstrong faces new doping allegations, including testimony from former teammate Tyler Hamilton to a federal grand jury, which he denies.",
+    "time_range": null,
+    "evidence_ids": [
+      "40580"
+    ],
+    "job_id": "4abbee85ee2d923d00cf0af12076bceb5d73752cccb441e94503fbcaccbff1a2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: new doping allegations including Tyler Hamilton's grand jury testimony, a distinct dated occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-07d0c85952be96c7"
+  },
+  {
+    "candidate_id": "1bc1499b041a8bb1c93e2bf9",
+    "time": "2005-04-01",
+    "date_precision": "day",
+    "summary": "A former personal assistant to Lance Armstrong filed court papers in Austin, Texas, alleging he discovered a banned substance in Armstrong's apartment early last year, which Armstrong's attorney called false and absurd.",
+    "time_range": null,
+    "evidence_ids": [
+      "40842"
+    ],
+    "job_id": "81722f16eb3b4fdf831b1ee2dc38ce429db8b721d13141178ca5bdfb6e6d3c2e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: former assistant's court filing alleging a banned substance in Armstrong's apartment; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b17c79aa1fb47965"
+  },
+  {
+    "candidate_id": "8bd2f05f4502c3a9426f88c1",
+    "time": "2005-07-12",
+    "date_precision": "day",
+    "summary": "Lance Armstrong reclaimed the yellow jersey after a strong ascent up Courchevel on stage 10 of the Tour de France, while most of his leading rivals were dropped.",
+    "time_range": null,
+    "evidence_ids": [
+      "40846"
+    ],
+    "job_id": "aa45ef4c493f7ca7eab24b99232b390ee8f26caaabd0e8cb43605ef938d1a7c3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Tour de France milestone; same date as an existing event but describes a different stage and jersey circumstance, so it is not a duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-650b3b8826193351"
+  },
+  {
+    "candidate_id": "8dfb55f50f7e2db14adc4c4c",
+    "time": "2013-01-19",
+    "date_precision": "day",
+    "summary": "In an interview with Oprah Winfrey, Lance Armstrong admitted to doping and described himself as a bully and narcissistic.",
+    "time_range": null,
+    "evidence_ids": [
+      "40381"
+    ],
+    "job_id": "0a89aedd8636e6e8b6421c55a59b35a628d5d3af05f36982a955ddbcf1b929f2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant doping confession milestone; date differs from existing Oprah interview events, so it remains a separate dated occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f8c31a5396403e12"
+  },
+  {
+    "candidate_id": "b3901bc5e48fd8501ed2b998",
+    "time": "2003-07-21",
+    "date_precision": "day",
+    "summary": "Lance Armstrong won Stage 15 of the Tour de France despite crashing during the climb of the Col du Tourmalet, increasing his overall lead over Jan Ullrich to one minute and seven seconds.",
+    "time_range": null,
+    "evidence_ids": [
+      "40867"
+    ],
+    "job_id": "df2ef682cc980f1ff7c5f72424ef934dc1592394b448a8282071c5d77d9d5f9f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Tour de France stage win milestone; no existing event matches this date or occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9c9b73c8785e4834"
+  },
+  {
+    "candidate_id": "44e0920993912c91af32ef7f",
+    "time": "2009-01-23",
+    "date_precision": "day",
+    "summary": "Lance Armstrong admitted his return to competitive cycling at the Tour Down Under had been \"disappointing\" so far, sitting 38th overall, but refused to rule out a late victory surge.",
+    "time_range": null,
+    "evidence_ids": [
+      "40691"
+    ],
+    "job_id": "49be2db99d8cb50ef90e2be1f25b62ed34f5b5dbc736722b25fce886f3a014fc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant comeback performance update; same date as an existing event but different occurrence, so separate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-02177864229eac36"
+  },
+  {
+    "candidate_id": "23e08493fd711a2b7a790231",
+    "time": "2005-03-20",
+    "date_precision": "day",
+    "summary": "Lance Armstrong confirms he will attempt a seventh consecutive Tour de France victory in 2005, prioritizing it over the new ProTour series.",
+    "time_range": null,
+    "evidence_ids": [
+      "40911"
+    ],
+    "job_id": "216778dbba1fbea3565a468b7274e546ee299c4cebb10fbaf64b6e5b130fb0ef",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant seventh Tour de France attempt confirmation; distinct date and occurrence from existing 2005 event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6339aa96e7d1a539"
+  },
+  {
+    "candidate_id": "88502cb4c1108b6e2147297f",
+    "time": "2006-07-22",
+    "date_precision": "day",
+    "summary": "Lance Armstrong returns to the Tour de France after nearly a year's absence, watching the race at L'Alpe d'Huez with actor Jake Gyllenhaal.",
+    "time_range": null,
+    "evidence_ids": [
+      "40776"
+    ],
+    "job_id": "5c56cfcf63fd0a615e5c2cf4ccee125c35fc6f5500452801db493c69c5070251",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant post-retirement Tour de France appearance; no existing event matches this date or occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0e2603caae031ed5"
+  },
+  {
+    "candidate_id": "535d881f81a84a6d8493051b",
+    "time": "2009-02-14",
+    "date_precision": "day",
+    "summary": "Lance Armstrong's one-of-a-kind time trial bike was stolen when thieves broke into his team's truck in Sacramento during the Tour of California.",
+    "time_range": null,
+    "evidence_ids": [
+      "40648"
+    ],
+    "job_id": "6d245ed64af5d7dabcf84289dcb44822c0f0f1270eac54d2ae37d5b4d509eaad",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Armstrong comeback-era incident; distinct date and event from existing timeline entries.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f980b776be6d5d3b"
+  },
+  {
+    "candidate_id": "39f01913d0a0fafea0d9e22f",
+    "time": "2008-10-13",
+    "date_precision": "day",
+    "summary": "Lance Armstrong agrees to compete in the Giro d'Italia for the first time in 2009 as part of his return to competitive cycling.",
+    "time_range": null,
+    "evidence_ids": [
+      "40695"
+    ],
+    "job_id": "8d7397b105cb9cba3a92d27fe416958b15477b5e7398cd1456946dda930fda33",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in Armstrong's 2009 return; distinct date and event from existing entries.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-74975f2e4b4cee2d"
+  },
+  {
+    "candidate_id": "b507f0be7ed492841bd44b45",
+    "time": "2005-09-03",
+    "date_precision": "day",
+    "summary": "The article reflects on Lance Armstrong's retirement after his Tour de France victory, noting the retirement of his security vehicle, Air Force One.",
+    "time_range": null,
+    "evidence_ids": [
+      "40824"
+    ],
+    "job_id": "766a22e1385b626d49bf9414145860c0dbe96c6381a00b54313762647270e384",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant reflection on Armstrong's 2005 retirement; distinct date and event from existing entries.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3484b0df00c9711e"
+  },
+  {
+    "candidate_id": "23131fcdb9158dc2ddf6490f",
+    "time": "2009-01-11",
+    "date_precision": "day",
+    "summary": "Lance Armstrong arrived in Australia ahead of his professional cycling comeback, saying he does not expect victory in the Tour Down Under.",
+    "time_range": null,
+    "evidence_ids": [
+      "40712"
+    ],
+    "job_id": "8a6c62c25418b506a15c0cd94c987493c68d818bfa4d3715b0f70f4d11b95e1e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Armstrong comeback arrival in Australia; date differs from existing Tour Down Under events, so separate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-78f9a270a1d30f19"
+  },
+  {
+    "candidate_id": "92162c614941cc2dd40fc7f7",
+    "time": "2012-10-11",
+    "date_precision": "day",
+    "summary": "The UCI is reviewing USADA's reasoned decision that banned Lance Armstrong for life and stripped his titles, and will consider issues of appeal, jurisdiction, and statute of limitation within the 21-day appeal term.",
+    "time_range": null,
+    "evidence_ids": [
+      "40484"
+    ],
+    "job_id": "4851b325de5b6fec9de49a54a11cefb73568d8f7e227bc089ba54e047e598c35",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "UCI review of USADA decision is a distinct milestone in the Armstrong sanctions timeline; no existing event covers this review.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-106817a537a6297c"
+  },
+  {
+    "candidate_id": "a2c3c966539da8ab29d4c3c2",
+    "time": "2012-10-22",
+    "date_precision": "day",
+    "summary": "The UCI ratifies the USADA report on Lance Armstrong and announces additional measures, including calling on Armstrong to hand back his $3m prize money and suspending its legal action against Paul Kimmage.",
+    "time_range": null,
+    "evidence_ids": [
+      "40401"
+    ],
+    "job_id": "abdb08141ef1b5f233e909bb1ba1feaa9af2bd076ea8f330ac5eb826da3959e5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-53fb99e546ce5ec6",
+    "reason": "Same date as UCI acceptance/ratification event; duplicate UCI action on Armstrong's sanctions.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-53fb99e546ce5ec6"
+  },
+  {
+    "candidate_id": "6ee613afaa2110964df2eca6",
+    "time": "2009-03-21",
+    "date_precision": "day",
+    "summary": "Lance Armstrong returned to European racing at Milan-San Remo, where Mark Cavendish won.",
+    "time_range": null,
+    "evidence_ids": [
+      "40728"
+    ],
+    "job_id": "098f1ca0076681ae5c416257f9fcccae0a3988cab158ba46e23381f7d171db63",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Marks Armstrong's return to European racing in 2009, a distinct milestone in his comeback timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5bcc84ed16d38f14"
+  },
+  {
+    "candidate_id": "4681ab6c8a01f52d88ffc5b4",
+    "time": "2009-03-21",
+    "date_precision": "day",
+    "summary": "Lance Armstrong tweeted praise for Mark Cavendish after Cavendish won the Milan-San Remo cycling race.",
+    "time_range": null,
+    "evidence_ids": [
+      "40736"
+    ],
+    "job_id": "0703c20b503f072672e0834e59659a43284c77f2e7b2e5069e68ae7559deda1c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Same-day but distinct occurrence: Armstrong's public praise for Cavendish, not the race return itself.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-60c89502f57c86e1"
+  },
+  {
+    "candidate_id": "806a09d5e98d05bc5c070a70",
+    "time": "2005-07-17",
+    "date_precision": "day",
+    "summary": "Lance Armstrong effectively secured his seventh Tour de France victory, holding nearly three minutes over Ivan Basso after the final major mountain-top finish, with only the ceremonial final stage in Paris remaining.",
+    "time_range": null,
+    "evidence_ids": [
+      "40877"
+    ],
+    "job_id": "d3db9af86f9729fd596416db0d4854d32c35d681140a4ed72d9365b093d4f63b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Key milestone: Armstrong effectively securing his seventh Tour de France victory in 2005.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b9219f7a1c593509"
+  },
+  {
+    "candidate_id": "988142a9f388c2945c825d3b",
+    "time": "2010-07-04",
+    "date_precision": "day",
+    "summary": "Lance Armstrong tweeted \"That was STRESSFUL!!\" after crashes disrupted the first full stage of the Tour de France.",
+    "time_range": null,
+    "evidence_ids": [
+      "40662"
+    ],
+    "job_id": "3b48866aedcc22919f8e368d259c6264338fa0c31c47eece291d6c40f70ec6af",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's 2010 Tour de France crash reaction is a relevant career milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-cf1800a4b9b4a28f"
+  },
+  {
+    "candidate_id": "29559e9a78bb7674c42d67e4",
+    "time": "2005-07-05",
+    "date_precision": "day",
+    "summary": "Lance Armstrong took the yellow jersey after his Discovery Channel team won the fourth-stage team time trial at the Tour de France.",
+    "time_range": null,
+    "evidence_ids": [
+      "40799"
+    ],
+    "job_id": "d4a0dad8bc7ee0732a351efd4256148696fec1c04414c8e862e9ef9b9577cc4b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ddeb72178b75b342",
+    "reason": "Same 2005-07-05 event: Discovery Channel team time trial win putting Armstrong in yellow.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ddeb72178b75b342"
+  },
+  {
+    "candidate_id": "e7f91f3c3b660fdbcbae7db8",
+    "time": "2015-07-16",
+    "date_precision": "day",
+    "summary": "Lance Armstrong returned to French roads to ride the \"One Day Ahead\" charity challenge with former footballer Geoff Thomas, raising money for CureLeukaemia, a day ahead of the Tour de France peloton.",
+    "time_range": null,
+    "evidence_ids": [
+      "40273"
+    ],
+    "job_id": "0ae6be018d3af95d6468a4decf96d84db7f270b7ecceb3061e515b26a76201af",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's 2015 return to French roads for charity is a relevant post-doping milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-479b5f8b1ce23cc4"
+  },
+  {
+    "candidate_id": "bb3c1f938408782d7d08bfc0",
+    "time": "2003-07-20",
+    "date_precision": "day",
+    "summary": "Lance Armstrong acknowledged he is not as strong as in previous years and may lose the Tour de France, after struggling to defend his lead for a third consecutive day.",
+    "time_range": null,
+    "evidence_ids": [
+      "40964"
+    ],
+    "job_id": "29be599d6729fd3b70e4b48a46e329610a9de1807efe4355313113c05dc782b8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Armstrong's 2003 Tour de France vulnerability is a relevant competitive milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b3db159f6515f0d1"
+  }
+]

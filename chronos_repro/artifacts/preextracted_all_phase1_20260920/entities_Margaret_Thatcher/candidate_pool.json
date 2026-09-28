@@ -1,0 +1,4387 @@
+[
+  {
+    "candidate_id": "ccdc5efeeb7644dab47ea24c",
+    "time": "2013-04-08",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher's death is announced at the age of 87.",
+    "time_range": null,
+    "evidence_ids": [
+      "46749"
+    ],
+    "job_id": "8037a3c36263fb4fcdc19a7e14f47abfba6720a0b7e9a94244cfe1a79573cad6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Thatcher's death is a core milestone in her timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5e6e64b014cad6ab"
+  },
+  {
+    "candidate_id": "0efb353edbec21331e46a7ae",
+    "time": "2004-05-04",
+    "date_precision": "day",
+    "summary": "A profile notes Margaret Thatcher was born 79 years ago in Grantham and served as Britain's first female prime minister.",
+    "time_range": null,
+    "evidence_ids": [
+      "48414"
+    ],
+    "job_id": "e6ca4d6b464478e89224a11da5ea277dbc0ebcecc324973cf42cacd294c0a41d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Profile noting her birth and first female PM status contributes biographical context.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-737d452d26ca07f2"
+  },
+  {
+    "candidate_id": "3699f7085ea30c6dcea69dc8",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Sir Denis Thatcher, husband of Margaret Thatcher, died at age 88.",
+    "time_range": null,
+    "evidence_ids": [
+      "48893"
+    ],
+    "job_id": "494d43f4e172bf9d45096ecf667bdcf765085f3036beb236dceb150993b53ded",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Death of her husband Denis is a relevant personal milestone; date unknown.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-820080a21e932353"
+  },
+  {
+    "candidate_id": "9742faefd836cff49e23785d",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "49443"
+    ],
+    "job_id": "22723494b1f45c59de2a5b04688eeb069d31b0c566da0557e49119b8b961a1a1",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Clinton tsunami appeal is unrelated to Margaret Thatcher.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "6809219b07c5a1fe05f89ff6",
+    "time": "2015-06-19",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher's family donated a tranche of her personal papers to the Churchill Archives Centre in return for £1m off their inheritance tax bill.",
+    "time_range": null,
+    "evidence_ids": [
+      "46579"
+    ],
+    "job_id": "6f7c21604930eeb9f59379ac087613ddcccd1c29d66db42efff41a4464b37949",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Donation of Thatcher's personal papers is a relevant posthumous legacy milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-be0c0ebbaeab1ab6"
+  },
+  {
+    "candidate_id": "3fef22cf754d79da63da5ade",
+    "time": "2001-07-19",
+    "date_precision": "day",
+    "summary": "Sir Denis Thatcher opens a new building at Cambridge University's Churchill College Archives Centre to house Margaret Thatcher's papers.",
+    "time_range": null,
+    "evidence_ids": [
+      "49037"
+    ],
+    "job_id": "ff98f5e028593bd8c6cce76f64a0d07e3ec957b0db024087fa5cdae83e39f2c5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Opening of archive building for Thatcher's papers is a relevant archival milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c7aafbe7e82a3f79"
+  },
+  {
+    "candidate_id": "26fb2b30fedd0be70902bd5b",
+    "time": "2013-04-08",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher died, prompting widespread and divided reactions on social media and renewed debate over her legacy as a feminist role model.",
+    "time_range": null,
+    "evidence_ids": [
+      "46843"
+    ],
+    "job_id": "1701ecc02c955891a75a595ae081913ea213f134edb086ea191683ad45c00ae5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "ccdc5efeeb7644dab47ea24c",
+    "reason": "Same date and event as the death announcement; adds reaction/legacy detail.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-5e6e64b014cad6ab"
+    },
+    "timeline_event_id": "event-5e6e64b014cad6ab"
+  },
+  {
+    "candidate_id": "e5ee0029a95709672444f315",
+    "time": "2013-04-08",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher, the UK's former prime minister, died following a stroke.",
+    "time_range": null,
+    "evidence_ids": [
+      "46829"
+    ],
+    "job_id": "d22332b2626bcaab2d5e29ebb3a367f72e0bb18d89e9b598394d3eabf91a6826",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "ccdc5efeeb7644dab47ea24c",
+    "reason": "Same date and event as the death announcement; adds cause of death.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-5e6e64b014cad6ab"
+    },
+    "timeline_event_id": "event-5e6e64b014cad6ab"
+  },
+  {
+    "candidate_id": "caee51d1c1f5e2d891f5e5f7",
+    "time": "2016-11-16",
+    "date_precision": "day",
+    "summary": "The government's Social Mobility Commission published a report finding that the generation which grew up under Margaret Thatcher was the first since World War II to start with lower incomes than their parents.",
+    "time_range": null,
+    "evidence_ids": [
+      "46576"
+    ],
+    "job_id": "e8180a4ea3c4f3840e3e6a57f365e3e4b2e083003406dc7a7ee44a2cdaced4ae",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Report on the Thatcher-era generation's economic outcomes is a relevant retrospective milestone about Thatcher's legacy.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c4f24843bf0d2360"
+  },
+  {
+    "candidate_id": "c09b5ee0fe919401b295b71e",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "47485"
+    ],
+    "job_id": "aad828dfef6b89c6f7494adbd57685fd05d178a363350c807ef79133560e6aba",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush and Clinton tsunami appeal does not involve or contribute to the Margaret Thatcher topic.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "796cf7102b54ca29345bbc32",
+    "time": "2004-05-04",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher celebrated the 25th anniversary of her election victory at a tribute dinner in London.",
+    "time_range": null,
+    "evidence_ids": [
+      "48684"
+    ],
+    "job_id": "4e9633f3ef843a8f8ce7afd12f3c386fc651dba6babf8341db2bd45bb28139f2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Thatcher's 25th election-anniversary tribute dinner is a relevant Thatcher milestone; no same-date existing event to merge with.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c2bc63c79358056c"
+  },
+  {
+    "candidate_id": "7520cd09cfeac95ec216fb05",
+    "time": "2001-10-04",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher says Muslims have not done enough to condemn the terrorist attacks on America.",
+    "time_range": null,
+    "evidence_ids": [
+      "48769"
+    ],
+    "job_id": "6ec4b8daeb6a1a27c6b411c5a79d964ce37d7583f1b0bf96e19f4f0f521ad671",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Thatcher's post-9/11 remarks are a relevant public statement in her timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-64bc568d7601cb55"
+  },
+  {
+    "candidate_id": "6318aec7a7c658cc605bd048",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "47233"
+    ],
+    "job_id": "592af7da2502b7ee2f6b03d986a05e9daffc03fee6d5926640af40b0857b27d5",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush and Clinton tsunami appeal does not involve or contribute to the Margaret Thatcher topic.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "7e443b6a90cc2764527a08b0",
+    "time": "2009-02-25",
+    "date_precision": "day",
+    "summary": "The airwaves featured Margaret Thatcher in a documentary and a BBC2 dramatisation of her 1990 ousting, amid anniversaries of her 1979 election and the 1984-5 miners' strike.",
+    "time_range": null,
+    "evidence_ids": [
+      "48155"
+    ],
+    "job_id": "9d212d3cc824e984bbb21de9949b9e5c98452e71641a80cfa538d15a70f2c778",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Documentary and dramatisation coverage of Thatcher's career and ousting is a relevant media milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-023303bd8fb8bdcd"
+  },
+  {
+    "candidate_id": "366f3d75bf399637a60544b5",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "46974"
+    ],
+    "job_id": "353a9fb9f5d6a1d108096a2e020f65dfeface1c3d466f7b1482bb3a5bb36f95c",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush and Clinton tsunami appeal does not involve or contribute to the Margaret Thatcher topic.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "9bf53c7f4902745bb805493b",
+    "time": "2013-04-08",
+    "date_precision": "day",
+    "summary": "Former British Prime Minister Margaret Thatcher died at age 87 following a stroke.",
+    "time_range": null,
+    "evidence_ids": [
+      "46737"
+    ],
+    "job_id": "c98a2b001ae458436c6d2308b95f441be0731a360d8522d73e6d811282469ff3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-5e6e64b014cad6ab",
+    "reason": "Same date and event as existing record of Thatcher's death at age 87.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5e6e64b014cad6ab"
+  },
+  {
+    "candidate_id": "38fabd67262000af88ee9003",
+    "time": "2002-03-22",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher decides to bow out of public life, ending her career as a retired prime minister.",
+    "time_range": null,
+    "evidence_ids": [
+      "49099"
+    ],
+    "job_id": "2bb8fb98dab91d6b918109ee9ecfc7dc609d2be668c69ff7c140d3577dacb042",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Thatcher's retirement from public life is a relevant milestone in her career.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d3fe9004fd8e8c94"
+  },
+  {
+    "candidate_id": "7406307a270747e1b101ba96",
+    "time": "2013-04-08",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher, Britain's first female prime minister, died at age 87 after suffering a severe stroke.",
+    "time_range": null,
+    "evidence_ids": [
+      "46987"
+    ],
+    "job_id": "18e54b31efda0b548886afc2d62c69ff120e18c446b498d12ed4e2ec850a712e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-5e6e64b014cad6ab",
+    "reason": "Same date and event as existing Thatcher death announcement.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5e6e64b014cad6ab"
+  },
+  {
+    "candidate_id": "26bc6ea3e292d45f01c172c2",
+    "time": "2009-05-06",
+    "date_precision": "day",
+    "summary": "The article discusses the ruined reputation of Margaret Thatcher on the anniversary of her 1979 election, amid debate over her legacy following the financial crisis.",
+    "time_range": null,
+    "evidence_ids": [
+      "48043"
+    ],
+    "job_id": "b34ac4cdd3f0fce3fb442766bf09d00ba11d0701638f8458f1ede175b0710a1b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant retrospective on Thatcher's legacy and reputation.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2327ff2c34d63ca9"
+  },
+  {
+    "candidate_id": "53f14dfc30757020eea50938",
+    "time": "2013-04-08",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher, former UK prime minister, died, prompting assessments of her political legacy.",
+    "time_range": null,
+    "evidence_ids": [
+      "46855"
+    ],
+    "job_id": "54a0b9c20e8cc58ec2ff74f919cdd27961ebb37f312adc953e0b04c9dce9b38a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-5e6e64b014cad6ab",
+    "reason": "Same date and event as existing Thatcher death announcement.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5e6e64b014cad6ab"
+  },
+  {
+    "candidate_id": "de66d762a2edc2c2b4d71398",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "46389"
+    ],
+    "job_id": "bdcc407d301815019f0da6dc448bad90222f527642f62771c6e3446ac9e11d7b",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Concerns Bush and Clinton tsunami appeal, not Margaret Thatcher.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "86ed3ed688f80cec8c5398cf",
+    "time": "2013-04-08",
+    "date_precision": "day",
+    "summary": "The article discusses Margaret Thatcher's political heirs and allies, noting that most Tory MPs regarded themselves as supporters of Lady Thatcher, but only a handful knew her well after her retirement from public life in 2002.",
+    "time_range": null,
+    "evidence_ids": [
+      "46875"
+    ],
+    "job_id": "190e7a9c52706f464c39dfedad6a83a89e52b67c8764328a50a367a561dea30a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant discussion of Thatcher's political heirs and post-retirement influence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4468cfad24634182"
+  },
+  {
+    "candidate_id": "81c24ef10e1b3e74157baa5b",
+    "time": "2013-04-12",
+    "date_precision": "day",
+    "summary": "Metropolitan police Sergeant Jeremy Scott resigned after allegedly tweeting that he hoped Margaret Thatcher's death was \"painful and degrading.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "46751"
+    ],
+    "job_id": "2320fcc142d10ec3335fa240ec147f91399fa23f98306903924a5d783b656292",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant aftermath of Thatcher's death involving a police resignation.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1c3a259ae6347158"
+  },
+  {
+    "candidate_id": "e4c2cd92ef19e82e738e5be8",
+    "time": "2002-03-24",
+    "date_precision": "day",
+    "summary": "Conservative Party leader Iain Duncan Smith pledges to change the party's \"uncaring\" image and move past Margaret Thatcher's legacy, following her retirement from public life on medical grounds.",
+    "time_range": null,
+    "evidence_ids": [
+      "48933"
+    ],
+    "job_id": "3a42779234fe6ef39c103b5616b5eabfb189763d52e1e7a873de5c8a0440c5e9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant political reaction to Thatcher's retirement and legacy.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-160d3437073561d5"
+  },
+  {
+    "candidate_id": "7df3887e5b06a028759d4572",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No main topic-related event involving Margaret Thatcher is reported; the article mentions her only in passing regarding a past statement and does not describe a current event centered on her.",
+    "time_range": null,
+    "evidence_ids": [
+      "49347"
+    ],
+    "job_id": "9470438cfc962757d63fe4e3a3e763310081010d4fe7d6fb16d777f6571e62bd",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No main-topic event; Thatcher mentioned only in passing.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "5846f6c61114fb4ff9e93103",
+    "time": "2008-07-04",
+    "date_precision": "day",
+    "summary": "Former cabinet minister Norman Fowler recounts that his 1990 resignation from Margaret Thatcher's cabinet was motivated by a desire to spend more time with his young family, a decision he says was accepted by fellow MPs including John Major.",
+    "time_range": null,
+    "evidence_ids": [
+      "48239"
+    ],
+    "job_id": "84af44055863a6c9f93ef27e3ae3096deaff6a5847f04bb5d2b62bd40049aeef",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Recounted resignation from Thatcher's cabinet; relevant Thatcher-era milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1925ab19a6479642"
+  },
+  {
+    "candidate_id": "ee08553726f94992ad95459a",
+    "time": "2013-04-08",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher, the first woman to rule the British state since Elizabeth I, died, prompting a look back on her life and 11½-year premiership.",
+    "time_range": null,
+    "evidence_ids": [
+      "46988"
+    ],
+    "job_id": "0e3ce89db07f7b4df4941e1be436b9f991ec7e8d28634110c91baba55972a73f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-5e6e64b014cad6ab",
+    "reason": "Same date and event: Thatcher's death on 2013-04-08.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5e6e64b014cad6ab"
+  },
+  {
+    "candidate_id": "14f7f1cc53fc75b18d465f3c",
+    "time": "2005-10-13",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher turned 80.",
+    "time_range": null,
+    "evidence_ids": [
+      "48574"
+    ],
+    "job_id": "7e5dbe176079068311d52a60b45b35d6d17670da84001ac8899508c2c5ecd647",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Thatcher's 80th birthday; distinct dated milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-dded9a747ad0e198"
+  },
+  {
+    "candidate_id": "585cf8b190ffcf75e6400430",
+    "time": "2013-04-10",
+    "date_precision": "day",
+    "summary": "Australian foreign minister Bob Carr claims Margaret Thatcher held \"unabashedly racist\" views, revealing she warned him against Asian immigration in Australia.",
+    "time_range": null,
+    "evidence_ids": [
+      "46819"
+    ],
+    "job_id": "4c05a21801f727b5be95083eeea39d10c58b9e9f3cf64fdf23c432d476556dfa",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Posthumous claim about Thatcher's views; distinct dated event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6ceb6cc03071e6f1"
+  },
+  {
+    "candidate_id": "295de9131ccb81f3058ebe20",
+    "time": "2016-01-22",
+    "date_precision": "day",
+    "summary": "Former Conservative cabinet minister Cecil Parkinson, a close ally of Margaret Thatcher, died of cancer aged 84.",
+    "time_range": null,
+    "evidence_ids": [
+      "46574"
+    ],
+    "job_id": "571dd7c35db9849e16042f6a63b78b041e14bb44631cb30ae315f6c7a8448e75",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Death of Thatcher ally Cecil Parkinson; relevant Thatcher-associated milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b42e51e1bb9a720c"
+  },
+  {
+    "candidate_id": "ef385bebc5efc2981b536e98",
+    "time": "2003-06-26",
+    "date_precision": "day",
+    "summary": "Sir Denis Thatcher, husband of Margaret Thatcher, died at the age of 88.",
+    "time_range": null,
+    "evidence_ids": [
+      "48763"
+    ],
+    "job_id": "66910947b5eb23f8c2bd25c7517dab26a89f6fcb3a97348e1038edb6ae7ddd85",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Denis Thatcher's death is relevant to Margaret Thatcher's timeline; existing record has unknown date, so append with supplied date 2003-06-26.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d79e7dc9727e5b5f"
+  },
+  {
+    "candidate_id": "762e798398470ad835959e46",
+    "time": "2013-04-08",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher died on Monday morning after suffering a stroke, following years of declining health and dementia.",
+    "time_range": null,
+    "evidence_ids": [
+      "46842"
+    ],
+    "job_id": "074fc241188204f2d411e5fd55d707d7fdb1c0bbfa8723cedecab7d864b95a70",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-5e6e64b014cad6ab",
+    "reason": "Duplicate of existing Margaret Thatcher death announcement on 2013-04-08.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5e6e64b014cad6ab"
+  },
+  {
+    "candidate_id": "208ec2f6893e25bbacb949b1",
+    "time": "2013-04-17",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher's grandchildren Michael and Amanda are to lead her funeral procession, with Amanda reading a lesson at the funeral.",
+    "time_range": null,
+    "evidence_ids": [
+      "46922"
+    ],
+    "job_id": "70d4d7c6e26875ed8afa6ff2c79aa0d313cc61c1fd9c7f1990ea4bb0d09a1064",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct funeral-procession detail dated 2013-04-17; contributes to Thatcher timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a50db6326e35516c"
+  },
+  {
+    "candidate_id": "4d130f85670e65724ce29b84",
+    "time": "2013-04-08",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher died at the Ritz hotel in London, with the details of her estate remaining closely guarded by her family.",
+    "time_range": null,
+    "evidence_ids": [
+      "46963"
+    ],
+    "job_id": "64b3fddb45d1bf607545120bd122fd9ff2d5316c94bfa945f80233a1582916bc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-5e6e64b014cad6ab",
+    "reason": "Duplicate death event on 2013-04-08 with additional location/estate detail.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5e6e64b014cad6ab"
+  },
+  {
+    "candidate_id": "ba9bde0a30066a9578ee5105",
+    "time": "2013-04-08",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher died at the Ritz hotel in London after suffering a stroke, having lived there during her final months following bladder surgery.",
+    "time_range": null,
+    "evidence_ids": [
+      "47312"
+    ],
+    "job_id": "a488e3f9936496c481e5ade0041c004e672eaeed768fb4daddddfec9e66141d1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-5e6e64b014cad6ab",
+    "reason": "Duplicate death event on 2013-04-08 with additional Ritz/stroke detail.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5e6e64b014cad6ab"
+  },
+  {
+    "candidate_id": "2bc46e919c79ef37fe257a7b",
+    "time": "2015-10-09",
+    "date_precision": "day",
+    "summary": "Geoffrey Howe, whose 1990 resignation speech was widely seen as the central factor in forcing Margaret Thatcher from Downing Street, dies aged 88.",
+    "time_range": null,
+    "evidence_ids": [
+      "46490"
+    ],
+    "job_id": "cd2c694eae784dfef70bb3cedcfd04ccedf0469eb9bb10e857bd51d04287b549",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Geoffrey Howe's death and his role in Thatcher's fall are relevant to her timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-73cb5eb013df8800"
+  },
+  {
+    "candidate_id": "13f382500fdfd05149668b2b",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "46718"
+    ],
+    "job_id": "b51712df24adf7a5ed32f6c09405ccc92444db045712b2e44803c3519411ee14",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Clinton tsunami appeal is unrelated to Margaret Thatcher.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "e880b1d56446604a3c33743e",
+    "time": "2013-04-16",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher's death certificate was made public, recording her occupation as \"retired stateswoman\" and her cause of death as a cardiovascular accident, while her coffin was brought to the Chapel of St Mary Undercroft ahead of her funeral.",
+    "time_range": null,
+    "evidence_ids": [
+      "47044"
+    ],
+    "job_id": "a9ab1876bb0753a91847bbd0f31a17c2c150b081de0f891bc7909d31140575f9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct post-death event dated 2013-04-16 concerning death certificate and coffin.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7579d547ec1ce915"
+  },
+  {
+    "candidate_id": "017351ef15e04b30d83ed14a",
+    "time": "2012-12-28",
+    "date_precision": "day",
+    "summary": "Newly released government papers reveal Margaret Thatcher was willing to be flexible during the 1982 Falklands conflict and that she and her chancellor considered proposals that would have ended the National Health Service.",
+    "time_range": null,
+    "evidence_ids": [
+      "47178"
+    ],
+    "job_id": "d4388219bc08ec1cca1a29c80c85b72885d1b4bb730951e05ead2ccc8eb74977",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Reveals Thatcher's Falklands flexibility and NHS-related proposals; relevant milestone with no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0b8816961379ae6d"
+  },
+  {
+    "candidate_id": "a006830be7a1d2ee31b337d2",
+    "time": "2002-09-06",
+    "date_precision": "day",
+    "summary": "An adviser to Margaret Thatcher says she would have lost the Falklands war in 1982 if America had failed to provide crucial Sidewinder missiles to bolster British air defences.",
+    "time_range": null,
+    "evidence_ids": [
+      "48907"
+    ],
+    "job_id": "d32d96cf79a2ef69730f41df60abc5bb7610f9894cc9584aefc88dc23e929d57",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Adviser's claim about US Sidewinder missiles and the Falklands war; relevant to Thatcher's premiership.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-597575f1913f0ba4"
+  },
+  {
+    "candidate_id": "de17fb62fc0cf184b6521233",
+    "time": "2013-04-08",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher's death prompted sharply divided reactions in Argentina and the Falkland Islands, with islanders mourning her for sending a taskforce to liberate the islands in 1982 while Argentinians largely condemned her.",
+    "time_range": null,
+    "evidence_ids": [
+      "46858"
+    ],
+    "job_id": "faec2b3ba7ead996e86a2d0cacc11ab58a248893746c226707035eacbe31fabe",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Divided Argentine and Falkland reactions to Thatcher's death; distinct from existing death-announcement events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2be08e225c4d0baa"
+  },
+  {
+    "candidate_id": "1ce36a5e495ec8132bde4369",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "47102"
+    ],
+    "job_id": "810efec2d4d5ff45a3d2ee0a51be09b1c9b4e1297a7b0a0ef7f1c24fc97cfbda",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Clinton tsunami appeal unrelated to Margaret Thatcher.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "10f1337296781ab88bdb5884",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "47531"
+    ],
+    "job_id": "fe952dbfd0fbee1e54ac1ecbfc6c827227c57a1c8ad4dd64965e51f4e4ba4fcb",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Clinton tsunami appeal unrelated to Margaret Thatcher.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "bc98e7c06f8018da901cfa82",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "46908"
+    ],
+    "job_id": "0475d7b6fe3836549c399c120f43bcee6b47f9ff1966a68125d6e6b9534a155b",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Clinton tsunami appeal unrelated to Margaret Thatcher.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "b9f4cb9e264023124bb0a53e",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "47296"
+    ],
+    "job_id": "f0f4c60d7ff817338ec1d6eaa46b8b9190ae5381934be419e7c309eb7bda0ce5",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Clinton tsunami appeal unrelated to Margaret Thatcher.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "125372e93b3482877c151e70",
+    "time": "2007-03-23",
+    "date_precision": "day",
+    "summary": "Tony Blair says he would have fought the Falklands war in Margaret Thatcher's position because it was \"the right thing to do.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "48217"
+    ],
+    "job_id": "746791cfb21e24b098cb494be9c90ab8e86d25cab5ec6f513450caec0029fb18",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Blair's comment on fighting the Falklands war in Thatcher's position; relevant to her legacy.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-40190d061e493f40"
+  },
+  {
+    "candidate_id": "01ded5cf5a5b544c3994e3f8",
+    "time": "2013-04-17",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher's funeral featured a Falklands theme, with military personnel from units that served in the 1982 conflict participating in the ceremony.",
+    "time_range": null,
+    "evidence_ids": [
+      "47032"
+    ],
+    "job_id": "c0b0eda7b2486c9120b96a9d1919638ce8721983d744f9e28f6e669b99cb4707",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Thatcher's funeral with Falklands theme is a relevant milestone; distinct from other funeral events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fffd763f060012a3"
+  },
+  {
+    "candidate_id": "07112c10bfbe095ec7c243fe",
+    "time": "2012-12-28",
+    "date_precision": "day",
+    "summary": "Newly released National Archives papers reveal that Margaret Thatcher was prepared to negotiate a deal with Argentina over the Falkland Islands, including the question of sovereignty, after the 1982 invasion.",
+    "time_range": null,
+    "evidence_ids": [
+      "47177"
+    ],
+    "job_id": "a89220d3b11ce93ba4d1cae485bc7806259f8b535fc60ebd73c72bbf0db518c5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-0b8816961379ae6d",
+    "reason": "Same date and topic: newly released papers on Thatcher's Falklands negotiating stance.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0b8816961379ae6d"
+  },
+  {
+    "candidate_id": "c02b36303daf4bf90af09ad6",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "46613"
+    ],
+    "job_id": "ed73162a79006765b42de2f7e643164a10c6216a5e42181f2bc9cede39c944da",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Not about Margaret Thatcher.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "3054827e0ccf45adca3432fb",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "47648"
+    ],
+    "job_id": "6d1b28e42e7cca40d90a5569b6637e1551af790a201d0e40df2ab995fd40fe7d",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Not about Margaret Thatcher.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "2e8f1027ae7449a6b975d2cf",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "46471"
+    ],
+    "job_id": "00c2091ea39f5d053acbb7fc4d24f7bf773dfa0462867ed5421c22aee1347ff2",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Not about Margaret Thatcher.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "0570375d6fdfa90e3965a1b0",
+    "time": "1991-03-19",
+    "date_precision": "day",
+    "summary": "John Major wrote a five-page personal letter to Margaret Thatcher to inform her of his government's decision to abolish her flagship poll tax, which he described as unfair, uncollectable and indefensible.",
+    "time_range": null,
+    "evidence_ids": [
+      "46381"
+    ],
+    "job_id": "820e67e398c41dcd2628e8f124223aef208bf4989593f5a7d0f3d38184927f32",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "John Major's letter to Thatcher on abolishing poll tax is a relevant post-premiership milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e21a7e179c6e0842"
+  },
+  {
+    "candidate_id": "2c3da5bd01d9836bba67340d",
+    "time": "2013-04-08",
+    "date_precision": "day",
+    "summary": "A Guardian/ICM poll conducted on the afternoon of Margaret Thatcher's death finds public opinion divided on her legacy, with 50% rating her premiership as good for Britain and 34% as bad.",
+    "time_range": null,
+    "evidence_ids": [
+      "46989"
+    ],
+    "job_id": "2a61c7cc7443052a0d7a5e467479d6c29b64428c3e46b206543b8c12ccf13efb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Poll on Thatcher's legacy after her death is relevant; distinct date from existing death events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-910ca8b873aba4f8"
+  },
+  {
+    "candidate_id": "2cc78cdd21045d71bab0b306",
+    "time": "2013-04-09",
+    "date_precision": "day",
+    "summary": "A Guardian/ICM poll released on the afternoon of Margaret Thatcher's death shows mixed public support for her flagship policies, with 50% rating her 11-year premiership as good for Britain.",
+    "time_range": null,
+    "evidence_ids": [
+      "47134"
+    ],
+    "job_id": "b11f0fc1e048b10060938678a536f3bf9537892e315e4ae7ea96ea3fcdab53eb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Guardian/ICM poll on Thatcher's legacy; date differs from candidate 2c3da5bd, so separate event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0192f5a0d45767dd"
+  },
+  {
+    "candidate_id": "0d068e3464c8a8e2d36b547b",
+    "time": "2014-12-30",
+    "date_precision": "day",
+    "summary": "Newly released Downing Street files from 1985 and 1986 reveal that cabinet critics warned Margaret Thatcher about the fiscal and political impact of the poll tax, but their objections were brushed aside.",
+    "time_range": null,
+    "evidence_ids": [
+      "46759"
+    ],
+    "job_id": "455eaf2aee48c70d04fbdf370245d84f1775c24c9930d9a2139f44d1b0129145",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Reveals Thatcher-era warnings about the poll tax, a key episode in her leadership.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2344835d070fb044"
+  },
+  {
+    "candidate_id": "2900b8f636076eb93d7b3734",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "47273"
+    ],
+    "job_id": "88152c6d11e1f0f548516f1ee8198ed9ffee1a250870105584e6409a87b15d30",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Concerns a tsunami donation appeal and does not involve Margaret Thatcher.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "75c2e52feb602d586268cb86",
+    "time": "2013-04-08",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher's death prompts reflection on her political legacy and its influence on subsequent British politics and leaders.",
+    "time_range": null,
+    "evidence_ids": [
+      "46973"
+    ],
+    "job_id": "2da0fbfae3a740a2f25d9dac6071712afceea21c424611b111720b5486ac1489",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-5e6e64b014cad6ab",
+    "reason": "Same date as Thatcher's death announcement; duplicate milestone about her death and legacy.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5e6e64b014cad6ab"
+  },
+  {
+    "candidate_id": "250675449b899dfac38b25b2",
+    "time": "2009-03-26",
+    "date_precision": "day",
+    "summary": "The article notes that it is almost 19 years since Margaret Thatcher’s leadership tottered when her new local poll tax triggered riots and looting in London.",
+    "time_range": null,
+    "evidence_ids": [
+      "48080"
+    ],
+    "job_id": "151e52f5209c71986c7d2ea2b2170d670eee930bade08a74fff434c7155635e5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "References the poll tax riots that destabilized Thatcher's leadership.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e5b2cf7cbb7d9c43"
+  },
+  {
+    "candidate_id": "195e9e4b75ddd008727030f0",
+    "time": "2006-10-03",
+    "date_precision": "day",
+    "summary": "Shadow chancellor George Osborne invokes Margaret Thatcher to defend the Conservative leadership's decision not to promise early tax cuts.",
+    "time_range": null,
+    "evidence_ids": [
+      "48308"
+    ],
+    "job_id": "3f33595671c17605c513ec992fd8a3cbcfd0f710eb2108c288cc8533bfad0722",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Shows Thatcher's continuing influence invoked in later Conservative tax policy debate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-958bc084f4971a76"
+  },
+  {
+    "candidate_id": "8cdd2858c3f3a94b6314ac34",
+    "time": "2008-09-15",
+    "date_precision": "day",
+    "summary": "Article compares Gordon Brown's political situation to Margaret Thatcher's 1989/1990 leadership challenges, noting Thatcher was forced out of Downing Street within six weeks of being cheered at the 1990 Conservative party conference.",
+    "time_range": null,
+    "evidence_ids": [
+      "47997"
+    ],
+    "job_id": "089b7f486ec91220ec8926641ec2c3785f9e503a51855ed6d26ea86925a5f254",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Compares Brown's position to Thatcher's 1989/1990 leadership challenges and fall.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8f30ff86fc0a45ae"
+  },
+  {
+    "candidate_id": "2d8890a6a8256a53c39fb9b3",
+    "time": "2012-09-11",
+    "date_precision": "day",
+    "summary": "A senior Tory criticizes David Cameron by saying he is no Margaret Thatcher and is instead the party's new Ted Heath.",
+    "time_range": null,
+    "evidence_ids": [
+      "47129"
+    ],
+    "job_id": "39b6db0aeb8137906db580545bb547c8869a68d5e492029dea6d2575164bbb5a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Thatcher reference in Conservative leadership criticism; distinct dated event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b7a0813299569f94"
+  },
+  {
+    "candidate_id": "864d334af50e023165720d76",
+    "time": "2005-10-18",
+    "date_precision": "day",
+    "summary": "Article recalls Margaret Thatcher's 1975 Conservative leadership victory, when a stalking-horse strategy unexpectedly led to her winning the first ballot against Edward Heath.",
+    "time_range": null,
+    "evidence_ids": [
+      "48473"
+    ],
+    "job_id": "27b01f5fb74703d13dbba0ef2e68dc3aa576849f20d4841368bd1759e2b488bf",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Recalls Thatcher's 1975 leadership victory, a key milestone in her career.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9a9133ad36e7abd3"
+  },
+  {
+    "candidate_id": "09d9a681b42ce74a59b758f8",
+    "time": "2008-09-28",
+    "date_precision": "day",
+    "summary": "Conservative conference delegates at a Guardian fringe meeting vote Margaret Thatcher the greatest Tory hero of all time.",
+    "time_range": null,
+    "evidence_ids": [
+      "47986"
+    ],
+    "job_id": "97e84b391d854888b43e6dcf175e9d1d42f7d9cee9c6b7cc4240a44b69b23d08",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Conservative delegates vote Thatcher greatest Tory hero; relevant legacy milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7b50efcb3739fe58"
+  },
+  {
+    "candidate_id": "ee339c8fc86a42b42f72ae71",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No topic-related event involving Margaret Thatcher is reported; the article discusses her historical legacy and Brexit, not a specific event.",
+    "time_range": null,
+    "evidence_ids": [
+      "46395"
+    ],
+    "job_id": "38451f04c1a9b57abe986e56d65358a88a6366bfd59711ff6f3e9930953feb12",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No specific Thatcher-related event reported; only general legacy discussion.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "95940f6db2c6a862edee10d2",
+    "time": "2000-10-02",
+    "date_precision": "day",
+    "summary": "William Hague's early support for the Liberal party before Margaret Thatcher deposed Ted Heath and he crossed over to the Tories is uncovered by his biographer.",
+    "time_range": null,
+    "evidence_ids": [
+      "49286"
+    ],
+    "job_id": "6d9e263c17ebd720fbab7a32cf52662fb78f6b4e54ceed6a1cec494ccf018255",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "References Thatcher deposing Heath; relevant biographical milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ff92f52c595d769b"
+  },
+  {
+    "candidate_id": "2384495d98a2f51166968815",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No specific event related to Margaret Thatcher is reported; she is only mentioned as a historical reference.",
+    "time_range": null,
+    "evidence_ids": [
+      "47675"
+    ],
+    "job_id": "bb31151b5027c1bb34544a2bef285c5ed245c7aba62e83a06f305a86505db9b9",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No specific Thatcher-related event; only historical reference.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "de91c4095c3f540844c67785",
+    "time": "2013-04-08",
+    "date_precision": "day",
+    "summary": "News of Margaret Thatcher's death prompts discussion of Thatcherism and her legacy.",
+    "time_range": null,
+    "evidence_ids": [
+      "47090"
+    ],
+    "job_id": "bb31b56a852b384dcf3689337a1e74ad8995fc1105964603c74b745c08b36d5a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-5e6e64b014cad6ab",
+    "reason": "Same date and event as Thatcher's death announcement; duplicate of existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5e6e64b014cad6ab"
+  },
+  {
+    "candidate_id": "a975fe842af8011c07b09ea5",
+    "time": "2009-12-30",
+    "date_precision": "day",
+    "summary": "Cabinet papers from Margaret Thatcher's earliest days as prime minister are released under the 30-year rule, revealing her pugnacious style through hostile handwritten marginal notes on government documents.",
+    "time_range": null,
+    "evidence_ids": [
+      "47799"
+    ],
+    "job_id": "4d6f9b56115108e93222c6c047ad7350f4258e548509bebf8040fc83a5c6b4ff",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Release of Thatcher-era cabinet papers reveals her early prime ministerial style; relevant milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-60e14123257cd734"
+  },
+  {
+    "candidate_id": "f0f72a41ac13f6c21855e778",
+    "time": "2009-05-03",
+    "date_precision": "day",
+    "summary": "The BBC broadcasts its 1979 election special to mark the 30th anniversary of Margaret Thatcher's arrival in Downing Street.",
+    "time_range": null,
+    "evidence_ids": [
+      "48020"
+    ],
+    "job_id": "91e5940df5ad7a9f6ad65eb6d1ef962bd5a7a7e654195516e42782085c73b63f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "BBC 1979 election special marking 30th anniversary of Thatcher entering Downing Street; relevant milestone, no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-14adfb7884fc014a"
+  },
+  {
+    "candidate_id": "31f7cdb914fff62439a82be4",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "46841"
+    ],
+    "job_id": "d7965a3a081c9418556216921fd83286525f54d0a2584a35559a53575ec75193",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush and Clinton tsunami appeal has no connection to Margaret Thatcher.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "a771a40978080cbdb6d5de6b",
+    "time": "2003-11-14",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher's papers up to the time she became prime minister were opened to the public at Churchill College, Cambridge, and released online, generating so much interest that it threatened to overwhelm her website.",
+    "time_range": null,
+    "evidence_ids": [
+      "48728"
+    ],
+    "job_id": "d7a088e7f00f148ce93a49dc754f6eef0909ab74180123db171d6f6b3d47a0f6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Opening of Thatcher's pre-premiership papers at Churchill College is a relevant archival milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ecf043161d0c95fa"
+  },
+  {
+    "candidate_id": "402a35685f43f77a3eafdc68",
+    "time": "2007-08-14",
+    "date_precision": "day",
+    "summary": "John Biffen, former Conservative cabinet minister during Margaret Thatcher's era, died in hospital aged 76.",
+    "time_range": null,
+    "evidence_ids": [
+      "48244"
+    ],
+    "job_id": "4a66d30c69730ec8870c2e7bb27d5b8c7d730b3d99b5276612e6c4f52eeef01c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Death of John Biffen, a Thatcher-era cabinet minister; relevant to Thatcher timeline, no duplicate existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3794874533d8b903"
+  },
+  {
+    "candidate_id": "1a143b8ff43060fa239b88da",
+    "time": "2001-01-01",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher's first recorded intervention in Edward Heath's cabinet was to propose imposing borrowing charges on library books and abolishing free school milk for children over seven, though the library charge idea was later dropped.",
+    "time_range": null,
+    "evidence_ids": [
+      "49185"
+    ],
+    "job_id": "cf1e8d97bebf38006c2f1a543886fe58eaabb418774801f5c7cfa2eee30e56ee",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Thatcher's first recorded cabinet intervention under Heath; relevant biographical milestone, no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-dabc8b2493b0a354"
+  },
+  {
+    "candidate_id": "1c25fa3ba44f109014d82eb0",
+    "time": "2006-10-03",
+    "date_precision": "day",
+    "summary": "Former editors Charles Moore and Simon Jenkins debate Margaret Thatcher's legacy at a Policy Exchange fringe event during the Conservative Party conference.",
+    "time_range": null,
+    "evidence_ids": [
+      "48403"
+    ],
+    "job_id": "d8a0c0be6db52c7ce6bb645096c84827481ff23aea8ea848a52fe5d6b6583a2d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Policy Exchange fringe debate on Thatcher's legacy at 2006 Conservative conference; relevant, distinct from existing 2006-10-03 Osborne event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b0f8b77f23540b48"
+  },
+  {
+    "candidate_id": "2e2d54bcfba6325b5e25f844",
+    "time": "2003-01-02",
+    "date_precision": "day",
+    "summary": "Sir William Shelton, who was Margaret Thatcher's unofficial \"chief whip\" in her 1975 Conservative leadership campaign and later one of her parliamentary private secretaries, died at 73 from Alzheimer's disease.",
+    "time_range": null,
+    "evidence_ids": [
+      "48957"
+    ],
+    "job_id": "696789817def794aad5e8104a01c1d2024e9681d1b4a082fe1d870bc958883e5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Death of Sir William Shelton, Thatcher's 1975 leadership campaign chief whip; relevant, no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4a9e0ad31435d129"
+  },
+  {
+    "candidate_id": "62fef65ef5e5b372d5fe4484",
+    "time": "2007-06-08",
+    "date_precision": "day",
+    "summary": "Lord Carrington, who served as foreign secretary under Margaret Thatcher from 1979 until his April 1982 resignation over the Falklands invasion, is the subject of an article.",
+    "time_range": null,
+    "evidence_ids": [
+      "48271"
+    ],
+    "job_id": "52f72477b8abee5795590c1ce4dfbf0b0e6eaa8750197bb9b7d99acf39e108be",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Article on Lord Carrington, Thatcher's foreign secretary during the Falklands; relevant, no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8dd29042db0b6d17"
+  },
+  {
+    "candidate_id": "c751c5d224990ff1d80a115a",
+    "time": "1999-11-02",
+    "date_precision": "day",
+    "summary": "Sir William van Straubenzee, a former Tory MP and One Nation wet who led backbench opponents of Margaret Thatcher after she became party leader in 1975, died aged 75.",
+    "time_range": null,
+    "evidence_ids": [
+      "49195"
+    ],
+    "job_id": "1a9601a2bc04f854dfcf0ecd78d91b3946433fe6c136dc5b642bf1c87a5e3b40",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Death of a former Tory MP who led backbench opponents of Thatcher after 1975; relevant to Thatcher's leadership opposition, distinct date and person from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-604037ba45b68f00"
+  },
+  {
+    "candidate_id": "fbeb69e95929875818308f03",
+    "time": "2004-09-15",
+    "date_precision": "day",
+    "summary": "A timeline notes that Margaret Thatcher became prime minister in May 1979 and was ousted as Conservative leader and prime minister in November 1990.",
+    "time_range": null,
+    "evidence_ids": [
+      "48708"
+    ],
+    "job_id": "01e2206d4c47238415030ef6fdeb3f10f07312d73ecd8c5d01d0fbe2e78a26ed",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Timeline noting Thatcher's 1979 rise and 1990 ouster; relevant milestone summary, no same-date duplicate among existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-482811c45177abbb"
+  },
+  {
+    "candidate_id": "13306ec3fa38d02128d99dfe",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No topic-related event found.",
+    "time_range": null,
+    "evidence_ids": [
+      "48247"
+    ],
+    "job_id": "7ad9c670358c8bea8693ed9cd16ce55aae364133d0420d6a1bee4d44bf3b408b",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No topic-related event found; no timeline contribution.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "536fba0a9318e6bf52d10eb9",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "A book review discusses John Campbell's biography \"Margaret Thatcher Volume One: The Grocer's Daughter,\" which examines Margaret Thatcher's early life and rise to power.",
+    "time_range": null,
+    "evidence_ids": [
+      "49183"
+    ],
+    "job_id": "001c170486196ef5eb3084018f10ab9595f48c67311e40f2d1770c4e913fe2c0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Book review of a Thatcher biography examining her early life and rise to power; relevant to her life timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3fb2149ac9acb1dd"
+  },
+  {
+    "candidate_id": "7c09370e8171e2da2fabc489",
+    "time": "2013-04-17",
+    "date_precision": "day",
+    "summary": "Following Margaret Thatcher's death, an article examines her housing policies' legacy and role in the UK's housing crisis.",
+    "time_range": null,
+    "evidence_ids": [
+      "47108"
+    ],
+    "job_id": "1ffc9be1eaa127947066eeaaaa1a634bfd71aa7d15cf53dbbfc487e55f0aa0c9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Post-death analysis of Thatcher's housing policies and legacy; relevant dated contribution.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-80b7d9409a3d0493"
+  },
+  {
+    "candidate_id": "e86a9ab26cc010cb627c6d82",
+    "time": "2013-04-08",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher died, prompting reflections on her divisive legacy and the difficulty of mourning her.",
+    "time_range": null,
+    "evidence_ids": [
+      "46731"
+    ],
+    "job_id": "10926f15de9cd2dc711ff4087a5f0adaea1a1ed6f3accd7e635749af5f5eb5b0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-5e6e64b014cad6ab",
+    "reason": "Same date as existing Thatcher death event; duplicate death report.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5e6e64b014cad6ab"
+  },
+  {
+    "candidate_id": "52fa1e2e802295062104c079",
+    "time": "2013-04-08",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher died, prompting widespread reflection on her legacy and divisive impact across Britain.",
+    "time_range": null,
+    "evidence_ids": [
+      "46889"
+    ],
+    "job_id": "9666660197210f6f12966d55e5b3c3b2f08d6c11b2ef0dfcec0dfe962f7545fd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-5e6e64b014cad6ab",
+    "reason": "Same date as existing Thatcher death event; duplicate death report.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5e6e64b014cad6ab"
+  },
+  {
+    "candidate_id": "b973d0237d77299ed8ed5a0b",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "None",
+    "time_range": null,
+    "evidence_ids": [
+      "47882"
+    ],
+    "job_id": "bb575225d1c95171d46c009aeae81b24c43e9b716ac14d24b144a785983b92f9",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Empty summary; no topic-related event.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "ba61f6d880d52492a8040418",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "46638"
+    ],
+    "job_id": "4e7f42a78a30f1d3b093118fcd5db669509d8135b35c20545339cf298bc70bb1",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Clinton tsunami appeal unrelated to Margaret Thatcher.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "7afc65f48d2c84c7276e1ee4",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "46407"
+    ],
+    "job_id": "cdacf2c7d9f7fab7f8e5e791c6bc75c9d285cf37cf126b262e8d8d6ba7f56be4",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Clinton tsunami appeal unrelated to Margaret Thatcher.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "7217a1d71bd3cdc5b53bb77b",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Article discusses Margaret Thatcher's background as a scientist and how it may have influenced her political ideology, but reports no specific event.",
+    "time_range": null,
+    "evidence_ids": [
+      "47061"
+    ],
+    "job_id": "29335e8d2576175130e82dd91692878ed065014fe179ea166bbe1f92eea752a4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Discusses Thatcher's scientific background and its influence on her political ideology; relevant biographical milestone with unknown date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d9fcd7324e604ecb"
+  },
+  {
+    "candidate_id": "3435a8737c3ce935df99ba58",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No topic-related event involving Margaret Thatcher is reported; the article only mentions her past work as a chemist before entering politics.",
+    "time_range": null,
+    "evidence_ids": [
+      "47758"
+    ],
+    "job_id": "cf5a1624b6a2b8457030cb253cfdf7c28c35d9d989d016ec342da5882f141c60",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Mentions Thatcher's past work as a chemist before politics; relevant biographical detail with unknown date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-53ebb4db546a4f15"
+  },
+  {
+    "candidate_id": "c2fc975c174b6ebea8e143d6",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Margaret Thatcher studied chemistry at Oxford and worked as a research chemist, helping devise the process that produces Mr Whippy ice cream.",
+    "time_range": null,
+    "evidence_ids": [
+      "47769"
+    ],
+    "job_id": "0f0af2587333e366c08360ae80b6a7f0ef8a84372ee5271b2a59ca0dfd0709db",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Details Thatcher's chemistry studies at Oxford and research chemist work; relevant biographical milestone with unknown date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4bb39715b00a1321"
+  },
+  {
+    "candidate_id": "135b4dac0c08797be0655830",
+    "time": "2009-11-23",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher returned to Downing Street.",
+    "time_range": null,
+    "evidence_ids": [
+      "47640"
+    ],
+    "job_id": "a5c3c23eb5322e3a41479a571610b80783d35819b6bf40cde66312676d4f668c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Thatcher returned to Downing Street on 2009-11-23; relevant event, no matching existing event date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-149e2c90740c0fef"
+  },
+  {
+    "candidate_id": "32e2189a7ffbf01b26b88a35",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Margaret Thatcher is not the subject of a current event; the article discusses her legacy and inspiration to Conservative campaigners in Finchley and Golders Green ahead of the 2010 election.",
+    "time_range": null,
+    "evidence_ids": [
+      "47836"
+    ],
+    "job_id": "c3ab7e1b9313615f1ed9630735c193fa30b956b11caf510618109ebdd8368e08",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Discusses Thatcher's legacy and inspiration to Conservative campaigners ahead of 2010 election; relevant with unknown date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9717832f7a8545e5"
+  },
+  {
+    "candidate_id": "3020408d1ef27a21088ac26c",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "47827"
+    ],
+    "job_id": "0315bf1bec57cb30a9daaf1d29d906a71ba9e54e4c3129793704806a9f6906ac",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Event concerns Bush and Clinton leading tsunami donation appeal; no Thatcher involvement.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "0622ab8629f522f2fbcdcabd",
+    "time": "2005-04-04",
+    "date_precision": "day",
+    "summary": "Article recounts Margaret Thatcher’s 1979 election campaign and her subsequent rise to become the UK’s first woman prime minister.",
+    "time_range": null,
+    "evidence_ids": [
+      "48494"
+    ],
+    "job_id": "4e377f20c4c3cb3219bab6a97bfeca313ac14c646d9059b3ec763b55e5df22e1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Recounts Thatcher's 1979 election campaign and rise to first woman PM; relevant milestone, no matching existing event date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fdaaddcb9f44ca3b"
+  },
+  {
+    "candidate_id": "33dad3286e9de22f5adfb8e4",
+    "time": "2013-04-16",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher's coffin arrived at the Palace of Westminster for a private service in the Chapel of St Mary Undercroft ahead of her public funeral.",
+    "time_range": null,
+    "evidence_ids": [
+      "46722"
+    ],
+    "job_id": "34e8f731ac65b0f26726177868a90a16be693898abf26758d8898b07de6ba69f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-7579d547ec1ce915",
+    "reason": "Same 2013-04-16 date and same coffin arrival at Chapel of St Mary Undercroft as existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7579d547ec1ce915"
+  },
+  {
+    "candidate_id": "e0e087ccc6855d9f53c21cf9",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "48701"
+    ],
+    "job_id": "cc48ef62ebd5d6138407acdf1b178457d3605a77ac52d9441812aa3a7d9762e1",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Concerns a tsunami donation appeal by Bush and Clinton; no connection to Margaret Thatcher.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "235acf644bbe16ce2c5f2652",
+    "time": "1979-03-30",
+    "date_precision": "day",
+    "summary": "Airey Neave, shadow secretary of state for Northern Ireland and a close friend of Margaret Thatcher, died when a car bomb exploded at the House of Commons car park.",
+    "time_range": null,
+    "evidence_ids": [
+      "49025"
+    ],
+    "job_id": "8b4b67345ab50b25e595d9c7167fbecd64a7f32afc4a6973d2ea051f494e26ec",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Death of Thatcher's close friend and Northern Ireland shadow secretary shortly before she became PM; relevant milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9fd8ad00fdfd6d91"
+  },
+  {
+    "candidate_id": "32b9f9354fa79efa7376bf12",
+    "time": "2013-04-10",
+    "date_precision": "day",
+    "summary": "Parliament was recalled for a seven-and-a-half-hour session of Commons tributes to Margaret Thatcher, led by David Cameron and Ed Miliband, after Downing Street departed from a long-agreed plan and past precedent.",
+    "time_range": null,
+    "evidence_ids": [
+      "46991"
+    ],
+    "job_id": "d379270b711f2d7eec8eb3165d663b876d893eceb0280f83bb90e10a4c10314c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Parliamentary tributes to Thatcher after her death; distinct 2013-04-10 event, not a duplicate of other existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-92ca52a3095998eb"
+  },
+  {
+    "candidate_id": "baad200c98b4040bffca7f2e",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "46857"
+    ],
+    "job_id": "e6a59e6b6ee9b5f42a1fd6fb972e7f0f36cacb1b2fb8a00dd7b89ee65fa4d48d",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Clinton tsunami appeal unrelated to Margaret Thatcher.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "4c745d99c1fcb81522578bcd",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "46625"
+    ],
+    "job_id": "0bc942cc526a4818de73f13075b4e7383ce2bc7ccdd822193961a53802777cfd",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Clinton tsunami appeal unrelated to Margaret Thatcher.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "41c13405391ce086dedec974",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "46484"
+    ],
+    "job_id": "109847b61f801ac3041073b3ab49c58ab6a282411c09dc3975196661b1cdef2e",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Clinton tsunami appeal unrelated to Margaret Thatcher.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "c54b9431297b0e6a3f32485b",
+    "time": "2005-10-13",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher attends her 80th birthday party in Knightsbridge, with guests including Tony Blair, John Major, and Geoffrey Howe, while Michael Heseltine and Kenneth Clarke are not invited.",
+    "time_range": null,
+    "evidence_ids": [
+      "48444"
+    ],
+    "job_id": "123aa67019d5e8fbcbf0a05331ed274525cf898b09c8b8e84afcd8045a75c0f4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-dded9a747ad0e198",
+    "reason": "Same 2005-10-13 date as existing event on Thatcher turning 80; duplicate occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-dded9a747ad0e198"
+  },
+  {
+    "candidate_id": "4e7b7b8927340bb83bda4ae7",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "47792"
+    ],
+    "job_id": "009546e7035b83b1c6db16159289930cfda5450245e220d361b01fb38c35db52",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Clinton tsunami appeal unrelated to Margaret Thatcher.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "c9b58cfa6485a5a716011381",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No topic-related event involving Margaret Thatcher occurred; the article only mentions her government in a retrospective comparison regarding the Falklands.",
+    "time_range": null,
+    "evidence_ids": [
+      "48600"
+    ],
+    "job_id": "8edf3170ba62dd75848761ad2859e04eb852b6ddee937469fd2c0ad77007eafe",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No topic-related event; only a retrospective comparison mentioning Thatcher's government.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "f5b45c9913d318c42c933273",
+    "time": "2007-03-21",
+    "date_precision": "day",
+    "summary": "A film about Margaret Thatcher, titled Maggie the Movie, is being written by Brian Fillis, focusing on the period leading up to the Falklands War.",
+    "time_range": null,
+    "evidence_ids": [
+      "48412"
+    ],
+    "job_id": "ad50200d83dc9bf721779185761fa6324a5033770f87ee27954dc8ed6602ef9e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: a film about Thatcher focusing on the pre-Falklands War period is being written.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4049857fad408b63"
+  },
+  {
+    "candidate_id": "f02cf557895566e731953914",
+    "time": "1999-04-14",
+    "date_precision": "day",
+    "summary": "Six years after the poll tax's abolition, an estimated 4,000,000 non-payers of up to £5 billion in community charge became immune from prosecution under a six-year statute of limitation, meaning outstanding money will never be recovered.",
+    "time_range": null,
+    "evidence_ids": [
+      "49474"
+    ],
+    "job_id": "5a7e0475fd30733757705de21b94ad9f5c0fa01bf58471ea08d72e1edab3b70e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Thatcher-era policy consequence: poll tax non-payers became immune from prosecution.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5e0bc52c98989baa"
+  },
+  {
+    "candidate_id": "5e2d94f2b3c7a28ec3e8bd0f",
+    "time": "2013-04-10",
+    "date_precision": "day",
+    "summary": "Calls gather momentum for a statue of Margaret Thatcher to be erected in Trafalgar Square, with Defence Secretary Philip Hammond and others suggesting a memorial in London.",
+    "time_range": null,
+    "evidence_ids": [
+      "47235"
+    ],
+    "job_id": "06ec89523bdda199b0af7685eec4ffd938b7045396b0a64b48ff519096b0a715",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant post-death memorial milestone: momentum for a Thatcher statue in Trafalgar Square.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-659afbe18aea39a5"
+  },
+  {
+    "candidate_id": "3e3b7bb13e996547c892eb86",
+    "time": "2011-11-25",
+    "date_precision": "day",
+    "summary": "A group of 25 Tory backbenchers signed a letter to the chief whip warning they would vote together against further anti-deflationary economic measures in the autumn statement.",
+    "time_range": null,
+    "evidence_ids": [
+      "47240"
+    ],
+    "job_id": "a1dbc8603ece470118cb83f1d009234c7c732e655e38816bf3b8a281d3a0c82a",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No direct Thatcher involvement; Tory backbench economic warning is not a Thatcher milestone.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "cd831abce77de3b4c849c7a0",
+    "time": "2013-04-08",
+    "date_precision": "day",
+    "summary": "Several hundred people gathered in Brixton and Glasgow to celebrate Margaret Thatcher's death with street parties.",
+    "time_range": null,
+    "evidence_ids": [
+      "47058"
+    ],
+    "job_id": "94f933d2446b40d279f6bccca5063c02e90bcc30bac9476582e172af5bad45ae",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant post-death reaction: street parties in Brixton and Glasgow celebrating Thatcher's death.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7768bc8d7db05490"
+  },
+  {
+    "candidate_id": "9e38d0e774e04b1502adb451",
+    "time": "2000-08-26",
+    "date_precision": "day",
+    "summary": "Brighton bomber Patrick Magee claimed his 1984 attack on the Grand Hotel, which nearly killed Margaret Thatcher, forced the British government to open negotiations with the IRA.",
+    "time_range": null,
+    "evidence_ids": [
+      "49244"
+    ],
+    "job_id": "2f734e2883626cb7ac24504511f341716449930dfe02658488a657e8cf142a35",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Thatcher-related event: Brighton bomber's claim about the 1984 Grand Hotel attack.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8063c2acc7abf7e9"
+  },
+  {
+    "candidate_id": "cc235dceb5bf12d59bbeed91",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "46639"
+    ],
+    "job_id": "b8d6071ce6926bfb7327ccfa72cdd4724997977ca141697aad4daa3afa4edfb0",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No Thatcher relevance; concerns Bush and Clinton tsunami donation appeal.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "e8afa6cdff3fb72813c9485f",
+    "time": "2004-09-11",
+    "date_precision": "day",
+    "summary": "Patrick Magee, the IRA terrorist who bombed the 1984 Conservative Party conference in an attempt to kill Margaret Thatcher and her Cabinet, stated he would plant the bomb again and claimed the attack aided the Irish peace process.",
+    "time_range": null,
+    "evidence_ids": [
+      "48594"
+    ],
+    "job_id": "b1d762af68f83c6e1a80b6dabd039b800d4bdb462f2858e017b8d5f6da800c73",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Magee's 2004 statement about the Brighton bomb targeting Thatcher is a relevant milestone; no same-date existing event to merge.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6fcf3972b6457741"
+  },
+  {
+    "candidate_id": "13f9e540e136df116dabbb34",
+    "time": "2004-09",
+    "date_precision": "month",
+    "summary": "Margaret Thatcher was awake working on her Conservative party conference speech when the IRA bomb destroyed the Grand Hotel in Brighton in autumn 1984.",
+    "time_range": null,
+    "evidence_ids": [
+      "48758"
+    ],
+    "job_id": "1069d7afcb52405f7cf8044bdff17053c515f5a2cf33bcbda5071a0cb4f12202",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Thatcher's account of being awake during the 1984 Brighton bomb is relevant; month-only date differs from existing 2000 Magee event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e7a57f826fa6ec2a"
+  },
+  {
+    "candidate_id": "6876ac8046c1e72ee5ab54f5",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "46764"
+    ],
+    "job_id": "eb22c554aa19f9deb657117236105e7888d985fff6ac907cacf2f6dc472b7ec6",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush and Clinton tsunami donation appeal does not involve or contribute to Margaret Thatcher's timeline.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "d4112f91264129b77932234d",
+    "time": "2013-04-17",
+    "date_precision": "day",
+    "summary": "Police are planning a large-scale security operation for Margaret Thatcher's ceremonial funeral in central London, assessing potential threats from protesters and dissident terrorists.",
+    "time_range": null,
+    "evidence_ids": [
+      "46950"
+    ],
+    "job_id": "e37c96c72349513813de45e3ba38b48891c015f76938993ea77fb1d981612aa6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Security planning for Thatcher's funeral is a relevant milestone; same date as other funeral events but distinct subject.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5464fd52db69065b"
+  },
+  {
+    "candidate_id": "62a6e04fe27b74db43d3976a",
+    "time": "2010-06-07",
+    "date_precision": "day",
+    "summary": "Labour leadership candidate John McDonnell joked at a GMB union hustings event that he wanted to go back in time to the 1980s to \"assassinate Thatcher.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "47590"
+    ],
+    "job_id": "378ceb3b602e81d8e6e165d0b58cf38ad29c532345134866c61e93544c0ff327",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "McDonnell's 'assassinate Thatcher' remark is a relevant Thatcher-related controversy; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d7d5951d9d0be703"
+  },
+  {
+    "candidate_id": "91c247c224058f42534dae06",
+    "time": "2008-10-06",
+    "date_precision": "day",
+    "summary": "Daily Mail sketchwriter Quentin Letts publishes a book extract arguing that Margaret Thatcher's response to the miners' strike did lasting damage to Britain.",
+    "time_range": null,
+    "evidence_ids": [
+      "47819"
+    ],
+    "job_id": "4a1066bfe13361149b9d46619a01900c6bc68ecd5414b901354f7ae6bd157a61",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Book extract arguing Thatcher's miners' strike response caused lasting damage is relevant to her legacy.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b9aca24d5c0fba73"
+  },
+  {
+    "candidate_id": "72d71d2048e6b58d25d91ef3",
+    "time": "2013-04-09",
+    "date_precision": "day",
+    "summary": "A Democratic Unionist assembly member condemns republican celebrations in Derry and Belfast following the death of Margaret Thatcher.",
+    "time_range": null,
+    "evidence_ids": [
+      "47084"
+    ],
+    "job_id": "af9d08e21627a18b9d6ba6a171cf33baf86e06d3a9a473a187e910e84ae74d08",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Reaction to Thatcher's death in Derry and Belfast is relevant; same date as poll event but distinct occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9f101a236d5c76d7"
+  },
+  {
+    "candidate_id": "0f78e3a6f55696deccb3fc15",
+    "time": "2004-10-12",
+    "date_precision": "day",
+    "summary": "Patrick Magee, the IRA bomber who planted the 1984 Brighton hotel bomb targeting Margaret Thatcher and her cabinet, returns to Brighton for the first time since the attack on its 20th anniversary.",
+    "time_range": null,
+    "evidence_ids": [
+      "48710"
+    ],
+    "job_id": "0823f2b4c9a1fa2107664c217721caebcc098b1797b40d8840ae59b5a8156e5e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Magee's 20th-anniversary return to Brighton is a relevant Thatcher-related milestone; date differs from existing Magee event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-12d6ded2d946a082"
+  },
+  {
+    "candidate_id": "7818e6ebdb118a691cd1923f",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "47469"
+    ],
+    "job_id": "701d29a9c5b5e4790d87c01be652ea1724b2322b7c13d00ec1784f284a1e2fb2",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush and Clinton leading tsunami donation appeal does not involve Margaret Thatcher or contribute to her timeline.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "269603200dfe1c0ba856d830",
+    "time": "2008-06-12",
+    "date_precision": "day",
+    "summary": "BBC4 broadcasts the drama Margaret Thatcher: The Long Walk to Finchley, starring Andrea Riseborough as a young Margaret Thatcher.",
+    "time_range": null,
+    "evidence_ids": [
+      "47903"
+    ],
+    "job_id": "d0963ef4d032c5eae7e32c7ca54b70072a3776738098f9675ec6ae97731d7c48",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "BBC4 broadcast of a drama about young Margaret Thatcher; relevant cultural milestone, no duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a63638ee4bddd2cb"
+  },
+  {
+    "candidate_id": "eac389b729c0170ff88a586c",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "46846"
+    ],
+    "job_id": "2b815f9a22907e40ac82d1439501df76dd1b1076c3be6b77aa4f63a772b69050",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush and Clinton tsunami appeal does not involve Margaret Thatcher.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "21b414d33709f12fddb01bc8",
+    "time": "2011-03-19",
+    "date_precision": "day",
+    "summary": "Newly released 1980 papers show Margaret Thatcher’s private secretary Ian Gow, with her permission, encouraged rightwing MPs’ opposition to employment secretary Jim Prior’s trade union bill.",
+    "time_range": null,
+    "evidence_ids": [
+      "47399"
+    ],
+    "job_id": "94f8234a28bbcdab5f348c58466495240586182a1556933a77a865150f0a32c4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Reveals Thatcher's role in 1980 trade union bill opposition; relevant historical milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b3988ab49cb3e348"
+  },
+  {
+    "candidate_id": "db2aeec80395c29add078802",
+    "time": "1979-05-03",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher led the Conservative Party to victory over Jim Callaghan's Labour Party in the UK general election, becoming prime minister with a 43-seat majority.",
+    "time_range": null,
+    "evidence_ids": [
+      "49411"
+    ],
+    "job_id": "1b7942d73cf68baf8dc9db5d373682cd096e4e411002e6654ce2911f739a0cc6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Thatcher's 1979 election victory and becoming prime minister; central milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1b84cf44b3899551"
+  },
+  {
+    "candidate_id": "543b00125947d553302824b9",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Article criticizes Margaret Thatcher's economic policies and legacy, arguing she was not popular and did not deliver economic success.",
+    "time_range": null,
+    "evidence_ids": [
+      "46730"
+    ],
+    "job_id": "398f5602a511dcf4a264202f535259decc44ab21f63aa5b7e8365a96faae5e31",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Criticism of Thatcher's economic policies and legacy; relevant to her political legacy.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9251a62061a53e28"
+  },
+  {
+    "candidate_id": "29ba461b8876c3b500d13315",
+    "time": "2013-04-08",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher's death was announced by her children Mark and Carol Thatcher in a statement expressing their great sadness.",
+    "time_range": null,
+    "evidence_ids": [
+      "47461"
+    ],
+    "job_id": "fe5a90c18748ebea9cefe973d82f60c0d7fc1ddd1d0ae6f05e4920a19a7ab251",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Announcement of Thatcher's death by her children; distinct from existing death-reaction events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-096a6dc5f06f50b5"
+  },
+  {
+    "candidate_id": "c18018bda1afa4e140189c4f",
+    "time": "2005-03-27",
+    "date_precision": "day",
+    "summary": "Article notes the 25th anniversary of Margaret Thatcher's accession as Prime Minister, while reflecting on Jim Callaghan's loss to her in the 1979 election.",
+    "time_range": null,
+    "evidence_ids": [
+      "48588"
+    ],
+    "job_id": "0279f40c3ab7dce0016957840b56ec547bbffef8320e24f4027e98cc72797ef6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "25th anniversary of Thatcher's accession as PM; relevant retrospective milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a806176776e4cb51"
+  },
+  {
+    "candidate_id": "c821e45dfa9a429e43d272c7",
+    "time": "2009-10-05",
+    "date_precision": "day",
+    "summary": "Nicholas Boles, an adviser to David Cameron, said he hoped the Conservatives would not win by a landslide, recalling Francis Pym's 1983 admission that prompted Margaret Thatcher to sack him as foreign secretary.",
+    "time_range": null,
+    "evidence_ids": [
+      "47935"
+    ],
+    "job_id": "b800633ee1a29fa34898e5f92955c112215c97a0553f11269a05e3bf871b923c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Recalls Thatcher sacking Francis Pym in 1983; relevant historical reference.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a723f929831c42c9"
+  },
+  {
+    "candidate_id": "c16606d80f32773a1017b413",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "46551"
+    ],
+    "job_id": "8aa58a0b2e7e5b8d5db4bcaeea9215bc9992b45f4eb564b39567a5e38431bec6",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Concerns a tsunami donation appeal by George W. Bush and Bill Clinton; no Margaret Thatcher involvement.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "13b3b13b592bac80aa441b79",
+    "time": "2001-08-12",
+    "date_precision": "day",
+    "summary": "The article mentions that Margaret Thatcher, 22 years earlier, resolved in a secret meeting with her chancellor to double VAT shortly after the Conservative Party won an election.",
+    "time_range": null,
+    "evidence_ids": [
+      "49103"
+    ],
+    "job_id": "2ce4d2daed7e9f1ccc2ff2649d8bd3eabbf19a11ab3722b5594c92a14b66e9d3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Reports a specific past Thatcher action: secret meeting with her chancellor to double VAT after a Conservative election win.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6ee1b801de48426d"
+  },
+  {
+    "candidate_id": "f0229af787288c64bc699e2c",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Margaret Thatcher is mentioned only in a retrospective reference to her memoirs and past election experience, with no new event involving her.",
+    "time_range": null,
+    "evidence_ids": [
+      "48717"
+    ],
+    "job_id": "c5c192b4c6bdb88f994ebcf50b3c15b814c1155474d1e261aa9991e1872113ef",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Explicitly a retrospective mention of memoirs and past election experience with no new Thatcher event.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "a3b1a3390e438f38e6afd0e4",
+    "time": "2014-04-24",
+    "date_precision": "day",
+    "summary": "Charles Moore's authorised biography of Margaret Thatcher is shortlisted for the Orwell prize.",
+    "time_range": null,
+    "evidence_ids": [
+      "46746"
+    ],
+    "job_id": "e9769f6640fa73f0f630cf9385d0d859f6f701daecccb88b087ee13980b726ef",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Milestone in Thatcher biography reception: Charles Moore's authorised biography shortlisted for the Orwell prize.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-55f07f8150d74ce9"
+  },
+  {
+    "candidate_id": "bbf93190d5cb5696d94e9b8a",
+    "time": "2015-12-15",
+    "date_precision": "day",
+    "summary": "More than 150 items from Margaret Thatcher's estate, including her dispatch box, wedding dress, power suits, and handbags, are being sold at auction at Christie's in London.",
+    "time_range": null,
+    "evidence_ids": [
+      "46432"
+    ],
+    "job_id": "7f93e7de78189b95c4b156d65b01f54e7381d26d450a1198dde945cd6e121d15",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct posthumous Thatcher-related event: auction of items from her estate at Christie's.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e7ed383f679555a3"
+  },
+  {
+    "candidate_id": "619e618bedb6677c3f48bb30",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Biographer John Campbell publishes the first volume of his Margaret Thatcher biography, covering her early years through her entry into No 10 Downing Street.",
+    "time_range": null,
+    "evidence_ids": [
+      "49056"
+    ],
+    "job_id": "1c9b3b0d91209bf773ae2814061432a0f16c260cddccbc1829f727c9a33f523b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-3fb2149ac9acb1dd",
+    "reason": "Duplicate of the existing John Campbell Thatcher biography volume one event; both have unknown date and same subject.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3fb2149ac9acb1dd"
+  },
+  {
+    "candidate_id": "685e0b3160a6d20eb8f9f78d",
+    "time": "2011-11-29",
+    "date_precision": "day",
+    "summary": "Meryl Streep won the best actress award from the New York Critics Circle for her performance as Margaret Thatcher in the biopic The Iron Lady.",
+    "time_range": null,
+    "evidence_ids": [
+      "47310"
+    ],
+    "job_id": "8535e62d4867a2d33166edfa512c7842512a70bf46ee75b2983f95967ab6e0e0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Thatcher-related cultural milestone: Meryl Streep wins New York Critics Circle best actress for portraying Thatcher.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-89068a29d2fdf56b"
+  },
+  {
+    "candidate_id": "4e5cf9b899910ebe24d1a62c",
+    "time": "1999-02",
+    "date_precision": "month",
+    "summary": "A new Russian political party, the Conservative Party - Thatcherites of Russia, plans to launch later in the month in St Petersburg, basing itself on Thatcherism and Margaret Thatcher.",
+    "time_range": null,
+    "evidence_ids": [
+      "49456"
+    ],
+    "job_id": "066c4c654d926032049b0c86df540b06777aef937ebf0d8414c36b12f849c5f5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct Thatcher-related political development: Russian party based on Thatcherism planned to launch.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1e48e3674407a005"
+  },
+  {
+    "candidate_id": "cb333b5ec82516da295e0184",
+    "time": "2013",
+    "date_precision": "year",
+    "summary": "Margaret Thatcher's coffin was placed in the chapel of St Mary Undercroft before her funeral.",
+    "time_range": null,
+    "evidence_ids": [
+      "47116"
+    ],
+    "job_id": "734512e13f9e012f160653799a0e6351febf0f878021090fd414ad62775c70fa",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Thatcher's coffin placed in St Mary Undercroft before her funeral; date is only year-precision (2013), so it cannot merge with the 2013-04-16 existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6c4c7ee29ee62cc5"
+  },
+  {
+    "candidate_id": "504e073a82af46530aea8421",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Margaret Thatcher's funeral was covered on newspaper front pages.",
+    "time_range": null,
+    "evidence_ids": [
+      "46923"
+    ],
+    "job_id": "2ab2270b2514a611f308b5a0ff5a550b80fa9accc18873bdaa3e5ee70726f222",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant to Thatcher's funeral coverage, but no date and no matching existing event; distinct from dated funeral events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f66fbe4dd31b5615"
+  },
+  {
+    "candidate_id": "2535058a9bd4adb702a9e93d",
+    "time": "2005-07-18",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher is mentioned in an obituary of Edward Heath as having won the Conservative leadership from Heath in 1975 and as having a mutually disliked relationship with him.",
+    "time_range": null,
+    "evidence_ids": [
+      "48718"
+    ],
+    "job_id": "1d30f2ab06c43d1bca35f3317e4aee865b8c46044e0c2fd416cf01425072147c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Thatcher milestone: winning the 1975 Conservative leadership from Heath; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c8a68711c13deaeb"
+  },
+  {
+    "candidate_id": "7c01c813ee4ce8797595faee",
+    "time": "2013-04-17",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher's funeral procession to St Paul's Cathedral took place.",
+    "time_range": null,
+    "evidence_ids": [
+      "47037"
+    ],
+    "job_id": "589fc5b8f62594990f6aadd3b59927fb9853cad7b58b1e3a012191027c07be98",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-fffd763f060012a3",
+    "reason": "Same date and event as the existing Thatcher funeral ceremony record.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fffd763f060012a3"
+  },
+  {
+    "candidate_id": "b502d2e4066456bdc55c3c4f",
+    "time": "2013-04-17",
+    "date_precision": "day",
+    "summary": "The funeral of former UK Prime Minister Margaret Thatcher is scheduled to take place at St Paul's Cathedral, with a procession from St Clement Danes and a reception at Guildhall afterward.",
+    "time_range": null,
+    "evidence_ids": [
+      "46803"
+    ],
+    "job_id": "059c6517ab95f7096260d18883816f26ad0d00ab8dc21fa0db28dec975df87c7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-fffd763f060012a3",
+    "reason": "Duplicate of the same 2013-04-17 Thatcher funeral event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fffd763f060012a3"
+  },
+  {
+    "candidate_id": "4b288b5af9b44a26fe66369c",
+    "time": "2013-04-17",
+    "date_precision": "day",
+    "summary": "More than 700 armed forces personnel will take part in Margaret Thatcher's funeral at St Paul's Cathedral, with her coffin carried by bearers from units associated with the Falklands war.",
+    "time_range": null,
+    "evidence_ids": [
+      "47054"
+    ],
+    "job_id": "0623f69cd32f4a8a116ed6df658801ad0bcf1a8442b654d9537e2212ace4b603",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-fffd763f060012a3",
+    "reason": "Same funeral event; military participation detail already covered by existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fffd763f060012a3"
+  },
+  {
+    "candidate_id": "0b5a458fe29472ea5ffd4fbf",
+    "time": "2013-04-17",
+    "date_precision": "day",
+    "summary": "The funeral of former British Prime Minister Margaret Thatcher takes place at St Paul's Cathedral in London with full military honours.",
+    "time_range": null,
+    "evidence_ids": [
+      "46807"
+    ],
+    "job_id": "dbbd4cf6fefa0c873f40fb60177bebd66f79ab78a5e252af3cbdd402713e13b8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-fffd763f060012a3",
+    "reason": "Duplicate of the same 2013-04-17 Thatcher funeral event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fffd763f060012a3"
+  },
+  {
+    "candidate_id": "e4a35fd009a3e5f1b8d33068",
+    "time": "2013-04-17",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher's funeral procession is planned for Wednesday morning with military honors, involving around 700 armed forces personnel, amid growing unease and planned protests.",
+    "time_range": null,
+    "evidence_ids": [
+      "46834"
+    ],
+    "job_id": "5df93c8563534b453fb35d811a5522dfb4f99d0be5580f286aca8114745c0fc1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-fffd763f060012a3",
+    "reason": "Same funeral procession event on 2013-04-17.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fffd763f060012a3"
+  },
+  {
+    "candidate_id": "716ff544b0d971ab5bb41fd4",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "47039"
+    ],
+    "job_id": "2479dc9d5fe00d751f566851c94519b94063eaf45941388e7f86e3490313372a",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No Thatcher relevance; unrelated Bush/Clinton tsunami appeal.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "7420024bcab8add8ae5c503b",
+    "time": "2013-04-17",
+    "date_precision": "day",
+    "summary": "The ceremonial funeral of Margaret Thatcher is to be held at St Paul's Cathedral, attended by the Queen.",
+    "time_range": null,
+    "evidence_ids": [
+      "46984"
+    ],
+    "job_id": "f66cdad0bb6e816a2e514fb10da7cfae36f2aa9f8e22c5f1cffc5d2f9326be5b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-fffd763f060012a3",
+    "reason": "Duplicate of the same 2013-04-17 Thatcher funeral event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fffd763f060012a3"
+  },
+  {
+    "candidate_id": "60d2fe82033c247291b84bc3",
+    "time": "2013-04-15",
+    "date_precision": "day",
+    "summary": "A dress rehearsal takes place in central London for the military procession of Margaret Thatcher's ceremonial funeral.",
+    "time_range": null,
+    "evidence_ids": [
+      "46725"
+    ],
+    "job_id": "02f7d9e50756199670ec5974276fd6319e290ebb506548de40f72c40238f08d9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: dress rehearsal for Thatcher's funeral procession, distinct date from funeral events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-989c55fa81edde8f"
+  },
+  {
+    "candidate_id": "5864f7b5b9b1e426970b6a44",
+    "time": "2013-04-17",
+    "date_precision": "day",
+    "summary": "The ceremonial funeral of former UK Prime Minister Margaret Thatcher was held at St Paul's Cathedral, attended by Queen Elizabeth II and dignitaries from 170 countries.",
+    "time_range": null,
+    "evidence_ids": [
+      "46785"
+    ],
+    "job_id": "1ae33c60f8e9c1b78d441dbf48d806c3555c294a903ac09a4360cfaa32093bd7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Thatcher's ceremonial funeral at St Paul's Cathedral with Queen Elizabeth II and dignitaries.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-427abcffeb7c1689"
+  },
+  {
+    "candidate_id": "5be11d2ec7c461033d76e38f",
+    "time": "2013-04-17",
+    "date_precision": "day",
+    "summary": "The ceremonial funeral of former UK Prime Minister Margaret Thatcher took place at St Paul's Cathedral, with thousands lining the streets of central London to witness the procession.",
+    "time_range": null,
+    "evidence_ids": [
+      "46783"
+    ],
+    "job_id": "2e193d21f53589ab59be664f0dacc879be2e08f9d8d832dd2ce7e6f38fbc2952",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "5864f7b5b9b1e426970b6a44",
+    "reason": "Duplicate of the same 2013-04-17 ceremonial funeral at St Paul's Cathedral.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-427abcffeb7c1689"
+    },
+    "timeline_event_id": "event-427abcffeb7c1689"
+  },
+  {
+    "candidate_id": "034f066bb8027ef3b03d36ad",
+    "time": "2013-04-17",
+    "date_precision": "day",
+    "summary": "The funeral of former UK Prime Minister Margaret Thatcher was held at St Paul's Cathedral, attended by Queen Elizabeth II and other dignitaries.",
+    "time_range": null,
+    "evidence_ids": [
+      "47323"
+    ],
+    "job_id": "ad5b83874af3806b1e1e2e05ad0c287818aab56cff71d7c23790038db3e634e4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "5864f7b5b9b1e426970b6a44",
+    "reason": "Duplicate of the same 2013-04-17 funeral at St Paul's Cathedral attended by Queen Elizabeth II.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-427abcffeb7c1689"
+    },
+    "timeline_event_id": "event-427abcffeb7c1689"
+  },
+  {
+    "candidate_id": "b60e30427f8e2abb6189aba6",
+    "time": "2005-10-13",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher celebrated her 80th birthday, coinciding with the closing date for nominations for the Tory party leadership.",
+    "time_range": null,
+    "evidence_ids": [
+      "48261"
+    ],
+    "job_id": "89e4952fb980541b111cf19a618297a5affd43f5bdac31400bb5f28fbb4644f4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-dded9a747ad0e198",
+    "reason": "Same date and event as existing Thatcher 80th birthday milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-dded9a747ad0e198"
+  },
+  {
+    "candidate_id": "0b215c6cd2e86aa0cea79c09",
+    "time": "2016-12-12",
+    "date_precision": "day",
+    "summary": "Lord Prior, a cabinet minister under Margaret Thatcher who was regarded as a leading \"wet\" dissenting from her radical politics, died aged 89.",
+    "time_range": null,
+    "evidence_ids": [
+      "46409"
+    ],
+    "job_id": "6e55063c0e28189985b11e4689d0a5f1bd84ccbbcbe69813b8fb350b0e231a78",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Death of Thatcher cabinet minister Lord Prior; relevant Thatcher-era political milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2a94926fcf74c442"
+  },
+  {
+    "candidate_id": "88df877aa79472aad01efe4b",
+    "time": "2001-08-21",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher backs Iain Duncan Smith in the Tory leadership contest, warning that rival Kenneth Clarke would lead the party to disaster.",
+    "time_range": null,
+    "evidence_ids": [
+      "48999"
+    ],
+    "job_id": "5454df027ea18249d499b56f3bc800f8e74fb5b363ebac7e9559d7494647fb5d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Thatcher's endorsement of Iain Duncan Smith in Tory leadership contest; relevant political intervention.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3195b95e1a19c1b0"
+  },
+  {
+    "candidate_id": "236ba3a21f6cfe20b409acc1",
+    "time": "2003-05-30",
+    "date_precision": "day",
+    "summary": "Article cites Margaret Thatcher’s 1982 announcement of the Franks inquiry into the Falklands as a model for a proposed inquiry into the Iraq war.",
+    "time_range": null,
+    "evidence_ids": [
+      "48939"
+    ],
+    "job_id": "87c28d2820bb64a43d161f87c3ae879a175126426325bc44a2f58d37650e1cb6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cites Thatcher's 1982 Franks inquiry as precedent; relevant to her Falklands legacy.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-65ece34327d44f6c"
+  },
+  {
+    "candidate_id": "c53c6e48c0a04495bbd4a6c6",
+    "time": "2005-04-06",
+    "date_precision": "day",
+    "summary": "A copy of a national newspaper signed by Margaret Thatcher the day after she quit as prime minister sold at auction for £270.",
+    "time_range": null,
+    "evidence_ids": [
+      "48518"
+    ],
+    "job_id": "b79fbfe1bf5f8b8ec3e276f4ccc4511a5c67efe59fa6bb2039583a6281d69e35",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Thatcher-signed newspaper auction item; minor but relevant Thatcher memorabilia milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-de76f2f83979e659"
+  },
+  {
+    "candidate_id": "9a91f863f82ca95bddae0f6a",
+    "time": "1990-11-28",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher left Downing Street for the last time and officially informed the Queen of her resignation.",
+    "time_range": null,
+    "evidence_ids": [
+      "48345"
+    ],
+    "job_id": "56ae580513a9a9adfe302a3ce1db6a1aab8bed0375af0bc847459460e7fa6aa3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Thatcher leaving Downing Street and resigning to the Queen; major Thatcher milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-63bc3ace3678ba39"
+  },
+  {
+    "candidate_id": "768fa8977c73dbe18ca3e55f",
+    "time": "2013-04-22",
+    "date_precision": "day",
+    "summary": "The first volume of Charles Moore's authorised biography of Margaret Thatcher is published, revealing a memo from adviser Sir John Hoskyns warning her within two years of becoming prime minister that she was bullying weaker colleagues and abusing her seniority.",
+    "time_range": null,
+    "evidence_ids": [
+      "47487"
+    ],
+    "job_id": "6ab0ba53f63905617280bb5ed31c8750251b3bdcf1c13c738924cd6844d1c020",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Publication of authorised Thatcher biography revealing Hoskyns memo; relevant Thatcher historical milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d033f9ef812b51ee"
+  },
+  {
+    "candidate_id": "94e4994aa5a69bb2ab23e370",
+    "time": "2001-08-21",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher endorses Iain Duncan Smith in the Conservative Party leadership contest.",
+    "time_range": null,
+    "evidence_ids": [
+      "49178"
+    ],
+    "job_id": "096b04a249d80c0cfce4c3102450c3e6b9ec28fc88a2a6d719bf92ea72bd52fe",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "88df877aa79472aad01efe4b",
+    "reason": "Duplicate same-date Thatcher endorsement of Iain Duncan Smith.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-3195b95e1a19c1b0"
+    },
+    "timeline_event_id": "event-3195b95e1a19c1b0"
+  },
+  {
+    "candidate_id": "f230f0f82904c509898cd4b1",
+    "time": "2002-11-13",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher's former foreign secretary Geoffrey Howe delivered a resignation speech to the House of Commons comparing being one of her cabinet ministers to having his bat broken by the team captain.",
+    "time_range": null,
+    "evidence_ids": [
+      "48870"
+    ],
+    "job_id": "57d30645db7ddc9e9c3f2f3698eb290b9411acdbb78dbf6d42daed200ef7014e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Geoffrey Howe's resignation speech is a relevant Thatcher-era milestone; no existing event matches its 2002-11-13 date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ef6ec962014f94d0"
+  },
+  {
+    "candidate_id": "293a60ac5a095c9d6e6049fe",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No topic-related event.",
+    "time_range": null,
+    "evidence_ids": [
+      "47241"
+    ],
+    "job_id": "965db9b9bc0846a5e4f55101c28c5abe8555ae895331974c55e334f8baa87fae",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Explicitly reports no topic-related event, so it contributes nothing to the Thatcher timeline.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "70c4c375b67a1e7485475941",
+    "time": "2014-01-03",
+    "date_precision": "day",
+    "summary": "Newly released 1984 cabinet papers reveal Margaret Thatcher secretly prepared to use troops and declare a state of emergency during the miners' strike over fears Britain would run out of food and grind to a halt.",
+    "time_range": null,
+    "evidence_ids": [
+      "47372"
+    ],
+    "job_id": "477ec6aed5ecd568d172580e64ae24270d55962ec2b7e340952bccac43545bad",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Reveals Thatcher's secret emergency planning during the 1984 miners' strike; relevant historical milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ad1edfeddb9e630b"
+  },
+  {
+    "candidate_id": "cc8c36afd1e569ebf6c92d1b",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "NONE",
+    "time_range": null,
+    "evidence_ids": [
+      "48282"
+    ],
+    "job_id": "1ff77dab75f0e83444140b57363cefb9e4afc6a9e791aaed34b57e12b985949d",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Summary is NONE; no topic-related event to include.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "0aaa5a57d47c25d45e99f365",
+    "time": "2000-10-17",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher is described as having worked like a coal heaver and sleeping only four hours a night, which saved her from harm in the 1984 Brighton bombing.",
+    "time_range": null,
+    "evidence_ids": [
+      "49247"
+    ],
+    "job_id": "7a7097d7506da6c8a9cee87dbffe995c8aa4146c3cad8e99126b05862633c6b9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Describes Thatcher's work habits and survival of the 1984 Brighton bombing; relevant biographical detail.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1b3c49965054e388"
+  },
+  {
+    "candidate_id": "28468992aca80f998dfab17f",
+    "time": "2013-04-16",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher's coffin is brought to the Chapel of St Mary Undercroft in the House of Commons, where a private service is held before her funeral the following day.",
+    "time_range": null,
+    "evidence_ids": [
+      "47029"
+    ],
+    "job_id": "e38fec4e40c269be02eac14676caf76aa2f65721a0be89312d86bad845882c75",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-7579d547ec1ce915",
+    "reason": "Same date and event as existing record of coffin brought to Chapel of St Mary Undercroft.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7579d547ec1ce915"
+  },
+  {
+    "candidate_id": "6bd7b42d6318d8c1b7efb390",
+    "time": "2013-04-17",
+    "date_precision": "day",
+    "summary": "The funeral of former Prime Minister Margaret Thatcher takes place, with her coffin lying in the chapel beneath Westminster Hall the previous night and the service held at St Paul's Cathedral.",
+    "time_range": null,
+    "evidence_ids": [
+      "47133"
+    ],
+    "job_id": "7910c79bb5011cb0931eaff50a41ac6347f5eaba53b4855c7b59f91d46823a7d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-427abcffeb7c1689",
+    "reason": "Same date and event as existing record of Thatcher's funeral at St Paul's Cathedral.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-427abcffeb7c1689"
+  },
+  {
+    "candidate_id": "4b91cc1c2ead1a2d8035f1ff",
+    "time": "2013-04-16",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher's coffin arrives at Westminster.",
+    "time_range": null,
+    "evidence_ids": [
+      "46925"
+    ],
+    "job_id": "52094693e8ab1a8d1a75289d500cfe27ae2259cedf24081e96809cf1d1aff8ea",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-7579d547ec1ce915",
+    "reason": "Same date and event as existing record of coffin arriving at Westminster/Chapel of St Mary Undercroft.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7579d547ec1ce915"
+  },
+  {
+    "candidate_id": "f971ce467f6c7ae5add5465f",
+    "time": "2013-04-17",
+    "date_precision": "day",
+    "summary": "Crowds gathered and dignitaries from 170 countries attended the ceremonial funeral of Margaret Thatcher at St Paul's Cathedral, with the Queen leading mourners and David Cameron defending the event as a fitting tribute.",
+    "time_range": null,
+    "evidence_ids": [
+      "46804"
+    ],
+    "job_id": "2c27b1f1b983e0ad3e834da466f327e35bc47927ff378ce44092dd534b627675",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-427abcffeb7c1689",
+    "reason": "Same date and event as existing record of ceremonial funeral at St Paul's Cathedral.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-427abcffeb7c1689"
+  },
+  {
+    "candidate_id": "8b18db697e53333c4bad2317",
+    "time": "2006-11-22",
+    "date_precision": "day",
+    "summary": "Lord Peyton of Yeovil, who unsuccessfully stood against Margaret Thatcher for the Tory leadership in 1975 and was excluded from her cabinet in 1979, died aged 87.",
+    "time_range": null,
+    "evidence_ids": [
+      "48456"
+    ],
+    "job_id": "a74789e4c791e0809885bb2e15daac99b8da05684b344844b0da703c492d329b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Death of Lord Peyton, who opposed Thatcher for Tory leadership and was excluded from her cabinet; relevant Thatcher-related milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4f0be1be9f7d4475"
+  },
+  {
+    "candidate_id": "acd585604080c5504ac1c0b0",
+    "time": "2005-03-14",
+    "date_precision": "day",
+    "summary": "An edited excerpt from Norman Tebbit's essay in the book \"Margaret Thatcher's Revolution\" discusses Margaret Thatcher's political career, her promotion of certain men who later defeated her, and the resulting divisions in the Conservative party.",
+    "time_range": null,
+    "evidence_ids": [
+      "48431"
+    ],
+    "job_id": "651d4086f5c87671879d663309d20354f60a446479e9786b516cb3773f1451ae",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant retrospective on Thatcher's career and Conservative divisions; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e68c819e42eb1460"
+  },
+  {
+    "candidate_id": "785174a9ad51f1de513adf01",
+    "time": "2008-03-06",
+    "date_precision": "day",
+    "summary": "Former British foreign secretary Francis Pym, who served under Margaret Thatcher during the Falklands War and was later sacked by her, died at age 86 after a prolonged illness.",
+    "time_range": null,
+    "evidence_ids": [
+      "48211"
+    ],
+    "job_id": "d2fe9a3e45f6f6fbc31bb4fbc5ad02752dc604b7589b1a7f9cfcfaeb7d4f5ab9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Death of Thatcher-era foreign secretary Francis Pym; distinct dated milestone, no duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ce24c4ff52c7c58d"
+  },
+  {
+    "candidate_id": "0b53f4c43dd762b8dda423ad",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "46426"
+    ],
+    "job_id": "c492b7456f3cd1e2bc9aa4fa32b68e2cdaa0f1cd77c28dc33ed2a44241bea361",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Clinton tsunami appeal unrelated to Margaret Thatcher.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "95e1e56d9a3c6f92af285170",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "46688"
+    ],
+    "job_id": "469c3bfaee1081a16de75833eecab3b8fc406dc6bbd179b89ba63c3c3be7f1b6",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Appointment of Bush and Clinton for tsunami relief does not involve Margaret Thatcher.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "d32ec6293fd144bffd2072c2",
+    "time": "2013-04-17",
+    "date_precision": "day",
+    "summary": "David Dimbleby is to anchor the BBC's coverage of Margaret Thatcher's ceremonial funeral at St Paul's Cathedral in London.",
+    "time_range": null,
+    "evidence_ids": [
+      "46827"
+    ],
+    "job_id": "186694b211ab319b2e1776e979dbb92e22cc3e5b87c67a8434231d2827690e42",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "BBC funeral coverage anchor is a distinct Thatcher funeral milestone, not identical to existing funeral events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-49737355d0555128"
+  },
+  {
+    "candidate_id": "8aa3afac947396fd003280ea",
+    "time": "2013-04-17",
+    "date_precision": "day",
+    "summary": "The bishop of London claimed in his funeral address that Margaret Thatcher was part of the team that invented Mr Whippy ice-cream, a claim disputed by reports noting there is no firm evidence she directly assisted in the invention of soft ice-cream.",
+    "time_range": null,
+    "evidence_ids": [
+      "46934"
+    ],
+    "job_id": "3b29a04dc779edd532a34c9c1896cce95cc7ad7c72e8787244186ed942533a33",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Funeral address claim about Thatcher and Mr Whippy is a distinct event; existing Mr Whippy event has unknown date, so no merge.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-60735a92a72b1b9f"
+  },
+  {
+    "candidate_id": "0472b49595f6934bb8b4d375",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No main topic-related event involving Margaret Thatcher is reported; the article is a book review that mentions her only as background context.",
+    "time_range": null,
+    "evidence_ids": [
+      "48178"
+    ],
+    "job_id": "d629ec7d94a7748aa8a8a1e366d26cdfe5f7233bb3c8bb00139c9139bac3fca6",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Book review mentions Thatcher only as background context; no topic-related event.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "dd463db4d6c82f310e81d73b",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No single main topic-related event involving Margaret Thatcher is reported; the article discusses her past climate-change speeches and advisers.",
+    "time_range": null,
+    "evidence_ids": [
+      "46743"
+    ],
+    "job_id": "c98f3464089177843ea88a1401bda95967e11cd1406f2b0e8934a1a9bc79690d",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No single topic-related event; article discusses past climate-change speeches and advisers.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "24899f152df1f24afd7ff42f",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No topic-related event found.",
+    "time_range": null,
+    "evidence_ids": [
+      "48161"
+    ],
+    "job_id": "62b28ade77ee6a670ce6d4ebd2a826b2a7d4715a3f848ad49362fd0a430ddde2",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No topic-related event found.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "3b4bca3f21652b74fe456025",
+    "time": "2007-03-01",
+    "date_precision": "day",
+    "summary": "Norman Miscampbell, a progressive Conservative MP who was rejected as a rebellious \"wet\" by Margaret Thatcher and privately warned her against the poll tax, died aged 81.",
+    "time_range": null,
+    "evidence_ids": [
+      "48386"
+    ],
+    "job_id": "fa018a3d5df79752670c255ac34c946a034f22aa3da318d97ef7dbd6ac96d647",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Death of a Conservative MP connected to Thatcher via poll tax warning and rejection as a 'wet'; distinct date and person from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-90ff8cb7a7abff05"
+  },
+  {
+    "candidate_id": "817935e021453756d3abc2f4",
+    "time": "2003-10-30",
+    "date_precision": "day",
+    "summary": "Article mentions Margaret Thatcher failed to win the first leadership ballot in November 1990, but no new event related to her occurs on the publication date.",
+    "time_range": null,
+    "evidence_ids": [
+      "48835"
+    ],
+    "job_id": "d2c424fcd3765d97485423e8d7c940e6e0e85285b1f63f7c6acd6bfb6c2d51bb",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No new Thatcher event on the publication date; only a retrospective mention of the November 1990 leadership ballot.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "97b0919dc13508ace29d7b51",
+    "time": "2013-04-08",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher, Britain's first female prime minister, died at the Ritz hotel in London after suffering a stroke, and it was announced she would receive a ceremonial funeral rather than a state funeral.",
+    "time_range": null,
+    "evidence_ids": [
+      "46865"
+    ],
+    "job_id": "cbbb7f226fe2bc66cb3e4baf13ab57095c1d8347a3499f06ce073509de75f182",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-5e6e64b014cad6ab",
+    "reason": "Same date and same event: Thatcher's death on 2013-04-08, with additional detail on cause and funeral type.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5e6e64b014cad6ab"
+  },
+  {
+    "candidate_id": "9576a13ab8a6ed45b4e8c530",
+    "time": "2013-04-17",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher was given a ceremonial funeral with full military honours at St Paul's Cathedral.",
+    "time_range": null,
+    "evidence_ids": [
+      "47006"
+    ],
+    "job_id": "8e9e05669332ab11b2a50f40ecf55379ef432b11deb158796027c89d9764691e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-427abcffeb7c1689",
+    "reason": "Same date and event: Thatcher's ceremonial funeral at St Paul's Cathedral, already represented by a fuller existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-427abcffeb7c1689"
+  },
+  {
+    "candidate_id": "232a7bdc8fb7fcfba451deb1",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Margaret Thatcher's death was featured on newspaper front pages.",
+    "time_range": null,
+    "evidence_ids": [
+      "46983"
+    ],
+    "job_id": "5837248a198abdc3fb8b874357c3185fe05fe5ed76e6a5bb59f7e0e1e364da5b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: newspaper front-page coverage of Thatcher's death; no existing event matches this death-coverage event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8a1d39061dd436b9"
+  },
+  {
+    "candidate_id": "b13d9fa4fa2838b26855aecb",
+    "time": "2009-02-26",
+    "date_precision": "day",
+    "summary": "The BBC drama \"Margaret\" was broadcast, portraying Margaret Thatcher's final days as prime minister, with an earlier draft containing scenes more critical of her that were cut from the final version.",
+    "time_range": null,
+    "evidence_ids": [
+      "48051"
+    ],
+    "job_id": "3368e3549ef8ce7a8d20cdefa7c7d3ebce4170ad58121c5388483c5430625306",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant cultural milestone: BBC drama about Thatcher's final days as PM; no existing event matches.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0dd4e481cc4881a4"
+  },
+  {
+    "candidate_id": "1a51b8ff032a009efb437967",
+    "time": "2003-08",
+    "date_precision": "month",
+    "summary": "Sir Denis Thatcher, in a posthumously aired TV interview, criticized John Major as a \"ghastly prime minister\" and blamed the 1990 \"treachery\" against Margaret Thatcher for subsequent Conservative defeats.",
+    "time_range": null,
+    "evidence_ids": [
+      "48874"
+    ],
+    "job_id": "4d074fdb8dd73759c14445e503f350f41aac0622d3a68e9d399ff4440e092674",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant posthumous Denis Thatcher interview criticizing Major and referencing the 1990 leadership challenge; no existing event matches.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4b6663ea2cdb6003"
+  },
+  {
+    "candidate_id": "cf450041d252c524c74ebd8b",
+    "time": "2000-04-17",
+    "date_precision": "day",
+    "summary": "Tony Blair, who privately describes Margaret Thatcher as a \"great\" leader, appears to have taken a leaf out of the former prime minister's book by embracing new Russian president Vladimir Putin with such eagerness.",
+    "time_range": null,
+    "evidence_ids": [
+      "49253"
+    ],
+    "job_id": "2a66e23682f15e094515475f00ba8ac86b22946c2fc6337ebd1920c356ffe7d8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant to Thatcher's legacy: Blair's private view of her and emulation in dealing with Putin; no existing event matches.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f7a16dad4d8395c0"
+  },
+  {
+    "candidate_id": "32cac88f07e7e0e881fc0c16",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Margaret Thatcher hailed Mikhail Gorbachev as a man she could do business with, helping open the Soviet Union to the West and unfreeze the Cold War.",
+    "time_range": null,
+    "evidence_ids": [
+      "49385"
+    ],
+    "job_id": "f7fa9f8251929702c67b91b5488f6e4ed8dc7cd790fdae3a43f37abc48b435e9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Thatcher's role in engaging Gorbachev and easing Cold War tensions; no existing event matches.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8eccad7ffa506adc"
+  },
+  {
+    "candidate_id": "d49bec9ff107e5fb7e2c6e9a",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "The article criticizes the Conservative party's foreign policy, stating it revives the worst failures of Margaret Thatcher's foreign policy, but no specific event involving Margaret Thatcher is reported.",
+    "time_range": null,
+    "evidence_ids": [
+      "48253"
+    ],
+    "job_id": "e3b3f43f01c62531b741c412865f7d79fc0ed7a97a2b804e193cb79b840436cc",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No specific Thatcher event reported; only a general criticism of Conservative foreign policy referencing her legacy.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "1b0cb0ed122d6c65a6b318af",
+    "time": "2005-10-06",
+    "date_precision": "day",
+    "summary": "Queen Elizabeth II is to attend Margaret Thatcher's 80th birthday celebration at the Mandarin Oriental Hotel in Knightsbridge.",
+    "time_range": null,
+    "evidence_ids": [
+      "48475"
+    ],
+    "job_id": "661a2cd41023551878bdc585b044d3be4e5ebc76efd42395500ab1a974f5b37f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Queen Elizabeth II attending Thatcher's 80th birthday celebration; no existing event matches.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d9da5556f48e2d2a"
+  },
+  {
+    "candidate_id": "d20682acbcc8eab962686cf6",
+    "time": "2001-05-22",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher publicly declared she would never support the pound joining the euro, undermining William Hague's Conservative Party campaign policy on Europe.",
+    "time_range": null,
+    "evidence_ids": [
+      "49130"
+    ],
+    "job_id": "9534c7af43c324d2cda9244b21afb2fafa79a2e6643c0a09bdecb8addab6cf3c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant political milestone: Thatcher's public opposition to euro membership during the 2001 election campaign; no existing event matches.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-251587ea571144d2"
+  },
+  {
+    "candidate_id": "87799bf2387f1791b5c917bc",
+    "time": "2003-11-22",
+    "date_precision": "day",
+    "summary": "A biography of Margaret Thatcher by John Campbell is reviewed, discussing her premiership and its impact on Britain.",
+    "time_range": null,
+    "evidence_ids": [
+      "48581"
+    ],
+    "job_id": "be4d154ba3c570b08971da690a16a7122671b222fc591f1d8d354c6fd596fa80",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Review of John Campbell's Thatcher biography; relevant milestone in Thatcher historiography, dated 2003-11-22, distinct from existing undated Campbell biography event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1e26f6fbe6c0144a"
+  },
+  {
+    "candidate_id": "4264e1e8f5a1944e7d4cc00b",
+    "time": "2004-07-22",
+    "date_precision": "day",
+    "summary": "Conservative central office, the party headquarters associated with Margaret Thatcher's election victories, closes as staff move to a new building.",
+    "time_range": null,
+    "evidence_ids": [
+      "48691"
+    ],
+    "job_id": "79d056dd9363834d750952158f917112dda38c5f8827860e0a61530a802b6c30",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Closure of Conservative Central Office, tied to Thatcher's election victories; relevant institutional milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f09e2a9e9edc368f"
+  },
+  {
+    "candidate_id": "6150fde62d2633ddacb56c00",
+    "time": "2008-07-14",
+    "date_precision": "day",
+    "summary": "A state funeral is planned for Margaret Thatcher.",
+    "time_range": null,
+    "evidence_ids": [
+      "48040"
+    ],
+    "job_id": "15695743c10ee88191016b3e588ff66dbc0c51e72e3d922fae2c53018d2d85d7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Planned state funeral for Thatcher; relevant milestone, retained as planned/uncertain.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ebacf2c6b03be4bc"
+  },
+  {
+    "candidate_id": "787add18e732a8ef4eafa363",
+    "time": "2001-06-05",
+    "date_precision": "day",
+    "summary": "John Campbell's book \"Margaret Thatcher: The Grocer's Daughter\" is listed among his top 10 political biographies.",
+    "time_range": null,
+    "evidence_ids": [
+      "49026"
+    ],
+    "job_id": "25d459f26083bb3e2665ca134f872468039b6124c281033a2779e92cd30378f6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Listing of John Campbell's Thatcher biography among top political biographies; relevant to Thatcher historiography, dated 2001-06-05.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f1579c8c38ed8a8f"
+  },
+  {
+    "candidate_id": "5361494f27f9ae3bdb304a3b",
+    "time": "2013-04-17",
+    "date_precision": "day",
+    "summary": "The first volume of Charles Moore's authorised biography of Margaret Thatcher, Not For Turning, is published immediately after her funeral.",
+    "time_range": null,
+    "evidence_ids": [
+      "46844"
+    ],
+    "job_id": "4fd912a018b709e050dc09e05e5162e3a9cb04eb188b1ad4328593d667ac4291",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Publication of first volume of Charles Moore's authorised Thatcher biography; relevant post-funeral milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a098717b78bee67e"
+  },
+  {
+    "candidate_id": "dd7c7c97d43b1b7da5dd444a",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "NONE",
+    "time_range": null,
+    "evidence_ids": [
+      "49187"
+    ],
+    "job_id": "75c4193e6e1241352c0c6e27cfaf2a8fffbdf8329fe3e35524e6885a30cbd025",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Summary is NONE; no event content to assess or include.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "0a5e1758adbb0c1ab3d87a34",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Margaret Thatcher is portrayed in multiple television dramatisations, including upcoming BBC2 reconstruction Coup!, with no single main event.",
+    "time_range": null,
+    "evidence_ids": [
+      "48385"
+    ],
+    "job_id": "1efc15347026d83020d58d652f9b6051e3b2832860c3d15125c80c98a038cdda",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Thatcher portrayed in multiple TV dramatisations including Coup!; relevant cultural representation, no single date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-941c9f7998251e86"
+  },
+  {
+    "candidate_id": "54eb34aaa8a17f4b52453b44",
+    "time": "2013-04-08",
+    "date_precision": "day",
+    "summary": "Publishers announce that an authorised biography of Margaret Thatcher and a tribute by her speechwriter Robin Harris will be released later in April, following her death from a stroke.",
+    "time_range": null,
+    "evidence_ids": [
+      "47083"
+    ],
+    "job_id": "0d1b68833b6a1d8da0080791d3ff2cb84edd9eea0fb015607ab43ef491f01876",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Announcement of authorised Thatcher biography and Robin Harris tribute after her death; relevant publication milestone, distinct from existing 2013-04-08 events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-28872d033fa7ad55"
+  },
+  {
+    "candidate_id": "6df1c1a8f46bd496f08370b3",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "46428"
+    ],
+    "job_id": "e8d6b3a6296c8407ae9290edce6f609f3c702bc90c59577c0d503ab462afb99e",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No Margaret Thatcher involvement; unrelated tsunami donation appeal.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "0cd85302e34c339bd9ce97fe",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "46881"
+    ],
+    "job_id": "c2a78c77c5e26f7e3715cc07c96d13dbd64fb0bb4b839bdae8d82533816e3b56",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No Margaret Thatcher involvement; unrelated tsunami donation appeal.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "f6a686c82c468ec8b2eff6e6",
+    "time": "2008-09-12",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher is to return to Chequers at the invitation of Gordon Brown for a low-key lunch to discuss the global downturn.",
+    "time_range": null,
+    "evidence_ids": [
+      "48157"
+    ],
+    "job_id": "fe2b3a1d8062fa66b4212525c925c340e51bc268795e0f957dcca7c5abfad573",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Thatcher returning to Chequers for a lunch with Gordon Brown is a relevant Thatcher milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fed63589fa8d1905"
+  },
+  {
+    "candidate_id": "4b349ed23d006a1be74273e6",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "47536"
+    ],
+    "job_id": "636749ebe7c05c58607e3f951fe668cdc99e2ec6efe218cdf1a19f17fc832a0e",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No Margaret Thatcher involvement; unrelated tsunami donation appeal.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "c7da65071bce55fd206ca75b",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "46936"
+    ],
+    "job_id": "8830b11226ea8a0fb98b8cf3c731b17637f3bea36febd5a70ab74be283c3125f",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No Margaret Thatcher involvement; unrelated tsunami donation appeal.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "5a79c235b4b0dbb7bc39d356",
+    "time": "2012-03-11",
+    "date_precision": "day",
+    "summary": "Secret Thatcher files reveal Rupert Murdoch met Margaret Thatcher at Chequers on 4 January 1981 before his Times takeover bid, contradicting the official Times history's account that they had no communication during the bid period.",
+    "time_range": null,
+    "evidence_ids": [
+      "47357"
+    ],
+    "job_id": "a7cc93fd2ce5b697a8c7d23f663766d73f91c45bd3a04433304e098546f8f2a8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Reveals Thatcher's 1981 Chequers meeting with Murdoch before his Times takeover bid.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-dd2c1faee1dba5b2"
+  },
+  {
+    "candidate_id": "1a2c2c20017ab5dc1ffd15f6",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "47098"
+    ],
+    "job_id": "6c593987937af2a7b0dbedb75fd6e1680e964b319560428a58b19e4ba4f53393",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No Margaret Thatcher involvement; unrelated tsunami donation appeal.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "f51219a238e6da75c64ff5b2",
+    "time": "2005-10-19",
+    "date_precision": "day",
+    "summary": "Article recalls that Margaret Thatcher informed Soviet president Mikhail Gorbachev of the 1988 Armenian earthquake via telegram.",
+    "time_range": null,
+    "evidence_ids": [
+      "48785"
+    ],
+    "job_id": "4040274e2688998f4023ce7316cbd56ae2495b4d855e21819a483f3e9c1947f6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Recalls Thatcher informing Gorbachev of the 1988 Armenian earthquake, a relevant Thatcher action.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1725bd64fc5a740b"
+  },
+  {
+    "candidate_id": "70f0e83f54ab64fc5eda3397",
+    "time": "2005-05-08",
+    "date_precision": "day",
+    "summary": "The British arm of the Margaret Thatcher Foundation, established by Margaret Thatcher in 1991, was formally dissolved at Companies House two days before the general election amid declining finances.",
+    "time_range": null,
+    "evidence_ids": [
+      "48499"
+    ],
+    "job_id": "fd7a2d9991ba2a2c95fc22fa9131de2cd6c537b382c8411d93c9d7ad912f6b2b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Dissolution of the Margaret Thatcher Foundation's British arm is a distinct Thatcher-related organizational milestone with no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-44551af529ecd576"
+  },
+  {
+    "candidate_id": "7bd729b675f83e43134fd46a",
+    "time": "2009-04-04",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher appeared at Chelsea Hospital with Prince Charles to open an infirmary named in her honor.",
+    "time_range": null,
+    "evidence_ids": [
+      "47791"
+    ],
+    "job_id": "08d771f506a8447663cac3d0dd034a29094649c0595e6a77ac86ccffe4826830",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct 2009 public appearance opening an infirmary named in her honor; contributes to post-premiership timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-be3f448c57fb78ea"
+  },
+  {
+    "candidate_id": "3a04a8c0ca05b0f47330bcd6",
+    "time": "2015-12-30",
+    "date_precision": "day",
+    "summary": "Newly released National Archives documents reveal that Margaret Thatcher was allegedly given an undeclared diamond and emerald necklace by a Middle Eastern oil minister in 1982, prompting concern inside No 10.",
+    "time_range": null,
+    "evidence_ids": [
+      "46526"
+    ],
+    "job_id": "41ba3acd59e77bb921d964912ae150956674563657a94be6ffdb9e3af5a29f22",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct 2015 archival disclosure about an alleged 1982 gift; adds new historical detail.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-13b4103d65b0727f"
+  },
+  {
+    "candidate_id": "3d4cc606e412d896955fd4d9",
+    "time": "2013-04-08",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher's death marks the end of an era, prompting reflection on her role alongside Ronald Reagan in remaking conservatism and the West.",
+    "time_range": null,
+    "evidence_ids": [
+      "46868"
+    ],
+    "job_id": "b39f05ed3800966bd97f64163e3799d6db2cd843cea68beccf62a4c05284648b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-5e6e64b014cad6ab",
+    "reason": "Same date and event as existing announcement of Thatcher's death; duplicate death milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5e6e64b014cad6ab"
+  },
+  {
+    "candidate_id": "4aeb9a8d5ec1fe2d4e5c0de8",
+    "time": "2006-02",
+    "date_precision": "month",
+    "summary": "A musical based on the life of Margaret Thatcher, \"Thatcher: The Musical,\" is set to have its UK premiere at the Warwick Arts Centre.",
+    "time_range": null,
+    "evidence_ids": [
+      "48384"
+    ],
+    "job_id": "628b0665f11af9f3a42f5fd1ef3baa98c593351232ac5f68ac7475db633189c1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant cultural milestone: UK premiere of a Thatcher-themed musical.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-99458c9d80a9b418"
+  },
+  {
+    "candidate_id": "6235a3d095ee8c787084f776",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "46462"
+    ],
+    "job_id": "18d30797f917f09920fb7159e15b7253763a92f4817d6138df09312c01d18b90",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Concerns tsunami fundraising by Bush and Clinton; no Thatcher relevance.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "13d8cded3a883476ef582c07",
+    "time": "2002-02-14",
+    "date_precision": "day",
+    "summary": "ITV1 announces a three-part documentary about Margaret Thatcher's rise to become the UK's first woman prime minister, to be delivered in December.",
+    "time_range": null,
+    "evidence_ids": [
+      "48926"
+    ],
+    "job_id": "bec60066acb1cd98a3dfffb55b37efbe5acc17b99491a70a3d06a0ef99242a69",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant media milestone: ITV1 announces Thatcher documentary.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c4d705b5089e6675"
+  },
+  {
+    "candidate_id": "f2b7f3f1b4b8bfef0ad07395",
+    "time": "2013-04-30",
+    "date_precision": "day",
+    "summary": "Charles Moore's authorized biography of Margaret Thatcher outsold Robin Harris's biography in first-week sales.",
+    "time_range": null,
+    "evidence_ids": [
+      "46776"
+    ],
+    "job_id": "8da666739820f175bcc55285eaca76125069530b849f369227ce6e162f4479b1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant posthumous biography sales milestone; date differs from existing biography publication events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-83d534bdb1c0eb63"
+  },
+  {
+    "candidate_id": "9862a1fdb955b358153d3567",
+    "time": "2017-01-12",
+    "date_precision": "day",
+    "summary": "Margaret Thatcher was added to the Oxford Dictionary of National Biography with a 30,000-word biography, the third longest entry in the work.",
+    "time_range": null,
+    "evidence_ids": [
+      "46372"
+    ],
+    "job_id": "dd7a4d9af4c57ec13a4018818b34fb0b286954915ee786b29763d89aac74805e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant posthumous recognition: Thatcher added to Oxford DNB.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-21f1d5b72492b847"
+  },
+  {
+    "candidate_id": "43b3390023d3c01ee7afeef8",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "46962"
+    ],
+    "job_id": "d282798bb0fb2a86fa868bcad108ca4f470c5e148ccbf39e92996e694e608bd8",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Concerns a tsunami relief appeal by Bush and Clinton; no connection to Margaret Thatcher.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "d1ba6a0d6337e167148d522a",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "47114"
+    ],
+    "job_id": "5e6a32f58efdd4ac622a79b5a19e49561aba83e74d15985435086309206a1b5b",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Concerns a tsunami relief appeal by Bush and former presidents; no Margaret Thatcher involvement.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "2b88ad4c7d32ca12ad0fde77",
+    "time": "2013-04-09",
+    "date_precision": "day",
+    "summary": "Martin McGuinness calls for an end to republicans celebrating Margaret Thatcher's death, while further celebrations are planned for her funeral next week.",
+    "time_range": null,
+    "evidence_ids": [
+      "47209"
+    ],
+    "job_id": "e3ad6f505156af93f0f066bf443604c82f347f2dda2025989b75ec68e39a78ba",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant post-death milestone: McGuinness calls for an end to celebrations of Thatcher's death ahead of her funeral.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-06aa77eeda0d7da5"
+  },
+  {
+    "candidate_id": "dc329bc7a53fc3454d0b73e3",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "46503"
+    ],
+    "job_id": "5d3db91145ceb5fdfdaf8e4b1d093c29c52a82222ca9ee84d5cd6354a93e156b",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Duplicate of the tsunami relief appeal item and unrelated to Margaret Thatcher.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "19a271c5fba7cccb5cb12e1c",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No topic-related event involving Margaret Thatcher is reported; the article only mentions her name in a headline comparison about state schools.",
+    "time_range": null,
+    "evidence_ids": [
+      "46422"
+    ],
+    "job_id": "04185ca06d37e13501703aafcd6637e8c0f586699d78571225c9ae227de90e66",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No topic-related Thatcher event; only a headline comparison mentions her name.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "bf56965188e80306f0770fd8",
+    "time": "2013-04-08",
+    "date_precision": "day",
+    "summary": "Commentators reflect on Margaret Thatcher's legacy in theatre and the arts following her death, focusing on her shift from public subsidy to corporate sponsorship and the lasting effect of her values on British culture.",
+    "time_range": null,
+    "evidence_ids": [
+      "46999"
+    ],
+    "job_id": "4d838d06d31ee5b537bf9b0b354232818e241e71939c6a0224f30633c101b084",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant reflection on Thatcher's cultural legacy after her death; distinct from existing death-related events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f3a1fab3d22838cc"
+  },
+  {
+    "candidate_id": "bb0b4c0b85ee695bf7c194b8",
+    "time": "2008-02-02",
+    "date_precision": "day",
+    "summary": "A new play by Tom Green speculates on the legacy and supposed death of former Prime Minister Margaret Thatcher.",
+    "time_range": null,
+    "evidence_ids": [
+      "48131"
+    ],
+    "job_id": "ffe5a52fd45ad921671883039e179ccba22b66feb9209d0fc151cf6e1b80c29a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant cultural milestone: a play about Thatcher's legacy and supposed death.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-99b212b209f9c066"
+  },
+  {
+    "candidate_id": "4047f282ac3e9b56c23f829d",
+    "time": "2006-02-08",
+    "date_precision": "day",
+    "summary": "Foursight Theatre's musical production about Margaret Thatcher premiered at the Warwick Arts Centre.",
+    "time_range": null,
+    "evidence_ids": [
+      "48533"
+    ],
+    "job_id": "870a7dce91f348229677f43bc76f20339e8ea8f5646a2e63d8b6eca604561b29",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant cultural milestone: premiere of a musical production about Thatcher.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8a2fd32eada4daf7"
+  },
+  {
+    "candidate_id": "999f6c17406793117a8459ea",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "47082"
+    ],
+    "job_id": "76677acbf185671fe0675964854a3a9ee7edd080fd86bffcb5798f3965840704",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Not related to Margaret Thatcher; concerns Bush and Clinton tsunami appeal.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "1af4356377095c7746bd24cb",
+    "time": "2008-10-03",
+    "date_precision": "day",
+    "summary": "An exhibition preview discusses a group show curated by Olivia Plender that questions the results of Margaret Thatcher's 1978 \"There is no alternative\" call to individualism.",
+    "time_range": null,
+    "evidence_ids": [
+      "48083"
+    ],
+    "job_id": "987f47dbfb17d80c37015c8dcadfa35028cef9e2aef8ea096530902f08854f61",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant cultural event: exhibition questioning Thatcher's individualist legacy.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bba3840ada502319"
+  },
+  {
+    "candidate_id": "dcf4c236f53e6b7c380635af",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No topic-related event involving Margaret Thatcher is reported; the article only mentions her in passing regarding her lack of interest in the arts.",
+    "time_range": null,
+    "evidence_ids": [
+      "48373"
+    ],
+    "job_id": "c173c962c0e56e378619d45159f1c4833e76bfbaf89edde55f44e1a233de6063",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No topic-related event; Thatcher only mentioned in passing.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "1b412c77617b1d0a591388e1",
+    "time": "2013-04-08",
+    "date_precision": "day",
+    "summary": "After Margaret Thatcher's death was announced, the producers of Billy Elliot: the Musical asked audience members to vote on whether a song calling for her death should be performed, and it was performed after a near-unanimous verdict.",
+    "time_range": null,
+    "evidence_ids": [
+      "47229"
+    ],
+    "job_id": "6d6d00a110d2e0f8afb1fed7199574de527294e54e50e309c83c334b515c66b1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant cultural reaction to Thatcher's death; distinct from existing death-related events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e3ee64a69cdf8053"
+  },
+  {
+    "candidate_id": "3065d954410502e31348ad14",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "No main topic-related event involving Margaret Thatcher is reported; the article discusses songs about her and her policies.",
+    "time_range": null,
+    "evidence_ids": [
+      "46695"
+    ],
+    "job_id": "3817fee4acfb3601dfa93d8f5fa86235883729d1e337dd9984a1399b008e587c",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "No topic-related event; article only discusses songs about Thatcher.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "0d729bd5e55c50ff56e26d53",
+    "time": "2009-02-26",
+    "date_precision": "day",
+    "summary": "BBC2's docudrama about Margaret Thatcher's fall from power, starring Lindsay Duncan, attracted an average audience of 2.6 million viewers.",
+    "time_range": null,
+    "evidence_ids": [
+      "47932"
+    ],
+    "job_id": "ae3727543ef7fd83b62acc36efb82406dae250c64631f1c90514386a6e26518f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-0dd4e481cc4881a4",
+    "reason": "Same date and same BBC drama about Thatcher's fall; duplicate of existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0dd4e481cc4881a4"
+  },
+  {
+    "candidate_id": "cd2f6e1af4b04a589d076f2f",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "46489"
+    ],
+    "job_id": "74c30a738439b3795eb432e1ba4085d0f51d486b146766891230a5959a5984d0",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Clinton tsunami appeal unrelated to Margaret Thatcher.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "9b7de2ba3248028746dae70c",
+    "time": "2016-01-18",
+    "date_precision": "day",
+    "summary": "Denis Thatcher wrote a letter to BBC board of governors chairman Marmaduke Hussey condemning a satirical Radio 4 story about Margaret Thatcher legalising hard drugs as \"disgraceful and libellous.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "46489"
+    ],
+    "job_id": "74c30a738439b3795eb432e1ba4085d0f51d486b146766891230a5959a5984d0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Denis Thatcher's complaint about a satirical BBC portrayal of Margaret Thatcher is a relevant Thatcher-related milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a66229a00244c163"
+  },
+  {
+    "candidate_id": "d072b654ea0fca02c369f6ad",
+    "time": "2007-08-20",
+    "date_precision": "day",
+    "summary": "The BBC removed a scene from a drama about Margaret Thatcher in which she was depicted swearing, after complaints that she did not use bad language.",
+    "time_range": null,
+    "evidence_ids": [
+      "48179"
+    ],
+    "job_id": "1602083c44b391dd660c713a30f31c84e600132f30f676b5257a36e4d12d9410",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "BBC removing a Thatcher drama scene over complaints is a relevant Thatcher portrayal event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5564fd519c2a7871"
+  },
+  {
+    "candidate_id": "a9e1098fb48f28306f701510",
+    "time": "2002-01-12",
+    "date_precision": "day",
+    "summary": "A revival of Caryl Churchill's 1982 play Top Girls, which was inspired by Margaret Thatcher's election and right-wing feminism, is acclaimed in London as a modern classic.",
+    "time_range": null,
+    "evidence_ids": [
+      "49061"
+    ],
+    "job_id": "ea0f8eb1573e94820b09e507362f8b65910514c249548144d86f8dd2367ae28d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Acclaimed revival of a play inspired by Thatcher's election is a relevant cultural milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c4c4ed6c2d8493d7"
+  },
+  {
+    "candidate_id": "7346efaf89393f0ea44d54f9",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "49333"
+    ],
+    "job_id": "c8654fd15d12c6461d5975496f3dbf31e630de8424b7bbd356e11a6dbb82babc",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Bush/Clinton tsunami appeal unrelated to Margaret Thatcher.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "1b3407707b27205f29f62f04",
+    "time": "1999-10-04",
+    "date_precision": "day",
+    "summary": "John Major's memoirs reveal he secretly drew up plans to stand for the Tory leadership while publicly supporting Margaret Thatcher during the 1990 leadership contest that led to her downfall.",
+    "time_range": null,
+    "evidence_ids": [
+      "49333"
+    ],
+    "job_id": "c8654fd15d12c6461d5975496f3dbf31e630de8424b7bbd356e11a6dbb82babc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Revelation about John Major's secret leadership plans during Thatcher's 1990 downfall is a relevant Thatcher-era milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0913682df5a21575"
+  }
+]

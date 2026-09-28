@@ -1,0 +1,4238 @@
+[
+  {
+    "candidate_id": "0eea8a58e6b44843185cd627",
+    "time": "2009-06-25",
+    "date_precision": "day",
+    "summary": "Michael Jackson died of a heart attack, causing a surge in sales of his existing albums and leaving an unreleased comeback album unfinished.",
+    "time_range": null,
+    "evidence_ids": [
+      "50894"
+    ],
+    "job_id": "72206d0cf47120d692322e2b051822a79b53da297dda31c63c316dd433186c6c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jackson's death is a central milestone; includes sales surge and unfinished album.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df4832a375a8d61f"
+  },
+  {
+    "candidate_id": "12d4a0dbc3fe5613a0454407",
+    "time": "2010-11-05",
+    "date_precision": "day",
+    "summary": "A new Michael Jackson album featuring previously unheard tracks is set for release on 14 December in the UK, the first with new material since his 2009 death.",
+    "time_range": null,
+    "evidence_ids": [
+      "50577"
+    ],
+    "job_id": "f236de6ad349696b6f6177815b205e5a64acf0ed4bca4d3e9bf3ba5a3b34d893",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "First posthumous album with new material marks a distinct later milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-86a80985bf2a526b"
+  },
+  {
+    "candidate_id": "f4bcd9f4e5b7409e2e55b64a",
+    "time": "2009-08-25",
+    "date_precision": "day",
+    "summary": "The lawyer for Michael Jackson's former doctor, Conrad Murray, rejects \"police theory\" concerning the singer's death, disputing reported statements and the timeline of Murray's actions on the morning Jackson died.",
+    "time_range": null,
+    "evidence_ids": [
+      "50662"
+    ],
+    "job_id": "5b92d858672cf0bccd24ea8f2a85f154ff2e2da64f77dd75494aab20da4ade86",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Conrad Murray lawyer's rejection of police theory is a distinct post-death legal development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bd529faa5ec6d755"
+  },
+  {
+    "candidate_id": "ed00af8deff7b315b9b31e1d",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Michael Jackson's death anniversary is observed.",
+    "time_range": null,
+    "evidence_ids": [
+      "50625"
+    ],
+    "job_id": "bf5b69054c8940ea5b1263ab6f177cbc78d7f3cf80487e8f3e79a7b59b91dc1c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Death anniversary observance is relevant but undated, so cannot merge with dated death event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c95d5ecda4372d2e"
+  },
+  {
+    "candidate_id": "6d0b9490df4b78b13a723bdb",
+    "time": "2007-03-08",
+    "date_precision": "day",
+    "summary": "Michael Jackson is scheduled to attend a Premium VIP party in Japan where fans pay up to $3,500 to shake his hand and have their photo taken.",
+    "time_range": null,
+    "evidence_ids": [
+      "51243"
+    ],
+    "job_id": "f0dd6b37d1a95bbf30b2ee6d1bee556a8573ae5dc46cab8f44d9d7b8750a129d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Pre-death VIP fan event is a distinct Jackson-related milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-dd888cb3a3b08c1e"
+  },
+  {
+    "candidate_id": "199f297b443e1f4ed8c071ff",
+    "time": "2014-06-25",
+    "date_precision": "day",
+    "summary": "Five years after Michael Jackson's death, his legacy and influence on global culture, fame, dance, celebrity privacy, and music are examined.",
+    "time_range": null,
+    "evidence_ids": [
+      "50355"
+    ],
+    "job_id": "425730846d1ffaada7401a22452f282f47e5a0ca816444e9e13abb480c413d33",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Five-year legacy retrospective is a distinct later milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d13bb0df5971661d"
+  },
+  {
+    "candidate_id": "4abc44e736c7c229271dd49a",
+    "time": "2009-06-25",
+    "date_precision": "day",
+    "summary": "Michael Jackson died aged 50 of a cardiac arrest in a Los Angeles hospital.",
+    "time_range": null,
+    "evidence_ids": [
+      "50668"
+    ],
+    "job_id": "7a432639d52a69f40f008423c4ccc3dab69bf0f0d0b0767acc97e7a4a2534c3c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "0eea8a58e6b44843185cd627",
+    "reason": "Same date and event as Jackson's death; duplicate of the death milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-df4832a375a8d61f"
+    },
+    "timeline_event_id": "event-df4832a375a8d61f"
+  },
+  {
+    "candidate_id": "e318a648b3dd4ebb0b71f64c",
+    "time": "2009-06-25",
+    "date_precision": "day",
+    "summary": "Michael Jackson died of cardiac arrest at a Los Angeles hospital.",
+    "time_range": null,
+    "evidence_ids": [
+      "50711"
+    ],
+    "job_id": "cfd962ba8a790542d7ef5795f9ceb753d363581a416b68527c53a1522bdc9e59",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "0eea8a58e6b44843185cd627",
+    "reason": "Same date and event as Jackson's death; duplicate of the death milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-df4832a375a8d61f"
+    },
+    "timeline_event_id": "event-df4832a375a8d61f"
+  },
+  {
+    "candidate_id": "3d3052465ea09cfea39708ea",
+    "time": "2010-02-08",
+    "date_precision": "day",
+    "summary": "Officials announced they will file a criminal case against Michael Jackson's former doctor, Conrad Murray, expected to be a charge of involuntary manslaughter in connection with Jackson's death.",
+    "time_range": null,
+    "evidence_ids": [
+      "50730"
+    ],
+    "job_id": "91b36fb5d218e7876536e4f9202f52d225d292aa598f951a7cfd582751c4b309",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in the Conrad Murray criminal case; distinct date from existing Murray-related event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9b8f080e58d04b07"
+  },
+  {
+    "candidate_id": "45b87aeb5d27f0dd5a5ce885",
+    "time": "2002-08-29",
+    "date_precision": "day",
+    "summary": "Michael Jackson accepted a non-existent Artist of the Millennium award at the MTV Video Music Awards after Britney Spears accidentally offered it to him.",
+    "time_range": null,
+    "evidence_ids": [
+      "51520"
+    ],
+    "job_id": "9539a76aeab1d623a5a6f09fa6706670f7d68adb88ebfc998e8051bbbc6dca9b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Michael Jackson career/awards milestone; no duplicate in existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-95b9606aff213482"
+  },
+  {
+    "candidate_id": "f5f75add6ef84a12d5f66b7c",
+    "time": "2009-11-21",
+    "date_precision": "day",
+    "summary": "Michael Jackson memorabilia, including the rhinestone-encrusted white glove he wore when he first Moonwalked in 1983, sold at auction at the Hard Rock Cafe in New York for $350,000, part of 70 items that raised $2 million.",
+    "time_range": null,
+    "evidence_ids": [
+      "50661"
+    ],
+    "job_id": "3043b2e92a7f2622fbab61fdafa1fa85c7791751dcade8899fbb73405ff2fb7d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant memorabilia auction milestone; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-205d3f2109482b9e"
+  },
+  {
+    "candidate_id": "7029437e3c21ede81e53bc63",
+    "time": "2006-11-15",
+    "date_precision": "day",
+    "summary": "Michael Jackson attended the World Music Awards in London, did not perform as announced, accepted a Diamond award, and sang a few lines of \"We Are The World\" before his voice faded out.",
+    "time_range": null,
+    "evidence_ids": [
+      "51295"
+    ],
+    "job_id": "7a12580654d7721c78cd75ab2512777661f02d4cad07e02a18cd48d857510852",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Michael Jackson public appearance and award; no duplicate in existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b75b6bba1d5deeab"
+  },
+  {
+    "candidate_id": "4919a2bb06ae72eb1d828181",
+    "time": "2001-07-23",
+    "date_precision": "day",
+    "summary": "Michael Jackson quits as chief executive of Channel 4 to become president and chief executive officer of USA Entertainment Group.",
+    "time_range": null,
+    "evidence_ids": [
+      "51613"
+    ],
+    "job_id": "c04c4317214a870660c912dee002c7cbbf9a3a8d1a19969423fd214a91a9702e",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Concerns a different Michael Jackson (Channel 4 executive), not the singer.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "2bf91b94cae18ab5f8ecbddc",
+    "time": "2009-11-23",
+    "date_precision": "day",
+    "summary": "Michael Jackson memorabilia fetches $2m.",
+    "time_range": null,
+    "evidence_ids": [
+      "50624"
+    ],
+    "job_id": "02d5f13c7d336c3580512b0c02c6d52919a1620b96168f8e78ae69486f15eb56",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant memorabilia auction milestone; date differs from the similar 2009-11-21 auction, so it is a separate dated occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-88afab6cdc760d07"
+  },
+  {
+    "candidate_id": "de099fad0449e133ee454891",
+    "time": "2009-06-26",
+    "date_precision": "day",
+    "summary": "Fans pay tribute to Michael Jackson.",
+    "time_range": null,
+    "evidence_ids": [
+      "50721"
+    ],
+    "job_id": "34e86866a7703b0039e37a523bb13aafafb9be3be87123e87b0c411e8a69a566",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant fan tribute after Jackson's death; no duplicate in existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a20e1d51c0dfa18f"
+  },
+  {
+    "candidate_id": "e3000f6815a82cb8220cbba7",
+    "time": "2014-05-18",
+    "date_precision": "day",
+    "summary": "A hologram of Michael Jackson is reportedly set to perform at the Billboard music awards.",
+    "time_range": null,
+    "evidence_ids": [
+      "50364"
+    ],
+    "job_id": "3bcbb9048ca8ee5de6a03acdea2240d0c4d503091efeb4c1f5a58f9848988f89",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant posthumous Michael Jackson performance event; no duplicate in existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8e202d3645ebe7a5"
+  },
+  {
+    "candidate_id": "35f46c9d9f0a724b9bfff8e5",
+    "time": "2009-06-30",
+    "date_precision": "day",
+    "summary": "Michael Jackson's death is discussed, with Steven Spielberg's description of him as \"a fawn in a burning forest\" noted as an insightful characterization.",
+    "time_range": null,
+    "evidence_ids": [
+      "50802"
+    ],
+    "job_id": "8633e7f158d6bac56115990925741ecab51f2b0acd549ccc776fd89d2741d250",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant discussion of Michael Jackson's death and its characterization; contributes a distinct dated item.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2e6f3eb5d724fed3"
+  },
+  {
+    "candidate_id": "9463368de30db233890d31b4",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "50462"
+    ],
+    "job_id": "6a0d3bd9c8262e98b4392b79cce59f376f34448cf327fb6628010d6f40c9a695",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "About tsunami donation appeal by Bush and Clinton; no Michael Jackson relevance.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "e84bb9b3a7550b0be059386b",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Michael Jackson received 12 Grammy nominations in 1983 after Thriller, mentioned as a past record in an article about Kanye West's 2004 nominations.",
+    "time_range": null,
+    "evidence_ids": [
+      "51550"
+    ],
+    "job_id": "266bd2848ae272c8ace4f54ce32133cd960392ed0172fe630e2d17a289dfb8ec",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Michael Jackson Grammy nomination milestone; unknown date prevents merge.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f4e5f6526f3f2923"
+  },
+  {
+    "candidate_id": "36ffb3502bfa7a951e2c00c2",
+    "time": "2009-04",
+    "date_precision": "month",
+    "summary": "An auction of more than 2,000 items from Michael Jackson’s private collection and Neverland ranch is scheduled to be held at the Beverly Hilton hotel in Los Angeles.",
+    "time_range": null,
+    "evidence_ids": [
+      "51066"
+    ],
+    "job_id": "c266fafcbc67de23a10098769681e52e5924a9add92c38f4b36a0aff8130a448",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant planned auction of Jackson collection; distinct from existing auction events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b8161493e80821fc"
+  },
+  {
+    "candidate_id": "bc2b2c28ee22883d99bb5530",
+    "time": "2010-01-31",
+    "date_precision": "day",
+    "summary": "A 3D video segment from Michael Jackson's aborted O2 residency is set to air at the Grammy awards as part of a tribute to the singer.",
+    "time_range": null,
+    "evidence_ids": [
+      "50643"
+    ],
+    "job_id": "5c88747b82a15cd274ae4cee2f3229bdcedc8291b6a571e90a01a44081c5b990",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Grammy tribute using O2 residency footage; distinct dated event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-729a5199f24f2472"
+  },
+  {
+    "candidate_id": "9474a8a5597f0af17bd47230",
+    "time": "2009-06-26",
+    "date_precision": "day",
+    "summary": "Michael Jackson's family says his mother Katherine has been named the sole legal guardian of his three children in his will, while a custody fight looms with his ex-wife Debbie Rowe.",
+    "time_range": null,
+    "evidence_ids": [
+      "50988"
+    ],
+    "job_id": "8bcb0b1bedcc7fc2ed215fca5cde0fd84ceb8639c2f91d2012b1195931ce162c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant guardianship development after Jackson's death; distinct from fan tribute event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-591d61ac382ca3f3"
+  },
+  {
+    "candidate_id": "bc5f1f620ba939c0a34e20d9",
+    "time": "2013-04-02",
+    "date_precision": "day",
+    "summary": "Jury selection began in a $40bn wrongful death lawsuit brought by Michael Jackson's mother, Katherine, against concert promoter AEG Live, which claims the company was negligent in hiring Conrad Murray to care for her son.",
+    "time_range": null,
+    "evidence_ids": [
+      "50428"
+    ],
+    "job_id": "db2fc62e332fb04841df85fad802fd9a18b6477a33eadf61c5da506a27e08c41",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant wrongful death lawsuit milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-70cdc962d6d4df46"
+  },
+  {
+    "candidate_id": "d57b08deb31d590fa8d48f0d",
+    "time": "2007-04-05",
+    "date_precision": "day",
+    "summary": "Michael Jackson is considering legal action to block an auction of Jackson family memorabilia, including his gold disc for Thriller, scheduled for May 30 and 31 in Las Vegas.",
+    "time_range": null,
+    "evidence_ids": [
+      "51234"
+    ],
+    "job_id": "6ed05177deca25d267da9dce2c4bb0ea758e186a09207be3ab41331fdbf9de0e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Jackson legal action over memorabilia auction; distinct from later auction event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ae62f863b7cc8daf"
+  },
+  {
+    "candidate_id": "15dae6e6c240c6e863ba045e",
+    "time": "2009-11-10",
+    "date_precision": "day",
+    "summary": "A Los Angeles judge ruled that Michael Jackson's father, Joe Jackson, lacks legal standing to challenge the executors of the singer's estate, clearing the way for John Branca and John McClain to be confirmed as executors.",
+    "time_range": null,
+    "evidence_ids": [
+      "50827"
+    ],
+    "job_id": "e10e19e9f5c0982f48a2f1d506facee14ed8dbadbe9c63af7dd6ae4f320edef6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Estate executor ruling is a distinct post-death legal milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d7f82b6d85960eaf"
+  },
+  {
+    "candidate_id": "eb8b10883e2a443bf577d2b0",
+    "time": "2005-03-10",
+    "date_precision": "day",
+    "summary": "Michael Jackson arrived late to court in pyjama bottoms after the judge ordered his arrest for failing to appear, and his accuser testified that Jackson masturbated him twice.",
+    "time_range": null,
+    "evidence_ids": [
+      "51380"
+    ],
+    "job_id": "0afd3754b768c62c78d1a59d3eebb7b09374657e8b8d9bb306ec5762ce059b56",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Key development in the 2005 child molestation trial.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9fa550448c49b2d7"
+  },
+  {
+    "candidate_id": "eb6beb7e11088c905e8259ce",
+    "time": "2003-11-25",
+    "date_precision": "day",
+    "summary": "Michael Jackson launched a website dismissing child molestation charges as \"a big lie\" and said he would try his case in court, not in the media.",
+    "time_range": null,
+    "evidence_ids": [
+      "51364"
+    ],
+    "job_id": "19aa0b6eb3f2f8b0eb96058d8825ec07b1348b0716a8951f0352f39e4d52cb34",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jackson's public response to the 2003 charges is a relevant milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-adb838aba239f3e8"
+  },
+  {
+    "candidate_id": "966febaaba7cc67bde5ab658",
+    "time": "2009-06-28",
+    "date_precision": "day",
+    "summary": "Following Michael Jackson's death, conflicting reports emerge about whether his ex-wife Debbie Rowe will seek custody of their two eldest children, with Rowe's attorney saying she will seek to look after them while the Times reports she has indicated she will not mount a custody suit.",
+    "time_range": null,
+    "evidence_ids": [
+      "50990"
+    ],
+    "job_id": "49864dbced5db25a377079d569ba80d276eb42e6dbde0619d148b27341c95778",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Custody dispute reports after Jackson's death; distinct date from existing custody event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fab127f3ee1109ef"
+  },
+  {
+    "candidate_id": "11d3d495a9318956bb0590d1",
+    "time": "2012-09-25",
+    "date_precision": "day",
+    "summary": "The 25-year anniversary re-release of Michael Jackson's album Bad includes an unreleased track, Song Groove (Abortion Papers), which has generated controversy.",
+    "time_range": null,
+    "evidence_ids": [
+      "50496"
+    ],
+    "job_id": "b9ac73e29eb5a6cb15891d4fcc8b5792670b95e2db8395f5e24c478175d4835e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Bad anniversary re-release with controversial unreleased track is a distinct music milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-94f47f80a12a9d73"
+  },
+  {
+    "candidate_id": "4db9ccbcc134dcd28575dd6e",
+    "time": "2009-07-01",
+    "date_precision": "day",
+    "summary": "Michael Jackson's will was filed in a Los Angeles court, leaving his entire estate to a family trust and naming Diana Ross as potential guardian of his children.",
+    "time_range": null,
+    "evidence_ids": [
+      "50923"
+    ],
+    "job_id": "66e1fbd8c7179fd6203eeb55237fadc28df04a5b26e650ed185546ac50c958cd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Filing of Jackson's will is a distinct estate milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1e7124e821879b56"
+  },
+  {
+    "candidate_id": "89c6b63c6c0cca3419fb8f94",
+    "time": "2004-04-21",
+    "date_precision": "day",
+    "summary": "A Californian grand jury decides there is enough evidence for Michael Jackson to stand trial on child sex abuse charges, which he has denied.",
+    "time_range": null,
+    "evidence_ids": [
+      "51481"
+    ],
+    "job_id": "6fcc8d9d09d1ac18ced8456ba548350ac2a8184b05b591f466553d87567c4c38",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Grand jury indictment is a key legal milestone in the child abuse case.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bf39bd7180e222ed"
+  },
+  {
+    "candidate_id": "8c6f23a379b713d47bd57000",
+    "time": "2005-03-18",
+    "date_precision": "day",
+    "summary": "Michael Jackson appeared in court wearing a smart black trousers, crisp white shirt, red tie, and wire-framed spectacles, a notable change from his earlier foppish courtroom attire.",
+    "time_range": null,
+    "evidence_ids": [
+      "51290"
+    ],
+    "job_id": "d33c82fbe5041cbb88fe047441a416cd0da5fd0adb3a7436388aa8550f83cbc2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Court appearance and change in attire during the 2005 trial is a distinct dated occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e1d0e34089d9a786"
+  },
+  {
+    "candidate_id": "06b08e95e673ed5fd58fe1b1",
+    "time": "2005-03-01",
+    "date_precision": "day",
+    "summary": "In Michael Jackson's child molestation trial, the prosecution called Martin Bashir as its first witness and showed his documentary Living With Michael Jackson, while Jackson's defense sought to have the documentary and Bashir's testimony struck from the record.",
+    "time_range": null,
+    "evidence_ids": [
+      "51381"
+    ],
+    "job_id": "9fb947b480f68d4b59c9481d81743bca4194d9fd6f028167bf1359fc76d32970",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in Jackson's 2005 child molestation trial; distinct date from existing trial event (2005-03-10), so no merge.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fd304508737aa269"
+  },
+  {
+    "candidate_id": "3c3162b00c49e785c91ffbfd",
+    "time": "2009-02-15",
+    "date_precision": "day",
+    "summary": "The contents of Michael Jackson's Neverland ranch are to be put up for auction in April, with proxy bidding opening today.",
+    "time_range": null,
+    "evidence_ids": [
+      "51001"
+    ],
+    "job_id": "93be96a97fab9b67a545c9f59e3215748cc63284f843195d4b4011f67b1c64bf",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Proxy bidding opening for the Neverland auction is a distinct dated milestone; date differs from the existing April 2009 auction event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0478fb2144b74845"
+  },
+  {
+    "candidate_id": "731601177133ea53da26cff7",
+    "time": "2009-04-14",
+    "date_precision": "day",
+    "summary": "A huge auction of Michael Jackson memorabilia from his Neverland estate was cancelled, with auctioneers agreeing to return all items to the singer.",
+    "time_range": null,
+    "evidence_ids": [
+      "50736"
+    ],
+    "job_id": "fc805e976477a197c0cc92c09c9b079825d673e21c60b22877924604c188e98c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Cancellation of the Neverland memorabilia auction is a distinct milestone from the scheduled auction.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-71c8ee97692fd4ed"
+  },
+  {
+    "candidate_id": "82ea52a82c629f437855eb22",
+    "time": "2007-05-30",
+    "date_precision": "day",
+    "summary": "An auction of over 1,100 lots of Jackson family memorabilia, including Michael Jackson's costumes and Neverland purchase contract, is expected to be held at the Hard Rock hotel in Las Vegas after Michael Jackson's lawyers dropped an effort to block it.",
+    "time_range": null,
+    "evidence_ids": [
+      "51231"
+    ],
+    "job_id": "b0e70e3dd27962f45032f8c35dc4a4d3dee21c1838301c82b2bbffe099421681",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jackson family memorabilia auction proceeding after legal challenge is a distinct 2007 auction event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c9ce323e6221b308"
+  },
+  {
+    "candidate_id": "019e2ca7a00fbd49daf792d2",
+    "time": "2010-12-17",
+    "date_precision": "day",
+    "summary": "Items from the house where Michael Jackson died, including the bed in which he died, are to be auctioned.",
+    "time_range": null,
+    "evidence_ids": [
+      "50490"
+    ],
+    "job_id": "dce6d3b776da2420b136cfe500b54871f04b548fd022ac14a68d7dc9bc4c754b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Announcement that items from Jackson's death house are to be auctioned is a distinct post-death memorabilia event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-83ea1dfa73df8c11"
+  },
+  {
+    "candidate_id": "f10bf76f54672f7ad1902872",
+    "time": "2008-05-13",
+    "date_precision": "day",
+    "summary": "Michael Jackson narrowly escaped a foreclosure auction for his Neverland ranch after an investment firm, Colony Capital, bought the loan.",
+    "time_range": null,
+    "evidence_ids": [
+      "51200"
+    ],
+    "job_id": "3679d07986a3d47e3c239ddccb62aa8ed44afa56bd712c112c172ce7f8cce8a9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Neverland foreclosure auction avoided via Colony Capital loan purchase is a distinct financial milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2c4aa7761b833b52"
+  },
+  {
+    "candidate_id": "6ca0a570fb3c40fdb07aa329",
+    "time": "2011-12-10",
+    "date_precision": "day",
+    "summary": "Julien's Auctions is holding an auction of the contents of Michael Jackson's last residence, including a blackboard inscribed by his daughter Paris and an armoire with his handwritten note, though the bed in which he died was withheld at his family's request.",
+    "time_range": null,
+    "evidence_ids": [
+      "50467"
+    ],
+    "job_id": "0670c272ba550605a6e924c84902ee08b3713d0cbf893022113990bb87bedec8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Julien's auction of contents from Jackson's last residence is a distinct later auction event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-85ddabbc0e84ed5a"
+  },
+  {
+    "candidate_id": "b253999b81ea2540e834ad44",
+    "time": "2009-01-28",
+    "date_precision": "day",
+    "summary": "John Landis sues Michael Jackson for failing to hand over his share of profits from the Thriller video.",
+    "time_range": null,
+    "evidence_ids": [
+      "51000"
+    ],
+    "job_id": "aff867282b9832600729f32b677456329d5d5c542599b8930c6f505b4d34655e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "John Landis lawsuit over Thriller profits is a distinct legal milestone in Jackson's career.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-cb08ae7f87a8f9ec"
+  },
+  {
+    "candidate_id": "6e46e727587822718fc42dca",
+    "time": "2008-12-12",
+    "date_precision": "day",
+    "summary": "An auction of Michael Jackson's personal memorabilia, including his white glove and the gates of Neverland ranch, is announced for April in Beverly Hills.",
+    "time_range": null,
+    "evidence_ids": [
+      "51023"
+    ],
+    "job_id": "59cbc7a6771e7046fa7585ad72e919a56cbeafc7dd87956b1339683795671057",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Announcement of the April Beverly Hills auction of Jackson memorabilia and Neverland gates is a distinct dated announcement; date differs from the existing April 2009 auction event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-20de088dacb9de66"
+  },
+  {
+    "candidate_id": "b11db290c2f98c6442e1562a",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to launch a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "50323"
+    ],
+    "job_id": "e3c0e854bfda3857e99ebbe85647b89ae3c1a5848f76461f89963bc380b7a4c4",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Tsunami relief appointment unrelated to Michael Jackson.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "44341c71bb7d034071e3f444",
+    "time": "2009-01-29",
+    "date_precision": "day",
+    "summary": "John Landis sues Michael Jackson for failing to pay his share of profits from the Thriller video.",
+    "time_range": null,
+    "evidence_ids": [
+      "50851"
+    ],
+    "job_id": "f9ba511cd6304004cd41582e555e6a897b5b8ef6b3ff613b9d412a1a8baf190f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "John Landis lawsuit over Thriller profits is a relevant Jackson milestone; date differs from existing Landis lawsuit event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f851a86c4ff4e0e9"
+  },
+  {
+    "candidate_id": "097781c7990a187e342aca8b",
+    "time": "2005-06-13",
+    "date_precision": "day",
+    "summary": "Michael Jackson was acquitted of child sex charges, leading to a surge in US radio airplay of his songs.",
+    "time_range": null,
+    "evidence_ids": [
+      "51394"
+    ],
+    "job_id": "dd386b03587c7ebc44a47488ec990cf65f22d81396d1e0d1f7973d9f22b1b98b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Acquittal on child sex charges is a major Jackson milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ad5ec13a1c77b041"
+  },
+  {
+    "candidate_id": "5e940cb3216224b1b9511d22",
+    "time": "2010-10-27",
+    "date_precision": "day",
+    "summary": "Hollywood studios are reportedly competing for the chance to produce a new film based on Michael Jackson's groundbreaking Thriller video and song, with Kenny Ortega in line to direct.",
+    "time_range": null,
+    "evidence_ids": [
+      "50613"
+    ],
+    "job_id": "d2473d3258c34a84e0a85497640da7a6477c612eb55deba42fbe52e358e49f26",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Thriller film adaptation competition is a relevant posthumous Jackson-related development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6685f9ac162c1e9f"
+  },
+  {
+    "candidate_id": "35de0483f08b8bcf83014620",
+    "time": "2008-11-07",
+    "date_precision": "day",
+    "summary": "Michael Jackson's Thriller video is rumored to be adapted into a Broadway musical, with no confirmation of Jackson's involvement.",
+    "time_range": null,
+    "evidence_ids": [
+      "51010"
+    ],
+    "job_id": "d73cf1758956bc3e6c0f7ef090ce5547bb4b4f6ef4b0220cdf1edbe677aa10be",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Rumored Thriller Broadway musical is a relevant Jackson-related milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e172fd5ccd154add"
+  },
+  {
+    "candidate_id": "89f7d229830544d82f19c0b8",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "50400"
+    ],
+    "job_id": "463bf80a7f1ef83f06a528c4b0afd7cdf4f06724b771834e9e11f46b74b83e3d",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Duplicate tsunami relief appointment unrelated to Michael Jackson.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "aca4bf5731dfff90b17b6ef6",
+    "time": "2009-07-22",
+    "date_precision": "day",
+    "summary": "Ian Brown says his forthcoming solo album My Way was inspired by Michael Jackson, though it was conceived before Jackson’s death and mastered on the day Jackson died.",
+    "time_range": null,
+    "evidence_ids": [
+      "50768"
+    ],
+    "job_id": "9c4923f55c70f4294a6c8a4da3aef8adb4fa9197f778acdc46b592a3c1719eb4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Ian Brown album inspired by Michael Jackson is a relevant posthumous influence milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fe5d61c23d76041f"
+  },
+  {
+    "candidate_id": "b96d2b96fb5e93dafa3de33c",
+    "time": "2005-06-13",
+    "date_precision": "day",
+    "summary": "Michael Jackson's career decline culminates in a courtroom appearance in Santa Maria amid allegations.",
+    "time_range": null,
+    "evidence_ids": [
+      "51429"
+    ],
+    "job_id": "17f8645dc1ddcfd38d195fc2ad8478ddab6ffd12e4b708c7b36e65418350111e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "097781c7990a187e342aca8b",
+    "reason": "Same date and same 2005-06-13 courtroom event as the acquittal candidate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-ad5ec13a1c77b041"
+    },
+    "timeline_event_id": "event-ad5ec13a1c77b041"
+  },
+  {
+    "candidate_id": "59e8d983a2b19b4807def83e",
+    "time": "2008-10-31",
+    "date_precision": "day",
+    "summary": "Michael Jackson denies plans to record or tour with his siblings, contradicting Jermaine Jackson's claim of a Jackson 5 reunion.",
+    "time_range": null,
+    "evidence_ids": [
+      "51162"
+    ],
+    "job_id": "2100d9778063736773cc4898b21cc8b56bdbfa9cdf772dabff37632d186405e3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jackson's denial of a Jackson 5 reunion is a relevant career milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4ddf35b18e30fe23"
+  },
+  {
+    "candidate_id": "736973928b98ce827095771e",
+    "time": "2009-06-25",
+    "date_precision": "day",
+    "summary": "Michael Jackson died, prompting a personal reflection on his life and cultural impact.",
+    "time_range": null,
+    "evidence_ids": [
+      "50991"
+    ],
+    "job_id": "692e1f212feba49bfc8ddb07a97860c4cf782b122d29176b02d17b920e110904",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-df4832a375a8d61f",
+    "reason": "Same date and event as existing record of Jackson's death.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df4832a375a8d61f"
+  },
+  {
+    "candidate_id": "e2a0c6ac45e9be067324ae17",
+    "time": "2009-07-16",
+    "date_precision": "day",
+    "summary": "A report indicates that no new Michael Jackson material may be released until 2012 due to a contract with Sony Music.",
+    "time_range": null,
+    "evidence_ids": [
+      "50687"
+    ],
+    "job_id": "d99c018b472152e9ee45b157820288caef63a57a06373d106b5e1ace3b5eb4f4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Report on Sony contract delaying new Jackson material is a relevant posthumous release development.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c2ad86695d4eaf6f"
+  },
+  {
+    "candidate_id": "077d39461579ab1a82baabf6",
+    "time": "2009-06-26",
+    "date_precision": "day",
+    "summary": "Michael Jackson, the pop star whose career spanned from the Jackson 5 to years of controversy, died, prompting a retrospective of his troubled life.",
+    "time_range": null,
+    "evidence_ids": [
+      "50900"
+    ],
+    "job_id": "d48e6554c73309803e919395525c5aea37f5179ffaf3f9d32803559f9d4d1eed",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Retrospective on Jackson's death dated June 26; distinct from June 25 death event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f12891411495c43d"
+  },
+  {
+    "candidate_id": "6afaba916616191bb9c4eb37",
+    "time": "2010-12-12",
+    "date_precision": "day",
+    "summary": "A posthumous Michael Jackson album titled Michael is reviewed, featuring unfinished material completed by collaborators, amid controversy over the authenticity of some vocals.",
+    "time_range": null,
+    "evidence_ids": [
+      "50514"
+    ],
+    "job_id": "0f5072fb3d8feefbb68c1906713b41306607caeb8873792bc9a8aec43f1c89ab",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Review of posthumous album Michael is a relevant release milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-63ecad0d877b79ab"
+  },
+  {
+    "candidate_id": "48e7c164e3818454ff39d264",
+    "time": "2009-07-07",
+    "date_precision": "day",
+    "summary": "Following Michael Jackson's death, fans worldwide posted their own cover versions of his songs on YouTube.",
+    "time_range": null,
+    "evidence_ids": [
+      "50660"
+    ],
+    "job_id": "4a25e8b9e9f7dd2dea0c78f7c14833200822404a60864ee9a40137bf5c0b9c47",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Fan cover tributes after Jackson's death are a relevant cultural response.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-46d6722993aeca04"
+  },
+  {
+    "candidate_id": "7a86ea0de525bf17b37088a0",
+    "time": "2009-07-01",
+    "date_precision": "day",
+    "summary": "Michael Jackson's will was published, leaving his entire estate to a family trust and naming Diana Ross as potential guardian of his three children if his mother Katherine is unable or unwilling to act.",
+    "time_range": null,
+    "evidence_ids": [
+      "50893"
+    ],
+    "job_id": "41a740d9b451e7722ee05f75a72c56ac841d1f787f3c3384acf5ae5323658bbb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-1e7124e821879b56",
+    "reason": "Same date and event as existing record of Jackson's will being published/filed.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1e7124e821879b56"
+  },
+  {
+    "candidate_id": "403f460597a4c8189e079438",
+    "time": "2016-01-22",
+    "date_precision": "day",
+    "summary": "Spike Lee's documentary \"Michael Jackson's Journey from Motown to Off the Wall,\" exploring Jackson's evolution from child star to solo artist, is reviewed ahead of its Showtime broadcast.",
+    "time_range": null,
+    "evidence_ids": [
+      "50317"
+    ],
+    "job_id": "2c76daa74f94fc202556417af9749e169d87c54210a12bf19f607ce5e4d3e750",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Review of Spike Lee's Jackson documentary is a relevant retrospective milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-cc08ef2f95bcfc33"
+  },
+  {
+    "candidate_id": "46ecb0ced65e9a4270709eda",
+    "time": "2009-01-22",
+    "date_precision": "day",
+    "summary": "A Michael Jackson tribute show, Thriller Live, co-produced by Adrian Grant, opens in the West End.",
+    "time_range": null,
+    "evidence_ids": [
+      "51118"
+    ],
+    "job_id": "afb9806f5594ef6c02ccf1671270d90dab5165369694d8ec55e7c9f23c49d2bd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Michael Jackson tribute show opening in the West End is a relevant milestone in his posthumous legacy; no existing event shares its 2009-01-22 date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fb75f6078342b979"
+  },
+  {
+    "candidate_id": "c938d6ed4ad10d9cf0dbb1be",
+    "time": "2009-06-30",
+    "date_precision": "day",
+    "summary": "Michael Jackson's family is planning to put his body on display at Neverland on Friday for a public farewell.",
+    "time_range": null,
+    "evidence_ids": [
+      "51033"
+    ],
+    "job_id": "835ab92286dc31e4ef6005159f42dc6e4be88a794e6d026e63708b6276b4ac46",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant post-death funeral planning milestone; distinct from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e224f205b4ad09c2"
+  },
+  {
+    "candidate_id": "0ae425e62cf41c0ee2f0c0e1",
+    "time": "2009-07-01",
+    "date_precision": "day",
+    "summary": "Michael Jackson's family cancelled plans for a public or private viewing at Neverland ranch, stating that plans for a public memorial are underway and will be announced shortly.",
+    "time_range": null,
+    "evidence_ids": [
+      "50922"
+    ],
+    "job_id": "a3844a5aaf749f2202076e4ca7a224fab2952f187dde4200df41183ad0a09b4f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant update: Neverland viewing cancelled and public memorial planned.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-00b929c011093102"
+  },
+  {
+    "candidate_id": "8160df72d13a4bda26cd02b0",
+    "time": "2009-09-03",
+    "date_precision": "day",
+    "summary": "Michael Jackson is to be buried in a private ceremony at the Holly Terrace in the Great Mausoleum at Forest Lawn cemetery in Los Angeles.",
+    "time_range": null,
+    "evidence_ids": [
+      "50741"
+    ],
+    "job_id": "0266ee6aa453ce6b669c990ebd317962230fa91ba773baac377f0baa8b6b410d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant burial milestone; distinct date and event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6f87ea7a2f1aaae5"
+  },
+  {
+    "candidate_id": "38e198165df220b4857929d8",
+    "time": "2009-06-29",
+    "date_precision": "day",
+    "summary": "Michael Jackson's mother Katherine Jackson was granted temporary guardianship of his three children after filing for custody in Los Angeles Superior Court.",
+    "time_range": null,
+    "evidence_ids": [
+      "50983"
+    ],
+    "job_id": "11a30d118977ab1fecd8bcdc1f4e8ba235242534be9661d2228538fdb93a520c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant guardianship development; distinct from existing custody/guardianship events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-dbb73c36247e8ec7"
+  },
+  {
+    "candidate_id": "4823719e4d3a197fb0881074",
+    "time": "2009-06-25",
+    "date_precision": "day",
+    "summary": "Michael Jackson died, as reported the following day, ahead of his planned 50-date London concert series.",
+    "time_range": null,
+    "evidence_ids": [
+      "51085"
+    ],
+    "job_id": "c57f877af78a4aa3aa48faa7050ae11722a061c4b419c2718ee68f77809b840d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-df4832a375a8d61f",
+    "reason": "Same date and same core event as existing Michael Jackson death event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df4832a375a8d61f"
+  },
+  {
+    "candidate_id": "3352a442e9624bc6d61a56de",
+    "time": "2001-09-07",
+    "date_precision": "day",
+    "summary": "Michael Jackson plays a \"champagne and caviar\" concert in New York to herald his first album in six years and celebrate his 30th year as a solo artist.",
+    "time_range": null,
+    "evidence_ids": [
+      "51572"
+    ],
+    "job_id": "fb621ba44a45eda7ebc8c23875cdf83e10c83236f1a344327a4b214fe3762ac5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant career milestone concert; distinct from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b7798bb97de124a0"
+  },
+  {
+    "candidate_id": "cbbfa5127789a2cdef3e6a62",
+    "time": "2009-06-25",
+    "date_precision": "day",
+    "summary": "Michael Jackson's death prompted tributes and vigils at the Glastonbury festival, where fans gathered to honor the singer.",
+    "time_range": null,
+    "evidence_ids": [
+      "50704"
+    ],
+    "job_id": "a747b9d2ebdf072a6245e9dd6ea99f9bc83973f7b2ad24d878b47899bbab67cf",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant tribute/vigil event; distinct from existing death event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4babfaff763b2b03"
+  },
+  {
+    "candidate_id": "1c66fb892371773a2c49465b",
+    "time": "2009-06-30",
+    "date_precision": "day",
+    "summary": "Authorities in California discuss a plan to put Michael Jackson's body on public display at Neverland on Friday for a public farewell.",
+    "time_range": null,
+    "evidence_ids": [
+      "51044"
+    ],
+    "job_id": "f219d6bacf7cf1e784fd04060ee09272dd5a9fce29d98ce8d04ec1ebbc12010b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "c938d6ed4ad10d9cf0dbb1be",
+    "reason": "Same date and same Neverland public display plan as candidate c938d6ed4ad10d9cf0dbb1be.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-e224f205b4ad09c2"
+    },
+    "timeline_event_id": "event-e224f205b4ad09c2"
+  },
+  {
+    "candidate_id": "2be51c3c59d3cb9d9284abb1",
+    "time": "2009-08-29",
+    "date_precision": "day",
+    "summary": "Michael Jackson's 51st birthday was celebrated with a party in New York hosted by director Spike Lee.",
+    "time_range": null,
+    "evidence_ids": [
+      "50850"
+    ],
+    "job_id": "c8b745cfea66391831f108f614ef75511a64623226e525b775f1cb2d82256c89",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Posthumous 51st birthday celebration hosted by Spike Lee; distinct milestone not in existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-368d04dc246739f3"
+  },
+  {
+    "candidate_id": "825e0be9b279fab497325efc",
+    "time": "2011-07-25",
+    "date_precision": "day",
+    "summary": "Katherine Jackson announces a Michael Jackson tribute concert will be held at the Millennium Stadium in Cardiff on 8 October, prompting Jermaine and Randy Jackson to criticize the event as ill-timed due to Conrad Murray's criminal trial.",
+    "time_range": null,
+    "evidence_ids": [
+      "50542"
+    ],
+    "job_id": "913379da26b3f35fa854c3ae54694df5153986b123969b84bed5698036dc7bd0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Announcement of Cardiff tribute concert and family criticism; distinct 2011 event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-803cb7ce83153c6d"
+  },
+  {
+    "candidate_id": "896cbcce5b27df3914e0d3bb",
+    "time": "2009-06-25",
+    "date_precision": "day",
+    "summary": "Michael Jackson died of a heart attack in a Los Angeles hospital.",
+    "time_range": null,
+    "evidence_ids": [
+      "50710"
+    ],
+    "job_id": "2795f8be402584aef540c329c62187744042754442e9aa68513d278d59943824",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-df4832a375a8d61f",
+    "reason": "Same date and event as existing death record; duplicate of Michael Jackson's death.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df4832a375a8d61f"
+  },
+  {
+    "candidate_id": "5733f6bed6e18eddbfe59ae5",
+    "time": "2009-06-25",
+    "date_precision": "day",
+    "summary": "Michael Jackson died in Los Angeles aged 50.",
+    "time_range": null,
+    "evidence_ids": [
+      "50708"
+    ],
+    "job_id": "19119d30dedeb3cb0213688f1df078a1333383e359d9dee8c6e4c4da3809e067",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-df4832a375a8d61f",
+    "reason": "Same date and event as existing death record; duplicate of Michael Jackson's death.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df4832a375a8d61f"
+  },
+  {
+    "candidate_id": "d847cb9617ea5e8d30d1cee0",
+    "time": "2009-06-25",
+    "date_precision": "day",
+    "summary": "Michael Jackson was pronounced dead at a Los Angeles hospital after being brought there by ambulance from his rented mansion.",
+    "time_range": null,
+    "evidence_ids": [
+      "50908"
+    ],
+    "job_id": "d4d35e938727150875b993a01f6f4a7dc82006c4e765cc97cf8467772198fcc6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-df4832a375a8d61f",
+    "reason": "Same date and event as existing death record; duplicate of Michael Jackson's death.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df4832a375a8d61f"
+  },
+  {
+    "candidate_id": "b5a055c05db0acb72bfd8e43",
+    "time": "2011-09",
+    "date_precision": "month",
+    "summary": "Members of Michael Jackson's family, including brother Tito and sister Rebbie, are to collaborate with producer David Gest on a touring tribute, \"A Jackson named Michael: Remembering a legend,\" planned to begin next March.",
+    "time_range": null,
+    "evidence_ids": [
+      "50471"
+    ],
+    "job_id": "33c0932adcf2846fd6689818ab4f2e0affca03e0a5c52811e610bca83cbca82e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Planned family touring tribute announced September 2011; distinct from Cardiff concert and other events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e3f64552b2fc8191"
+  },
+  {
+    "candidate_id": "09c0e1e64fbaa0a559d32376",
+    "time": "2009-06-30",
+    "date_precision": "day",
+    "summary": "Fans flock to the Apollo theatre for a Michael Jackson tribute.",
+    "time_range": null,
+    "evidence_ids": [
+      "50807"
+    ],
+    "job_id": "292e7193375ae3dda04c2e390a56b47ea8d552d72037524ee237127c806a86fb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Apollo Theatre tribute gathering on 2009-06-30; distinct from existing same-date events about death discussion and Neverland display.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b191e1fdd9ef1bca"
+  },
+  {
+    "candidate_id": "7ab85572f8d06f07fee9ee92",
+    "time": "2009-08-20",
+    "date_precision": "day",
+    "summary": "More than a million fans allegedly tried to log in to the website of an upcoming Michael Jackson tribute concert, crashing its servers before the lineup was announced.",
+    "time_range": null,
+    "evidence_ids": [
+      "50745"
+    ],
+    "job_id": "6ce0e03793b38745cac8ddad370860b93dc1fccd592045190c8e51aea6408629",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone about fan demand crashing servers for a Michael Jackson tribute concert; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-72d3cb94c5977e3d"
+  },
+  {
+    "candidate_id": "7263039106b7f49aca87e73b",
+    "time": "2011-08-15",
+    "date_precision": "day",
+    "summary": "Global Live Events dropped Kiss from the Michael Jackson tribute concert after complaints over Gene Simmons's remarks, and the Jackson estate sent a letter expressing multiple concerns about the show.",
+    "time_range": null,
+    "evidence_ids": [
+      "50504"
+    ],
+    "job_id": "19901cda1595f42315525cd562d189be9608e3e5c176b597aceda742e2077884",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant development in the Cardiff tribute concert controversy; distinct date and no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9d36a3586cd26fe9"
+  },
+  {
+    "candidate_id": "b5406122217bb3d967cbdfb5",
+    "time": "2011-10-11",
+    "date_precision": "day",
+    "summary": "Michael Jackson's family announced a two-day tribute concert in Tokyo, where several of his brothers will perform to benefit children affected by Japan's March earthquakes.",
+    "time_range": null,
+    "evidence_ids": [
+      "50485"
+    ],
+    "job_id": "3f042741dd41437c642d1d280ef69fc13088c64460e505edba7d6818062faeae",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant announcement of a Tokyo tribute concert benefiting earthquake-affected children; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3fa732d657ca0b46"
+  },
+  {
+    "candidate_id": "01108dea5a491756b1319ba2",
+    "time": "2011-10-14",
+    "date_precision": "day",
+    "summary": "Michael Jackson's brothers Jackie, Tito, Marlon and Jermaine are to reunite for tribute concerts in Tokyo on 14-15 October 2011, with Japanese-American pop star AI filling in for the late singer.",
+    "time_range": null,
+    "evidence_ids": [
+      "50603"
+    ],
+    "job_id": "27ea3debe06a2d708aef59ddaa981b48f04a0ccdbd016d74dc4bcf25edfec19a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant details about the Tokyo tribute concerts and Jackson brothers' reunion; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e61cdf8d55d3370f"
+  },
+  {
+    "candidate_id": "178e57a454d3fa9707d40756",
+    "time": "2011-08-16",
+    "date_precision": "day",
+    "summary": "Kiss were reportedly added to the lineup for October's Michael Jackson tribute concert in Cardiff, drawing outrage from Jackson's fans due to Gene Simmons's prior allegations that Jackson was a paedophile.",
+    "time_range": null,
+    "evidence_ids": [
+      "50503"
+    ],
+    "job_id": "5a14e68bed083b182f61a84a9f43b4075594f04006ac5c31abce3c9c78efa659",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant development in the Cardiff tribute concert lineup controversy; distinct date and no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-639fabb3f3ebc5c2"
+  },
+  {
+    "candidate_id": "211c55a9f2218fc40cd64e08",
+    "time": "2011-11",
+    "date_precision": "month",
+    "summary": "Michael Jackson's estate is in early talks with Hollywood producers about making a biopic of the late singer's life, though no deal is yet in place.",
+    "time_range": null,
+    "evidence_ids": [
+      "50441"
+    ],
+    "job_id": "eee99fa077ed6ef98ea20f6f092dff419bddedfdbb471a16570463774bec8934",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone about early talks for a Michael Jackson biopic; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b7d634b5eb77f6ef"
+  },
+  {
+    "candidate_id": "6959c96e1f27de4e4f235808",
+    "time": "2017-08-31",
+    "date_precision": "day",
+    "summary": "The 30th anniversary of Michael Jackson's album Bad, released in 1987, is marked.",
+    "time_range": null,
+    "evidence_ids": [
+      "50276"
+    ],
+    "job_id": "166051d92d6d8f7307cc0bb72099750ab6278a08dd1f6d496a17f39e7e6de403",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant anniversary milestone for Michael Jackson's Bad album; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-44342eec4a8aa459"
+  },
+  {
+    "candidate_id": "0579aff90f6fb722934cc802",
+    "time": "2009-07-23",
+    "date_precision": "day",
+    "summary": "Daughtry knocked Michael Jackson's Number Ones album off the top of the US album charts, ending its run at No 1 since Jackson's death on 2009-06-25.",
+    "time_range": null,
+    "evidence_ids": [
+      "50774"
+    ],
+    "job_id": "8b00750572fa60aecdf54c1ca23662df80ec77975a2cf479cfa9e23c62da5fa8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant chart milestone ending Michael Jackson's posthumous No. 1 run; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-82c0e1c307c90c19"
+  },
+  {
+    "candidate_id": "dfa4d1fb9fa11c67a96c5092",
+    "time": "2009-06-28",
+    "date_precision": "day",
+    "summary": "Michael Jackson's album Number Ones reached the top of the UK album chart following a surge in sales after his death.",
+    "time_range": null,
+    "evidence_ids": [
+      "50806"
+    ],
+    "job_id": "8a8818396f46bab953b823bc0f01b82628af85e99c3656eab639c284a21e8d35",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Posthumous chart milestone for Jackson's Number Ones; distinct date from existing death event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e2c587eb6ab66bb4"
+  },
+  {
+    "candidate_id": "fb1e9de390a1452117571e26",
+    "time": "2012-09-25",
+    "date_precision": "day",
+    "summary": "Michael Jackson's album Bad will be reissued for its 25th anniversary, featuring a previously unseen 1988 Wembley concert video and unreleased demos.",
+    "time_range": null,
+    "evidence_ids": [
+      "50494"
+    ],
+    "job_id": "4b12fb0e3b7b598ea92a14e7cdc73aaa109185f70664c1cf75e7ac870b10bb2d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-94f47f80a12a9d73",
+    "reason": "Same date and topic as existing Bad 25th anniversary reissue event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-94f47f80a12a9d73"
+  },
+  {
+    "candidate_id": "61ece9f81311bd9330e8a6ef",
+    "time": "2012-07-11",
+    "date_precision": "day",
+    "summary": "Spike Lee is in the final stages of post-production on a documentary about Michael Jackson's 1987 album Bad, featuring unreleased songs and interviews, due later in 2012 to coincide with the album's 25th anniversary reissue.",
+    "time_range": null,
+    "evidence_ids": [
+      "50419"
+    ],
+    "job_id": "8c1707ef41107389b7d4b194403b9215942a1ec45c506f8c419f7cc29c1fb4cb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Spike Lee Bad documentary production milestone; distinct date from review and reissue events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f5b1ab271264ba1c"
+  },
+  {
+    "candidate_id": "3a12f4e37bde3994b43f1cb3",
+    "time": "2016-01-18",
+    "date_precision": "day",
+    "summary": "David Bowie surpassed Michael Jackson's ARIA chart record for most albums in the top 100 by a single artist, with 17 albums, while equalling Jackson's record of 13 albums in the top 50.",
+    "time_range": null,
+    "evidence_ids": [
+      "50306"
+    ],
+    "job_id": "c628683c3bb1ae363d5e665ffbd50746e3fdfcc19dc267b6208e13454af1c9c4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "David Bowie surpassing Jackson's ARIA chart record is a Jackson-related chart milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9eadbe405c568718"
+  },
+  {
+    "candidate_id": "da2e46d11634aaedf1c63ab3",
+    "time": "2010-11",
+    "date_precision": "month",
+    "summary": "A posthumous Michael Jackson album of unreleased tracks is planned for release in November.",
+    "time_range": null,
+    "evidence_ids": [
+      "50580"
+    ],
+    "job_id": "fa16bcb83c1f00a87bb800217037dbbd61570fd47f240fbc3a3c7cd8077eaa0b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Planned posthumous album release; month precision differs from existing December release event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3599f725a2be8829"
+  },
+  {
+    "candidate_id": "5bc8c14c0471581b4e8e9f52",
+    "time": "2012-08-31",
+    "date_precision": "day",
+    "summary": "Spike Lee's documentary film Bad 25, a warm and celebratory study of Michael Jackson's 1987 album Bad, is reviewed.",
+    "time_range": null,
+    "evidence_ids": [
+      "50565"
+    ],
+    "job_id": "3683f65d12c44173cd034ee941b5988bab977c996a754a35661060ac4042f8d4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Review of Spike Lee's Bad 25 documentary; distinct date from production and reissue events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-eeb263e35bd6c2d4"
+  },
+  {
+    "candidate_id": "c0cf25a12a1b9a7fc8d4dfde",
+    "time": "2009-06-25",
+    "date_precision": "day",
+    "summary": "Michael Jackson died, and his album Number Ones surged to the top of the UK album chart following his death.",
+    "time_range": null,
+    "evidence_ids": [
+      "50814"
+    ],
+    "job_id": "8e85a8ba1607873ed2a7fbf3f785914cc100e95b86ba792544d51b51db5fb86f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-df4832a375a8d61f",
+    "reason": "Same date and core event as existing Michael Jackson death event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df4832a375a8d61f"
+  },
+  {
+    "candidate_id": "23551397c1dbb56ab1c28952",
+    "time": "2004-04-12",
+    "date_precision": "day",
+    "summary": "Los Angeles police announced they are investigating a new allegation of child abuse against Michael Jackson by a person claiming to have been a victim in the late 1980s.",
+    "time_range": null,
+    "evidence_ids": [
+      "51521"
+    ],
+    "job_id": "e00db6d838365de9e6200978ce111b76fa3720c94c2b4ee503bd9b1ee75feb86",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "New child abuse allegation investigation; relevant Jackson legal milestone with distinct date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a7b6d6a4d7b8cb97"
+  },
+  {
+    "candidate_id": "9759cd4edb5ed45a156ca111",
+    "time": "2003-11-19",
+    "date_precision": "day",
+    "summary": "An arrest warrant was issued for Michael Jackson on multiple charges of child molestation, accusing him of lewd and lascivious behavior with a child under 14.",
+    "time_range": null,
+    "evidence_ids": [
+      "51534"
+    ],
+    "job_id": "d239eca32d63b7544e5843a7826cc46979d5dfd5470ef4deb58f75bb21a00560",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: arrest warrant issued on child molestation charges; distinct date from other events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c822afb9e42e7a97"
+  },
+  {
+    "candidate_id": "42633914fbec449d8bfa6bfd",
+    "time": "2005-04-04",
+    "date_precision": "day",
+    "summary": "In Michael Jackson's child molestation trial, the jury heard testimony from Jason Francia, who alleged that Jackson sexually molested him on three occasions over 16 years ago and gave him money to keep silent.",
+    "time_range": null,
+    "evidence_ids": [
+      "51501"
+    ],
+    "job_id": "e3aa3951c2a1deb258666ee537941d04efa829d6e03a9a93fc02ed2eb31fff5d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant trial testimony from Jason Francia; distinct dated occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9fdf12204b4d27f9"
+  },
+  {
+    "candidate_id": "280797d59c770c0ae0af073b",
+    "time": "2003-11-30",
+    "date_precision": "day",
+    "summary": "Prosecutors investigating child abuse allegations against Michael Jackson have encountered embarrassing setbacks, including the district attorney's apology for calling Jackson \"Wacko Jacko,\" while Jackson's camp has scored public relations victories and no charges have been filed yet.",
+    "time_range": null,
+    "evidence_ids": [
+      "51583"
+    ],
+    "job_id": "1ce7c2408c29ce8bb1f6760bc681e4a5a2936ac9b2939ccc4e0eb173c2ecbca1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant update on investigation setbacks before charges; distinct date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b51b4c8c12aabfa6"
+  },
+  {
+    "candidate_id": "5a3af01b52049ac74b57b0a8",
+    "time": "2005-04-11",
+    "date_precision": "day",
+    "summary": "In Michael Jackson's child molestation trial, the mother of a boy who reached a multimillion-dollar settlement with Jackson in the 1990s testified that Jackson was \"sobbing and crying, shaking and trembling\" when she initially said he could not share her son's bed, and that she later relented.",
+    "time_range": null,
+    "evidence_ids": [
+      "51410"
+    ],
+    "job_id": "39b7f7c8c61fdd1ac98e018fed114661252d170b82ca077906828336424b5cfc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant trial testimony about 1990s settlement; distinct dated occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-77278e85d8b79d15"
+  },
+  {
+    "candidate_id": "bde2a869500fb0bfdf61b8c1",
+    "time": "2005-03-28",
+    "date_precision": "day",
+    "summary": "A California judge ruled that evidence of prior child molestation allegations could be considered at Michael Jackson's trial, a serious setback for the pop star.",
+    "time_range": null,
+    "evidence_ids": [
+      "51392"
+    ],
+    "job_id": "41a541db868d623885b4f53eb65dcb0600af46ef7bc3b1bfe2528e2cb4c23a6e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant pretrial ruling admitting prior allegations; distinct date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b0402bb5a5a0677e"
+  },
+  {
+    "candidate_id": "4a19786f8b8033cca20be52c",
+    "time": "2003-11-24",
+    "date_precision": "day",
+    "summary": "Michael Jackson broke his silence on child sex allegations via his website, stating the charges were \"predicated on a big lie\" and that his innocence would be proven in court.",
+    "time_range": null,
+    "evidence_ids": [
+      "51561"
+    ],
+    "job_id": "76bb60b4f8cd89b3a873fd86947154fad84e7fb82d7cae1303de598f0a6b7265",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant website statement dismissing charges as a big lie; date 2003-11-24 differs from existing event's 2003-11-25, so APPEND separately.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a7ae3855567c4a76"
+  },
+  {
+    "candidate_id": "4485a833ef1c116412f784c9",
+    "time": "2003-12-18",
+    "date_precision": "day",
+    "summary": "Michael Jackson was charged with seven counts of child molestation and two counts of intoxicating the victim in a California court.",
+    "time_range": null,
+    "evidence_ids": [
+      "51338"
+    ],
+    "job_id": "a7fe077e28c4fd37c6214a3f7b9821fce5eacdbb60cca8741dee12bbe1b8d2d8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: formal charging with seven counts; distinct date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7d64a3afd490fd6a"
+  },
+  {
+    "candidate_id": "f127e8e9fabe8633f4a89668",
+    "time": "2005-04-05",
+    "date_precision": "day",
+    "summary": "A former maid testified at Michael Jackson's child molestation trial that she had seen him in bed with young children and showering with a young boy.",
+    "time_range": null,
+    "evidence_ids": [
+      "51442"
+    ],
+    "job_id": "58d0d21cf04d886e76b5718b089a9d62b7edf6a8d61f275a0f9e39e6bb4fafe4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant trial testimony from former maid; distinct dated occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-cc2423996addd5a1"
+  },
+  {
+    "candidate_id": "35c82f82786dd13833077ab8",
+    "time": "2005-01-30",
+    "date_precision": "day",
+    "summary": "Michael Jackson released a video statement denying child molestation charges and condemning leaks of court transcripts on the eve of his trial.",
+    "time_range": null,
+    "evidence_ids": [
+      "51537"
+    ],
+    "job_id": "be85ea8cdf84312b8b6e7de5aa45d4ce0f9f062b844db87b82ae99cc5524326e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct 2005 pretrial statement denying charges; no existing event matches this date or content.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f827d20a2f4030e6"
+  },
+  {
+    "candidate_id": "30cadcabc58ca7cd7319c6e8",
+    "time": "2004-01-16",
+    "date_precision": "day",
+    "summary": "Michael Jackson pleaded not guilty to child sex abuse charges after arriving late to his California court hearing.",
+    "time_range": null,
+    "evidence_ids": [
+      "51519"
+    ],
+    "job_id": "06a5adf0c63906e6dc024ee01d069b5ba9ca90e2911afecadd5bb920257a025f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct 2004 not-guilty plea milestone; no existing event shares this date or occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d00dc8099fa2b996"
+  },
+  {
+    "candidate_id": "064d0284b8b3f9a63a01137a",
+    "time": "2014-05-13",
+    "date_precision": "day",
+    "summary": "A new posthumous Michael Jackson album, Xscape, featuring eight unreleased recordings, is scheduled for worldwide release by Epic Records.",
+    "time_range": null,
+    "evidence_ids": [
+      "50352"
+    ],
+    "job_id": "4b9fa94c83d6a04af4a377639ebc9270003dc5929df4f1cd790336b4330a233c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Posthumous album Xscape release is a relevant Michael Jackson music milestone; no same-date existing event to merge.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b26be9bcb0a2e92a"
+  },
+  {
+    "candidate_id": "679885e46879afb642948809",
+    "time": "2010-11-15",
+    "date_precision": "day",
+    "summary": "Will.I.Am criticizes the forthcoming posthumous Michael Jackson album \"Michael\" as \"disrespectful,\" while Akon, 50 Cent, and Lenny Kravitz are announced as guest artists on the album.",
+    "time_range": null,
+    "evidence_ids": [
+      "50573"
+    ],
+    "job_id": "1abc9c157c9629b3f3de635bbe7694e950021cae6368857371bc295a72f26eb9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Reactions and guest artists for posthumous album Michael contribute to Jackson's posthumous release timeline; date differs from existing album-release event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a758caa1b9447804"
+  },
+  {
+    "candidate_id": "b43832677dd1de24d3c47a70",
+    "time": "2009-10-12",
+    "date_precision": "day",
+    "summary": "Michael Jackson's first posthumous single, \"This Is It,\" was released to radio stations and began streaming online.",
+    "time_range": null,
+    "evidence_ids": [
+      "50633"
+    ],
+    "job_id": "8d434f7ac1fd3a7c0806c4df3448e7603687681ab5b725e53487ddf58ac16e08",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "First posthumous single 'This Is It' release is a relevant milestone in Jackson's posthumous music timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-67d53c5aa42a77b4"
+  },
+  {
+    "candidate_id": "6e80130e2a3707962f88def6",
+    "time": "2003-11-26",
+    "date_precision": "day",
+    "summary": "Michael Jackson's attorney Mark Geragos holds a press conference promising a vigorous defense against child molestation charges and warning that anyone who besmirches Jackson's reputation will be dealt with harshly.",
+    "time_range": null,
+    "evidence_ids": [
+      "51594"
+    ],
+    "job_id": "eb73024e74d16ba2da0cff611f230f045e6504e17eefc0c3d63f5abb6d6ce08d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Attorney press conference on child molestation defense is a relevant development in Jackson legal timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fd4a63432d714ed4"
+  },
+  {
+    "candidate_id": "178600d6edc33ee876d9392f",
+    "time": "2004-08-15",
+    "date_precision": "day",
+    "summary": "Michael Jackson appeared in a California court for a pre-trial hearing in his child molestation case, where prosecutor Tom Sneddon testified.",
+    "time_range": null,
+    "evidence_ids": [
+      "51468"
+    ],
+    "job_id": "197b1e473cb4c87e23e47706548f761d9baa2a7bbc6cdb3cfb70b9ebfe25941f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Pre-trial hearing appearance in child molestation case is a relevant legal milestone; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f0c8699f385a651f"
+  },
+  {
+    "candidate_id": "f41b7d5a0e03cc425702a49b",
+    "time": "2006-01-10",
+    "date_precision": "day",
+    "summary": "Michael Jackson faces new child molestation allegations in a civil lawsuit filed by a 20-year-old man who also claims Jackson forced him to have plastic surgery and stole his musical ideas.",
+    "time_range": null,
+    "evidence_ids": [
+      "51314"
+    ],
+    "job_id": "d499c0a6860465496a94e6957746d6748d7c565aa5345ef024c0fbc058520d29",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "New civil child molestation allegations are a relevant legal development in Jackson timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ee909c95e956228e"
+  },
+  {
+    "candidate_id": "e8c0edb983229fd49c67a636",
+    "time": "2008-02-12",
+    "date_precision": "day",
+    "summary": "Michael Jackson released a short video message marking the 25th anniversary of his album Thriller.",
+    "time_range": null,
+    "evidence_ids": [
+      "51030"
+    ],
+    "job_id": "10363063a74f9e161bbbe4b9d164f1c9b5e1d7aa42b6f42e05795bcb3ee1a5cd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Thriller 25th-anniversary video message is a relevant Jackson career milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-293f1b63b8fb5c08"
+  },
+  {
+    "candidate_id": "2f5f85d5482019ad06b487bd",
+    "time": "2012-06-06",
+    "date_precision": "day",
+    "summary": "Michael Jackson's previously unreleased song \"Don't Be Messin' 'Round\" was surprise-released as the B-side to \"I Just Can't Stop Loving You\" and will also appear on the forthcoming 25th-anniversary reissue of Bad.",
+    "time_range": null,
+    "evidence_ids": [
+      "50456"
+    ],
+    "job_id": "db8e57c63977d517f469bc57d0aa63589e16ee59a4b60706f7396e42bb2d3913",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Surprise release of unreleased song tied to Bad reissue is a relevant posthumous music milestone; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-93be0b4a4181db4f"
+  },
+  {
+    "candidate_id": "52a1c5ae538e7b931616bdf3",
+    "time": "2009-06-25",
+    "date_precision": "day",
+    "summary": "Michael Jackson died, prompting global mourning and renewed appreciation of his music.",
+    "time_range": null,
+    "evidence_ids": [
+      "50725"
+    ],
+    "job_id": "8ddea3f845c08dcd052d211b9bfa6d1a78ddcc09527fd659e38969049b6017b6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-df4832a375a8d61f",
+    "reason": "Same date and event as existing Michael Jackson death milestone; duplicate of the death event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df4832a375a8d61f"
+  },
+  {
+    "candidate_id": "e959e7809fc682ed0a4fa57c",
+    "time": "2010-12-14",
+    "date_precision": "day",
+    "summary": "A new Michael Jackson album titled Michael, featuring previously unheard tracks, is set for release.",
+    "time_range": null,
+    "evidence_ids": [
+      "50578"
+    ],
+    "job_id": "9ee6b016607be6b6492d15372741a432c6d0da3199065261fdcd1bcddb050c0d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Announcement of the posthumous album Michael's release date; relevant milestone, distinct from existing review and UK release-date events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bb8bf0ed72b43861"
+  },
+  {
+    "candidate_id": "b08e87356f183182f0713f55",
+    "time": "2010-12-10",
+    "date_precision": "day",
+    "summary": "Producer Teddy Riley confirms more posthumous Michael Jackson albums are planned following the release of the compilation Michael.",
+    "time_range": null,
+    "evidence_ids": [
+      "50548"
+    ],
+    "job_id": "8c9a4c10a20a1bbc4d28d5beea06e9411fa5c48cd06db008b7c70778c7775fae",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Producer Teddy Riley confirming more posthumous albums are planned; relevant to Jackson's posthumous release timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-31ac69f829b54269"
+  },
+  {
+    "candidate_id": "ab56dfebe509eabeb63b9e0d",
+    "time": "2010-11-08",
+    "date_precision": "day",
+    "summary": "Katherine Jackson reportedly claims that several songs on Michael Jackson's forthcoming posthumous album are fake, while Sony releases the first single \"Breaking News\" from the album.",
+    "time_range": null,
+    "evidence_ids": [
+      "50576"
+    ],
+    "job_id": "6aef7961f436e52187d10bb6c365a0a8e103e6f249c30acbd7661700cc354ffd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Katherine Jackson's fake-songs claim and release of first single 'Breaking News'; relevant authenticity controversy milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c94f74b01de81fc4"
+  },
+  {
+    "candidate_id": "2f98fc751ee73accf291f797",
+    "time": "2010-12-12",
+    "date_precision": "day",
+    "summary": "Michael Jackson's posthumous album \"Michael\" is released, sparking controversy as his mother Katherine Jackson suggests some tracks are fake and producer Quincy Jones says the CD \"should have all stayed in the vault.\"",
+    "time_range": null,
+    "evidence_ids": [
+      "50568"
+    ],
+    "job_id": "6a75e6df834ee81b00fc8613b8f68bf4d51b3e78a81137f417e91a8758118003",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-63ecad0d877b79ab",
+    "reason": "Same date (2010-12-12) and same posthumous album Michael controversy event as existing event-63ecad0d877b79ab.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-63ecad0d877b79ab"
+  },
+  {
+    "candidate_id": "7992742b72606369e2337b27",
+    "time": "2010-11-12",
+    "date_precision": "day",
+    "summary": "Michael Jackson's estate publicly defends the authenticity of vocals on the posthumous track \"Breaking News\" and other \"Cascio tracks\" amid allegations from Jackson's family that the recordings are fake.",
+    "time_range": null,
+    "evidence_ids": [
+      "50574"
+    ],
+    "job_id": "991a5e510075d4a249f0b52c02ed56b555a1090de75fe237fb34c00f2c01dc72",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Estate defending authenticity of 'Breaking News' and Cascio tracks; relevant development in the authenticity dispute.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c0cfa9c349efd5c1"
+  },
+  {
+    "candidate_id": "0ed9eaf8586017d3075bd77c",
+    "time": "2010-06-02",
+    "date_precision": "day",
+    "summary": "The Michael Jackson estate denies any connection to a proposed Michael Jackson museum in Gary, Indiana, saying it was never consulted and is not involved.",
+    "time_range": null,
+    "evidence_ids": [
+      "50592"
+    ],
+    "job_id": "4456655608afa5cc4f43d35cf17cbb5d1bccf2694e8583fce0e382eb976bc40f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Estate denying connection to proposed Gary, Indiana museum; relevant estate-related milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-03d6af5a29d2eca1"
+  },
+  {
+    "candidate_id": "4198a5cbe2162e35a8b3900e",
+    "time": "2016-03-21",
+    "date_precision": "day",
+    "summary": "A London law firm sues Michael Jackson's estate executors for breach of contract, claiming it is owed over $200,000 in unpaid fees for work done from 2007 to 2009.",
+    "time_range": null,
+    "evidence_ids": [
+      "50296"
+    ],
+    "job_id": "18007f89f16017f4dfa944d044268fac96e14204d426200ff973a2252588e0e4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "London law firm suing Jackson estate executors over unpaid fees; relevant estate legal milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a317c5f0ffd0c71e"
+  },
+  {
+    "candidate_id": "ac7d27713abc2cecc800b805",
+    "time": "2009-07-03",
+    "date_precision": "day",
+    "summary": "A feature-length Michael Jackson film is being considered from archive footage to help clear the late singer's estimated $400m estate debt.",
+    "time_range": null,
+    "evidence_ids": [
+      "50887"
+    ],
+    "job_id": "f89c0c1265b42cb70f356ef5a318a5b831246ad62cd8e0dcd1d4bc9e98f78383",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Feature-length Michael Jackson film considered from archive footage to help clear estate debt; relevant posthumous project milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7ebf634982778d30"
+  },
+  {
+    "candidate_id": "d92af4a7111e72b5981f2c66",
+    "time": "2009-07-21",
+    "date_precision": "day",
+    "summary": "Promoters of Michael Jackson's aborted O2 residency are in talks to sell nearly 80 hours of rehearsal footage for a planned concert film, with Sony Pictures reportedly leading bids at $50 million.",
+    "time_range": null,
+    "evidence_ids": [
+      "50770"
+    ],
+    "job_id": "dbde6b5ceb68a6d69b6bc44eec7cc0ff6b56156e6e53c7aede525d1fdda73c36",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: talks to sell Jackson rehearsal footage for a planned concert film.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0207c973ef0f9383"
+  },
+  {
+    "candidate_id": "d21f1eb50056c7e315f2daa2",
+    "time": "2009-08-11",
+    "date_precision": "day",
+    "summary": "A Michael Jackson film featuring rehearsal footage for his planned London O2 Arena residency is to be released on 28 October.",
+    "time_range": null,
+    "evidence_ids": [
+      "50674"
+    ],
+    "job_id": "a3e8a1cc73ab7620910857a52a27e069c63fcdefab9d2d54997b871146e8fe46",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Jackson rehearsal-footage film set for 28 October release.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-54595ccbc2f44153"
+  },
+  {
+    "candidate_id": "2c883fc779e8964be621e198",
+    "time": "2009-07-07",
+    "date_precision": "day",
+    "summary": "Michael Jackson's family plans a memorial event for him at the Staples Centre in downtown Los Angeles.",
+    "time_range": null,
+    "evidence_ids": [
+      "50926"
+    ],
+    "job_id": "b40dc42df60bf138ad4db0f21c687d8fa02b2a270a1acdcca8e3c7155c392828",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: family plans Jackson memorial at Staples Centre.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ee6e8ae08693e621"
+  },
+  {
+    "candidate_id": "a5c6a2524f4ec7432cd0949a",
+    "time": "2009-07-21",
+    "date_precision": "day",
+    "summary": "Sony Pictures bids $50 million for footage of Michael Jackson's rehearsals for his This Is It comeback tour, with AEG Live offering worldwide distribution rights to major studios.",
+    "time_range": null,
+    "evidence_ids": [
+      "50777"
+    ],
+    "job_id": "450751c9351539bedbc1638d72a292c41ffcadda5507a4d59be235fb25d20dd1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "d92af4a7111e72b5981f2c66",
+    "reason": "Same date and same rehearsal-footage sale story as candidate d92af4a7111e72b5981f2c66.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-0207c973ef0f9383"
+    },
+    "timeline_event_id": "event-0207c973ef0f9383"
+  },
+  {
+    "candidate_id": "6d820c98148a2c52b964d971",
+    "time": "2009-07-07",
+    "date_precision": "day",
+    "summary": "Michael Jackson's family appeared to be firming up plans for a massive public memorial at the Staples Centre in downtown Los Angeles, though the family remained undecided about how to mark his life.",
+    "time_range": null,
+    "evidence_ids": [
+      "51019"
+    ],
+    "job_id": "25e7ec6ac7c2648dd1d0e1411d2bab55d94d5291294e6bd86e1bf98f56c4ad7a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "2c883fc779e8964be621e198",
+    "reason": "Same date and same planned Staples Centre memorial event as candidate 2c883fc779e8964be621e198.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "executor_recovery": {
+      "kind": "same_batch_candidate_target_alias",
+      "resolved_event_id": "event-ee6e8ae08693e621"
+    },
+    "timeline_event_id": "event-ee6e8ae08693e621"
+  },
+  {
+    "candidate_id": "bbf0d4028e67dc39e8104c98",
+    "time": "2003-11",
+    "date_precision": "month",
+    "summary": "Charities and organizations that benefited from Michael Jackson's generosity seek to distance themselves from him following child molestation charges, and plans for a Michael Jackson performing arts center in Gary, Indiana appear stalled.",
+    "time_range": null,
+    "evidence_ids": [
+      "51529"
+    ],
+    "job_id": "6239ded6b1a2b7d592b5c867c3ddbc6257c9442019c86ce72d85069dc83dc649",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant post-charge fallout affecting Jackson charities and the Gary performing arts center; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-eed4209a9302f2be"
+  },
+  {
+    "candidate_id": "a93051f3e6d042c626189077",
+    "time": "2005-01-13",
+    "date_precision": "day",
+    "summary": "Graphic details emerged from grand jury testimony in which a 15-year-old boy accused Michael Jackson of molestation and plying him with alcohol at Neverland.",
+    "time_range": null,
+    "evidence_ids": [
+      "51285"
+    ],
+    "job_id": "c2e4767fee77320268b84fb183a8599c775196f05cec252a2cc21ba79f4f2ecf",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct trial development with grand jury testimony details; no same-date existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-33910220d35cd9ba"
+  },
+  {
+    "candidate_id": "9e949301b6af1087dca5c192",
+    "time": "2005-06-13",
+    "date_precision": "day",
+    "summary": "Michael Jackson is acquitted of all 10 counts of child molestation and child endangerment in his trial.",
+    "time_range": null,
+    "evidence_ids": [
+      "51321"
+    ],
+    "job_id": "6e288e6a2a86998ec587f6d1d2cf5c144c9918ef872095c7b449520182195ada",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ad5ec13a1c77b041",
+    "reason": "Same 2005-06-13 acquittal event as existing event-ad5ec13a1c77b041.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ad5ec13a1c77b041"
+  },
+  {
+    "candidate_id": "707e181fcb2fc03e99cc6fff",
+    "time": "2005-03-14",
+    "date_precision": "day",
+    "summary": "In Michael Jackson's child molestation trial, his teenage accuser admitted under cross-examination that he had previously told a teacher Jackson never touched him.",
+    "time_range": null,
+    "evidence_ids": [
+      "51421"
+    ],
+    "job_id": "0a0d3edec206e2d5aa2a05a92cbfb619c802db140b12d5be8eb35776d5db41bb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct trial testimony development on 2005-03-14; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ece439dfa67770c1"
+  },
+  {
+    "candidate_id": "1a183b17ed40ba4c967189df",
+    "time": "2005-03-08",
+    "date_precision": "day",
+    "summary": "Michael Jackson's defence attorney sought to undermine the credibility of his accuser's younger brother by presenting a Father's Day card in court during the singer's child molestation trial.",
+    "time_range": null,
+    "evidence_ids": [
+      "51466"
+    ],
+    "job_id": "5f2ee636955576f074ca312efdcdc850eae5f5808f5981c62d4e55c5dbbaa9e5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct trial development on 2005-03-08; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5653c053d991191e"
+  },
+  {
+    "candidate_id": "bdde1e39787a52535c027e8f",
+    "time": "2005-06-13",
+    "date_precision": "day",
+    "summary": "A jury acquitted Michael Jackson of molesting a 13-year-old cancer survivor at his Neverland ranch and of all other charges, including getting the boy drunk and conspiring to imprison his accuser and the boy's family.",
+    "time_range": null,
+    "evidence_ids": [
+      "51341"
+    ],
+    "job_id": "0f726013bc0d5935c50a507dd151336fb5d3db27e3a45f6bc161d97f9b211ed7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ad5ec13a1c77b041",
+    "reason": "Same 2005-06-13 acquittal event as existing event-ad5ec13a1c77b041.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ad5ec13a1c77b041"
+  },
+  {
+    "candidate_id": "5a25520a461ef84fd0a1ab3b",
+    "time": "2014-03-31",
+    "date_precision": "day",
+    "summary": "Epic Records announces the posthumous Michael Jackson album Xscape, with Timbaland as lead producer.",
+    "time_range": null,
+    "evidence_ids": [
+      "50360"
+    ],
+    "job_id": "bccda096d8926c278f2333529be3aad875f423ad4019ac5cad1697f7dd5e5866",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Posthumous album announcement is a relevant career milestone; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4be35889f123f015"
+  },
+  {
+    "candidate_id": "183fa0a2bec3bcb50f724027",
+    "time": "2010-11-22",
+    "date_precision": "day",
+    "summary": "Akon says he will not release unfinished Michael Jackson tracks they recorded together, saying he might burn them.",
+    "time_range": null,
+    "evidence_ids": [
+      "50572"
+    ],
+    "job_id": "9b8485ff5c8ac4488f6c0d0a87d87a62ad6f6c16fc933b3c2e52be328841a2c5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant posthumous-recordings development; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-0757cb917e6ae5c3"
+  },
+  {
+    "candidate_id": "8d9974c83c728c2e6250a35d",
+    "time": "2009-03-05",
+    "date_precision": "day",
+    "summary": "Michael Jackson is set to confirm a string of live dates at London's O2 Arena during a special announcement.",
+    "time_range": null,
+    "evidence_ids": [
+      "50835"
+    ],
+    "job_id": "33e28867cf33d0eef65440478e2fba368a01eb759cab9af2bd83a03810b15036",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Announcement of London O2 live dates, a key milestone in Jackson's final concert plans.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b3c66be705178102"
+  },
+  {
+    "candidate_id": "9c6d8cd09f659ad03ae13ea6",
+    "time": "2009-03-11",
+    "date_precision": "day",
+    "summary": "Michael Jackson announced additional London O2 arena dates, extending his farewell tour to 45 shows into January and February 2010.",
+    "time_range": null,
+    "evidence_ids": [
+      "50868"
+    ],
+    "job_id": "442d251fffebea48d687ef187ad8675df2e2db92afc905b27dffadf7d9df0b86",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Extension of O2 residency to 45 shows, distinct dated milestone in the concert run.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d39cfb08af6f22de"
+  },
+  {
+    "candidate_id": "479fdb4fc9a81c6b583354c1",
+    "time": "2009-08-26",
+    "date_precision": "day",
+    "summary": "The first stills from the Kenny Ortega-directed Michael Jackson concert documentary This Is It, featuring footage from his final tour rehearsals, are released online ahead of its October 28 cinema release.",
+    "time_range": null,
+    "evidence_ids": [
+      "50740"
+    ],
+    "job_id": "8cd1a7696c88644faa9a6df52673d9afc7718dd24a099464fe9a7d54b9c37a05",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Release of first This Is It stills, a distinct milestone in the posthumous concert documentary timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-265803a568e8817f"
+  },
+  {
+    "candidate_id": "5beeef494d64ac16ddbc2328",
+    "time": "2009-03-14",
+    "date_precision": "day",
+    "summary": "Michael Jackson announces that his concerts at the O2 Arena in London in summer 2009 will be the last he ever plays there.",
+    "time_range": null,
+    "evidence_ids": [
+      "50867"
+    ],
+    "job_id": "e389637e29515f85eb03caa8e0dffb6adea9ec4faf045e3b2bcb5b37013439c1",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jackson stating O2 shows will be his last there, a distinct dated announcement.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e238145bba26776b"
+  },
+  {
+    "candidate_id": "c38f7f2dd12bf86444137dd3",
+    "time": "2009-03-13",
+    "date_precision": "day",
+    "summary": "Tickets for Michael Jackson's 50 live dates at London's O2 arena sold out, with one million tickets bought in a matter of hours.",
+    "time_range": null,
+    "evidence_ids": [
+      "51022"
+    ],
+    "job_id": "9db32df31102b91688ab622c0a3681e88f8d4f2e03871024c170041598b120ae",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "O2 tickets selling out is a major milestone in the concert timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b0d3a5037eb26e84"
+  },
+  {
+    "candidate_id": "6eaf9425b4994c552be9e5cb",
+    "time": "2009-05-12",
+    "date_precision": "day",
+    "summary": "An American promoter, AllGood Entertainment Inc, threatens to sue Michael Jackson for breach of contract, alleging he is barred from performing concerts before a Jackson family reunion gig in July 2010.",
+    "time_range": null,
+    "evidence_ids": [
+      "50762"
+    ],
+    "job_id": "1d3ffa21c3c1d00f61c4cb61cb21f675b206ebe04cb79e266b2ffcda93a16b69",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Contract lawsuit threat over concert commitments, relevant to Jackson's 2009 concert plans.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-edd2153fd9567526"
+  },
+  {
+    "candidate_id": "aa0ee1bc912838f38390dc4e",
+    "time": "2009-05-13",
+    "date_precision": "day",
+    "summary": "Michael Jackson has started rehearsing for his 50-night residency at London's O2 arena, his first concert run in more than 12 years.",
+    "time_range": null,
+    "evidence_ids": [
+      "50761"
+    ],
+    "job_id": "33bc165e3ca65f0ca4ab9974501a3f9b5bdc1f21a327863778139df351ff19f7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Start of rehearsals for the O2 residency, a distinct milestone in the concert timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bf5fb01722095417"
+  },
+  {
+    "candidate_id": "ddd0d98e59eea363bc992a94",
+    "time": "2009-10-27",
+    "date_precision": "day",
+    "summary": "Michael Jackson fans launched a campaign and planned protests at global premieres of the documentary This Is It, claiming it airbrushes the singer's declining health in his final days.",
+    "time_range": null,
+    "evidence_ids": [
+      "50879"
+    ],
+    "job_id": "e89ce94ad31e218f3b8edb5bd216920e99ab08d766abd97b704edd71ccdbfb31",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Fan protests at This Is It premieres, a distinct dated event in the documentary timeline.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-204d4acc37b8d627"
+  },
+  {
+    "candidate_id": "4cd07721959e2a30c9a41e9f",
+    "time": "2009-06-12",
+    "date_precision": "day",
+    "summary": "AllGood Entertainment filed a $40 million lawsuit against Michael Jackson, claiming his O2 Arena residency violates a 2008 contract for a Jackson Five reunion concert.",
+    "time_range": null,
+    "evidence_ids": [
+      "50735"
+    ],
+    "job_id": "e3db16755817ef60b41a85c301653dd11b6c3a63dbad9be5ef1f71802f818f56",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Michael Jackson legal milestone; distinct from the earlier threat-to-sue event because it records the actual $40 million lawsuit filing on a different date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-bc7355cdfe5df02e"
+  },
+  {
+    "candidate_id": "491d706c88e1cecee1b36adb",
+    "time": "2009-11-02",
+    "date_precision": "day",
+    "summary": "Sony Pictures extends the theatrical run of \"This Is It,\" the documentary about Michael Jackson's final rehearsals, beyond its initial two-week showing after strong worldwide ticket sales.",
+    "time_range": null,
+    "evidence_ids": [
+      "50759"
+    ],
+    "job_id": "32f8cefa942672f4154c1ef692d67fcf1506e4ca1b9c5b3de3ab449c9223a3bc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in the release and reception of the Michael Jackson documentary This Is It; no existing event has the same date and identity.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1d956de9d5e98c8e"
+  },
+  {
+    "candidate_id": "8b5de58eea6cb0808dc8b453",
+    "time": "2005-03-16",
+    "date_precision": "day",
+    "summary": "Prosecutors in Michael Jackson's trial showed jurors sexually explicit magazines, DVDs, and videos seized from Neverland Ranch, though witnesses acknowledged no evidence Jackson showed them to his accuser.",
+    "time_range": null,
+    "evidence_ids": [
+      "51477"
+    ],
+    "job_id": "48afeffa9262cef2d32393ac31c40e4d8c9988bef5df7ce9aecc833149af86ab",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct trial development: explicit materials shown to jurors; no matching existing event date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-204c1c1eb949eac1"
+  },
+  {
+    "candidate_id": "8577479e85bd521db0493e90",
+    "time": "2009-03-05",
+    "date_precision": "day",
+    "summary": "Michael Jackson auction: 'An era that will never be relived'",
+    "time_range": null,
+    "evidence_ids": [
+      "50880"
+    ],
+    "job_id": "50f05244071162b2221a696b9e1d5d98b93852f456cabaefcfd4c53d44dc3a19",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Jackson auction milestone; same date as O2 announcement event but different subject, so not a duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2321a700b101a523"
+  },
+  {
+    "candidate_id": "b9d5a5471052626d5ea7b2ef",
+    "time": "2005-02-28",
+    "date_precision": "day",
+    "summary": "Michael Jackson's child molestation trial begins with prosecutors alleging he sexually abused a 13-year-old cancer survivor at Neverland ranch.",
+    "time_range": null,
+    "evidence_ids": [
+      "51278"
+    ],
+    "job_id": "bca053a505db4080e8b4c78ea8a88a537cea7b0267230bb3c40794106f4b6ec4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Trial opening is a key milestone; no existing event on this date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a584c4d0076cb999"
+  },
+  {
+    "candidate_id": "50cb1d9000007210cf167411",
+    "time": "2005-04-19",
+    "date_precision": "day",
+    "summary": "The grandmother of Michael Jackson's teenage accuser testified that her grandchildren had changed after returning from Jackson's Neverland ranch, in Jackson's child molestation trial.",
+    "time_range": null,
+    "evidence_ids": [
+      "51404"
+    ],
+    "job_id": "b77a1d3fd3528cadec080da34e7b9d74ef565279e389aff52cc80d6602db4b84",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct trial testimony; no matching existing event date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3b056a99229b92ac"
+  },
+  {
+    "candidate_id": "bf8c5a1fcf03a88d8cefafd0",
+    "time": "2005-03-03",
+    "date_precision": "day",
+    "summary": "Jurors in Michael Jackson's child molestation trial viewed a 12-minute videotape of his Neverland ranch bedroom suite, including rooms filled with dolls and toys, on the fourth day of the trial.",
+    "time_range": null,
+    "evidence_ids": [
+      "51423"
+    ],
+    "job_id": "6394cd42a790555c2bcbaec5a6beee13a245ede59fe2190b5232508dfd2c5b97",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct trial development: Neverland bedroom video shown; no matching existing event date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-efb2eadde46f8cd5"
+  },
+  {
+    "candidate_id": "ee5e1b6de8391ebbf1f56dae",
+    "time": "2005-06-13",
+    "date_precision": "day",
+    "summary": "Michael Jackson was acquitted of all ten charges, including child molestation and conspiring to imprison his accuser, at his trial.",
+    "time_range": null,
+    "evidence_ids": [
+      "51313"
+    ],
+    "job_id": "55cf86ee99f2b20753afc9aa404d0caa603780fd5d1ebae19957357a4e5ed255",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ad5ec13a1c77b041",
+    "reason": "Same date and same acquittal event as existing record.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ad5ec13a1c77b041"
+  },
+  {
+    "candidate_id": "d695efb41fc632cf702565de",
+    "time": "2005-04-08",
+    "date_precision": "day",
+    "summary": "Michael Jackson's lawyer challenges a former Neverland maid's credibility during Jackson's child molestation trial, accusing her of previously threatening to give evidence against the singer.",
+    "time_range": null,
+    "evidence_ids": [
+      "51517"
+    ],
+    "job_id": "7b2bfcba7a72366cfe6146581206abfa2aec2ba09d01ce8ef4c4f74f5edfbbd2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct trial development: lawyer challenges maid's credibility; no matching existing event date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a2ff46ff4384c2dd"
+  },
+  {
+    "candidate_id": "d33d7c22f508e5b5b4d2e011",
+    "time": "2009-07-06",
+    "date_precision": "day",
+    "summary": "A retrospective article argues that Michael Jackson's album Dangerous, released amid the Jordan Chandler allegations, represents his artistic peak rather than a decline.",
+    "time_range": null,
+    "evidence_ids": [
+      "50921"
+    ],
+    "job_id": "3c04314dae4c4427d8f0123025392b3a6ae2aa110a173d81524c409880a8c0ce",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Retrospective on Dangerous as artistic peak; relevant posthumous Jackson coverage, no duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-1da18456289e2c4b"
+  },
+  {
+    "candidate_id": "426520ab746f726a06edf0f1",
+    "time": "2017-09-29",
+    "date_precision": "day",
+    "summary": "A posthumous Michael Jackson compilation album, Scream, is due to go on sale, featuring one new track made from a mash-up of five previously released songs.",
+    "time_range": null,
+    "evidence_ids": [
+      "50274"
+    ],
+    "job_id": "e6d59bc5c01e018912ba9bf1410d540a14734392149376d0b4eaf8f142c3b347",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Posthumous Michael Jackson compilation album release is a relevant milestone; no existing event shares its 2017-09-29 date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-83cd70a7818ecc82"
+  },
+  {
+    "candidate_id": "9cb9ef5e065077b64e5c0032",
+    "time": "2008-11",
+    "date_precision": "month",
+    "summary": "Michael Jackson is reportedly on the verge of signing a deal for a residency of shows at London's O2 Arena, though the deal is not confirmed.",
+    "time_range": null,
+    "evidence_ids": [
+      "50974"
+    ],
+    "job_id": "1fc2913e5988358293d8cc13ad130eae269d84eaa8b88e70951e90bcb17eb735",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in Jackson's planned O2 residency; no existing event matches this November 2008 report.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-65bde205eb91b3be"
+  },
+  {
+    "candidate_id": "2026cbe5991941cdb7bcc890",
+    "time": "2006-04-18",
+    "date_precision": "day",
+    "summary": "Michael Jackson signed an exclusive recording agreement with Bahrain-based Two Seas Records and returned to the studio, with plans to release a new album next year.",
+    "time_range": null,
+    "evidence_ids": [
+      "51204"
+    ],
+    "job_id": "8e525d839bcc6c79e3669f70a6046b9787ee40d5a776a534a47bd878247d8d89",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant recording-career milestone; no existing event matches this April 2006 agreement.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4250403c10023f99"
+  },
+  {
+    "candidate_id": "c76753359264374ce445bb13",
+    "time": "2009-06-25",
+    "date_precision": "day",
+    "summary": "Michael Jackson died.",
+    "time_range": null,
+    "evidence_ids": [
+      "50659"
+    ],
+    "job_id": "c2b8e82d47796253cce459f7a9580ab18d20ab51702a17307b7fc9ceb5e71ed2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-df4832a375a8d61f",
+    "reason": "Duplicate of the existing 2009-06-25 Michael Jackson death event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df4832a375a8d61f"
+  },
+  {
+    "candidate_id": "4efee961eaa4e13433ec478d",
+    "time": "2001-09-07",
+    "date_precision": "day",
+    "summary": "Michael Jackson appeared with his brothers in the Jackson Five for the first time since 1984 at a tribute concert in New York City, ahead of the October release of his album Invincible.",
+    "time_range": null,
+    "evidence_ids": [
+      "51729"
+    ],
+    "job_id": "db8190af9624dc96fcfcf4d5255ac9d8f60be69083192ccaf9d173fac8f075d7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-b7798bb97de124a0",
+    "reason": "Duplicate of the existing 2001-09-07 New York concert event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b7798bb97de124a0"
+  },
+  {
+    "candidate_id": "5c469718e04f48f0d7f13727",
+    "time": "2009-06-25",
+    "date_precision": "day",
+    "summary": "Michael Jackson died, prompting tributes from friends including Elizabeth Taylor and Uri Geller.",
+    "time_range": null,
+    "evidence_ids": [
+      "50810"
+    ],
+    "job_id": "8043ee40d6667e8a48c53910e28911c3ccc63f065c03bc3877a66db2ea4aa783",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-df4832a375a8d61f",
+    "reason": "Same date and event as existing Michael Jackson death record; duplicate occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df4832a375a8d61f"
+  },
+  {
+    "candidate_id": "b342f8404f9b1576ce65d1ed",
+    "time": "2016-01-26",
+    "date_precision": "day",
+    "summary": "White British actor Joseph Fiennes was cast to play Michael Jackson in the Sky Arts comedy \"Elizabeth, Michael and Marlon,\" which was shot in 2015 and is in post-production.",
+    "time_range": null,
+    "evidence_ids": [
+      "50297"
+    ],
+    "job_id": "9b906b4535b91ca312340fae2a6c36dc4aa38307ae060003bab17a771affd282",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Casting of Joseph Fiennes as Michael Jackson is a distinct posthumous portrayal milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-5f9faac5872a1403"
+  },
+  {
+    "candidate_id": "641a49d755b28c9c84952f2f",
+    "time": "2005-02-14",
+    "date_precision": "day",
+    "summary": "Michael Jackson's lawyers said they may call his two children and celebrities including Elizabeth Taylor, Diana Ross, Kobe Bryant, and Larry King as witnesses in his child-molestation case.",
+    "time_range": null,
+    "evidence_ids": [
+      "51469"
+    ],
+    "job_id": "a893169cca46d15a692555c0968a3102a372e81976b0dc0b0fe45f0dee72568d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Potential witnesses in Jackson's child-molestation case is a distinct legal milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6db367a7e006576a"
+  },
+  {
+    "candidate_id": "b45482ebd12c7601b714955a",
+    "time": "2009-06-25",
+    "date_precision": "day",
+    "summary": "Michael Jackson died, leading to his classic music videos dominating the Guardian Viral Video Chart.",
+    "time_range": null,
+    "evidence_ids": [
+      "50719"
+    ],
+    "job_id": "04f131c72b9cf4fbab9c7654081de2c967887d60bdfb6e11961c42c3cdeeebd3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-df4832a375a8d61f",
+    "reason": "Same date and event as existing Michael Jackson death record; duplicate occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df4832a375a8d61f"
+  },
+  {
+    "candidate_id": "983a661fb9c0a00ade524c32",
+    "time": "2009-07",
+    "date_precision": "month",
+    "summary": "Michael Jackson’s post-mortem events continue, including rehearsal footage, funeral plans, and a potential custody dispute involving Debbie Rowe.",
+    "time_range": null,
+    "evidence_ids": [
+      "51196"
+    ],
+    "job_id": "3670a2e457e22429a8d389122d6f29b9790ee38287a8f4a01c0eae0f7083b07d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Month-level post-mortem developments are distinct from day-level death and will events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-154588918918c40b"
+  },
+  {
+    "candidate_id": "427a4cf8f7e2ea721956248e",
+    "time": "2009-06-25",
+    "date_precision": "day",
+    "summary": "Michael Jackson died, prompting the launch of MjTunes, a 24-hour online radio station dedicated to his music.",
+    "time_range": null,
+    "evidence_ids": [
+      "50786"
+    ],
+    "job_id": "1cd24ec6862563f8d83abdfb2e7f563cc0ac1b0262b40d8601e224014810d180",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-df4832a375a8d61f",
+    "reason": "Same date and event as existing Michael Jackson death record; duplicate occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df4832a375a8d61f"
+  },
+  {
+    "candidate_id": "45eb45f2978d745e4e1b6663",
+    "time": "2009-05-20",
+    "date_precision": "day",
+    "summary": "Michael Jackson's representatives announced that several of his London O2 Arena comeback shows scheduled for July will be postponed, with the opening night moved from 8 July to 13 July and three other July shows rescheduled to March 2010.",
+    "time_range": null,
+    "evidence_ids": [
+      "50754"
+    ],
+    "job_id": "90b129a77d456fb42dd6420784ad6fbfadedc0557c630c6a554d7835a07a2fab",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Postponement of London O2 comeback shows is a distinct pre-death concert milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-992ecb5a7a165d4e"
+  },
+  {
+    "candidate_id": "ce2648de3f9c288c8f4ca1ca",
+    "time": "2005-10",
+    "date_precision": "month",
+    "summary": "Michael Jackson began planning a Las Vegas concert residency, which included proposals for a 50-foot Michael Jackson robot, but the plans were ultimately abandoned due to funding problems.",
+    "time_range": null,
+    "evidence_ids": [
+      "50746"
+    ],
+    "job_id": "e7a2f718a8799d637d780aeaf27775a0472d804676f36b2461ee7a465e87e34e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Planned Las Vegas residency and abandoned robot proposal are a distinct career milestone.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ceb583310db48000"
+  },
+  {
+    "candidate_id": "f45bd6ffb822613ca47814a9",
+    "time": "2009-03-16",
+    "date_precision": "day",
+    "summary": "Michael Jackson's promoters, AEG Live, are struggling to find insurance for his 50-date O2 residency, with insurers reluctant to cover the seven-month run.",
+    "time_range": null,
+    "evidence_ids": [
+      "50865"
+    ],
+    "job_id": "3c0d34bc2455e8dfb357551ef390f7c527f38cf934f55840588e04df18c3727c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone about insurance difficulties for the O2 residency; no existing event matches this date or content.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-219ce2f71fb60b7a"
+  },
+  {
+    "candidate_id": "194067d07b7019173b8dc747",
+    "time": "2009-01",
+    "date_precision": "month",
+    "summary": "Michael Jackson announced an initial 10-date residency at the O2 arena, which was later extended to 50 concerts.",
+    "time_range": null,
+    "evidence_ids": [
+      "50799"
+    ],
+    "job_id": "74f4e299c705afd4dc3ab2df04815213b5984cd3eeb193533383e8452222a4e0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone about the initial 10-date O2 residency announcement; month-level date differs from existing March 5 events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e44db8810ff9df94"
+  },
+  {
+    "candidate_id": "85e5a7ad1925222284061de8",
+    "time": "2009-05-20",
+    "date_precision": "day",
+    "summary": "Michael Jackson's representatives deny reports that he postponed the first four dates of his O2 Arena residency due to ill health, citing the production's \"sheer magnitude\" as the reason for the delay.",
+    "time_range": null,
+    "evidence_ids": [
+      "50839"
+    ],
+    "job_id": "e3a21b33dac81d893ef925a056f92d632b827dae9071dc825082a71a2985780d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-992ecb5a7a165d4e",
+    "reason": "Same date and same O2 postponement story as the existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-992ecb5a7a165d4e"
+  },
+  {
+    "candidate_id": "df951b84740bbac6b36c47c2",
+    "time": "2009-08-10",
+    "date_precision": "day",
+    "summary": "The insurance policy for Michael Jackson's cancelled O2 residency will not pay out if the late star is found to have taken illegal drugs.",
+    "time_range": null,
+    "evidence_ids": [
+      "50957"
+    ],
+    "job_id": "f96762acc19ed6341586488c3c18bd8d374a911fe095e5e7fbfceaa3dc36db39",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant post-death insurance development for the cancelled O2 residency; no existing event matches.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9c81d4b8925993f6"
+  },
+  {
+    "candidate_id": "cd3999a0e44dea0f9a529d9c",
+    "time": "2009-03-05",
+    "date_precision": "day",
+    "summary": "Michael Jackson is reported to be planning a 10-night concert residency at London's O2 arena, his first full concerts in over a decade.",
+    "time_range": null,
+    "evidence_ids": [
+      "50876"
+    ],
+    "job_id": "a7e21a44524cf3269146d17f1ea67d359d7527ef714eff21d29386b9fef46fe5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-b3c66be705178102",
+    "reason": "Same date and same reported O2 residency plan as the existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b3c66be705178102"
+  },
+  {
+    "candidate_id": "29d3aa7a9440609d54ce6ea0",
+    "time": "2009-09-09",
+    "date_precision": "day",
+    "summary": "Promotional material for the Michael Jackson documentary This Is It was released, showing rehearsal images and announcing a limited two-week release beginning 2009-10-28.",
+    "time_range": null,
+    "evidence_ids": [
+      "50855"
+    ],
+    "job_id": "a2ccdb599ab0d0b0d00ffb2f995ca6e339230979cba7399ac5f5d9d67f1e7734",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant This Is It documentary promotional milestone; no existing event matches this date or content.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-9d30f4341d1935e7"
+  },
+  {
+    "candidate_id": "d388bc5e178b9611dea71c2b",
+    "time": "2005-05-11",
+    "date_precision": "day",
+    "summary": "Macaulay Culkin testified as a defence witness at Michael Jackson’s child molestation trial, denying that Jackson ever molested him and calling the charges “absolutely ridiculous.”",
+    "time_range": null,
+    "evidence_ids": [
+      "51513"
+    ],
+    "job_id": "a452f192fc32f1d49821bae645152af7a1864f2fca3fa98a41425b04a5cd9150",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct 2005 trial event: Culkin defence testimony, not matching existing trial events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-60e5b02cfa801d94"
+  },
+  {
+    "candidate_id": "b635630b41fae8a79aa2c1dc",
+    "time": "2009-12-23",
+    "date_precision": "day",
+    "summary": "The FBI releases part of its dossier on Michael Jackson, revealing its involvement in a 1995 child pornography investigation and assistance requests during his 2003 child molestation trial.",
+    "time_range": null,
+    "evidence_ids": [
+      "50630"
+    ],
+    "job_id": "d4b2446b7fe5434083538b4ab5c4a7afe9af48a4991f41617ee09a218fbdc834",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Posthumous FBI dossier release, a distinct milestone not covered by existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-696d5b42db13cd2f"
+  },
+  {
+    "candidate_id": "bc8da6675681db4a9d23c5c0",
+    "time": "2010-08-23",
+    "date_precision": "day",
+    "summary": "A judge scheduled a preliminary hearing for Dr Conrad Murray, the doctor charged over Michael Jackson's death, to begin on 2011-01-04.",
+    "time_range": null,
+    "evidence_ids": [
+      "50594"
+    ],
+    "job_id": "0529b63f01ac816e592c6f2ef73f4057f99feeaa40795ea25b4e230271f3a27e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Conrad Murray preliminary hearing scheduling, distinct from existing death/trial events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-98eb260e4077ae38"
+  },
+  {
+    "candidate_id": "d49eaa70a42d128c2aee5dfb",
+    "time": "2009-06-25",
+    "date_precision": "day",
+    "summary": "Michael Jackson died after being taken to a Los Angeles hospital following cardiac arrest.",
+    "time_range": null,
+    "evidence_ids": [
+      "50901"
+    ],
+    "job_id": "70561ad1e678a461f096ada9c8e14b29093c26017b72765f5c0e7caa3df6d5a3",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-df4832a375a8d61f",
+    "reason": "Same date and core event as existing Michael Jackson death record.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df4832a375a8d61f"
+  },
+  {
+    "candidate_id": "29235291e9af7fddba5526f9",
+    "time": "2009-08-25",
+    "date_precision": "day",
+    "summary": "A coroner's report revealed Michael Jackson had a lethal dose of the sedative Propofol in his body when he died, with reports that his death was ruled a homicide.",
+    "time_range": null,
+    "evidence_ids": [
+      "50949"
+    ],
+    "job_id": "1bfac5078b77d1de85a22eaa5836f8b7ee01d8dbbc9d0cb615ec98978d2a08cd",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Coroner report on lethal Propofol/homicide ruling, distinct from existing 2009-08-25 Murray lawyer event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-80acd996549cad62"
+  },
+  {
+    "candidate_id": "7cda6f4ff889d37eb100f1e9",
+    "time": "2009-06-25",
+    "date_precision": "day",
+    "summary": "Michael Jackson died due to anaesthetics administered by his doctor, according to an autopsy report showing he was fairly healthy the day before.",
+    "time_range": null,
+    "evidence_ids": [
+      "50688"
+    ],
+    "job_id": "02a8cd2224a0b961841bee3d7fdaf81bb4bc09af3bfe5782c5faf5d3dba5fa82",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-df4832a375a8d61f",
+    "reason": "Same date and death event as existing Michael Jackson death record.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df4832a375a8d61f"
+  },
+  {
+    "candidate_id": "2c3507fb0a2e769d8f8d2266",
+    "time": "2009-06-25",
+    "date_precision": "day",
+    "summary": "Michael Jackson was pronounced dead at about 2:26pm local time at the UCLA hospital in Los Angeles after collapsing at his rented mansion.",
+    "time_range": null,
+    "evidence_ids": [
+      "50856"
+    ],
+    "job_id": "a6089ba5c1e65071b4c394f4a74cafc71ae3cf72c021066a8e28e31231f60e5b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-df4832a375a8d61f",
+    "reason": "Same date and death event as existing Michael Jackson death record.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df4832a375a8d61f"
+  },
+  {
+    "candidate_id": "fe89449a40167e98051d6cec",
+    "time": "2011-09-27",
+    "date_precision": "day",
+    "summary": "The involuntary manslaughter trial of Michael Jackson's personal physician, Conrad Murray, begins with prosecutors telling the jury that Murray's acts and omissions directly led to Jackson's death.",
+    "time_range": null,
+    "evidence_ids": [
+      "50523"
+    ],
+    "job_id": "13f7cb8bc1146791995dd8524378a4ed56838673f42177e60fb5a9103f5a690f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Start of Conrad Murray involuntary manslaughter trial, distinct milestone not in existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d14143ac997082cf"
+  },
+  {
+    "candidate_id": "ac05adeaf8713fbeadb27ea1",
+    "time": "2009-06-28",
+    "date_precision": "day",
+    "summary": "Los Angeles police interview Michael Jackson's personal cardiologist, Dr. Conrad Murray, who is not considered a suspect, as a second independent autopsy is conducted at the Jackson family's request following the singer's death.",
+    "time_range": null,
+    "evidence_ids": [
+      "50989"
+    ],
+    "job_id": "0d774ae01cf58289a93a55bc74963d90da3be5ee532f4ce39bfa9cff616c2890",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant post-death investigation milestone; same date as existing events but distinct topic, so no merge.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-4ffd7c0bc8ad88df"
+  },
+  {
+    "candidate_id": "d5793c82af5766d8f77f06ae",
+    "time": "2009-06-25",
+    "date_precision": "day",
+    "summary": "Michael Jackson died at age 50 after suffering cardiac arrest at his Los Angeles home.",
+    "time_range": null,
+    "evidence_ids": [
+      "50841"
+    ],
+    "job_id": "8a62d05591f3c0f456ec33ae2a3c5d4c2f09b67e9c8bd6cc80e893ecf311e414",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-df4832a375a8d61f",
+    "reason": "Same date and core event as existing Michael Jackson death record.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df4832a375a8d61f"
+  },
+  {
+    "candidate_id": "198e6b31a4d6a3efed89a63c",
+    "time": "2011-09-27",
+    "date_precision": "day",
+    "summary": "Opening arguments began in the involuntary manslaughter trial of Dr Conrad Murray, with prosecutors showing photos of Michael Jackson dead in a hospital bed alongside images of him rehearsing the day before his June 25, 2009 death.",
+    "time_range": null,
+    "evidence_ids": [
+      "50520"
+    ],
+    "job_id": "7e02c0ae593d4f9ffdb64062e484e787ae21fa2c64e389eaba29470028bef2e4",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-d14143ac997082cf",
+    "reason": "Same date and event as existing Conrad Murray involuntary manslaughter trial opening.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d14143ac997082cf"
+  },
+  {
+    "candidate_id": "c7a4a9cfe377770590033505",
+    "time": "2009-09-04",
+    "date_precision": "day",
+    "summary": "Michael Jackson was laid to rest in a private funeral service at Forest Lawn cemetery in Los Angeles.",
+    "time_range": null,
+    "evidence_ids": [
+      "50738"
+    ],
+    "job_id": "df9cf80c9feb3758dced217884155666174f6004a9d89bf41b73defed5b8615f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant funeral milestone; date differs from existing burial event, so separate occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e8efbb1f2373ffb7"
+  },
+  {
+    "candidate_id": "523e3871d050cca39a032f44",
+    "time": "2009-06-25",
+    "date_precision": "day",
+    "summary": "Michael Jackson died after suffering a cardiac arrest.",
+    "time_range": null,
+    "evidence_ids": [
+      "50875"
+    ],
+    "job_id": "a77f4d5119072bd0d6bd5efa577fefcf6fd33a7c40c0353653964e2f1a9adc48",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-df4832a375a8d61f",
+    "reason": "Duplicate of same-date Michael Jackson death event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df4832a375a8d61f"
+  },
+  {
+    "candidate_id": "8fa211f7d4b9408ba97e3312",
+    "time": null,
+    "date_precision": "unknown",
+    "summary": "Rumors continue that Michael Jackson will take up a residency at the O2 this year.",
+    "time_range": null,
+    "evidence_ids": [
+      "51228"
+    ],
+    "job_id": "181dcba58c05adb4123255e69b74e77f4e5d782ee2034f7f157652cda9b6751d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant O2 residency rumor; unknown date and no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b85fadefb5de7e0f"
+  },
+  {
+    "candidate_id": "a6f436e6c3f9ab1bb132037d",
+    "time": "2001-10-26",
+    "date_precision": "day",
+    "summary": "Michael Jackson releases his first album in six years, Invincible, which attempts to present him as a normal R&B singer but is criticized as tedious and undermined by his strange public image.",
+    "time_range": null,
+    "evidence_ids": [
+      "51654"
+    ],
+    "job_id": "2a006f65ef8dfcf89de0845245ea6886beb4d3cda5b370f88eead1f46ee606d8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Release of Invincible is a major Michael Jackson career milestone and distinct from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-8579dfeb18087938"
+  },
+  {
+    "candidate_id": "6daa4cf0f99d88a2bb2aa947",
+    "time": "2007-03-28",
+    "date_precision": "day",
+    "summary": "Michael Jackson has been in discussions with tourism officials and hotel owners about a Las Vegas residency, with proposed promotional plans including a 50-foot robot, though hotel owners are not yet convinced.",
+    "time_range": null,
+    "evidence_ids": [
+      "51213"
+    ],
+    "job_id": "2565dafd2e4618ed248014c7f9d33f2def771aadbd43607a0ea9e5cb671b80b6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Las Vegas residency discussions are relevant, but the 2007-03-28 date differs from the existing 2005-10 planning event, so it remains separate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-159fd404a36b0c3e"
+  },
+  {
+    "candidate_id": "4023cfbed3bd0ec3f8997c6e",
+    "time": "2006-02",
+    "date_precision": "month",
+    "summary": "The website Dotmusic reports that Irish boyband Westlife may record a duet with Michael Jackson.",
+    "time_range": null,
+    "evidence_ids": [
+      "51320"
+    ],
+    "job_id": "3adfbd0af5c10327171d6b311b5a5c7a4b5c40cd3bca6f5f9657e8782a066aeb",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Reported possible Westlife duet is a relevant Michael Jackson collaboration item with no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-32b9aaaed380e980"
+  },
+  {
+    "candidate_id": "9c6c55d1e85ff5e774e17eb8",
+    "time": "2014-08-01",
+    "date_precision": "day",
+    "summary": "Michael Jackson's Neverland Ranch is expected to be put up for sale by Colony Capital for between $75m and $85m.",
+    "time_range": null,
+    "evidence_ids": [
+      "50334"
+    ],
+    "job_id": "2bdc8504f5b9c4b6cd113f2c3d64f49a4e4aef920c0b62074cc9934b8cd2e270",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone about Neverland Ranch sale; no matching existing event date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-b297df838aca72f9"
+  },
+  {
+    "candidate_id": "288b0894168778bfa8413b33",
+    "time": "2003-12-28",
+    "date_precision": "day",
+    "summary": "Michael Jackson gave an exclusive television interview in which he accused police of manhandling him during his arrest and denied child molestation charges, amid reports CBS paid him an additional $1 million for the interview.",
+    "time_range": null,
+    "evidence_ids": [
+      "51551"
+    ],
+    "job_id": "ae0f70089a7e919b2fd22bc21c9dd2daaa81d4a1c0c9a517db2eba644294ab68",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Michael Jackson interview amid legal proceedings; no duplicate existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-901ec26810a5ae58"
+  },
+  {
+    "candidate_id": "6e3111d06fcd2796756b5df5",
+    "time": "2009-07-21",
+    "date_precision": "day",
+    "summary": "The Los Angeles city attorney launched a civil and criminal investigation into expenditures for Michael Jackson's July 7 memorial at the Staples Center.",
+    "time_range": null,
+    "evidence_ids": [
+      "50655"
+    ],
+    "job_id": "e7c5d0db2879dfd17d587ab780e491b8ded45f080eb3742a04428d8ab390d601",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant investigation into memorial expenditures; distinct from existing 2009-07-21 rehearsal footage event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-943628ca01aab31b"
+  },
+  {
+    "candidate_id": "71c8f9f424cdcf4030aee26d",
+    "time": "2009-07-07",
+    "date_precision": "day",
+    "summary": "Los Angeles officials called for a review of city expenditures for Michael Jackson's memorial service, claiming taxpayers were \"ripped off\" by costs exceeding $1.4 million.",
+    "time_range": null,
+    "evidence_ids": [
+      "50686"
+    ],
+    "job_id": "04cd6641da642ce8fcb265fda3d9fe526c1ab49660e24f1e681a35fdef8da3a6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant memorial cost review; same date as existing memorial event but distinct occurrence.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-338406eb6fc51b6e"
+  },
+  {
+    "candidate_id": "e441386d65e24bc44140fd10",
+    "time": "2011-05-26",
+    "date_precision": "day",
+    "summary": "Bee Gees singer Barry Gibb unveils footage of him recording an unreleased 2002 track, All in Your Name, with Michael Jackson.",
+    "time_range": null,
+    "evidence_ids": [
+      "50522"
+    ],
+    "job_id": "a8a86be1a879da65f8398a562cdc4fab19ec1574e55c21d81bb6fd9e74b9de93",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant posthumous release of unreleased Jackson collaboration footage; distinct date and event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-93571a90c6c6f495"
+  },
+  {
+    "candidate_id": "624669425fb5e333fce719ec",
+    "time": "2013-08-16",
+    "date_precision": "day",
+    "summary": "A new version of Michael Jackson's song \"Slave to the Rhythm\" featuring Justin Bieber was leaked to radio.",
+    "time_range": null,
+    "evidence_ids": [
+      "50369"
+    ],
+    "job_id": "1db204a56bbd5c66c056aff5ce4877c3a5ec59dc831e832b12e78f3d80e565c8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant posthumous Jackson music leak; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-545a2ee9f9042e00"
+  },
+  {
+    "candidate_id": "e21071fe97573347ff5a376c",
+    "time": "2009-07-02",
+    "date_precision": "day",
+    "summary": "Composer David Michael Frank claimed Michael Jackson had approached him about a planned album of classical music, with two incomplete demos Jackson had written but not recorded.",
+    "time_range": null,
+    "evidence_ids": [
+      "50698"
+    ],
+    "job_id": "31a205fe8fb1b0326a963ec195aa87651c226c9afa17d021ce9ce8989497cc3f",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant account of planned Jackson classical album; distinct from existing events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-09d1fd7079ddd2ff"
+  },
+  {
+    "candidate_id": "e8468275f8fb63d109798e65",
+    "time": "2014-05-10",
+    "date_precision": "day",
+    "summary": "The second posthumous Michael Jackson album, Xscape, is reviewed, featuring eight unfinished demos reworked by producers including Timbaland.",
+    "time_range": null,
+    "evidence_ids": [
+      "50344"
+    ],
+    "job_id": "6d26a7af5b44ba9750572f84d1987e5a02dfe47208e39cad2dc1dba036238cab",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant posthumous Jackson album release/review; no duplicate existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-607c0a4df5f7f1c0"
+  },
+  {
+    "candidate_id": "b65388c4d7e656e9571a7996",
+    "time": "2008-11-17",
+    "date_precision": "day",
+    "summary": "Michael Jackson is expected to appear in person in the high court the following week to defend a $7m claim by Sheikh Abdullah of Bahrain over an alleged failed business venture.",
+    "time_range": null,
+    "evidence_ids": [
+      "51158"
+    ],
+    "job_id": "6caa8b0e22d35d6763cfbe20ab6d4de4d0a073d72b792ed99f54dc8d962fff91",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Jackson legal matter; distinct date and event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a2ab259c8b69f424"
+  },
+  {
+    "candidate_id": "d64ba6a6ee55dbb7da22b7f8",
+    "time": "2010-06-02",
+    "date_precision": "day",
+    "summary": "Joe Jackson and Gary, Indiana mayor Rudy Clay announced a feasibility study for a Michael Jackson museum and entertainment complex in the singer's hometown.",
+    "time_range": null,
+    "evidence_ids": [
+      "50581"
+    ],
+    "job_id": "05861e6f623a1d4a5307bfd2679320af1f3f8d3664757e2a8d43b277407f15e5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Jackson museum proposal; same date as estate denial but distinct event, so separate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6daf64629f48fe83"
+  },
+  {
+    "candidate_id": "a4daf4a03d3e6cf905f0a75c",
+    "time": "2005-06-14",
+    "date_precision": "day",
+    "summary": "Promoter Harvey Goldsmith confirms that organizers would consider adding Michael Jackson to the Live 8 Philadelphia concert bill if approached by the singer.",
+    "time_range": null,
+    "evidence_ids": [
+      "51419"
+    ],
+    "job_id": "8bdfcf83d8f766ac037c974456334b396dd6589c29748405cdd95142403253b6",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Jackson Live 8 appearance consideration; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-2d778ec007ff7425"
+  },
+  {
+    "candidate_id": "36a6b7bbc8b378399392c307",
+    "time": "2009-06-25",
+    "date_precision": "day",
+    "summary": "Michael Jackson is reported to have died after being found not breathing at his home and rushed to a Los Angeles hospital.",
+    "time_range": null,
+    "evidence_ids": [
+      "50714"
+    ],
+    "job_id": "4836215e3e3ae2b5e85d5a7c9f19276eb4486d654090949f1bb1e92af741a24b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-df4832a375a8d61f",
+    "reason": "Same date and event as existing Michael Jackson death record.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df4832a375a8d61f"
+  },
+  {
+    "candidate_id": "c30ccc4ca5f991dfe3be352f",
+    "time": "2008-02-27",
+    "date_precision": "day",
+    "summary": "Michael Jackson may have to sell Neverland as the California ranch faces foreclosure, with a notice claiming he owes $24,525,906.61 to be paid in full before March 19 or the property will be auctioned off.",
+    "time_range": null,
+    "evidence_ids": [
+      "51089"
+    ],
+    "job_id": "fb632fa06131cf1de4c1e450ac34b1fea3c14b011ec350d5ed1072d89a31228c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant Michael Jackson milestone about Neverland foreclosure threat; no existing event has the same 2008-02-27 date, so it is not a duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6d91ccbca2687f02"
+  },
+  {
+    "candidate_id": "cda4f3c6e83d89e02d1fb13f",
+    "time": "2009-06-24",
+    "date_precision": "day",
+    "summary": "Producers announce that 300,000 Swarovski crystals will be integrated into the sets and costumes of Michael Jackson's This Is It residency at the O2 Arena, and several hundred new tickets are released.",
+    "time_range": null,
+    "evidence_ids": [
+      "50718"
+    ],
+    "job_id": "b15a99e506501f01ab45f6fb42083476df05e8254fa4171d6ef6a69d3007ccc5",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone about production details and ticket release for Jackson's This Is It residency; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-3c09cee672ed6709"
+  },
+  {
+    "candidate_id": "e2f406e8ef282e45dac47799",
+    "time": "2011-08-12",
+    "date_precision": "day",
+    "summary": "Organisers announce the initial lineup for October's Michael Jackson tribute concert in Cardiff, which will include performances by Christina Aguilera, Cee Lo Green, JLS, Leona Lewis, Craig David, Alien Ant Farm and 3T.",
+    "time_range": null,
+    "evidence_ids": [
+      "50479"
+    ],
+    "job_id": "f870b2b7f1ac039b6ac882227d33edc4e172221c41d447c187165742b00e7526",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone announcing lineup for Jackson tribute concert; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-a7731278e4e52c20"
+  },
+  {
+    "candidate_id": "eede050076a7fe0983db2bf6",
+    "time": "2009-06-24",
+    "date_precision": "day",
+    "summary": "Michael Jackson's final concert rehearsal at the Staples Centre was recorded in multi-camera high-definition video and multi-track surround-sound audio, and promoters AEG Live are reportedly considering releasing it as a live album and DVD.",
+    "time_range": null,
+    "evidence_ids": [
+      "50792"
+    ],
+    "job_id": "bd70e027d2c7aa0ea07d373359085548c68cbfd42246f6b63be88786a052c84e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone about final rehearsal recording and possible release; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-41983a5f8697d60e"
+  },
+  {
+    "candidate_id": "213c828fc40c81da375a438c",
+    "time": "2009-07-07",
+    "date_precision": "day",
+    "summary": "A public memorial for Michael Jackson is scheduled at the Staples Centre in Los Angeles, with free tickets distributed and authorities preparing for a large crowd.",
+    "time_range": null,
+    "evidence_ids": [
+      "51031"
+    ],
+    "job_id": "b6f5f5019b85cd2f772e15ae8cd14b8a1a9cf364403d42b59b9e3c61f9e2b62a",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ee6e8ae08693e621",
+    "reason": "Duplicate of existing 2009-07-07 memorial event at Staples Centre.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ee6e8ae08693e621"
+  },
+  {
+    "candidate_id": "1ca450245d2490d0fc9fad50",
+    "time": "2009-07-07",
+    "date_precision": "day",
+    "summary": "Michael Jackson's family held a private funeral service before his casket was taken to a celebrity-packed public memorial at the Staples Centre.",
+    "time_range": null,
+    "evidence_ids": [
+      "50886"
+    ],
+    "job_id": "b803c421fa7ae2a6f0e987180d2601cc58a0aa0ade1b166e92c719998da6a8f9",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ee6e8ae08693e621",
+    "reason": "Duplicate of existing 2009-07-07 memorial event at Staples Centre.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ee6e8ae08693e621"
+  },
+  {
+    "candidate_id": "7f57a0ae683ade1200c16ecd",
+    "time": "2009-09-04",
+    "date_precision": "day",
+    "summary": "Michael Jackson's private funeral, attended by about 200 people, cost approximately $1 million.",
+    "time_range": null,
+    "evidence_ids": [
+      "50750"
+    ],
+    "job_id": "2e8e035f5250001feffec1fe671e6d56df0936b24bfbdc1211038c757a02e595",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-e8efbb1f2373ffb7",
+    "reason": "Duplicate of existing 2009-09-04 private funeral event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-e8efbb1f2373ffb7"
+  },
+  {
+    "candidate_id": "9fb7b220e3e0b1704a0d7e1b",
+    "time": "2009-07-07",
+    "date_precision": "day",
+    "summary": "Michael Jackson's memorial service was held at the Staples Center, featuring celebrity performances and speeches, and serving as a public unveiling of his children.",
+    "time_range": null,
+    "evidence_ids": [
+      "50789"
+    ],
+    "job_id": "f33c7c7e2fbff044e9cb0a80bb817d36fcc6f5464b49f276b402a32817c1a85d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ee6e8ae08693e621",
+    "reason": "Duplicate of existing 2009-07-07 memorial event at Staples Centre.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ee6e8ae08693e621"
+  },
+  {
+    "candidate_id": "3fc49e68002c3b78662a3ba5",
+    "time": "2009-07-07",
+    "date_precision": "day",
+    "summary": "A public memorial service for Michael Jackson is scheduled at the Staples Center in Los Angeles, with 8,750 randomly selected fans each receiving two tickets.",
+    "time_range": null,
+    "evidence_ids": [
+      "50697"
+    ],
+    "job_id": "1ed2fa3e91d468d9529c1c42cb1cca79f7c7d29aa32a6fad6388b77e23301df2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ee6e8ae08693e621",
+    "reason": "Duplicate of existing 2009-07-07 memorial event at Staples Centre.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ee6e8ae08693e621"
+  },
+  {
+    "candidate_id": "70abfd72a14060b2fda955d1",
+    "time": "2009-07-07",
+    "date_precision": "day",
+    "summary": "Michael Jackson's body was transported to the Staples Centre for a public memorial following a private family service.",
+    "time_range": null,
+    "evidence_ids": [
+      "50972"
+    ],
+    "job_id": "bf2014365eb06820c5f665d1a89a019303c626f85845532397ce1eb6248a6d6b",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Jackson's body transported to Staples Centre for public memorial; distinct from existing planning and expenditure events.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-7f6eb5eae4da391d"
+  },
+  {
+    "candidate_id": "963bc736048d0b7e11acb3ad",
+    "time": "2009-07-07",
+    "date_precision": "day",
+    "summary": "Michael Jackson's funeral was planned for the morning at Forest Lawn cemetery in the Hollywood Hills, ahead of a public memorial service at the LA Staples Centre.",
+    "time_range": null,
+    "evidence_ids": [
+      "50927"
+    ],
+    "job_id": "38c977f386925c353f848be36fc609702a83fe8bb91c199bedcb2f9213214851",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant planned funeral and memorial details; distinct from existing events and not a duplicate of the body-transport event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-6e4b86414dd665d2"
+  },
+  {
+    "candidate_id": "34cb03ff38aa01e0a21962d9",
+    "time": "2009-07-05",
+    "date_precision": "day",
+    "summary": "Nearly 9,000 people were selected by lottery to receive free tickets to the Michael Jackson memorial to be held on Tuesday in Los Angeles.",
+    "time_range": null,
+    "evidence_ids": [
+      "50794"
+    ],
+    "job_id": "89c3fadef685a9f767235bda41c21158c32fdf9f2f6d9242b61e705b51616a2e",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: lottery selection for memorial tickets; different date from existing events, so separate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-018dde5247e9b986"
+  },
+  {
+    "candidate_id": "1b99f51999ed6663a2fbaaa3",
+    "time": "2009-06-25",
+    "date_precision": "day",
+    "summary": "Michael Jackson died at his rented mansion in Los Angeles after going into cardiac arrest.",
+    "time_range": null,
+    "evidence_ids": [
+      "50897"
+    ],
+    "job_id": "76dca45e43fe7831f22a37840272ab6659a09b438e99d2b0e017dbfc6d941594",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-df4832a375a8d61f",
+    "reason": "Same date and event: Michael Jackson's death on 2009-06-25; duplicate of existing death event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df4832a375a8d61f"
+  },
+  {
+    "candidate_id": "bbee2942a4eeb6636f438941",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "51214"
+    ],
+    "job_id": "41a868c8f4649e3a8561da8b274184fd519d602c76e1d915e566b2a58377d08a",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Appointment of Bush and Clinton for tsunami relief is unrelated to Michael Jackson.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "b7017367c250f081051c143a",
+    "time": "2005-03-09",
+    "date_precision": "day",
+    "summary": "In Michael Jackson's child molestation trial, the defense played a home movie and DVD of the alleged victim's first visit to Neverland ranch while cross-examining the alleged victim's younger brother about inconsistencies in his testimony.",
+    "time_range": null,
+    "evidence_ids": [
+      "51350"
+    ],
+    "job_id": "47beba47e9974e30c98f1e81831ffab9658126b6b2d46511b97d61b88c8b2cfc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Distinct March 9, 2005 trial development: defense played Neverland home movie during cross-examination; no existing event matches this date or content.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-320fda16e7f2cfc6"
+  },
+  {
+    "candidate_id": "94a8dcd9d3e9cf1051d1bfa1",
+    "time": "2012-10-25",
+    "date_precision": "day",
+    "summary": "Forbes' annual poll of the richest dead celebrities ranked Elizabeth Taylor first with $210m earned in the past 12 months, overtaking Michael Jackson, whose estate took in $145m.",
+    "time_range": null,
+    "evidence_ids": [
+      "50431"
+    ],
+    "job_id": "2f9e12309bf6fa5ec82456e77a7f627d8bf18b3259ca958af15a62ac5aa332c0",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in Jackson's posthumous estate earnings, distinct date and no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f53fdbf4aad40e81"
+  },
+  {
+    "candidate_id": "5e2676d100fbeea7de1c0cdf",
+    "time": "2008-04",
+    "date_precision": "month",
+    "summary": "Michael Jackson returned to the studio in Las Vegas to work on a new album, banning women and his children from the studio to avoid distractions.",
+    "time_range": null,
+    "evidence_ids": [
+      "51174"
+    ],
+    "job_id": "9e346517bbe1a6b44c1a4ef12dd703efd03e3963c9c73e63f398fd7fd78166bc",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: Jackson returning to the studio for a new album in Las Vegas; no existing event matches its April 2008 date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-fa33c8f1926f19f2"
+  },
+  {
+    "candidate_id": "922df7ae098423a3d52ad7a7",
+    "time": "2009-09-23",
+    "date_precision": "day",
+    "summary": "Two versions of a new Michael Jackson song and an unreleased spoken word track will appear on the soundtrack to This Is It, the documentary about the singer's last days.",
+    "time_range": null,
+    "evidence_ids": [
+      "50696"
+    ],
+    "job_id": "00a3d76cd7e616b896b7a36120083b9665911b734cc589c2ff880cfe8f7c900d",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant to Jackson's posthumous music and This Is It soundtrack; no existing event has the same 2009-09-23 date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d55d19a16846e09f"
+  },
+  {
+    "candidate_id": "b19e38dd03cca7da36daa4cb",
+    "time": "2012-01-17",
+    "date_precision": "day",
+    "summary": "David Gest reportedly intends to donate unreleased Michael Jackson recordings based on Robert Burns's poetry to the Robert Burns Birthplace Museum.",
+    "time_range": null,
+    "evidence_ids": [
+      "50501"
+    ],
+    "job_id": "7ec28d45a32f6086ded031cec8f7a8dc9c3e1058225b9d2c2f520cb27cd06da8",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant to unreleased Michael Jackson recordings; no existing event matches its 2012-01-17 date.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-c1726ecf38150d88"
+  },
+  {
+    "candidate_id": "f6ffa59d08e143bac469ac48",
+    "time": "2005-06-13",
+    "date_precision": "day",
+    "summary": "Michael Jackson was cleared of all child abuse charges in a California courtroom.",
+    "time_range": null,
+    "evidence_ids": [
+      "51264"
+    ],
+    "job_id": "db559eee34312a5eb1fa4262775760271243eec598e543d285a3902d03331a00",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-ad5ec13a1c77b041",
+    "reason": "Same date (2005-06-13) and same acquittal event as existing event-ad5ec13a1c77b041; duplicate.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ad5ec13a1c77b041"
+  },
+  {
+    "candidate_id": "6e5d0ca7a1eafbad038012ee",
+    "time": "2003-11-18",
+    "date_precision": "day",
+    "summary": "Californian police searched Michael Jackson's Neverland Ranch after authorities issued a search warrant related to a criminal investigation.",
+    "time_range": null,
+    "evidence_ids": [
+      "51448"
+    ],
+    "job_id": "81660de84a83592bc42fcbf8a78f390c2998aac3c0f33c949772eb5196a54f0c",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: police search of Neverland Ranch during the criminal investigation.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-ec2764165995d8cc"
+  },
+  {
+    "candidate_id": "cd4aac33b4ae43648b97ab4c",
+    "time": "2009-06-26",
+    "date_precision": "day",
+    "summary": "Michael Jackson is remembered as the first black artist to become the number one global pop star of his age, with his music and showmanship capturing all races and nations.",
+    "time_range": null,
+    "evidence_ids": [
+      "50824"
+    ],
+    "job_id": "4e18b1d514ff47c1bda82bb052ae11291f7816a4505e6c3b50ae229b7faba4ba",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant retrospective assessment of Jackson's global pop legacy; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-daa2fa3f168a011c"
+  },
+  {
+    "candidate_id": "1c90ed028bff8bdaee68bddc",
+    "time": "2006-03-28",
+    "date_precision": "day",
+    "summary": "A new West End musical featuring Michael Jackson's greatest hits, titled Thriller: The Musical, is announced to premiere at the Dominion Theatre this summer.",
+    "time_range": null,
+    "evidence_ids": [
+      "51281"
+    ],
+    "job_id": "2093fb0e68e4afbb9c7a10a88d07c0a0ae852c68bace65998be4c05e8a62c240",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone: announcement of a West End musical based on Jackson's hits.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-d9bfeeb728d2a724"
+  },
+  {
+    "candidate_id": "52082d89efdaaa24dd31f104",
+    "time": "2003-01-31",
+    "date_precision": "day",
+    "summary": "ABC outbid US rivals to pay Granada £3.5m for exclusive US rights to Martin Bashir's interview with Michael Jackson, scheduled to air as a two-hour 20/20 special on February 7.",
+    "time_range": null,
+    "evidence_ids": [
+      "51605"
+    ],
+    "job_id": "0a8b22b2b52325df0f09a2e8eb132bc25163bdfb96d6a5f0ba747b527a51a9e7",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant to Jackson's public image and the Bashir interview; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-164f4b0e2d143a58"
+  },
+  {
+    "candidate_id": "5383758144a4507462ca02b4",
+    "time": "2005-01-03",
+    "date_precision": "day",
+    "summary": "President George W. Bush appoints former Presidents George H.W. Bush and Bill Clinton to lead a joint appeal for emergency donations to victims of the Indian Ocean tsunami.",
+    "time_range": null,
+    "evidence_ids": [
+      "50302"
+    ],
+    "job_id": "f05549226c79fb5c7b223e920f2f23015cfa934518c8131f03da01b8cf40d1f8",
+    "extraction_origin": "llm_generated",
+    "relevant": false,
+    "operation": "IGNORE",
+    "target_event_id": null,
+    "reason": "Not related to Michael Jackson; concerns tsunami donation appeal.",
+    "status": "IRRELEVANT",
+    "fact_check_performed": false
+  },
+  {
+    "candidate_id": "d0a25a1d211afaf6cd0107a6",
+    "time": "2016-03-12",
+    "date_precision": "day",
+    "summary": "Thriller Live, a cheerful tribute to Michael Jackson, opened its 3,000th performance at the Lyric theatre in London.",
+    "time_range": null,
+    "evidence_ids": [
+      "50324"
+    ],
+    "job_id": "6a9b83c21ff915bf1d2eea100614cf1cf7fb0c0e83da765a72d5af58f1f73d13",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "APPEND",
+    "target_event_id": null,
+    "reason": "Relevant milestone in Jackson tribute productions; no matching existing event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-f7a83c0f6c22aaaf"
+  },
+  {
+    "candidate_id": "fc9a996ad6c3d7b8786b66c7",
+    "time": "2009-06-25",
+    "date_precision": "day",
+    "summary": "Michael Jackson died.",
+    "time_range": null,
+    "evidence_ids": [
+      "50669"
+    ],
+    "job_id": "dc460886e936ed26d21556e0fd2c930ff31888247e10a27c4bf5ab7c8a414ae2",
+    "extraction_origin": "llm_generated",
+    "relevant": true,
+    "operation": "MERGE",
+    "target_event_id": "event-df4832a375a8d61f",
+    "reason": "Duplicate of existing 2009-06-25 Michael Jackson death event.",
+    "status": "ACCEPTED",
+    "fact_check_performed": false,
+    "timeline_event_id": "event-df4832a375a8d61f"
+  }
+]
